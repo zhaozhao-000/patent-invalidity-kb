@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "auto_related": [
+    {
+      "case_id": "case_0019",
+      "related_case_id": "case_0020",
+      "reason": "same_patent_and_party"
+    },
+    {
+      "case_id": "case_0019",
+      "related_case_id": "case_0021",
+      "reason": "same_patent_cross_document_type"
+    },
+    {
+      "case_id": "case_0020",
+      "related_case_id": "case_0021",
+      "reason": "same_patent_cross_document_type"
+    },
+    {
+      "case_id": "case_0027",
+      "related_case_id": "case_0028",
+      "reason": "same_patent_cross_document_type"
+    },
+    {
+      "case_id": "case_0205",
+      "related_case_id": "case_0252",
+      "reason": "same_decision_or_proceeding_number"
+    },
+    {
+      "case_id": "case_0208",
+      "related_case_id": "case_0210",
+      "reason": "same_decision_or_proceeding_number"
+    },
+    {
+      "case_id": "case_0214",
+      "related_case_id": "case_0215",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0223",
+      "related_case_id": "case_0224",
+      "reason": "same_decision_or_proceeding_number"
+    },
+    {
+      "case_id": "case_0231",
+      "related_case_id": "case_0237",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0231",
+      "related_case_id": "case_0239",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0231",
+      "related_case_id": "case_0242",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0232",
+      "related_case_id": "case_0233",
+      "reason": "same_patent_and_party"
+    },
+    {
+      "case_id": "case_0235",
+      "related_case_id": "case_0238",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0237",
+      "related_case_id": "case_0239",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0237",
+      "related_case_id": "case_0242",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0239",
+      "related_case_id": "case_0242",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0240",
+      "related_case_id": "case_0251",
+      "reason": "same_decision_or_proceeding_number"
+    },
+    {
+      "case_id": "case_0243",
+      "related_case_id": "case_0247",
+      "reason": "same_patent_and_party"
+    },
+    {
+      "case_id": "case_0244",
+      "related_case_id": "case_0245",
+      "reason": "same_decision_or_proceeding_number"
+    },
+    {
+      "case_id": "case_0246",
+      "related_case_id": "case_0248",
+      "reason": "same_patent_and_party"
+    },
+    {
+      "case_id": "case_0263",
+      "related_case_id": "case_0322",
+      "reason": "same_decision_or_proceeding_number"
+    },
+    {
+      "case_id": "case_0272",
+      "related_case_id": "case_0281",
+      "reason": "same_patent_number"
+    },
+    {
+      "case_id": "case_0302",
+      "related_case_id": "case_0303",
+      "reason": "same_decision_or_proceeding_number"
+    }
+  ],
+  "suspected_related": [
+    {
+      "case_id": "case_0011",
+      "suspected_case_id": "case_0012",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0014",
+      "suspected_case_id": "case_0027",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0014",
+      "suspected_case_id": "case_0028",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0205",
+      "suspected_case_id": "case_0206",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0207",
+      "suspected_case_id": "case_0214",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0207",
+      "suspected_case_id": "case_0215",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0207",
+      "suspected_case_id": "case_0219",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0207",
+      "suspected_case_id": "case_0242",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0208",
+      "suspected_case_id": "case_0276",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0208",
+      "suspected_case_id": "case_0302",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0208",
+      "suspected_case_id": "case_0307",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0210",
+      "suspected_case_id": "case_0276",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0210",
+      "suspected_case_id": "case_0302",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0210",
+      "suspected_case_id": "case_0307",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0214",
+      "suspected_case_id": "case_0219",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0214",
+      "suspected_case_id": "case_0242",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0214",
+      "suspected_case_id": "case_0292",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0215",
+      "suspected_case_id": "case_0219",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0215",
+      "suspected_case_id": "case_0242",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0215",
+      "suspected_case_id": "case_0292",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0219",
+      "suspected_case_id": "case_0242",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0219",
+      "suspected_case_id": "case_0292",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0220",
+      "suspected_case_id": "case_0253",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0220",
+      "suspected_case_id": "case_0254",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0220",
+      "suspected_case_id": "case_0255",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0220",
+      "suspected_case_id": "case_0304",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0242",
+      "suspected_case_id": "case_0292",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0244",
+      "suspected_case_id": "case_0246",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0244",
+      "suspected_case_id": "case_0248",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0253",
+      "suspected_case_id": "case_0254",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0253",
+      "suspected_case_id": "case_0255",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0253",
+      "suspected_case_id": "case_0304",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0254",
+      "suspected_case_id": "case_0255",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0254",
+      "suspected_case_id": "case_0304",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0255",
+      "suspected_case_id": "case_0304",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0276",
+      "suspected_case_id": "case_0299",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0276",
+      "suspected_case_id": "case_0302",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0276",
+      "suspected_case_id": "case_0307",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0299",
+      "suspected_case_id": "case_0302",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0299",
+      "suspected_case_id": "case_0307",
+      "reason": "similar_title_only"
+    },
+    {
+      "case_id": "case_0302",
+      "suspected_case_id": "case_0307",
+      "reason": "similar_title_only"
+    }
+  ],
+  "totals": {
+    "auto_related": 23,
+    "suspected_related": 41
+  }
+}

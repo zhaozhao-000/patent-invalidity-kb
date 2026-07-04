@@ -1,0 +1,12 @@
+.env
+.env.*
+.venv/
+.venv-ocr/
+__pycache__/
+*.pyc
+
+# Local processing state and source PDFs are not needed by GitHub Pages.
+# The published site is generated under public/.
+output/
+input_pdfs/
+external_ocr/

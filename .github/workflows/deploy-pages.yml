@@ -1,0 +1,47 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify static site
+        shell: bash
+        run: |
+          test -f public/index.html
+          test -f public/data/cases.json
+          test -d public/pdfs
+          ! grep -RInE 'localhost:8000|file:///|[A-Za-z]:\\Users|MINERU_API_KEY=.*[^"]' public
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload public directory
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

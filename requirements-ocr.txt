@@ -1,0 +1,7 @@
+# Optional OCR dependencies.
+# PaddlePaddle currently may not provide wheels for every Python version.
+# If `python -m pip install paddlepaddle` reports no matching distribution,
+# install Python 3.10/3.11 in a separate virtual environment for OCR.
+paddleocr
+paddlepaddle
+pymupdf>=1.24.0

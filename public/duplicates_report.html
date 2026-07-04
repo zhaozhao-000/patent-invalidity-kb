@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>重复文件报告</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><h1>重复文件报告</h1><p>由入库脚本自动生成，供管理员复核。</p></div>
+    <div class="top-actions"><a class="button-link" href="index.html">返回知识库</a></div>
+  </header>
+  <main class="report-page">
+    <section class="report-section">
+      <table><thead><tr><th>file_name</th><th>file_path</th><th>case_id</th><th>duplicate_of</th><th>duplicate_reason</th><th>source_file</th><th>file_paths</th></tr></thead><tbody><tr><td>IPR2018-00187 Remand FD CJP Complete (2).pdf</td><td>IPR2018-00187 Remand FD CJP Complete (2).pdf</td><td></td><td>case_0208</td><td>same_content_hash</td><td></td><td>[&#x27;IPR2018-00187 Remand FD CJP Complete (2).pdf&#x27;, &#x27;IPR2018-00187 Remand FD CJP Complete (1).pdf&#x27;]</td></tr>
+<tr><td>171168124.pdf</td><td>171168124.pdf</td><td></td><td>case_0275</td><td>same_content_hash</td><td></td><td>[&#x27;171168124.pdf&#x27;, &#x27;IPR2022-01531 FD Final Circ.pdf&#x27;]</td></tr>
+<tr><td></td><td></td><td>case_0209</td><td>case_0208</td><td>same_content_hash</td><td>IPR2018-00187 Remand FD CJP Complete (2).pdf</td><td></td></tr>
+<tr><td></td><td></td><td>case_0311</td><td>case_0275</td><td>same_content_hash</td><td>171168124.pdf</td><td></td></tr></tbody></table>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "same_file_duplicates": [
+    {
+      "file_name": "IPR2018-00187 Remand FD CJP Complete (2).pdf",
+      "file_path": "IPR2018-00187 Remand FD CJP Complete (2).pdf",
+      "duplicate_of": "case_0208",
+      "duplicate_reason": "same_content_hash",
+      "file_hash": "0ab564337ef1f495fe652ceb0053423f6c790fe43d46bf56d000c6565db95ec1",
+      "file_paths": [
+        "IPR2018-00187 Remand FD CJP Complete (2).pdf",
+        "IPR2018-00187 Remand FD CJP Complete (1).pdf"
+      ]
+    },
+    {
+      "file_name": "171168124.pdf",
+      "file_path": "171168124.pdf",
+      "duplicate_of": "case_0275",
+      "duplicate_reason": "same_content_hash",
+      "file_hash": "0fde57a7b24deab4b948647871c768856c67bd61994d0a703f544db6a4114e15",
+      "file_paths": [
+        "171168124.pdf",
+        "IPR2022-01531 FD Final Circ.pdf"
+      ]
+    }
+  ],
+  "same_content_duplicates": [
+    {
+      "case_id": "case_0209",
+      "title": "Remand FD CJP Complete",
+      "duplicate_of": "case_0208",
+      "duplicate_reason": "same_content_hash",
+      "source_file": "IPR2018-00187 Remand FD CJP Complete (2).pdf",
+      "pdf_path": "pdfs/case_0209_us.pdf"
+    },
+    {
+      "case_id": "case_0311",
+      "title": "未识别专利名称",
+      "duplicate_of": "case_0275",
+      "duplicate_reason": "same_content_hash",
+      "source_file": "171168124.pdf",
+      "pdf_path": "pdfs/case_0311_us.pdf"
+    }
+  ],
+  "canonical_cases_with_duplicates": [
+    {
+      "case_id": "case_0208",
+      "title": "Remand FD CJP Complete",
+      "duplicate_files_count": 1,
+      "duplicate_files": [
+        "IPR2018-00187 Remand FD CJP Complete (2).pdf"
+      ]
+    },
+    {
+      "case_id": "case_0275",
+      "title": "FD Final Circ",
+      "duplicate_files_count": 1,
+      "duplicate_files": [
+        "171168124.pdf"
+      ]
+    }
+  ],
+  "totals": {
+    "same_file_duplicates": 2,
+    "same_content_duplicates": 2,
+    "canonical_cases_with_duplicates": 2
+  }
+}

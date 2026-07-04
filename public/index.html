@@ -3,85 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>生物医药专利无效决定知识库</title>
+  <title>生物医药专利案例知识库</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="topbar">
     <div>
-      <h1>生物医药专利无效决定知识库</h1>
-      <p id="meta">正在加载案例索引...</p>
+      <h1>生物医药专利案例知识库</h1>
+      <p id="meta">请选择要检索的案例库。中国和美国案例使用独立数据与标签体系。</p>
     </div>
     <div class="top-actions">
-      <a class="button-link" href="duplicates_report.html" target="_blank" rel="noopener">重复文件报告</a>
-      <a class="button-link" href="excluded_files_report.html" target="_blank" rel="noopener">排除文件报告</a>
-      <select id="sortBy" aria-label="排序">
-        <option value="updated_at_desc">按更新时间</option>
-        <option value="region">按地域</option>
-        <option value="title">按标题</option>
-      </select>
+      <a class="button-link" href="data/all_cases_manifest.json" target="_blank" rel="noopener">处理清单</a>
     </div>
   </header>
 
-  <main class="layout">
-    <aside class="filters" aria-label="筛选器">
-      <label class="search-label" for="searchInput">关键词搜索</label>
-      <input id="searchInput" type="search" placeholder="输入法律点、专利号、案号、药物类型、结论关键词">
-
-      <section>
-        <h2>文档类型</h2>
-        <div id="docTypeFilters" class="filter-grid"></div>
-      </section>
-
-      <section>
-        <h2>诉讼阶段</h2>
-        <div id="litigationStageFilters" class="filter-grid"></div>
-      </section>
-
-      <section>
-        <h2>关联状态</h2>
-        <label><input type="checkbox" id="hasRelatedOnly"> 有相关案例</label>
-        <label><input type="checkbox" id="hasSuspectedRelatedOnly"> 有疑似相关案例</label>
-        <label><input type="checkbox" id="noRelatedOnly"> 暂无关联</label>
-      </section>
-
-      <section>
-        <h2>地域</h2>
-        <div id="regionFilters" class="filter-grid"></div>
-      </section>
-
-      <section>
-        <h2>专利类型</h2>
-        <div id="patentTypeFilters" class="filter-grid"></div>
-      </section>
-
-      <section>
-        <h2>法律点</h2>
-        <div id="legalIssueFilters" class="filter-grid"></div>
-      </section>
-
-      <section>
-        <h2>处理状态</h2>
-        <label><input type="checkbox" id="needsOcrOnly"> 仅看需要 OCR</label>
-        <label><input type="checkbox" id="reviewedOnly"> 仅看已人工复核</label>
-      </section>
-
-      <button id="resetFilters" type="button">清空筛选</button>
-    </aside>
-
-    <section class="content">
-      <div class="result-bar">
-        <strong id="resultCount">0</strong>
-        <span>个入库文档</span>
-      </div>
-      <div id="caseList" class="case-list"></div>
-      <div id="emptyState" class="empty-state" hidden>没有匹配文档。请调整关键词或筛选条件。</div>
-    </section>
+  <main class="portal">
+    <a class="portal-card" href="cn/">
+      <span class="portal-kicker">CN</span>
+      <h2>中国案例库</h2>
+      <p>中国专利无效宣告、行政诉讼及相关案件。使用中国法律点和中文显示规则。</p>
+    </a>
+    <a class="portal-card" href="us/">
+      <span class="portal-kicker">US</span>
+      <h2>美国案例库</h2>
+      <p>PTAB、Federal Circuit、District Court 等美国专利挑战案件。使用美国法律点体系。</p>
+    </a>
   </main>
-  <footer class="site-footer">
-    如需分享给他人，请将整个 case_library 文件夹一起打包发送；仅发送 index.html 将无法打开本地 PDF。
-  </footer>
 
-  <script src="app.js"></script>
+  <footer class="site-footer">
+    如需分享给他人，请将整个 GitHub Pages 仓库或 case_library 文件夹一起发送；仅发送 index.html 将无法打开本地 PDF。
+  </footer>
 </body>
 </html>

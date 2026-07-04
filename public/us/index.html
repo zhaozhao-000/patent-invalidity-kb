@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="../">
+  <title>美国生物医药专利案例库</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>美国生物医药专利案例库</h1>
+      <p id="meta">正在加载美国案例数据...</p>
+    </div>
+    <div class="top-actions">
+      <a class="button-link" href="./">总入口</a>
+      <a class="button-link" href="data/all_cases_manifest.json" target="_blank" rel="noopener">处理清单</a>
+      <select id="sortBy" aria-label="排序">
+        <option value="updated_at_desc">按更新时间</option>
+        <option value="title">按标题</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="filters" aria-label="筛选器">
+      <label class="search-label" for="searchInput">关键词搜索</label>
+      <input id="searchInput" type="search" placeholder="Search patent no., IPR/PGR no., party, legal issue, drug">
+
+      <section>
+        <h2>Proceeding Type</h2>
+        <div id="proceedingTypeFilters" class="filter-grid"></div>
+      </section>
+
+      <section>
+        <h2>Patent Type</h2>
+        <div id="patentTypeFilters" class="filter-grid"></div>
+      </section>
+
+      <section>
+        <h2>U.S. Legal Issues</h2>
+        <div id="legalIssueFilters" class="filter-grid"></div>
+      </section>
+
+      <section>
+        <h2>处理状态</h2>
+        <label><input type="checkbox" id="reviewRequiredOnly"> 仅看待复核</label>
+      </section>
+
+      <button id="resetFilters" type="button">清空筛选</button>
+    </aside>
+
+    <section class="content">
+      <div class="result-bar">
+        <strong id="resultCount">0</strong>
+        <span>个美国案例</span>
+      </div>
+      <div id="caseList" class="case-list"></div>
+      <div id="emptyState" class="empty-state" hidden>No matching cases.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    如需分享给他人，请将整个 case_library 文件夹一起打包发送；仅发送 index.html 将无法打开本地 PDF。
+  </footer>
+
+  <script src="app.js" data-jurisdiction="us" data-file="data/us_cases.json"></script>
+</body>
+</html>

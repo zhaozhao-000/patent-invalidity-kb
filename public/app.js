@@ -1,12 +1,15 @@
+const currentScript = document.currentScript;
+const jurisdiction = currentScript?.dataset.jurisdiction || "cn";
+const dataFile = currentScript?.dataset.file || "data/cases.json";
+
 const state = {
   cases: [],
   labels: {},
   filters: {
-    region: new Set(),
-    doc_type: new Set(),
-    litigation_stage: new Set(),
     patent_type: new Set(),
-    legal_issues: new Set(),
+    legal_points: new Set(),
+    us_legal_points: new Set(),
+    proceeding_type: new Set(),
   },
 };
 
@@ -17,88 +20,88 @@ const els = {
   resultCount: document.getElementById("resultCount"),
   caseList: document.getElementById("caseList"),
   emptyState: document.getElementById("emptyState"),
-  needsOcrOnly: document.getElementById("needsOcrOnly"),
-  reviewedOnly: document.getElementById("reviewedOnly"),
-  hasRelatedOnly: document.getElementById("hasRelatedOnly"),
-  hasSuspectedRelatedOnly: document.getElementById("hasSuspectedRelatedOnly"),
-  noRelatedOnly: document.getElementById("noRelatedOnly"),
+  reviewRequiredOnly: document.getElementById("reviewRequiredOnly"),
   resetFilters: document.getElementById("resetFilters"),
 };
-
-const regionLabels = { CN: "中国", US: "美国" };
-const reviewLabels = {
-  auto_tagged: "自动标注",
-  manually_reviewed: "已人工复核",
-  needs_manual_review: "需人工复核",
-};
-const outcomeLabels = {
-  invalidated: "全部无效",
-  partially_invalidated: "部分无效",
-  maintained: "维持有效",
-  reversed: "改判",
-  vacated: "撤销",
-  unknown: "未识别",
-};
-
-function labelFor(bucket, value) {
-  return state.labels?.[bucket]?.[value] || regionLabels[value] || value;
-}
 
 function normalize(value) {
   return String(value || "").toLowerCase();
 }
 
+function asArray(value) {
+  if (Array.isArray(value)) return value;
+  if (!value) return [];
+  return [value];
+}
+
+function labelFor(bucket, value) {
+  return state.labels?.[bucket]?.[value] || value;
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function searchableText(item) {
+  const legalValues = jurisdiction === "us" ? item.us_legal_points : item.legal_points;
   return [
     item.title,
     item.summary,
     item.patent_number,
     item.decision_number,
     item.proceeding_number,
-    item.court_case_number,
-    item.court_name,
     item.petitioner,
-    item.patentee_or_patent_owner,
-    ...(item.keywords || []),
-    ...(item.legal_issues || []).map((tag) => `${tag} ${labelFor("legal_issues", tag)}`),
-    ...(item.patent_type || []).map((tag) => `${tag} ${labelFor("patent_type", tag)}`),
-    ...(item.key_holdings || []),
-    ...(item.important_quotes || []),
+    item.patent_owner,
+    item.drug_name,
+    item.patent_type,
+    item.status,
+    item.outcome,
+    item.proceeding_type,
+    ...asArray(legalValues).map((tag) => `${tag} ${labelFor(jurisdiction === "us" ? "us_legal_points" : "legal_points", tag)}`),
   ].join(" ").toLowerCase();
 }
 
-function hasAllSelected(itemValues = [], selectedSet) {
-  if (selectedSet.size === 0) return true;
-  return [...selectedSet].every((value) => itemValues.includes(value));
+function hasSelected(value, selectedSet) {
+  if (!selectedSet.size) return true;
+  return selectedSet.has(value);
+}
+
+function hasAllSelected(values, selectedSet) {
+  if (!selectedSet.size) return true;
+  const list = asArray(values);
+  return [...selectedSet].every((value) => list.includes(value));
 }
 
 function passesFilters(item) {
   const query = normalize(els.searchInput.value).trim();
   if (query && !searchableText(item).includes(query)) return false;
-  if (state.filters.region.size && !state.filters.region.has(item.region)) return false;
-  if (state.filters.doc_type.size && !state.filters.doc_type.has(item.doc_type)) return false;
-  if (state.filters.litigation_stage.size && !state.filters.litigation_stage.has(item.litigation_stage || "other")) return false;
-  if (!hasAllSelected(item.patent_type, state.filters.patent_type)) return false;
-  if (!hasAllSelected(item.legal_issues, state.filters.legal_issues)) return false;
-  if (els.needsOcrOnly.checked && !item.needs_ocr) return false;
-  if (els.reviewedOnly.checked && item.review_status !== "manually_reviewed") return false;
-  if (els.hasRelatedOnly.checked && !(item.related_case_ids || []).length) return false;
-  if (els.hasSuspectedRelatedOnly.checked && !(item.suspected_related_cases || []).length) return false;
-  if (els.noRelatedOnly.checked && ((item.related_case_ids || []).length || (item.suspected_related_cases || []).length)) return false;
+  if (!hasSelected(item.patent_type, state.filters.patent_type)) return false;
+  if (jurisdiction === "us") {
+    if (!hasAllSelected(item.us_legal_points, state.filters.us_legal_points)) return false;
+    if (!hasSelected(item.proceeding_type, state.filters.proceeding_type)) return false;
+  } else if (!hasAllSelected(item.legal_points, state.filters.legal_points)) {
+    return false;
+  }
+  if (els.reviewRequiredOnly?.checked && !item.review_required) return false;
   return true;
 }
 
 function sortCases(items) {
-  const mode = els.sortBy.value;
+  const mode = els.sortBy?.value || "updated_at_desc";
   return [...items].sort((a, b) => {
-    if (mode === "region") return `${a.region}${a.title}`.localeCompare(`${b.region}${b.title}`, "zh-CN");
     if (mode === "title") return String(a.title).localeCompare(String(b.title), "zh-CN");
-    return String(b.updated_at || "").localeCompare(String(a.updated_at || ""));
+    return String(b.case_id || "").localeCompare(String(a.case_id || ""), "zh-CN");
   });
 }
 
 function makeCheckbox(containerId, bucket, value, label) {
   const container = document.getElementById(containerId);
+  if (!container || !value) return;
   const wrapper = document.createElement("label");
   wrapper.className = "check";
   wrapper.innerHTML = `<input type="checkbox" value="${escapeHtml(value)}"><span>${escapeHtml(label)}</span>`;
@@ -111,77 +114,91 @@ function makeCheckbox(containerId, bucket, value, label) {
   container.appendChild(wrapper);
 }
 
+function uniqueValues(field) {
+  const values = new Set();
+  for (const item of state.cases) {
+    for (const value of asArray(item[field])) {
+      if (value) values.add(value);
+    }
+  }
+  return [...values].sort((a, b) => String(labelFor(field, a)).localeCompare(String(labelFor(field, b)), "zh-CN"));
+}
+
 function buildFilters() {
-  makeCheckbox("regionFilters", "region", "CN", "中国");
-  makeCheckbox("regionFilters", "region", "US", "美国");
-  for (const [tag, label] of Object.entries(state.labels.doc_type || {})) makeCheckbox("docTypeFilters", "doc_type", tag, label);
-  for (const [tag, label] of Object.entries(state.labels.litigation_stage || {})) makeCheckbox("litigationStageFilters", "litigation_stage", tag, label);
-  for (const [tag, label] of Object.entries(state.labels.patent_type || {})) makeCheckbox("patentTypeFilters", "patent_type", tag, label);
-  for (const [tag, label] of Object.entries(state.labels.legal_issues || {})) makeCheckbox("legalIssueFilters", "legal_issues", tag, label);
+  for (const value of uniqueValues("patent_type")) makeCheckbox("patentTypeFilters", "patent_type", value, value);
+  if (jurisdiction === "us") {
+    for (const value of uniqueValues("proceeding_type")) makeCheckbox("proceedingTypeFilters", "proceeding_type", value, value);
+    for (const value of uniqueValues("us_legal_points")) makeCheckbox("legalIssueFilters", "us_legal_points", value, labelFor("us_legal_points", value));
+  } else {
+    for (const value of uniqueValues("legal_points")) makeCheckbox("legalIssueFilters", "legal_points", value, labelFor("legal_points", value));
+  }
 }
 
-function tagList(bucket, values = []) {
-  if (!values.length) return "";
-  return values.map((value) => `<span class="tag">${escapeHtml(labelFor(bucket, value))}</span>`).join("");
+function tagList(bucket, values) {
+  return asArray(values).map((value) => `<span class="tag">${escapeHtml(labelFor(bucket, value))}</span>`).join("");
 }
 
-function listItems(values = []) {
-  return values.slice(0, 3).map((value) => `<li>${escapeHtml(value)}</li>`).join("");
+function metaGrid(entries) {
+  const rows = entries.filter(([, value]) => value);
+  if (!rows.length) return "";
+  return `<div class="meta-grid">${rows.map(([key, value]) => `<span><strong>${escapeHtml(key)}</strong>${escapeHtml(value)}</span>`).join("")}</div>`;
 }
 
-function escapeHtml(value) {
-  return String(value || "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+function confidenceBadge(item) {
+  if (!item.review_required) return '<span class="badge merge">已自动入库</span>';
+  return '<span class="badge warn">待复核</span>';
 }
 
-function compactMeta(item) {
-  const entries = [
-    ["案号", item.case_number || item.court_case_number],
-    ["决定号", item.decision_number],
-    ["程序号", item.proceeding_number],
-    ["专利号", item.patent_number],
-    ["药物", item.drug_name],
-    ["法院", item.court_name],
-  ].filter(([, value]) => value);
-  if (!entries.length) return "";
-  return `<div class="meta-grid">${entries.map(([k, v]) => `<span><strong>${k}</strong>${escapeHtml(v)}</span>`).join("")}</div>`;
-}
-
-function caseCard(item) {
-  const pdfLink = item.pdf_path ? `<a href="${escapeHtml(item.pdf_path)}" target="_blank" rel="noopener">打开 PDF</a>` : "";
-  const duplicateCount = (item.duplicate_files || []).length;
-  const relatedCount = (item.related_case_ids || []).length;
-  const suspectedRelatedCount = (item.suspected_related_cases || []).length;
-
+function cnCard(item) {
   return `
     <article class="case-card">
       <div class="case-head">
-        <h2>${escapeHtml(item.title || item.id)}</h2>
+        <h2>${escapeHtml(item.title || item.case_id)}</h2>
         <div class="badges">
-          <span class="badge">${escapeHtml(labelFor("doc_type", item.doc_type))}</span>
-          <span class="badge">${escapeHtml(labelFor("region", item.region))}</span>
-          ${item.litigation_stage ? `<span class="badge">${escapeHtml(labelFor("litigation_stage", item.litigation_stage))}</span>` : ""}
-          <span class="badge">${escapeHtml(outcomeLabels[item.outcome] || item.outcome || "未识别")}</span>
-          ${item.needs_ocr ? '<span class="badge warn">需 OCR</span>' : ""}
-          ${duplicateCount ? `<span class="badge merge">已合并 ${duplicateCount} 个重复文件</span>` : ""}
-          ${relatedCount ? `<span class="badge merge">相关案例 ${relatedCount}</span>` : ""}
-          ${suspectedRelatedCount ? `<span class="badge warn">疑似相关 ${suspectedRelatedCount}</span>` : ""}
-          <span class="badge">${escapeHtml(reviewLabels[item.review_status] || item.review_status)}</span>
+          <span class="badge">中国</span>
+          <span class="badge">${escapeHtml(item.status || "待确认")}</span>
+          ${confidenceBadge(item)}
         </div>
       </div>
-      ${compactMeta(item)}
-      <div class="tags">${tagList("patent_type", item.patent_type)}${tagList("legal_issues", item.legal_issues)}</div>
+      ${metaGrid([
+        ["决定号", item.decision_number],
+        ["专利号", item.patent_number],
+        ["专利类型", item.patent_type],
+        ["药物", item.drug_name],
+      ])}
+      <div class="tags">${tagList("legal_points", item.legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "暂无摘要。")}</p>
-      <div class="holdings">
-        <h3>关键结论</h3>
-        <ul>${listItems(item.key_holdings)}</ul>
+      <div class="links">${item.pdf ? `<a href="${escapeHtml(item.pdf)}" target="_blank" rel="noopener">打开 PDF</a>` : ""}</div>
+    </article>
+  `;
+}
+
+function usCard(item) {
+  const ob = item.orange_book_match || {};
+  const drugLine = [item.drug_name, ob.active_ingredient].filter(Boolean).join(" / ");
+  return `
+    <article class="case-card">
+      <div class="case-head">
+        <h2>${escapeHtml(item.title || item.case_id)}</h2>
+        <div class="badges">
+          <span class="badge">US</span>
+          <span class="badge">${escapeHtml(item.proceeding_type || "Unknown")}</span>
+          <span class="badge">${escapeHtml(item.outcome || "unknown")}</span>
+          ${confidenceBadge(item)}
+        </div>
       </div>
-      <div class="links">${pdfLink}</div>
-      <footer>更新：${escapeHtml(item.updated_at || "")}</footer>
+      ${metaGrid([
+        ["Patent No.", item.patent_number],
+        ["Proceeding No.", item.proceeding_number],
+        ["Petitioner", item.petitioner],
+        ["Patent Owner", item.patent_owner],
+        ["Patent Type", item.patent_type],
+        ["Drug / Active", drugLine],
+        ["Orange Book", ob.matched ? `${ob.product_name || "matched"} (${ob.application_number || ""})` : "no match"],
+      ])}
+      <div class="tags">${tagList("us_legal_points", item.us_legal_points)}</div>
+      <p class="summary">${escapeHtml(item.summary || "No summary.")}</p>
+      <div class="links">${item.pdf ? `<a href="${escapeHtml(item.pdf)}" target="_blank" rel="noopener">Open PDF</a>` : ""}</div>
     </article>
   `;
 }
@@ -189,17 +206,13 @@ function caseCard(item) {
 function render() {
   const filtered = sortCases(state.cases.filter(passesFilters));
   els.resultCount.textContent = filtered.length;
-  els.caseList.innerHTML = filtered.map(caseCard).join("");
+  els.caseList.innerHTML = filtered.map((item) => (jurisdiction === "us" ? usCard(item) : cnCard(item))).join("");
   els.emptyState.hidden = filtered.length !== 0;
 }
 
 function resetFilters() {
   els.searchInput.value = "";
-  els.needsOcrOnly.checked = false;
-  els.reviewedOnly.checked = false;
-  els.hasRelatedOnly.checked = false;
-  els.hasSuspectedRelatedOnly.checked = false;
-  els.noRelatedOnly.checked = false;
+  if (els.reviewRequiredOnly) els.reviewRequiredOnly.checked = false;
   for (const set of Object.values(state.filters)) set.clear();
   document.querySelectorAll(".filters input[type='checkbox']").forEach((input) => {
     input.checked = false;
@@ -209,33 +222,24 @@ function resetFilters() {
 
 async function init() {
   try {
-    let response = await fetch("data/cases.json", { cache: "no-store" });
-    if (!response.ok) response = await fetch("cases_index.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const response = await fetch(dataFile, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}: ${dataFile}`);
     const data = await response.json();
     state.cases = data.cases || [];
     state.labels = data.tag_labels || {};
-    els.meta.textContent =
-      `已加载 ${state.cases.length} 个入库文档。` +
-      `排除 ${data.excluded_total || 0} 个，` +
-      `自动关联 ${data.related_total || 0} 组，` +
-      `疑似关联 ${data.suspected_related_total || 0} 组。`;
+    els.meta.textContent = `已加载 ${state.cases.length} 个${jurisdiction === "us" ? "美国" : "中国"}案例。`;
     buildFilters();
     render();
   } catch (error) {
-    els.meta.textContent = "无法加载 cases_index.json。请先运行 scripts/ingest.py，或用本地静态服务器打开。";
+    els.meta.textContent = `无法加载数据文件：${dataFile}`;
     els.emptyState.hidden = false;
     els.emptyState.textContent = error.message;
   }
 }
 
-els.searchInput.addEventListener("input", render);
-els.sortBy.addEventListener("change", render);
-els.needsOcrOnly.addEventListener("change", render);
-els.reviewedOnly.addEventListener("change", render);
-els.hasRelatedOnly.addEventListener("change", render);
-els.hasSuspectedRelatedOnly.addEventListener("change", render);
-els.noRelatedOnly.addEventListener("change", render);
-els.resetFilters.addEventListener("click", resetFilters);
+els.searchInput?.addEventListener("input", render);
+els.sortBy?.addEventListener("change", render);
+els.reviewRequiredOnly?.addEventListener("change", render);
+els.resetFilters?.addEventListener("click", resetFilters);
 
 init();

@@ -26,7 +26,7 @@ python -m http.server 8000
 团队成员应访问 GitHub Pages 地址，例如：
 
 ```text
-https://用户名.github.io/仓库名/
+https://zhaozhao-000.github.io/patent-invalidity-kb/
 ```
 
 本项目使用 GitHub Actions 将 `public/` 目录发布到 GitHub Pages，工作流文件是：
@@ -50,6 +50,14 @@ Source: GitHub Actions
 ```
 
 每次推送到 `main` 或 `master` 后，Actions 会把 `public/` 发布到 GitHub Pages。
+
+当前网站入口：
+
+- `public/index.html`：总入口
+- `public/cn/index.html`：中国案例库，只加载 `public/data/cn_cases.json`
+- `public/us/index.html`：美国案例库，只加载 `public/data/us_cases.json`
+
+中美案例共用 `public/app.js` 和 `public/style.css`，但数据文件、法律点标签和卡片显示规则分开。
 
 ## 放置 PDF
 
@@ -83,13 +91,97 @@ Source: GitHub Actions
 ## 主要输出
 
 - `public/data/cases.json`
+- `public/data/cn_cases.json`
+- `public/data/us_cases.json`
+- `public/data/all_cases_manifest.json`
 - `public/cases_index.json`
 - `public/duplicates_report.html`
 - `public/excluded_files_report.html`
 - `public/related_cases_report.json`
+- `reports/database_build_report.md`
 - `output/manual_review.csv`
 - `output/manual_review.json`
 - `output/manifest.json`
+
+## 全量中美拆分构建
+
+当前 `input_pdfs/` 下的全部 PDF 会先进入公开处理清单：
+
+```powershell
+python scripts\build_jurisdiction_data.py
+```
+
+如果系统里的 `python` 命令不可用，可以使用你安装的 Python 3.10/3.11，或在 Codex 中使用内置 Python 运行。
+
+该脚本会生成：
+
+```text
+public/data/all_cases_manifest.json
+public/data/cn_cases.json
+public/data/us_cases.json
+reports/database_build_report.md
+output/manual_review_jurisdiction.csv
+output/manual_review_jurisdiction.json
+parsed/cn/markdown/
+parsed/us/markdown/
+```
+
+`all_cases_manifest.json` 必须列出 `input_pdfs/` 下发现的全部 PDF。即使某个 PDF 解析失败、重复、待人工复核，也会保留状态和原因，不会静默跳过。
+
+## MinerU API 批量解析
+
+MinerU API Key 只能放在本机环境变量中，不能写入 HTML、JS、JSON 或 GitHub 仓库。
+
+PowerShell 示例：
+
+```powershell
+$env:MINERU_API_KEY="你的API Token"
+$env:MINERU_API_BASE="https://mineru.net"
+python scripts\mineru_batch_parse.py --limit 5
+python scripts\build_jurisdiction_data.py
+```
+
+确认小批量成功后再全量运行：
+
+```powershell
+python scripts\mineru_batch_parse.py
+python scripts\build_jurisdiction_data.py
+```
+
+脚本规则：
+
+- 每个 PDF 只解析一次；
+- `parsed/` 下已有结果时默认跳过；
+- `--force` 可强制重新解析；
+- API 失败会写入 manifest，不会中断全部任务；
+- MinerU 原始结果保存在 `parsed/{cn|us|unknown}/json/`，Markdown 保存在 `parsed/{cn|us|unknown}/markdown/`；
+- `public/data/*.json` 不保存 API Key，也不保存大段全文。
+
+安全检查：
+
+- `.env`
+- `.env.local`
+- `mineru_key.txt`
+- `secrets.json`
+- `logs/raw_api_response_with_key*.json`
+
+这些文件已加入 `.gitignore`，不要提交到 GitHub。
+
+## 美国 Orange Book 可选数据
+
+本轮 Orange Book 只作为可选增强，不影响主入库。脚本入口：
+
+```powershell
+node scripts\update_orange_book_data.js
+```
+
+输出目录：
+
+```text
+data/external/orange_book/
+```
+
+该目录已加入 `.gitignore`。后续可用美国专利号匹配 Orange Book 的 `patent.txt`，再把高置信度匹配写入 `orange_book_match` 字段；低置信度结果仍应进入人工复核。
 
 ## 新增字段
 

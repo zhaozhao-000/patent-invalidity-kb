@@ -1,12 +1,16 @@
 .env
 .env.*
+mineru_key.txt
+secrets.json
 .venv/
 .venv-ocr/
 __pycache__/
 *.pyc
+logs/raw_api_response_with_key*.json
 
 # Local processing state and source PDFs are not needed by GitHub Pages.
 # The published site is generated under public/.
 output/
 input_pdfs/
 external_ocr/
+data/external/orange_book/

@@ -1,0 +1,6066 @@
+{
+  "schema_version": 1,
+  "jurisdiction": "cn",
+  "tag_labels": {
+    "patent_type": {
+      "compound": "化合物专利",
+      "polymorph": "晶型/盐/溶剂合物",
+      "formulation": "制剂/组合物",
+      "composition": "制剂/组合物",
+      "medical_use": "用途/适应症",
+      "method": "制备方法/中间体",
+      "process": "制备方法/中间体",
+      "dosage_regimen": "给药方案/剂量",
+      "antibody": "生物制品/抗体",
+      "nucleic_acid": "生物制品/抗体",
+      "cell_therapy": "生物制品/抗体",
+      "other": "其他",
+      "pending_review": "待确认"
+    },
+    "legal_points": {
+      "inventive_step": "创造性",
+      "novelty": "新颖性",
+      "enablement": "充分公开 / 可实施性",
+      "written_description": "说明书支持",
+      "claim_construction": "权利要求解释",
+      "priority": "优先权",
+      "amendment": "修改超范围",
+      "experimental_data": "实验数据",
+      "post_filing_data": "申请日后数据",
+      "common_general_knowledge": "公知常识",
+      "motivation_to_combine": "结合动机",
+      "reasonable_expectation_of_success": "合理成功预期",
+      "unexpected_effect": "预料不到的技术效果",
+      "dosage_regimen": "给药方案",
+      "medical_use": "医药用途",
+      "polymorph": "晶型",
+      "selection_invention": "选择发明",
+      "pending_review": "待确认"
+    }
+  },
+  "total": 202,
+  "cases": [
+    {
+      "case_id": "cn_0003",
+      "source_case_id": "case_0003",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "新颖的磺酰胺类化合物及其作为内皮素受体拮抗剂的应用",
+      "decision_number": "",
+      "patent_number": "01820481.3",
+      "patent_title": "新颖的磺酰胺类化合物及其作为内皮素受体拮抗剂的应用",
+      "pdf": "pdfs/case_0003_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0003.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "priority"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2019.4 电子申请，应当通过电子专利申请系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 100020 北京市朝阳区东三环中路1 号环球金融中心东塔20 层 北京市金杜律师事务所 陈文平，郭煜(010-58785037) 发文日： 申请号或专利号：01820481.3 发文序号： 案件编号： 4W111011 发明创造名称：新颖的磺酰胺类化合物及其作为内皮素受体拮抗剂的应用 专利权人： 埃科特莱茵药品有限公司 无效宣告请求人：南京正大天晴制药有限公司 无效宣告请求审查决定书 （第48183 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效宣告请求进行了审查，现决定如下： ...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0004",
+      "source_case_id": "case_0004",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "专利号为201180056716.8",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "专利号为201180056716.8",
+      "pdf": "pdfs/case_0004_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0004.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 中华人民共和国最高人民法院 民 事 判 决 书 （2023）最高法知民终4 号 上诉人（原审被告）：某药业有限公司。住所地：中华人民共和国 河北省石家庄市。 法定代表人：徐某，该公司总经理。 委托诉讼代理人：唐铁军，北京市万慧达律师事务所专利代理师。 委托诉讼代理人：胡洪慧，北京市万慧达律师事务所专利代理师。 被上诉人（原审原告）：某制药株式会社。住所地：日本国大阪 市。 代表人：手某，该株式会社董事长。 委托诉讼代理人：邰红，北京市金杜律师事务所律师。 委托诉讼代理人：郭煜，北京市金杜律师事务所专利代理师。 上诉人某药业有限公司（以下简称某公司）因与被上诉人某制药株 式会社（以下简称某株式会社）确认是否落入专利权保护范围纠纷一 案，不服中华人民共和国北京知识产权法院（以下简称原审法院）于 2022 年11 月25 日作出的（2022）京73 民初14 号民事判决，向本院 提起上诉，本院于2023 ...",
+      "status": "有效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0005",
+      "source_case_id": "case_0005",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "被取代的多环性氨基甲酰基吡啶酮衍生物的前药",
+      "decision_number": "",
+      "patent_number": "201180056716.8",
+      "patent_title": "被取代的多环性氨基甲酰基吡啶酮衍生物的前药",
+      "pdf": "pdfs/case_0005_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0005.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "整合酶抑",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2019.4 电子申请，应当通过电子专利申请系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 100034 北京市西城区平安里西大街26 号新时代大厦7 层 北京中咨律师事务所 张雪珍林柏楠(66091188) 发文日： 申请号或专利号：201180056716.8 发文序号： 案件编号： 4W109663 发明创造名称：被取代的多环性氨基甲酰基吡啶酮衍生物的前药 专利权人： 盐野义制药株式会社 无效宣告请求人：刘奕彤 无效宣告请求审查决定书 （第47328 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效宣告请求进行了审查，现决定如下： 宣告专利权全部无效。 宣告专利权部分...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0006",
+      "source_case_id": "case_0006",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗潜伏性结核的喹啉衍生物",
+      "decision_number": "",
+      "patent_number": "201210507318",
+      "patent_title": "用于治疗潜伏性结核的喹啉衍生物",
+      "pdf": "pdfs/case_0006_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0006.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2019.4 电子申请，应当通过电子专利申请系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 100035 ********************** ************************************** 发文日： 申请号或专利号：201210507318.X 发文序号： 案件编号： 4W110546 发明创造名称： 用于治疗潜伏性结核的喹啉衍生物 专利权人： 詹森药业有限公司 无效宣告请求人： 王立群 无效宣告请求审查决定书 （第47812 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效宣告请求进行了审查，现决定如下： 宣告专利权全部无效。 宣告...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0007",
+      "source_case_id": "case_0007",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "作为血清素再摄取抑制剂的苯基哌嗪衍生物",
+      "decision_number": "",
+      "patent_number": "02819025.4",
+      "patent_title": "作为血清素再摄取抑制剂的苯基哌嗪衍生物",
+      "pdf": "pdfs/case_0007_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0007.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "作为血清素再摄取抑",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2019.4 电子申请，应当通过电子专利申请系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 100101 ******************** ******************************* 发文日： 申请号或专利号：02819025.4 发文序号： 案件编号： 4W112664 发明创造名称： 作为血清素再摄取抑制剂的苯基哌嗪衍生物 专利权人： H·隆德贝克有限公司 无效宣告请求人： 成都康弘药业集团股份有限公司 无效宣告请求审查决定书 （第54793 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效宣告请求进行了审查，现决定如下： 宣告专利权全部无效...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0008",
+      "source_case_id": "case_0008",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "未识别专利名称",
+      "decision_number": "",
+      "patent_number": "201580072874.0",
+      "patent_title": "",
+      "pdf": "pdfs/case_0008_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0008.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "enablement",
+        "written_description",
+        "inventive_step"
+      ],
+      "drug_name": "tenofovir",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2019.4 电子申请，应当通过电子专利申请系统以电子文件形式提交相关文件。除另有规定外，以 纸件等其他形式提交的文件视为未提交。 100020 北京市朝阳区东三环中路1 号环球金融中心办公楼东楼20 层 北京市金杜律师事务所 陈文平(010-58785037) 发文日： 申请号或专利号：201580072874.0 发文序号： 案 件 编 号： 4W113663 发明创造名 称： B 型肝炎病毒(HBV)iRNA 组合物及其使用方法 专 利 权 人： 阿尔尼拉姆医药品有限公司 无效宣告请求 人： 张媛 无效宣告请求审查决定书 （第58530 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效宣告请求进行了审查，现...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.1,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0009",
+      "source_case_id": "case_0009",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "的病理学病症的方法",
+      "decision_number": "(2021)国知药裁31号",
+      "patent_number": "2010800518",
+      "patent_title": "的病理学病症的方法",
+      "pdf": "pdfs/case_0009_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0009.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- ／才P 国家知识产权局 100020 发文日： 2022 年05 月JO 日 专利号： 2010800518 19. 0 案件编号： (2021 ）国知药裁0031 号 药品名称、剂型、规格：尼洛替尼胶囊， 150mg （按尼洛替尼计） 治疗增殖性障碍和其它由BCR-ABL 、C－阻T 、DDRl 、DDR2 或PDGF-R 激酶活性介导 发明创造名称： 的病理学病症的方法 请求人： 诺华股份有限公司 被请求人： 苏州｜特瑞药业股份有限公司 药品专利纠纷行政裁决结案通知书 请求人： 因行政裁决请求人于纽~年Q豆月2豆日提交了撤回行政裁决请求的书面声明。根据《药品专利纠纷早 期解决机制行政裁决办法》第17 条的规定，本案的审理结束。 口行政裁决请求人元正当理由未参加国家知识产权局于 年 月 日举行的口头审理，根据 《药品专利纠纷早期解决机制行政裁决办法》第1 3 条的规定，其行政裁决请求视为撤回。本案...",
+      "status": "待确认",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0010",
+      "source_case_id": "case_0010",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "的病理学病症的方法",
+      "decision_number": "(2021)国知药裁33号",
+      "patent_number": "201080051819",
+      "patent_title": "的病理学病症的方法",
+      "pdf": "pdfs/case_0010_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0010.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- ／斗P 国家知识产权局 100020 发文日： L~L2 年05 月JO 日 一飞、h 专利号： 201080051819. 0 案件编号： (2021 ）国知药裁0033 号 药品名称、剂型、规格：尼洛替尼胶囊， 200mg（按尼洛替尼计） 治疗增殖性障碍和其它由BCR-ABL 、C－阻T 、DDRl 、DDR2 或PDGF-R 激酶活性介导 发明创造名称： 的病理学病症的方法 请求人： 诺华股份有限公司 被请求人： 苏州特瑞药业股份有限公司 药品专利纠纷行政裁决结案通知书 请求人： 行政裁决请求人于2022 年05 月 25 日提交了撤回行政裁决请求的书面声明。根据《药品专利纠纷早 期解决机制行政裁决办法》第1 7 条的规定，本案的审理结束。 口行政裁决请求人无正当理由未参加国家知识产权局于 年 月 日举行的口头审理，根据 《药品专利纠纷早期解决机制行政裁决办法》第13 条的规定，其行政裁决请求...",
+      "status": "待确认",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0011",
+      "source_case_id": "case_0011",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗增值性障碍 和其它由BCR-ABL、C-KIT、DDR1、DDR2 和PDGF-R 激酶活性介导的病理 学病症的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "治疗增值性障碍 和其它由BCR-ABL、C-KIT、DDR1、DDR2 和PDGF-R 激酶活性介导的病理 学病症的方法",
+      "pdf": "pdfs/case_0011_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0011.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 北京知识产权法院 民 事 裁 定 书 (2022)京73 民初208 号 原告：诺华股份有限公司，CH-4056。 授权代表：伊恩·詹姆斯·希斯科克。 授权代表：罗伯特·卡罗尔·斯坦利。 委托诉讼代理人：邰红，北京市金杜律师事务所律师。 委托诉讼代理人：郭煜，北京市金杜律师事务所专利代理师。 被告：苏州特瑞药业股份有限公司。 法定代表人：曾德利，董事长。 委托诉讼代理人：邓钢，该公司职员。 委托诉讼代理人：唐华东，北京植德律师事务所律师。 原告诺华股份有限公司(简称诺华公司)与被告苏州特瑞药业股份有 限公司(简称特瑞公司)确认是否落入专利权保护范围纠纷一案，本院于 2022 年1 月27 日立案后，依法组成合议庭，并适用普通程序于2022 年6 月10 日不公开开庭进行了审理。原告诺华公司的委托诉讼代理人 邰红、郭煜，被告特瑞公司的委托诉讼代理人邓钢、唐华东到庭参加了 诉讼。本案现已审理终结。 原告...",
+      "status": "有效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0012",
+      "source_case_id": "case_0012",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗增值性障碍 和其它由BCR-ABL、C-KIT、DDR1、DDR2 和PDGF-R 激酶活性介导的病理 学病症的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "治疗增值性障碍 和其它由BCR-ABL、C-KIT、DDR1、DDR2 和PDGF-R 激酶活性介导的病理 学病症的方法",
+      "pdf": "pdfs/case_0012_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0012.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 北京知识产权法院 民 事 裁 定 书 (2022)京73 民初210 号 原告：诺华股份有限公司，CH-4056。 授权代表：伊恩·詹姆斯·希斯科克。 授权代表：罗伯特·卡罗尔·斯坦利。 委托诉讼代理人：邰红，北京市金杜律师事务所律师。 委托诉讼代理人：郭煜，北京市金杜律师事务所专利代理师。 被告：苏州特瑞药业股份有限公司。 法定代表人：曾德利，董事长。 委托诉讼代理人：邓钢，该公司职员。 委托诉讼代理人：唐华东，北京植德律师事务所律师。 原告诺华股份有限公司(简称诺华公司)与被告苏州特瑞药业股份有 限公司(简称特瑞公司)确认是否落入专利权保护范围纠纷一案，本院于 2022 年1 月27 日立案后，依法组成合议庭，并适用普通程序于2022 年6 月10 日不公开开庭进行了审理。原告诺华公司的委托诉讼代理人 邰红、郭煜，被告特瑞公司的委托诉讼代理人邓钢、唐华东到庭参加了 诉讼。本案现已审理终结。 原告...",
+      "status": "有效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0013",
+      "source_case_id": "case_0013",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "8-[3-氨基-哌啶-1-基]-黄嘌呤,其制备方法及作为药物制剂的用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "8-[3-氨基-哌啶-1-基]-黄嘌呤,其制备方法及作为药物制剂的用途",
+      "pdf": "pdfs/case_0013_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0013.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0013",
+      "source_case_id": "case_0013",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "8-[3-氨基-哌啶-1-基]-黄嘌呤,其制备方法及作为药物制剂的用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "8-[3-氨基-哌啶-1-基]-黄嘌呤,其制备方法及作为药物制剂的用途",
+      "pdf": "pdfs/case_0013_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0013.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0014",
+      "source_case_id": "case_0014",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗白介素-6 相关疾病的方法",
+      "decision_number": "",
+      "patent_number": "200480011401.1",
+      "patent_title": "治疗白介素-6 相关疾病的方法",
+      "pdf": "pdfs/case_0014_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0014.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100034 北京市西城区平安里西大街28 号楼15 层1501-02 号房间 北京瑞恒信达知识产权代理事务所（普通合伙）曹津燕,张伟 (010-62133181/13701319396) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：200480011401.1 发文序号： {{gg_fawenxlh}} 案件编号： 4W113992 发明创造名称：治疗白介素-6 相关疾病的方法 专利权人： 中外制药株式会社 无效宣告请求...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0015",
+      "source_case_id": "case_0015",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含三嗪酮类化合物和铁的制剂",
+      "decision_number": "",
+      "patent_number": "200880018446",
+      "patent_title": "包含三嗪酮类化合物和铁的制剂",
+      "pdf": "pdfs/case_0015_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0015.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "三嗪酮类化合物的粒度范围和",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 210031 南京市江北新区研创园江淼路88 号腾飞大厦B 座2004 室 南京华讯知识产权代理事务所（普通合伙）刘怡彣(025-56673167) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：200880018446.X 发文序号： {{gg_fawenxlh}} 案件编号： 4W114624 发明创造名称：包含三嗪酮类化合物和铁的制剂 专利权人： 拜耳知识产权有限责任公司 无效宣告请求人：南京华讯知识产权顾问有限公司 ...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0016",
+      "source_case_id": "case_0016",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "3-(二氟甲基)-1-甲基-N-(3＇,4＇,5＇-三氟[1,1＇-二苯基]-2-基)-1H-吡唑-4-甲酰胺的晶型",
+      "decision_number": "",
+      "patent_number": "200880024346.8",
+      "patent_title": "3-(二氟甲基)-1-甲基-N-(3＇,4＇,5＇-三氟[1,1＇-二苯基]-2-基)-1H-吡唑-4-甲酰胺的晶型",
+      "pdf": "pdfs/case_0016_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0016.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "药物",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100050 北京市西城区珠市口西大街120 号1 号楼17 层1725 房间 北京悦和知识产权代理有限公司司丽春,周瑞(010-63189391) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：200880024346.8 发文序号： {{gg_fawenxlh}} 案件编号： 4W115184 发明创造名称：3-(二氟甲基)-1-甲基-N-(3＇,4＇,5＇-三氟[1,1＇-二苯基]-2-基)-1H-吡唑-4-甲酰胺的晶...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0017",
+      "source_case_id": "case_0017",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "罗替高汀的多晶型物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "罗替高汀的多晶型物",
+      "pdf": "pdfs/case_0017_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0017.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0018",
+      "source_case_id": "case_0018",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "β-阻断剂在制备用于治疗血管瘤药物中的用途",
+      "decision_number": "",
+      "patent_number": "200880111892.5",
+      "patent_title": "β-阻断剂在制备用于治疗血管瘤药物中的用途",
+      "pdf": "pdfs/case_0018_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0018.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "所述",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 1 100007 北京市东城区东直门南大街1 号来福士中心办公楼5 层01、02、03 以及05 单元 北京植德律师事务所唐华东(13520162195) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：200880111892.5 发文序号： {{gg_fawenxlh}} 案件编号： 4W114104 发明创造名称：β-阻断剂在制备用于治疗血管瘤药物中的用途 专利权人： 波尔多大学 无效宣告请求人：何文野 无效宣告请求审查决...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0019",
+      "source_case_id": "case_0019",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性介导 的病理学病症的方法",
+      "decision_number": "",
+      "patent_number": "201080051819.0",
+      "patent_title": "治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性介导 的病理学病症的方法",
+      "pdf": "pdfs/case_0019_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0019.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "novelty",
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "的是已知",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 1 100020 北京市朝阳区东三环中路5 号财富金融中心20 层 北京市海问律师事务所侯宝光,廖雅静(010-85606903) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201080051819.0 发文序号： {{gg_fawenxlh}} 案件编号： 4W114879 发明创造名称：治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性介导 的病理学病症的方法 专利权人： 诺...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0020",
+      "source_case_id": "case_0020",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性 介导的病理学病症的方法",
+      "decision_number": "",
+      "patent_number": "201080051819.0",
+      "patent_title": "治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性 介导的病理学病症的方法",
+      "pdf": "pdfs/case_0020_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0020.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "novelty",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "的是已知",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 1 100020 北京市朝阳区东三环中路5 号财富金融中心20 层 北京市海问律师事务所 侯宝光,廖雅静(010-85606903) 发文日： 2023 年03 月29 日 申请号或专利号：201080051819.0 发文序号： 2023032400207240 案件编号： 4W114879 发明创造名称：治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性 介导的病理学病症的方法 专利权人： 诺华股份有限公司 无效宣告请求人：苏州特瑞药业股份有限公司 无效宣告请求审查决定书 （第560...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0021",
+      "source_case_id": "case_0021",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性介导 的病理学病症的方法",
+      "decision_number": "",
+      "patent_number": "201080051819.0",
+      "patent_title": "治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性介导 的病理学病症的方法",
+      "pdf": "pdfs/case_0021_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0021.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "claim_construction"
+      ],
+      "drug_name": "的是制备一种用于治疗疾病的",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2019.4 电子申请，应当通过电子专利申请系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 100007 北京市东城区东直门南大街1 号来福士中心办公楼5 层01、02、03 以及05 单元 北京植德律师事务所 唐华东,徐璐(13520162195) 发文日： 申请号或专利号：201080051819.0 发文序号： 案件编号： 4W113049 发明创造名称：治疗增殖性障碍和其它由BCR-ABL、C-KIT、DDR1、DDR2 或PDGF-R 激酶活性介导 的病理学病症的方法 专利权人： 诺华股份有限公司 无效宣告请求人：苏州特瑞药业有限公司 无效宣告请求审查决定书 （第54130 号） 根据专利法第46 条第1 款的规...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0022",
+      "source_case_id": "case_0022",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "新的三环化合物",
+      "decision_number": "",
+      "patent_number": "201080062920.6",
+      "patent_title": "新的三环化合物",
+      "pdf": "pdfs/case_0022_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0022.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "priority",
+        "post_filing_data"
+      ],
+      "drug_name": "infliximab",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100013 北京市东城区北三环东路36 号2 号楼20 层C2007 房间 北京志霖律师事务所 马博文(18519126199) 发文日： 2023 年08 月10 日 申请号或专利号：201080062920.6 发文序号： 2023080701223760 案件编号： 4W115503 发明创造名称：新的三环化合物 专利权人： ABBVIE 公司 无效宣告请求人：四川国为制药有限公司 无效宣告请求审查决定书 （第561725 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0023",
+      "source_case_id": "case_0023",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二肽基肽酶抑制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "二肽基肽酶抑制剂",
+      "pdf": "pdfs/case_0023_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0023.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0024",
+      "source_case_id": "case_0024",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二肽基肽酶抑制剂",
+      "decision_number": "",
+      "patent_number": "201110006939.5",
+      "patent_title": "二肽基肽酶抑制剂",
+      "pdf": "pdfs/case_0024_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0024.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "作为醛糖还原酶抑",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 1 100085 北京市海淀区上地东路35 号院1 号楼4 层3-509 北京知元同创知识产权代理事务所（普通合伙）张炳楠,吕少楠 (010-62669046) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201110006939.5 发文序号： {{gg_fawenxlh}} 案件编号： 4W115050 发明创造名称：二肽基肽酶抑制剂 专利权人： 武田药品工业株式会社 无效宣告请求人：国药集团国瑞药业有限公司 无效宣告请...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0025",
+      "source_case_id": "case_0025",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "环状胺化合物和杀螨剂",
+      "decision_number": "",
+      "patent_number": "201180010119.1",
+      "patent_title": "环状胺化合物和杀螨剂",
+      "pdf": "pdfs/case_0025_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0025.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "written_description",
+        "experimental_data",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100004 北京市朝阳区建外大街22 号赛特广场11 层 北京集佳律师事务所张浩尹玉峰(59208888) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201180010119.1 发文序号： {{gg_fawenxlh}} 案件编号： 4W114464 发明创造名称：环状胺化合物和杀螨剂 专利权人： 日本曹达株式会社 无效宣告请求人：长沙企智计算机科技有限公司 无效宣告请求审查决定书 （第561295 号） 根据专利法...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0026",
+      "source_case_id": "case_0026",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "四环素组合物",
+      "decision_number": "",
+      "patent_number": "201180033194",
+      "patent_title": "四环素组合物",
+      "pdf": "pdfs/case_0026_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0026.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 1 100020 北京市朝阳区光华东里8 号中海广场中楼7 层 北京英赛嘉华知识产权代理有限责任公司王达佐安佳宁 (81993888) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201180033194.X 发文序号： {{gg_fawenxlh}} 案件编号： 4W114511 发明创造名称：四环素组合物 专利权人： 梅琳塔治疗有限责任公司 无效宣告请求人：广东金城金素制药有限公司 无效宣告请求审查决定书 （第56070...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0027",
+      "source_case_id": "case_0027",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗白介素-6 相关疾病的方法",
+      "decision_number": "",
+      "patent_number": "201511004468.9",
+      "patent_title": "治疗白介素-6 相关疾病的方法",
+      "pdf": "pdfs/case_0027_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0027.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100034 北京市西城区平安里西大街28 号楼15 层1501-02 号房间 北京瑞恒信达知识产权代理事务所（普通合伙）曹津燕,张伟 (010-62133181/13701319396) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201511004468.9 发文序号： {{gg_fawenxlh}} 案件编号： 4W113991 发明创造名称：治疗白介素-6 相关疾病的方法 专利权人： 中外制药株式会社 无效宣告请求...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0028",
+      "source_case_id": "case_0028",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗白介素-6 相关疾病的方法",
+      "decision_number": "",
+      "patent_number": "201511004468.9",
+      "patent_title": "治疗白介素-6 相关疾病的方法",
+      "pdf": "pdfs/case_0028_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0028.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "experimental_data"
+      ],
+      "drug_name": "联合应用化疗",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸 件等其他形式提交的文件视为未提交。 1 200120 上海市浦东新区陆家嘴环路1366 号富士康大厦12 层 上海市海华永泰律师事务所赵步真,赵长青(13817928048) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201511004468.9 发文序号： {{gg_fawenxlh}} 案件编号： 4W113884 发明创造名称：治疗白介素-6 相关疾病的方法 专利权人： 中外制药株式会社 无效宣告请求人：百奥泰生物制药股份有限公司 无效宣告请求审查决定...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0029",
+      "source_case_id": "case_0029",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含GLP-1 激动剂和N-(8-(2-羟基苯甲酰)氨基)辛酸盐的固体组合物",
+      "decision_number": "",
+      "patent_number": "201610420028",
+      "patent_title": "包含GLP-1 激动剂和N-(8-(2-羟基苯甲酰)氨基)辛酸盐的固体组合物",
+      "pdf": "pdfs/case_0029_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0029.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100020 北京市朝阳区东三环中路1 号环球金融中心办公楼东楼20 层 北京市金杜律师事务所 邰红 王晓东 (010-58785132) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201610420028.X 发文序号： {{gg_fawenxlh}} 案件编号： 4W114163 发明创造名称： 包含GLP-1 激动剂和N-(8-(2-羟基苯甲酰)氨基)辛酸盐的固体组合物 专利权人： 诺和诺德股份有限公司 无效宣告请...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0030",
+      "source_case_id": "case_0030",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "新的三环化合物",
+      "decision_number": "",
+      "patent_number": "201810902092.0",
+      "patent_title": "新的三环化合物",
+      "pdf": "pdfs/case_0030_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0030.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "post_filing_data",
+        "enablement"
+      ],
+      "drug_name": "可用于治疗免疫和肿瘤状况的新的三环化合物及其",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100013 北京市东城区北三环东路36 号2 号楼20 层C2007 房间 北京志霖律师事务所 马博文(18519126199) 发文日： 2023 年08 月10 日 申请号或专利号：201810902092.0 发文序号： 2023080701198920 案件编号： 4W115502 发明创造名称：新的三环化合物 专利权人： ABBVIE 公司 无效宣告请求人：四川国为制药有限公司 无效宣告请求审查决定书 （第562232 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出的无效...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0031",
+      "source_case_id": "case_0031",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "重组腺相关病毒的制备方法、系统及重组杆粒",
+      "decision_number": "",
+      "patent_number": "201811618542",
+      "patent_title": "重组腺相关病毒的制备方法、系统及重组杆粒",
+      "pdf": "pdfs/case_0031_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0031.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局 复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以 纸 件等其他形式提交的文件视为未提交。 1 430074 武汉东湖新技术开发区光谷大道3 号激光工程设计总部二期研发楼 07、裙楼07 单元20 层10 室（自贸区武汉片区） 武汉臻诚专利代理事务所（普通合伙） 胡星驰 (027-87879200) 发文日： {{gg_fawenr}} {{@gg_shenqingh_code39}} {{@gg_fawenxlh_code39}} 申请号或专利号：201811618542.X 发文序号： {{gg_fawenxlh}} 案件编号： 4W114768 发明创造名称： 重组腺相关病毒的制备方法、系统及重组杆粒 专利权人：...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0032",
+      "source_case_id": "case_0032",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "具有稳定正ζ电势的眼用水包油型乳剂",
+      "decision_number": "",
+      "patent_number": "CN2005800383296",
+      "patent_title": "具有稳定正ζ电势的眼用水包油型乳剂",
+      "pdf": "pdfs/case_0032_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0032.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0033",
+      "source_case_id": "case_0033",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含季铵化合物的组合物",
+      "decision_number": "",
+      "patent_number": "CN2007800337846",
+      "patent_title": "含季铵化合物的组合物",
+      "pdf": "pdfs/case_0033_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0033.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0034",
+      "source_case_id": "case_0034",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "新型胰岛素衍生物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "新型胰岛素衍生物",
+      "pdf": "pdfs/case_0034_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0034.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0035",
+      "source_case_id": "case_0035",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "胺聚合物的小袋制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "胺聚合物的小袋制剂",
+      "pdf": "pdfs/case_0035_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0035.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0036",
+      "source_case_id": "case_0036",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含酰化胰岛素和锌的组合物以及制备所述组合物的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "包含酰化胰岛素和锌的组合物以及制备所述组合物的方法",
+      "pdf": "pdfs/case_0036_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0036.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0037",
+      "source_case_id": "case_0037",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "生产2-[4-(3-和2-氟苄氧基)苄氨基]丙酰胺类的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "生产2-[4-(3-和2-氟苄氧基)苄氨基]丙酰胺类的方法",
+      "pdf": "pdfs/case_0037_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0037.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0038",
+      "source_case_id": "case_0038",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "作为JAK抑制剂的氮杂环丁烷和环丁烷衍生物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "作为JAK抑制剂的氮杂环丁烷和环丁烷衍生物",
+      "pdf": "pdfs/case_0038_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0038.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0039",
+      "source_case_id": "case_0039",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "-2-基)乙烯基]吲唑的晶型",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "-2-基)乙烯基]吲唑的晶型",
+      "pdf": "pdfs/case_0039_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0039.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0040",
+      "source_case_id": "case_0040",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "阿齐沙坦酯钾的晶型及其制备方法及其用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "阿齐沙坦酯钾的晶型及其制备方法及其用途",
+      "pdf": "pdfs/case_0040_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0040.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0041",
+      "source_case_id": "case_0041",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种新的前体药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种新的前体药物制剂",
+      "pdf": "pdfs/case_0041_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0041.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0042",
+      "source_case_id": "case_0042",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有氨氯地平和比索洛尔的组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有氨氯地平和比索洛尔的组合物",
+      "pdf": "pdfs/case_0042_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0042.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0042",
+      "source_case_id": "case_0042",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有氨氯地平和比索洛尔的组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有氨氯地平和比索洛尔的组合物",
+      "pdf": "pdfs/case_0042_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0042.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0042",
+      "source_case_id": "case_0042",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有氨氯地平和比索洛尔的组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有氨氯地平和比索洛尔的组合物",
+      "pdf": "pdfs/case_0042_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0042.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0043",
+      "source_case_id": "case_0043",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "药物制剂514",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "药物制剂514",
+      "pdf": "pdfs/case_0043_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0043.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0044",
+      "source_case_id": "case_0044",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "ALK抑制剂的使用方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "ALK抑制剂的使用方法",
+      "pdf": "pdfs/case_0044_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0044.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "written_description",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0045",
+      "source_case_id": "case_0045",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有哌拉西林和三唑巴坦的注射用组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有哌拉西林和三唑巴坦的注射用组合物",
+      "pdf": "pdfs/case_0045_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0045.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0046",
+      "source_case_id": "case_0046",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "具有稳定正ζ电势的眼用水包油型乳剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "具有稳定正ζ电势的眼用水包油型乳剂",
+      "pdf": "pdfs/case_0046_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0046.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0048",
+      "source_case_id": "case_0048",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种治疗超级细菌的注射用药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种治疗超级细菌的注射用药物组合物",
+      "pdf": "pdfs/case_0048_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0048.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0049",
+      "source_case_id": "case_0049",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含聚乙二醇和电解质的药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "包含聚乙二醇和电解质的药物组合物",
+      "pdf": "pdfs/case_0049_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0049.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0050",
+      "source_case_id": "case_0050",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "6-((6,7-二甲氧基喹唑啉-4-基)氧基)-N,2-二甲基苯并呋喃-3-甲酰胺晶型",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "6-((6,7-二甲氧基喹唑啉-4-基)氧基)-N,2-二甲基苯并呋喃-3-甲酰胺晶型",
+      "pdf": "pdfs/case_0050_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0050.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0051",
+      "source_case_id": "case_0051",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "JAK抑制剂的晶型及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "JAK抑制剂的晶型及其制备方法",
+      "pdf": "pdfs/case_0051_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0051.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0051",
+      "source_case_id": "case_0051",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "JAK抑制剂的晶型及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "JAK抑制剂的晶型及其制备方法",
+      "pdf": "pdfs/case_0051_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0051.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0052",
+      "source_case_id": "case_0052",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种氮杂螺酮类药物组合物及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种氮杂螺酮类药物组合物及其制备方法",
+      "pdf": "pdfs/case_0052_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0052.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0053",
+      "source_case_id": "case_0053",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "3-(3,5-二氯-4-羟基苯甲酰)-1,1-二氧代-2,3-二氢-1,3-苯并噻唑的晶型及其盐",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "3-(3,5-二氯-4-羟基苯甲酰)-1,1-二氧代-2,3-二氢-1,3-苯并噻唑的晶型及其盐",
+      "pdf": "pdfs/case_0053_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0053.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0054",
+      "source_case_id": "case_0054",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种前列腺特异性膜抗原靶向化合物及其制备方法和应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种前列腺特异性膜抗原靶向化合物及其制备方法和应用",
+      "pdf": "pdfs/case_0054_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0054.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "written_description",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0055",
+      "source_case_id": "case_0055",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "修饰的氟化核苷类似物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "修饰的氟化核苷类似物",
+      "pdf": "pdfs/case_0055_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0055.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0056",
+      "source_case_id": "case_0056",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "修饰的氟化核苷类似物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "修饰的氟化核苷类似物",
+      "pdf": "pdfs/case_0056_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0056.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0057",
+      "source_case_id": "case_0057",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "苯并咪唑衍生物及其作为AⅡ受体拮抗剂的用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "苯并咪唑衍生物及其作为AⅡ受体拮抗剂的用途",
+      "pdf": "pdfs/case_0057_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0057.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0058",
+      "source_case_id": "case_0058",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有磷酸奥塞米韦的药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有磷酸奥塞米韦的药物组合物",
+      "pdf": "pdfs/case_0058_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0058.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0059",
+      "source_case_id": "case_0059",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "2,3-二氯吡啶的生产方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "2,3-二氯吡啶的生产方法",
+      "pdf": "pdfs/case_0059_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0059.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0060",
+      "source_case_id": "case_0060",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "HER抗体的固定剂量给药",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "HER抗体的固定剂量给药",
+      "pdf": "pdfs/case_0060_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0060.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0061",
+      "source_case_id": "case_0061",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于RNA 定向的靶 DNA 修饰和用于RNA 定向的转录调节的方法和组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于RNA 定向的靶 DNA 修饰和用于RNA 定向的转录调节的方法和组合物",
+      "pdf": "pdfs/case_0061_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0061.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0062",
+      "source_case_id": "case_0062",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "IL-17抗体的药物产品和稳定液体组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "IL-17抗体的药物产品和稳定液体组合物",
+      "pdf": "pdfs/case_0062_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0062.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0063",
+      "source_case_id": "case_0063",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "5-羟基-4-硫甲基吡唑化合物的制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "5-羟基-4-硫甲基吡唑化合物的制备方法",
+      "pdf": "pdfs/case_0063_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0063.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0064",
+      "source_case_id": "case_0064",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "新型结晶性芳烷基胺化合物及其制造方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "新型结晶性芳烷基胺化合物及其制造方法",
+      "pdf": "pdfs/case_0064_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0064.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0065",
+      "source_case_id": "case_0065",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "促胰岛素肽的稳定制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "促胰岛素肽的稳定制剂",
+      "pdf": "pdfs/case_0065_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0065.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0066",
+      "source_case_id": "case_0066",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种二氢异喹啉类化合物的制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种二氢异喹啉类化合物的制备方法",
+      "pdf": "pdfs/case_0066_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0066.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0067",
+      "source_case_id": "case_0067",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "衍生物 专利权人：武田药品工业株式会社 无效宣告",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "衍生物 专利权人：武田药品工业株式会社 无效宣告",
+      "pdf": "pdfs/case_0067_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0067.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0068",
+      "source_case_id": "case_0068",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "大环多晶型物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "大环多晶型物",
+      "pdf": "pdfs/case_0068_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0068.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0069",
+      "source_case_id": "case_0069",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗高钾血症的微孔硅酸锆",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于治疗高钾血症的微孔硅酸锆",
+      "pdf": "pdfs/case_0069_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0069.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0069",
+      "source_case_id": "case_0069",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗高钾血症的微孔硅酸锆",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于治疗高钾血症的微孔硅酸锆",
+      "pdf": "pdfs/case_0069_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0069.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0070",
+      "source_case_id": "case_0070",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "IL-17抗体中半胱氨酸残基的选择性还原",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "IL-17抗体中半胱氨酸残基的选择性还原",
+      "pdf": "pdfs/case_0070_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0070.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0071",
+      "source_case_id": "case_0071",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "Ⅱ-17抗体中半胱氨酸残基的选择性还原",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "Ⅱ-17抗体中半胱氨酸残基的选择性还原",
+      "pdf": "pdfs/case_0071_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0071.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0072",
+      "source_case_id": "case_0072",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "靶向血液恶性肿瘤之嵌合抗原受体（CAR）、其组合物及使用方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "靶向血液恶性肿瘤之嵌合抗原受体（CAR）、其组合物及使用方法",
+      "pdf": "pdfs/case_0072_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0072.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0073",
+      "source_case_id": "case_0073",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "核酸酶非依赖性靶向基因编辑平台及其用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "核酸酶非依赖性靶向基因编辑平台及其用途",
+      "pdf": "pdfs/case_0073_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0073.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0074",
+      "source_case_id": "case_0074",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种制备手性(2S,3R)-对甲砜基苯丝氨酸乙酯的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种制备手性(2S,3R)-对甲砜基苯丝氨酸乙酯的方法",
+      "pdf": "pdfs/case_0074_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0074.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0075",
+      "source_case_id": "case_0075",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种制备3-苯基-L-丝氨酸或其衍生物及其乙酯的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种制备3-苯基-L-丝氨酸或其衍生物及其乙酯的方法",
+      "pdf": "pdfs/case_0075_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0075.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0076",
+      "source_case_id": "case_0076",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "达格列净在制备治疗射血分数降低的心力衰竭的药物中的用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "达格列净在制备治疗射血分数降低的心力衰竭的药物中的用途",
+      "pdf": "pdfs/case_0076_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0076.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0077",
+      "source_case_id": "case_0077",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "L-17抗体中半胱氨酸残基的选择性还原",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "L-17抗体中半胱氨酸残基的选择性还原",
+      "pdf": "pdfs/case_0077_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0077.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0078",
+      "source_case_id": "case_0078",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "Ⅱ-17抗体中半胱氨酸残基的选择性还原",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "Ⅱ-17抗体中半胱氨酸残基的选择性还原",
+      "pdf": "pdfs/case_0078_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0078.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0079",
+      "source_case_id": "case_0079",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用达格列净治疗慢性肾脏病的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用达格列净治疗慢性肾脏病的方法",
+      "pdf": "pdfs/case_0079_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0079.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0080",
+      "source_case_id": "case_0080",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "三环二氢咪唑并嘧啶酮衍生物、其制备方法、药物组合物和用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "三环二氢咪唑并嘧啶酮衍生物、其制备方法、药物组合物和用途",
+      "pdf": "pdfs/case_0080_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0080.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "novelty",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0081",
+      "source_case_id": "case_0081",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二氢吲哚化合物及其生产方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "二氢吲哚化合物及其生产方法",
+      "pdf": "pdfs/case_0081_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0081.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0082",
+      "source_case_id": "case_0082",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "SGLT2抑制剂的晶体结构及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "SGLT2抑制剂的晶体结构及其制备方法",
+      "pdf": "pdfs/case_0082_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0082.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0082",
+      "source_case_id": "case_0082",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "SGLT2抑制剂的晶体结构及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "SGLT2抑制剂的晶体结构及其制备方法",
+      "pdf": "pdfs/case_0082_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0082.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0083",
+      "source_case_id": "case_0083",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "pdf": "pdfs/case_0083_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0083.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0084",
+      "source_case_id": "case_0084",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "pdf": "pdfs/case_0084_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0084.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0085",
+      "source_case_id": "case_0085",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "pdf": "pdfs/case_0085_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0085.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0086",
+      "source_case_id": "case_0086",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "pdf": "pdfs/case_0086_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0086.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0087",
+      "source_case_id": "case_0087",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种安全性高的桂哌齐特药用组合物及其制备方法和其应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种安全性高的桂哌齐特药用组合物及其制备方法和其应用",
+      "pdf": "pdfs/case_0087_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0087.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0088",
+      "source_case_id": "case_0088",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种安全性高的桂哌齐特药用组合物及其制备方法和其应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种安全性高的桂哌齐特药用组合物及其制备方法和其应用",
+      "pdf": "pdfs/case_0088_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0088.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0089",
+      "source_case_id": "case_0089",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "和多晶型物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "和多晶型物",
+      "pdf": "pdfs/case_0089_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0089.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0090",
+      "source_case_id": "case_0090",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "被取代的多环性氨基甲酰基吡啶酮衍生物的前药",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "被取代的多环性氨基甲酰基吡啶酮衍生物的前药",
+      "pdf": "pdfs/case_0090_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0090.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "priority"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0091",
+      "source_case_id": "case_0091",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种氟比洛芬酯药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种氟比洛芬酯药物组合物",
+      "pdf": "pdfs/case_0091_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0091.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0092",
+      "source_case_id": "case_0092",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种稳定的氟比洛芬酯药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种稳定的氟比洛芬酯药物组合物",
+      "pdf": "pdfs/case_0092_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0092.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0093",
+      "source_case_id": "case_0093",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种从人体血液中性粒细胞的嗜天青颗粒中分离纯化天然蛋白酶3的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种从人体血液中性粒细胞的嗜天青颗粒中分离纯化天然蛋白酶3的方法",
+      "pdf": "pdfs/case_0093_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0093.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0094",
+      "source_case_id": "case_0094",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含青蒿琥酯的组合物及其应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含青蒿琥酯的组合物及其应用",
+      "pdf": "pdfs/case_0094_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0094.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0095",
+      "source_case_id": "case_0095",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗眼病的组合物和方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "治疗眼病的组合物和方法",
+      "pdf": "pdfs/case_0095_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0095.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0097",
+      "source_case_id": "case_0097",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0097_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0097.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0098",
+      "source_case_id": "case_0098",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0098_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0098.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0099",
+      "source_case_id": "case_0099",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0099_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0099.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0100",
+      "source_case_id": "case_0100",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "获得的细粒的药物组合物以及中间体",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "获得的细粒的药物组合物以及中间体",
+      "pdf": "pdfs/case_0100_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0100.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0101",
+      "source_case_id": "case_0101",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "地加瑞克在制备治疗转移期前列腺癌的药物中的应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "地加瑞克在制备治疗转移期前列腺癌的药物中的应用",
+      "pdf": "pdfs/case_0101_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0101.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0102",
+      "source_case_id": "case_0102",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "四环素化合物的盐和多晶型物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "四环素化合物的盐和多晶型物",
+      "pdf": "pdfs/case_0102_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0102.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0103",
+      "source_case_id": "case_0103",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "适合口服给药的鸟苷酸环化酶-C受体激动剂多肽的稳定的固体制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "适合口服给药的鸟苷酸环化酶-C受体激动剂多肽的稳定的固体制剂",
+      "pdf": "pdfs/case_0103_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0103.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0103",
+      "source_case_id": "case_0103",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "适合口服给药的鸟苷酸环化酶-C受体激动剂多肽的稳定的固体制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "适合口服给药的鸟苷酸环化酶-C受体激动剂多肽的稳定的固体制剂",
+      "pdf": "pdfs/case_0103_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0103.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0104",
+      "source_case_id": "case_0104",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "血管紧张素受体拮抗剂和NEP抑制剂的药物组合产品",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "血管紧张素受体拮抗剂和NEP抑制剂的药物组合产品",
+      "pdf": "pdfs/case_0104_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0104.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0105",
+      "source_case_id": "case_0105",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0105_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0105.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0106",
+      "source_case_id": "case_0106",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0106_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0106.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0107",
+      "source_case_id": "case_0107",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0107_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0107.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0108",
+      "source_case_id": "case_0108",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有达格列嗪丙二醇水合物的药物制剂",
+      "pdf": "pdfs/case_0108_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0108.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0109",
+      "source_case_id": "case_0109",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "制造地加瑞克",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "制造地加瑞克",
+      "pdf": "pdfs/case_0109_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0109.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0110",
+      "source_case_id": "case_0110",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "7-乙基-10-羟基喜树碱晶型及其制备方法与应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "7-乙基-10-羟基喜树碱晶型及其制备方法与应用",
+      "pdf": "pdfs/case_0110_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0110.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0112",
+      "source_case_id": "case_0112",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗新型冠状病毒的抗体和检测新型冠状病毒的试剂盒",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "抗新型冠状病毒的抗体和检测新型冠状病毒的试剂盒",
+      "pdf": "pdfs/case_0112_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0112.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0113",
+      "source_case_id": "case_0113",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗新型冠状病毒的抗体、检测新型冠状病毒试剂和试剂盒",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "抗新型冠状病毒的抗体、检测新型冠状病毒试剂和试剂盒",
+      "pdf": "pdfs/case_0113_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0113.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0114",
+      "source_case_id": "case_0114",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗抑郁症的右美沙芬和安非他酮的组合",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于治疗抑郁症的右美沙芬和安非他酮的组合",
+      "pdf": "pdfs/case_0114_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0114.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0115",
+      "source_case_id": "case_0115",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "经取代的多环性吡啶酮衍生物及其前药",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "经取代的多环性吡啶酮衍生物及其前药",
+      "pdf": "pdfs/case_0115_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0115.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0116",
+      "source_case_id": "case_0116",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "经取代的多环性吡啶酮衍生物及其前药",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "经取代的多环性吡啶酮衍生物及其前药",
+      "pdf": "pdfs/case_0116_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0116.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0117",
+      "source_case_id": "case_0117",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种治疗和预防癌症的药物和应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种治疗和预防癌症的药物和应用",
+      "pdf": "pdfs/case_0117_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0117.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0118",
+      "source_case_id": "case_0118",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种化合物盐酸盐晶型及其应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种化合物盐酸盐晶型及其应用",
+      "pdf": "pdfs/case_0118_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0118.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0119",
+      "source_case_id": "case_0119",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "基丙腈的盐",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "基丙腈的盐",
+      "pdf": "pdfs/case_0119_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0119.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0119",
+      "source_case_id": "case_0119",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "基丙腈的盐",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "基丙腈的盐",
+      "pdf": "pdfs/case_0119_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0119.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0120",
+      "source_case_id": "case_0120",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗癌组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "抗癌组合物",
+      "pdf": "pdfs/case_0120_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0120.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0121",
+      "source_case_id": "case_0121",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "核苷氨基磷酸酯前药",
+      "decision_number": "",
+      "patent_number": "200880018024.2",
+      "patent_title": "核苷氨基磷酸酯前药",
+      "pdf": "pdfs/case_0121_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0121.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "claim_construction"
+      ],
+      "drug_name": "多种消旋体",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 100020 北京市朝阳区东三环中路1 号环球金融中心办公楼东楼20 层 北京市金杜律师事务所 陈文平,马慧(010-58785588) 发文日： 2025 年09 月25 日 申请号或专利号：200880018024.2 发文序号： 2025092200582250 案件编号： 4W118971 发明创造名称：核苷氨基磷酸酯前药 专利权人： 吉利德科学公司 无效宣告请求人：北京凯因科技股份有限公司 无效宣告请求审查决定书 （第588818 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无效宣告请求人就上述专利权所 提出...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0122",
+      "source_case_id": "case_0122",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "C-MET/HGFR 抑制剂的多晶型物",
+      "decision_number": "",
+      "patent_number": "200680045883.1",
+      "patent_title": "C-MET/HGFR 抑制剂的多晶型物",
+      "pdf": "pdfs/case_0122_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0122.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "作为蛋白激酶抑",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100013 北京市东城区北三环中路36 号环球贸易中心C 座10 层 北京市永新智财律师事务所 寇飞 于伟艳(010-63611666) 发文日： 2025 年08 月08 日 申请号或专利号：200680045883.1 发文序号： 2025080501037440 案件编号： 4W118141 发明创造名称：C-MET/HGFR 抑制剂的多晶型物 专利权人： 辉瑞产品公司 无效宣告请求人：江苏万邦生化医药集团有限责任公司 无效宣告请求审查决定书 （第581892 号） 根据专利法第46 条第1 款的规定，国家知识产权局对无...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0123",
+      "source_case_id": "case_0123",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种药物组合物及其在制备治疗脑血管病药物中的应用",
+      "decision_number": "",
+      "patent_number": "200980100527.9",
+      "patent_title": "一种药物组合物及其在制备治疗脑血管病药物中的应用",
+      "pdf": "pdfs/case_0123_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0123.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty",
+        "enablement"
+      ],
+      "drug_name": "说明书是否能够证明依达拉奉和冰",
+      "drug_name_confidence": "medium",
+      "summary": "--- Page 1 --- 国家知识产权局 201019 纸件申请，回函请寄：100088 北京市海淀区蓟门桥西土城路6 号 国家知识产权局专利局复审和无效审理部收 2022.10 电子申请，应当通过专利业务办理系统以电子文件形式提交相关文件。除另有规定外，以纸件等其他形式提交的 文件视为未提交。 1 100004 北京市朝阳区建国门外大街22 号（赛特大厦）1 幢18 层1801 室 北京允天律师事务所 贺伊博，赵祥森(010-59512472) 发文日： 2025 年07 月30 日 申请号或专利号：200980100527.9 发文序号： 2025072501805380 案件编号： 4W119517 发明创造名称：一种药物组合物及其在制备治疗脑血管病药物中的应用 专利权人： 先声药业有限公司江苏先声药业有限公司 无效宣告请求人：南京斯帕克医药科技有限公司 无效宣告请求审查决定书 （第588094 号） 根据专利法第46...",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.6
+      },
+      "review_required": false,
+      "original_exclude_reason": "",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0124",
+      "source_case_id": "case_0124",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "艾拉莫德结晶形态及其组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "艾拉莫德结晶形态及其组合物",
+      "pdf": "pdfs/case_0124_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0124.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0125",
+      "source_case_id": "case_0125",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吡咯并嘧啶衍生的化合物、药物组合物以及其用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吡咯并嘧啶衍生的化合物、药物组合物以及其用途",
+      "pdf": "pdfs/case_0125_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0125.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0126",
+      "source_case_id": "case_0126",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种氮杂双环医药中间体的制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种氮杂双环医药中间体的制备方法",
+      "pdf": "pdfs/case_0126_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0126.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0127",
+      "source_case_id": "case_0127",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "地洛他定多元酸碱金属或碱土金属盐复合盐及其药用组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "地洛他定多元酸碱金属或碱土金属盐复合盐及其药用组合物",
+      "pdf": "pdfs/case_0127_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0127.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0128",
+      "source_case_id": "case_0128",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二芳基乙内酰脲化合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "二芳基乙内酰脲化合物",
+      "pdf": "pdfs/case_0128_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0128.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0129",
+      "source_case_id": "case_0129",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二芳基乙内酰脲化合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "二芳基乙内酰脲化合物",
+      "pdf": "pdfs/case_0129_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0129.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0130",
+      "source_case_id": "case_0130",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二芳基乙内酰脲化合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "二芳基乙内酰脲化合物",
+      "pdf": "pdfs/case_0130_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0130.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0131",
+      "source_case_id": "case_0131",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "二芳基乙内酰脲化合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "二芳基乙内酰脲化合物",
+      "pdf": "pdfs/case_0131_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0131.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0132",
+      "source_case_id": "case_0132",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "适合口服给药的鸟苷酸环化酶-C受体激动剂多肽的稳定的固体制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "适合口服给药的鸟苷酸环化酶-C受体激动剂多肽的稳定的固体制剂",
+      "pdf": "pdfs/case_0132_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0132.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "written_description",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0133",
+      "source_case_id": "case_0133",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "药物组合物",
+      "pdf": "pdfs/case_0133_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0133.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0134",
+      "source_case_id": "case_0134",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含磷酸盐结合剂颗粒的药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "包含磷酸盐结合剂颗粒的药物组合物",
+      "pdf": "pdfs/case_0134_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0134.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0134",
+      "source_case_id": "case_0134",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含磷酸盐结合剂颗粒的药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "包含磷酸盐结合剂颗粒的药物组合物",
+      "pdf": "pdfs/case_0134_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0134.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0135",
+      "source_case_id": "case_0135",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗高钾血症的微孔硅酸锆",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于治疗高钾血症的微孔硅酸锆",
+      "pdf": "pdfs/case_0135_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0135.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0135",
+      "source_case_id": "case_0135",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗高钾血症的微孔硅酸锆",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于治疗高钾血症的微孔硅酸锆",
+      "pdf": "pdfs/case_0135_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0135.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0136",
+      "source_case_id": "case_0136",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "制备取代的2-芳基乙醇的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "制备取代的2-芳基乙醇的方法",
+      "pdf": "pdfs/case_0136_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0136.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0137",
+      "source_case_id": "case_0137",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "生物转化制备牛磺熊去氧胆酸的方法及其应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "生物转化制备牛磺熊去氧胆酸的方法及其应用",
+      "pdf": "pdfs/case_0137_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0137.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0138",
+      "source_case_id": "case_0138",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种食欲素受体拮抗剂的晶型及其制备方法和用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种食欲素受体拮抗剂的晶型及其制备方法和用途",
+      "pdf": "pdfs/case_0138_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0138.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0139",
+      "source_case_id": "case_0139",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "稳定的R-氯胺酮药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "稳定的R-氯胺酮药物组合物",
+      "pdf": "pdfs/case_0139_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0139.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0140",
+      "source_case_id": "case_0140",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种化合物的结晶形式及其制备方法和用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种化合物的结晶形式及其制备方法和用途",
+      "pdf": "pdfs/case_0140_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0140.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0141",
+      "source_case_id": "case_0141",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "GLP-1类似物融合蛋白质制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "GLP-1类似物融合蛋白质制剂",
+      "pdf": "pdfs/case_0141_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0141.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0142",
+      "source_case_id": "case_0142",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "血管紧张素受体拮抗剂和NEP抑制剂的药物组合产品",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "血管紧张素受体拮抗剂和NEP抑制剂的药物组合产品",
+      "pdf": "pdfs/case_0142_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0142.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0144",
+      "source_case_id": "case_0144",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "胃肠疾患的治疗",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "胃肠疾患的治疗",
+      "pdf": "pdfs/case_0144_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0144.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0146",
+      "source_case_id": "case_0146",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吲哚布芬晶型X和晶型D及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吲哚布芬晶型X和晶型D及其制备方法",
+      "pdf": "pdfs/case_0146_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0146.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0147",
+      "source_case_id": "case_0147",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吲哚布芬晶型D及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吲哚布芬晶型D及其制备方法",
+      "pdf": "pdfs/case_0147_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0147.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0148",
+      "source_case_id": "case_0148",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吲哚布芬晶型D及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吲哚布芬晶型D及其制备方法",
+      "pdf": "pdfs/case_0148_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0148.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0149",
+      "source_case_id": "case_0149",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吲哚布芬晶型D及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吲哚布芬晶型D及其制备方法",
+      "pdf": "pdfs/case_0149_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0149.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0150",
+      "source_case_id": "case_0150",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吲哚布芬晶型D及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吲哚布芬晶型D及其制备方法",
+      "pdf": "pdfs/case_0150_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0150.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0151",
+      "source_case_id": "case_0151",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种吲哚布芬晶型D及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种吲哚布芬晶型D及其制备方法",
+      "pdf": "pdfs/case_0151_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0151.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0152",
+      "source_case_id": "case_0152",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于预防和治疗Ⅰ型和Ⅱ型糖尿病的组合物和方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于预防和治疗Ⅰ型和Ⅱ型糖尿病的组合物和方法",
+      "pdf": "pdfs/case_0152_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0152.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0153",
+      "source_case_id": "case_0153",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "C-MET/HGFR抑制剂的多晶型物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "C-MET/HGFR抑制剂的多晶型物",
+      "pdf": "pdfs/case_0153_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0153.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0154",
+      "source_case_id": "case_0154",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "葡萄糖醇衍生物与氨基酸的结晶溶剂合物和络合物",
+      "pdf": "pdfs/case_0154_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0154.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "enablement",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0155",
+      "source_case_id": "case_0155",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "取代的4-芳基-1,4-二氢-1,6-萘啶酰胺和其用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "取代的4-芳基-1,4-二氢-1,6-萘啶酰胺和其用途",
+      "pdf": "pdfs/case_0155_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0155.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0156",
+      "source_case_id": "case_0156",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种药物组合物及其在制备治疗脑血管病药物中的应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种药物组合物及其在制备治疗脑血管病药物中的应用",
+      "pdf": "pdfs/case_0156_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0156.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0159",
+      "source_case_id": "case_0159",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "酰胺组合物及其用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "酰胺组合物及其用途",
+      "pdf": "pdfs/case_0159_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0159.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0160",
+      "source_case_id": "case_0160",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "胃肠病症的治疗",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "胃肠病症的治疗",
+      "pdf": "pdfs/case_0160_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0160.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0161",
+      "source_case_id": "case_0161",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "结合分子",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "结合分子",
+      "pdf": "pdfs/case_0161_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0161.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0162",
+      "source_case_id": "case_0162",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "作为两面神激酶抑制剂的杂芳基取代的吡咯并[2,3-b]吡啶和吡咯并[2,3-b]嘧啶",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "作为两面神激酶抑制剂的杂芳基取代的吡咯并[2,3-b]吡啶和吡咯并[2,3-b]嘧啶",
+      "pdf": "pdfs/case_0162_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0162.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0163",
+      "source_case_id": "case_0163",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "含有具有儿茶酚基的头孢菌素类的制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "含有具有儿茶酚基的头孢菌素类的制剂",
+      "pdf": "pdfs/case_0163_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0163.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "enablement",
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0164",
+      "source_case_id": "case_0164",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗α4β7抗体的制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "抗α4β7抗体的制剂",
+      "pdf": "pdfs/case_0164_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0164.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0165",
+      "source_case_id": "case_0165",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "嘧啶或吡啶类化合物、其制备方法和医药用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "嘧啶或吡啶类化合物、其制备方法和医药用途",
+      "pdf": "pdfs/case_0165_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0165.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0166",
+      "source_case_id": "case_0166",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种罗库溴铵晶型",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种罗库溴铵晶型",
+      "pdf": "pdfs/case_0166_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0166.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0167",
+      "source_case_id": "case_0167",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于合成5’-加帽RNA的组合物和方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于合成5’-加帽RNA的组合物和方法",
+      "pdf": "pdfs/case_0167_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0167.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0168",
+      "source_case_id": "case_0168",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "针对三碘甲状腺原氨酸的单克隆抗体、基于其的检测试剂及其应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "针对三碘甲状腺原氨酸的单克隆抗体、基于其的检测试剂及其应用",
+      "pdf": "pdfs/case_0168_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0168.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0170",
+      "source_case_id": "case_0170",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用作片剂的脂肪胺聚合物盐",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用作片剂的脂肪胺聚合物盐",
+      "pdf": "pdfs/case_0170_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0170.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0171",
+      "source_case_id": "case_0171",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "8-[3-氨基-哌啶-1-基]-黄嘌呤化合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "8-[3-氨基-哌啶-1-基]-黄嘌呤化合物",
+      "pdf": "pdfs/case_0171_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0171.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "enablement",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0172",
+      "source_case_id": "case_0172",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "核苷氨基磷酸酯前药",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "核苷氨基磷酸酯前药",
+      "pdf": "pdfs/case_0172_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0172.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "novelty",
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0173",
+      "source_case_id": "case_0173",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种E构型苯甲酰胺类化合物及其药用制剂与应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种E构型苯甲酰胺类化合物及其药用制剂与应用",
+      "pdf": "pdfs/case_0173_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0173.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "novelty",
+        "inventive_step",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0174",
+      "source_case_id": "case_0174",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "托法替布口服持续释放剂型",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "托法替布口服持续释放剂型",
+      "pdf": "pdfs/case_0174_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0174.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0175",
+      "source_case_id": "case_0175",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "C-MET/HGFR抑制剂的多晶型物",
+      "decision_number": "",
+      "patent_number": "CN2006800458831",
+      "patent_title": "C-MET/HGFR抑制剂的多晶型物",
+      "pdf": "pdfs/case_0175_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0175.md",
+      "patent_type": "晶型/盐/溶剂合物",
+      "legal_points": [
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0176",
+      "source_case_id": "case_0176",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "镁组合物及其用途",
+      "decision_number": "",
+      "patent_number": "CN2017100689554",
+      "patent_title": "镁组合物及其用途",
+      "pdf": "pdfs/case_0176_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0176.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0178",
+      "source_case_id": "case_0178",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗体在制备用于治疗或预防偏头痛的药物中的用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "抗体在制备用于治疗或预防偏头痛的药物中的用途",
+      "pdf": "pdfs/case_0178_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0178.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0179",
+      "source_case_id": "case_0179",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗中枢神经系统疾病的组合物和方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "治疗中枢神经系统疾病的组合物和方法",
+      "pdf": "pdfs/case_0179_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0179.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0180",
+      "source_case_id": "case_0180",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种艾拉莫德类似物及其分离方法",
+      "decision_number": "",
+      "patent_number": "CN2009100256055",
+      "patent_title": "一种艾拉莫德类似物及其分离方法",
+      "pdf": "pdfs/case_0180_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0180.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0181",
+      "source_case_id": "case_0181",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "2-(2,4,5-取代苯胺)嘧啶衍生物作为EGFR 调谐子用于治疗癌症",
+      "decision_number": "",
+      "patent_number": "CN2012800337739",
+      "patent_title": "2-(2,4,5-取代苯胺)嘧啶衍生物作为EGFR 调谐子用于治疗癌症",
+      "pdf": "pdfs/case_0181_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0181.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0182",
+      "source_case_id": "case_0182",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "2-(2,4,5-取代苯胺)嘧啶衍生物作为EGFR调谐子用于治疗癌症",
+      "decision_number": "",
+      "patent_number": "CN2014102871562",
+      "patent_title": "2-(2,4,5-取代苯胺)嘧啶衍生物作为EGFR调谐子用于治疗癌症",
+      "pdf": "pdfs/case_0182_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0182.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0183",
+      "source_case_id": "case_0183",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "对脂蛋白脂肪酶缺乏(LPLD)群体中的载脂蛋白C-III(APOCIII)表达的调节",
+      "decision_number": "",
+      "patent_number": "CN2014800078625",
+      "patent_title": "对脂蛋白脂肪酶缺乏(LPLD)群体中的载脂蛋白C-III(APOCIII)表达的调节",
+      "pdf": "pdfs/case_0183_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0183.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "written_description",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0184",
+      "source_case_id": "case_0184",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗眼部病状的方法",
+      "decision_number": "",
+      "patent_number": "CN2015800679405",
+      "patent_title": "治疗眼部病状的方法",
+      "pdf": "pdfs/case_0184_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0184.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step",
+        "claim_construction",
+        "amendment"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0185",
+      "source_case_id": "case_0185",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "包含化合物与富马酸的结晶形式的药物组合物及其制备方法和用途",
+      "decision_number": "",
+      "patent_number": "CN202210663264X",
+      "patent_title": "包含化合物与富马酸的结晶形式的药物组合物及其制备方法和用途",
+      "pdf": "pdfs/case_0185_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0185.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0186",
+      "source_case_id": "case_0186",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "眼部疾病的细胞模型及用于眼部疾病的疗法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "眼部疾病的细胞模型及用于眼部疾病的疗法",
+      "pdf": "pdfs/case_0186_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0186.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0187",
+      "source_case_id": "case_0187",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗体在制备用于治疗或预防偏头痛的药物中的用途",
+      "decision_number": "",
+      "patent_number": "CN2015800811860",
+      "patent_title": "抗体在制备用于治疗或预防偏头痛的药物中的用途",
+      "pdf": "pdfs/case_0187_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0187.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0188",
+      "source_case_id": "case_0188",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "治疗中枢神经系统疾病的组合物和方法",
+      "decision_number": "",
+      "patent_number": "CN2018800898919",
+      "patent_title": "治疗中枢神经系统疾病的组合物和方法",
+      "pdf": "pdfs/case_0188_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0188.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "written_description",
+        "inventive_step",
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0189",
+      "source_case_id": "case_0189",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "药物溶液、制备方法和治疗应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "药物溶液、制备方法和治疗应用",
+      "pdf": "pdfs/case_0189_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0189.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0190",
+      "source_case_id": "case_0190",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "用于治疗癌症的方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "用于治疗癌症的方法",
+      "pdf": "pdfs/case_0190_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0190.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0191",
+      "source_case_id": "case_0191",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "HER2二聚化抑制剂帕妥珠单抗的用途和包含HER2二聚化抑制剂帕妥珠单抗的制品",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "HER2二聚化抑制剂帕妥珠单抗的用途和包含HER2二聚化抑制剂帕妥珠单抗的制品",
+      "pdf": "pdfs/case_0191_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0191.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0192",
+      "source_case_id": "case_0192",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "阿普斯特吸入粉雾剂及其制备方法和应用",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "阿普斯特吸入粉雾剂及其制备方法和应用",
+      "pdf": "pdfs/case_0192_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0192.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0193",
+      "source_case_id": "case_0193",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种含有阿莫西林钠克拉维酸钾化合物的药物组合物",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种含有阿莫西林钠克拉维酸钾化合物的药物组合物",
+      "pdf": "pdfs/case_0193_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0193.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0194",
+      "source_case_id": "case_0194",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "取代的5-氟-1H-吡唑并吡啶类化合物及其用途",
+      "decision_number": "",
+      "patent_number": "CN2011800260107",
+      "patent_title": "取代的5-氟-1H-吡唑并吡啶类化合物及其用途",
+      "pdf": "pdfs/case_0194_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0194.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0195",
+      "source_case_id": "case_0195",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "制备异喹啉化合物的方法",
+      "decision_number": "",
+      "patent_number": "CN2013103028220",
+      "patent_title": "制备异喹啉化合物的方法",
+      "pdf": "pdfs/case_0195_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0195.md",
+      "patent_type": "化合物专利",
+      "legal_points": [
+        "written_description"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0196",
+      "source_case_id": "case_0196",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "GLP-1组合物及其用途",
+      "decision_number": "",
+      "patent_number": "CN2018800542092",
+      "patent_title": "GLP-1组合物及其用途",
+      "pdf": "pdfs/case_0196_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0196.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "pending_review"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.2,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0197",
+      "source_case_id": "case_0197",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "抗人白细胞介素-4受体α抗体及其制备方法和应用",
+      "decision_number": "",
+      "patent_number": "CN2020103092388",
+      "patent_title": "抗人白细胞介素-4受体α抗体及其制备方法和应用",
+      "pdf": "pdfs/case_0197_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0197.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "inventive_step",
+        "enablement",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0198",
+      "source_case_id": "case_0198",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种盐酸纳洛酮注射液及制备方法",
+      "decision_number": "",
+      "patent_number": "CN2023106467219",
+      "patent_title": "一种盐酸纳洛酮注射液及制备方法",
+      "pdf": "pdfs/case_0198_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0198.md",
+      "patent_type": "制剂/组合物",
+      "legal_points": [
+        "novelty",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0199",
+      "source_case_id": "case_0199",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种酶催化淀粉制备葡醛内酯的方法",
+      "decision_number": "",
+      "patent_number": "CN202311422839X",
+      "patent_title": "一种酶催化淀粉制备葡醛内酯的方法",
+      "pdf": "pdfs/case_0199_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0199.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0200",
+      "source_case_id": "case_0200",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "作为抗炎药的含硼的小分子",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "作为抗炎药的含硼的小分子",
+      "pdf": "pdfs/case_0200_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0200.md",
+      "patent_type": "其他",
+      "legal_points": [
+        "enablement"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.35,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0202",
+      "source_case_id": "case_0202",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "镁组合物及其用途",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "镁组合物及其用途",
+      "pdf": "pdfs/case_0202_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0202.md",
+      "patent_type": "用途/适应症",
+      "legal_points": [
+        "enablement",
+        "inventive_step",
+        "novelty"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0203",
+      "source_case_id": "case_0203",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种含14种氨基酸的药物组合物及其制备方法",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种含14种氨基酸的药物组合物及其制备方法",
+      "pdf": "pdfs/case_0203_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0203.md",
+      "patent_type": "制备方法/中间体",
+      "legal_points": [
+        "inventive_step",
+        "written_description",
+        "claim_construction"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    },
+    {
+      "case_id": "cn_0204",
+      "source_case_id": "case_0204",
+      "jurisdiction": "cn",
+      "language": "zh",
+      "title": "一种稳定的抗人IL-4Rα单克隆抗体制剂",
+      "decision_number": "",
+      "patent_number": "",
+      "patent_title": "一种稳定的抗人IL-4Rα单克隆抗体制剂",
+      "pdf": "pdfs/case_0204_cn.pdf",
+      "parsed_markdown": "parsed/cn/markdown/cn_0204.md",
+      "patent_type": "生物制品/抗体",
+      "legal_points": [
+        "written_description",
+        "inventive_step"
+      ],
+      "drug_name": "待人工确认",
+      "drug_name_confidence": "manual_required",
+      "summary": "该 PDF 可能为扫描件，当前未提取到可用文本。请后续接入 OCR 或人工补充摘要。",
+      "status": "部分无效",
+      "confidence": {
+        "title": 0.85,
+        "patent_type": 0.75,
+        "legal_points": 0.65,
+        "drug_name": 0.2
+      },
+      "review_required": true,
+      "original_exclude_reason": "needs_ocr_review",
+      "parse_status": "success"
+    }
+  ]
+}

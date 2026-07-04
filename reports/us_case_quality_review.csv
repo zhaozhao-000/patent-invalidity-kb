@@ -1,0 +1,33 @@
+﻿case_id,patent_number,proceeding_number,patent_title,petitioner,patent_owner,plaintiff,defendant,patent_type,reasons
+us_0211,US8399514B2,IPR2018-01403,Treatment for multiple sclerosis,MYLAN PHARMACEUTICALS INC,BIOGEN MA INC,,,用途/适应症,summary_weak
+us_0214,US7767441B2,IPR2020-01163,"Bioassay system including optical detection apparatuses, and method for detecting biomolecules","PACIFIC BIOSCIENCES OF CALIFORNIA, INC","PERSONAL GENOMICS TAIWAN, INC",,,待确认,patent_type_pending
+us_0215,US7767441B2,IPR2020-01200,"Bioassay system including optical detection apparatuses, and method for detecting biomolecules","PACIFIC BIOSCIENCES OF CALIFORNIA, INC","PERSONAL GENOMICS TAIWAN, INC",,,待确认,patent_type_pending
+us_0222,US10316359B2,IPR2021-00401,results in less efficient amplification,"PILLAR BIOSCIENCES, INC","SWIFT BIOSCIENCES, INC",,,待确认,patent_type_pending
+us_0231,US7332277B2,IPR2021-00902,Methods for detection of genetic disorders,LABORATORY CORPORATION OF AMERICA HOLDINGS,"RAVGEN, INC",,,待确认,patent_type_pending
+us_0235,US7727720B2,IPR2021-01026,Methods for detection of genetic disorders,LABORATORY CORPORATION OF AMERICA HOLDINGS,"RAVGEN, INC",,,待确认,patent_type_pending
+us_0236,US10542734B2,IPR2021-01027,Methods for increasing genetic progress in a line or breed of swine using sex-selected sperm cells,GENUS PLC,"INGURAN, LLC",,,待确认,patent_type_pending
+us_0237,US7332277B2,IPR2021-01054,Methods for detection of genetic disorders,LABORATORY CORPORATION OF AMERICA HOLDINGS,"RAVGEN, INC",,,待确认,patent_type_pending
+us_0238,US7727720B2,IPR2021-01271,Methods for detection of genetic disorders,"ILLUMINA, INC","RAVGEN, INC",,,待确认,patent_type_pending
+us_0239,US7332277B2,IPR2021-01272,Methods for detection of genetic disorders,"ILLUMINA, INC","RAVGEN, INC",,,待确认,patent_type_pending
+us_0242,US7332277B2,IPR2021-01577,Methods for detection of genetic disorders,"STRECK, INC. and STRECK LLC $^{1}$","RAVGEN, INC",,,待确认,patent_type_pending
+us_0251,,IPR2021-01324,案例分析,,,,,待确认,patent_number_missing;patent_lookup_failed;parties_missing;patent_type_pending
+us_0252,,IPR2023-00862,案例分析,,,,,生物制品/抗体,patent_number_missing;patent_lookup_failed;parties_missing
+us_0262,US9587203B2,IPR2022-00625,Methods for extracting solute from a source material,EXTRACTIONTEK SALES LLC,"GENE POOL TECHNOLOGIES, INC",,,待确认,patent_type_pending
+us_0267,US10760127B2,IPR2022-00817,Methods of lowering the error rate of massively parallel DNA sequencing using duplex consensus sequencing,"Guardant Health, Inc",University of Washington,,,待确认,patent_type_pending
+us_0268,US9145532B2,IPR2022-00832,Methods for extracting solute from a source material,EXTRACTIONTEK SALES LLC,"GENE POOL TECHNOLOGIES, INC",,,待确认,patent_type_pending
+us_0271,US10752951B2,IPR2022-01158,Methods of lowering the error rate of massively parallel DNA sequencing using duplex consensus sequencing,"GUARDANT HEALTH, INC",UNIVERSITY OF WASHINGTON,,,待确认,patent_type_pending
+us_0274,US11149306B2,IPR2022-01400,Methods and systems for detecting genetic variants,"TWINSTRAND BIOSCIENCES, INC",filed its,,,待确认,patent_type_pending
+us_0275,US10131682C1,IPR2022-01531,,SYNAFFIX B.V,"HANGZHOU DAC BIOTECH CO., LTD",,,待确认,patent_lookup_failed;patent_title_missing_or_weak;patent_type_pending
+us_0293,US11339219B2,IPR2024-00625,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,THE JOHNS HOPKINS UNIVERSITY,,,生物制品/抗体,summary_weak
+us_0294,US11649287B2,IPR2024-00647,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,did not file a Preliminary Respon,,,生物制品/抗体,summary_weak
+us_0295,US11629187B2,IPR2024-00649,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,did not file a Preliminary Respon,,,生物制品/抗体,summary_weak
+us_0296,US11634491B2,IPR2024-00650,Checkpoint blockade and microsatellite instability,Merck Sharp & Dohme LLC,The Johns Hopkins University,,,生物制品/抗体,summary_weak
+us_0300,US10849908B2,PGR2021-00088,Corticotropin releasing factor receptor antagonists,"# NEUROCRINE BIOSCIENCES, INC","SPRUCE BIOSCIENCES, INC",,,制剂/组合物,summary_weak
+us_0303,US10993942B2,PGR2022-00023,Combination therapy of a type II anti-CD20 antibody with a selective BCL-2 inhibitor,"DR. REDDY'S LABORATORIES, INC","GENENTECH, INC., HOFFMAN-LA ROCHE AG, and ABBVIE INC",,,生物制品/抗体,summary_weak
+us_0310,US11672803B2,PGR2024-00009,Use of inhibitors of Brutons tyrosine kinase (Btk),Finally,PHARMACYCLICS LLC,,,待确认,patent_type_pending
+us_0311,US10131682C1,IPR2022-01531,,SYNAFFIX B.V,"HANGZHOU DAC BIOTECH CO., LTD",,,待确认,patent_lookup_failed;patent_title_missing_or_weak;patent_type_pending
+us_0312,US10934356B2,IPR2024-00622,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,THE JOHNS HOPKINS UNIVERSITY,,,生物制品/抗体,summary_weak
+us_0313,US11325975B2,IPR2024-00624,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,THE JOHNS HOPKINS UNIVERSITY,,,生物制品/抗体,summary_weak
+us_0314,US11325974B2,IPR2024-00623,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,THE JOHNS HOPKINS UNIVERSITY,,,生物制品/抗体,summary_weak
+us_0315,US11643462B2,IPR2024-00648,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,THE JOHNS HOPKINS UNIVERSITY,,,生物制品/抗体,summary_weak
+us_0329,US11435360B2,IPR2024-01473,System and sensor array,PREOMICS GMBH AND BIOGNOSYS AG,"The Brigham and Women's Hospital, Inc",,,待确认,patent_type_pending

@@ -8,6 +8,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from us_case_parser import normalize_us_patent_number as normalize_us_patent_number_v2
+from us_case_parser import parse_us_case
+from us_patent_lookup import lookup_us_patent, save_cache as save_us_patent_cache
+
 
 ROOT = Path(__file__).resolve().parents[1]
 INPUT_DIR = ROOT / "input_pdfs"
@@ -420,12 +424,84 @@ def extract_cn_decision_points(text: str) -> str:
     return ""
 
 
-def extract_cn_parties(text: str, record: dict[str, Any]) -> tuple[str, str]:
-    owner = first_match([r"专利权人[:：]\s*([^\n。；;]{2,120})", r"<td>专利权人</td><td>(.*?)</td>"], text, re.S)
-    petitioner = first_match([r"无效宣告请求人[:：]\s*([^\n。；;]{2,120})", r"<td>无效宣告请求人</td><td>(.*?)</td>"], text, re.S)
-    owner = owner or clean_party_name(str(record.get("patentee_or_patent_owner") or ""))
-    petitioner = petitioner or clean_party_name(str(record.get("petitioner") or ""))
-    return owner, petitioner
+CN_PARTY_BAD = re.compile(r"代理人|代理机构|律师事务所|知识产权代理|地址|电话|邮编|传真|邮箱|@|审查员|合议组|国家知识产权局")
+
+
+def clean_cn_party_name(value: str) -> tuple[str, bool]:
+    value = strip_markup(str(value or ""))
+    value = re.sub(r"\s+", " ", value).strip(" ：:，,。.;；、")
+    value = re.split(r"(?:委托代理人|代理机构|地址|电话|邮编|传真|电子邮箱|合议组|审查员|主审员|参审员)", value)[0]
+    value = re.sub(r"^(?:为|名称[:：]?|是)\s*", "", value).strip(" ：:，,。.;；、")
+    review = False
+    if len(re.findall(r"[\u4e00-\u9fff]", value)) > 80:
+        value = value[:80].rstrip(" ：:，,。.;；、")
+        review = True
+    if CN_PARTY_BAD.search(value):
+        review = True
+    return value, review
+
+
+def cn_party_patterns(role: str) -> list[str]:
+    if role == "owner":
+        return [
+            r"<td>\s*(?:专利权人|专利权人名称|被请求人)\s*</td>\s*<td>\s*(.*?)\s*</td>",
+            r"(?:专利权人名称|专利权人|被请求人)[:：\s　]+([^\n。；;]{2,160})",
+            r"专利权人为\s*([^\n。；;]{2,160})",
+        ]
+    return [
+        r"<td>\s*(?:无效宣告请求人|请求人|第一请求人|第二请求人)\s*</td>\s*<td>\s*(.*?)\s*</td>",
+        r"(?:无效宣告请求人|第一请求人|第二请求人|请求人)[:：\s　]+([^\n。；;]{2,160})",
+        r"请求人为\s*([^\n。；;]{2,160})",
+    ]
+
+
+def extract_cn_party_values(text: str, role: str) -> tuple[list[str], str, str, bool]:
+    front = text[:8000]
+    found: list[str] = []
+    evidence = ""
+    source = "unknown"
+    review = False
+    for pattern in cn_party_patterns(role):
+        for match in re.finditer(pattern, front, re.S):
+            value, needs_review = clean_cn_party_name(match.group(1))
+            if not value:
+                continue
+            if value not in found:
+                found.append(value)
+            review = review or needs_review
+            if not evidence:
+                evidence = clean_summary_text(match.group(0))[:240]
+                source = "table" if "<td>" in pattern else "front_page"
+        if found:
+            break
+    return found, source, evidence, review
+
+
+def extract_cn_parties(text: str, record: dict[str, Any]) -> tuple[str, str, list[str], dict[str, Any]]:
+    owners, owner_source, owner_evidence, owner_review = extract_cn_party_values(text, "owner")
+    petitioners, petitioner_source, petitioner_evidence, petitioner_review = extract_cn_party_values(text, "petitioner")
+    if not owners:
+        fallback, owner_review = clean_cn_party_name(str(record.get("patentee_or_patent_owner") or ""))
+        owners = [fallback] if fallback else []
+        owner_source = "manual" if fallback else "unknown"
+    if not petitioners:
+        fallback, petitioner_review = clean_cn_party_name(str(record.get("petitioner") or ""))
+        petitioners = [fallback] if fallback else []
+        petitioner_source = "manual" if fallback else "unknown"
+    source = "front_page" if "front_page" in {owner_source, petitioner_source} else (owner_source if owner_source != "unknown" else petitioner_source)
+    confidence = 0.9 if owners and petitioners and source in {"front_page", "table"} else (0.6 if owners or petitioners else 0.0)
+    review_required = owner_review or petitioner_review or not owners or not petitioners
+    return (
+        "、".join(owners),
+        "、".join(petitioners),
+        petitioners,
+        {
+            "source": source,
+            "confidence": confidence,
+            "review_required": review_required,
+            "evidence": " / ".join(v for v in [owner_evidence, petitioner_evidence] if v)[:500],
+        },
+    )
 
 
 def extract_cn_patent_title(text: str, fallback: str) -> str:
@@ -503,32 +579,20 @@ def load_us_patent_cache() -> dict[str, Any]:
 
 
 def patent_lookup_us(patent_number: str, text: str, cache: dict[str, Any]) -> dict[str, Any]:
-    normalized = normalize_us_patent_number(patent_number)
-    cached = cache.get(normalized) if normalized else None
-    if isinstance(cached, dict):
-        return {**cached, "patent_number": normalized, "status": "success", "source": cached.get("source", "local_cache"), "confidence": cached.get("confidence", 0.9)}
-    title = ""
-    abstract = ""
-    abstract_match = re.search(r"The\s+'?\d+\s+patent\s+\"([^\"]{20,260})\"", text, re.I)
-    if abstract_match:
-        abstract = clean_summary_text(abstract_match.group(1))
-    if not abstract:
-        abstract = first_match([r"(?:Abstract\.?|ABSTRACT)\s*(.{30,360})"], text, re.I | re.S)
-    title_match = re.search(r"(?:Title|Patent Title)[:\s]+([A-Z][^\n]{12,180})", text)
-    if title_match:
-        title = clean_summary_text(title_match.group(1))
-    return {
-        "patent_number": normalized,
-        "patent_title": title,
-        "assignee": "",
-        "inventors": [],
-        "abstract": abstract,
-        "publication_date": "",
-        "grant_date": "",
-        "source": "pdf",
-        "status": "partial" if title else ("abstract_only" if abstract else "failed"),
-        "confidence": 0.75 if title else 0.0,
-    }
+    normalized = normalize_us_patent_number_v2(patent_number)
+    lookup = lookup_us_patent(normalized, cache, allow_network=True)
+    if lookup.get("lookup_status") in {"failed", "partial"} and not lookup.get("abstract"):
+        abstract = ""
+        abstract_match = re.search(r"The\s+'?\d+\s+patent\s+\"([^\"]{20,260})\"", text, re.I)
+        if abstract_match:
+            abstract = clean_summary_text(abstract_match.group(1))
+        if abstract:
+            lookup["abstract"] = abstract
+            lookup["source"] = f"{lookup.get('source', 'lookup_failed')}+ptab_text"
+            lookup["lookup_status"] = "partial"
+            lookup["status"] = "partial"
+            lookup["confidence"] = max(float(lookup.get("confidence") or 0), 0.45)
+    return lookup
 
 
 def us_title(record: dict[str, Any], text: str, lookup: dict[str, Any]) -> tuple[str, float, bool]:
@@ -717,7 +781,7 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
     points = record.get("legal_issues") or ["pending_review"]
     if not points:
         points = ["pending_review"]
-    owner, petitioner = extract_cn_parties(text, record)
+    owner, petitioner, petitioner_values, party_extraction = extract_cn_parties(text, record)
     status = cn_status(record)
     summary, summary_source, summary_review_required = cn_summary(record, text, title, points, status, owner, petitioner)
     dinfo = drug_info(record, text)
@@ -742,8 +806,9 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
         "invalidity_petitioner": petitioner,
         "parties": [
             {"role": "专利权人", "name": owner} if owner else {},
-            {"role": "无效请求人", "name": petitioner} if petitioner else {},
+            *[{"role": "无效请求人", "name": value} for value in petitioner_values],
         ],
+        "party_extraction": party_extraction,
         "summary": summary,
         "summary_source": summary_source,
         "summary_review_required": summary_review_required,
@@ -755,7 +820,7 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
             "legal_points": 0.65 if points != ["pending_review"] else 0.2,
             "drug_name": dinfo["confidence"],
             "summary": 0.85 if summary_source == "decision_points" else 0.55,
-            "parties": 0.8 if owner and petitioner else 0.2,
+            "parties": party_extraction["confidence"],
         },
         "review_required": bool(
             record.get("needs_manual_summary")
@@ -764,6 +829,7 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
             or summary_review_required
             or not owner
             or not petitioner
+            or party_extraction["review_required"]
             or dinfo["review_required"]
         ),
         "manual_override_applied": False,
@@ -783,23 +849,39 @@ def build_us_case(
     override: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     points, points_conf = us_legal_points(record, text)
-    lookup = patent_lookup_us(record.get("patent_number", ""), text, patent_cache)
+    parsed = parse_us_case(text, Path(str(record.get("source_file") or parsed_md or "")).name, str(record.get("patent_number") or ""))
+    patent_number = parsed.get("main_patent_number") or parsed.get("patent_number") or normalize_us_patent_number_v2(str(record.get("patent_number") or ""))
+    lookup = patent_lookup_us(patent_number, text, patent_cache)
     title, title_conf, title_review_required = us_title(record, text, lookup)
     ptype, secondary_types, ptype_conf, ptype_basis = classify_us_patent_type(text, lookup)
-    petitioner, patent_owner, plaintiff, defendant = extract_us_parties(text, record)
+    petitioner = parsed.get("petitioner") or ""
+    patent_owner = parsed.get("patent_owner") or ""
+    plaintiff = parsed.get("plaintiff") or ""
+    defendant = parsed.get("defendant") or ""
+    if not ((petitioner and patent_owner) or (plaintiff and defendant)):
+        fallback_petitioner, fallback_owner, fallback_plaintiff, fallback_defendant = extract_us_parties(text, record)
+        petitioner = petitioner or fallback_petitioner
+        patent_owner = patent_owner or fallback_owner
+        plaintiff = plaintiff or fallback_plaintiff
+        defendant = defendant or fallback_defendant
     dinfo = drug_info(record, text)
     base_item = {
         "title": title,
         "patent_title": lookup.get("patent_title") or title,
-        "proceeding_type": us_proceeding_type(record, text),
-        "proceeding_number": record.get("proceeding_number", ""),
-        "case_number": record.get("court_case_number", ""),
-        "patent_number": normalize_us_patent_number(record.get("patent_number", "")) or record.get("patent_number", ""),
+        "proceeding_type": parsed.get("proceeding_type") or us_proceeding_type(record, text),
+        "proceeding_number": parsed.get("proceeding_number") or record.get("proceeding_number", ""),
+        "case_number": parsed.get("case_number") or record.get("court_case_number", ""),
+        "patent_number": patent_number,
+        "patent_numbers": parsed.get("patent_numbers") or ([patent_number] if patent_number else []),
+        "main_patent_number": patent_number,
+        "patent_number_source": parsed.get("patent_number_source", "unknown"),
+        "patent_number_confidence": parsed.get("patent_number_confidence", 0),
+        "patent_number_evidence": parsed.get("patent_number_evidence", ""),
         "petitioner": petitioner,
         "patent_owner": patent_owner,
         "plaintiff": plaintiff,
         "defendant": defendant,
-        "outcome": us_outcome(record),
+        "outcome": parsed.get("outcome") if parsed.get("outcome") != "unknown" else us_outcome(record),
     }
     summary, summary_source, summary_review_required = us_summary(base_item, text, lookup, points, dinfo)
     item = {
@@ -808,7 +890,13 @@ def build_us_case(
         "jurisdiction": "us",
         "language": "en",
         **base_item,
-        "court": record.get("court_name", ""),
+        "court": parsed.get("court") or record.get("court_name", ""),
+        "paper_number": parsed.get("paper_number", ""),
+        "decision_type": parsed.get("decision_type", ""),
+        "challenged_claims": parsed.get("challenged_claims", ""),
+        "asserted_grounds": parsed.get("asserted_grounds", []),
+        "key_sections": parsed.get("key_sections", {}),
+        "parse_evidence": parsed.get("evidence", {}),
         "pdf": pdf_path,
         "parsed_markdown": parsed_md,
         "patent_type": ptype,
@@ -834,7 +922,7 @@ def build_us_case(
             "us_legal_points": points_conf,
             "drug_name": dinfo["confidence"],
             "summary": 0.65 if not summary_review_required else 0.2,
-            "parties": 0.8 if (petitioner and patent_owner) or (plaintiff and defendant) else 0.2,
+            "parties": 0.85 if (petitioner and patent_owner) or (plaintiff and defendant) else 0.2,
         },
         "review_required": bool(
             record.get("needs_manual_summary")
@@ -844,7 +932,7 @@ def build_us_case(
             or title_review_required
             or ptype in {"其他", "待确认"}
             or not base_item["patent_number"]
-            or lookup.get("status") == "failed"
+            or lookup.get("lookup_status", lookup.get("status")) == "failed"
             or not ((petitioner and patent_owner) or (plaintiff and defendant))
             or dinfo["review_required"]
         ),
@@ -1003,9 +1091,12 @@ def build() -> dict[str, Any]:
 
     write_json(PUBLIC_DATA_DIR / "cn_cases.json", {"schema_version": 1, "jurisdiction": "cn", "tag_labels": {"patent_type": PATENT_TYPE_LABELS, "legal_points": CN_LEGAL_LABELS}, "total": len(cn_cases), "cases": cn_cases})
     write_json(PUBLIC_DATA_DIR / "us_cases.json", {"schema_version": 1, "jurisdiction": "us", "tag_labels": {"patent_type": PATENT_TYPE_LABELS, "us_legal_points": US_LEGAL_LABELS}, "total": len(us_cases), "cases": us_cases})
+    save_us_patent_cache(us_patent_cache)
     write_json(PUBLIC_DATA_DIR / "all_cases_manifest.json", {"schema_version": 1, "totals": totals, "files": manifest_files, "orphan_generated_records": orphan_records})
     write_manual_review(manifest_files, cn_cases, us_cases)
     write_report(totals, manifest_files, cn_cases, us_cases, orphan_records)
+    write_cn_party_reports(cn_cases)
+    write_us_case_reports(us_cases)
     review_rows = write_review_queue(cn_cases, us_cases)
     write_data_quality_report(cn_cases, us_cases, review_rows)
     return totals
@@ -1124,6 +1215,158 @@ def queue_row(
         "edit_file": edit_file,
         "notes": "",
     }
+
+
+def looks_like_agent(value: str) -> bool:
+    return bool(CN_PARTY_BAD.search(str(value or "")))
+
+
+def write_cn_party_reports(cn_cases: list[dict[str, Any]]) -> None:
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    missing_owner = [item["case_id"] for item in cn_cases if not item.get("patent_owner")]
+    missing_petitioner = [item["case_id"] for item in cn_cases if not item.get("invalidity_petitioner")]
+    possible_agent = [
+        item["case_id"]
+        for item in cn_cases
+        if looks_like_agent(item.get("patent_owner", "")) or looks_like_agent(item.get("invalidity_petitioner", ""))
+    ]
+    review_required = [
+        item["case_id"]
+        for item in cn_cases
+        if (item.get("party_extraction") or {}).get("review_required") or item["case_id"] in possible_agent
+    ]
+    lines = [
+        "# 中国案例当事人抽取报告",
+        "",
+        f"- 中国案例总数：{len(cn_cases)}",
+        f"- 成功提取专利权人的数量：{len(cn_cases) - len(missing_owner)}",
+        f"- 成功提取无效请求人的数量：{len(cn_cases) - len(missing_petitioner)}",
+        f"- 仍缺失专利权人的 case_id：{', '.join(missing_owner) if missing_owner else '无'}",
+        f"- 仍缺失无效请求人的 case_id：{', '.join(missing_petitioner) if missing_petitioner else '无'}",
+        f"- 可能误识别为代理机构/代理人的 case_id：{', '.join(possible_agent) if possible_agent else '无'}",
+        f"- 需要人工复核的 case_id：{', '.join(review_required) if review_required else '无'}",
+    ]
+    (REPORTS_DIR / "cn_party_extraction_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    rows = []
+    for item in cn_cases:
+        extraction = item.get("party_extraction") or {}
+        if (
+            not item.get("patent_owner")
+            or not item.get("invalidity_petitioner")
+            or extraction.get("review_required")
+            or item["case_id"] in possible_agent
+        ):
+            rows.append(
+                {
+                    "case_id": item["case_id"],
+                    "patent_owner": item.get("patent_owner", ""),
+                    "invalidity_petitioner": item.get("invalidity_petitioner", ""),
+                    "confidence": extraction.get("confidence", ""),
+                    "source": extraction.get("source", ""),
+                    "review_required": extraction.get("review_required", ""),
+                    "evidence": extraction.get("evidence", ""),
+                    "reason": "missing_or_low_confidence_or_agent_like",
+                }
+            )
+    with (REPORTS_DIR / "cn_party_review.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        fieldnames = ["case_id", "patent_owner", "invalidity_petitioner", "confidence", "source", "review_required", "evidence", "reason"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def effective_summary(item: dict[str, Any]) -> bool:
+    summary = str(item.get("summary") or "")
+    if len(re.findall(r"[\u4e00-\u9fff]", summary)) < 60:
+        return False
+    bad = ["PDF", "文件名", "电话", "地址", "OCR", "C:\\", "Final Written Decision）提出"]
+    return not any(token in summary for token in bad)
+
+
+def write_us_case_reports(us_cases: list[dict[str, Any]]) -> None:
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    total = len(us_cases)
+    patent_number_ok = [item for item in us_cases if item.get("patent_number")]
+    lookup_ok = [item for item in us_cases if (item.get("patent_lookup") or {}).get("lookup_status", (item.get("patent_lookup") or {}).get("status")) in {"success", "partial"}]
+    title_ok = [item for item in us_cases if item.get("patent_title") and not re.search(r"pending review|final written decision|^IPR|^PGR|\.pdf", str(item.get("patent_title")), re.I)]
+    ptab_parties_ok = [item for item in us_cases if item.get("petitioner") and item.get("patent_owner")]
+    court_parties_ok = [item for item in us_cases if item.get("plaintiff") and item.get("defendant")]
+    summary_ok = [item for item in us_cases if effective_summary(item)]
+    concrete_type = [item for item in us_cases if item.get("patent_type") not in {"其他", "待确认", "other", ""}]
+    failed_rows = []
+    lookup_needed_rows = []
+    for item in us_cases:
+        reasons = []
+        lookup = item.get("patent_lookup") or {}
+        if not item.get("patent_number"):
+            reasons.append("patent_number_missing")
+        if lookup.get("lookup_status", lookup.get("status")) == "failed":
+            reasons.append("patent_lookup_failed")
+            lookup_needed_rows.append(
+                {
+                    "case_id": item.get("case_id", ""),
+                    "patent_number": item.get("patent_number", ""),
+                    "google_patents_url": lookup.get("google_patents_url", ""),
+                    "reason": lookup.get("source", "lookup_failed"),
+                }
+            )
+        if item not in title_ok:
+            reasons.append("patent_title_missing_or_weak")
+        if not ((item.get("petitioner") and item.get("patent_owner")) or (item.get("plaintiff") and item.get("defendant"))):
+            reasons.append("parties_missing")
+        if item.get("patent_type") in {"其他", "待确认", "other", ""}:
+            reasons.append("patent_type_pending")
+        if not effective_summary(item):
+            reasons.append("summary_weak")
+        if reasons:
+            failed_rows.append(
+                {
+                    "case_id": item.get("case_id", ""),
+                    "patent_number": item.get("patent_number", ""),
+                    "proceeding_number": item.get("proceeding_number") or item.get("case_number", ""),
+                    "patent_title": item.get("patent_title", ""),
+                    "petitioner": item.get("petitioner", ""),
+                    "patent_owner": item.get("patent_owner", ""),
+                    "plaintiff": item.get("plaintiff", ""),
+                    "defendant": item.get("defendant", ""),
+                    "patent_type": item.get("patent_type", ""),
+                    "reasons": ";".join(reasons),
+                }
+            )
+    lines = [
+        "# 美国案例结构化解析报告",
+        "",
+        f"- 美国案例总数：{total}",
+        f"- 成功识别 patent_number 的数量：{len(patent_number_ok)}",
+        f"- patent_lookup 成功或部分成功数量：{len(lookup_ok)}",
+        f"- 成功识别 patent_title 的数量：{len(title_ok)}",
+        f"- 成功识别 petitioner / patent_owner 的数量：{len(ptab_parties_ok)}",
+        f"- 成功识别 plaintiff / defendant 的数量：{len(court_parties_ok)}",
+        f"- 成功生成有效摘要的数量：{len(summary_ok)}",
+        f"- patent_type 为具体类别的数量：{len(concrete_type)}",
+        f"- 仍失败的 case_id 和原因详见 `reports/us_case_quality_review.csv`。",
+    ]
+    (REPORTS_DIR / "us_case_parsing_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    lookup_lines = [
+        "# 美国专利信息检索报告",
+        "",
+        f"- 尝试检索专利数量：{len({item.get('patent_number') for item in us_cases if item.get('patent_number')})}",
+        f"- 检索成功或部分成功数量：{len(lookup_ok)}",
+        f"- 成功识别标题数量：{len(title_ok)}",
+        f"- 仍需人工/后续 API 检索数量：{len(lookup_needed_rows)}",
+        "- Google Patents 链接已写入 `patent_lookup.google_patents_url`。",
+    ]
+    (REPORTS_DIR / "us_patent_lookup_report.md").write_text("\n".join(lookup_lines) + "\n", encoding="utf-8")
+    with (REPORTS_DIR / "us_case_quality_review.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        fieldnames = ["case_id", "patent_number", "proceeding_number", "patent_title", "petitioner", "patent_owner", "plaintiff", "defendant", "patent_type", "reasons"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(failed_rows)
+    with (REPORTS_DIR / "us_patent_lookup_needed.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        fieldnames = ["case_id", "patent_number", "google_patents_url", "reason"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(lookup_needed_rows)
 
 
 def write_review_queue(cn_cases: list[dict[str, Any]], us_cases: list[dict[str, Any]]) -> list[dict[str, Any]]:

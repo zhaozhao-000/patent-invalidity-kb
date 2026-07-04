@@ -1,0 +1,5 @@
+﻿case_id,patent_number,google_patents_url,reason
+us_0251,,,invalid_patent_number
+us_0252,,,invalid_patent_number
+us_0275,US10131682C1,https://patents.google.com/patent/US10131682C1/en,official_lookup_not_configured+google_error:HTTPError
+us_0311,US10131682C1,https://patents.google.com/patent/US10131682C1/en,official_lookup_not_configured+google_error:HTTPError

@@ -173,6 +173,10 @@ function tagList(bucket, values) {
   return asArray(values).map((value) => `<span class="tag">${escapeHtml(labelFor(bucket, value))}</span>`).join("");
 }
 
+function labelLine(bucket, values) {
+  return asArray(values).map((value) => labelFor(bucket, value)).filter(Boolean).join(" / ");
+}
+
 function metaGrid(entries) {
   const rows = entries.filter(([, value]) => value);
   if (!rows.length) return "";
@@ -202,11 +206,12 @@ function cnCard(item) {
       </div>
       ${metaGrid([
         ["专利号", item.patent_number],
-        ["决定号", item.decision_number],
         ["专利权人", item.patent_owner],
         ["无效请求人", item.invalidity_petitioner],
         ["专利类型", item.patent_type],
+        ["法律点", labelLine("legal_points", item.legal_points)],
         ["药物 / 活性成分", drugLine(item)],
+        ["无效结果", item.status || item.outcome],
       ])}
       <div class="tags">${tagList("legal_points", item.legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "暂无决定要点。")}</p>
@@ -236,10 +241,13 @@ function usCard(item) {
       </div>
       ${metaGrid([
         ["Patent No.", item.patent_number],
-        ["Proceeding No. / Case No.", item.proceeding_number || item.case_number],
         ["Parties", partyLine],
+        ["Proceeding Type", item.proceeding_type],
+        ["Proceeding No. / Case No.", item.proceeding_number || item.case_number],
         ["Patent Type", item.patent_type],
+        ["U.S. Legal Issues", labelLine("us_legal_points", item.us_legal_points)],
         ["Drug / Active / Product", drugLine(item)],
+        ["Outcome", item.outcome],
       ])}
       <div class="tags">${tagList("us_legal_points", item.us_legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "No key points available.")}</p>

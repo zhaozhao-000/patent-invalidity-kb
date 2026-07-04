@@ -1,0 +1,4 @@
+﻿case_id,patent_owner,invalidity_petitioner,confidence,source,review_required,evidence,reason
+cn_0004,某株式会社,,0.6,front_page,True,专利权人为某株式会社,missing_or_low_confidence_or_agent_like
+cn_0011,本案原告,,0.6,front_page,True,专利权人为本案原告,missing_or_low_confidence_or_agent_like
+cn_0012,本案原告,,0.6,front_page,True,专利权人为本案原告,missing_or_low_confidence_or_agent_like

@@ -1,196 +1,309 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import http.client
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import zipfile
 from pathlib import Path
 from typing import Any
 
 from build_jurisdiction_data import INPUT_DIR, PARSED_DIR, ROOT, jurisdiction_from_path
 
+try:
+    import requests
+except ImportError:  # pragma: no cover - optional dependency for closer MinerU docs parity.
+    requests = None
+
 
 MANIFEST_PATH = ROOT / "public" / "data" / "all_cases_manifest.json"
+DONE_STATES = {"done"}
+WAIT_STATES = {"waiting-file", "uploading", "pending", "running", "converting"}
+FAILED_STATES = {"failed"}
 
 
-def request_json(method: str, url: str, api_key: str, payload: dict[str, Any] | None = None) -> dict[str, Any]:
+def request_json(method: str, url: str, api_key: str, payload: dict[str, Any] | None = None, timeout: int = 60) -> dict[str, Any]:
     data = None
-    headers = {"Authorization": f"Bearer {api_key}", "Accept": "application/json"}
+    headers = {"Authorization": f"Bearer {api_key}", "Accept": "*/*"}
     if payload is not None:
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=data, headers=headers, method=method)
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        body = resp.read().decode("utf-8", errors="ignore")
-    return json.loads(body) if body.strip() else {}
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            body = resp.read().decode("utf-8", errors="ignore")
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"HTTP {exc.code}: {detail[:500]}") from exc
+    result = json.loads(body) if body.strip() else {}
+    if result.get("code") not in (None, 0):
+        raise RuntimeError(f"MinerU API error {result.get('code')}: {result.get('msg')}")
+    return result
 
 
-def upload_multipart(url: str, api_key: str, pdf_path: Path) -> dict[str, Any]:
-    boundary = "----mineru-boundary-kb"
-    chunks = [
-        f"--{boundary}\r\n".encode(),
-        b'Content-Disposition: form-data; name="output_format"\r\n\r\nmarkdown,json\r\n',
-        f"--{boundary}\r\n".encode(),
-        b'Content-Disposition: form-data; name="ocr"\r\n\r\ntrue\r\n',
-        f"--{boundary}\r\n".encode(),
-        f'Content-Disposition: form-data; name="file"; filename="{pdf_path.name}"\r\n'.encode("utf-8"),
-        b"Content-Type: application/pdf\r\n\r\n",
-        pdf_path.read_bytes(),
-        b"\r\n",
-        f"--{boundary}--\r\n".encode(),
-    ]
-    req = urllib.request.Request(
-        url,
-        data=b"".join(chunks),
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Accept": "application/json",
-            "Content-Type": f"multipart/form-data; boundary={boundary}",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=300) as resp:
-        body = resp.read().decode("utf-8", errors="ignore")
-    return json.loads(body) if body.strip() else {}
-
-
-def first_value(data: dict[str, Any], paths: list[list[str]]) -> Any:
-    for path in paths:
-        current: Any = data
-        for key in path:
-            if isinstance(current, dict) and key in current:
-                current = current[key]
-            else:
-                current = None
-                break
-        if current:
-            return current
-    return None
-
-
-def task_id(response: dict[str, Any]) -> str:
-    value = first_value(response, [["task_id"], ["id"], ["data", "task_id"], ["data", "id"]])
-    if not value:
-        raise RuntimeError(f"MinerU response has no task id: {response}")
-    return str(value)
-
-
-def status(response: dict[str, Any]) -> str:
-    value = first_value(response, [["status"], ["state"], ["data", "status"], ["data", "state"]])
-    return str(value or "").lower()
-
-
-def markdown_from(response: dict[str, Any]) -> str:
-    value = first_value(
-        response,
-        [["markdown"], ["md"], ["text"], ["data", "markdown"], ["data", "md"], ["data", "text"], ["result", "markdown"], ["result", "md"]],
-    )
-    return value if isinstance(value, str) else ""
-
-
-def download_url_from(response: dict[str, Any]) -> str:
-    value = first_value(
-        response,
-        [["markdown_url"], ["md_url"], ["download_url"], ["data", "markdown_url"], ["data", "md_url"], ["data", "download_url"], ["result", "markdown_url"]],
-    )
-    return value if isinstance(value, str) and value.startswith(("http://", "https://")) else ""
-
-
-def download_text(url: str) -> str:
-    with urllib.request.urlopen(url, timeout=120) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
-
-
-def poll(base_url: str, task_path: str, api_key: str, task: str, interval: int, timeout: int) -> dict[str, Any]:
-    deadline = time.time() + timeout
-    quoted = urllib.parse.quote(task, safe="")
-    while time.time() < deadline:
-        result = request_json("GET", f"{base_url.rstrip('/')}{task_path.rstrip('/')}/{quoted}", api_key)
-        current = status(result)
-        if current in {"done", "success", "succeeded", "completed", "finish", "finished"}:
-            return result
-        if current in {"fail", "failed", "error"}:
-            raise RuntimeError(f"MinerU task failed: {result}")
-        print(f"waiting {task}: {current or 'unknown'}")
-        time.sleep(interval)
-    raise TimeoutError(f"MinerU task timeout: {task}")
-
-
-def parsed_paths(pdf: Path, jurisdiction: str) -> tuple[Path, Path]:
-    stem = pdf.stem
-    return PARSED_DIR / jurisdiction / "markdown" / f"{stem}.md", PARSED_DIR / jurisdiction / "json" / f"{stem}.json"
-
-
-def update_manifest(pdf: Path, jurisdiction: str, md_path: Path, json_path: Path, mineru_status: str, error: str = "") -> None:
-    if not MANIFEST_PATH.exists():
+def put_file(url: str, pdf_path: Path, timeout: int = 300) -> None:
+    # MinerU signed upload URLs reject some automatic Content-Type headers.
+    # Prefer requests because it matches MinerU's official sample:
+    # requests.put(file_url, data=f). If unavailable, use http.client and only
+    # send Content-Length.
+    if requests is not None:
+        with pdf_path.open("rb") as f:
+            resp = requests.put(url, data=f, timeout=timeout)
+        if resp.status_code not in (200, 201):
+            raise RuntimeError(f"Upload failed: HTTP {resp.status_code} {resp.text[:300]}")
         return
-    data = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
-    source = pdf.relative_to(ROOT).as_posix()
-    for item in data.get("files", []):
-        if item.get("source_path") == source:
-            item["mineru_status"] = mineru_status
-            item["error_message"] = error
-            if md_path.exists():
-                item["parsed_markdown_path"] = md_path.relative_to(ROOT).as_posix()
-            if json_path.exists():
-                item["parsed_json_path"] = json_path.relative_to(ROOT).as_posix()
-            break
+
+    parsed = urllib.parse.urlsplit(url)
+    if parsed.scheme != "https":
+        raise RuntimeError(f"Unsupported upload URL scheme: {parsed.scheme}")
+    upload_path = urllib.parse.urlunsplit(("", "", parsed.path or "/", parsed.query, ""))
+    conn = http.client.HTTPSConnection(parsed.netloc, timeout=timeout)
+    try:
+        with pdf_path.open("rb") as f:
+            conn.request(
+                "PUT",
+                upload_path,
+                body=f,
+                headers={"Content-Length": str(pdf_path.stat().st_size)},
+            )
+            resp = conn.getresponse()
+            detail = resp.read(300).decode("utf-8", errors="ignore")
+            if resp.status not in (200, 201):
+                raise RuntimeError(f"Upload failed: HTTP {resp.status} {detail}")
+    finally:
+        conn.close()
+
+
+def download_bytes(url: str, timeout: int = 300) -> bytes:
+    with urllib.request.urlopen(url, timeout=timeout) as resp:
+        return resp.read()
+
+
+def safe_data_id(pdf: Path) -> str:
+    rel = pdf.relative_to(ROOT).as_posix()
+    digest = hashlib.sha1(rel.encode("utf-8")).hexdigest()[:12]
+    stem = re.sub(r"[^A-Za-z0-9_.-]+", "_", pdf.stem)[:80].strip("._-") or "document"
+    return f"{stem}_{digest}"
+
+
+def parsed_paths(pdf: Path, jurisdiction: str) -> tuple[Path, Path, Path]:
+    data_id = safe_data_id(pdf)
+    md_path = PARSED_DIR / jurisdiction / "markdown" / f"{data_id}.md"
+    json_path = PARSED_DIR / jurisdiction / "json" / f"{data_id}.json"
+    zip_path = PARSED_DIR / jurisdiction / "zip" / f"{data_id}.zip"
+    return md_path, json_path, zip_path
+
+
+def load_manifest() -> dict[str, Any]:
+    if MANIFEST_PATH.exists():
+        return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    return {"schema_version": 1, "totals": {}, "files": []}
+
+
+def save_manifest(data: dict[str, Any]) -> None:
+    MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def update_manifest(
+    manifest: dict[str, Any],
+    pdf: Path,
+    jurisdiction: str,
+    md_path: Path,
+    json_path: Path,
+    mineru_status: str,
+    error: str = "",
+    batch_id: str = "",
+) -> None:
+    source = pdf.relative_to(ROOT).as_posix()
+    for item in manifest.get("files", []):
+        if item.get("source_path") == source:
+            item["mineru_status"] = mineru_status
+            item["error_message"] = error
+            item["mineru_batch_id"] = batch_id
+            item["parsed_markdown_path"] = md_path.relative_to(ROOT).as_posix() if md_path.exists() else ""
+            item["parsed_json_path"] = json_path.relative_to(ROOT).as_posix() if json_path.exists() else ""
+            item["jurisdiction"] = item.get("jurisdiction") or jurisdiction
+            return
+    manifest.setdefault("files", []).append(
+        {
+            "file_name": pdf.name,
+            "source_path": source,
+            "public_pdf_path": "",
+            "jurisdiction": jurisdiction,
+            "language": "zh" if jurisdiction == "cn" else "en" if jurisdiction == "us" else "unknown",
+            "parse_status": "pending_review",
+            "mineru_status": mineru_status,
+            "database_status": "pending_review",
+            "error_message": error,
+            "case_id": "",
+            "parsed_markdown_path": md_path.relative_to(ROOT).as_posix() if md_path.exists() else "",
+            "parsed_json_path": json_path.relative_to(ROOT).as_posix() if json_path.exists() else "",
+            "mineru_batch_id": batch_id,
+        }
+    )
+
+
+def apply_upload_urls(base_url: str, api_key: str, pdfs: list[Path], model_version: str, language: str) -> tuple[str, list[str]]:
+    payload = {
+        "files": [
+            {
+                "name": pdf.name,
+                "data_id": safe_data_id(pdf),
+                "is_ocr": True,
+            }
+            for pdf in pdfs
+        ],
+        "model_version": model_version,
+        "language": language,
+        "enable_table": True,
+        "enable_formula": True,
+    }
+    result = request_json("POST", f"{base_url}/api/v4/file-urls/batch", api_key, payload)
+    data = result.get("data") or {}
+    batch_id = data.get("batch_id")
+    urls = data.get("file_urls") or []
+    if not batch_id or len(urls) != len(pdfs):
+        raise RuntimeError(f"Unexpected upload-url response: {result}")
+    return str(batch_id), [str(url) for url in urls]
+
+
+def poll_batch(base_url: str, api_key: str, batch_id: str, interval: int, timeout: int) -> list[dict[str, Any]]:
+    deadline = time.time() + timeout
+    quoted = urllib.parse.quote(batch_id, safe="")
+    while time.time() < deadline:
+        result = request_json("GET", f"{base_url}/api/v4/extract-results/batch/{quoted}", api_key)
+        data = result.get("data") or {}
+        rows = data.get("extract_result") or []
+        states = [str(row.get("state", "")).lower() for row in rows]
+        done = sum(1 for state in states if state in DONE_STATES)
+        failed = sum(1 for state in states if state in FAILED_STATES)
+        waiting = len(states) - done - failed
+        print(f"batch {batch_id}: done={done} failed={failed} waiting={waiting}")
+        if rows and all(state in DONE_STATES | FAILED_STATES for state in states):
+            return rows
+        if rows and not any(state in WAIT_STATES | DONE_STATES | FAILED_STATES for state in states):
+            raise RuntimeError(f"Unexpected batch states: {states}")
+        time.sleep(interval)
+    raise TimeoutError(f"MinerU batch timeout: {batch_id}")
+
+
+def extract_full_markdown(zip_bytes: bytes, zip_path: Path, md_path: Path) -> None:
+    zip_path.parent.mkdir(parents=True, exist_ok=True)
+    md_path.parent.mkdir(parents=True, exist_ok=True)
+    zip_path.write_bytes(zip_bytes)
+    with zipfile.ZipFile(zip_path) as archive:
+        names = archive.namelist()
+        md_names = [name for name in names if name.lower().endswith("full.md")]
+        if not md_names:
+            md_names = [name for name in names if name.lower().endswith(".md")]
+        if not md_names:
+            raise RuntimeError("MinerU result zip contains no markdown file.")
+        text = archive.read(md_names[0]).decode("utf-8", errors="ignore")
+    if not text.strip():
+        raise RuntimeError("MinerU markdown is empty.")
+    md_path.write_text(text, encoding="utf-8")
+
+
+def candidate_pdfs(force: bool) -> list[Path]:
+    candidates: list[Path] = []
+    for pdf in sorted(INPUT_DIR.rglob("*.pdf")):
+        jurisdiction = jurisdiction_from_path(pdf)
+        if jurisdiction not in {"cn", "us"}:
+            jurisdiction = "unknown"
+        md_path, json_path, _ = parsed_paths(pdf, jurisdiction)
+        # Only skip a file when a MinerU response JSON exists. Existing markdown alone
+        # may have been generated from older local OCR/text extraction.
+        if json_path.exists() and md_path.exists() and not force:
+            continue
+        candidates.append(pdf)
+    return candidates
+
+
+def chunks(items: list[Path], size: int) -> list[list[Path]]:
+    return [items[index : index + size] for index in range(0, len(items), size)]
+
+
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Batch parse input PDFs with MinerU API and save markdown/json under parsed/.")
-    parser.add_argument("--limit", type=int, default=0, help="Maximum PDFs to parse. 0 means all candidates.")
-    parser.add_argument("--force", action="store_true", help="Re-parse even if parsed markdown already exists.")
+    parser = argparse.ArgumentParser(description="Parse local PDFs with MinerU precise API using official signed upload URLs.")
+    parser.add_argument("--limit", type=int, default=1, help="Maximum PDFs to parse. Default 1 for safe testing. Use 0 for all.")
+    parser.add_argument("--batch-size", type=int, default=1, help="PDFs per MinerU batch. Max 50; keep 1 while testing.")
+    parser.add_argument("--force", action="store_true", help="Re-parse even if MinerU JSON and markdown already exist.")
+    parser.add_argument("--model-version", default="vlm", choices=["pipeline", "vlm"], help="MinerU precise model.")
+    parser.add_argument("--language", default="ch", help="MinerU language value. Use ch for CN/mixed, en for English-only batches.")
     parser.add_argument("--poll-interval", type=int, default=10)
     parser.add_argument("--timeout", type=int, default=1800)
     args = parser.parse_args()
 
     api_key = os.environ.get("MINERU_API_KEY", "").strip()
-    base_url = os.environ.get("MINERU_API_BASE", "").strip().rstrip("/")
-    submit_path = os.environ.get("MINERU_SUBMIT_PATH", "/api/v4/extract/task").strip()
-    task_path = os.environ.get("MINERU_TASK_PATH", "/api/v4/extract/task").strip()
-    if not api_key or not base_url:
-        print("MINERU_API_KEY or MINERU_API_BASE is not set. No API calls were made.")
+    base_url = os.environ.get("MINERU_API_BASE", "https://mineru.net").strip().rstrip("/")
+    if not api_key:
+        print("MINERU_API_KEY is not set. No API calls were made.")
         return 2
+    if args.batch_size < 1 or args.batch_size > 50:
+        raise SystemExit("--batch-size must be between 1 and 50.")
 
-    pdfs = sorted(INPUT_DIR.rglob("*.pdf"))
+    pdfs = candidate_pdfs(args.force)
+    if args.limit:
+        pdfs = pdfs[: args.limit]
+    print(f"MinerU candidates: {len(pdfs)}")
+    if not pdfs:
+        return 0
+
+    manifest = load_manifest()
     processed = 0
-    for pdf in pdfs:
-        jurisdiction = jurisdiction_from_path(pdf)
-        if jurisdiction not in {"cn", "us"}:
-            jurisdiction = "unknown"
-        md_path, json_path = parsed_paths(pdf, jurisdiction)
-        if md_path.exists() and not args.force:
-            continue
-        if args.limit and processed >= args.limit:
-            break
-        md_path.parent.mkdir(parents=True, exist_ok=True)
-        json_path.parent.mkdir(parents=True, exist_ok=True)
-        print(f"MinerU parse {pdf.relative_to(ROOT)}")
+    for group in chunks(pdfs, args.batch_size):
+        print("MinerU batch:")
+        for pdf in group:
+            print(f"  {pdf.relative_to(ROOT)}")
+        batch_id = ""
         try:
-            submit = upload_multipart(f"{base_url}{submit_path}", api_key, pdf)
-            task = task_id(submit)
-            result = poll(base_url, task_path, api_key, task, args.poll_interval, args.timeout)
-            markdown = markdown_from(result)
-            if not markdown:
-                url = download_url_from(result)
-                markdown = download_text(url) if url else ""
-            if not markdown.strip():
-                raise RuntimeError("MinerU returned no markdown text.")
-            md_path.write_text(markdown, encoding="utf-8")
-            json_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-            update_manifest(pdf, jurisdiction, md_path, json_path, "success")
-            processed += 1
+            batch_id, upload_urls = apply_upload_urls(base_url, api_key, group, args.model_version, args.language)
+            for pdf, upload_url in zip(group, upload_urls):
+                print(f"upload {pdf.name}")
+                put_file(upload_url, pdf)
+            rows = poll_batch(base_url, api_key, batch_id, args.poll_interval, args.timeout)
+            by_name = {str(row.get("file_name") or ""): row for row in rows}
+            for pdf in group:
+                jurisdiction = jurisdiction_from_path(pdf)
+                if jurisdiction not in {"cn", "us"}:
+                    jurisdiction = "unknown"
+                md_path, json_path, zip_path = parsed_paths(pdf, jurisdiction)
+                row = by_name.get(pdf.name) or next((item for item in rows if item.get("data_id") == safe_data_id(pdf)), {})
+                json_path.parent.mkdir(parents=True, exist_ok=True)
+                json_path.write_text(json.dumps({"batch_id": batch_id, "result": row}, ensure_ascii=False, indent=2), encoding="utf-8")
+                state = str(row.get("state") or "").lower()
+                if state != "done":
+                    error = str(row.get("err_msg") or f"MinerU state={state}")
+                    update_manifest(manifest, pdf, jurisdiction, md_path, json_path, "failed", error[:500], batch_id)
+                    print(f"failed: {pdf.name}: {error}")
+                    continue
+                zip_url = str(row.get("full_zip_url") or "")
+                if not zip_url:
+                    raise RuntimeError(f"No full_zip_url for {pdf.name}: {row}")
+                extract_full_markdown(download_bytes(zip_url), zip_path, md_path)
+                update_manifest(manifest, pdf, jurisdiction, md_path, json_path, "success", "", batch_id)
+                print(f"wrote {md_path.relative_to(ROOT)}")
+                processed += 1
+        except (urllib.error.URLError, RuntimeError, TimeoutError, OSError, zipfile.BadZipFile) as exc:
+            for pdf in group:
+                jurisdiction = jurisdiction_from_path(pdf)
+                if jurisdiction not in {"cn", "us"}:
+                    jurisdiction = "unknown"
+                md_path, json_path, _ = parsed_paths(pdf, jurisdiction)
+                update_manifest(manifest, pdf, jurisdiction, md_path, json_path, "failed", str(exc)[:500], batch_id)
+            print(f"batch failed: {exc}")
+        finally:
+            save_manifest(manifest)
             time.sleep(1)
-        except (urllib.error.URLError, RuntimeError, TimeoutError, OSError) as exc:
-            update_manifest(pdf, jurisdiction, md_path, json_path, "failed", str(exc)[:500])
-            print(f"failed: {pdf.name}: {exc}")
-            continue
-    print(f"MinerU processed: {processed}")
+
+    print(f"MinerU processed successfully: {processed}")
     print("Next: python scripts\\build_jurisdiction_data.py")
     return 0
 

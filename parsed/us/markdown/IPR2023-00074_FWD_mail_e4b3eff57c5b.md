@@ -1,0 +1,408 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 48
+Date: April 22, 2024
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE BEFORE THE PATENT TRIAL AND APPEAL BOARD BLUEBIRD BIO, INC., Petitioner,
+
+# V. SLOAN KETTERING INSTITUTE FOR CANCER RESEARCH, Patent Owner. IPR2023-00074 Patent 8,058,061 B2
+
+Before SHERIDAN K. SNEDDEN, JAMES A. WORTH and CYNTHIA M. HARDMAN, Administrative Patent Judges.
+
+SNEDDEN, Administrative Patent Judge.
+
+DECISION
+Final Written Decision
+Determining No Challenged Claims Unpatentable
+35 U.S.C. § 318(a)
+
+## I. INTRODUCTION
+
+We have jurisdiction under 35 U.S.C. § 6. We issue this Final Written Decision pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73 in an inter partes review involving bluebird bio, Inc. (“Petitioner”) and Sloan Kettering Institute for Cancer Research (“Patent Owner”). Based on the record before us, we conclude that Petitioner has not demonstrated, by a preponderance of the evidence, that claims 1, 2, 5–8, 11, and 15 (the “Challenged Claims”) of U.S. Patent No. 8,058,061 B2 (Ex. 1001, “the ’061 patent”) are unpatentable.
+
+## A. Background
+
+Petitioner filed a filed a Petition requesting an inter partes review of claims 1, 2, 5–8, 11, and 15 of the '061 patent. Paper 1 (“Petition” or “Pet.”). Patent Owner filed a Preliminary Response. Paper 5. We instituted an inter partes review of all claims and all grounds asserted in the Petition on April 24, 2023. Paper 8. Following institution, Patent Owner filed a Response to the Petition (Paper 27, “PO Resp.”), Petitioner filed a Reply to Patent Owner’s Response (Paper 35, “Reply”), and Patent Owner filed a Sur-reply (Paper 41, “Sur-reply”).
+
+On January 24, 2024, the parties presented arguments at an oral hearing. The transcript of the hearing has been entered into the record. Paper 46 (“Tr.”).
+
+## B. Related Matters
+
+Petitioner and Patent Owner identify San Rocco Therapeutics, LLC v. bluebird bio, Inc., et al., No. 1-21-cv-01478 (D. Del.) $^{1}$ as a related district court litigation. Pet. 2–3; Paper 4, 2–3. Patent Owner also identifies Errant Gene Therapeutics, LLC v. Memorial Sloan-Kettering Cancer Center and Sloan Kettering Institute of Cancer Research, 1-21-cv-08206 (S.D.N.Y.) as a related litigation involving the '061 patent. Paper 4, 3.
+
+The parties further identify IPR2023-00070, challenging certain claims of U.S. Patent No. 7,541,179 B2 (“the ’179 patent”), as a related matter. Pet. 2–3; Paper 4, 2–3. The ’061 patent issued from a divisional application of U.S. application number 10/188,22 (“the ’221 application”), which issued as the ’179 patent. Ex. 1001, code (62).
+
+## C. The '061 Patent
+
+The '061 patent relates to a recombinant vector, e.g., a lentiviral vector, incorporating a functional globin gene and large portions of the β-globin locus control region (“LCR”). Ex. 1001, 1:50–53. The Specification defines the “recombinant lentiviral vector” as “an artificially created polynucleotide vector assembled from a lentiviral-vector and a plurality of additional segments as a result of human intervention and manipulation.” Id. at 2:40–43. The Specification defines “functional globin gene” as “a nucleotide sequence the expression of which leads to a globin that does not produce a hemoglobinopathy phenotype, and which is effective to provide therapeutic benefits to an individual with a defective globin gene.” Id. at 2:44–48. “The functional globin gene may encode a wild-type globin,” “a mutant form of globin,” “α-globin, β-globin, or γ-globin.” Id. at 2:48–56. The recombinant lentiviral vector is used as a gene therapy vector to provide “therapeutically meaningful levels of human globin for sustained periods of time.” Id. at 1:41–46.
+
+The Specification describes the recombinant vector as including “large portions of the locus control region (LCR) which include DNase I hypersensitive sites HS2, HS3 and HS4.” Id. at 2:57–59. The Specification defines “large portions” as “portions of the locus control region which encompass larger portions of the hypersensitive sites as opposed to previously tested fragments including only the core elements.” Id. at 2:63–67. In a specific vector, designated TNS9, the LCR is 3.2 kilobases (“kb”) in size and “consists of an 840 [base pair (‘bp’)] HS2 fragment (SnaBI-BstXI), a 1308 bp HS3 fragment (HindIII-BamHI) and a 1069 bp HS4 fragment (BamHI-BanII).” Id. at 3:26–28. Figure 1, reproduced below, illustrates the TNS9 vector.
+
+![](images/636baf28b15a795f7280c9c619f326038992b3b93043011129b36e27717d9df0.jpg)  
+Fig. 1  
+Figure 1 illustrates the TNS9 vector with the exons represented by filled boxes and the introns represented by open boxes. Id. at 3:16–18. The TNS9 vector includes, from the 5' end to the 3' end, a splice donor (SD), packaging region ( $\Psi$ ), rev-response element (RRE), splice acceptor (SA), 3'- $\beta$ -globin enhancer (E), $\beta$ -globin gene, human $\beta$ -globin promoter (P), and LCR (including HS2, HS3, and HS4). Id. at 3:18–21. The 5' and 3' ends include long terminal repeat (LTR) sequences. See id. at Fig. 1.
+
+## D. Illustrative Claims
+
+Petitioner challenges claims 1, 2, 5–8, 11, and 15 of the '061 patent. Claims 1 and 11, set forth below, are the only independent claims and are illustrative of the claimed subject matter.
+
+1. An isolated mammalian hematopoietic progenitor cell or an isolated mammalian stem cell comprising a recombinant lentiviral vector which comprises a nucleic acid encoding a functional globin operably linked to a 3.2-kb nucleotide fragment which consists essentially of three contiguous nucleotide fragments obtainable from a human $\beta$ -globin locus control region (LCR), the three fragments being a BstXI and SnaBI, HS2-spanning nucleotide fragment of said LCR, a BamHI and HindIII, HS3-spanning nucleotide fragment of said LCR, and a BamHI and BanII, HS4-spanning nucleotide fragment of said LCR, said vector providing expression of the globin in a mammal in vivo.
+
+11. A method for making a mammalian hematopoietic progenitor cell or a mammalian stem cell composition which comprises
+
+(a) preparing a recombinant lentiviral vector comprising a nucleic acid encoding a functional globin operably linked to a 3.2-kb nucleotide fragment which consists essentially of three contiguous nucleotide fragments obtainable from a human $\beta$ -globin locus control region (LCR), the three fragments being a BstXI and SnaBI, HS2-spanning nucleotide fragment of said LCR, a BamHI and HindIII, HS3-spanning nucleotide fragment of said LCR, and a BamHI and BanII, HS4-spanning nucleotide fragment of said LCR, said vector providing expression of the globin in a mammal in vivo; and
+
+(b) obtaining hematopoietic progenitor cells or stem cells from the mammalian individual, and transducing the cells with the recombinant vector.
+
+Ex. 1001, 11:56–67, 12:61–13:10. Dependent claim 2 recites the hematopoietic progenitor cell or stem cell of claim 1 being a human cell. Id. at 12:1–2. Claims 5–8 recite that the functional globin of claim 1 is a mutant globin (claim 5), wild-type globin (claim 6), $\beta$ -globin (claim 7), and human $\beta$ -globin (claim 8 depending from claim 7). Id. at 12:10–15, 55–56. Claim 15 recites that the functional globin of claim 11 is human $\beta$ -globin. Id. at 14:7–8.
+
+## E. Asserted Grounds of Unpatentability
+
+Petitioner asserts that claims 1, 2, 5–8, 11, and 15 are unpatentable on the following seven grounds:
+
+<table><tr><td>Claims Challenged</td><td>35 U.S.C. §2</td><td>Reference(s)/Basis</td></tr><tr><td>1, 2, 6, 7, 11</td><td>102</td><td>May Thesis3</td></tr><tr><td>5</td><td>103</td><td>May Thesis, Himanen4</td></tr><tr><td>1, 2, 6, 7, 11</td><td>102</td><td>May Article5,6</td></tr><tr><td>1, 2, 6, 7, 11</td><td>103</td><td>May Article</td></tr><tr><td>5</td><td>103</td><td>May Article, Himanen</td></tr><tr><td>1, 2, 6–8, 11, 15</td><td>103</td><td>May Abstract7</td></tr><tr><td>5</td><td>103</td><td>May Abstract, Himanen</td></tr></table>
+
+Petitioner also relies upon the Declarations of Jörg Bungert, Ph.D. (Ex. 1002) and Ingrid Hsieh-Yee, Ph.D. $^{8}$ (Ex. 1036).
+
+Patent Owner relies upon the Declarations of James Riley, Ph.D. (Ex. 2002, Ex. 2056); Michel Sadelain, M.D., Ph.D. (Ex. 2006); Chad May, Ph.D. (Ex. 2007); Stefano Rivella, Ph.D. (Ex. 2008); and Lucio Luzzatto, M.D., Ph.D. (Ex. 2009). $^{9}$
+
+## II. ANALYSIS
+
+## A. Person of Ordinary Skill in the Art
+
+The level of skill in the art is a factual determination that provides a primary guarantee of objectivity in an obviousness analysis. Al-Site Corp. v. VSI Int'l Inc., 174 F.3d 1308, 1323 (Fed. Cir. 1999) (citing Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966); Ryko Mfg. Co. v. Nu-Star, Inc., 950 F.2d 714, 718 (Fed. Cir. 1991)).
+
+Petitioner asserts that a person of ordinary skill in the art (“POSA”) “at the time of the alleged invention would have had: (1) at least an advanced degree (e.g., a Master’s or Ph.D.) in biochemistry, biotechnology, protein chemistry, genetics, molecular and structural biology, bioengineering, or similar disciplines.” Pet. 18–19 (citing Ex. 1002 ¶¶ 14–15). Petitioner further asserts that a POSA would have had “(2) several years of post-graduate training or related experience in one or more of these areas” and “(3) an understanding of vector design and the effect of LCR
+
+fragments on gene expression, including experience with how the LCR regulates gene expression.” Id.
+
+Patent Owner does not dispute Petitioner's description of the level of ordinary skill in the art. See PO Resp. Because Petitioner's uncontested definition of one of ordinary skill in the art is reasonable and consistent with the '061 patent and the prior art of record, we adopt Petitioner's definition for purposes of this Decision.
+
+## B. Claim Construction
+
+The Board applies the same claim construction standard that would be used to construe the claim in a civil action under 35 U.S.C. § 282(b). 37 C.F.R. § 100(b) (2019). Under that standard, claim terms “are generally given their ordinary and customary meaning” as understood by a person of ordinary skill in the art at the time of the invention. Phillips v. AWH Corp., 415 F.3d 1303, 1312–13 (Fed. Cir. 2005) (en banc) (quoting Vitronics Corp. v. Conceptronic, Inc., 90 F.3d 1576, 1582 (Fed. Cir. 1996)). “In determining the meaning of the disputed claim limitation, we look principally to the intrinsic evidence of record, examining the claim language itself, the written description, and the prosecution history, if in evidence.” DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17).
+
+Petitioner states that “that no term of the ’061 patent requires construction to resolve the challenges in this Petition.” Pet. 25 (citing Ex. 1002 ¶¶ 50–51) (footnote omitted). Patent Owner does not argue for any express claim constructions. See PO Resp.
+
+Based upon our review of the current record, we determine that no claim terms require express construction for purposes of this Decision. See Nidec Motor Corp. v. Zhongshan Broad Ocean Motor Co., 868 F.3d 1013,
+
+1017 (Fed. Cir. 2017) (Only those terms that are in controversy need be construed, “and only to the extent necessary to resolve the controversy.”).
+
+C. Grounds 1 and 2: Anticipation and Obviousness Based on the May Thesis
+
+Petitioner asserts that the May Thesis anticipates claims 1, 2, 6, 7, and 11. Pet. 26–33. Petitioner asserts also that the combination of the May Thesis and Himanen renders obvious dependent claim 5. Id. at 33–34. Patent Owner contends that the May thesis does not qualify as prior art and further that “Petitioner’s Reply makes clear that Petitioner has effectively conceded” this ground. PO Resp. 1; Sur-reply 1.
+
+Having considered the parties' positions and evidence of record, we determine that Petitioner has not demonstrated by a preponderance of evidence that claims 1, 2, 6, 7, and 11 are anticipated by the May Thesis, or that the combination of the May Thesis and Himanen renders obvious dependent claim 5.
+
+## 1. May Thesis
+
+The May Thesis describes therapeutic hemoglobin synthesis in $\beta$ -thalassemic mice expressing lentivirus-encoded human beta-globin. Ex. 1004, 3. The May Thesis discloses recombinant lentivirus vector TNS9. Id. at 74. The TNS9 vector is illustrated in Figure 4.01(b), reproduced below:
+
+![](images/74b62eed41d23cfe019e920ab481dcbe3b34812f5f71b1e2448bcb79e3cb93db.jpg)
+
+Figure 4.01(b) illustrates the TNS9 vector with exons represented by filled boxes and introns represented by open boxes. Id. The TNS9 vector includes, from the 5' end to the 3' end, a splice donor (SD), packaging region ( $\Psi$ ), rev-response element (RRE), splice acceptor (SA), 3'- $\beta$ -globin enhancer (E), $\beta$ -globin gene, human $\beta$ -globin promoter (P), and LCR (including HS2, HS3, and HS4). Id. The 5' and 3' ends include long terminal repeat (LTR) sequences. See id. at Fig. 4.01(b). May Thesis discloses that the TNS9 LCR element (Fig. 4.01b) includes an 840 bp HS2 fragment (SnaBl-BstXI), a 1308 bp HS3 fragment (HindUI-BamHI Banll), and a 1069 bp HS4 fragment (BamHI-Banll) to generate a 3.2 kb LCR element. Id. at 75.
+
+## 2. Himanen
+
+Himanen describes an effort to map important regions of sickle hemoglobin that are involved in forming polymer fibers causing sickle cell disease. Ex. 1047, 25152. “Sickle cell anemia results from a single point mutation in the gene encoding $\beta$ -globin, whereby the Glu-6( $\beta$ ) residue in hemoglobin A (HbA) is substituted by Val in sickle hemoglobin (HbS).” Id. Himanen identified two additional mutation sites, Lys-95 and Leu-88, that are involved in gelling (polymerizing) polymer fibers. Id.
+
+To examine these sites, Himanen designed and tested recombinant hemoglobin “having both K95I(β) and L88A(β) in addition to the Val-6(β) mutation in order to measure whether the influence of the two substitutions on gelation is additive.” Id. Himanen discloses that the L88A and K95I mutations to sickle hemoglobin inhibit polymerization in a nonadditive manner. Id. at 25155. Accordingly, “[t]he results indicate that amino acid replacements at Leu-88(β) and Lys-95(β) act independently in inhibiting polymerization, i.e. certain sites can influence the overall prevention of polymerization to a greater extent than others.” Id. at 25156.
+
+## 3. Discussion
+
+Petitioner asserts that the May Thesis is dated May 2001 and “was also publicly available on ProQuest by at least November 26, 2001.” Pet. 19 (citing Ex. 1004, cover; Ex. 1036 ¶¶ 1–26).
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+We determine that Patent Owner has shown that the May Thesis represents the inventors' own work, and thus the May Thesis is not prior art to the '061 patent. PO Resp. 14–15. The May Thesis is authored by Chad May, who is a listed inventor of the '061 patent. Id.; Ex. 1004, 3; Ex. 1001, code (75). Thus, the May Thesis represents the work of one of the '061 inventors and is therefore ineligible as prior art under 35 U.S.C. § 102(a) based on the July 1, 2002 priority date. See, e.g., In re Katz, 687 F.2d 450, 454–455 (CCPA 1982) (a prior publication by inventors or a subset of the inventors does not qualify as prior art under 102(a)).
+
+With respect to 35 U.S.C. § 102(b), we find that the May Thesis is ineligible as prior art, even assuming that the Challenged Claims are not entitled to receive benefit of an earlier filing date. Petitioner provides evidence that the May Thesis was publicly available as of November 26, 2001. Pet. 17 (citing Ex. 1036 ¶¶ 1–26; Ex. 1002 ¶ 60). Patent Owner does not dispute that evidence. Based on the undisputed November 26, 2001 public availability date, the May Thesis represents a disclosure less than one year before the asserted effective filing date, i.e., July 1, 2002. Based on that timing and because the disclosure was made by the inventor, the May Thesis is not available as prior art to the Challenged Claims under 35 U.S.C. §102(b).
+
+Petitioner has not established that the May Thesis is prior art to claims 1, 2, 6, 7, and 11. Consequently, Petitioner has not demonstrated by a preponderance of evidence that claims 1, 2, 6, 7, and 11 are unpatentable in view of the May Thesis, or that claim 5 is unpatentable in view of the May Thesis and Himanen.
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+## D. Ground 3: Anticipation Based on the May Article
+
+Petitioner asserts that claims 1, 2, 6, 7, and 11 are anticipated by the May Article. Pet. 35–45. Patent Owner raises multiple counterarguments. PO Resp. 37–40. Having considered the parties' positions and evidence of record, we determine that Petitioner has not demonstrated by a preponderance of evidence that claims 1, 2, 6, 7, and 11 are anticipated by the May Article. Our analysis follows.
+
+We first summarize aspects of the May Article, also referred to by Patent Owner as “the Nature Article.” Id.
+
+## 1. May Article
+
+The May Article describes therapeutic haemoglobin synthesis in $\beta$ -thalassemic mice expressing lentivirus-encoded human $\beta$ -globin. Ex. 1005, 82. The May Article describes constructing two recombinant lentiviruses carrying $\beta$ -globin transcription units. Id. The lentiviruses include: (1) RNS1 containing “a minimal LCR comprising previously tested core elements of HS2, HS3 and HS4,” and (2) TNS9 containing “large fragments encompassing HS2, HS3 and HS4.” Id. The TNS9 vector is shown in Figure 1b, reproduced below:
+
+![](images/de5066b12ac8181a209a54bbad37a88d12408459f7419163d301e78204f6ab9b.jpg)
+
+Figure 1b illustrates the TNS9 vector with exons represented by filled boxes and introns represented by open boxes. Id. The TNS9 vector includes, from the 5' end to the 3' end, a splice donor (SD), packaging region ( $\Psi$ ), rev-response element (RRE), splice acceptor (SA), 3'- $\beta$ -globin enhancer (E), $\beta$ -globin gene, human $\beta$ -globin promoter (P), and LCR (including HS2, HS3, and HS4). Id. The 5' and 3' ends include long terminal repeat (LTR) sequences. See id. at Fig. 4.01(b). The May Article discloses that “TNS9 was generated by replacing the core HS2 element of RNS1 with an 840-bp HS2 fragment, the core HS3 element with a 1,308-bp HS3 fragment, and the core HS4 element with a 1,069-bp HS4 fragment.” Id.
+
+## 2. Petitioner's Contentions
+
+Petitioner asserts that the May Article discloses each element of claims 1, 2, 6–7, and 11. See Pet. 35–45. Specifically, Petitioner asserts that the May Article discloses a recombinant vector, TNS9, including a nucleic acid encoding a β-globin gene, e.g., a human β-globin gene, operably linked to an LCR consisting of large segments, which are composed of three fragments (HS2, HS3, and HS4) that are adjacent, i.e., contiguous to each other. Id. at 35–36, 41 (citing Ex. 1005, 82–84). Petitioner asserts further that the May Article explains that the three fragments were “generated by replacing the core HS2 element . . . with an 840-bp HS2 fragment, the core HS3 element . . . with a 1,308-bp HS3 fragment, and the core HS4 element . . . with a 1,069-bp HS4 fragment.” Id. at 37 (citing Ex. 1005, 82) (emphasis omitted, alterations in original). Additionally, Petitioner asserts that the May Article discloses that the HS2, HS3, and HS4 fragments “sum up to 3217 bp, or roughly 3.2 kb.” Id. (citing Ex. 1002 ¶ 140). Petitioner also asserts that the May Article discloses that the vector “increased globin expression in vivo.” Id. at 41.
+
+Petitioner contends that the May Article “teaches the restriction sites bounding the HS2, HS3, and HS4 fragments as recited in claim 1” by: (a) disclosing the lengths of those fragments in the TNS9 vector as 840 bp, 1308 bp, and 1069 bp; and (b) depicting the fragments on a “drawn to scale”
+
+map of the LCR with a comparison, in size and placement, to previously published fragments for the core elements of HS2, HS3, and HS4 in a RNS1 vector. Id. at 37 (citing Ex. 1005, 82, Fig. 1(a); Ex. 1002 ¶¶ 142–157). Petitioner asserts that “[b]y July 1, 2002, the entire map of the LCR region was available to a POSA in the GenBank database under accession numbers ‘HUMHBB,’ ‘U01317,’ and ‘NG\_000007.1.’” Id. at 38 (citing Ex. 1016, 14903–05, Fig. 2; Ex. 1002 ¶¶ 143–144). Petitioner notes that Patent Owner recognized the knowledge in the art at the time of the invention during prosecution. Id. at 38–39 (citing Ex. 1032, 301) (explaining that the sequences provided by the GenBank Accession numbers “are the reference sequences for the human β-globin region and are well known to those of skill in the art”).
+
+Additionally, Petitioner asserts that “by July 1, 2002, a finite number of restriction enzymes, including BstX1, SnaBI, BamHI, HindIII, and BanII, were available for sale through commercial sources.” Id. at 39 (citing Ex. 1002 ¶ 145). $^{10}$ Petitioner asserts that the specific sequences that these restriction enzymes recognized were also known at the time of the invention. Id. According to Petitioner, a skilled artisan would “have been able to map all of the possible restriction sites in the regions flanking the cores of HS2, HS3, and HS4.” Id. (citing Ex. 1002 ¶¶ 146–149). Petitioner contends that, based on the disclosures in the May Article regarding the size and location of TNS9’s HS2, HS3, and HS4 fragments, “a POSA would have placed these fragments onto the restriction-site map of the LCR they would have had available at the time.” Id. at 39–40 (Ex. 1002 ¶¶ 149–151). Petitioner asserts that “[i]n doing so, a POSA would have identified only six possible combinations of restriction enzyme fragments, one of which is recited in claim 1.” Id. at 40 (citing Ex. 1002 ¶¶ 151–156). Thus, Petitioner contends that, based on the May Article disclosures, a POSA would have ““at once envisage[d]’ a limited class of restriction fragments.” Id. (citing Kennametal, Inc. v. Ingersoll Cutting Tool Co., 780 F.3d 1376, 1381–83 (Fed. Cir. 2015) (“Thus, substantial evidence supports the Board’s conclusion that [the prior-art reference] effectively teaches 15 combinations, of which one anticipates pending claim 1.”)) (alteration in original).
+
+## 3. Patent Owner's Response
+
+Patent Owner contends that Petitioner has not met its burden to show that claims 1, 2, 6–7, and 11 are anticipated by the May Article. PO Resp. 37–40. Patent Owner asserts that the May Article does not expressly or inherently disclose all of the elements of the challenged claims. Id. In particular, Patent Owner asserts that the May Article does not disclose the claimed restriction sites surrounding the hypersensitive sites—the “BstXI and SnaBI HS2-,” “BamHI and HindIII HS3-,” or “BamHI and BanII HS4-” spanning nucleotide fragments. Id. at 37–38. Patent Owner asserts that “the [May] Article does not even disclose the use of restriction enzymes at all,” and therefore “it cannot inherently disclose every possible restriction site
+
+surrounding the hyper-specific sites.” Id. at 39 (citing Ex. 2002 ¶¶ 105–117; Ex. 1005).
+
+## 4. Discussion
+
+Having considered the parties’ positions and evidence of record, summarized above, we determine that the May Article fails to disclose the restriction sites surrounding the BstXI and SnaBI HS2-, BamHI and HindIII HS3-, or BamHI and BanII HS4-spanning nucleotide fragments, as required by the challenged claims. According to Petitioner, that limitation is inherently disclosed by the May Article’s description of the lengths of the HS2, HS3, and HS4 fragments in the TNS9 vector and its depiction of those fragments on a map of the LCR. Pet. 28. To support its inherent argument, Petitioner relies on knowledge in the art, i.e., the availability of the entire map of the LCR region, and the availability of restriction enzymes, including BstXI, SnaBI, BamHI, HindIII, and BanII. Id. at 39–40 (citing Kennametal, 780 F.3d at 1381–83). Based on that combined information, Petitioner contends that a POSA would “have been able to map all of the possible restriction sites in the regions flanking the cores of HS2, HS3, and HS4.” Id. Petitioner asserts further that “[g]iven the May Article’s disclosure regarding the size and location of TNS9’s HS2, HS3, and HS4 fragments, a POSA would have placed these fragments onto the restriction-site map of the LCR” that was available at the time, and would have identified only six possible combinations of restriction enzyme fragments, including the one recited in claim 1. Id.
+
+Upon closer inspection, however, we appreciate from the testimony of Petitioner's declarant, Dr. Bungert, that the process involved in arriving at those six possible combinations is predicated on numerous assumptions guiding a number of exacting steps to be performed in order to achieve the claimed LCR fragment. According to Dr. Bungert, the process for making the claimed LCR fragment would have involved the steps of (a) placing fragments that are the disclosed size of the HS2, HS3, and HS4 fragments from the TNS9 vector in the May Article onto the known restriction-site map of the LCR; (b) comparing those fragments to the “‘drawn to scale’ map” in the May Article; and then (c) identifying various fragments and determining which ones are consistent with the May Article’s description and match up with the fragments on the May Article’s drawn to scale map. Ex. 1002 ¶¶ 143–156.
+
+To identify the fragments consistent with the May Article's description, it was necessary for Dr. Bungert to use certain assumptions that exclude unfavorable enzymes, such as using a range of ± 20 bp in order to identify fragments with lengths that are within 20 bp of the fragments reported in the May Article. Id. In view of the number of assumptions and steps required to get from what is disclosed in the May Article to arrive at the alleged “six possible LCRs (i.e., combination of HS2, HS3, and HS4 fragments based on the TNS9 LCR disclosed in the May Article)—including the LCR recited in claim 1,” Ex. 1002 ¶ 156, we do not find that Petitioner has demonstrated that fragments having the restriction sites recited in claim 1 would have been “at once envisaged” by a skilled artisan as argued by Petitioner. Pet. 39–40.
+
+Moreover, as is further discussed below in the context of Petitioner's obviousness challenge over the May Article, we find merit in Patent Owner's argument that “a POSA at the time would understand such fragments could be made in multiple different ways, including through amplification by polymerase chain reactions [‘PCRs’], cutting from genomic DNAs using restriction enzymes, or otherwise.” PO Resp. 38 (citing
+
+Ex. 2002 ¶¶ 89, 106–115). Thus, Petitioner's assertion that a skilled artisan would have immediately envisaged fragments having the restriction sites in claim 1 is further undermined because there would have been more than one method of making the fragments disclosed in the May Article, one of which did not involve using restriction enzymes.
+
+Accordingly, for at least the foregoing reasons, we determine that Petitioner has not established by a preponderance of the evidence that claims 1, 2, 6, 7, and 11 are anticipated by the May Article.
+
+E. Grounds 4 and 5: Obviousness Based on the May Article
+
+As an alternative to Ground 3, Petitioner asserts that claims 1, 2, 6, 7, and 11 are rendered unpatentable as obvious over the May Article. Pet. 45–48. Specifically, Petitioner contends that the May Article discloses all of the limitations of independent claims 1 and 11 and dependent claims 2 and 6–7, “[h]oever, to the extent that the May Article is found not to disclose [the BstXI and SnaBI HS2-, BamHI and HindIII HS3-, or BamHI and BanII HS4- spanning nucleotide fragments limitation], that limitation nonetheless would have been obvious in view of the teachings of May Article and the knowledge of a POSA at the time of the alleged invention.” Id. at 45. Additionally, Petitioner asserts that claim 5 is rendered obvious by the combination of the May Article and Himanen. Id. at 48–49.
+
+Patent Owner raises multiple counterarguments, which we find credible and supported by the evidence of record. PO Resp. 40–52. Thus, having considered the parties' positions and evidence of record, we determine that Petitioner has not demonstrated by a preponderance of evidence that claims 1, 2, 5–7, and 11 would have been obvious over the May Article or the combination of the May Article and Himanen. Our analysis follows.
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+## 1. Petitioner's Contentions
+
+Petitioner asserts that, to the extent the May Article is not considered to disclose “the three fragments being a BstXI and SnaBI, HS2-spanning nucleotide fragment of said LCR, a BamHI and HindIII, HS3-spanning nucleotide fragment of said LCR, and a BamHI and BanII, HS4-spanning nucleotide fragment of said LCR,” as recited by claim 1, “that limitation nonetheless would have been obvious in view of the teachings of the May Article and the knowledge of a POSA at the time of the alleged invention.” Pet. 45. Petitioner relies on the same disclosures discussed for the anticipation challenge and asserts that a POSA would have similarly “used the disclosures in the May Article regarding TNS9’s LCR, especially given the general knowledge of the map of the LCR to identify the claimed restriction sites, and narrowed the options to a finite list of possibilities for HS2, HS3, and HS4.” Id. at 46.
+
+Petitioner asserts that a skilled artisan would have had a good reason to make the TNS9 vector disclosed in the May Article based on the findings therein that “the larger LCR fragments . . . increased globin expression in vivo and, furthermore, suggested that TNS9 is more resistant to transcriptional silencing.” Id. at 47 (quoting Ex. 1005, 84; citing Ex. 1002 ¶ 193). Petitioner contends that a POSA would have reasonably expected that combining the teachings of the May Article with known elements in the field would have achieved the claimed HS2, HS3, and HS4 fragments “given the accessibility of the LCR map and the known commercially available restriction enzymes.” Id. at 48 (citing Ex. 1002 ¶ 195). Moreover, Petitioner asserts that a POSA would have reasonably expected to succeed in making a recombinant vector with the claimed fragments as the method for doing so was well-known. Id. (citing Ex. 1018, 6; Ex. 1002 ¶ 195).
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+Further to that point, Dr. Bungert testifies how a skilled artisan would have used the known restriction-site LCR map as a tool for engineering the vector disclosed by the May Article. Ex. 1002 ¶¶ 143–156. Dr. Bungert explains a detailed process for how “a person of ordinary skill in the art would have envisaged only six possible LCRs (i.e., combination of HS2, HS3, and HS4 fragments based on the TNS9 LCR disclosed in the May Article)—including the LCR recited in claim 1.” Id. ¶ 156.
+
+## 2. Patent Owner's Contentions
+
+Patent Owner contends that Dr. Bungert's proposed step-wise process for the selection of restriction enzymes is hindsight-driven and ignores certain complications that a POSA would have had to overcome to arrive at the exact combination of the BstXI and SnaBI HS2-, BamHI and HindIII HS3-, or BamHI and BanII HS4- spanning nucleotide fragment recited by the claims. PO Resp. 40–52. First, Patent Owner criticizes Petitioner's assertion that a skilled artisan would have necessarily used a genomic map of the LCR in combination with restriction enzymes to map the possible restriction sites for HS2, HS3, and HS4 by arguing that “PCR would have been a viable method[, if not a preferred method], for a POSA to clone the claimed HS2, HS3, and HS4 fragments (instead of cutting from genomic DNAs using restriction enzymes).” Id. at 40–41 (citing Ex. 2056 ¶¶ 44–52, 136–144). More specifically, Patent Owner contends that a
+
+POSA would have known that PCR can be used to join DNA fragments using a technique called splicing by overlap extension (“SOE”). (Ex. 2068 at 39–40; Ex. 2056 ¶¶ 49, 144.) As Dr. Riley explains, Dr. Bungert’s reasons for avoiding PCR when cloning the LCR fragments, are inconsistent and contradicted by the knowledge of a POSA. (Ex. 2056 ¶¶ 139–44.) Even Dr. Bungert routinely used PCR when cloning LCR and other fragments. (See, e.g., Ex. 2052, 2054; Ex. 2064 at 3063.)
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+PO Resp. 41; see also Ex. 2056 ¶¶ 44–52, 136–144 (Dr. Riley opining that, at the time of the invention, PCR was a preferred method for cloning DNA fragments with many advantages over the conventional techniques of recombinant DNA technology that rely on restriction enzymes); compare Ex. 2055, 26:25–27:10 (Dr. Bungert testifying that “a POSA . . . would have excluded using PCR to generate an LCR fragment that drives high β-globin expression”). Moreover, Patent Owner contends that,
+
+[T]he Nature Article, along with the state of the art, would have taught away from the use of restriction enzymes. As even Dr. Bungert recognized in his declaration and confirmed at deposition, after comparing the known restriction enzymes against the entire map of the LCR region that was available at that time, a POSA would have recognized that there were no combinations of restriction enzymes that can provide the claimed HS2, HS3, and HS4 LCR fragments with the actual fragment size (i.e., 840 bp for HS2, 1308 bp for HS3, and 1069 bp for HS4, respectively) disclosed in the Nature Article. (See, e.g., Ex. 2055 at 155:4–155:8.) This clear obstacle should have been the end of the decision tree process, foreclosing a POSA from choosing a path of cloning the claimed fragments using restriction enzymes, especially since other methods of cloning, i.e., PCR technology, were just as routine, available, and more efficient ....
+
+## PO Resp. 41–42.
+
+Additionally, Patent Owner contends that the absence of any identifiable combinations of restriction enzymes to produce the claimed HS2, HS3, and HS4 LCR fragments is the reason “that Dr. Bungert had to arbitrarily apply a size variability of +/- 20 bp to the fragment sizes, without citing to any scientific authority to support this number.” Id. at 43 (citing Ex. 2055, 214:20–215:6). Additionally, Patent Owner explains that
+
+Dr. Bungert stated at his deposition that he was able to find a fragment within +/- 15 bp, but that he then used a +/- 20 bp size variation to be “conservative.” (Ex. 2055 at 214:6-8.) However, the +/- 15 bp does not cover the “BstXI and SnaBI HS2-spanning fragment” recited in claims 1 and 11 of the ’061 patent, because the actual fragment size of the BstXI and SnaBI HS2-spanning fragment is 857 bp, which is 17 bp larger than 840 bp disclosed by the Nature Article. In order to ensure that the claimed BstXI and SnaBI HS2-spanning fragment with a 17 bp size variation would fit within his analysis, Dr. Bungert arbitrarily added another 5 bp to this size variation without any scientific basis other than his necessity to try to get his numbers to work. In fact, Dr. Bungert further admitted at deposition that he could not provide any reasonable explanation as to why a POSA would not instead use a +/- 21 bp or +/- 22 bp size variation, although he admitted a fragment within a +/- 21 bp or +/- 22 bp size variation “will likely not create a difference.”
+
+Id. at 43 (citing Ex. 2055, 232:16–18.)
+
+Patent Owner also contends that Dr. Bungert's method for arriving at the claimed restriction enzyme nucleotide fragments relies on a set of conditions he created but was unable to follow to achieve the recited set of enzymes. Id. at 44–45. Specifically, Patent Owner contends that, according to his own criteria, Dr. Bungert “should have excluded enzymes that cleave the LCR too frequently; however, for HS4 he still used BanII (an enzyme recited in claim 1 or 11 of the ’061 patent), which cuts HS4 internally 4 times.” Id. at 45 (citing Ex. 2056 ¶ 165 (citing Ex. 1002 ¶ 115)).
+
+Patent Owner notes that Dr. Bungert stated that “a POSA would prefer restriction enzymes that generate sticky ends and would prefer not to use those that generate blunt ends (Ex. 2055 at 59:11–16), but for HS2 he still used SnaBI – a blunt end cutter that is recited in claim 1 or 11 of the ’061 patent.” Id. (citing Ex. 2055, 241:10–21). Patent Owner notes that Dr. Bungert stated that
+
+a [POSA] would prefer not to use restriction enzymes like BglI, which have undefined nucleotides as part of their recognition sequence (the recognition sequence for BglI is GCCNNNNNGGC, where N can be any nucleotide). (Ex. 2055 at 124-126). But the restriction enzyme BstXI recited in claim 1 of the '179 patent has a recognition sequence—CCANNNNNNTGG—with undefined nucleotides that a POSA, according to Dr. Bungert, would purportedly prefer not to use. (Ex. 2056 at ¶167.)
+
+Id. $^{11}$ Thus, according to Patent Owner, “[t]hat claim 1 recites three restriction enzymes (BanII, SnaBI, and BstXI) that Dr. Bungert states a person of ordinary skill in the art would have excluded or avoided is a clear demonstration of the use of hindsight knowledge.” Id.
+
+Patent Owner contends that Dr. Bungert's approach is “fundamentally flawed” additionally because he “omitted many commercially available enzymes that could be used to generate HS fragments meeting the size and relative position requirements when using his +/- 20 bp variability analysis.” Id. at 46. Specifically,
+
+for HS2, Dr. Bungert omitted at least the MaeII, TaiI, SacI, EcoICRI, EarI, and BpmI restriction enzymes, for HS3, he omitted the BlpI, Bpu10I, XmnI, BsgI, and StyI restriction enzymes, and for HS4, he omitted the BsgI, AclWI, and PstI restriction enzymes.
+
+Id. (citing Ex. 2056 ¶ 168). Considering these additional enzymes, Dr. Riley was able to find “at least 9 HS2 fragments . . . meet[ing] the requirements of fragment size (840 +/- 20 bp) and relative position with respect to RNS1 HS2 core element,” “at least 6 HS3 fragments . . . meet[ing] the requirements of fragment size (1308 +/- 20 bp) and relative position with respect to RNS1 HS3 core element,” and “at least 10 HS4 fragments . . . meet[ing] the requirements of fragment size (1069 +/- 20 bp) and relative
+
+position with respect to RNS1 HS4 core element.” Ex. 2056 ¶¶ 171–174; see also PO Resp. 47–52 (summarizing Dr. Riley’s analysis). Thus, “Dr. Riley calculates the number of possible fragment combinations to be at least 540.” PO Resp. 46 (citing Ex. 2056 ¶¶ 139–175, 183–188).
+
+## 3. Petitioner's Reply
+
+Petitioner contends that the May Article is silent as to whether the disclosed construct was made using PCR or restriction enzymes, and therefore cannot teach away from the use of restriction enzymes. Reply 12–14; see also id. at 13 (“Dr. Riley confirmed a POSA ‘could make [that vector] either using PCR or with restriction enzymes.’” (alteration in original)) (citing Ex. 1052, 78:20–23, 67:13–20; Pet. 30–32; Ex. 1002 ¶¶ 116–117).
+
+Petitioner contends that Dr. Bungert's opinion that a person of ordinary skill in the art would allow for +/- 20bp when analyzing the fragment lengths reported in the May Article does not reflect a “hindsight-based approach,” but rather reflects the need for “minor changes in fragment length” to accurately achieve the “reported lengths.” Id. at 15 (citing PO Resp. 46–47; Ex. 1002 ¶ 152). Petitioner further contends:
+
+As Dr. Bungert explained, a POSA attempting to make the vector described in the May Article would not have encountered fragments that either matched the exact reported lengths, or that were present within +/-5bp or +/-10bp. (Ex. 2055, 128:24–129:8, 131:12–132:8, 138:5–23, 233:8–234:2; Ex. 1002, ¶113.) Because a POSA would have been able to identify a fragment within +/-15bp, Dr. Bungert then allowed for an additional +/-5bp (for a total of +/-20bp) to mimic the POSA’s “conservative” approach in assessing fragment lengths reported in the prior art. (Ex. 2055, 133:8–14, 136:5–11, 138:20–25, 169:5–13.) As such, a POSA analyzing the May Article, unless directed to more precise restriction sites, would have used +/-20bp based on the known variability in reported fragment lengths. (Ex. 2055, 128:4
+
+129:8 (explaining possibility of “slightly different numbers from the same restriction fragments”); id., 130:5–19, 131:22–132:8, 135:15–136:4, 138:5–23, 227:6–228:9, 233:4–234:2, 236:15–19, 237:21–238:9.)
+
+Id. at 15–16.
+
+Regarding Dr. Bungert's restriction enzyme selection criteria, Petitioner contends that Patent Owner ignores why certain exceptions were applied. Id. at 17–18. For example, Patent Owner contends that “Dr. Bungert should not have used BanII because it ‘cuts HS4 internally 4 times,’” $^{12}$ but Dr. Bungert “explained that a POSA would have used BanII (as well as SacI) because of the lack of other options for the HS4 fragment.” Id. at 17 (citing Ex. 2055, 157:24–158:19, 154:3–155:8; Ex. 1002 ¶¶ 36–37, 106, 115–116, 131).
+
+In reply to Patent Owner's contention that “Dr. Bungert should not have used SnaBI because it is a ‘blunt end cutter’ ([PO Resp.] 45),” $^{13}$ Petitioner asserts that Dr. Bungert explained that a POSA would not have excluded blunt end cutters, and that SnaBI produces a fragment within 20 bp of the length disclosed in the May Article and is consistent with the location of the HS2 fragment on the May Article’s “drawn to scale” map. Id. at 17–18 (citing Ex. 2055, 30:24–31:24, 240:15–241:21; Ex. 1002 ¶¶ 36–37, 145, 154–155, 192).
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+Petitioner contends that Patent Owner “is incorrect that Dr. Bungert excluded restriction enzymes that have ‘undefined nucleotides as part of their recognition sequence’ like BglI and BstXI.” Id. at 18 (citing PO Resp. 45–46 $^{14}$ ). Rather, Dr. Bungert explain that “a POSA would have considered these types of restriction enzymes (Ex. 2055, 126:2–19), and BglI does not appear in the analysis only because it does not allow for a HS fragment described in the May Article.” Id.
+
+Petitioner also asserts that Patent Owner is incorrect that Dr. Bungert “omitted many commercially available enzymes,” and provides a summary of Dr. Bungert’s rationale for omitting certain enzymes. Id. at 18–24 (quoting PO Resp. 46). For example, Petitioner explains that, with regard to the HS4 fragment, Dr. Bungert “omitted ‘BsgI, AclWI,’ [because] both ‘cleave the DNA outside the restriction site,’ as Dr. Riley admitted.” Id. at 18 (citing Ex. 1052, 154:20–155:4, 155:23–156:4; Ex. 1026, 4; Ex. 2055, 48:13–25, 53:10–12, 54:9–14). For the HS2 fragment, Petitioner responds to the alleged omission of SacI by noting that a SnaBI-SacI fragment is 819-bp, which is outside of the applied +/-20 bp range. Id. at 21. Regarding the alleged omission of MaeII, TaiI, and EcoICRI for the HS2 fragment,
+
+## Petitioner contends
+
+MaeII and TaiI cut in the same location as SnaBI, and EcoICRI cuts in the same location as SacI. (Ex.1026, 8–10 (referring to the enzymes SRT identified as “isoschizomers”); Ex.1002, ¶¶113–114.) Dr. Bungert’s inclusion of SnaBI and SacI in his analysis (Ex.1002, ¶¶113-14) therefore provide the same fragments as those [Patent Owner] alleges he omitted . . .
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+Id. at 22.
+
+Petitioner concludes that, after removing fragments identified by Patent Owner and Dr. Riley “that are duplicates, cut outside the restriction site, or are too large,” as explained by Dr. Bungert, Patent Owner’s proposed 540 combinations is “reduced to only 8 combinations (i.e., 1 HS2 x 4 HS3 x 2 HS4).” Id. at 23 (citing PO Resp. 51); Ex. 2056 ¶¶ 164–188 (Dr. Riley’s analysis concluding that “there should be at least 540 possible combinations of restriction enzymes for HS2, HS3, and HS4”).
+
+## 4. Patent Owner's Sur-reply
+
+Patent Owner argues that Dr. Bungert's analysis “relies on Fig. 1a in the Nature Article as a precision guide and [is a] hindsight-driven approach.” Sur-reply 13. Patent Owner notes that at the time of the invention “a POSA would have recognized that there were no combinations of restriction enzymes that can provide the claimed HS2, HS3, and HS4 LCR fragments with the actual fragment size (i.e., 840 bp for HS2, 1308 bp for HS3, and 1069 bp for HS4, respectively) disclosed in the Nature Article.” Id. at 12. Further, Patent Owner argues that “Petitioner refused to consider PCR—a widely used, routine, and more efficient cloning technique that provides significant flexibility to clone HS fragments of a desired size and/or incorporate desired flanking restriction sites.” Id. at 12–13 (citing Ex. 2056 ¶ 32; PO Resp. 42).
+
+Patent Owner argues that Dr. Bungert's use of the May Article as “a precision guide is misplaced.” Id. at 13. Patent Owner notes that one inventor, Dr. Sadelain, explained “Fig. 1a [of the May Article] is a cartoon merely to show proportionality between the HS fragments of the RNS1 vector and those of the TNS9 vector.” Id. Patent Owner argues that
+
+Dr. Riley also explained that Fig. 1a is only a “cartoon” and “due to the substantial size discrepancies of over 200 bp in Fig. 1a, a POSA would at best view Fig. 1a as provid[ing] a . . . rough guideline” (emphasis added). (Ex. 1052, 143:3–4, 9–13). Petitioner cannot deny that it is not reasonable to use a cartoon as depicted in Fig. 1a that has “substantial size discrepancies of over 200 bp” to identify HS fragments within ± 20 bp – an unsupported, arbitrary size variability set by Dr. Bungert.
+
+## Id. at 14. Patent Owner further contends that
+
+In an attempt to reduce the hundreds of possible combinations of HS fragments identified by Dr. Riley, Petitioner simply eliminated the possible HS fragments having restriction sites that have undefined nucleotides as part of their recognition sequence, cut outside the recognition site, or cut frequently unless such an enzyme is recited in the claims. (Reply, 20–23). Clearly, Dr. Bungert's arbitrary application of his own criteria to arrive at the claimed invention is hindsight-driven.
+
+Id. at 16; see also id. at 14 (“Petitioner arbitrarily awards itself some leeway, ± 20 bp, to the sizes disclosed in the Nature Article—just enough to cover through hindsight the 17 bp size discrepancy of the claimed the HS2 fragment.”).
+
+## Patent Owner contends that while
+
+Dr. Riley[] conclusively showed in Opposition that the Nature Article would have presented the POSA with upwards of 560 combinations of restriction enzyme choices, Petitioner attempts to pare down these options without supporting their attorney arguments with a declaration by their scientific expert, Dr. Bungert.
+
+## Id. at 17. Patent Owner further contends
+
+Petitioner['s unsupported analysis of the HS fragments identified by Dr. Riley, in addition to eliminating HS fragments by arbitrarily excluding restriction enzymes, also makes numerous errors. For HS2 fragments, Petitioner is incorrect that "SnaBI-SacI is 819-bp." (Reply, 21). SnaBI cleaves at position 804, and SacI cleaves at position 1631, resulting in a fragment of
+
+828 bp, which is within $\pm$ 20 bp size variability as applied. (Ex. 2056, Appendix C, 177, see, e.g., combination No. 241).
+
+Id. at 20; see also id. at 20–23 (Patent Owner summarizing additional asserted errors resulting in the exclusion of certain enzymes).
+
+Patent Owner contends that “Petitioner is incorrect that ‘MaeII and TaiI cut in the same location as SnaBI, and EcoICRI cuts in the same location as SacI’ by incorrectly assuming that isoschizomers must cut in the same location.” Id. at 20. For example, Patent Owner contends that the MaeII cut location is A↓CGT, whereas the SnaBI cut location is TAC↓GTA. Id. at 20–21 (citing Ex. 1026, 8, 10). As such, “[b]ecause these restriction enzymes cut in different locations, the resulting fragments do not have identical fragment lengths as asserted by Petitioner.” Id. at 21.
+
+## 5. Discussion
+
+Based on our consideration of the entire record, we determine that Petitioner has failed to show by a preponderance of the evidence that the Challenged Claims are rendered obvious by the May Article. While we appreciate that the May Article discloses an LCR construct that drives $\beta$ -globin expression, we find that the May Article lacks sufficient detail to teach or suggest the very specific LCR fragment encompassed by the Challenged Claims, specifically, the LCR fragment comprising the recited BstXI and SnaBI H52-spanning nucleotide fragment, BamHI and HindIII H53-spanning nucleotide fragment, BamHI and BanII H54-spanning nucleotide fragment.
+
+To begin, it is undisputed that the May Article does not disclose whether its LCR fragment was made using PCR or restriction enzymes. Further, while we agree with Petitioner that the May Article does not teach away from the use restriction enzymes to make the May Article fragment, we note also the lack of any teaching in the May Article directing a person of ordinary skill in the art towards the use of restriction enzymes or, likewise, away from the use of PCR as a method of manufacture. Pet. 30 (citing Ex. 1002 ¶ 106). As Petitioner acknowledges, the May Article is silent on whether the disclosed LCR fragment was made using PCR or restriction enzymes. Reply 13.
+
+The record demonstrates that a person of ordinary skill in the art may have used PCR as a possible method of manufacture. This created numerous pathways for achieving an LCR fragment matching the disclosure of the May Article, which is not sufficiently accounted for in the Petition or in Dr. Bungert's analysis. We credit the testimony of Dr. Riley and other evidence of record that PCR would have been a viable approach to make the LCR fragment disclosed by the May Article. Ex. 2056 ¶¶ 44–52, 119 (“multiple methods of manufacture of each fragment could be used, including through PCR”), 136–144, 209–212; Ex. 2068, 9–10, 34. For example,
+
+As Newton & Graham (1997) confirms, “[b]y virtue of the speed, sensitivity, specificity, and inherent simplicity of the PCR, it has become the method of choice for the above applications in most laboratories,” which includes cloning. (Ex. 2068 at 9–10.) This reference further explains that “[a]lmost any DNA sequence can be engineered and clones screened using PCR as a replacement for the conventional techniques of recombinant DNA technology, with considerable savings in time, effort and expense.” (Id. at 34.)
+
+PO Resp. 41 (alterations in original); see also Ex. 2056 ¶ 138 (same). Even acknowledging known issues from using PCR on genomic DNA (see, e.g., Ex. 2055, 32:24–33:25, 34:13–35:6, 42:12–43:12 (Dr. Bungert testifying that PCR requires “many more steps”); Ex. 1052, 71:24–25 (Dr. Riley testifying that “[m]utations can occur any time you’re doing cloning, . . . in
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+PCR as well"); Ex. 1066, 41:3–4 (Dr. Sadelain testifying that “PCR is imperfect and can make a mistake”)), we find the evidence of record shows that PCR was a viable option to those in the art attempting to clone genomic DNA (see, e.g., Ex. 1066, 40:14–19 (Dr. Sadelain testifying that PCR requires “that everything would be sequenced”); Ex. 2056 ¶ 142 (“a POSA would understand sequencing can be used to verify sequences of PCR products and identify the clones without mutations”); Sur-reply 12–13 (references cited therein).
+
+We have considered Petitioner's argument that the “astronomical” number of possible fragments from using a PCR-driven approach would have discouraged its use and perhaps steered a person of ordinary skill in the art to the restriction enzyme-based approach. Reply 13; Tr. 33:16–22. Rather than support a conclusion that a POSA would have necessarily chosen the restriction enzyme-based approach, however, we find that argument to again highlight the lack of sufficient detail in the May Article to adequately guide a POSA to the claimed construct. To that point, we find that the May Article also lacks sufficient detail to guide a POSA to use restriction enzymes. Again, the May Article does not disclose how the disclosed LCR fragment was created, and there are no combinations of restriction enzymes that could achieve the claimed HS2, HS3, and HS4 LCR fragments based on the actual fragment sizes disclosed by the May Article. PO Resp. 13, 42; Ex. 2002 ¶¶ 88–89; Reply 15–16; Sur-reply 12. We note also that the lack of corroborating detail in the May Article forced Dr. Bungert to make certain assumptions, such as to assume a +/- 20 bp margin of error for which to choose restriction enzymes producing the recited fragment sizes. We are not persuaded, however, that a person of ordinary skill in the art would have deviated from the May Article’s
+
+teachings in the exact manner outlined by Dr. Bungert given the natural discrepancies between the fragment sizes disclosed in the May Article and the fragment sizes achieved by Dr. Bungert's preferred enzymes.
+
+More specifically, we are not persuaded that a person of ordinary skill in the art would have assumed that the LCR fragment disclosed by the May Article was necessarily produced using restrictions enzymes. Even if artisans at the time of the invention would have selected the restriction enzyme-based approach in an attempt to recreate the May Article's LCR fragment, that is insufficient to support Petitioner's contention that "a POSA would have identified only six possible combinations of restriction enzyme fragments." Pet. 31. As discussed above, PCR would have been a viable alternative for the creation to May Article's LCR fragment, which greatly expands the number of possibilities for an LCR construct driving β-globin expression conforming to the specifications disclosed in the May Article. See also Ex. 2002 ¶ 107 ("A POSA would appreciate that unlike directly cutting genomic DNA using restriction enzymes, which are limited to restriction sites available on the LCR, the PCR method is not limited to restriction sites and can be used to cleave at any base pair.... Thus, for each fragment, hundreds of, if not thousands of, different options existed.").
+
+Furthermore, even assuming PCR would not have been a viable alternative, we find that the evidence of record fails to support Petitioner's conclusion that a person of ordinary skill in the art would have understood that only six combinations of fragments were possible using the restriction enzyme approach as asserted by Petitioner and Dr. Bungert. Pet. 31; Ex. 1002 ¶¶ 143–156. Here, we credit Patent Owner's argument and Dr. Riley's analysis that certain enzymes were not accounted for by Dr. Bungert, and when those enzymes are accounted, the number of possible
+
+combinations is greater than the six asserted by Petitioner. For example, the evidence of record supports Patent Owner's assertion that Dr. Bungert's exclusion of MaeII because it cuts in the same location as SnaBI was incorrect, and as such, additional combinations were unaccounted for in Dr. Bungert's analysis. Sur-reply 20–21 (citing Ex. 1026, 8, 10). As Patent Owner demonstrates, MaeII and SnaBI cut in different locations, and thus, while potentially equivalent, create different fragments. See id.; Ex. 1026, 8, 10. Accordingly, Dr. Bungert has not demonstrated a persuasive reason to exclude the MaeII restriction enzyme from his analysis.
+
+Taken together, while we appreciate that Dr. Bungert's analysis resulted in six possible combinations of restriction enzyme fragments (Ex. 1002 ¶¶ 143–156), that analysis involved a number of steps, where each step required certain assumptions to be made, the first of which would have been whether to use PCR or restriction enzymes as the method of manufacture. Each assumption made adds a branch to a decision tree that, while potentially leading to the creation of an LCR fragment, would greatly increase the number of possible combinations. Thus, we determine that, only with the benefit of hindsight, would a person of ordinary skill in the art have followed the path articulated by Dr. Bungert such that the exact LCR fragment encompassed by the claim would have been achieved.
+
+Accordingly, we determine that Petitioner has failed to establish that a person of ordinary skill in the art, using the May Article as a guide, was provided “a finite number of identified, predictable solutions” from which to achieve the claimed restriction enzyme fragments of the Challenged Claims. KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 421 (2007). For at least the foregoing reasons, we determine that Petitioner has not established by a preponderance of the evidence that claims 1, 2, 6, 7, and 11 are rendered
+
+unpatentable as obvious by the May Article, and that claim 5 is rendered unpatentable as obvious by the combination of the May Article and Himanen. $^{15}$
+
+## F. Grounds 6 and 7: Obviousness Based on the May Abstract
+
+Petitioner asserts that claims 1, 2, 6–8, 11, and 15 are rendered unpatentable as obvious by the May Abstract. Pet. 49–59. Additionally, Petitioner asserts that claim 5 is rendered unpatentable as obvious by the combination of the May Abstract and Himanen. Id. at 59. Patent Owner raises multiple counterarguments. PO Resp. 49–59.
+
+Having considered the parties' positions and evidence of record, we determine that Petitioner has not demonstrated by a preponderance of evidence that claims 1, 2, 6–8, 11, and 15 would have been obvious over the May Abstract. Our analysis follows.
+
+## 1. May Abstract
+
+The May Abstract describes producing therapeutic levels of $\beta$ -globin by lentiviral-mediated transfer of the human $\beta$ -globin gene and large locus control region elements in long-term bone marrow chimeras. Ex. 1006, S248. The May Abstract describes using recombinant lentiviruses to efficiently transfer and faithfully integrate “the human $\beta$ -globin gene together with large segments (3.2 kb) of its locus control region (LCR).” Id. The May Abstract discloses the TNS9 vector that includes large LCR segments encompassed by hypersensitive sites 2, 3, and 4. Id. The “large LCR fragments incorporated into the TNS9 lentiviral vector increased the probability and level of globin expression in vitro and in vivo.” Id. at S249.
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+## 2. Petitioner's Contentions
+
+Petitioner asserts that the May Abstract describes isolated mouse (mammalian) bone marrow cells, containing hematopoietic progenitor cells and stem cells, that are transduced with the TNS9 vector (claim element 1.pre). Pet. 49 (citing Ex. 1006, S249; Ex. 1002 ¶¶ 205–209; Ex. 1013, 4102, 4108). Petitioner asserts that the TNS9 vector is a recombinant lentiviral vector (claim element 1.a) that includes a nucleic acid encoding human β-globin operably linked to a 3.2 kb nucleotide fragment which consists essentially of three contiguous nucleotide fragments obtainable from a human β-globin locus control region (LCR) (claim element 1.b). Id. at 49–51 (citing Ex. 1006, S248; Ex. 1002 ¶¶ 213–216). Petitioner also asserts that May Abstract discloses that the vector provides expression of the globin in a mammal in vivo, as required by the challenged claims. Id. at 54 (citing Ex. 1006, S249).
+
+Petitioner acknowledges that the May Abstract does not expressly disclose the recited HS2, HS3, and HS4 fragments (claim element 1.c). See id. at 51. Instead, Petitioner asserts that the May Abstract “teaches or suggests the restriction sites bounding the HS2, HS3, and HS4 fragments as recited in claim 1, especially in light of what a POSA would have known at the time of the alleged invention.” Id. (citing Ex. 1002 ¶¶ 217–237). Specifically, Petitioner asserts that “a POSA would have made use of the well-known LCR map and then-commercially available restriction enzymes to identify HS2, HS3, and HS4 fragments that fit a 3.2 kb LCR.” Id. at 51–52 (citing Ex. 1002 ¶¶ 222–231, Appendices A–D).
+
+Petitioner asserts here again that the entire map of the LCR was available as early as 1985 in the Genbank database. Id. at 38, 51 (citing Ex. 1016, 14903–05, Fig. 2; Ex. 1002 ¶¶ 143–144). Petitioner further asserts that “by July 1, 2002, a finite number of restriction enzymes, including BstX1, SnaBI, BamHI, HindIII, and BanII, were available for sale through commercial sources such as New England Biolabs.” Id. at 39, 51 (citing Ex. 1019, r192–93, r198–99, r207; Ex. 1002 ¶ 145).
+
+According to Petitioner, applying conventional techniques, “a POSA would have grouped fragments having substantially similar flanking sequences into ‘clusters’ of fragments expected to lead to comparable levels of globin expression.” Id. at 52 (citing Ex. 1002 ¶¶ 226–227). As a result, Petitioner asserts that “a POSA would have identified 135 possible combinations of HS2, HS3, and HS4 fragment clusters—one of which includes the fragments recited in claim 1, and all of which would have been reasonably expected to provide globin expression in a mammal in vivo.” Id. (citing Ex. 1002 ¶ 231, Appendix D).
+
+Patent Owner argues that the May Abstract does not teach or suggest “the three fragments being a BstXI and SnaBI HS2-spanning nucleotide fragment of said LCR, a BamHI and HindIII HS3-spanning nucleotide fragment of said LCR and a BamHI and BanII HS4-spanning nucleotide fragment of said LCR,” as recited in claim 1. PO Resp. 52. Patent Owner contends that the May Abstract suffers from the same deficiencies as the May Article, with the added deficiency of lacking certain disclosure as to the nature of the disclosed HS2, HS3, and HS4 fragments. Id. at 52–53. More specifically, Patent Owner contends that
+
+the May Abstract does not disclose (i) whether or not the large LCR segment additionally contains HS1, HS5, or both; (ii) whether or not the large LCR segment contains one or more copies of HS1, HS2, HS3, HS4, or HS5 (e.g., two copies of HS1, HS2, HS3, HS4, or HS5); (iii) whether or not HS1, HS2, HS3, HS4, or HS5 overlaps entirely or partially with each of their core elements; (iv) how HS2, HS3, and HS4 are arranged, such as whether HS2, HS3, and HS4 are arranged in the order of HS2-HS3-H4 or other order (e.g., HS3-HS2-HS4); and (v) the size of each of the HS fragments. (See Ex. 2056 at ¶193.)
+
+## Id. at 53.
+
+Based on our consideration of the record, we agree with Patent Owner that Petitioner has not shown that a skilled artisan would have been motivated with a reasonable expectation of success in arriving at the claimed invention based on the teachings and suggestions of the May Abstract. As acknowledged by Petitioner, the May Abstract does not disclose the restriction sites bounding the HS2, HS3, and HS4 fragments as recited in claim 1. Pet. 51–52. Unlike the May Article, the May Abstract also does not disclose the length for the HS2, HS3, and HS4 fragments. As a result, Petitioner argues here that “a POSA would have made use of the well-known LCR map and then-commercially available restriction enzymes to identify HS2, HS3, and HS4 fragments that fit a 3.2 kb LCR.” Id. (citing Ex. 1002 ¶¶ 222–231, Appendices A–D). To narrow those results, Petitioner asserts that “a POSA would have grouped fragments having substantially similar flanking sequences into ‘clusters’ of fragments expected to lead to comparable levels of globin expression.” Id. at 52 (citing Ex. 1002 ¶¶ 226–227). Without providing much more detail, Petitioner concludes that “a POSA would have identified 135 possible combinations of HS2, HS3, and HS4 fragment clusters—one of which includes the fragments recited in claim 1, and all of which would have been reasonably expected to provide globin expression in a mammal in vivo.” Id. (citing Ex. 1002 ¶ 231).
+
+In view of the limited disclosures in the May Abstract, we agree with Patent Owner that Petitioner's rationale that it would have been obvious to make three different nucleotide fragments having the exact same restriction sites as recited in claim 1 based on the May Abstract disclosure that the entire LCR region is 3.2 kb in length appears to be based on impermissible hindsight. PO Resp. 52. Further, as Patent Owner asserts, Petitioner and Dr. Bungert fail to adequately explain and support their methodology for arriving at their identified 135 possible combinations of HS2, HS3, and HS4 fragment clusters, which include the fragments recited in claim 1. See id. at 56–59. Accordingly, for at least the foregoing reasons, we find that Petitioner has not shown by a preponderance of evidence that claims 1, 2, 6–8, 11, and 15 are rendered obvious by the May Abstract.
+
+For dependent claim 5, Petitioner relies on the combination of May Abstract and Himanen. The addition of Himanen does not address the deficiencies discussed regarding the May Abstract. Indeed, Petitioner relies on Himanen only for its disclosure of the anti-sickling K95I mutant to address the additional limitation recited in claim 5 that the “functional globin [recited in claim 1] is a mutant globin.” Ex. 1001, 12:9–10. Accordingly, Petitioner has not shown by a preponderance of evidence that dependent claim 5 is rendered obvious by a combination of the May Abstract and Himanen for the same reasons discussed above.
+
+## III. CONCLUSION
+
+In summary:
+
+<table><tr><td>Claims</td><td>35 U.S.C. §</td><td>Reference(s)/ Basis</td><td>Claims Shown Unpatentable</td><td>Claims Not Shown Unpatentable</td></tr><tr><td>1, 2, 6, 7, 11</td><td>102</td><td>May Thesis</td><td></td><td>1, 2, 6, 7, 11</td></tr><tr><td>5</td><td>103</td><td>May Thesis, Himanen</td><td></td><td>5</td></tr><tr><td>1, 2, 6, 7, 11</td><td>102</td><td>May Article</td><td></td><td>1, 2, 6, 7, 11</td></tr><tr><td>1, 2, 6, 7, 11</td><td>103</td><td>May Article</td><td></td><td>1, 2, 6, 7, 11</td></tr><tr><td>5</td><td>103</td><td>May Article, Himanen</td><td></td><td>5</td></tr><tr><td>1, 2, 6–8, 11, 15</td><td>103</td><td>May Abstract</td><td></td><td>1, 2, 6–8, 11, 15</td></tr><tr><td>5</td><td>103</td><td>May Abstract, Himanen</td><td></td><td>5</td></tr><tr><td colspan="3">Overall Outcome</td><td></td><td>1, 2, 5–8, 11, 15</td></tr></table>
+
+VI. ORDER
+
+In consideration of the foregoing, it is hereby:
+
+ORDERED that Petitioner has not shown by a preponderance of the evidence that claims 1, 2, 5–8, 11, and 15 of the '061 patent are unpatentable; and
+
+FURTHER ORDERED that, because this is a Final Written Decision, parties to the proceeding seeking judicial review of the decision must comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+IPR2023-00074
+Patent 8,058,061 B2
+
+## FOR PETITIONER:
+
+Naveen Modi
+Eric Dittmann
+Daniel Zeilberger
+PAUL HASTINGS LLP
+naveenmodi@paulhastings.com
+ericdittmann@paulhastings.com
+danielzeilberger@paulhastings.com
+
+## FOR PATENT OWNER:
+
+Michael Glynn
+
+Joe Chen
+
+Howard Suh
+
+James McConnell
+
+Wanda French-Brown
+
+FOX ROTHSCHILD LLP
+
+mglynn@foxrothschild.com
+
+joechen@foxrothschild.com
+
+hsuh@foxrothschild.com
+
+jmcconnell@foxrothschild.com
+
+wfrench-brown@foxrothschild.com

@@ -1,0 +1,589 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 64
+Entered: November 26, 2024
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE
+
+# BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+# NEUROCRINE BIOSCIENCES, INC., Petitioner,
+
+V.
+SPRUCE BIOSCIENCES, INC.,
+Patent Owner.
+
+PGR2021-00088
+Patent 10,849,908 B2
+
+Before JOHN G. NEW, SUSAN L. C. MITCHELL, and TINA E. HULSE, Administrative Patent Judges.
+
+NEW, Administrative Patent Judge.
+
+JUDGMENT
+
+Final Written Decision
+
+Determining All Challenged Claims Unpatentable 35 U.S.C. § 328(a)
+
+Denying in Part and Dismissing in Part Petitioner's Motion to Exclude Evidence 37 C.F.R. § 42.64(c)
+
+Denying in Part and Dismissing in Part Patent Owner's Motion to Exclude Evidence 37 C.F.R. § 42.64(c)
+
+Dismissing Petitioner's Motion to Strike 37 C.F.R. § 42.23(b)
+
+## I. INTRODUCTION
+
+We have jurisdiction to hear this post-grant review under 35 U.S.C. § 6. This Final Written Decision is issued pursuant to 35 U.S.C. § 328(a) and 37 C.F.R. § 42.73. For the reasons set forth below, we determine that Petitioner Neurocrine Biosciences, Inc. (“Petitioner”) has established, by a preponderance of the evidence, that challenged claims 1–25 of Patent Owner Spruce Biosciences, Inc.’s (“Patent Owner”) U.S. Patent No. 10,849,908 B2 (Ex. 1001, the “’908 patent”) are unpatentable. We also deny in part and dismiss in part Petitioner’s Motion to Exclude Evidence, deny in part and dismiss in part Patent Owner’s Motion to Exclude Evidence, and dismiss Petitioner’s Motion to Strike.
+
+## A. Procedural History
+
+On May 28, 2021, Petitioner filed its Petition (Paper 3, “Petition” or “Pet.”) seeking post-grant review of claims 1–25 of the ’908 patent. Patent Owner timely filed a Preliminary Response. Paper 8 (“Preliminary Response” or “Prelim. Resp.”). On December 10, 2021, we entered a Decision Denying Institution of post-grant review (the “Board’s Decision”). See Paper 11. On January 10, 2022, Petitioner requested a Rehearing before the Precedential Opinion Panel. Papers 12, 13. On July 20, 2023, Petitioner’s Request for Rehearing was dismissed and sua sponte review of the Board’s Decision by the Director was granted. Papers 14, 15.
+
+On August 4, 2023, the Director issued a Decision Vacating the Board’s Decision (the “Director’s Decision” or “Dir. Dec.”) and remanding this case to the Board for further proceedings consonant with the Director’s Decision. Paper 16. We instituted post-grant review of the challenged
+
+claims of the '908 patent on December 1, 2023. Paper 21 ("Institution Decision" or "Dec. Inst.").
+
+After institution of trial, Patent Owner filed a Response (Paper 29, “PO Resp.”), Petitioner filed a Reply (Paper 32, “Pet. Reply”), and Patent Owner filed a Sur-reply (Paper 45, “PO Sur-reply”). A consolidated oral argument was held in this proceeding and PGR2022-00025 on September 3, 2024, and a copy of the transcript was entered into the record. Paper 59 (“Tr.”). We authorized additional briefing on claim construction on September 6, 2024 (Paper 58). Both Petitioner (Paper 60) and Patent Owner (Paper 61) filed additional briefing on claim construction and Oppositions (Papers 62 and 63, respectively) to the opposing party’s additional briefing.
+
+Both Petitioner (Paper 46) and Patent Owner (Paper 47) filed Motions to Exclude Evidence (“Mot. Exclude”) and filed Oppositions (Papers 49 and 50, respectively) to the opposing party’s Motion to Exclude Evidence (“Opp. Mot. Exclude”). Both parties also filed a Reply to their opponent’s Opposition to their Motions to Exclude (“Reply Mot. Exclude”). Paper 53 (Petitioner); Paper 52 (Patent Owner). Petitioner filed a Motion to Strike (Paper 51, “Pet. Mot. Strike”), and Patent Owner filed an Opposition (Paper 55, “Opp. Mot. Strike”).
+
+## II. BACKGROUND
+
+## A. Real Parties-in-Interest
+
+Petitioner identifies Neurocrine Biosciences, Inc. as the real party-in-interest. Pet. 79. Patent Owner identifies Spruce Biosciences, Inc. as the real party-in-interest. Paper 6, 2.
+
+## B. Related Matters
+
+Petitioner states that it is not aware of any disclaimers, reexamination certificates, or petitions for inter partes or post-grant review for the '908 patent, nor is Petitioner aware of any pending civil actions involving the '908 patent. Pet. 80.
+
+Patent Owner states that it “is aware of the following related matter: Neurocrine Biosciences, Inc. v. Spruce Biosciences, Inc., Case No. PGR2022-00025 (PTAB).” Paper 42, 1.
+
+## C. The Asserted Grounds of Unpatentability
+
+Petitioner contends that claims 1–25 of the '908 patent are unpatentable, based upon the following grounds:
+
+<table><tr><td>Ground</td><td>Claim(s) Challenged</td><td>35 U.S.C. §</td><td>Reference(s)/Basis</td></tr><tr><td>1</td><td>1–4, 7–9, 11–14, 17–19, 21–24</td><td> $102^1$ </td><td>Grigoriadis $^2$ </td></tr><tr><td>2</td><td>4, 10, 14, 20–22, 25</td><td>103</td><td>Grigoriadis</td></tr><tr><td>3</td><td>5, 6, 15, 16</td><td>103</td><td>Grigoriadis, Romano $^3$ </td></tr><tr><td>4</td><td>1–25</td><td>112</td><td>Lack of written description</td></tr><tr><td>5</td><td>1–25</td><td>112</td><td>Lack of enablement</td></tr></table>
+
+Petitioner initially relied upon the Declarations of Dr. Robert M. Carey (Ex. 1005, the “Carey Declaration”). When Dr. Carey became medically incapable of testifying at deposition or otherwise participating in the proceeding, the Board approved Petitioner’s request to submit additional documentation to allow Gordon B. Cutler, Jr., M.D., to succeed Dr. Carey, with the affirmative proviso that Dr. Cutler adopt Dr. Carey’s existing testimony and be made available for cross-examination by Patent Owner (Ex. 1036, “the Cutler Declaration”; Ex. 1044, “the Cutler Reply Declaration”; Ex. 1046). Patent Owner relies upon the Declaration of Adrian Dobs, M.D., M.H.S. (Ex. 2014, the “Dobs Declaration”). We have reviewed the credentials of Petitioner’s and Patent Owner’s declarants, and consider each to be qualified to provide the opinions for which their testimony has been submitted. See Section IV.C.
+
+## D. The '908 Patent
+
+The '908 patent is directed to pharmaceutical compositions comprising 3-(4-chloro-2-(morpholin-4-yl) thiazol-5-yl)-7-(1-ethylpropyl)-2,5-dimethylpyrazolo (1,5- $\alpha$ ) pyrimidine (“Compound 1”), and to methods of using the same for the treatment of congenital adrenal hyperplasia (“CAH”). Ex. 1001, Abstr. Relevantly, the '908 patent is directed to the administration of Compound 1, or another antagonist of the corticotropin releasing factor (“CRF”) receptor type 1 (“CRF $_{1}$ ”), and thus inhibiting release of adrenal corticotropic hormone (“ACTH”) by the secretory cells of the adenohypophysis, for the treatment of CAH. Ex. 1001, cols. 10–12, 11. 47–26.
+
+## E. Representative Claims
+
+Independent claims 1 and 11 of the '908 patent are representative of the challenged claims and recite:
+
+1. A method of treating congenital adrenal hyperplasia (CAH) in a human comprising administering to the human a therapeutically-effective amount of a $CRF_{1}$ receptor antagonist or a pharmaceutically acceptable salt thereof, wherein an adrenocorticotropic hormone (ACTH) level in the human is reduced by at least 10% from baseline.
+
+11. A method of treating congenital adrenal hyperplasia in a human comprising administering to the human a therapeutically-effective amount of a $\mathrm{CRF}_1$ receptor antagonist or a pharmaceutically acceptable salt thereof, wherein a 17-hydroxyprogesterone (17-OHP) level is reduced in the human by at least about $10\%$ from baseline.
+
+Ex. 1001, col. 48, ll. 6–42.
+
+## F. Prosecution History of the '908 Patent
+
+The '908 patent issued from U.S. Application Ser. No. 16/388,620 (the “620 application”), filed on April 18, 2019, and claims the priority benefit of, inter alia, provisional Application Ser. No. 62/545,406, which was filed on August 14, 2017. Ex. 1001, codes (21–22, 60).
+
+Claims 1–25 of the '908 patent were allowed on September 30, 2020, and the patent issued on December 1, 2020. Ex. 1002, 186; Ex. 1001, code (45). The Petition is consequently eligible for post-grant review. See 35 U.S.C. § 324.
+
+## III. MOTIONS TO EXCLUDE EVIDENCE AND MOTION TO STRIKE
+
+Both parties have submitted Motions to Exclude Evidence (Papers 46, 47) and have also filed Oppositions (Papers 49, 50) and Replies (Papers 52, 53) to the opposing party's Motion to Exclude Evidence. Petitioner filed a Motion to Strike (Paper 51) and Patent Owner filed an Opposition (Paper 55). We now consider each party's Motion to Exclude in turn and consider Petitioner's Motion to Strike.
+
+## A. Petitioner's Motion to Exclude
+
+Petitioner moves to exclude portions of “the written description opinions of Patent Owner’s expert, Dr. Dobs (Exhibit 2014, ¶¶19, 80–91), and to exclude Exhibit 2016 and Exhibits 2020–2026 in their entireties.” Pet. Mot. Exclude 1. We address each of Petitioner’s arguments in turn.
+
+## 1. Dr. Dobs' Written Description Opinions (Exhibit 2014 ¶¶ 19, 80–91)
+
+## a. Petitioner's arguments
+
+Petitioner argues that Patent Owner relies on the testimony of Dr. Dobs in support of its written description contentions. Pet. Mot. Exclude 6 (citing PO Resp. 65–70). Petitioner argues the Board should exclude from evidence Dr. Dobs' written description opinions in paragraphs 19 and 80–91 of Exhibit 2014 because “Dr. Dobs is not qualified as an expert to opine on written description of the challenged claims under FRE 702.” Id. at 3.
+
+According to Petitioner, Dr. Dobs admitted during her deposition that she “lacks specialized knowledge, skill, experience, training, or education that would assist the Board in understanding the evidence relating to whether the challenged claims lack adequate written description under 35 U.S.C. §112(a).” Pet. Mot. Exclude 3–4; see also id. at 8–9. More specifically, Petitioner contends “Dr. Dobs admitted that she is not familiar with medicinal chemistry, and demonstrated she is not qualified to opine on the chemical structures described in the prior art references she cited to support her written description opinions.” Id. at 7. Petitioner argues further that “Dr. Dobs repeatedly admitted she is not a chemist, was not comfortable with chemical terminology, and could not answer questions regarding the chemical structures described in the Williams and Fahmy articles.” Id. (citing Ex. 1038, 32, 125–126, 128–130); see also id. at 7–8 (citing Ex. 2014 ¶¶ 88–89; Ex. 1038, 32–35, 52–53, 124–126, 126–128, 128–130, 130–131, 132–134; Ex. 1041, 2).
+
+## b. Analysis
+
+Dr. Dobs attested that she is a physician and Board-certified endocrinologist with expertise in endocrinology and hormone disorders, and has been an expert in this field since well before 2017. Ex. 2014 ¶ 3.
+Dr. Dobs is presently Professor of Medicine and Oncology in the Division of Endocrinology, Diabetes and Metabolism, and Director, Johns Hopkins Clinical Research Network Johns Hopkins Institute for Clinical and Translational Research (ICTR) at The Johns Hopkins University School of Medicine. Ex. 2015, 1.
+
+Dr. Dobs attested that, by 2017 when the provisional application that eventually matured as the '908 patent was filed, she had a medical degree, experience in the field of endocrinology, knowledge of hormone regulation and disorders, and knowledge of the regimens employed to treat such disorders. Dr. Dobs testified that she also had at least three years of experience conducting research concerning endocrine disorders, including congenital adrenal hyperplasia (“CAH”) and other adrenal disorders, and she thus satisfies the description of a skilled artisan in this field. Ex. 2014 ¶ 4.
+
+Dr. Dobs states that she has published extensively on topics including hormones and hormone disorders, including cortical adrenal hyperplasia, is the author or co-author of over 250 scientific articles, and has served on numerous editorial boards. Ex. 2014 ¶¶ 8–9. Dr. Dobs has also participated in more than fifty clinical trials evaluating endocrine therapeutics and hormones. Id. ¶ 10 She has also participated in several FDA panels and has presented in front of several FDA advisory boards. Id.
+
+Dr. Dobs testified that, in her clinical practice, she has treated patients with CAH as well as Cushing's syndrome, which may be associated with over-administration of glucocorticoids during the treatment of CAH. Ex. 2014 ¶ 11.
+
+Petitioner's definition of a person of ordinary skill in the art, which we adopt below, is one who “[possesses] a medical degree or a Ph.D. in a field related to endocrinology, and would have knowledge of hormone regulation and disorders, as well as knowledge of the treatment regimens employed to treat such disorders.” Pet. 60 (citing Ex. 1005 ¶ 34). Petitioner also argues that such a person of ordinary skill would also have at least three years of experience conducting research concerning endocrine disorders, including CAH or other adrenal disorders. Id.
+
+By this definition, Dr. Dobs is at least a person of ordinary skill in the art. She possesses a medical degree and is Board-certified in endocrinology, and has sufficient clinical and research experience in the diagnosis and methods of treatment of treating patients with endocrinological disorders. Dr. Dobs is therefore qualified to testify at least as to the knowledge of a skilled artisan. Kyocera Senco Indus. Tools Inc. v. Int'l Trade Comm'n, 22 F.4th 1369, 1376–77 (Fed. Cir. 2022). Furthermore, given her past research and clinical experience, her current position as a tenured medical professor at a major research university, and her extensive record of publication, we find Dr. Dobs qualified to opine as an expert in the causes and nature of endocrine disorders, including CAH, and the diagnosis, and treatment of patients with such disorders.
+
+To the extent that Dr. Dobs has admitted that she is “not comfortable with chemical terminology”; “could not answer questions regarding the chemical structures in the prior art articles”; “did not know whether CRF $_{1}$ receptor antagonists contained the structural features she deemed ‘essential’ in her Declaration”; and “agreed that tildacerfont has structurally unique features” (see Ex. 1038, 52–53, 125–126, 126–128, 128–130), we will weigh her testimony regarding those matters accordingly. However, for the reasons explained above, Petitioner’s Motion to Exclude Dr. Dobs’ written description opinions in paragraphs 19 and 80–91 of Exhibit 2014 is denied.
+
+## 2. Exhibits 2016 and 2020–2026
+
+## a. Petitioner's arguments
+
+Petitioner argues that “Patent Owner relies on Exhibit 2016 for the proposition that Dr. Eiry Roberts, Neurocrine’s Chief Medical Officer, ‘prepared’ the peer-reviewed Auchus article, and ‘has known Dr. Cutler for decades and recruited him’ to work with Neurocrine.” Pet. Mot. Exclude 10 (citing PO Resp. 1, 3). Petitioner argues the Board should exclude Exhibit 2016 from evidence because “it does not show whether Dr. Roberts ‘prepared’ the Auchus article, nor whether Dr. Roberts and Dr. Cutler had a pre-existing relationship,” and “neither of these issues have any consequence on the outcome of this case.” Id. at 13.
+
+Petitioner also argues the Board should exclude from evidence Exhibits 2016 and 2020–2026 “as irrelevant under FRE 401” because “none of Exhibits 2020–2026 are relevant to whether Grigoriadis anticipates the ’908 patent[’]s claims or renders those claims obvious, as set forth in the Petition.” Pet. Mot. Exclude 10 (citing Pet. 3). According to Petitioner, “Exhibits 2020–2026 are documents filed in the prosecution of Neurocrine’s own patent applications,” Exhibits 2020, 2021, and 2024 “are ministerial papers filed with the Office in connection with Neurocrine’s patent applications that have nothing to do with the merits of this PGR,” and “Exhibits 2022 and 2025 are Information Disclosure Statements.” Id. at 10–11. Petitioner contends Exhibits 2023 and 2026 are irrelevant because “Exhibit 2023 is a Preliminary Amendment and Exhibit 2026 is a Reply to a Restriction Requirement” in which the claims in the exhibits are merely pending and “are fundamentally different than Grigoriadis’ disclosure of administrating crinecerfont as a CRF1 receptor antagonist useful to treat
+
+CAH, and the inherent result of that administration (reducing ACTH, 17-OHP, and/or A4 levels in a human).” Id. at 11–12.
+
+Petitioner also submitted a Statement of Objections to Patent Owner's Demonstrative Evidence objecting to Patent Owner's demonstrative slides 19, 22, 25, and 66 in Exhibit 2028. See Paper 57, 1. Petitioner objects to these slides because they cite and rely “on information contained in Exhibits 2020, 2021, 2023, and 2026.” Id. Because we do not need to rely on any information in these Exhibits to resolve the disputes before us, we need not rule on these objections.
+
+## b. Analysis
+
+Patent Owner's Exhibits 2016 and 2020–2026 play no part in our reasoning and were not relied upon by the Board in reaching our Decision. Petitioner's Motion to exclude Exhibits 2016 and 2020–2026 is therefore dismissed as moot.
+
+## 3. Summary
+
+For the reasons we have explained in the preceding sections, we deny Petitioner's Motion to Exclude Dr. Dobs' written description opinions in paragraphs 19 and 80–91 of Exhibit 2014 and dismiss as moot Petitioner's Motion to Exclude Exhibits 2016 and 2020–2026.
+
+## B. Patent Owner's Motion to Exclude
+
+Patent Owner moves to exclude Exhibits 1005 and 1043, and portions of Exhibit 1044. PO Mot. Exclude 1. We address each of Patent Owner's arguments in turn.
+
+## 1. The Carey Declaration (Exhibit 1005)
+
+## a. Patent Owner's arguments
+
+Patent Owner argues the Board should exclude Petitioner's Exhibit 1005 because Petitioner replaced Dr. Carey with Dr. Cutler. PO Mot. Exclude 1–2. According to Patent Owner, Petitioner filed Dr. Cutler's Declaration because Dr. Carey is medically unable to participate in this proceeding and was not made available for cross-examination. Id. Patent Owner contends “[w]hile it is believed that [Ex.]1005 has now been withdrawn given the circumstances, Petitioner has not expressly acknowledged its withdrawal and even improperly cited [Ex.]1005 in its briefing.” Id. at 1 (citing Pet. Reply 8, 12, 14–16, 22, 25–27).
+
+Patent Owner also argues that Exhibit 1005 should be excluded “[t]o avoid confusion and/or prejudice” because Petitioner withdrew Dr. Carey as a witness. PO Reply Mot. Exclude 1. Patent Owner contends Dr. Cutler adopted the content of Dr. Carey’s Declaration by appending a copy of Dr. Carey’s Declaration (Ex. 1005) to his own Declaration (Ex. 1036) “rather than reproducing the content in the body of his own declaration.” Id. Patent Owner argues this creates two problems, namely that the record now contains two copies of Dr. Carey’s Declaration, and “the parties in briefing are burdened with separately referencing two documents” which “risks the prejudicial false impression that Petitioner has two supporting witnesses (Dr. Cutler and Dr. Carey), when in fact only one exists.” Id. at 1–2.
+
+## b. Analysis
+
+Petitioner initially relied upon the Declaration of Dr. Robert M. Carey (Ex. 1005). When Dr. Carey became medically incapacitated and incapable of testifying at deposition, the Board approved Petitioner's request to submit additional documentation to allow Dr. Gordon B. Cutler, Jr., to “step into the shoes” of Dr. Carey, with the affirmative proviso from the Board that Dr. Cutler adopt Dr. Carey’s existing testimony and be made available for cross-examination by Patent Owner. See Ex. 1046. Dr. Cutler subsequently submitted a Declaration (Ex. 1036) and a Reply Declaration (Ex. 1044) and was deposed by Patent Owner on January 29, 2024 (Paper 28), and a second time on July 12, 2024 (Paper 35).
+
+In his Declaration, Dr. Cutler testifies that “I have reviewed Dr. Carey’s declaration (attached as Appendix B) and the opinions and exhibits cited therein. I agree with Dr. Carey’s opinions in full, and hereby adopt the opinions set forth in Dr. Carey’s declaration as my own.” Ex. 1036, ¶16. Dr. Cutler’s Declaration adds nothing more that is substantial, except to describe his background and qualifications, and to note that the Auchus reference cited by Dr. Carey in his Declaration was subsequently published in the Journal of Clinical Endocrinology & Metabolism in October 2021. Ex. 1036, 2–7, 8.
+
+Patent Owner adduces no legal authority for us to exclude the Carey Declaration, nor does it provide any evidence that inclusion of the Carey Declaration colorably prejudices its case. Patent Owner deposed Dr. Carey twice. Patent Owner's arguments that failing to exclude the Carey Declaration will: (1) cause the parties in briefing to be burdened with separately referencing two documents; and (2) “risks the prejudicial false impression that Petitioner has two supporting witnesses (Dr. Cutler and Dr. Carey), when in fact only one exists” are nonsensical. Dr. Cutler's Declaration adopts the Carey Declaration in full and makes no additional substantial argument with respect to the merits of the case. Petitioner properly relied upon the Carey Declaration in its Reply Brief, because no other Declaration on the merits supporting its Petition existed at that time with the inability of Dr. Carey to participate in the post-grant review. Indeed, excluding the Carey Declaration would potentially prejudice Petitioner, by depriving it of the expert opinion supporting its arguments as cited in the Petition and the Reply. Finally, excluding Exhibit 1005 is more likely to introduce confusion into the record by removing an Exhibit upon which the Petition expressly relies.
+
+Similarly, the record is sufficiently clear as to why Dr. Cutler, with the Board's approval, stepped in for the medically incapacitated Dr. Carey. See Ex. 1036 ¶ 15 $^{4}$ ; Ex. 1046, 1–2. Any risk of prejudice against Patent Owner by the mistaken impression that Petitioner has two supporting witnesses has been eliminated. Patent Owner's motion to exclude Exhibit 1005 is denied.
+
+2. Paragraphs 20–30, 52, 53, 71, 72, 74, 77, 78, 81, 93, 94, and 103 of Dr. Cutler's Reply Declaration (Exhibit 1044)
+
+a. Patent Owner's arguments
+
+Patent Owner argues Petitioner does not cite paragraphs 20–30, 52, 53, 71, 72, 74, 77, 78, 81, 93, 94, or 103 from Exhibit 1044 in any of its briefing. PO Mot. Exclude 2. Patent Owner contends the Board should exclude these portions of Exhibit 1044 under FRE 401–403 because
+
+“[u]ncited-to portions of Dr. Cutler’s reply declaration cannot be relied on to establish unpatentability” and “are not relevant.” Id. Patent Owner argues that “[t]o the extent these uncited exhibits are deemed relevant to Neurocrine’s arguments, their admission would be unduly prejudicial, misleading, and a waste of time in view of the fact that none of these paragraphs are relied upon to prove facts relevant to resolution of this case.” Id. at 3 (citing FRE 401–403).
+
+## b. Petitioner's response
+
+Petitioner responds that paragraphs 20–30, 52, 53, 71, 72, 74, 77, 78, 81, 93, 94, or 103 of Exhibit 1044 should not be excluded because “[t]he Board has broad discretion to admit evidence, and exclusion should be appropriate only if the evidence is irrelevant, unreliable, or unduly prejudicial.” Pet. Opp. Mot. Exclude 3. Petitioner contends it “cited to and relied on Dr. Cutler’s Reply Declaration throughout its Reply, and Patent Owner fails to show that any of the paragraphs of the Reply Declaration are, in fact, irrelevant under FRE 401–402.” Id. According to Petitioner, “[t]he complained-about paragraphs are either introductory paragraphs or paragraphs interspersed between cited paragraphs that are relevant as providing important context and background for Dr. Cutler’s testimony” and do not constitute improper incorporation by reference. Id. at 4–5.
+
+Petitioner contends “Patent Owner has not identified any prejudice it might suffer should the entire Reply Declaration remain in the record, nor has it made any attempt to explain how this unidentified ‘prejudice’ outweighs the obvious relevance of the entire Reply Declaration.” Pet. Opp. Mot. Exclude 6. Petitioner also contends “Patent Owner fails to
+
+persuasively explain how the uncited paragraphs are misleading and/or a waste of time.” Id.
+
+## c. Analysis
+
+Paragraphs 20–30, 52, 53, 72, 74, 77, and 78 of Dr. Cutler's Reply Declaration are part of a direct response to the testimony of Patent Owner's expert, Dr. Dobs, with respect to the Grigoriadis reference and to Dr. Carey's expert opinion regarding that reference. As such, they are relevant under Fed R. Evid. 401 to rebut the responsive arguments made by Patent Owner in this case. Although Petitioner did not expressly cite to these paragraphs in its briefing, and we do not rely upon them in this Decision, these paragraphs are a coherent part of Petitioner's argument, and Patent Owner has not sufficiently shown how they are irrelevant under Rule 401, or how, by failing to exclude them, Patent Owner's case is unduly prejudiced.
+
+Paragraphs 81, 93, 94, or 103 of Dr. Cutler's Reply Declaration directly relate to Dr. Cutler's rebuttal of Dr. Dobs' argument that the prior art teaches that all $\mathrm{CRF}_1$ receptor antagonists could be used to treat CAH, or achieve ACTH or 17-OHP reductions of at least $10\%$ from baseline. As such, they form a coherent part of Petitioner's argument in reply to Patent Owner's evidence. Also as such, they are relevant to the issues in this case and, particularly, to the issue of whether the challenged claims have sufficient written descriptive support in the '908 Specification, which is dispositive to this post-grant review. Patent Owner has not sufficiently shown how the challenged paragraphs are irrelevant under Rule 401, or how, by failing to exclude them, Patent Owner's case is unduly prejudiced. Patent
+
+Owner's Motion to Exclude paragraphs 20–30, 52, 53, 71, 72, 74, 77, 78, 81, 93, 94, or 103 of Exhibit 1044 is denied.
+
+3. Exhibit 1043 and Paragraphs 24, 30–33, 42, 44, 45, 54–65, 68–71, and 81–103 of Dr. Cutler's Reply Declaration (Exhibit 1044)
+
+## a. Patent Owner's arguments
+
+Patent Owner argues Petitioner presents “untimely and improper new argument and evidence not relevant to the petition case” in Exhibit 1043 and paragraphs 24, 30–33, 42, 44, 45, 54–65, 68–71, and 81–103 of Exhibit 1044. PO Mot. Exclude 3–7. According to Patent Owner, Petitioner relies on Exhibit 1043 “to bolster its ever-evolving pivot from anticipation to the different theory of obviousness” and to “argue that while neither Grigoriadis nor Auchus demonstrate[s] clinical efficacy, that was eventually demonstrated in a different and later published Phase III trial.” Id. at 4. Patent Owner contends “Petitioner’s argument and reliance on this newly submitted document demonstrate that its abandonment of the anticipation theory of the petition and improper pivot to an (unpled) obviousness theory is complete” and “[t]o the extent such argument and evidence is considered at all, it should only be to confirm the petition failed to demonstrate Grigoriadis, alone or properly viewed in combination with Auchus, satisfies each element of the challenged claims.” Id. at 4–5.
+
+Patent Owner argues that any portion of Exhibit 1044 “that introduces new art and arguments necessary for Petitioner’s prima facie case should also be excluded for being untimely and not relevant to the pled anticipation theory,” including paragraphs 24, 30–33, 42, 44, 45, 54–65, 68–71, and 81–103 of Exhibit 1044. PO Mot. Exclude 5–6.
+
+## b. Petitioner's response
+
+Petitioner responds that Patent Owner's argument that Exhibit 1043 and portions of Exhibit 1044 “should be excluded as ‘untimely and improper new argument and evidence not relevant to the petition case’ [] violates the Board’s procedures by cloaking arguments about scope of reply in a motion to exclude.” Pet. Opp. Mot. Exclude 8. Accordingly, Petitioner contends that the Board should deny Patent Owner’s Motion to Exclude. Id.
+
+Petitioner also argues that the Board should deny Patent Owner's Motion to Exclude on the merits because Petitioner “cited to Exhibit 1043 once in its Reply as further evidence—‘[c]onsistent with Auchus’—that the administration of crinecerfont substantially reduced 17-OHP in CAH patients” and to “simply refute[] Patent Owner’s (irrelevant[]) argument that Auchus’ ACTH and 17-OHP reductions from baseline for Cohort 4 were not statistically significant.” Pet. Opp. Mot. Exclude 9–10 (emphasis and footnote omitted, citing Pet. Reply 20–21; Ex. 1043, 5, Fig. 1; Ex. 1044 ¶¶ 31–45; PO Resp. 46–47). Petitioner contends Patent Owner fails to explain how any paragraphs of Exhibit 1044 are “outside the scope of proper reply” because “[e]ven a cursory look at Patent Owner’s parenthetical citations shows that all of Dr. Cutler’s explanations rebut Patent Owner’s arguments.” Id. at 11 (citing PO Mot. Exclude 6; Ex. 1044 ¶¶ 23–24, 30–33, 42, 44–45, 54–65, 68–71, 81–103).
+
+## c. Patent Owner's reply
+
+Patent Owner responds that its Motion to Exclude is not limited to the issue of improper reply brief scope, but instead seeks to exclude evidence that goes “to an unpled obviousness theory” that has “no tendency to make the pled inherent anticipation theory more or less probable” and fails “to support facts ‘of consequence in determining the action’ as required by FRE 401.” PO Reply Mot. Exclude 3. Patent Owner contends Petitioner’s Opposition does not demonstrate otherwise because it “never squarely deals with the lack of relevance to its petition case” and “doesn’t grapple with testimony of Dr. Cutler that clearly illustrates the improper abandonment of its anticipation theory.” Id. Patent Owner disagrees that Exhibit 1043 and the portions of Exhibit 1044 it seeks to exclude rebut Dr. Dobs because Dr. Cutler repeatedly agrees with Dr. Dobs and “pivot[s] to different and unpled arguments and theories.” Id. at 4 (citing Ex. 1044 ¶ 33).
+
+## d. Analysis
+
+As an initial matter, our reasoning and conclusions in this Decision do not rely upon Exhibit 1043, nor do we cite to it in our analysis. We consequently dismiss as moot Patent Owner's Motion to Exclude Exhibit 1043.
+
+With respect to the cited paragraphs of Exhibit 1044, paragraphs 24, 30–33, 42, 44, 45, 54–65, and 68–71 are part of a direct response to the testimony of Patent Owner's expert, Dr. Dobs, with respect to the Grigoriadis reference and to Dr. Carey's expert opinion regarding that reference. As such, they are relevant under Fed R. Evid. 401 to the responsive arguments made by Patent Owner in this case. With respect to Patent Owner's argument that these paragraphs "introduce[] new art and arguments necessary for Petitioner's prima facie case [and] should also be excluded for being untimely and not relevant to the pled anticipation theory," Patent Owner provides no specific details as to precisely how the challenged paragraphs are untimely or irrelevant. See PO Mot. Exclude 5–6. Regardless, because we find the challenged paragraphs are responsive to Patent Owner's evidence and because “the introduction of new evidence in the course of the trial is to be expected in inter partes review trial proceedings,” we are not persuaded that the challenged paragraphs are untimely and irrelevant. See Genzyme Therapeutic Prod. Ltd. P’ship v. Biomarin Pharm. Inc., 825 F.3d 1360, 1366 (Fed. Cir. 2016).
+
+Challenged paragraphs 81–103 of Exhibit 1044, directly relate to Dr. Cutler's rebuttal of Dr. Dobs' argument that the prior art teaches that all CRF $_{1}$ receptor antagonists could be used to treat CAH, or achieve ACTH or 17-OHP reductions of at least 10% from baseline. As such, they form a coherent part of Petitioner's argument in reply to Patent Owner's evidence. They are consequently relevant to the issues in this case and, particularly, to the issue of whether the challenged claims have sufficient written descriptive support in the '908 Specification, which is dispositive of this post-grant review. Patent Owner has not sufficiently shown how the challenged paragraphs are irrelevant under Rule 401, or how, by failing to exclude them, Patent Owner's case is unduly prejudiced and its motion is, in this respect, denied.
+
+## 4. Summary
+
+For the reasons we have explained in the preceding sections, we deny Patent Owner's motion to exclude Exhibit 1005, we dismiss as moot Patent Owner's Motion to Exclude Exhibit 1043, and we deny Patent Owner Motion to Exclude paragraphs 20–33, 42, 44, 45, 52–65, 68–72, 74, 77, 78, and 81–103 of Exhibit 1044.
+
+## C. Petitioner's Motion to Strike
+
+## a. Petitioner's arguments
+
+Petitioner moves to strike Exhibits 2020–2026. Pet. Mot. Strike 1. Petitioner argues that Patent Owner’s submission of Exhibits 2020–2026 “violates 37 C.F.R. § 42.23(b) and warrants exclusion of Exhibits 2020–2026.” Id. at 2. Petitioner argues that while Patent Owner alleged Petitioner has “unclean hands” for failing to disclose the exhibits to the Board, none of the exhibits “are relevant to any issue in this proceeding,” so Petitioner “was not obligated to disclose them to the Board.” Id.
+
+According to Petitioner, “Exhibit 2020 is inventors’ oaths”; “Exhibits 2021 and 2024 are filing receipts submitted in connection with Neurocrine’s patent applications”; “Exhibits 2022 and 2025 are Information Disclosure Statements listing the Grigoriadis reference”; “Exhibit 2023 is a Preliminary Amendment”; and “Exhibit 2026 is a Reply to a Restriction Requirement.” Pet. Mot. Strike 2–3. Petitioner contends that these exhibits are not relevant because “merely listing a reference in an IDS is not an admission of anything,” “[t]hese exhibits contain no discussion of Grigoriadis, and do not distinguish the pending claims from Grigoriadis,” and the fact that it “filed these applications is also no admission that ‘these differences matter critically.’” Id. at 3. Petitioner contends its “pending claims are different than Grigoriadis’ disclosure of administrating crinecerfont as a CRF1 receptor antagonist useful to treat CAH, and the inherent result of that administration (reducing ACTH, 17-OHP, and/or A4 levels in a human).” Id. at 3–4.
+
+## b. Analysis
+
+Patent Owner's Exhibits 2020–2026 play no part in our reasoning and were not relied upon by the Board in reaching our Decision. Petitioner's Motion to strike Exhibits 2020–2026 is therefore dismissed as moot.
+
+## IV. ANALYSIS
+
+## A. Eligibility for Post-Grant Review
+
+The post-grant review provisions set forth in Section 6(d) of the AIA apply only to patents subject to the first-inventor-to-file provisions of the AIA. See AIA § 6(f)(2)(A) (“The amendments made by subsection (d) … shall apply only to patents described in section 3(n)(1).”). Patents subject to the first-inventor-to-file provisions are those that issue from applications “that contain[] or contained at any time … a claim to a claimed invention that has an effective filing date as defined in section 100(i) of title 35, United States Code, that is on or after” March 16, 2013. Id. § 3(n)(1). Our rules require that each petitioner for post-grant review certify that the challenged patent has an effective filing date that renders the patent available for post-grant review. 37 C.F.R. § 42.204(a) (“The petitioner must certify that the patent for which review is sought is available for post-grant review.”). In addition, “[a] petition for a post-grant review may only be filed not later than the date that is 9 months after the date of the grant of the patent or of the issuance of a reissue patent (as the case may be).” 35 U.S.C. § 321(c); see also 37 C.F.R. § 42.202(a) (accord).
+
+## Petitioner states the following:
+
+Neurocrine certifies that the '908 Patent is available for PGR. The present petition is being filed within nine months of the issuance of the '908 patent on December 1, 2020. Neurocrine has not filed a civil action challenging the validity of any claim of the '908 patent. Neurocrine is not barred or estopped from requesting this review challenging claims 1–25 on the below-identified grounds.
+
+## Pet. 3.
+
+On this record, we determine that the '908 patent is eligible for post-grant review. Specifically, the application leading to the '908 patent was filed on April 18, 2019, and claims priority to a previously filed PCT application and a provisional application, the first of which was filed on August 14, 2017. Ex. 1001, codes (22, 60, 63). All of these dates fall after March 16, 2013. Also, this Petition was filed on May 28, 2021, which is within nine months subsequent to the December 1, 2020, issue date of the '908 patent. Id. at code (45).
+
+## B. Claim Construction
+
+The Board applies the same claim construction standard that would be used to construe the claim in a civil action under 35 U.S.C. § 282(b). See 37 C.F.R. § 100(b) (2020). Under that standard, claim terms “are generally given their ordinary and customary meaning” as understood by a person of ordinary skill in the art at the time of the invention. Phillips v. AWH Corp., 415 F.3d 1303, 1312–13 (Fed. Cir. 2005) (en banc). “In determining the meaning of the disputed claim limitation, we look principally to the intrinsic evidence of record, examining the claim language itself, the written description, and the prosecution history, if in evidence.” DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17). Extrinsic evidence is “less significant than the intrinsic record in determining ‘the legally operative meaning of
+
+claim language.”” Phillips, 415 F.3d at 1317 (quoting C.R. Bard, Inc. v. U.S. Surgical Corp., 388 F.3d 858, 862 (Fed. Cir. 2004)).
+
+Petitioner proposed constructions for the claim terms “baseline/from baseline,” “human,” “maintained at a reduced level post 24 hours,” and “administered 4 hours prior to sleeping.” Pet. 23–28. Patent Owner responded that, of these claim terms, the Board need only construe the claim term “from baseline” for the purposes of institution. Prelim. Resp. 19–20 (citing Nidec Motor Corp. v. Zhongshan Broad Ocean Motor Co., 868 F.3d 1013, 1017 (Fed. Cir. 2017)). We concluded that we need only construe the claim term “from baseline” as part of our decision granting institution of post-grant review. Dec. Inst. 8. We construed the claim language reciting “reduced by at least 10% from baseline” as meaning “a reduction of at least 10% in the level of ACTH (claim 1) or 17-OHP (claim 11) compared to measurements of ACTH or 17-OHP made prior to, and/or at the beginning of, administration of the drug.” Id. at 11.
+
+After the oral argument, we concluded that our construction of “from baseline” was inadequate because “the endocrine hormonal system controlling release of adrenocorticotropic hormone (‘ACTH’) and 17-hydroxprogesterone (‘17-OHP’) is not in a physiological steady state, but is rather subject to a circadian rhythmicity.” Paper 58, 2. We “construe[d] the claim term ‘baseline’ to mean ‘a series of samples taken from an untreated patient with CAH, prior to treatment at intervals that are time-matched to the sampling intervals to be taken from the patient treated with either a CRF $_{1}$ receptor antagonist or placebo.’” Id. at 3. We stated our proposed new construction at oral argument and offered the parties an opportunity to express their views on this construction. Id. at 4. We authorized both
+
+parties “to submit briefing upon this new proposed construction as it relates to Grounds 1–3” of this proceeding and “to submit an opposition to the other party’s arguments.” Id. Both Petitioner (Paper 60) and Patent Owner (Paper 61) filed additional briefing on claim construction and Oppositions (Papers 62 and 63, respectively) to the opposing party’s additional briefing.
+
+Given our conclusion below that the challenged claims are unpatentable under 35 U.S.C. § 112(a) as lacking written descriptive support, we determine that no claim construction by the Board is necessary to resolve the dispute at issue here.
+
+## C. A Person of Ordinary Skill in the Art
+
+Petitioner contends that a person of ordinary skill in the art would typically possess a medical degree or a Ph.D. in a field related to endocrinology, and would have knowledge of hormone regulation and disorders, as well as knowledge of the treatment regimens employed to treat such disorders. Pet. 60 (citing Ex. 1005 ¶ 34). Petitioner argues that such a person of ordinary skill would also have at least three years of experience conducting research concerning endocrine disorders, including CAH or other adrenal disorders. Id.
+
+Patent Owner does not expressly contest this definition of a person of ordinary skill in the art in its Response. Because we find Petitioner's definition to be consistent with the demonstrable level of skill in the art (see, e.g., Exs. 1009, 1025, 2003, 2004, 2005), and in the absence of a different proposed definition of the level of skill in the art by Patent Owner, we adopt Petitioner's definition.
+
+## D. Principles of Law
+
+## 1. Burden of Proof
+
+To prevail in this post-grant review of the challenged claims, Petitioner must prove unpatentability by a preponderance of the evidence. 35 U.S.C. § 326(e); 37 C.F.R. § 42.1(d). Petitioner has the burden from the onset to show with particularity why the challenged claims are unpatentable. See Harmonic Inc. v. Avid Tech., Inc., 815 F.3d 1356, 1363 (Fed. Cir. 2016). This burden of persuasion never shifts to the patent owner. See Dynamic Drinkware, LLC v. Nat'l Graphics, Inc., 800 F.3d 1375, 1378 (Fed. Cir. 2015) (discussing the burden of proof in inter partes review).
+
+## 2. Written Description
+
+The test for written description support is “whether the disclosure of the application relied upon reasonably conveys to those skilled in the art that the inventor had possession of the claimed subject matter as of the filing date” based on an “objective inquiry into the four corners of the specification.” Ariad Pharms., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1351 (Fed. Cir. 2010) (en banc). The written description requirement is satisfied when the specification “set[s] forth enough detail to allow a person of ordinary skill in the art to understand what is claimed and to recognize that the inventor invented what is claimed.” Univ. of Rochester v. G.D. Searle & Co., 358 F.3d 916, 928 (Fed. Cir. 2004).
+
+The written description inquiry is a question of fact, is context-specific, and must be determined on a case-by-case basis. Ariad Pharms., 598 F.3d at 1351 (citing Ralston Purina Co. v. Far-Mar-Co, Inc., 772 F.2d 1570, 1575 (Fed. Cir. 1985); Capon v. Eshhar, 418 F.3d 1349, 1357–58
+
+(Fed. Cir. 2005)). “[T]he level of detail required to satisfy the written description requirement varies depending on the nature and scope of the claims and on the complexity and predictability of the relevant technology.” Id. (citing Capon, 418 F.3d at 1357–58). Factors used to evaluate the sufficiency of a disclosure include: 1) “the existing knowledge in the particular field”; 2) “the extent and content of the prior art”; 3) “the maturity of the science or technology”; and 4) “the predictability of the aspect at issue.” Id. (citing Capon, 418 F.3d at 1359).
+
+## E. Ground 4: Claims 1–25 Lack of Written Descriptive Support
+
+## 1. Petitioner's arguments
+
+Petitioner argues that the claims of the '908 patent fail the written description requirement because the '908 patent does not show possession of the claimed subject matter. Pet. 72. Petitioner contends that the claims are broad and recite methods of treating CAH that employ a "CRF1 receptor antagonist or a pharmaceutically acceptable salt thereof" that reduces ACTH or 17-OHP by at least 10% from baseline. Id. Petitioner asserts that these are "functionally defined" claims that are unbounded structurally and are limited only by the achieved effect on ACTH and/or 17-OHP. Id. Petitioner points to our reviewing court's opinion in Ariad, as requiring that the patent must disclose either a representative number of species or common structural features. Id. at 72–73 (citing Ariad, 598 F.3d at 1350).
+
+Petitioner notes that $CRF_{1}$ receptor antagonists represent a large, structurally diverse class of over 100 compounds, but asserts that the '908 patent discloses only a single $CRF_{1}$ receptor antagonist, tildacerfont (Compound 1). Pet. 73 (citing Ex. 1005 ¶¶ 98–100). Furthermore, argues
+
+Petitioner, all of the Examples and clinical data in the '908 patent relate to tildacerfont. Id. (citing Ex. 1001, cols. 34–47, ll. 5–58, Tables 5–8). Petitioner contends that the '908 patent does not disclose the use of any other CRF $_{1}$ receptor antagonist to treat CAH, or disclose structural features common to the members of the genus so that one of skill in the art could visualize or recognize the members of the genus. Id. at 73–74.
+
+## 2. Patent Owner's arguments
+
+Patent Owner responds that Petitioner's written description challenge fails because the '908 patent discloses using CRF $_{1}$ receptor antagonists, which constitute a well-known genus of compounds. PO Resp. 59–61. First, according to Patent Owner, the Specification “describes inventing the use of this known class for the treatment of CAH in a human by administering the antagonist to achieve a pre-defined reduction in a specified hormone level.” Id. at 60. Patent Owner contends “[t]he specification confirms that its description of using the CRF1 receptor antagonist class refers to a known class by explaining the class effects of this particular type of antagonist” such as by explaining that “CRF and its two receptor subtypes were well-characterized,” explaining “the differences between the receptor subtypes,” and explaining “the effects of using the CRF1-specific antagonists instead of non-specific antagonist.” Id. at 61–62 (citing Ex. 1001, col. 1, ll. 14–17, col. 10, ll. 47–65, col. 11, ll. 48–56, cols. 11–12, ll. 65–26; Ex. 2014 ¶ 87).
+
+Patent Owner argues further that the Specification also includes an exemplary embodiment using tildacerfont, which is an example of a particular $CRF_{1}$ receptor antagonist. Id. at 62 (citing Ex. 1001, col. 14, ll. 15–36; Ex. 2014 ¶ 83). Patent Owner contends the Specification teaches administering the CRF $_{1}$ antagonist “until the desired reduction in hormone levels (e.g., ACTH, 17-OHP, or androstenedione) is achieved” and describes experimental results of such a method of administering tildacerfont. Id. at 62–63 (citing Ex. 1001, cols. 26–27, ll. 12–40, col. 34, ll. 5–12, col. 42, ll. 1–67, cols. 43–44, ll. 53–7, Figs. 2–4; Ex. 2014 ¶¶ 84–85).
+
+Second, based on testimony from the parties’ declarants and references submitted by Petitioner, Patent Owner argues that CRF $_{1}$ receptor antagonists were well-known and characterized. PO Resp. 64–70. Patent Owner contends Dr. Carey describes CRF $_{1}$ receptor antagonists and their effects and admits that “as of the relevant time, ‘over 100 CRF1 receptor antagonists had been characterized or were in clinical development prior to the filing of the’908 patent.’” Id. at 64–65 (citing Ex. 1005 ¶¶ 23, 99; Ex. 1036 ¶ 16; Ex. 2014 ¶ 81).
+
+Patent Owner argues further that “Dr. Dobs agrees with Drs. Carey and Cutler that, by the critical date, a [person of ordinary skill in the art] would have recognized that CRF1 receptor antagonists were a well-known class.” Id. at 65 (citing Ex. 2014 ¶¶ 81–86). According to Patent Owner, Petitioner’s references describe structural characteristics common to CRF $_{1}$ receptor antagonists, such as a core nitrogen heterocycle with an aryl substituent adjacent to the core nitrogen atom and a branched alkyl group attached at the opposite end of the core. Id. at 67–68 (citing Ex. 1018, 3, Fig. 1; Ex. 1029, 2, Fig. 2; Ex. 2014 ¶ 88). Patent Owner also contends Petitioner’s declarants and references recognize that tildacerfont is a CRF $_{1}$ receptor antagonist. Id. at 69–70 (citing Ex. 1005 ¶ 27).
+
+Third, Patent Owner contends Petitioner's written description arguments are flawed because they are based on an erroneous legal standard. PO Resp. 70–75. Patent Owner argues that Petitioner incorrectly assumes there is a per se rule that a claim is invalid if there is only one working example in the specification. PO Resp. 72–73. Patent Owner contends Ariad states no such rule, noting that Ariad involved a patent application that disclosed no example of any species actually being used to achieve the claimed result. Id. at 73 (citing Ariad, 598 F.3d at 1356). Patent Owner argues that instead, as the Federal Circuit explains, “the number of species required to be representative decreases when there is additional information already available in the prior art.” Id. at 73–74 (citing Ajinomoto Co. v. Int'l Trade Comm'n, 932 F.3d 1342, 1359 (Fed. Cir. 2019)).
+
+Patent Owner contends that because the '908 patent discloses that CRF $_{1}$ antagonists were already known in the field, “the genus ‘was already well explored in the relevant art by the time of the . . . patent’s invention,”” such that “the specification, read in light of the background knowledge in the art, [provides] a representative number of species for the genus.” Id. at 74 (citing Ajinomoto, 932 F.3d at 1359). Patent Owner argues that the Specification of the '908 patent need not recite multiple structures with common structural features to satisfy the written description requirement because Petitioner does not challenge that the prior art describes known structures and identifies common structural features, and Petitioner does not identify any evidence that the disclosed working example is not representative of the well-known class of compounds. Id. at 74.
+
+PGR2021-00088
+Patent 10,849,908 B2
+
+## 3. Petitioner's Reply
+
+Petitioner replies by noting that the Board has adopted the Director's finding that “the ’908 patent claims methods encompassing a genus of materials achieving stated results [i.e., an at least 10% reduction in ACTH or 17-OHP from baseline], but the specification does not disclose a variety of species that accomplish the results.” Pet. Reply 5 (quoting Dir. Dec. 12; Dec. Inst. 44–45). Petitioner asserts that the ’908 Specification discloses but a single species, tildacerfont (i.e., “Compound 1”), that can achieve these results, which it classifies as “the invention.” Id. (quoting Dir. Dec. 12). Petitioner argues that the Specification also “does not describe structural features common to all species within the genus that accomplish the claimed results” and fails to “distinguish effective from ineffective compounds among those encompassed by the broad genus of compounds so claimed.” Id. (quoting Dir. Dec. 13–14; Dec. Inst. 44–45).
+
+Turning to the merits, Petitioner first argues that the '908 Specification does not show possession of a class of CRF $_{1}$ receptor antagonists for the treatment of CAH. Pet. Reply 6. Petitioner argues that the portions of the Specification cited by Patent Owner are silent with respect to whether the class of CRF $_{1}$ receptor antagonists can achieve the claimed reductions in ACTH or 17-OHP. Id. (citing Ex. 1044 ¶¶ 86–88). According to Petitioner, these citations relate to the use of tildacerfont, or the differences between CRF receptor subtypes and the role of CRF in hormone regulation, or that these antagonists had been studied for other indications. Id. (citing Ex. 1001, col. 12, ll. 27–31, col. 1, ll. 14–17, col. 10, ll. 47–53–65, cols. 11–12, ll. 48–26, col. 11, ll. 57–64). Petitioner asserts that none of these disclosures relates to whether the Specification discloses a representative number of species or common structural features of $CRF_{1}$ receptor antagonists that achieve the claimed results. Id.
+
+Petitioner contends that there is no dispute that the Specification fails to disclose a representative number of species that achieve the claimed reductions in ACTH or 17-OHP. Pet. Reply 6. Petitioner argues that tildacerfont is not “an exemplary embodiment,” as Patent Owner argues, but is rather the only embodiment described for use with the claimed methods. Id. (citing PO Resp. 62, Dir. Dec. 12). Furthermore, argues Petitioner, Patent Owner’s expert, Dr. Dobs, agrees that tildacerfont is the only compound disclosed by the Specification. Id.
+
+Additionally, Petitioner argues, the '908 Specification describes the use of tildacerfont as the “present invention” or “present disclosure,” which Petitioner argues, is further “strong evidence” that the scope of written description is limited to the use of tildacerfont. Pet. Reply 7 (citing Pet. 11–15, 70–75; SciMed Life Sys., Inc. v. Advanced Cardiovascular Sys., Inc., 242 F.3d 1337, 1343 (Fed. Cir. 2001); Gentry Gallery Inc. v. Berkline Corp., 134 F.3d 1473, 1478–80 (Fed. Cir. 1998); In re Lew, 257 F. App’x 281, 285 (Fed. Cir. 2007)). Petitioner argues that, contrary to Patent Owner’s arguments, each of these cited cases found that a patentee’s characterization of a feature as the “present invention” or “present disclosure” is strong evidence that the written description is limited to that feature. Id. According to Petitioner, the '908 Specification does the same thing, defining Patent Owner’s invention as using tildacerfont. Id. (citing Pet. 11–15, 70–75).
+
+Petitioner next argues that the prior art did not teach a class of $CRF_{1}$ receptor antagonists that could treat CAH, or reduce ACTH or 17-OHP by at least 10%. Pet. Reply 7. Petitioner points to the Director's finding, adopted by the Board, that Dr. Carey's testimony that “over 100 CRF1 receptor antagonists had been characterized or were in clinical development prior to the filing of the '908 patent” does not support claims to a class of CRF $_{1}$ receptor antagonists that can be used to treat CAH and result in the claimed 10% reduction of ACTH or 17-OHP. Id. at 7–8 (quoting Dir. Dec. 13; Dec. Inst. 44–45; Ex. 1005 ¶ 99). Petitioner notes that Patent Owner has acknowledged that different species within the CRF $_{1}$ receptor antagonist genus do not achieve the same results. Id. at 8 (citing Dir. Dec. 13; Prelim. Resp. 31–34). According to Petitioner, Patent Owner's argument that there is no “per se rule” a claim is invalid if there is only one working example assumes is similarly faulty. Id. (citing PO Resp. 72–75).
+
+Petitioner points to the testimony of its expert, Dr. Cutler, who explains that, although the prior art discussed the possibility that CRF $_{1}$ receptor antagonists may be useful as a “new approach” to treat CAH, it did not provide evidence that a class of CRF $_{1}$ receptor antagonists could achieve the claimed reductions in ACTH or 17-OHP. Pet. Reply 8 (citing Ex. 1044 ¶¶ 79–80; Ex. 1021, 130–31). Petitioner also disputes Patent Owner’s suggestion that Petitioner’s prior work, as reported in Grigoriadis, shows that Patent Owner was in possession of using the claimed genus to reduce ACTH or 17-OHP levels. Id. (citing PO Resp. 65). Petitioner contends that, if Grigoriadis’ disclosure of species of CRF $_{1}$ receptor antagonists that reduce ACTH and 17-OHP provides written-description support for Patent Owner’s claims, then it must also anticipate the claims, which is the basis for Ground 1. Id. (citing Eli Lilly & Co. v. Barr Labs., Inc., 251 F.3d 955, 971 (Fed. Cir. 2001)).
+
+PGR2021-00088
+Patent 10,849,908 B2
+
+Petitioner argues further that CRF $_{1}$ receptor antagonists were previously studied for indications other than CAH, and were ineffective. Pet. Reply 9 (citing Ex. 1044 ¶¶ 82–85; Ex. 1030, 377–78; Ex. 1031, 24–25; Ex. 1040, Table 1). Petitioner points out that Patent Owner's expert admitted that a person of ordinary skill in the art would have understood that “antagonists of the CRF1 receptor have not demonstrated clinical utility despite over 30 years of research and hundreds of patents.” Id. (citing Ex. 1029, 1065; Ex. 1038, 131–132). Petitioner argues that, in view of the prior art, a skilled artisan would not have thought a class of CRF $_{1}$ receptor antagonists were useful for any indication, much less being useful to treat CAH, or to lower ACTH or 17-OHP by the claimed amounts. Id. Petitioner contends that this is particularly true because the ’908 Specification discloses only tildacerfont and does not provide any way “to distinguish effective from ineffective compounds among those encompassed by the broad genus so claimed.” Id. (quoting Dir. Dec. 14 (citing Idenix Pharms., LLC v. Gilead Sciences Inc., 941 F.3d 1149, 1165 (Fed. Cir. 2019))).
+
+Finally, Petitioner contends that the '908 Specification does not describe common structural features of CRF $_{1}$ receptor antagonists that achieve the claimed reductions in ACTH or 17-OHP. Pet. Reply 9 (citing Dir. Dec. 12–13; Dec. Inst. 44–45). Petitioner asserts that CRF $_{1}$ receptor antagonists are defined as compounds that inhibit CRF $_{1}$ receptors, not by a particular structure or structures. Id. at 10 (citing Ex. 1044 ¶¶ 89–92). Petitioner again points to the testimony of Dr. Cutler, who explains that compounds that interact with the CRF $_{1}$ receptor can have widely diverse structural features. Id. Dr. Cutler opines that the broad structural features observed in some (but not all) CRF $_{1}$ receptor antagonists would not tell a person of ordinary skill in this art whether any compounds in this class could accomplish the claimed results of reducing ACTH or 17-OHP by at least 10% from baseline. Id. Petitioner also notes that Patent Owner's own publication describes tildacerfont (the only species disclosed in the '908 Specification) as having “unique structural features” compared to other CRF $_{1}$ receptor antagonists. Id. (citing Ex. 1041, 4667; Ex. 1038, 52–53).
+
+Petitioner notes that the generalized structure Patent Owner asserts is a “typical CRF1 receptor antagonist” is described in Williams $^{5}$ as one subclass of CRF $_{1}$ receptor antagonists, i.e., not reflective of the entire class. Pet. Reply 10 (citing Ex. 1029, 2, Fig. 2; Ex. 1038, 122–123). Petitioner argues that Williams does not disclose that any of the antagonists falling within Figure 2’s generalized structure could lower ACTH or 17-OHP, but refers to these compounds as having “less-than-optimal physicochemical properties.” Id. at 10–11 (citing Ex. 1029, 2). Furthermore, argues Petitioner, Williams also reports other CRF $_{1}$ receptor antagonist subclasses that do not have the same structural features as Figure 2. Id. at 11 (citing Ex. 1029, Figs. 1 (compounds 1, 4), 6, 11; Ex. 1044 ¶¶ 95–99). Petitioner also notes that, at her deposition, Patent Owner’s expert admitted she is not a chemist and did not know whether other CRF $_{1}$ receptor antagonists disclosed in Williams were encompassed by Figure 2. Id. (citing Ex. 1038, 125–126: 129–130). According to Petitioner, Dr. Dobs also admitted that other CRF $_{1}$ receptor antagonists disclosed by Williams have different structures from that shown in Figure 2. Id. (citing Ex. 1038, 130–131).
+
+Similarly, Petitioner argues, Fahmy $^{6}$ does not describe structural features of CRF $_{1}$ receptor antagonists that could reduce ACTH or 17-OHP from baseline. Pet. Reply 11 (citing Ex. 1044 ¶¶ 100–02). Rather, Petitioner contends, Fahmy provides a general structure that encompasses a large number of compounds, without providing any information on what features are important for CAH treatment or ACTH or 17-OHP reduction. Id. (citing Ex. 1018, 3, Fig. 1; Ex. 1044 ¶¶ 100–102). According to Petitioner, Fahmy also discloses antagonists falling outside the structure of Figure 1, and provides no way to distinguish compounds that are effective to reduce ACTH or 17-OHP. Id. (citing Ex. 1018, 7–8, Figs. 11–12; Ex. 1044 ¶¶ 100–102; Ex. 1038, 132–134). Furthermore, argues Petitioner, Chen $^{7}$ discloses a list of 24 potential indications for CRF $_{1}$ receptor antagonists, but does not identify any structural features of antagonists useful to treat CAH or achieve the claimed reductions in ACTH or 17-OHP. Id. (citing Ex. 1012, col. 2, ll. 10–62).
+
+Consequently, Petitioner contends, neither the '908 Specification nor the prior art discloses a representative number of species or common structural features of $\mathrm{CRF}_1$ receptor antagonists that achieve the claimed results. Pet. Reply 12.
+
+PGR2021-00088
+Patent 10,849,908 B2
+
+## 4. Patent Owner's Sur-Reply
+
+Patent Owner replies that Petitioner attacks the prior art as not demonstrating a 10% reduction from baseline and attacks the '908 Specification, which demonstrates a 10% reduction from baseline, for not repeating structural features already provided in the prior art. PO Sur-Reply 19. However, Patent Owner contends, Petitioner fails to address the adequacy of the Specification in view of the knowledge provided in the prior art. Id. at 19–20.
+
+Patent Owner contends that Petitioner and its expert, Dr. Cutler, acknowledged that the '908 Specification discloses CRF $_{1}$ receptor antagonists as a known class. PO Sur-Reply 20 (citing Pet. Reply 6; Ex. 1044, ¶ 87). According to Patent Owner, Dr. Cutler never retracted his and Dr. Carey's testimony that CRF $_{1}$ receptor antagonists were a well-known and characterized class. Id. (citing PO Resp. 7; Ex. 1005, ¶¶ 23, 24, Ex. 2014, ¶¶ 19, 80–82). Patent Owner therefore contends that Petitioner has failed to prove the inventors lacked constructive possession of the class at the critical date. Id.
+
+Patent Owner disputes Petitioner's contention that a method patent using a known class must itself list out the “species or common structural features” of the class even when structural features of the class already were well-known. PO Sur-Reply 20 (citing Pet. Reply 1, 4–6, 9–12). To the contrary, Patent Owner argues, a patent identifying a well-known class need not repeat structural information that was already known and available in the prior art. Id. at 20–21 (citing PO Resp. 66, 73–75).
+
+Nor, Patent Owner argues, does Petitioner dispute the well-known class of $CRF_{1}$ receptor antagonists was characterized structurally in the prior art. PO Sur-Reply 21. Rather, argues Patent Owner, Petitioner does not contest that there was a known structure-activity relationship for CRF $_{1}$ receptor antagonists, that the basic pharmacophore for inhibition had been defined, or that the inventors were already in at least constructive possession of the class. Id. Instead, Patent Owner contends, Petitioner argues that exceptions exist. Id. (citing Pet. Reply 10–11). However, Patent Owner argues, the law does not require that there be structural features ubiquitous to the class; the law requires structural features common to the class. Id. (citing Ariad, 598 F.3d at 1350). According to Patent Owner, Petitioner’s own evidence establishes such features had been identified. Id. (citing PO Resp. 64–70).
+
+According to Patent Owner, Petitioner argues that a post-critical date publication explains that second-generation $CRF_{1}$ antagonists have lower lipophilicity and volume of distribution to improve solubility, resulting in more predictable pharmacokinetic properties. PO Sur-Reply 21 (citing Pet. Reply 10 (citing Ex. 1041, 4667; Ex. 1038, 52–53)). However, argues Patent Owner, Petitioner identifies no evidence that the pharmacodynamic ability of $CRF_{1}$ receptor antagonists is absent from the class; to the contrary, Patent Owner notes, Dr. Cutler testified the opposite was true. Id. (citing Ex. 1044 ¶ 23; Ex. 2027, 73). Patent Owner asserts that Petitioner’s own evidence demonstrates art-recognized structural characterization, including identification of structural features common to the class. Id. at 22.
+
+Patent Owner next argues that the '908 Specification provides a method of identifying effective compounds in the class. PO Sur-Reply 22. According to Patent Owner, Petitioner's expert, Dr. Cutler, testified that a 14-day oral dosing protocol was able to identify whether a $\mathrm{CRF}_1$ receptor antagonist reduces ACTH or 17-OHP by at least 10% from baseline as required by the claims. Id. (citing Ex. 2027, 18–21). Patent Owner states that Dr. Cutler also testified that determining a therapeutic effect of CRF $_{1}$ receptor antagonists was well within the level of ordinary skill in the art. Id. (citing Ex. 2027, 75–76). Patent Owner notes that the '908 Specification discloses the claimed reduction during the 14-day dosing trial protocol. Id. (citing PO Resp. 34–35, 60–64; Ex. 2014 ¶¶ 43, 83–84; Ex. 1001, cols. 14–15, ll. 60–11, cols. 26–27, ll. 12–40, cols. 39–40, ll. 9–21, col. 43, ll. 58–59, Fig. 2, cols. 42–44, ll. 1–67; Ex. 1041, Fig. 5).
+
+Patent Owner notes that although Dr. Cutler points to the 14-day dosing protocol as disclosed in Auchus, Auchus in fact borrowed the protocol that Patent Owner published. PO Sur-Reply 23. According to Patent Owner, if Auchus is probative of anything in this case, it is evidence corroborating written description support in the '908 Specification. Id. (citing Amgen Inc. v. Sanofi, 872 F.3d 1367, 1374 (Fed. Cir. 2017) (holding that “post-priority-date evidence of a particular species” can bear on whether the disclosure is representative)).
+
+Patent Owner next disputes Petitioner's argument that the '908 Specification says nothing about whether the class can achieve the claimed reductions in ACTH or 17-OHP and "define[s]" the invention as limited to using tildacerfont. PO Sur-Reply 23 (citing Reply 6–7). Patent Owner argues that the Specification explains that: (1) CRF binding to CRF $_{1}$ receptor triggers ACTH release, causing downstream 17-OHP production; (2) CRF $_{1}$ receptor antagonists are biologically-active small molecules that bind CRF $_{1}$ receptor; and (3) they treat CAH by reducing production of ACTH and 17-OHP by antagonizing CRF-CRF $_{1}$ receptor binding, and that tildacerfont is
+
+one embodiment of that genus. Id. at 23–24 (citing PO Resp. 72, 78; Ex. 1001, cols. 11–12, ll. 49–26, col. 12, ll. 27–30).
+
+Patent Owner contends that, contrary to Petitioner's arguments, it is the dosing protocol that is material to the results for $\mathrm{CRF}_1$ receptor antagonism and that Grigoriadis does not disclose a method that inherently achieves the claimed results. PO Sur-Reply 24. Patent Owner argues that Petitioner has failed to prove Grigoriadis' (1) generic mention of crinecerfont (no real method) or (2) a flawed single-dose verucerfont study achieves a $10\%$ reduction from baseline—that provides no evidence that Patent Owner's examples were unrepresentative. Id. Patent Owner asserts that even prior art disclosure that the class of $\mathrm{CRF}_1$ receptor antagonists are useful in CAH would not constitute an anticipatory disclosure of using them in a manner specifically to achieve an at least $10\%$ reduction from baseline. Id.
+
+Finally, Patent Owner contends that Petitioner's arguments that some CRF receptor antagonists have been ineffective for indications such as alcoholism, anxiety and depression are irrelevant, because these studies are, as admitted by Petitioner's expert, unrelated to the treatment of CAH. Id. at 25 (citing Pet. Reply 9; Ex. 1044 ¶ 82, Ex. 2027, 103–106). Patent Owner notes that Dr. Cutler also admitted that there is no reason a person of ordinary skill in the art would expect or require that a CAH treatment also would be effective for depression, anxiety, or alcoholism. Id. (citing Ex. 2027, 39–40, 46–50).
+
+Patent Owner concludes that Petitioner has not presented any evidence demonstrating a failed $\mathrm{CRF}_1$ receptor antagonist studied for CAH treatment, and that Petitioner's expert testified that it was known in the prior art that there is a therapeutically effective dose for any $CRF_{1}$ receptor antagonist. PO Sur-Reply 25–26 (citing Ex. 1044 ¶ 23; Ex. 2027, 73).
+
+## 5. Analysis
+
+The written description requirement of Section 112(a) requires that:
+
+The specification shall contain a written description of the invention, and of the manner and process of making and using it, in such full, clear, concise, and exact terms as to enable any person skilled in the art to which it pertains, or with which it is most nearly connected, to make and use the same, and shall set forth the best mode contemplated by the inventor or joint inventor of carrying out the invention.
+
+35 U.S.C. § 112(a). In Regents of the University of California v. Eli Lilly & Co., our reviewing court held that an adequate written description of genetic material “‘requires a precise definition, such as by structure, formula, chemical name, or physical properties,’ not a mere wish or plan for obtaining the claimed chemical invention.” 119 F.3d 1559, 1566 (Fed. Cir. 1997) (quoting Fiers v. Revel, 984 F.2d 1164, 1171 (Fed. Cir. 1993)).
+
+In University of Rochester v. G.D. Searle & Co., the Federal Circuit held that this standard also applies to all inventions, including proteins and other biological compounds:
+
+We see no reason for the rule to be any different when non-genetic materials are at issue; in fact, where there might be some basis for finding a written description requirement to be satisfied in a genetics case based on the complementariness of a nucleic acid and, for example, a protein, that correspondence might be less clear in a non-genetic situation.
+
+358 F.3d 916, 925 (Fed. Cir. 2004). We consequently apply herein the standard set forth in Regents to our written description analysis.
+
+Independent claims 1 and 11 of the '908 patent both recite, in relevant part, “[a] method of treating congenital adrenal hyperplasia (CAH) in a human comprising administering to the human a therapeutically-effective amount of a CRF $_{1}$ receptor antagonist or a pharmaceutically acceptable salt thereof.” There is no dispute that the '908 Specification names but a single CRF $_{1}$ receptor antagonist, Compound 1 (i.e., tildacerfont). The '908 patent characterizes Compound 1 as being “3-(4-Chloro-2-(morpholin-4-yl)thiazol-5-yl)-7-(1-ethylpropyl)-2,5-dimethylpyrazolo(1,5- $\alpha$ ) pyrimidine.” Ex. 1001, col. 1, ll. 31–33. The '908 Specification also repeatedly provides a structural formula for Compound 1:
+
+![](images/0206b889022216fe5c0e64912341a10237ac047c4811f49a269372ae0de7c2b3.jpg)  
+Compound 1 (tildacerfont) of the '908 Specification
+
+See, e.g., id. at col. 1, ll. 40–54. Consequently, the '908 Specification provides ample description of Compound 1.
+
+However, challenged independent claims 1 and 11 are not restricted to Compound 1, but recite “a therapeutically-effective amount of a CRF $_{1}$ receptor antagonist” (emphasis added), which encompasses not only Compound 1, but essentially, all members of the genus of CRF $_{1}$ receptor antagonists that reduce the level of ACTH (claim 1) or 17-OHP (claim 11) in a human “by at least 10% from baseline.” See, e.g., Ariad, 598 F.3d at 1341.
+
+“[A]n adequate written description of a claimed genus requires more than a generic statement of an invention’s boundaries.” Ariad, 598 F.3d at 1349 (citing Regents, 119 F.3d at 1568). Rather:
+
+[A] sufficient description of a genus instead requires the disclosure of either a representative number of species falling within the scope of the genus or structural features common to the members of the genus so that one of skill in the art can “visualize or recognize” the members of the genus.
+
+Id. at 1350 (citing Regents, 119 F.3d at 1568–69). Moreover, “an adequate written description requires a precise definition, such as by structure, formula, chemical name, physical properties, or other properties, of species falling within the genus sufficient to distinguish the genus from other materials.” Id. (citing Regents, 119 F.3d at 1568 (quoting Fiers v. Revel, 984 F.2d 1164, 1171 (Fed. Cir. 1993))). Furthermore, “functional claim language can meet the written description requirement when the art has established a correlation between structure and function.” Id. (citing Enzo Biochem, Inc. v. Gen-Probe Inc., 323 F.3d 956, 964 (Fed. Cir. 2002) (quoting 66 Fed. Reg. 1099 (Jan. 5, 2001))). However, “merely drawing a fence around the outer limits of a purported genus is not an adequate substitute for describing a variety of materials constituting the genus and showing that one has invented a genus and not just a species.” Id.
+
+Given the large number of $CRF_{1}$ receptor antagonists with varying structures and effectiveness (see Ex. 1018, 270–271; Ex. 1029, 1065), the '908 Specification's disclosure of a single species of $CRF_{1}$ receptor antagonists, i.e., Compound 1, therefore fails, on its face, to meet Ariad's requirement that the Specification disclose “a representative number of species falling within the scope of the genus or structural features common to the members of the genus so that one of skill in the art can ‘visualize or recognize’ the members of the genus.” Ariad, 598 F.3d at 1350.
+
+Although the '908 Specification does not expressly disclose “a representative number of species falling within the scope of the genus or structural features common to the members of the genus so that one of skill in the art can ‘visualize or recognize’ the members of the genus,” the larger test for the sufficiency of Section 112’s written description requirement is whether the disclosure of the application relied upon reasonably conveys to those skilled in the art that the inventor had possession of the claimed subject matter as of the filing date. Ariad, 598 F.3d at 1351 (citing Vas–Cath Inc. v. Mahurkar, 935 F.2d 1555, 1562–63 (Fed. Cir. 1991) (quoting Ralston Purina Co. v. Far–Mar–Co, Inc., 772 F.2d 1570, 1575 (Fed. Cir. 1985))). For generic claims, the Federal Circuit has set forth a number of factors for evaluating the adequacy of the disclosure, including “the existing knowledge in the particular field, the extent and content of the prior art, the maturity of the science or technology, [and] the predictability of the aspect at issue.” Capon, 418 F.3d at 1359.
+
+In other words, the question is whether a person of ordinary skill would, given the factors set forth in Capon, recognize from the disclosures of the '908 Specification the "structure, formula, chemical name, physical properties, or other properties, of species falling within the claimed genus" of $\mathrm{CRF}_1$ receptor antagonists. Ariad, 598 F.3d at 1350. Alternatively, because the claimed genus is characterized in the language of the claims by what it does (i.e., reduces the level of ACTH or 17-OHP by at least $10\%$ from baseline), would a person of skill in the art recognize that the art has established a recognizable correlation between the structure of the claimed genus and its claimed function in reducing the level of ACTH or 17-OHP by at least 10% from baseline? See Enzo, 323 F.3d at 964.
+
+In arguing that the '908 Specification meets this requirement, despite the Specification's silence with respect to defining the claimed genus of CRF $_{1}$ receptor antagonists, Patent Owner contends that a person of ordinary skill would recognize the genus claimed by the '908 patent by either test. PO Resp. 67–68. In support of this argument, Patent Owner relies upon Fahmy and Williams. Id.
+
+The Fahmy reference is a review of small non-peptide CRF antagonists, with an emphasis upon their clinical relevance and with emphasis on those members that showed great promise or those that were advanced to clinical trials. Ex. 1018, Abstr. Fahmy teaches that dysfunction of the CRF system has often been correlated with anxiety or symptoms closely-related to anxiety, and to various diseases such as major depression, anxiety, eating disorders and drug addiction. Id. at 271. Fahmy also notes that CRF may be involved in the stress-induced relapse and the anxiety-like behaviors observed during acute drug withdrawal and drug addiction. Id. Fahmy makes only a single mention of using $\mathrm{CRF}_1$ receptor antagonists in the treatment of CAH, noting that verucerfont, a $\mathrm{CRF}_1$ receptor antagonist related to tildacerfont, "is under investigation as a possible treatment for the typical congenital adrenal hyperplasia." Id. at 276. The comparative structures of tildacerfont and verucerfont are depicted below:
+
+![](images/b79d8ba8dc2ec3d7fc3d19a6088fac0a8c03ff8bd62dcca212fc4b824626d632.jpg)  
+Comparative structures of tildacerfont (right) and verucerfont (left)
+
+Ex. 1001, col. 1, ll. 40–51; Ex. 1018, 276.
+
+Fahmy teaches that both peptide and non-peptide CRF receptor antagonists are known in the art, although, due to the peptide nature of the former, their physical properties posed a boundary for their use in clinical settings. $^{8}$ Ex. 1018, 272. Therefore, Fahmy teaches, non-peptide antagonists have been pursued as a better alternative. Id. Fahmy teaches that “[h]undreds of accounts of small molecule antagonists have appeared in the literature and the preclinical and clinical pharmacology have been reported for many of these agents,” and that “[t]he main research into CRF antagonists to date has focused on non-peptide CRF1 receptor antagonists to target health problems arising as a result of chronic stress and thus as potential treatment options for anxiety-related and stress-related disorders.” Ex. 1018, 272. Fahmy also teaches that “[s]everal classes of small molecule non-peptide CRF receptor antagonists have been synthesized and many are commonly used in research.” Id. Fahmy further discloses that “[t]he synthesis of more non-peptide CRF1 receptor antagonists with [] diverse structure scaffolds as well as further clinical investigations may shed more light on how CRF is implicated in mental disorders.” Id.
+
+More specifically, Fahmy teaches that:
+
+The relationship between structures of non-peptide CRF1 antagonists and their affinity to CRF1 receptors indicates that CRF1 antagonists are typically built of three moieties: a hydrophobic moiety up, a proton accepting moiety in the middle, and an aromatic moiety down. Thus the basic pharmacophore is proposed to be made of a monocyclic or bicyclic heterocyclic ring carrying a hydrophobic dialkylamino group on one flank and an aryl ring, usually substituted at the 2-, 4- and 6-positions, on the opposite flank. Having the aromatic ring orthogonal to the heterocyclic core appears to be essential for the affinity. A methyl group on the heterocyclic core also appears to enhance the CRF1 antagonist properties (Fig. 1).
+
+Ex. 1018, 272 (internal citations omitted). Figure 1 of Fahmy, reproduced below, illustrates that the X-ray structure of several non-peptide CRF $_{1}$ antagonists confirms these characteristics that are required for optimum CRF receptor binding affinity:
+
+![](images/8529289309cafc91ba32fd685aef632e269afc382977eab9248d9b259e187b88.jpg)  
+Figure 1 of Fahmy depicts the structure of the pharmacophore of CRF1 antagonists
+
+Fahmy teaches that, based on the number of rings in the heterocyclic core ring system, small molecule $CRF_{1}$ receptor antagonists can be classified to the following classes: (1) monocyclic; (2) bicyclic; and (3) tricyclic $CRF_{1}$ receptor antagonists. Ex. 1018, 272–276. The first category, monocyclic $CRF_{1}$ receptor antagonists, can be further sub-classified, based upon the nature of the central ring structure, into: (a) pyrazines; (b) pyridines; (c) pyrimidines; and (d) thiazoles. Id. at 272–274. Examples of each of these sub-classifications taught by Fahmy are depicted below:
+
+![](images/90cf02a21878bc56ca580a765381ca5782ff21f6b4c6d76d9882dc5646aebc49.jpg)  
+NGD-98-2
+
+![](images/36e89e08ceee85372e55ff785809658585dcf53c720f59cda55416fbbd8b8621.jpg)  
+CP-316311
+
+![](images/bad8f75084345d4e4898c2c802fe2568df5560a1792c0f4b0cc3368d2d32324e.jpg)  
+CRA1000
+
+![](images/31f7ad13f2a0ef6bb3b248d61456689184754cd7422923adf5405de53a6f866f.jpg)
+
+Illustrations from Figures 2–5 of Fahmy depicting examples of (from left to right), pyrazine (NGD-98-2), pyridine (CP-316311), pyrimidine (CRA1000) and thiazole (SSR125543A) monocyclic CRF $_{1}$ receptor antagonists
+
+Similarly, bicyclic $\mathrm{CRF}_1$ receptor antagonists can be subdivided into: (a) pyrrolo[2,3-d]pyrimidines; (b) pyrazolo[1,5-α]1,3,5-triazines; (c) pyrazolo[1,5-α]pyrimidines; and (d) imidazo[1,2-b]pyridazines.
+
+Ex. 1018, 274–276. Examples of each of these sub-classes are depicted in Fahmy, and selected examples are reproduced below:
+
+![](images/2e33d1e9d662a5876e401eaaff0c48ad0d74ec0d4ea25cf7f28b68ef71cc806d.jpg)  
+Antalarmin
+
+![](images/4b6d4730a22317e4407322a8ba3f69a65d2236963969dd277ca81d8739317974.jpg)  
+DMP-696
+
+![](images/24fd0c200ab81d76286723d3af417100a9ddcf2328fc5840018ee1b9857b797a.jpg)  
+NBI-30775
+
+![](images/e72d9006837c78b6df961b23f24e0798e9b319a4d143ad945f48e3a1fe4df2be.jpg)  
+MTIP
+
+Illustrations from Figures 6–8 and 10 of Fahmy depicting examples of (from left to right), pyrrolo[2,3-d]pyrimidine (Antalarmin), pyrazolo[1,5-α]1,3,5-triazine (DMP-696), pyrazolo[1,5-α]pyrimidine (NBI-30775) and imidazo [1,2-b]pyridazine (MTIP) bicyclic CRF $_{1}$ receptor antagonists
+
+Fahmy also teaches that tricyclic $CRF_{1}$ receptor antagonists can be sub-classified into: (a) triazaacenaphthylenes; and (b) tetraazaacenaphthylenes. Ex. 1018, 276–277. Fahmy illustrates examples of each, which are reproduced below:
+
+![](images/3fd822b4ab4bdffabb6b5bd519a04ce84bc886347a1d4758477f4c3e3ea25337.jpg)
+
+![](images/070e051d6f84344e2eeb9286a4489907644d51d33c2aff6a8a228afe93bbb06c.jpg)  
+NBI-34041
+
+Illustrations from Figures 11 and 12 of Fahmy depicting examples of (from left to right), triazaacenaphthylene (unlabeled) and tetraazaacenaphthylene (NBI-34041) tricyclic CRF $_{1}$ receptor antagonists
+
+Fahmy concludes that “the design of small molecule, non-peptide CRF antagonists may afford new treatment options and a new class of antidepressants and anti-anxiety agents from this class may emerge in the near future.” Ex. 1018, 277.
+
+Williams is a review article covering “the disclosures of non-peptide CRF $_{1}$ antagonists in the patent literature since 2006.” Ex. 1029, Abstr.
+
+Animals display anxiety-like behaviors when CRF is administered centrally and these behaviors can be reversed by centrally administered peptide antagonists of the $CRF_{1}$ receptor. This plus a vast amount of CRF-associated research not reviewed here suggested that blockade of the $CRF_{1}$ receptor may result in new therapies to treat human stress-related disorders like anxiety and depression.
+
+Id. at 1057 (internal citation omitted). Williams does not address the treatment of CAH, but obliquely mentions the subject, stating that:
+
+[C]ompound 12 has a longer ‘residence time’ on the receptor and CRF $_{1}$ antagonists with longer residence times were more effective in reducing plasma ACTH levels in adrenalectomized rats. Adrenalectomized rats are unable to regulate the ACTH levels since they lack the negative feedback of adrenal cortisol that controls ACTH release thus providing a sustained elevated level of the ACTH biomarker. The CRF $_{1}$ antagonist R121919(2), with a preliminary hint of clinical efficacy, has a longer residence time versus CP-316,311 which may prove to be an important factor in future CRF $_{1}$ antagonist development.
+
+Ex. 1029, 1058 (internal citations omitted).
+
+## Williams teaches that:
+
+The typical $CRF_{1}$ antagonist consists of a ‘core’ nitrogen heterocycle with an ‘aryl’ substituent adjacent to the core nitrogen atom and a ‘branched alkyl’ group attached at the opposite end of the core. The most prevalent subclass (designated Type I for the purpose of this review) of $CRF_{1}$ antagonists are those with two atoms separating the aryl region moiety from the requisite core nitrogen atom (which may play the role of a hydrogen bond acceptor when bound by the receptor). This is illustrated by compound 2 (Figure 2) with the 3-pyridyl group serving in the role as the aromatic substituent attached at the C-3 position of the pyrazolo $[1,5-\alpha]$ pyrimidine core and the dipropylamino group at C-7 represents the branched alkyl region. The methyl group at the C-4 position of the pyridyl and the methyl at C-2 of the core serve to steer the aryl group out of plane relative to the central heterocycle.
+
+Ex. 1029, 1058 (internal citations omitted). Figure 2 of Williams is reproduced below:
+
+![](images/dbbecb91422a5223ac2488ed572b421e401be7b2e2e145e526593bb501b36121.jpg)  
+Figure 2 of Williams depicts regions of $\mathrm{CRF}_1$ antagonist structure-activity relationship (SAR)
+
+Figure 2 of Williams corresponds to the pyrazolo[1,5-α]pyrimidine core subclass (bicyclic CRF receptor antagonist subclass (c)) of Fahmy (compound NBI-30775).
+
+Williams identifies several classes and subclasses of $CRF_{1}$ receptor antagonists. The first class, which Williams identifies as Type I $CRF_{1}$ antagonists, is characterized by:
+
+[T]wo atoms separating the aryl region moiety from the requisite core nitrogen atom (which may play the role of a hydrogen bond acceptor when bound by the receptor). This is illustrated by compound 2 (Figure 2) with the 3-pyridyl group serving in the role as the aromatic substituent attached at the C-3 position of the pyrazolo $[1,5-\alpha]$ pyrimidine core and the dipropylamino group at C-7 represents the branched alkyl region. The methyl group at the C-4 position of the pyridyl and the methyl at C-2 of the core serve to steer the aryl group out of plane relative to the central heterocycle.
+
+Ex. 1029, 1058. Figure 2 of Williams is reproduced above. Williams' Type I CRF $_{1}$ receptor antagonists comprise monocyclic, bicyclic, and tricyclic CRF $_{1}$ receptor antagonists taught by Fahmy. See Ex. 1029, 1058–1061, Figs. 1–6. Williams also teaches that Type I CRF $_{1}$ receptor antagonists can include CRF $_{1}$ antagonists with additional rings adjacent to the core nitrogen heterocycle and those with the branched alkyl region supported by additional ring. Id. at 1061, Figs. 7, 8.
+
+Williams also teaches Type II CRF $_{1}$ receptor antagonists. Ex. 1029, 1061. Williams discloses that Type II CRF $_{1}$ antagonists “have many of the same features in common with the Type I antagonists but the branched alkyl region initially appeared to require more complicated side chains for biological activity.” Id. Williams teaches that both monocyclic and bicyclic CRF $_{1}$ receptor antagonists are known in the art; one of each type is depicted below:
+
+![](images/03e11e47b466056c2d1980dc9652433fdc87fee3058b3c005a1ec99fd4ad6197.jpg)  
+Monocyclic (left) and bicyclic (right) Type II CRF $_{1}$ receptor antagonists
+
+Ex. 1029, Figs. 9 (compound 35), 10 (compound 40).
+
+Williams further teaches that there are other, atypical $CRF_{1}$ receptor antagonists that “do not appear to be directly related to the traditional Type I or II $CRF_{1}$ antagonists.” Ex. 1029, 1062. These include benzimidazole-containing amides, a “very unusual phenol,” amidrazones, and N-phenylphenyl glycines, and a trans-4-aminomethylcyclohexylamine with links to two aryl groups. Id. at 1062–1063. Two examples of these atypical $CRF_{1}$ receptor antagonists are depicted below:
+
+![](images/606536337af691208d85ceb8fe5e54d098851dd48ccb5a5e5ab69134b229a76b.jpg)  
+“Atypical” CRF $_{1}$ receptor antagonists: a phenol (left) and a cyclohexyl amide (right)
+
+Id., Figs. 11, 12.
+
+Finally, Williams teaches that “[a]ntagonists of the CRF $_{1}$ receptor have not demonstrated clinical utility despite over 30 years of research and hundreds of patents,” a point with which Patent Owner’s expert, Dr. Dobs, agreed. Ex. 1029, 1065; Ex. 1038, 132. Williams also discloses that “[i]t may be that small molecule (< 500 MW) CRF receptor antagonists will never effectively compete with peptide agonists that are > 10 times larger in molecular weight.” Ex. 1029, 1065. However, Williams, like Fahmy, discloses that the majority of studies investigating the clinical utility of small-molecule CRF $_{1}$ receptor antagonists are directed to stress-related conditions such as anxiety, depression, post-traumatic stress disorder, substance abuse, and stress-induced relapse in craving responses to food, nicotine and alcohol. Id. at 1057–1058.
+
+Summarizing, the teachings of the prior art of record in 2017, at which time the provisional application that matured into the '908 patent was filed, indicate a very considerable structural diversity of molecules that can act as $\mathrm{CRF}_1$ receptor antagonists. Such antagonists can be peptidergic or small
+
+molecule receptor antagonists, the latter including Type I and Type II antagonists, as well as “atypical” CRF $_{1}$ receptor antagonists. Furthermore, Type I and II CRF $_{1}$ receptor antagonists can be either monocyclic or bicyclic in their core structure, and there are also known tricyclic and “atypical” Type I CRF $_{1}$ receptor antagonists.
+
+Moreover, at the time of filing, very few studies existed demonstrating that $CRF_{1}$ receptor antagonists are effective in the treatment of CAH, as recited in the challenged claims. Fahmy mentions a single study of a $CRF_{1}$ receptor antagonist, verucerfont, being studied for this clinical application, and Williams is altogether silent upon the subject, noting only that, at the time (i.e., 2013), “despite over 30 years of research and hundreds of patents” no small molecule $CRF_{1}$ receptor antagonists had demonstrated any clinical utility. Ex. 1018, 276; Ex. 1029, 1065.
+
+For these reasons, we do not find persuasive the testimony of Patent Owner's expert, Dr. Dobs, that:
+
+By describing adjustments of dosing protocols to achieve at least a 10% reduction from baseline, and describing this use of tildacerfont as just one embodiment of the claimed use of the entire well-known, well-characterized, and discrete class, the specification reasonably conveyed to a POSA that the invention extended to the particularly claimed use of the entire recited class.
+
+Ex. 2014 ¶ 87. On the contrary, far from being a “well-known, well-characterized, and discrete class” the prior art teaches a heterogeneous assembly of different classes of small molecule CRF $_{1}$ receptor antagonists (Type I, Type II, and “atypical”) displaying a very considerable variety of structures, both in terms of the core pharmacophore (e.g., monocyclic, bicyclic, tricyclic, phenolic, cyclohexyl amide, etc.) as well as in the various side groups. Moreover, the challenged claims recite only “a CRF $_{1}$ receptor antagonist or a pharmaceutically acceptable salt thereof,” the scope of which also encompasses the much larger (and, according to Williams) much more effective large-molecule (peptide) CRF $_{1}$ receptor antagonists, about which the Specification is entirely silent. See Ex. 1029, Abstr., 1065.
+
+Furthermore, despite Dr. Dobs' testimony that “[t]he [prior art] references explain the typical CRF1 antagonist consists of a core nitrogen heterocycle with an aryl substituent adjacent to the core nitrogen atom and a branched alkyl group attached at the opposite end of the core,” Dr. Dobs also acknowledged that the “atypical” CRF1 receptors depicted in Figures 11 and 12 of Williams had different structures, and lacked the nitrogen heterocyclic core. Ex. 1038, 127, 130–131; see also Ex. 2014, 61. Additionally, Petitioner’s expert, Dr. Cutler, testified, by way of example, in his Reply Declaration that two of the “‘first-generation CRF1 antagonists’ identified in Figure 1 of the Williams article do not fall within the Figure 2 structure Dr. Dobs relies upon.” Ex. 1044 ¶ 97.
+
+Indeed, with respect to the alleged core pharmacophore that Dr. Dobs describes as being taught by the prior art, we find more persuasive Dr. Cutler's opinion that “this general description, which comprises a large and indeterminate number of unique chemical structures, does not provide any information on what structural features of CRF1 receptor antagonists would be important to a CAH treatment, or to achieve an at least 10% reduction in ACTH or 17-OHP.” Id. ¶ 101. Based upon the evidence of record, we also find more persuasive Dr. Cutler's opinion that:
+
+[T]he '908 patent itself does not describe structural features common to CRF1 receptor antagonists that could be administered to treat CAH or result in an at least 10% reduction in ACTH or 17-OHP compared to baseline. The prior references described by Dr. Dobs also do not identify any such common structural features that would achieve these results.
+
+## Id. at ¶ 103.
+
+## Capon states that:
+
+[T]he determination of what is needed to support generic claims to biological subject matter depends on a variety of factors, such as the existing knowledge in the particular field, the extent and content of the prior art, the maturity of the science or technology, the predictability of the aspect at issue, and other considerations appropriate to the subject matter.
+
+Capon, 418 F.3d 1359.
+
+In view of these factors, and summarizing our findings of the disclosures of the prior art set forth above, we find that: (1) the '908 Specification discloses only a single species of the claimed genus (see Ex. 1001, col. 1, ll. 30–57), and does not disclose “either a representative number of species falling within the scope of the genus or structural features common to the members of the genus so that one of skill in the art can ‘visualize or recognize’ the members of the genus” (Ariad, 598 F.3d at 1350 (citing Regents, 119 F.3d at 1568–69)); (2) Patent Owner’s own publication noted that the single species disclosed in the '908 Specification as having “unique structural features” compared to other CRF $_{1}$ receptor antagonists (Ex. 1041, 4667; Ex. 1038, 52–53); (3) there was very little knowledge disclosed by the prior art relied upon by Patent Owner of the ability of CRF $_{1}$ receptor antagonists to decrease the level of ACTH or 17-OHP by at least about 10% from baseline as claimed, or to even have any therapeutic effectiveness at all (see generally Exs. 1018, 1029); (4) the extent and content of the two prior art review articles relied upon by Patent Owner also demonstrate a wide variety of large and small molecule compounds that can act as $CRF_{1}$ receptor antagonists (see generally Exs. 1018, 1029); (5) the effective use of $CRF_{1}$ receptor antagonists in the treatment of CAH, or indeed in any clinical application, at the time of filing, was far from being mature, and was unpredictable (see, e.g., Ex. 1018, 276; Ex. 1029, 1065); and (6) given the variety of structures that had been shown to act as $CRF_{1}$ receptors, the structure-function relationship between $CRF_{1}$ receptor and $CRF_{1}$ receptors was still largely unknown and unpredictable (Ex. 1029, 1065–66).
+
+We conclude, by a preponderance of the evidence of record, including the declaration and deposition testimony of Patent Owner's expert, that a person of ordinary skill in the art would not have recognized, either from the express disclosures of the '908 Specification or from the knowledge of the prior art, the “structure, formula, chemical name, physical properties, or other properties, of species falling within the genus” of claimed CRF $_{1}$ receptor antagonists. Ariad, 598 F.3d at 1350. We therefore conclude that the challenged claims fail to meet the written description requirement of 35 U.S.C. § 112(a) and are unpatentable.
+
+## F. Grounds 1–3 and 5
+
+Because we find that all of the challenged claims are unpatentable for lack of written description support under 35 U.S.C. § 112(a) on Ground 4, we do not reach Petitioner's arguments on Grounds 1–3 and 5.
+
+## V. CONCLUSION
+
+For the reasons we have explained, we conclude that Petitioner has demonstrated by a preponderance of the evidence, that challenged claims 1–25 of the '908 patent are unpatentable as lacking adequate written description support. Furthermore, Petitioner's Motion to Exclude Evidence is denied in part and dismissed in part as moot. Patent Owner's Motion to Exclude Evidence is denied in part and dismissed in part as moot.
+
+Petitioner's Motion to Strike is also dismissed as moot.
+
+## VI. ORDER
+
+In consideration of the foregoing, it is hereby:
+
+ORDERED that based on a preponderance of the evidence, claims 1–25 of the '908 patent are unpatentable;
+
+FURTHER ORDERED that Petitioner's Motion to Exclude is denied in part and dismissed in part; and
+
+FURTHER ORDERED that Patent Owner's Motion to Exclude is denied in part and dismissed in part;
+
+FURTHER ORDERED that Petitioner's Motion to Strike is dismissed; and
+
+FURTHER ORDERED that because this is a final written decision, the parties to this proceeding seeking judicial review of our Decision must comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+Patent 10,849,908 B2
+
+<table><tr><td>Claim(s) Rejected</td><td>35 U.S.C. §</td><td>Reference(s)/ Basis</td><td>Claim(s) Shown Unpatentable</td><td>Claim(s) Not Shown Unpatentable</td></tr><tr><td>1–25</td><td>112(a)</td><td>Written Description</td><td>1–25</td><td></td></tr></table>
+
+PGR2021-00088
+Patent 10,849,908 B2
+
+For PETITIONER:
+
+W. Karl Renner
+
+Robert Oakes
+
+FISH & RICHARDSON P.C.
+
+axf-ptab@fr.com
+
+oakes@fr.com
+
+For PATENT OWNER:
+
+Michael Rosato
+
+Jad Mills
+
+WILSON SONSINI GOODRICH & ROSATI
+
+mrosato@wsgr.com
+
+jmills@wsgr.com

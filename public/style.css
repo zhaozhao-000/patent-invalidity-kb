@@ -310,6 +310,16 @@ button {
   text-decoration: underline;
 }
 
+.links .copy-id {
+  width: auto;
+  min-height: 28px;
+  padding: 3px 8px;
+  color: var(--accent);
+  border-color: var(--accent);
+  background: #fff;
+  font-size: 13px;
+}
+
 .case-card footer {
   color: var(--muted);
   font-size: 13px;

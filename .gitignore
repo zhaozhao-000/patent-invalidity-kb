@@ -14,3 +14,4 @@ output/
 input_pdfs/
 external_ocr/
 data/external/orange_book/
+parsed/*/zip/

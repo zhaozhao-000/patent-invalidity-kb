@@ -1,0 +1,629 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 47
+Date: April 16, 2024
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE BEFORE THE PATENT TRIAL AND APPEAL BOARD DR. REDDY's LABORATORIES, INC., Petitioner, v. GENENTECH, INC., HOFFMAN-LA ROCHE AG, and ABBVIE INC., Patent Owner. IPR2023-00052 Patent 11,110,087 B2
+
+Before JEFFREY N. FREDMAN, ZHENYU YANG, and ROBERT A. POLLOCK, Administrative Patent Judges.
+
+FREDMAN, Administrative Patent Judge.
+
+JUDGMENT
+Final Written Decision
+Determining No Challenged Claims Unpatentable
+35 U.S.C. § 318(a)
+
+## I. INTRODUCTION
+
+Dr. Reddy's Laboratories, Inc. (“Petitioner”) filed a Petition (Paper 1, “Pet.”) requesting inter partes review of claims 1–4, 8–14, and 18–26 (the “challenged claims”) of U.S. Patent No. 11,110,087 B2 (Ex. 1001, “the ’087 patent”). Genentech, Inc., Hoffman-La Roche AG, and Abbvie Inc. (“Patent Owner”) filed a Preliminary Response. Paper 6 (“Prelim. Resp.”).
+
+On April 19, 2023, the Board instituted an inter partes review of all claims of the '087 patent. Paper 7 ("Institution Decision," "DI"). Subsequently, Patent Owner filed a Patent Owner Response (Paper 24, "PO Resp."), Petitioner filed a Reply to the Patent Owner Response (Paper 33, "Pet. Reply"), and Patent Owner filed a Sur-Reply (Paper 38, "PO Sur-Reply"). An oral hearing was held on January 18, 2024. A transcript of the hearing has been entered into the record. Paper 44. We requested, and received, additional briefing on several Federal Circuit Decisions. Papers 41, 42, 45, and 46.
+
+For the reasons that follow, on the full trial record, we conclude that Petitioner has not proven by a preponderance of the evidence that claims 1–4, 8–14, 18–26 of the '087 patent are unpatentable.
+
+## II. REAL PARTIES-IN-INTEREST
+
+Petitioner identifies Dr. Reddy's Laboratories Ltd. and Dr. Reddy's Laboratories, Inc. as the real parties-in-interest. Pet. 3. Patent Owner states "the real parties-in-interest are Genentech, Inc., Hoffmann-La Roche Inc., and AbbVie Inc., the assignees of record for U.S. Patent No. 11,110,087." Paper 4, 1.
+
+## III. RELATED MATTERS
+
+Petitioner identifies the '087 patent as a continuation of US 10,993,942 ("942 patent") and related to three pending applications, US 17/395,366, 17/709,324, and 17/834,709. Pet. 4. Petitioner identifies two district court cases directly related to the '087 and '942 patents: AbbVie Inc. v. Alembic Pharms., Ltd., No. 20-cv-01009 (D. Del.) and AbbVie Inc. v. Dr. Reddy's Labs., Ltd., No. 20-cv-00968 (D. Del.). Petitioner also identifies a related instituted post grant review ("PGR") challenge: Dr. Reddy's Labs., Inc. v. Genentech, Inc., PGR2022-00023, Paper 8 (PTAB July 25, 2022).
+
+## IV. THE '087 PATENT and RELEVANT BACKGROUND
+
+The '087 patent states the “invention is directed to a combination therapy involving a type II anti-CD20 antibody and a selective Bcl-2 inhibitor for the treatment of a patient suffering from cancer, particularly a CD20-expressing cancer.” Ex. 1001, 1:22–25. The '087 patent teaches, in one embodiment, that “the selective Bcl-2 inhibitor is GDC-0199.” Id. at 4:6–7. The '087 patent teaches the treatment may comprise “administering to said human a GA101 antibody and/or GDC-0199 in multiple dosing cycles. In an embodiment, each dosing cycle of the multiple dosing cycle is for at least 1 week.” Id. at 4:12–15. According to Patent Owner GDC-0199 is “now known as venetoclax” and marketed “as the FDA-approved drug Venclexta®.” POPR 1. See also Ex. 1020 ¶ 2 (Testimony of Dr. Oleksowicz’s, Petitioner’s Declarant that GDC-0199 is synonymous with Venclexta).
+
+## V. ILLUSTRATIVE CLAIMS
+
+Petitioner challenges claims 1–4, 8–14, and 18–26, of which only claims 1 and 19 are independent:
+
+1. A method for treating lymphoma or leukemia in a human patient, the method comprising orally administering once daily GDC-0199 to the patient in dosing cycles comprising escalating doses, wherein the escalating doses comprise a dose of 100 mg of GDC-0199 per day, followed by orally administering to the patient a dose of 200 mg of GDC-0199 per day, followed by orally administering to the patient a dose of 400 mg of GDC-0199 per day.
+
+19. A method for treating lymphoma or leukemia in a human patient, the method comprising orally administrating once daily GDC-0199 in escalating doses to the patient, wherein the escalating doses comprise a daily dose of 100 mg of GDC-0199.
+
+Ex. 1001, 35:26–34; 36:45–49.
+
+## VI. ASSERTED GROUND
+
+Petitioner contends that the challenged claims are unpatentable based on the following ground. Pet. 6.
+
+<table><tr><td>Reference</td><td>Basis</td><td>Claims Challenged</td></tr><tr><td>Venclexta Label (November 2018) (Ex. 1053).</td><td>§ 102</td><td>1–4, 8–14, 18–26</td></tr></table>
+
+Petitioner relied on the Declaration of Leslie Oleksowicz, M.D. See Ex. 1020. Patent Owner relies on the Declaration of Dr. Jeffrey P. Sharman, M.D. See Ex. 2009.
+
+Based on the statements of qualifications and curriculum vitae, we find Petitioner's declarant, Dr. Oleksowicz, qualified to provide technical opinions from the perspective of a person of ordinary skill in the art in this proceeding. See Ex. 1020 ¶¶ 5–13; Ex. 1021. Also based on the statements of qualifications and curriculum vitae, we find Patent Owner's declarant, Dr. Brown, qualified to provide technical opinions from the perspective of a
+
+person of ordinary skill in the art in this proceeding. See Ex. 2009 ¶¶ 5–22; Ex. 2010.
+
+## VII. CLAIM INTERPRETATION
+
+Petitioner contends that the preamble recitation to treat particular cancers is a limitation “because it both frames and governs the ultimate timing and dosing choices of the claimed method of treatment.” Pet. 26. Patent Owner contends that the “patent provides express definitions for both terms and these terms should be construed in accordance with their definitions as set forth in the ’087 specification.” PO. Resp. 21.
+
+Petitioner responds that “Patent Owner does not explain why construction is necessary or affects the merits. Neither definition is different from the ordinary meaning of each term in the context of the specification, and Patent Owner did not explain how or why either one somehow undermined the Petition.” Pet. Reply 5.
+
+## Patent Owner then responds:
+
+Despite the '087 patent's explicit instruction regarding the terms "method of treating" and "treating," Dr. Oleksowicz relies on a different (and incorrect) standard, in which she considers whether GDC-0199 "clinically treat[ed]" patients. (See Ex. 2026 at 67:15-74:14 (emphasis added); see, e.g., id. at 115:18-116:6 ("So if you want to use venetoclax as monotherapy, you might need a clinical trial to assess it as monotherapy . . . So there are problems here regarding utilization of these wide ranges of doses"), 120:6-21, 124:23-125:4.) Petitioner follows Dr. Oleksowicz's error in arguing for standards more akin to FDA approval requirements than the standards under 35 U.S.C. §112.
+
+The parties do not identify any issue relating to the preamble that would impact our analysis. We recognize that Patent Owner is suggesting that Petitioner's expert, at least, is reading the word “clinical” into the treatment language of claim 1. However, the plain language of the claim 1 preamble states “treating lymphoma or leukemia in a human patient” and is supported by a straightforward definition in the Specification of the '087 patent, expressly limiting the invention to treatment of human patients. See Ex. 1001, 16:25–38. We therefore find that the preamble terms do not need claim construction because there is no actual dispute suggesting that, for example, claim 1 implicitly recites the term “clinical.” See, e.g., Wellman, Inc. v. Eastman Chem. Co., 642 F.3d 1355, 1361 (Fed. Cir. 2011) (“[C]laim terms need only be construed ‘to the extent necessary to resolve the controversy.’”) (quoting Vivid Techs., Inc. v. Am. Sci. & Eng’g, Inc., 200 F.3d 795, 803 (Fed. Cir. 1999)).
+
+## VIII. LEVEL OF ORDINARY SKILL IN THE ART
+
+In our Institution Decision, we provisionally adopted Patent Owner's position that one of ordinary skill in the art “would have had at least an M.D. and several years of experience treating patients with hematological malignancies (i.e., blood cancers).” DI 5–6. Here, Petitioner asserts that the skilled artisan
+
+would have held an MD with experience in clinical oncology or pharmacology; a PhD in pharmacology, pharmaceutical chemistry, cancer biology, or a related discipline; or a PharmD with experience in clinical oncology. Ex. 1020 ¶ 29. A POSA would also have practical working knowledge of oncology (Ex. 1020 ¶ 29) and experience with the design of studies necessary for drug development. This description is approximate, and additional experience could make up for less education and vice versa. Ex. 1020 ¶ 29.
+
+Pet. 15–16. Patent Owner asserts its “definition ‘more precisely establishes the level of ordinary skill in the art as it directly relates to those deciding prescribing information based on the prior art reference’ (id. at 6) and accounts for the ’087 patent’s focus on lymphoma and leukemia in the claims.” PO Resp. 18–19 (citing Ex. 1001,35:26–37:10; Ex. 2009, ¶¶ 25–33; Ex. 2026,154:8–13.)
+
+Petitioner responds the “difference between the parties’ POSA definitions is immaterial insofar as both experts qualify under either one. Regardless, Patent Owner’s expert, Dr. Sharman, did not apply either definition but instead assumed additional requirements that a POSA be ‘double board’ certified and have ‘personal experience’ conducting ‘Phase I dosing trials.’” Pet. Reply 4 (citing Ex. 1056, 142:3–6; Ex. 2009 ¶ 32.) Patent Owner responds, that under its definition,
+
+a POSA, with years of experience treating hematological malignancies, would have had their own knowledge about Phase I dosing trials. (See id. at ¶¶ 28-32.) Dr. Sharman merely commented on the qualities a physician with years of experience in hematology would possess.
+
+PO Sur-Reply 3 (citing Ex. 2009 ¶ 28).
+
+We do not discern a substantive difference between the parties' respective definitions for the level of ordinary skill in the art. Although Petitioner did not expressly recite hematological malignancies, Petitioner did refer to expertise in clinical oncology, which would encompass the blood cancers recited in the claims. Neither party identifies a difference in the analysis or conclusions that would be based on differences in the ordinary skill in the art analysis.
+
+Accordingly, we find the parties' respective definitions to be equivalent and consistent with the level of ordinary skill in the art as reflected by the prior art in this proceeding. See Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001) (explaining that specific findings regarding ordinary skill level are not required “where the prior art itself reflects an appropriate level and a need for testimony is not shown” (quoting Litton Indus. Prods., Inc. v. Solid State Sys. Corp., 755 F.2d 158, 163 (Fed. Cir. 1985))).
+
+## IX. PRINCIPLES OF LAW
+
+“In an [inter partes review], the petitioner has the burden from the onset to show with particularity why the patent it challenges is unpatentable.” Harmonic Inc. v. Avid Tech., Inc., 815 F.3d 1356, 1363 (Fed. Cir. 2016) (citing 35 U.S.C. § 312(a)(3) (requiring inter partes review petitions to identify “with particularity . . . the evidence that supports the grounds for the challenge to each claim”)). This burden of persuasion never shifts to the patent owner. See Dynamic Drinkware, LLC v. Nat’l Graphics, Inc., 800 F.3d 1375, 1378 (Fed. Cir. 2015) (discussing the burden of proof in inter partes review).
+
+“[T]o gain the benefit of the filing date of an earlier application under 35 U.S.C. § 120, each application in the chain leading back to the earlier application must comply with the written description requirement of 35 U.S.C. § 112.” Zenon Envtl., Inc. v. U.S. Filter Corp., 506 F.3d 1370, 1378 (Fed. Cir. 2007); see also In re Hogan, 559 F.2d 595, 609 (CCPA 1977) (“[T]here has to be a continuous chain of copending applications each of which satisfies the requirements of § 112 with respect to the subject matter presently claimed.”)
+
+“[T]he test for [compliance with the written description requirement of § 112, ¶ 1] is whether the disclosure of the application relied upon reasonably conveys to those skilled in the art that the inventor had possession of the claimed subject matter as of the filing date.” Ariad
+
+Pharms., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1351 (Fed. Cir. 2010). “[W]hile the description requirement does not demand any particular form of disclosure, or that the specification recite the claimed invention in haec verba, a description that merely renders the invention obvious does not satisfy the requirement.” Id. at 1352 (citations omitted). “[T]he test requires an objective inquiry into the four corners of the specification from the perspective of a person of ordinary skill in the art.” Id. at 1351.
+
+Chiron explains that under § 120, a patent “may only claim priority to an earlier application if the earlier application fulfills” both the enablement and written description requirements. Chiron Corp. v. Genentech, Inc., 363 F.3d 1247, 1253 (Fed. Cir. 2004). “Moreover, the prior application must enable one of ordinary skill in the art to practice ‘the full scope of the claimed invention.’” Id. (quoting In re Wright, 999 F.2d 1557, 1561 (Fed. Cir. 1993)).
+
+“Determining whether claims are anticipated involves a two-step analysis. The first step involves construction of the claims of the patent at issue. Claim construction is a question of law reviewed de novo.” In re Aoyama, 656 F.3d 1293, 1296 (Fed.Cir.2011). “The second step [of an anticipation analysis] involves comparing the claims to the prior art. Anticipation is a question of fact reviewed for substantial evidence.” In re Aoyama, 656 F.3d at 1296. “A prior art reference anticipates a patent claim under 35 U.S.C. § 102(b) if it discloses every claim limitation.” In re Montgomery, 677 F.3d 1375, 1379 (Fed. Cir. 2012).
+
+We analyze the asserted ground of unpatentability in accordance with the above-stated principles.
+
+## X. ANALYSIS
+
+A. '087 Patent (Ex. 1001) $^{1}$
+
+The '087 patent teaches “[t]he present invention is directed to a combination therapy involving a type II anti-CD20 antibody and a selective Bcl-2 inhibitor for the treatment of a patient suffering from cancer, particularly a CD20-expressing cancer.” Ex. 1001, 1:21–25. The '087 patent teaches “[e]xemplary non-solid tumors that can be treated in the methods provided herein, include, for instance, a leukemia or a lymphoma.” Ex. 1001, 25:6–8.
+
+## According to the '087 patent:
+
+A dosing period as used herein is meant a period of time, during which each therapeutic agent has been administered at least once. A dosing cycle is usually about 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, or 30 days, and, in one embodiment, 6, 7, 8, 9, 10, 11, 12, 13, or 14 days, for example, 7 or 14 days.
+
+In certain embodiments, a dosing period is a dosing cycle. Ex. 1001, 16:64–17:4.
+
+The ’087 patent teaches that in “certain embodiments, methods are provided for the treatment of a cancer in a human in need thereof comprising administering to said human a GA101 antibody and/or GDC-0199 in multiple dosing cycles. In an embodiment, each dosing cycle of the multiple dosing cycle is for at least 1 week.” Ex. 1001, 4:10–15. The ’087 patent teaches embodiments where “following the last dosing cycle of multiple
+
+Schedule A Dosing Schema: GDC-0199 Step-Up Dosing for Three Weeks Before Starting Obinutuzumab  
+![](images/7c535efdebefd50e7c0cfcd4e05255eb7dcc6e6b3c4f042125dd8f0291db8452.jpg)  
+Figure 2 of the '087 patent is reproduced below:  
+Obinutuzumab administration: W4 (C1D22), W5 (C2D1), W6 (C2D8), W9 (C3D1), W13 (C4D1), W17 (C5D1), W21 (C6D1), and W25 (C7D1).  
+△ GDC-0199 50 mg dose (starting dose): W1 (C1D1 through C1D7)  
+◇ GDC-0199 100 mg dose: W2 (C1D8 through C1D15)  
+☐ GDC-0199 300 mg dose (ending dose): W3 (C1D16) through W28 (C7D28)  
+C=cycle; D=day; W=week.
+
+dosing cycles, GDC-0199 alone can be administered to the human in the absence of the GA101 antibody." Ex. 1001, 4:45–48. The '087 patent teaches that in
+
+certain embodiments, escalating doses of GDC-0199 are administered to the patient prior to administration of the type II anti-CD20 antibody. In other embodiments, escalating doses of GDC-0199 are administered to the patient after the type II anti-CD20 antibody has been administered to the patient.
+
+In some embodiments of the method of treatment provided herein, the amount of GDC-0199 administered to the patient per dose is increased during the first dosing cycle from initial amounts of between 10 mg to 80 mg to final amounts of between 190 mg to 400 mg. In certain embodiments, the amount of GDC-0199 per dose administered to the patients begins with 50 mg or 100 mg, and is increased to 300 mg per dose. In some embodiments, the amount of GDC-0199 in the initial doses administered to the patient can, for example, be between 20 mg to 60 mg (e.g., 20 mg, 25 mg, 30 mg, 35 mg, 40 mg, 45 mg, 50 mg, 55 mg or 60 mg doses), followed by dose amounts of 100 mg, 200 mg, 300 mg or more of GDC-0199.
+
+Id. at 24:11–29.
+
+Figure 2 depicts a dosing schedule “consisting of GDC-0199 administered in escalating doses for 3 weeks prior to the first obinutuzumab $^{2}$ infusion.” Ex. 1001, 25:67–26:1. In particular, Figure 2 describes administration of a 50 mg dose of GDC-0199 for the first week, a 100 mg dose for the second week, and a 300 mg dose for the third week alone and continuing through twenty-eight weeks. Id. at Figure 2.
+
+## The '087 patent teaches
+
+GDC-0199 monotherapy may be continued in patients beyond 6-7 cycles of combination treatment described above (e.g., if they have acceptable toxicity and have not yet achieved maximal clinical response (i.e., are having continued improvement/reduction in tumor burden that has not yet stabilized for at least 2 months)). Such patients may continue GDC-0199 monotherapy until they have achieved maximal response or up to 1 year after the last patient is enrolled, whichever occurs first.
+
+Id. at 26:25–33.
+
+## A. Priority
+
+The anticipation challenge of Ground 1 is predicated on whether the claims at issue receive the benefit of priority to the original Specification—which in turn requires us to consider whether the challenged claims find enabling and written descriptive support in the priority document.
+
+## 1. Enablement
+
+Where the effective filing date of a claim is an issue in a § 102 analysis, courts have considered whether the priority document provides enablement without undue experimentation for the claims. See Chiron, 363 F.3d at 1253.
+
+In analyzing undue experimentation, we consider:
+
+(1) the quantity of experimentation necessary, (2) the amount of direction or guidance presented, (3) the presence or absence of working examples, (4) the nature of the invention, (5) the state of the prior art, (6) the relative skill of those in the art, (7) the predictability or unpredictability of the art, and (8) the breadth of the claims.
+
+In re Wands, 858 F.2d at 737.
+
+## a. Petitioner's Position
+
+## Petitioner contends:
+
+Claim 19 is broad. It recites treating “lymphoma or leukemia in a human patient” (i.e., any lymphoma or leukemia, at any stage, in any human) by “orally administrating once daily GDC-0199 in escalating doses to the patient, wherein the escalating doses comprise a daily dose of 100 mg of GDC-0199.” That is broader than the asserted priority documents allow.
+
+Pet. 43. Petitioner contends the claims “encompass a broad (even incalculable) genus of possible dosing regimens, any of which must be functionally effective in ‘treating lymphoma or leukemia.’” Id., cf. Pet. Reply 10–13. Petitioner contends:
+
+The specification is indeed devoid of guidance on how to arrive at the full scope of dosing regimens that work to treat the full scope of lymphoma and leukemia, much less in a way that mitigates TLS [tumor lysis syndrome]. Indeed, the specification lacks a single working example falling within the scope of the claims. Example 2 is merely prophetic, noting a hypothetical clinical study.
+
+Pet. 46 (citing Ex. 1001, 25:65–66), cf. Pet. Reply 13–14.
+
+Petitioner contends “Patent Owner argued during prosecution that treatment of cancer is unpredictable and that new cancer treatments are unpredictable.” Pet. 47 (citing Ex. 1013, 71–73). Petitioner contends “Patent Owner’s own admissions underscore that significant guidance would be needed, and the amount of experimentation that would be needed without such guidance.” Id.
+
+Petitioner contends “the state of working knowledge for treatment with GDC-0199 was low as of the asserted priority date, beyond exploratory clinical trials.” Pet. 48 (citing Ex. 1020 ¶ 195). Petitioner contends “given Patent Owner’s admissions about the state of the art with respect to GDC-0199 at the time, a POSA would not recognize at the time without undue experimentation which embodiments are inoperative.” Id. at 49.
+
+## (1) Claims 20 and 21
+
+## Petitioner contends:
+
+Claim 20 adds that the method comprises “three differing doses,” and claim 21 specifies that the “starting dose” is the 100 mg dose. But even with a 100 mg anchor point, the claims remain hopelessly broad, allowing endless permutations of dose amounts and timings. See Ex. 1020 ¶¶ 200–02. The claims are for any three doses to be used, and so this additional limitation retains all the enablement problems of claim 19.
+
+## Pet. 50.
+
+## (2) Claim 22
+
+Petitioner contends “the patent provides no guidance on how to determine the other doses in the ramp-up, or why one would choose a daily ramp up instead of over weeks or more. Ex. 1020 ¶¶ 204, 206.” Pet. 50.
+
+## (3) Claims 24 and 25
+
+Petitioner contends “[t]he priority documents do not discuss any ‘disease progression’ endpoint or provide sufficient guidance on the subject. Ex. 1020 ¶¶ 209, 211. The complete lack of guidance on ‘disease progress’ is further exacerbated by the lack of discussion on TLS."Pet. 51 (citing Ex. 1020 ¶¶ 210–11).
+
+## (4) Claim 26
+
+Petitioner contends “Claim 26 requires administration ‘in combination with cytarabine.’ This just makes things worse. The claim adds a new drug for co-administration without any limits or guidance on its use, introducing a further set of complex factors in dosing, outcomes, and possible side effects. Ex. 1020 ¶¶ 213, 215–16.” Pet. 51.
+
+## (5) Claims 1–4, 8–14, and 18
+
+Petitioner contends “Claims 1–4, 8–14, and 18 remain improperly broad, encompassing essentially infinite combinations of dosing regimens and co-administration schemes. Ex. 1020 ¶¶ 221–23. And just as dependent claims 20–26 do not cure claim 19’s enablement issues, neither do dependent claims 2–4, 8, 10–14, and 18. Ex. 1020 ¶¶ 221–23.” Pet. 52.
+
+## b. Patent Owner's Position
+
+Patent Owner contends “[t]he specification discloses methods for the treatment of a patient suffering from lymphoma or leukemia via administration of GDC-0199, which is a selective Bcl-2 inhibitor.” PO Resp. 53 (citing Ex. 1001 at 1:22–25, 4:10–17, 5:23–30; see also Example 2, FIG. 2.) Patent Owner contends “Example 2 is a clinical trial detailing the administration of GDC-0199 (Ex. 1001 at 24:3–10, 24:17–29, FIG. 2), and column 24 provides alternative doses from 10-400 mg that can be used in that clinical trial scheme (id. at 24:3–10, 24:17–29).” Id. at 53–54.
+
+## Patent Owner contends:
+
+Multiple Wands factors weigh in favor of a conclusion that no undue experimentation is needed. For example, factor 3—the presence or absence of working examples—also tends to show the claims enabled because the specification describes four examples and explicitly includes Example 2 and Figure 2, which relate to escalating doses in CLL patients.... Furthermore, factor 2—the amount of direction or guidance presented—supports a finding of enablement because as explained above in Sections III.A.2. and VI.A.1., the specification provides a limited number of doses that can be utilized in the Figure 2 schema for the treatment of lymphoma or leukemia, and those dosages are further restricted by the knowledge of a POSA regarding dosing. Factor 6—the relative skill of those in the art—a POSA, armed with at least an M.D. and several years of experience treating hematological malignancies, would have understood how to treat a patient using the dose escalation scheme presented in the specification of the '087 patent. (See, e.g., Ex. 2009 at ¶¶ 254–257.)
+
+PO Resp. 58–59.
+
+## (1) Claims 1–4, 8, 10–14, 18, 20–23
+
+Patent Owner contends:
+
+Claims 20–26 depend from claim 19, and are enabled for the same reasons discussed above with regard to claim 19. Independent claims 1 and 9 also have a set of dependent challenged claims (2–4, 8, 10–14, and 18, respectively) analogous to dependent claims 20–26, and for the same reasons.
+
+## PO. Resp. 55–56. Patent Owner contends:
+
+A POSA would recognize that there are three differing, escalating doses listed in Figure 2 and Example 2. A POSA would also recognize that the '087 specification discloses administering the different dose once daily, and that a dosing cycle can be one day. (Ex. 1001 at 17:61-62 (providing the “Bcl-2 inhibitor may be administered daily”), 16:66-17:3 (“a dosing cycle is usually about 1 . . . or 30 days”).) These disclosures would teach a POSA to administer a different dose once daily in each of the first three dosing cycles without undue experimentation.
+
+## Id. at 57.
+
+## (2) Claims 24 and 25
+
+## Patent Owner contends:
+
+A POSA would have understood that the objective of cancer treatment would be to prevent disease progression and would know to discontinue treatment if disease progression occurs. (Ex. 2009 at ¶¶ 243–245.) Furthermore, Example 2 provides that “GDC-0199 monotherapy may be continued in patients beyond . . . combination treatment.” (See Ex. 1001 at 26:25–33.) These are explicit instructions to a POSA that GDC-0199 can be continued if toxicity is acceptable and maximal clinical response has yet to be achieved.
+
+## PO Resp. 57.
+
+## (3) Claim 26
+
+Patent Owner contends “the ’087 specification lists cytarabine as an agent that may be used in combination treatment. (Ex. 1001 at 18:13–32.) Furthermore, the specification provides for the administration of agents like cytarabine. (Id. at 18:24–19:18; Ex. 2009 at ¶¶ 246–249.)” PO Resp. 57–58. Patent Owner contends “Petitioner is confusing the requirements of FDA approval with the requirements under § 112. ‘It is well established that a patent may be secured, and typically is secured, before the conclusion of clinical trials.’ In re Montgomery, 677 F.3d 1375, 1382 (Fed. Cir. 2012).” Id. at 58.
+
+## c. Evidence of record regarding Wands factors
+
+## (1) Breadth of Claims
+
+## Dr. Oleksowicz states:
+
+In my opinion, the claim puts no limit on the identity or stage of the cancer, on the patient, on the amount of any of the doses (other than that they escalate and that one is 100 mg), on the timing of any of the doses, or on the duration or endpoint of treatment.
+
+IPR2023-00052
+Patent 11,110,087 B2
+
+Ex. 1020 ¶ 185.
+
+## Dr. Sharman states:
+
+The specification teaches treating lymphomas and leukemias, which coupled with the state of the art knowledge on the use of Bcl-2 specific inhibitors for the treatment of lymphomas and leukemias would enable a person of ordinary skill in the art to conduct the recited methods of treatment in claim 19 in accordance with the inventors' definition of “treating” and “method of treating.”
+
+Ex. 2009 ¶ 232. Dr. Sharman states “a person of ordinary skill in the art would have understood that the dose escalations are confined by the doses and dose ranges expressly set forth, e.g., in column 24 of the specification, for the treatment of lymphoma or leukemia.” Id. ¶ 233.
+
+The '087 patent states:
+
+GDC-0199 is administered in fewer than all of the days of the initial dosing cycle, and is administered each day of the dosing cycles of the multiple dosing cycles that follow the dosing cycle. The amount of GDC-0199 administered per day can be between about 10 mg to about 1,000 mg, about 20 mg to about 800 mg, about 20 mg to about 500 mg, or between about 50 mg to about 300 mg.
+
+Ex. 1001, 4:30–37.
+
+We find a preponderance of the evidence shows the claims have a breadth, when read in light of the '087 patent specification, that is drawn to treatment of lymphomas and leukemias with a particular drug, GDC-0199, with at least one particular disclosed drug dose.
+
+## (2) Skill in the Art
+
+We already address this factor above and both parties agreed that the level of skill in the art was very high, with the artisan possessing advanced degrees in medicine or related fields and experience in oncology and clinical trials. See, e.g., Pet. 15–16, PO Sur-Reply 3.
+
+## (3) Working Examples
+
+## Dr. Oleksowicz states that
+
+the common specification lacks a single working example that falls within the claim's scope. Example 2, for instance (the only escalating-dose example), is merely a hypothetical future trial or research plan. Ex. 1001, 25:60-26:33, Figs. 2-3. The fact that this is framed [as] a trial conveys that it was not clear if it would work. I also do not think Example 2 falls within the claim's scope because, as explained below, the claim is to a monotherapy and requires a treatment for both leukemia and lymphoma.
+
+## Ex. 1020 ¶ 188.
+
+Dr. Sharman states “Example 2 is a clinical trial protocol detailing the administration of GDC-0199 (see, e.g., Ex. 1001 at 23:61–64, 24:24–29, Fig. 2).” Ex. 2009 ¶ 236. Dr. Sharman states “[w]ith respect to the presence or absence of working examples, I have described . . . how the specification includes four examples teaching the effectiveness of GDC-0199 alone.” Id. ¶ 255.
+
+Example 1 of the '087 Specification disclosed that in “a non-Hodgkin’s lymphoma (NHL) xenograft model of aggressive lymphoma . . . GDC-0199 was administered at 100 mg/kg QD for 21 days and also demonstrated stasis followed by tumor growth delay.” Ex. 1001, 25:28–35. Example 3 of the '087 Specification disclosed that animals were inoculated with a mantle cell lymphoma line and treated with GDC-0199 at a dosage of 100 mg/kg, with tumor growth inhibition of 59% in animals given GDC-0199 alone. See Ex. 1001, 26:35–27:25. Example 4 of the '087 Specification disclosed that in a diffuse large B-cell lymphoma (DLBCL) model, after
+
+combination treatment with GDC-0199 and GA101, treatment continued “with GDC-0199 alone at 100 mg/kg for an additional 24 days. [The GDC-0199 treatment] resulted in a significant delay in tumor regrowth when compared to mice treated with the combination of GA101 and GDC-0199 over a 21 day period.” Ex. 1001, 28:4–8.
+
+We find that a preponderance of the evidence shows that the '087 patent contains multiple working examples showing that treatment of lymphomas in animal models with GDC-0199 results in reduced tumor growth. We appreciate that the claims are limited to treatment of human patients, but demonstrating efficacy in animal models recognized in the art to be correlated to human disease is routine practice prior to human administration. Accord In re '318 Patent Infringement Litigation, 583 F.3d 1317, 1324–25 (Fed. Cir. 2009) (noting that in vitro and/or in vivo non-human animal test results that are reasonably correlated to in vivo therapeutic activity in humans may be used in establishing the how to use prong of enablement). “Usefulness in patent law, and in particular in the context of pharmaceutical inventions, necessarily includes the expectation of further research and development. The stage at which an invention in this field becomes useful is well before it is ready to be administered to humans.” In re Brana, 51 F.3d 1560, 1568 (Fed. Cir. 1995); see also In re '318 Patent Infringement Litigation, 583 F.3d at 1323 (noting that utility and enablement are closely related.
+
+## (4) Amount of direction or guidance presented Dr. Oleksowicz states
+
+the common specification is silent on TLS [tumor lysis syndrome]. Nothing in the specification suggest that escalating doses of GDC-0199 would attenuate TLS. Nothing suggests
+
+that escalating doses of GDC-0199 within the claims' scope would attenuate TLS either. The rate of dose escalation, starting dose, and other factors the specification does not explain could matter. And later work by scientists showed that not every escalating dose would mitigate TLS.
+
+Ex. 1020 ¶ 190.
+
+Dr. Sharman states “[t]he ’087 patent discloses methods for treating a patient suffering from blood cancers, such as the recited lymphoma or leukemia, via administration of GDC-0199, which is a selective Bcl-2 inhibitor.” Ex. 2009 ¶ 50. Dr. Sharman states “the specification defines ‘selective Bcl-2 inhibitors’ to specifically refer to GDC-0199.” Id. ¶ 52 (citing Ex. 1001, 14:27–67). Dr. Sharman cites the ’087 patent’s disclosure of “an escalating dosing cycle in which GDC-0199 is administered to the patient in escalating daily dose amounts during the escalating dosing cycle.” Id. ¶ 70 (quoting Ex. 1001, 4:56–61). Dr. Sharman states a “person of ordinary skill in the art would have been aware of the concept of dose escalation methods in early phase cancer clinical trials as one option for administering a drug.” Id. ¶ 76. Dr. Sharman cites the ’087 patent as teaching “the amount of GDC-0199 administered to the patient per dose is increased during the first dosing cycle from initial amounts of between 10 mg to 80 mg to final amounts of between 190 mg to 400 mg.” Id. ¶ 75 (citing Ex. 1001, 24:17–21). Dr. Sharman also cites the ’087 patent as teaching “dose amounts of 100 mg, 200 mg, 300 mg or more of GDC-0199.” Id. (citing Ex. 1001, 24:24–29.)
+
+We find that a preponderance of the evidence shows that the '087 patent provides significant guidance on specific dosages and dosing cycles of GDC-0199 that may be used to treat blood cancers.
+
+## (5) State of the prior art and the unpredictability in the art
+
+Dr. Oleksowicz states: “I have considered the skill of a POSA and the state of the art, but they do not suggest to me that a POSA would be enabled by the common specification to practice the full scope of claim 19 without undue experimentation.” Ex. 1020 ¶ 194.
+
+Dr. Sharman states: “In my opinion, a person of ordinary skill in the art would have been apprised of the prior art literature regarding dose schedules and dose frequencies (i.e., increments), and would have further possessed some ability to interpret and rationalize disclosures related to dose escalations.” Ex. 2009 ¶ 30. Dr. Sharman also states a “person of ordinary skill in the art would additionally have been aware of the effectiveness of Bcl-2 inhibitors in the treatment of lymphomas and leukemias, and based on that premise, would similarly expect effectiveness of GDC-0199 in the same lymphomas leukemias.” Id. ¶¶ 182–184 (citing Exs. 2019, 2021 2022, 2023, 2030, 2031, 2032, each asserted as showing Bcl-2 inhibitor treatment of lymphoma or leukemia).
+
+We find that a preponderance of the evidence shows that while there is some degree of unpredictability in using the doses recited in the '087 patent for treatment of blood cancers with GDC-0199, there is evidence that Bcl-2 inhibitors such as GDC-0199 were known to be expected to have some efficacy in the treatment of blood cancers.
+
+## (6) Quantity of Experimentation
+
+## Dr. Oleksowicz states
+
+my view is that any experimentation on cancer patients is not simply routine, but is onerous and costly (both in terms of money/time and patient lifespan). The necessary trial-and-error to reach any dosage regimen that Patent Owner did not
+
+disclose creates a risk to the patients who are the subject of the experiment. Likewise, for any given patient, there is limited time available to experiment, and choosing one dosage regimen means forgoing another that might have worked better.
+
+## Ex. 1020 ¶ 193.
+
+We find that a preponderance of the evidence shows that the quantity of experimentation necessary for effective treatment of humans is high with significant research required.
+
+## d. Analysis
+
+Considering the Wands factors as a whole, we find that the limited breadth of the claims, presence of several working examples, significant amount of direction and guidance provided by the '087 patent, predictability in treating blood cancers with Bcl-2 inhibitors like GDC-0199, and high level of skill in the art are balanced against a large quantity of experimentation. Based on our consideration of the entirety of the evidence, we find that a preponderance of the evidence supports the conclusion that undue experimentation would not have been required to make and use the invention commensurate in scope with the claims of the '087 patent.
+
+One underlying theme of Petitioner's contentions and Petitioner's expert testimony is the repeated contention that clinical trials were not completed by Patent Owner. See, e.g., Pet. 48 (“venetoclax (GDC-0199) was not FDA-approved”); Ex. 1020 ¶ 193. We find these arguments unpersuasive as we agree with Patent Owner that “[i]t is well established that a patent may be secured, and typically is secured, before the conclusion of clinical trials.” In re Montgomery, 67 F.3d 1375, 1382 (Fed. Cir. 2012).
+
+Particularly as to the dependent claims, a preponderance of the evidence of record does not support a finding that undue experimentation would have been required to administer three different doses of GDC-0199 starting with 100 mg, to use multiple daily dosing cycles of one day, to continue until disease progression occurs, or to combine with other treatment compounds. We find that a preponderance of the evidence does not support Petitioner's position that any of the dependent claims fail to comply with the enablement requirement.
+
+## 2. Written description
+
+The anticipation challenge of Ground 1 is predicated on whether the claims at issue receive the benefit of priority to the original Specification—which in turn also requires us to consider whether the challenged claims find adequate written descriptive support in the priority document. Where the effective filing date of a claim is an issue in a § 102 analysis, courts have considered whether the priority document provides descriptive support for the claim. See, e.g., Lockwood v. Am. Airlines, Inc., 107 F.3d 1565, 1571 (Fed. Cir. 1997); Arthrex, Inc. v. Smith & Nephew, Inc., 35 F.4th 1328, 1343 (Fed. Cir. 2022).
+
+## a. Petitioner's position
+
+Petitioner contends that the “independent claims lack written-description support for two reasons: (1) the specification does not provide adequate guidance to pick and choose various laundry-listed elements to reach the claimed dosing regimens, and (2) the specification does not describe a GDC-0199 monotherapy at all.” Pet. 31. Petitioner contends, regarding the nonprovisional priority application, that “claims are not found in a single embodiment or example from an asserted priority document." Pet. 31.
+
+## Petitioner contends that
+
+no example or embodiment discloses the claim limitations. The mention of escalating doses is brief. See Ex. 1001, 24:3-36. The description quickly mentions Figure 2. Id. at 24:6-10. Then, after explaining that the GDC-0199 doses are used specifically “prior to” or “after” antibody administration, see id. at 24:11-16, the description lists a scattered array of doses, see id. at 24:17-29. And as in the provisional, general aspects of the dosing regimen (e.g., dose amount and timing) are recited in laundry-list fashion in sections of the description devoted only to combination therapy or specific cancers like NHL and AML.
+
+Pet. 33. Petitioner contends the “specification provides no ‘guidance’ on how or why one would pick these doses, in this order, for these time periods, in the absence of an antibody to fight an antibody-prone cancer. Ex. 1020 ¶¶ 106-08, 147-48, 204.” Pet 35. Petitioner contends that:
+
+During prosecution, Patent Owner argued that the escalating dosing regimen was critical to avoid toxicity. See Ex. 1013, 71-73. But the specification provides no insight into what timing or dose sizes reach that result—or that such a problem even exists, much less its solution. Ex. 1020 ¶¶ 58, 190. And later clinical trials demonstrated that some dosing regimens would not avoid that toxicity. Ex. 1020 ¶¶ 113, 191. Still, even if a skilled artisan could fill in the blanks, “a description that merely renders the invention obvious does not satisfy the requirement.” Ariad, 598 F.3d at 1352.
+
+Pet. 35. Petitioner contends “[b]oth ICU Medical and Gentry Gallery parallel this case. The disclosure, through its title, summary, descriptions, and examples, covers only combination therapy: there is no description of an ‘antibody-less’ method of treatment.” Pet. 37.
+
+Petitioner separately contends, regarding dependent claims, that “[b]ecause the limitations of independent claims 1, 9, and 19 are not described in the provisional application, their corresponding dependent claims are also not supported.” Pet. 40. Petitioner contends that “[c]claims 4, 14, and 25 require that dosing “is continued until disease progression,” but this limitation is independently not disclosed in a priority document in any sense, much less in combination with the limitations of claims 1, 9, or 19.”
+
+## Pet. 40. Petition contends that
+
+Claims 2, 12, and 23 require that each “dosing cycle” is “one day”— that is, a day-by-day dose ramp-up. Example 2 and Figures 2-3 do not describe daily ramp-up doses but rather weekly dosing cycles. See Ex. 1001, 25:66-26:5, Figs. 2-3; Ex. 1007, [0116]-[0121], Figs. 2-3. Claims 11 and 22, requiring a “different dose … once daily,” suffer the same nondisclosure problem, as do claim 8 (requiring a specific day-by-day ramp-up from 100 to 200 to 400 mg) and claim 18 (requiring daily ramp-up).
+
+Pet. 40. Petitioner contends “[c]laim 21 requires that 100 mg be the ‘starting dose’ among ‘three differing doses,’ but Example 2 and Figures 2-3 depict no such starting dose. See Ex. 1001, 25:66-26:5, Figs. 2-3.” Pet. 41. Petitioner contends “[c]laim 26 requires co-administration ‘with cytarabine,’ but no such example exists. But cytarabine is merely listed among a laundry list of ‘other’ agents that ‘may be used in’ the ‘combination treatment.’” Ex. 1001, 18:13-62; Ex. 1007, [0078]-[0079].” Pet. 41.
+
+## b. Patent Owner's position Patent Owner contends:
+
+The specification clearly identifies that the present invention relates to methods of treating lymphomas and leukemias with GDC-0199. (See generally Ex. 2009 at ¶¶ 114-164.) As described in Section III.A.1., the '087 specification describes treating leukemias and lymphomas such as NHL (Ex. 1001 at 6:65-7:12, 15:37-39, 15:60-61), AML (id. at 7:13-28, 15:58), CLL/SLL (id. at 15:54-55, 15:64, 16:4-11, Example 2), and ALL (id. at 15:63). (Ex. 2009 at ¶¶ 118-156.) Furthermore, the specification provides and incorporates examples detailing the treatment of lymphomas or leukemias with GDC-0199, including treating NHL in Example 1, CLL in Example 2, MCL in Example 3, and ALL through the disclosures in Bruncko '122. (See supra Section III.A.1.) There are numerous disclosures in the specification of the '087 patent that would have taught a POSA how to treat lymphomas or leukemias with GDC-0199. (See Ex. 2009 at ¶¶ 176-181.).
+
+PO Resp. 24. Patent Owner contends “a POSA would have understood that a Bcl-2 inhibitor, such as GDC-0199, could be used in the treatment of leukemia or lymphoma. (Id.; see also Ex. 2009 at ¶¶ 182-186.) The ’087 patent explicitly discloses that Bcl-2 inhibitors were known to be promising treatments for various lymphomas and leukemias.” Id. at 24–25.
+
+Patent Owner contends:
+
+The '087 specification discloses treatments with GDC-0199 in which “amounts of GDC-0199 per dose administered to the patient are increased during a first dosing cycle.” (Ex. 1001 at 24:3-6 (emphasis added).
+
+PO Resp. 25. Patent Owner contends “the specification of the ’087 patent discloses the dosages claimed in the ’087 patent, including 100 mg, 200 mg, and/or 400 mg. The framework for utilizing these recited dosages is explicitly provided within the specification.” Id. at 27. Patent Owner cites the ’087 patent, stating “column 24 recites dosing with 100 mg, 200 mg, and 400 mg of GDC-0199. Based on the disclosures in the specification, it is clear that the doses recited in column 24, specifically lines 17-29, should be used in conjunction with the general scheme depicted in Figure 2.” Id. at 28.
+
+Patent Owner contends a POSA would have understood the goal of a dose escalation would be to safely escalate dosing while attempting to reach the target dose as quickly as possible due to the nature of the disease at issue, e.g., lymphoma or leukemia." PO Resp. 28–29.
+
+Patent Owner contends, regarding the dependent claims, that “a POSA would have recognized that, as recited in claims 10, 11, 20, and 22, the ’087 specification expressly teaches administering GDC-0199 once per day in three escalating and differing doses. (Ex. 1001 at 4:56-61[])”. PO Resp. 39–40. Patent Owner contends:
+
+The '087 specification provides written description support for claims 2, 3, 8, 12, 13, 18, 23, and 24, which add limitations related to daily ramp-up. Claims 2, 12 and 23 require that “each dosing cycle is one day.” (Ex. 1001 at 35:35-36, 36:26-27, 36:60-61.) Claims 3, 13 and 24 claim that “a starting dose of the escalating doses is administered for one dosing cycle and an ending dose of the escalating doses is administered in multiple dosing cycles.” (Id. at 35:37-40, 36:28-31, 36:62-65.) Claim 18 adds the limitation that the patient is administered “100 mg of GDC-0199 per day for one day, followed by 200 mg of GDC-0199 per day for one day.” (Id. at 36:42-44.) Claim 8 adds the same limitations as claim 18, and also adds that the 200 mg dose is followed “by a 400 mg dose of GDC-0199 per day.” (Id. at 35:51-54.)
+
+PO Resp. 41.
+
+Patent Owner contends “the plain language of the specification supports that GDC-0199 can be administered alone, without GA101.” PO
+
+## Resp. 44. Patent Owner contends:
+
+The specification even explicitly states that GDC-0199 may be given “alone.” (Ex. 1001 at 4:42-55 (“[W]hen GDC-0199 is administered alone to the human.”) (emphasis added), 23:39-40, 23:60-63.) Furthermore, the specification contemplates the administration of only GDC-0199, including sometimes before or after treatment with GA101. (Id. at 23:34-36, 24:11-16, 24:30-33, FIG. 2; Ex. 2026 at 81:5-10.) For at least these reasons, the '087 specification discloses the use of GDC-0199 alone.
+
+Id. at 45. Patent Owner contends “the Examples in the specification of the ’087 patent also show GDC-0199 administered alone. For example, Examples 1, 3, and 4 demonstrate administration of GDC-0199 alone possesses independent biological activity. (Ex. 1001 at Examples 1, 3, and 4, FIGs. 1, 4, and 5; Ex. 2009 at ¶¶ 209-217.)” Id.
+
+Patent Owner contends, regarding the “until disease progression” limitation in claims 4, 14, and 25, that
+
+a POSA would have recognized that GDC-0199 alone is effective to inhibit tumor progression. A POSA would have further understood that GDC-0199 monotherapy treatment should be discontinued if these effects are not observed. (See, e.g., Ex. 1001 at 26:25-33; Ex. 2009 at ¶ 191; Ex. 2026 at 104:9-23.) This stoppage was contemplated in Example 2, which states “GDC-0199 monotherapy may be continued . . . if they have acceptable toxicity . . . [and] are having continued improvement/reduction in tumor burden.” (Ex. 1001 at 26:25-30.)
+
+PO Resp. 48.
+
+Patent Owner contends, as to the coadministration with cytarabine limitation in claim 26 that
+
+the '087 specification states that “[i]n the context of this invention, additional other cytotoxic, chemotherapeutic or anticancer agents . . . may be used in the type II anti-CD20 antibody and Bcl-2 inhibitor combination treatment of CD20 expressing cancer.” (Id. at 18:13-17.) The '087 specification states that “[s]uch agents include, for example: . . . cytarabine (Ara-C).” (Id. at 18:24-32.)
+
+PO Resp. 49–50.
+
+## 1. Analysis
+
+## a. Claims 1, 9, and 19
+
+The '087 patent teaches the requirements of claim 19 of treatment of leukemia or lymphoma, including chronic lymphocytic leukemia and small lymphocytic lymphoma (Ex. 1001, 15:63–64), by orally administering the Bcl-2 inhibitor (Ex. 1001, 16:49) GDC-0199 in an escalated dose series that comprise 100 mg per day during a second week (Ex. 1001, Figure 2).
+
+As to claims 1 and 9 the '087 patent, which require escalating GDC-0199 doses that comprise 100 mg, 200 mg, and for claim 1, 400 mg, the '087 patent teaches "dose amounts of 100 mg, 200mg, 300 mg or more of GDC-0199." Ex. 1001, 24:28–29. In that same paragraph, the '087 patent recites only one specific dose value for "or more of GDC-0199" which is 400 mg. See Id. at 24:21. $^{3}$
+
+We find that a preponderance of the evidence demonstrates Petitioner has not established that independent claims 1, 9, and 19 should not be entitled to benefit of priority to the '087 or earlier priority Specifications prior to the publication of the November 2018 Venclexta label. That is, claims 1, 9, and 19 are entitled to a priority date before November 2018.
+
+We are not persuaded by Petitioner's first argument relating to a lack of adequate guidance as the specification requires “picking and choosing” to identify the dose amounts of GDC-0199 because the single paragraph in column 24 of the ’087 patent identifies the particular dose series of 100 mg, 200 mg, or “more”, and where 400 mg was the only option recited in the
+
+paragraph as “more.” See Ex. 1001, 24:21–29. In addition, we are not persuaded by Petitioner’s attempt to cabin the reasoning of Rai Strategic Holdings, Inc. v. Philip Morris Products S.A., 92 F.4th 1085 (Fed. Cir. 2024) as “inapposite. RAI involved bounded ranges and the question of whether a claim reciting a closed narrow range of percentages could be supported by a description of other broader ranges of percentages.” Pet. Second Suppl. Brief at 1.
+
+## Rai states:
+
+Some background discussion of our precedent on written description support for range claims is helpful. In In re Wertheim, our predecessor court held that a set of claims that recited a narrower claimed range than the range specified in the specification had written description support. 541 F.2d257, 264–65 (C.C.P.A. 1976). . . . The claims at issue related to a process for making freeze-dried instant coffee and required the solids content of the concentrated coffee extract to be “between 35% and 60%” (claims 2, 4, 37, and 38). Id. at 261–62. The specification disclosed a broader solids content range of 25% to 60% and provided examples of specific embodiments with solid contents of 36% or 50%. Id. at 262.
+
+The Wertheim court explained that in determining whether the written description requirement is met, “[m]ere comparison of ranges is not enough,” and that instead, “we must decide whether the invention appellants seek to protect by their claims is part of the invention that appellants have described as theirs in the specification.” Id. at 263.... Ultimately, the court disagreed with the Board that the narrower claimed range of “between 35% and 60%” lacked written description support because that limitation was “within the described broad range of 25% to 60%” and “there [was] no evidence ... that there [was] ... any distinction ... between the claimed lower limit of solids \*1089 content and that disclosed in the Swiss application.” Id. at 264.
+
+Rai, 92 F.4th at 1088–89. Rai then describes the situation at issue as whether the specification of the “patent provides written description support for a
+
+heating member with ‘a length of about 75% to about 85% of a length of the disposable aerosol forming substance’ as required by the claims.” Id. at 1090. Based on a specification that does expressly disclose both endpoints and where “nothing in the specification indicates that changing the length of the heating member changes the invention, whether as to operability, effectiveness, or any other parameter,” Rai concluded that “there is no evidence that the claimed subrange results in a different invention than the invention disclosed in the specification.” Id. at 1090–91.
+
+Applying Rai and Wertheim to the instant facts, we agree with Patent Owner that, factually and legally, in the '087 patent "the claimed dosages of 100 mg, 200 mg, and/or 400 mg of GDC-0199 are adequately supported." PO Second Suppl. Brief 2 (citing PO Resp. 11, 27–29; PO Sur-reply 19, 21–22; Ex. 1001, 24:20–29.) In particular, the '087 patent describes all three specific dosage values 100 mg, 200 mg, and 400 mg in the context of an escalating drug dosage series and Petitioner points to no persuasive statements in the specification that dispute either the effectiveness or the operability of GDC-0199 at any of these dosages.
+
+We recognize, but find unpersuasive, Petitioner's reliance on Indivior UK Ltd. v. Dr. Reddy's Laboratories, 18 F.4th 1323, 1325 (Fed. Cir. 2021) to broadly paint the invention of the '087 patent as unpredictable. See Pet. Second Suppl. Brief at 1–2. Indivior dealt with a situation where neither endpoints of a range of 40% to 60% were recited in the patent and there were inconsistent statements regarding functional values. See id. at 1328–29. Indeed, Indivior noted that “the range was not expressly claimed in the [] application; if it had been, that could have constituted written description
+
+support." Id. at 1328. Here, the specific dosages were expressly recited together in the '087 patent. See Ex. 1001, 24:20–29.
+
+And also unlike Indivior, this is not a situation where the dosages recited in claims 1, 9, and 19 “amounts to cobbling together numbers after the fact.” Indivior, 18 F.4th at 1329. Column 24 of the ’087 patent teaches “dose amounts of 100 mg, 200mg, 300 mg or more of GDC-0199.” Ex. 1001, 24:28–29. In that same paragraph, the ’087 patent recites only one specific dose value for “or more of GDC-0199” which is 400 mg. See id. at 24:21. This is express disclosure to use the dosages recited in claims 1, 9, and 19, not cobbling together.
+
+We also recognize, but find unpersuasive, Petitioner's assertion that because the dose regimen affects efficacy, the disclosure of particular doses in the '087 patent is insufficient for written descriptive purposes. See Pet. Second Suppl. Brief at 2. This argument goes to enablement more than description, and as we have already noted “[i]t is well established that a patent may be secured, and typically is secured, before the conclusion of clinical trials.” In re Montgomery, 67 F.3d 1375, 1382 (Fed. Cir. 2012). The '087 expressly recognizes the well known fact that “the actual dosage will depend upon the judgment of the physician, the condition of the patient, and the effectiveness of the therapeutic method.” Ex. 1001, 19:13–16. But unlike Indivior, the particular dosages for GDC-0199 recited in the claims find express support in the '087 patent and there were several animal studies showing that dosages of GDC-0199 effectively reduced tumor growth as desired. See, e.g., id. at 25:33–35, Figs. 4 and 5 that show GDC-0199 alone reduced tumor growth relative to control. Thus, ordinary physician would
+
+have reasonably expected some degree of efficacy for the recited dosages based on the disclosures in the '087 patent.
+
+We also recognize Petitioner's assertion that “the ’087 specification does not provide adequate guidance for several reasons: (1) it does not teach which combinations would work or mitigate TLS; (2) it does not say how escalation works or why to do it; and (3) it does not disclose which escalations are the invention”, but find that argument unpersuasive. Pet. Second Suppl. Brief at 3.
+
+As to points (1) and (2), the '087 patent explains that "the dose-finding stage will evaluate whether the administration of GDC-0199 . . . will result in a lower incidence of infusion reactions." Ex. 1001, 26:5–8. Therefore, the '087 patent provides guidance as to why dose escalation is performed with GDC-0199. Dr. Oleksowicz notes that a physician would recognize regarding escalating doses that
+
+It’s giving a subtherapeutic dose, the purpose of which is to initiate a low level of tumor lysis syndrome, a very low level of tumor necrosis, tumor lysis such that the toxins released from the tumor do not overwhelm the kidney or cause a cardiac arrhythmia, which would happen if you gave a large dose.
+
+Ex. 2026, 94:6–12. We also note that none of the claims recite any requirement to treat tumor lysis syndrome (TLS) and therefore this argument is not consistent with the claim limitations.
+
+As to point (3), the disclosure of “dose amounts of 100 mg, 200 mg, 300 mg or more of GDC-0199” along with the disclosure of a 400 mg dose in the same paragraph reasonably discloses these dose escalations as the invention. See Ex. 1001, 24:28–29.
+
+We find Petitioner's argument purporting to limit the disclosure of the '087 patent to combination therapies directly inconsistent with the plain text in the '087 patent. The '087 patent recognizes "GDC-0199 alone can be administered to the human in the absence of the GA101 antibody, or the GA101 antibody alone can be administered to the patient in the absence of GDC-0199." Ex. 1001, 4:46–49. That the '087 patent teaches alternatives of administering a GA101 antibody and/or GDC-0199 in multiple dosing cycles demonstrates possession by the '087 patent of three alternative treatments: GA101 antibody and GDC-0199 together; GA101 antibody alone; and GDC-0199 alone. Id. at 4:10–17.
+
+We find that claims 1, 9, and 19 encompass therapies with either GDC-0199 alone or in combination with the GA101 antibody because each of these claims uses the transitional term “comprising” that is “inclusive or open-ended and does not exclude additional, unrecited elements or method steps.” Georgia-Pacific Corp. v. US. Gypsum Co., 195 F.3d 1322, 1327 (Fed. Cir. 1999). Claims 1, 9, and 19 therefore do not exclude combination treatment with the GA101 antibody in addition to the recited dose escalation with GDC-0199, although combination treatment is not required by these claims.
+
+Petitioner does not persuade us that Figure 2 of the '087 patent alone fails to demonstrate benefit of priority for the invention of claims 1, 9, and 19. Rather, Figure 2 of the '087 patent exemplifies administration of GDC-0199 alone to chronic lymphocytic leukemia patients in escalating doses with 50 mg per day during a first week and 100 mg per day during a second week as required by claim 19 of the '087 patent. Ex. 1001, Figure 2; Ex. 1001, 26:67–27:1. That further therapeutic interventions may be performed are irrelevant. For purposes of claiming benefit of priority, claims 1, 9, and 19 need not include every embodiment in the disclosure of the '087 patent so long as there is clear written description and enablement of the claimed invention. “That claims are interpreted in light of the specification does not mean that everything expressed in the specification must be read into all the claims.” Raytheon Co. v. Roper Corp., 724 F.2d 951, 957 (Fed. Cir. 1983). We therefore do not read the combination therapy into claims 1, 9, and 19 when the ’087 patent suggests that GDC-0199 alone may be administered for some period of time. Ex. 1001, Figure 2.
+
+Indeed, “[e]ven when the specification describes only a single embodiment, the claims of the patent will not be read restrictively unless the patentee has demonstrated a clear intention to limit the claim scope using ‘words or expressions of manifest exclusion or restriction.’” Liebel-Flarsheim Co. v. Medrad, Inc., 358 F.3d 898, 906 (Fed. Cir. 2004) (quoting Teleflex, Inc. v. Ficosa N. Am. Corp., 299 F.3d 1313, 1327 (Fed. Cir. 2002))). Here, Petitioner has identified no clear intention in the ’087 patent or in the ’087 patent prosecution that suggests limiting claims 1, 9, and 19 to combination therapy. As the evidence shows, the ’087 patent expressly suggests “administering to said human a GA101 antibody and/or GDC-0199 in multiple dosing cycles.” Ex. 1001, 4:12–17. The ’087 patent teaches “GDC-0199 alone can be administered to the human in the absence of the GA101 antibody.” Ex. 1001, 4:46–48.
+
+We are not persuaded that Petitioner's cited case law supports its written description position on claims 1, 9, and 19 either. As Petitioner notes, the issue in Gentry Gallery was that “the specification itself only described sofas ‘having controls on the console.’” Pet. 37; citing Gentry Gallery, Inc. v. Berkline Corp., 134 F.3d 1473, 1478–79 (Fed. Cir. 1998). However, the ’087 patent does not limit the treatment method to a single embodiment, but expressly recognizes “GDC-0199 alone can be administered to the human in the absence of the GA101 antibody.” Ex. 1001, 4:45–49. Thus, the instant fact pattern differs from Gentry Gallery because here there is specific disclosure of the administration of “dose amounts of 100 mg, 200mg, 300 mg or more of GDC-0199” along with the disclosure of a 400 mg dose in the same paragraph reasonably discloses these dose escalations as the invention. See id. at 24:28–29.
+
+We also find Petitioner's reliance on ICU Medical unavailing as there “the specification describes only medical valves with spikes.” ICU Medical, Inc. v. Alaris Medical Systems, Inc., 558 F.3d 1368, 1378 (Fed. Cir. 2009). The ’087 patent expressly describes that “GDC-0199 alone can be administered to the human in the absence of the GA101 antibody.” Ex. 1001, 4:45–49. Moreover, the ’087 patent exemplifies a situation where for three weeks GDC-0199 is administered alone. Ex. 1001, 26:25–33.
+
+Accordingly, we find that on the current record Petitioner has not persuasively shown that claims 1, 9, and 19 fail to comply with the written description requirement.
+
+## b. Claims 4, 14, and 25
+
+We find that a preponderance of the evidence demonstrates Petitioner has not established that dependent claims 4, 14, and 25 of the '087 patent should not be entitled to benefit of priority to the '087 or earlier priority Specifications prior to the publication of the November 2018 Venclexta label. That is, claims 4, 14, and 25 are entitled to a priority date prior to November 2018.
+
+Claims 4, 14, and 25 include the additional limitation that the “method is continued until disease progression.” The ’087 patent teaches
+
+GDC-0199 monotherapy may be continued in patients beyond 6-7 cycles of combination treatment described above (e.g., if they have acceptable toxicity and have not yet achieved maximal clinical response (i.e., are having continued improvement/reduction in tumor burden that has not yet stabilized for at least 2 months)). Such patients may continue GDC-0199 monotherapy until they have achieved maximal response.
+
+Ex. 1001, 26:25–32.
+
+The Court has explained that “an ipsis verbis disclosure of a claimed subgenus is not necessary to satisfy the written description requirement of § 112.” Regents of the Univ. of Minn. v. Gilead Scis., Inc., 61 F.4th 1350, 1357 (Fed. Cir. 2023). Rather, “the disclosure need only reasonably convey to persons skilled in the art that the inventor had possession of the subject matter in question.” Fujikawa v. Wattanasin, 93 F.3d 1559, 1570 (Fed. Cir. 1996).
+
+Having considered Petitioner's and Patent Owner's positions in light of controlling precedent such as Regents and Fujikawa, we are not persuaded by Petitioner's contention that the language in the '087 patent "refers only to stopping after a fixed period or continuing if various conditions permit—not stopping at the point of 'disease progression' as claimed." Pet. Reply 25. Rather, we find the statements in the '087 patent to continue treatment with GDC-0199 monotherapy until maximal response has occurred or continued improvement in tumor burden to be equivalent to continuing until the treatment is no longer effective as shown by disease progression. This understanding is consistent with Dr. Oleksowicz' statement that "[d]isease progression clinically means the patient is no longer responding to the therapy which they are being given." Ex. 2009, 99:10–12. We also credit Dr. Sharman's statement that:
+
+In my opinion, a person of ordinary skill in the art would have understood the meaning of this term, as it would have frequently appeared in lymphoma studies. It was known to a person of ordinary skill in the art that one normally treats a patient while it provides benefits, and to maximal response. This concept is expressly provided in the specification of the '087 patent, which describes how patients may be treated until achieving maximum clinical response.
+
+## Ex. 2009 ¶ 188.
+
+Accordingly, we find that on the current record Petitioner has not persuasively shown that claims 4, 14, and 25 fail to comply with the written description requirement.
+
+## c. Claims 2, 3, 8, 10–13, 18, and 20–24
+
+We find that a preponderance of the evidence demonstrates Petitioner has not established that dependent claims 2, 3, 8, 10–13, 18, and 20–24 of the '087 patent should not be entitled to benefit of priority to the '087 or earlier priority Specifications prior to the publication of the November 2018 Venclexta label. That is, claims 2, 3, 8, 10–13, 18, and 20–24 are entitled to a priority before November 2018.
+
+Claims 2, 3, 8, 10–13, 18, and 20–24 are drawn to dosing cycles of one day, to multiple dosing cycles, and to the use of two or three different doses including 100 mg, 200 mg, and 400 mg of GDC-0199.
+
+Petitioner does not specifically address claims 3, 10, 13, 20, and 24. Petitioner asserts that claim 21 requires a 100 mg starting does but “Example 2 and Figures 2-3 depict no such starting dose.” Pet. 41. Petitioner contends that claims 2, 8, 11, 12, 18, 22, and 23 require a daily dose schedule but “Example 2 and Figures 2-3 do not describe daily ramp-up doses but rather weekly dosing cycles.” Pet. 40.
+
+## Patent Owner contends:
+
+The '087 specification provides written description support for claims 2, 3, 8, 12, 13, 18, 23, and 24, which add limitations related to daily ramp-up. Claims 2, 12 and 23 require that “each dosing cycle is one day.” (Ex. 1001 at 35:35-36, 36:26-27, 36:60-61.) Claims 3, 13 and 24 claim that “a starting dose of the escalating doses is administered for one dosing cycle and an ending dose of the escalating doses is administered in multiple dosing cycles.” (Id. at 35:37-40, 36:28-31, 36:62-65.) Claim 18 adds the limitation that the patient is administered “100 mg of GDC-0199 per day for one day, followed by 200 mg of GDC-0199 per day for one day.” (Id. at 36:42-44.) Claim 8 adds the same limitations as claim 18, and also adds that the 200 mg dose is followed “by a 400 mg dose of GDC-0199 per day.” (Id. at 35:51-54.)
+
+PO Resp. 41.
+
+As to claim 21, the '087 patent states “[i]n certain embodiments, the amount of GDC-0199 per dose administered to the patients begins with 50 mg or 100 mg.” Ex. 1001, 24:22–24. We find this to be an express teaching of a 100 mg starting dose, providing descriptive support for claim 21.
+
+As to the daily dosing requirement of claims 2, 8, 11, 12, 18, 22, and 23, the disclosure of the '087 patent is not limited to Example 2 and figures 2 and 3 as asserted by Petitioner, but rather encompasses the entire disclosure within the '087 patent. The '087 patent teaches that “[i]n certain embodiments of the methods of treatment provided herein, GDC-0199 is administered once per day of a dosing cycle.” Ex. 1001, 23:34–36. The '087 patent also states that a “dosing cycle is usually about 1, 2, . . . or 30 days.” Id. at 16:66–17:1. Finally, the '087 patent notes that “where GDC-0199 alone is administered to the patient following combination therapy, GDC-0199 can, for example, be administered once a day, once every other day,
+
+once every three days, four, five or six days, or once a week, to the patient." Id. at 23:60–64.
+
+Dr. Sharman finds, based on these details in the '087 patent, that a "person of ordinary skill in the art in my opinion would also have recognized that each dose amount in the dose escalation could be effectively administered once per day for one day before stepping up to the next dose on the following day." Ex. 2009 ¶ 173. And while Dr. Oleksowicz asserts "in my experience it is impossible for a 'dosing cycle' in the treatment of cancer to last only 'one day,'" Dr. Oleksowicz tellingly does not assert that this treatment is not described in the '087 patent. See, e.g., Ex. 1020 ¶ 121. Rather, Dr. Oleksowicz states the particular examples do not use these dosing regimens. See, e.g., id. ¶ 122. At most, Dr. Oleksowicz states that, for example, there is disclosure of "dosing periods or cycles only in lengthy lists without other guidance." Id. ¶ 107.
+
+We credit Dr. Sharman and conclude that a preponderance of the evidence supports finding that each of these claims is described by the '087 patent. Accordingly, we find that on the current record Petitioner has not persuasively shown that claims 2, 3, 8, 10–13, 18, and 20–24 fail to comply with the written description requirement.
+
+## d. Claim 26
+
+We find that a preponderance of the evidence demonstrates Petitioner has not established that dependent claim 26 of the '087 patent should not be entitled to benefit of priority to the '087 or earlier priority Specifications prior to the publication of the November 2018 Venclexta label. That is, claim 26 is entitled to a priority date before November 2018.
+
+Claim 26 is drawn combination treatment with GDC-0199 and cytarabine. Ex. 1001, 37:1–2.
+
+Petitioner contends “Claim 26 requires co-administration ‘with cytarabine,’ but no such example exists. But cytarabine is merely listed among a laundry list of ‘other’ agents that ‘may be used in’ the ‘combination treatment.’” Pet. 41 (citing Ex. 1001, 18:13-62; Ex. 1007, [0078]-[0079]). Petitioner contends “the full scope of claim 26 includes administering just two: GDC-0199 and cytarabine. Yet it provides no description, much less guidance, on how one would administer a GDC-0199-and-cytarabine treatment omitting the antibody component.” Id. (citing Ex. 1020 ¶¶ 136-41, 166-69).
+
+## Patent Owner contends
+
+the '087 specification states that “[i]n the context of this invention, additional other cytotoxic, chemotherapeutic or anti-cancer agents . . . may be used in the type II anti-CD20 antibody and Bcl-2 inhibitor combination treatment of CD20 expressing cancer.” (Id. at 18:13-17.) The '087 specification states that “[s]uch agents include, for example: . . . cytarabine (Ara-C).” (Id. at 18:24-32.) . . . Cytarabine has been a standard of care for AML patients since 1970s and, as such, a POSA would have a vast knowledge concerning the use of cytarabine in oncology treatments and would have known how to administer a combination treatment of GDC-0199 and cytarabine. (Ex. 2025 at 569; Ex. 2009 at ¶¶ 196-197; Ex. 2026 at 105:12-107:16.
+
+## PO Resp. 50.
+
+We find unpersuasive Petitioner's contentions regarding the absence of working examples in the '087 patent regarding the use of cytarabine. "We have made clear that the written description requirement does not demand either examples or an actual reduction to practice; a constructive reduction to practice that in a definite way identifies the claimed invention can satisfy the written description requirement." Ariad Pharms., Inc. v. Eli Lilly & Co., 598 F.3d 1336, 1351 (Fed. Cir. 2010) (en banc).
+
+Dr. Oleksowicz states:
+
+The '379 provisional does not describe administering GDC-0199 alone in combination with cytarabine, without a type II anti-CD20 antibody. It mentions cytarabine only once, at paragraph [0079], among a laundry list of cytotoxic, chemotherapeutic, and anti-cancer agents. See Ex. 1007, [0079]. This mention comes outside the context of any particular dosing regimen of GDC-0199 and specifically describes cytarabine as a third active agent that could be administered.
+
+## Ex. 1020 ¶ 138. Dr. Oleksowicz noted, in her deposition:
+
+All physicians treating blood cancers would be well acquainted with cytarabine. And it is not one size fits all. Depending on the situation it can be used differently. Cytarabine can be used for induction in aggressive AML's. In this case it's being used in patients with AML that are unfit to receive a dosing therapy. We can also use it as maintenance in patients that have favorable risk as consolidation therapy. The drug has many uses and it's used differently depending on the situation.
+
+Ex. 2026, 106:1–11.
+
+## Dr. Sharman states:
+
+Cytarabine is expressly described in the specification and anyone studying a particular disease and potential combination drug is going to use a second drug that is effective in that particular disease. (See, e.g., Ex. 1001 at 18:13-32). For instance, cytarabine was known by a person of ordinary skill in the art to be a standard part of treatment of AML for many years, and one of limited combination partners. Combined with the express disclosure in the specification, and the knowledge of a person of ordinary skill in the art, in my opinion the invention of claim 26 is supported by the specification.
+
+Ex. 2009 ¶ 195. Dr. Sharman also states a “person of ordinary skill in the art would understand that combination treatment is typical in oncology and
+
+know that cytarabine had been used in cancer treatment for years. Indeed, cytarabine was initially approved by the FDA in 1969." Id. ¶ 196; cf. Ex. 1056, 125:9–12.
+
+Capon v. Eshhar, 418 F.3d 1349, 1359 (Fed. Cir. 2005) found “[i]t is not necessary that every permutation within a generally operable invention be effective in order for an inventor to obtain a generic claim, provided that the effect is sufficiently demonstrated to characterize a generic invention.” In Capon, the nucleotide sequences at issue were known in the prior art, and the invention used those known sequences in a novel way. See id. at 1358 (“The chimeric genes here at issue are prepared from known DNA sequences of known function.”)
+
+Capon's reasoning applies to claim 26 of the '087 patent, as both Dr. Oleksowicz and Dr. Sharman acknowledge that cytarabine was well known for use in treatment of blood cancers, was known to be used in combination therapies, and was expressly disclosed as an optional agent useful in combination treatment in the '087 patent. Ex. 1001, 18:32.
+
+We are not persuaded by Petitioner's contention that claim 26 of the '087 patent is limited to the administration of "a GDC-0199-and-cytarabine treatment omitting the antibody component." Pet. 41. As noted above, all of the claims use the transition phrase "comprising" which is open to additional steps such as the inclusion of an antibody component for claims 19–26 in the treatment of lymphoma or leukemia. Georgia-Pacific, 195 F.3d at 1327. We therefore agree with Patent Owner that claim 26 is not limited to embodiments exemplified in the '087 patent. Liebel-Flarsheim, 358 F.3d at 906.
+
+Accordingly, we find that on the current record Petitioner has not persuasively shown that claim 26 fails to comply with the written description requirement.
+
+## B. Anticipation
+
+## 1. Venclexta Label November 2018 (Ex. 1006)
+
+Venclexta Label is a product label for venetoclax oral tablets including prescribing information for “the treatment of adult patients with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL), with or without 17p deletion, who have received at least one prior therapy.” Ex. 1006, 2. Table 1 of the Venclexta Label is reproduced below:
+
+Table 1. Dosing Schedule for Ramp-Up Phase in Patients with CLL/SLL
+
+<table><tr><td></td><td>VENCLEXTA Daily Dose</td></tr><tr><td>Week 1</td><td>20 mg</td></tr><tr><td>Week 2</td><td>50 mg</td></tr><tr><td>Week 3</td><td>100 mg</td></tr><tr><td>Week 4</td><td>200 mg</td></tr><tr><td>Week 5 and beyond</td><td>400 mg</td></tr></table>
+
+Table 1 explains how to “[a]dminister the VENCLEXTA dose according to a weekly ramp-up schedule over 5 weeks to the recommended daily dose of 400 mg . . . The 5-week ramp-up dosing schedule is designed to gradually reduce tumor burden (debulk) and decrease the risk of TLS.” Ex. 1006, 2.
+
+Venclexta Label teaches “VENCLEXTA in Combination with Low-Dose Cytarabine.” Ex. 1006, 20 (underlining omitted).
+
+## 2. Petitioner's position
+
+Petitioner contends “claims 1, 9 and 19 are the only independent claims of the ’087 patent and recite methods of treating lymphoma or leukemia by administering ‘escalating doses’ of GDC-0199. Supra Sections
+
+## VI.D.4." Pet. 53. Petitioner contends that
+
+the 2018 Label disclosed treating “human patients” suffering from specific types of lymphoma and leukemia by orally administering venetoclax (i.e., “GDC-0199”) to patients using specific dosing cycles requiring escalating dose regimens. Ex. 1006, 1-4; see also Ex. 1020 ¶¶ 248, 250-51, 255, 257-58; see also Ex. 1006, 1 . . . For example, a patient being treated for CLL or SLL would follow a five-week dose ramp-up schedule in Table 1. Ex. 1006, 3; see also Supra Section VI.C.1; Ex. 1020 ¶¶ 250, 257. This “ramp-up” schedule required administering doses of 100 mg, 200 mg, and 400 mg per day, just as the independent claims of the ’087 patent require. Ex. 1006, 3; see also Ex. 1020 ¶¶ 250, 257.
+
+Pet. 54–55. Petitioner contends that “like claim 1 of the ’087 patent, each of the ‘ramp-up’ dosing schedules disclosed in the 2018 Label could be part of a larger dosing cycle. Ex. 1006, 2-4, 8, 11-12; see also Ex. 1020 ¶ 256.” Pet. 55.
+
+Petitioner contends, regarding claims 2–4 and 8 of the '087 patent, that
+
+the 2018 Label contemplated an escalating dosing regimen wherein “each dosing cycle is one day” and “a starting dose of the escalating doses is administered for one dosing cycle” (i.e., 100 mg is administered on day 1 only) and “an ending dose of the escalating doses is administered in multiple dosing cycles” (i.e., either 400 mg or 600 mg is administered on days 4 and beyond). Ex. 1006, 3; see also Ex. 1020 ¶¶ 251, 258, 263-64. For the same reasons, the 2018 Label disclosed the administration of “GDC-0199” in the amounts and intervals recited in claim 8. Finally, the 2018 Label also explained that the AML dosing cycle and regimen should be continued “until disease progression … is observed.” Ex. 1006, 3; see also Ex. 1020 ¶¶ 251, 258, 263-64.
+
+Pet. 57.
+
+Petitioner contends with regard to claims 10–14 and 18 of the '087 patent that "like claim 10, the 2018 Label disclosed the administration of 'three differing doses of GDC-0199.' Ex. 1006, 1-3; see also Ex. 1020 ¶¶ 250-51, 257-58, 260." Pet. 58. Petitioner contends "just like claim 11, the 2018 Label disclosed that each of the 'ramp-up' dosing schedules disclosed in the 2018 Label could be part of a larger dosing cycle. Ex. 1006, 3; see also Ex. 1020 ¶¶ 256, 261." Pet. 58. Petitioner contends "claims 12–14 are identical to claims 2-4, setting aside the differences in their dependencies. Accordingly, for the reasons set forth above, claims 12-14 are anticipated by the 2018 Label." Pet. 58. Petitioner contends that "claim 18, like claim 8, recites that 'the patient is administered 100 mg of GDC-0199 per day for one day, followed by 200 mg of GDC-0199 per day for one day.' . . . the 2018 Label disclosed every element of claim 18 for the same reasons set forth above." Pet. 59.
+
+Petitioner contends with regard to claims 20–26 of the '087 patent that claims 20 and 22 mirror claims 10 and 11, while claims 23-25 are identical to dependent claims 2-4 and 12-14. For the same reasons discussed above, the 2018 Label disclosed the additional claim limitations in dependent claims 20 and 22. Supra Section VIII.A.3. Similarly, as described above, the 2018 Label disclosed all claim limitations recited in claims 23-25. Supra Sections VIII.A.1-3; see also Ex. 1020 ¶¶ 260-65.
+
+Pet. 59–60. Petitioner contends, as to claim 21, that the “2018 Label disclosed that the ‘100 mg’ dose of venetoclax was the “starting dose” in the larger “ramp-up” dosing schedule. Ex. 1006, 2-4; see also Ex. 1020 ¶¶ 251, 258, 263-64.” Pet. 60. Petitioner contends, as to claim 26, that “the 2018 Label disclosed that when used to treat AML, venetoclax may be
+
+“administered in combination with cytarabine.” Ex. 1006, 3; see also Ex. 1020 ¶ 267.” Pet. 60.
+
+## 3. Patent Owner's position
+
+Patent Owner does not specifically dispute that the disclosures of the November 2018 Venclexta Label anticipate claims 1–4, 8–14, and 18–26 of the '087 patent. See, generally, Prelim. Resp. Patent Owner contends that
+
+because the 2013 priority application and the other documents in the chain of continuations in this patent family contain identical disclosures to the '087 specification and provide ample written description support for and enable the challenged claims. Therefore, the November 2018 Venclexta Label—Petitioner's sole alleged anticipatory reference—does not qualify as prior art. Prelim. Resp. 15.
+
+## 4. Analysis
+
+We have already analyzed whether Petitioner has established that claims 1–4, 8–14, and 18–26 of the '087 patent are entitled to benefit of priority prior to the publication of the November 2018 Venclexta label. As discussed above, we find that a preponderance of the evidence shows that claims 1–4, 8–14, and 18–26 of the '087 patent are entitled to benefit of priority. Therefore, the November 2018 Venclexta label does not qualify as prior art to claim 19 and we find that Petitioner does not sufficiently establish that 1–4, 8–14, and 18–26 of the '087 patent are anticipated by a preponderance of the evidence.
+
+## XI. CONCLUSION
+
+We conclude that Petitioner has not established by a preponderance of the evidence that claims 1–4, 8–14, 18, and 20–26 of the '087 patent are unpatentable as anticipated by the November 2018 Venclexta Label.
+
+In summary:
+
+<table><tr><td>Claim(s)</td><td>35 U.S.C. §</td><td>Reference(s)/Basis</td><td>Claim(s) Shown Unpatentable</td><td>Claim(s) Not shown Unpatentable</td></tr><tr><td>1–4, 8–14, 18, 20–26</td><td>102</td><td>November 2018 Venclexta Label</td><td></td><td>1–4, 8–14, 18, 20–26</td></tr><tr><td>Overall Outcome</td><td></td><td></td><td></td><td>1–4, 8–14, 18, 20–26</td></tr></table>
+
+## XII. ORDER
+
+Accordingly, it is
+
+ORDERED that claims 1–4, 8–14, 18, and 20–26 have not been shown to be unpatentable on the grounds as asserted and instituted in this proceeding.
+
+IPR2023-00052
+Patent 11,110,087 B2
+
+## PETITIONER:
+
+Brandon White
+Christopher Jones
+Jonathan Tietz
+PERKINS COIE LLP
+white-ptab@perkinscoie.com
+jones-ptab@perkinscoie.com
+tietz-ptab@perkinscoie.com
+
+## PATENT OWNER:
+
+Naveen Modi
+
+Eric Dittmann
+
+Daniel Zeilberger
+
+Katherine Daniel
+
+Chad Peterman
+
+PAUL HASTINGS LLP
+
+naveenmodi@paulhastings.com
+
+ericdittmann@paulhastings.com
+
+danielzeilberger@paulhastings.com
+
+katherinedaniel@paulhastings.com
+
+chadpeterman@paulhastings.com

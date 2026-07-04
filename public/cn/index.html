@@ -17,7 +17,7 @@
       <a class="button-link" href="./">总入口</a>
       <a class="button-link" href="data/all_cases_manifest.json" target="_blank" rel="noopener">处理清单</a>
       <select id="sortBy" aria-label="排序">
-        <option value="updated_at_desc">按更新时间</option>
+        <option value="updated_at_desc">按案例编号</option>
         <option value="title">按标题</option>
       </select>
     </div>
@@ -26,7 +26,7 @@
   <main class="layout">
     <aside class="filters" aria-label="筛选器">
       <label class="search-label" for="searchInput">关键词搜索</label>
-      <input id="searchInput" type="search" placeholder="输入专利号、决定号、法律点、药物名称、结论">
+      <input id="searchInput" type="search" placeholder="输入专利号、决定号、当事人、法律点、药物名称">
 
       <section>
         <h2>专利类型</h2>
@@ -36,6 +36,11 @@
       <section>
         <h2>法律点</h2>
         <div id="legalIssueFilters" class="filter-grid"></div>
+      </section>
+
+      <section>
+        <h2>当事人</h2>
+        <div id="partyFilters" class="filter-grid"></div>
       </section>
 
       <section>

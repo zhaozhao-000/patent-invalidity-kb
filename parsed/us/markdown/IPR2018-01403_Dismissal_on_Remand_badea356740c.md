@@ -1,0 +1,84 @@
+Trials@uspto.gov
+Tel: 571-272-7822
+
+Paper 104
+Entered: February 3, 2023
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE BEFORE THE PATENT TRIAL AND APPEAL BOARD MYLAN PHARMACEUTICALS INC., Petitioner,
+
+BIOGEN MA INC,
+Patent Owner.
+
+Case IPR2018-01403
+Patent No. 8,399,514B2
+
+Before SHERIDAN K. SNEDDEN, CYNTHIA M. HARDMAN, and JAMIE T. WISZ, Administrative Patent Judges.
+
+SNEDDEN, Administrative Patent Judge.
+
+TERMINATION
+Dismissal on Remand
+37 C.F.R. § 42.5(a)
+
+IPR2018-01403
+Patent No. 8,399,514 B2
+
+This inter partes review proceeding has returned to the Board after the U.S. Court of Appeals for the Federal Circuit vacated the Final Written Decision and remanded with instructions to dismiss this proceeding. Paper 102. The mandate issued November 1, 2022. Paper 101. Accordingly, it is: ORDERED that this inter partes review is dismissed.
+
+PETITIONER:
+
+Brandon White
+White-ptab@perkinscoie.com
+
+Christopher Ferenc
+Christopher.ferenc@katten.com
+
+David Anstaett
+danstaett@perkinscoie.com
+
+Courtney Prochnow
+Prochnow-ptab@perkinscoie.com
+
+Maria Stubbings
+mstubbings@perkinscoie.com
+
+Shannon Bloodworth
+sloodworth@perkinscoie.com
+
+Emily Greb
+Greb-ptab@perkinscoie.com
+
+Brian Sodikoff
+Brian.sodikoff@kattenlaw.com
+
+IPR2018-01403
+Patent No. 8,399,514 B2
+
+Christopher Ferenc
+Christopher.ferenc@katten.com
+
+Martin Masar
+
+Martin.masar@kattenlaw.com
+
+## PATENT OWNER:
+
+Barbara McCurdy
+
+Barbara.mccurdy@finnegan.com
+
+Erin Sommers
+
+Erin.sommers@finnegan.com
+
+Pier DeRoo
+
+Pier.deroo@finnegan.com
+
+Mark Feldstein
+
+Mark.feldstein@finnegan.com
+
+Cora R. Holt
+
+Cora.holt@finnegan.com

@@ -1,0 +1,937 @@
+Paper: 58
+Date: August 26, 2025
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE BEFORE THE PATENT TRIAL AND APPEAL BOARD
+
+SYNAFFIX B.V., Petitioner,
+
+V.
+HANGZHOU DAC BIOTECH CO., LTD.,
+Patent Owner.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+Before ZHENYU YANG, DEVON ZASTROW NEWMAN, and CYNTHIA M. HARDMAN, Administrative Patent Judges.
+
+NEWMAN, Administrative Patent Judge.
+
+JUDGMENT
+Final Written Decision
+Determining Some Challenged Claims Unpatentable
+Dismissing Patent Owner's Motion to Exclude Evidence as Moot
+35 U.S.C. § 318(a)
+
+## I. INTRODUCTION
+
+This is a Final Written Decision in an inter partes review challenging the patentability of claims 1–17, 20, 21, 24–26, and 29–34 of U.S. Patent No. 10,131,682 C1 (“the ’682 patent,” Ex. 1001). We have jurisdiction under 35 U.S.C. § 6.
+
+Petitioner has the burden of proving unpatentability of the challenged claims by a preponderance of the evidence. 35 U.S.C. § 316(e). Having reviewed the parties' arguments and cited evidence, for the reasons we discuss below, we find that Petitioner has demonstrated by a preponderance of the evidence that claims 1–17, 20, 21, 24, 26, 29–31 are unpatentable over the cited prior art. However, we find that Petitioner has not demonstrated by a preponderance of the evidence that claims 25 and 32–34 are unpatentable over the cited prior art.
+
+## A. Procedural History
+
+Petitioner, Synaffix B.V., filed a Petition requesting inter partes review of claims 1–17, 20, 21, 24–26, and 29–34 of the '682 patent. Paper 2 ("Pet."), 1, 3. Patent Owner, Hangzhou DAC Biotech Co., Ltd., filed a Preliminary Response (Paper 9, "Prelim. Resp."). We initially determined that the information presented in the Petition did not establish a reasonable likelihood that Petitioner would prevail with respect to at least one of the challenged claims, and did not institute inter partes review. Paper 17. Petitioner requested Director review of our decision denying institution (Paper 18 ("Request")). The Director delegated review of the decision to a Delegated Rehearing Panel ("DRP"). Paper 19. Patent Owner was granted the option to file a response to Petitioner's Request (Paper 22 ("Request Resp.")). The Delegated Review Panel vacated our decision and remanded the case to this panel with a revised claim construction for claim 1. Paper 23 (“DRP Dec.”).
+
+On August 30, 2024, we instituted an inter partes review after remand from the Director. Paper 25 (“Inst. Dec.”). Patent Owner subsequently filed a Patent Owner Response (Paper 31, “Resp.”), Petitioner filed a Reply (Paper 36, “Reply”), Patent Owner filed a Sur-reply (Paper 44, “Sur-reply”), and Petitioner filed a Sur-sur-reply (Paper 48, “Sur-sur-reply”).
+
+We held a final hearing on June 12, 2025; a transcript is in the record. Paper 57 (“Tr.”).
+
+## B. Real Parties in Interest
+
+Petitioner states that the “real-parties-in-interest are Petitioner, Synaffix B.V., and Lonza Group, AG, which recently acquired Synaffix.” Paper 12, 2 $^{1}$ (Updated Mandatory Notices).
+
+Patent Owner states that it is the real party-in-interest and the assignee of the '682 patent. Paper 8, 1. $^{2}$
+
+## C. Related Matters
+
+Petitioner states that the '682 patent was “re-examined as Reexamination Control Number 90/014,390, yielding, inter alia, amended claims 1, 3, 20, and new claims 24-26 and 29-34.” Pet. 1; see Ex. 1002 (ex parte reexamination certificate with amended claims).
+
+Patent Owner lists the following related matters: U.S. Patent No. 10,131,682 issued from U.S. Patent Application No. 14/432,073, filed on
+
+March 27, 2015, which is a U.S. National Stage of International Application No. PCT/IB2012/056700, filed on November 24, 2012; and U.S. Application No. 90/014,390, filed on October 16, 2019, which is a reexamination of U.S. Patent No. 10,131,682. Paper 8, 1.
+
+## D. The '682 Patent (Ex. 1001)
+
+## 1. Specification Overview
+
+The '682 patent is titled “Hydrophilic Linkers and Their Uses for Conjugation of Drugs to A Cell Binding Molecules” and issued from U.S. Application No. 14/432,073 (the '073 Application), a national stage entry of PCT/IB2012/056700 that was filed on November 24, 2012. Ex. 1001, codes (54), (10), (21), (86), and (22).
+
+The '682 patent regards protein/drug conjugates for targeted delivery of drugs to specific cells. Ex. 1001, code (57, Abstract). The Specification discloses that
+
+the use of the cell binding molecule – drug conjugates, such as antibody-drug conjugates (ADCs), in developing therapies for a wide variety of cancers has been limited both by the availability of specific targeting agents (carriers) as well as the conjugation methodologies which result in formation of protein aggregates when the amount of the drugs that are conjugated to the carrier (i.e., the drug loading) is increased.
+
+Id. at 2:25–33. The Specification states that “[n]ormally the tendency for cytotoxic drug conjugates to aggregate is especially problematic when the conjugation reactions are performed with hydrophilic linkers.” Id. at 2:33–37. Moreover, “higher drug loading increases the inherent potency of the conjugate,” making it desirable to have “as much drug loaded on the carrier” as possible while maintaining binding ability to the protein. Id. at 2:37–39.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+The '682 patent discloses "hydrophilic linkers containing phosphinate, sulfonyl, and/or sulfoxide groups to link drugs to a cell-binding agent (e.g., an antibody)." Ex. 1001, 2:53–55. The Specification discloses that the hydrophilic linkers containing these specific groups confer the following advantageous hydrophilic properties to the cell binding molecule-drug conjugates: reduced aggregation in water-based media, enabling higher drug-per-cell binding to molecule ratio; permitting higher potency; and increased drug retention in the target cell after the drug is released from the conjugate. Id. at 2:60–65.
+
+Using these hydrophilic linkers, the Specification discloses antibody-drug conjugates with the preferred formula “Cb-(-L-Drug) $_{n}$ , wherein Cb is a cell-binding agent, L is a hydrophilic linker, Drug is a drug molecule and n is an integer from 1 to 20.” Ex. 1001, 2:55–60. The drug is a cytotoxic agent and is a “small molecule drug” identified in the Specification as “an organic, inorganic, or organometallic compound that may have a molecular weight of for example 100 to 1800, more suitably from 120 to 1400.” Id. at 29:46–50. The cell-binding agent “may be of any kind presently known, or that become[s] known, molecule that binds to, complexes with or reacts with a moiety of a cell population sought to be therapeutically or otherwise biologically modified.” Id. at 14:39–44. When an antibody is used as a cell-binding agent, this may permit immune-targeted delivery of the drug to a specific cell population, such as “cancer cell antigens, viral antigens, microbial antigens or a protein generated by the immune system that is capable of recognizing, binding to a specific antigen or exhibiting the desired biological activity.” Id. at 14:54–58.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## 2. Examination of the '682 Patent
+
+During examination, the Examiner issued a rejection of claim 1 based on a disclosure in Lees $^{3}$ of N-hydroxysuccinimide vinyl sulfone, $^{4}$ copied below.
+
+![](images/2789bbb2b432dca391dd714a8330de309cf6f3d22108430cc7bdf642f6afb499.jpg)
+
+The graphic above shows the structure of N-hydroxysuccinimide (“NHS”) vinyl sulfone, as disclosed in Lees. Ex. 2026, 22. The Examiner found that Lees discloses NHS vinyl sulfone as a heterobifunctional linker used to attach a derivatized polysaccharide to one end and a protein to the other. Ex. 1018, 42. The Examiner found that NHS vinyl sulfone anticipated formula 55 of the Specification, shown below:
+
+![](images/0fe75550e831963c7903d45c63b1309d8b296a5a88a9bed47f645dd7f816dd42.jpg)
+
+Id. at 42–43. Shown above is formula 55 of the Specification, which was encompassed by then-pending claim 1. Ex. 1001, Fig. 6, p. 12. In response,
+
+Applicant (now Patent Owner) amended claim 1 as follows to overcome the rejection. $^{4}$
+
+![](images/1b267e5b64fb0529c66e4a0ca97a9ba01a2f9a373c253bad16acc3ce8dc072f5.jpg)
+
+```txt
+LISTING OF CLAIMS:
+1. (Currently Amended) A hydrophilic linker of formula (I)
+Y-R₁+Q-R₂+m-T-R₃n-R₄R₅R₆
+(I)
+wherein:
+Y represents a functional group that enables reaction of the hydrophilic linker with a cell-binding agent;
+Q and T are either -P(=O)(OM)-, or -S(O₂)-, or -S(O)-;
+m and n are integer from 0 to 5, but not 0 at the same time; provided that when m=1, n=0, Q is not -P(=O)(OM)-; and-when n=1, m=0, T is not -P(=O)(OM)-; and when Q or T is -S(O₂)-, m and n are not 0;
+```
+
+Ex. 1018, 45. This amendment required that where claim elements Q or T were sulfone, m and n could be an integer from 1 to 5, not zero. Id. Moreover, Applicant stated that the amendment was made to overcome Lees. Id. at 62. “[C]laim 1 of the present application recites that when Q or T is -S(O) $_{2}$ -, m and n are not 0, thereby excluding the above noted compound described in Lees.” Id. The Examiner subsequently allowed claim 1. Id. at 77.
+
+## 3. Reexamination of the '682 Patent
+
+The '682 patent was reexamined, which resulted in an ex parte reexamination office action dated June 12, 2020. Ex. 1019, 1. The Applicant filed a response that included an amendment to claim 20, which adds the following limitation:
+
+when (i) Q is $-\mathrm{S}(\mathrm{O}_{2})-$ , m is 1, and n is 0, or (ii) T is $-\mathrm{S}(\mathrm{O}_{2})-$ , n is 1 and m is 0, Y is an N-hydroxysuccinimide (NHS) ester, p-nitrophenyl ester, dinitrophenyl ester, pentafluorophenyl ester, pyridyldisulfide, nitropyridyldisulfide, maleimide, haloacetate, carboxylic acid chloride, hydrazide or hydroxylamine.
+
+Id. at 50–51.
+
+In response to a rejection over WO '497, $^{6}$ the Applicant provided the following remarks:
+
+“IV-2. WO ‘497
+
+The Office Action cited WO ‘497 as allegedly disclosing the following formula:”
+
+![](images/6b910ebb7c4000a5f16de8c97a01d82957ac4b159f1e724f7849a428a0042f12.jpg)  
+Ex. 1019, 74–75. The diagram above is a reproduction of a formula as annotated by the Examiner. Id. Applicant continued:
+
+In the above formula of WO ‘497, the portion allegedly corresponding to Y in formula (IV) recited in claim 20 of the present patent, is a vinyl group (-=).
+
+On the other hand, claim 20 of the present patent, as amended, recites that “when (i) Q is -S(O2)-, m is 1, and n is 0, or (ii) T is -S(O2)-, n is 1 and m is 0, Y is an N-hydroxysuccinimide (NHS) ester, p-nitrophenyl ester, dinitrophenyl ester, pentafluorophenyl ester, pyridyldisulfide, nitropyridyldisulfide, maleimide, haloacetate, carboxylic acid chloride, hydrazide or hydroxylamine,” which does not encompass a vinyl group.
+
+For at least this reason, the above compound of WO ‘497 does not meet all the requirements of formula (IV) recited in
+
+claim 20 of the present patent, which the Examiner agreed during the Interview.
+
+Ex. 1019, 75.
+
+A reexamination certificate subsequently issued January 4, 2021. Ex. 1002, code (45).
+
+## E. Challenged Claims
+
+Petitioner challenges the patentability of claims 1–17, 20, 21, 24–26, and 29–34 (“challenged claims”) of the ’682 patent. $^{7}$ Pet. 1. The claims recite three types of linker structures that can be used to form antibody-drug conjugates, which are designated as formulas I, II, and IV. These structures are shown in the table below along with the corresponding formula and the independent challenged claims that recite these structures:
+
+<table><tr><td colspan="3">Table 1</td></tr><tr><td>Claim</td><td>Structure</td><td>Formula</td></tr><tr><td>1</td><td> $Y—R_1+Q—R_2\text{ }_{m}+T—R_3\text{ }_{n}\text{ }_{R_4}\text{ }_{Z}$  $\begin{array}{c} \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \end{array}$ </td><td>I</td></tr><tr><td>3, 24, 26</td><td> $\text{Cb}—\left(\text{R}_1+\text{Q}-\text{R}_2\text{ }_{m}+\text{T}-\text{R}_3\text{ }_{n}\text{ }_{R_4}\text{ }_{Drug} \right)_q$  $\begin{array}{c} \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \end{array}$ </td><td>II</td></tr><tr><td>20, 29, 30</td><td> $Y—R_1+Q—R_2\text{ }_{m}+T—R_3\text{ }_{n}\text{ }_{R_4}\text{ }_{Drug}$  $\begin{array}{c} \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ } \\ \text{ }\end{array}$ </td><td>IV</td></tr></table>
+
+Prelim. Resp. 1; Ex. 1001, 48:31–36, 49:16–20; 54:52–55. The table above shows three types of linker structures, designated as formulas I, II, and IV, which can be used to form antibody-drug conjugates of the recited claims. Id.
+
+Claim 1 of the '682 patent is representative. The text of claim 1 pertinent to the parties' dispute $^{8}$ recites:
+
+1. A hydrophilic linker of formula (I)
+
+$$
+\mathrm{Y} - \mathrm{R} _ {1} + \mathrm{Q} - \mathrm{R} _ {2} + \mathrm{T} - \mathrm{R} _ {3} + \mathrm{R} _ {4} - \mathrm{Z}
+$$
+
+wherein:
+
+Y represents a functional group that enables reaction of the hydrophilic linker with a cell-binding agent;
+
+Q and T are either —P(=O)(OM)-, or —S(O₂)—, or —S(O);
+
+m and n are integers from 0 to 5, but not 0 at the same time; provided that when m=1, n=0, Q is not —P(=O)(OM)-; when n=1, m=0, T is not —P(=O)(OM)-; and when Q or T is —S(O₂)—, m and n are not 0;
+
+Z represents a functional group that enables linkage of the hydrophilic linker to a cytotoxic drug via a disulfide, thioether, thioester, hydrazone, ether, ester, carbamate, carbonate, secondary, tertiary, or quaternary amine, imine, cycloheteroalkane, heteroaromatic, alkoxime or amide bond; ...
+
+Ex. 1002, 1:22–2:13. Claim 1 is directed to structures represented by formula I, the basic hydrophilic linker. Id. Independent claims 3, 24, and 26 are directed to structures represented by formula II, wherein the linker is conjugated to a cell-binding agent and a drug. Id. at 2:14–3:12, 6:30–7:21; 7:28–8:25. Independent claims 20, 29, and 30 are directed to formula IV, wherein the linker is conjugated to a drug. Id. at 4:3–5:3, 9:55–12:19. The challenged dependent claims recite additional structures or conjugates falling within the respective formulae and their qualities, or recite pharmaceutical compositions containing the structures. Ex. 1001, 49:10–55:29 (amended by dependency).
+
+## F. Asserted Grounds of Unpatentability
+
+We instituted trial based on the following grounds of alleged unpatentability:
+
+<table><tr><td>Ground</td><td>Claim(s)Challenged</td><td>35 U.S.C. §9</td><td>Reference(s)/Basis</td></tr><tr><td>1</td><td>1–3, 6, 24–25, 33</td><td>102(a)</td><td>Morales-Sanfrutos10as evidenced by Straus11</td></tr><tr><td>2</td><td>1, 20, 21, 29–31</td><td>102(a)/103(a)</td><td>Harris12</td></tr><tr><td>3</td><td>1–8, 10–12, 14–17, 20, 21, 24, 26, 29–31</td><td>103(a)</td><td>Singh, $^{13}$  Harris</td></tr><tr><td>4</td><td>9, 13</td><td>103(a)</td><td>Singh, Harris, Bhakta $^{14}$ </td></tr><tr><td>5</td><td>2, 25, 32–34</td><td>103(a)</td><td>Singh, Harris, Snow $^{15}$ </td></tr></table>
+
+Inst. Dec. 11–12; Pet. 2–3. Petitioner supports its allegations with the declarations of Ravi Chari, Ph.D. (Ex. 1003; Ex. 1076) and Dr. Sheila Baker (Ex. 1075), among other evidence. Patent Owner supports its allegations in opposition with declarations of Lawrence Nathan Tumey, Ph.D. (Ex. 2001; Ex. 2038).
+
+## II. ANALYSIS
+
+## A. Principles of Law
+
+In an inter partes review, “the petitioner has the burden from the onset to show with particularity why the patent it challenges is unpatentable.” Harmonic Inc. v. Avid Tech., Inc., 815 F.3d 1356, 1363 (Fed. Cir. 2016) (citing 35 U.S.C. § 312(a)(3) (requiring inter partes review petitions to identify “with particularity . . . the evidence that supports the grounds for the challenge to each claim”)). This burden never shifts to Patent Owner. Dynamic Drinkware, LLC v. Nat’l Graphics, Inc., 800 F.3d 1375, 1378
+
+(Fed. Cir. 2015). To prevail, Petitioner must demonstrate unpatentability by a preponderance of the evidence. 35 U.S.C. § 316(e).
+
+Anticipation under 35 U.S.C. § 102 requires that a prior art reference set forth each and every element of a claim as set forth in the claim. Verdegaal Bros. v. Union Oil Co., 814 F.2d 628, 631 (Fed. Cir. 1987); see also Net MoneyIN, Inc. v. VeriSign, Inc., 545 F.3d 1359, 1371 (Fed. Cir. 2008) (anticipation not only requires that each element of a claim be present in a prior art reference, but also the arrangement or combination of those elements as claimed).
+
+A claim is unpatentable as obvious under 35 U.S.C. § 103(a) if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a person having ordinary skill in the art to which said subject matter pertains. 35 U.S.C. § 103(a); see also KSR Int'l Co. v. Teleflex Inc., 550 U.S. 398, 406 (2007). The question of obviousness is resolved based on underlying factual determinations including: (1) the scope and content of the prior art; (2) any differences between the claimed subject matter and the prior art; (3) the level of ordinary skill in the art; and (4) any objective indicia of nonobviousness. $^{16}$ Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966). An obviousness determination requires finding a reason to combine accompanied by a reasonable expectation of achieving what is claimed in the challenged patent. Intelligent Bio-Sys., Inc. v. Illumina Cambridge Ltd., 821 F.3d 1359, 1367 (Fed. Cir. 2016). “[A]ny need or problem known in the field of endeavor at the time of invention and addressed by the patent can provide a reason for combining the elements in the manner claimed.” KSR, 550 U.S. at 419–20.
+
+## B. Level of Ordinary Skill in the Art
+
+We consider the grounds of unpatentability in view of the understanding of a person of ordinary skill in the art (sometimes abbreviated herein as “POSA”) at the time of the invention. Graham, 383 U.S. at 17–18.
+
+Petitioner alleges that an ordinarily skilled artisan of the '682 patent
+
+would have had . . . a PhD degree in organic chemistry, biochemistry, medicinal chemistry and/or pharmacology, along with 1-2 years of relevant applied research and/or industry experience in the field of linkers and conjugates for biologically active molecules. Alternatively, a POSA would have had a Master's or Bachelor's degree in one of these same fields with, respectively, at least 3-5 or 5-7 years work experience.
+
+. . . Such a person would have been familiar with protein/drug conjugates, including antibody-drug conjugates, the use of antibodies to selectively target cells and tissues associated with various diseases and conditions, linker design and selective attachment of the linker to proteins/antibodies and drugs, including targeted release of the drugs, as well as the need for water soluble conjugates for use with hydrophobic drugs, and methods for enhancing the potency of the protein/antibody-drug conjugates.
+
+Pet. 18–19 (citing Ex. 1003 ¶¶ 23, 44–79).
+
+Patent Owner adopts Petitioner's definition. Resp. 17 (citing Pet. 18–19).
+
+We adopt Petitioner's proposed level of ordinary skill in the art because it is consistent with the cited prior art and is undisputed on this record. See Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001) (indicating that the prior art itself may reflect an appropriate skill level).
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+Based on his statement of qualifications, we find Petitioner's declarant, Dr. Chari, is qualified to provide technical opinions regarding the perspective of a person of ordinary skill in the art. See Ex. 1003 ¶¶ 4–12 (Dr. Chari's statement of qualifications).
+
+Based on her statement of qualifications, we find Petitioner's declarant, Dr. Baker, is qualified to provide technical opinions regarding the perspective of a person of ordinary skill related to the limited subjects about which she is called to testify, namely “various techniques used in relation to cell-binding research and studies.” See Ex. 1075 ¶¶ 4–8 (Dr. Baker’s statement of qualifications).
+
+Finally, based on his statement of qualifications, we find Patent Owner's declarant, Dr. Tumey, is qualified to provide technical opinions regarding the perspective of a person of ordinary skill in the art. See Ex. 2001 ¶¶ 6–13 (Dr. Tumey's statement of qualifications).
+
+## C. Claim Interpretation
+
+In AIA proceedings we interpret a claim “using the same claim construction standard that would be used to construe the claim in a civil action under 35 U.S.C. 282(b).” 37 C.F.R. § 42.100(b). Under this standard, we construe the claim “in accordance with the ordinary and customary meaning of such claim as understood by one of ordinary skill in the art and the prosecution history pertaining to the patent.” Id.; see also Phillips v. AWH Corp., 415 F.3d 1303, 1312–19 (Fed. Cir. 2005) (en banc).
+
+In the Institution Decision, we construed the terms “Y,” “Z,” “Q,” and “T” as well as the term “cell-binding agent.” Inst. Dec. 16–21. The parties provide arguments for the terms “Y” and “cell-binding agent,” which we address below.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## 1. “Y” (claims 1, 20, 29–30 and dependent claims)
+
+Claim 1 recites “A hydrophilic linker of formula (I) . . . wherein Y represents a functional group that enables reaction of the hydrophilic linker with a cell-binding agent.” Ex. 1001, 1:22–32. Thus, we know from the claim language that “Y” is “a functional group that “enables reaction of the hydrophilic linker with a cell-binding agent.” The parties’ primary disagreement regards the meaning of the term “enable” as it applies to Y’s function, namely whether Y must enable of the hydrophilic linker with a cell-binding agent alone or can act in concert with another claim element. We summarize the parties’ positions before construing this term.
+
+## a. Patent Owner's Response arguments
+
+Patent Owner summarizes its position by stating that “the construction of ‘Y’ turns on whether the claimed ‘Y’ must by itself be a functional group that independently enables reaction with a cell-binding agent.” Resp. 19 (emphasis omitted). According to Patent Owner, “the plain claim language requires that ‘Y’ alone ‘represents a functional group that enables reaction,’” which means Y enables the reaction, not a combination of Y with another claim element, such as Q or T. Id. (emphasis omitted).
+
+Specifically, Patent Owner asserts that the claims themselves support Patent Owner's position because “the claims that recite ‘Y’ each expressly define ‘Y’ as ‘a functional group that enables reaction’ of the hydrophilic linker (claim 1), or the compound (claims 20, 29, 30), with a cell-binding agent, without referring to any other claim element to enable that reaction.” Resp. 19–20 (citing Ex. 1002, 1:31–32, 4:12–13, 9:64–65, 11:2–3) (emphasis omitted). According to Patent Owner, “[t]he claim language thus requires that Y itself be a functional group that independently enables the
+
+reaction with a cell-binding agent” and that a functional group unable to do so would not satisfy the claim’s requirement of Y. Id. at 20 (citing Ex. 2038 ¶¶ 138–141). Patent Owner contends that testimony by Petitioner’s expert, Dr. Chari, indicates that he agrees. Id. (citing Ex. 1003 ¶¶ 25–26).
+
+Patent Owner further notes how Y is used in claimed Formulas I and IV, which each depict Y at an end of a linker, adjacent to $R_{1}$ (which “can be absent or a non-reactive alkyl group, among others”), and which in turn is “adjacent to ‘Q’ (or ‘T’, if Q and $R_{2}$ are both absent).” Resp. 20–21 (citing Ex. 2038 ¶ 141). Patent Owner contends that the claims recite linkers as separate and distinct elements from Y, not that Y and one of these elements “enables reaction” with the cell-binding agent. Id. at 21 (citing Ex. 1002, 1:22–34, 4:3–15, 9:55–67, 10:60–11:5; Ex. 2038 ¶¶ 111, 139–140). To further support this position, Patent Owner cites case law regarding how separate elements of a claim are considered distinct components of an invention. Id. at 21–22 (citing Ex. 2038 ¶¶ 138–141).
+
+Patent Owner argues that its position is also supported by the Specification, which “consistently and repeatedly defines Y as ‘a functional group that enables reaction’ with a cell-binding agent.” Resp. 22 (citing Ex. 1001, 3:12–13, 4:14–15, 8:21–22). According to Patent Owner, “[t]he specification describes the Y functional group as specifically attracted to and independently reactive with certain chemical groups present in a cell-binding agent and provides examples of reactive functional groups as Y.” Id. (citing Ex. 1001, 8:61–67, 13:51–63, 14:8–10; Ex. 2038 ¶¶ 142–144). Patent Owner contends that “[n]othing in the specification redefines or alters the plain meaning of the claims requiring that ‘Y’ by itself be a functional group that independently enables reaction with a cell-binding agent,” “none of the compounds from the patent's figures relied upon by the Board in instituting review had vinyl alone as Y," and "[t]he vinyl alone is Z, as it is linked to a drug, not reacted with a cell-binding agent." Id. at 22–23 (citing Inst. Dec. 6–7).
+
+Patent Owner also addresses the prosecution history for the '682 patent. According to Patent Owner, “[t]here is no clear and unmistakable prosecution disclaimer of the ‘Y’ term.” Resp. 23. First, Patent Owner addresses the prosecution of the '682 patent by contending that, “when describing the rejection over Lees, the Examiner and the Applicant mapped ‘Z’ to vinyl, but never mapped ‘Y’ to vinyl” and instead mapped the entirety of an NHS ester group to Y. Id. (citing Ex. 1018, 42–43, 62; Ex. 2038 ¶ 145) (emphasis omitted). Patent Owner asserts this mapping of vinyl to “Z” does not disclaim or alter the meaning of “Y,” which is a different claim term. Id. at 23–24 (citing Ex. 2038 ¶¶ 145–146; Ex. 1002, 1:31–32, 1:40–45; Ex. 1001, 8:61–67, 9:1–7; Ex. 2037, 15:23–16:3, 22:4–9, 33:6–14).
+
+According to Patent Owner, “allowing Y to be mapped to only vinyl of a vinyl sulfone, without sulfone, would render claim 1 anticipated by two other compounds expressly disclosed in Lees” and “Petitioner’s construction of ‘Y’—where vinyl alone may be mapped to Y—would improperly construe the claims ‘as encompassing the prior art that was . . . disclaimed during prosecution.’” Resp. 24 (citing Ex. 2038 ¶ 132). Patent Owner also asserts that its construction does not exclude embodiments of the ’682 patent. Id. at 24–25 (citing Ex. 2038 ¶¶ 147–148; Ex. 1018, 59) (alteration in original).
+
+Patent Owner further addresses the reexamination history for the '682 patent. Specifically, Patent Owner asserts that the Examiner's intention
+
+regarding claim 3 when rejecting it during reexamination is ambiguous or amenable to multiple reasonable interpretations because claim 3 does not recite “Y.” $^{17}$ Resp. 25–26.
+
+In addition, Patent Owner argues that both extrinsic evidence regarding the meaning of “functional group” and Dr. Chari’s deposition testimony support its position that Y as a functional group must act independently. Resp. 26–28 (citing Ex. 2037, 10:5–11, 19:15–21:3, 21:11–22:9, 48:6–49:12, 52:5–53:1; Ex. 2042; Ex. 2043; Ex. 2044; Ex. 2045; Ex. 2038 ¶¶ 150–152).
+
+## b. Petitioner's arguments
+
+Petitioner asserts that the DRP Decision dictates our construction for Y, Z, Q, and T and that the DRP's finding regarding vinyl sulfone meeting Q and Y should be maintained for purposes of the final decision. $^{18}$ Reply 1–4. Petitioner further argues that Z is commensurate with Y but the claims define Z more narrowly than Y because the claims do not require a specific bond type for Z. $Id.$ at 4–5.
+
+Petitioner contends the Specification supports Q and Y being met by vinyl sulfone because:
+
+The specification discloses Formulas I-IV, with Formula I covering the linker still possessing Y and Z groups, i.e., before the linker has reacted with either a drug or a CBA; Formula III covering the linker partially reacted to link with a CBA but not yet a drug; Formula IV covering the linker partially reacted to link with a drug but not yet a CBA; and Formula II covering the linker fully reacted to be linked with a CBA and a drug at opposite ends.
+
+Reply 5 (citing Ex. 1001, 3:1–4:35). In view of this, Petitioner argues that one of ordinary skill in the art, having read the '682 patent Specification, would conclude that it discloses that Formula I's linkers are used to create the molecules of Formulas III–IV, which in turn are used to create Formula II's conjugates. Id. at 5–6 (citing Ex. 1076 ¶ 4; Ex. 1063, 89:9–90:18).
+
+According to Petitioner, Patent Owner's construction for Y would result in a linker having a terminal vinyl sulfone group for attachment to a cell-binding agent, which would not meet the linker of claim 1 (Formula I) but would fall within the scope of claim 3 (Formula II). Id. at 6–7 (citing Resp. 14–15; Ex. 1063, 90:8–101:4).
+
+Petitioner further cites the prosecution history of the '682 patent to support its position. Specifically, Petitioner asserts that Patent Owner is incorrect in arguing that Y was not mapped to a vinyl group because this occurred during a rejection of claim 20 in view of WO '497 during reexamination. See Reply 8–9 (citing Ex. 1019, 9–10). According to Petitioner, the Applicant reiterated and acknowledged the Examiner's mapping of vinyl to Y and then addressed this by amending claim 20 to require that when Q or T is sulfone, Y must be selected from a Markush group that excluded vinyl. Id. at 9–10 (citing Ex. 1019, 51, 63–65, 74–75; Ex. 1002, 4:62–5:2). Petitioner likens this situation with the one considered by the DRP (DRP Dec. 11) because “the Applicant understood that Y was mapped to the vinyl of WO ’497 . . . and subsequently provided a disclaimer equal in scope to its amendments to claim 20 to avoid vinyl sulfone altogether.” Id. at 10 (emphases omitted). Petitioner argues that “[t]his amendment would have been wholly unnecessary had Applicant intended that ‘Y’ not encompass the vinyl of a vinyl sulfone.” Id.
+
+Petitioner also cites the rejection of claim 3 during reexamination, in which vinyl sulfone was mapped to Q and Y together, and the Applicant repeated the Examiner's mapping. Reply 10 (citing Ex. 1019, 12–13). Petitioner contends that the Applicant distinguished claim 3 based on R₂ but this “exchange makes it clear that the Applicant—not the Examiner—again mapped Y to the vinyl group of vinyl sulfone” and the Applicant did not protest this mapping, or “identify any disclaimer limiting the scope of Y.” Id. at 11.
+
+## c. Patent Owner's Sur-reply arguments
+
+Patent Owner responds by arguing that the DRP Decision does not dictate the post-institution construction of Y because it was based on a limited pre-institution record and the Board is not bound by its Institution Decision. Sur-reply 1–2. According to Patent Owner, its proposed construction for Y is consistent with the DRP’s analysis because “[t]he DRP concluded that compounds 75 and 138 of the ’682 patent fall within claim 1” and Patent Owner’s “proposed construction of ‘Y’ does not exclude such compounds from claim 1.” Id. at 2 (citing DRP Dec. 11, 13, 15; Ex. 2038 ¶¶ 147–148). Patent Owner further asserts that the DRP observed mapping of Z to vinyl during prosecution “but never once found ‘Y’ mapped to vinyl” and its construction is consistent with prosecution statements mapping “‘Z’ to vinyl, and ‘Y’ to a reactive functional group, such as NHS ester or vinyl sulfone, which independently enables reaction with a CBA.” Id. at 2–3 (citing DRP Dec. 13–15; Ex. 2038 ¶¶ 128–136, 145–149). Patent Owner contends that, although the DRP stated that the vinyl group should be mapped to Y or Z and sulfone mapped to Q or T and would satisfy the “enable reaction” and “enable linkage” limitations of claim 1, the DRP did not separately analyze or construe Y in view of the specification or prosecution history. Id. at 3.
+
+Patent Owner further asserts that case law regarding separately listed claim elements being separate and distinct applies. Sur-reply 3–6. As part of this argument, Patent Owner argues that, “when discussing the rejection over Lees, the Applicant mapped ‘Y’ to the entire reactive NHS ester group, and ‘Q (or T)’ to a separate sulfone” and “[n]othing in the prosecution history suggests that the reactive ‘Y’ functional group that enables reaction with a CBA may be divided and mapped partly to Q.” Id. at 5–6 (citing Ex. 2038 ¶¶ 129–131).
+
+Patent Owner reiterates its argument that the claim language requires Y to independently enable reaction with a cell-binding agent. Sur-reply 6. Patent Owner disputes Petitioner's argument relating Y to Z, asserting that the claims define these terms differently and the Specification demonstrates that Z is broader than Y. Id. at 6–7 (citing Ex. 2038 ¶¶ 63–66, 111, 139–141, 143–144; Ex. 1063, 15:11–16:3, 18:7–21; Ex. 1001, 8:61–67, 9:1–7; Ex. 2046, 89:2–97:19). Patent Owner also disagrees with Petitioner's assertion regarding Formulas I–IV of the '682 patent, arguing that “claim scope is defined by the claim language, not the specification,” “[e]ach claim sets forth its own requirements for the claimed formula,” and that “a linker outside the scope of claim 1 may indeed form a conjugate that falls within the scope of claim 3.” Id. at 7–8 (citing Ex. 1002, 1:22–2:13, 2:14–4:2).
+
+Patent Owner also repeats its contention that Petitioner's “construction would lead to the nonsensical result that claim 1 would be anticipated by Lees, a reference both the Examiner and the Applicant specifically considered during prosecution.” Sur-reply 8 (citing Ex. 1018, 42–43, 62).
+
+With regard to prosecution history, Patent Owner argues that the Examiner and the Applicant mapped vinyl to Z and the entirety of an NHS ester to Y during examination. Sur-reply 8–9 (citing Ex. 1018, 42–43, 62; Ex. 2038 ¶¶ 129–131). For the rejection of claim 20 during reexamination, Patent Owner asserts that it was the Examiner who mapped vinyl to Y and that the Applicant did not agree to the Examiner mapping vinyl to Y but “instead stated that claim 20, as amended, recites a list of functional groups” that each independently enabled reaction with a cell-binding agent and “[t]he patentee then stated that ‘Y … does not encompass a vinyl group.’” Id. at 9 (citing Ex. 1019, 9–10, 63, 75; Ex. 1001, 8:61–67) (second alteration in original). According to Patent Owner, the Applicant’s statement “makes clear that Y does not include a vinyl group” and does not “constitute a clear and unmistakable disclaimer to broaden the plain and ordinary meaning of ‘a functional group that enables reaction … with a [CBA]’ to include an unreactive vinyl group.” Id. at 9–10 (citing H. Lundbeck A/S v. Lupin Ltd., 87 F.4th 1361, 1374 (Fed. Cir. 2023); 3M Innovative Props. Co. v. Tredegar Corp., 725 F.3d 1315, 1332 (Fed. Cir. 2013); 3M Innovative Props. Co. v.
+
+Avery Dennison Corp., 350 F.3d 1365, 1373–74 (Fed. Cir. 2003))
+
+(alterations in original).
+
+With regard to the rejection of claim 3 during reexamination, Patent Owner reiterates that claim 3 does not recite Y and remarks made in response to claim 3's rejection “are at best ‘amenable to multiple reasonable interpretations’ and cannot constitute a clear and unmistakable disclaimer to alter the plain-and-ordinary meaning of Y.” Sur-reply 11.
+
+## d. Analysis
+
+We begin our analysis of the evidence regarding the interpretation of “Y” by first considering the language of the claims. See Phillips, 415 F.3d at 1314 (“[T]he claims themselves provide substantial guidance as to the meaning of particular claim terms.”). As noted above, Patent Owner asserts that the claims support Patent Owner’s position that Y itself must independently enable reaction with a cell-binding agent because “the claims that recite ‘Y’ each expressly define ‘Y’ as ‘a functional group that enables reaction’ of the hydrophilic linker (claim 1), or the compound (claims 20, 29, 30), with a cell-binding agent, without referring to any other claim element to enable that reaction.” Resp. 19–20 (citing Ex. 1002, 1:31–32, 4:12–13, 9:64–65, 11:2–3) (emphasis omitted).
+
+As argued by Patent Owner, claim 1 recites that “Y represents a functional group that enables reaction of the hydrophilic linker with a cell-binding agent.” Ex. 1002, 1:31–32. Similarly, claim 20, 29, and 30 recite that “Y represents a functional group that enables reaction of the compound with a cell-binding agent.” Id. at 4:12–13, 9:64–65, 11:2–3.
+
+We note, however, that claims 1, 20, 29, and 30 do not expressly recite that Y as a functional group must enable the claimed reaction alone or independently, merely that Y as a functional group “enables reaction” of the linker or compound with a cell-binding agent. This language “enables reaction” does not convey independence, absent express definition connoting that restriction. See Optical Disc Corp. v. Del Mar Avionics, 208 F.3d 1324, 1334, 54 USPQ2d 1289, 1295 (Fed. Cir. 2000) (“Without evidence in the patent specification of an express intent to impart a novel meaning to a claim term, the term takes on its ordinary meaning.”) In this regard, we do not view the extrinsic evidence definitions provided by Patent Owner (see Resp. 26–28 (citing Ex. 2037, 10:5–11, 19:15–21:3, 21:11–22:9, 48:6–49:12, 52:5–53:1; Ex. 2042; Ex. 2043; Ex. 2044; Ex. 2045; Ex. 2038 ¶¶ 150–152)) as overcoming the Specification’s need to expressly define Y as acting independently, to achieve Patent Owner’s proposed definition. Rather, we find that “enables reaction” could encompass instances where Y as a functional group works in concert with something else (e.g., another component of the linker or compound) to permit the reaction to occur. In this manner, Y would be assisting the reaction to occur, but not accomplishing the reaction alone or independently.
+
+We next turn to the testimony of the witnesses about the meaning of Y in the challenged claims. Patent Owner cites Dr. Tumey's testimony (see Resp. 20), which mirrors Patent Owner's arguments that "enables reaction" means that Y alone or independently causes the reaction with a cell-binding agent (Ex. 2038 ¶¶ 138–139), the claims recite distinct components, and Y does not require other components to enable the reaction (id. ¶ 140). This testimony is conclusory in nature and does not sufficiently explain why one of ordinary skill in the art would have understood Y's functional group to act alone or independently to enable the claimed reaction with a cell-binding
+
+agent. Therefore, we accord Dr. Tumey's testimony little weight for this issue. “Expert testimony that does not disclose the underlying facts or data on which the opinion is based is entitled to little or no weight.” 37 C.F.R. § 42.65(a); Ashland Oil, Inc. v. Delta Resins & Refractories, Inc., 776 F.2d 281, 294 (Fed. Cir. 1985) (“Opinion testimony rendered by experts must be given consideration, and while not controlling, generally is entitled to some weight. Lack of factual support for expert opinion going to factual determinations, however, may render the testimony of little probative value in a validity determination.” (citations omitted)); see also Xerox Corp. v. Bytemark, Inc., IPR2022-00624, Paper 9 (Aug. 24, 2022) (precedential) (holding declarant’s testimony is entitled to little weight when it contains an exact restatement of the petition’s unsupported, conclusory assertions without any additional supporting evidence or reasoning).
+
+Patent Owner also cites a portion of Dr. Chari's testimony as supporting its position. See Resp. 20, citing Ex. 1003 ¶¶ 25–26). Patent Owner alleges that Dr. Chari's statement "agrees" with Patent Owner's position that "[a] functional group that is unable to enable that reaction would not satisfy the claims' requirement of 'Y'". Id. Patent Owner's reading of Dr. Chari's explanatory background statements about Y as his complete opinion is a strained interpretation that contradicts. Dr. Chari's later – quite clear – testimony that Y can be a component that acts in concert with another, e.g., vinyl and sulfone, to enable the claimed reaction with a cell-binding agent. See, e.g., Ex. 1003 ¶ 83. Like Dr. Tumey's conclusory testimony above, paragraphs 25 and 26 of Dr. Chari's testimony, which provide background information restating the claim limitations, should be
+
+accorded little weight with regard to interpreting Y's enablement function as a whole.
+
+Specifically with regard to whether vinyl could act as limitation Y, both experts testified that vinyl could not act independently, and relied upon sulfone to enable connection of an antibody to a linker. When deposed and questioned about whether vinyl would enable linkage via a thioether bond, Petitioner's expert Dr. Chari stated, "No. Vinyl won't react unless there is some reactivating thing. It doesn't react by itself. You would have something else other than vinyl." Ex. 2037, 19:20–22. Dr. Chari further stated that vinyl needs to have something next to it, such as sulfone, so that vinyl is reactive. Id. at 20:1–7; 21:20–22:9.
+
+Dr. Chari's testimony comports with that of Dr. Tumey, who explains that a conjugation moiety, which is a “structure[] on the two terminal ends of the linker that enable[s] reaction with, or linkage to, a reactive site on the antibody or a reactive site on the drug . . . typically requires chemical functional groups that enable a reaction with the antibody or drug to form a covalent bond.” Ex. 2038 ¶ 59 (citing Ex. 2012, 523). Without such a moiety, “the conjugation reaction will not take place, a covalent bond will not form, and the linker will not attach to the antibody or drug, respectively.” Id. Dr. Tumey opines that Y, which “enables reaction” in claim 1, cannot be vinyl alone because “vinyl itself is not a reactive functional group that would enable the reaction,” because vinyl cannot serve as the conjugation moiety alone, whereas vinyl sulfone can. Id. ¶¶ 63–65; see also Ex. 2001 ¶¶ 51–53 (“vinyl requires the presence of sulfone or another strong electron withdrawing group linked to the vinyl to become reactive and enable a conjugation reaction with an antibody.”).
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+This testimony from Dr. Tumey, relied on by Patent Owner (see Resp. 20), mirrors Patent Owner's arguments that "enables reaction" means that Y alone or independently causes the reaction with a cell-binding agent (Ex. 2038 ¶¶ 138–139), the claims recite distinct components, and Y does not require other components to enable the reaction (id. ¶ 140). Like Patent Owner's arguments, Dr. Tumey's testimony is conclusory in nature and does not sufficiently explain why one of ordinary skill in the art would have understood Y's functional group to act alone or independently to enable the claimed reaction with a cell-binding agent. Therefore, we accord Dr. Tumey's testimony little weight for this issue. "Expert testimony that does not disclose the underlying facts or data on which the opinion is based is entitled to little or no weight." 37 C.F.R. § 42.65(a); Ashland Oil, Inc. v. Delta Resins & Refractories, Inc., 776 F.2d 281, 294 (Fed. Cir. 1985) ("Opinion testimony rendered by experts must be given consideration, and while not controlling, generally is entitled to some weight. Lack of factual support for expert opinion going to factual determinations, however, may render the testimony of little probative value in a validity determination." (citations omitted)); see also Xerox Corp. v. Bytemark, Inc., IPR2022-00624, Paper 9 (August 24, 2022) (designated: February 10, 2023) (holding declaration's testimony is entitled to little weight when it contains an exact restatement of the petition's unsupported, conclusory assertions without any additional supporting evidence or reasoning). The portion of Dr. Chari's testimony that Patent Owner points to as supporting its position (see Resp. 20) is an explanation that repeats claim terms without opining upon the meaning or scope of those terms. Ex. 1003 ¶¶ 25–26. For the
+
+same reasons, we accord this portion of Dr. Chari's testimony little weight with regard to interpreting Y.
+
+Finally, Patent Owner cites Formulas I and IV, one of which is recited by each of claims 1, 20, 29, and 30, and contends that the Formulas include the intervening structure $R_{1}$ between Y and Q as evidence that Y must act alone. Resp. 20–21. However, Patent Owner and its expert both acknowledge that the claims permit $R_{1}$ to be absent. Id.; Ex. 2038 ¶ 141.
+
+We view the issue of whether the claims themselves indicate that Y alone or independently enables reaction of a linker or compound with a cell-binding agent to be a close one. However, given the apparent nature of vinyl when backed by sulfone (such as in a vinyl sulfone group), which is utilized by the claimed compounds to enable the stated reactions, along with the lack of express claim language or supporting evidence indicating that Y should be construed according to Patent Owner's position, we do not view the language of the claims as clearly resolving the question of whether Y is limited to functional groups that enable the claimed reaction alone or independently. We thus to turn to other intrinsic evidence for additional insight. "In determining the meaning of the disputed claim limitation, we look principally to the intrinsic evidence of record, examining the claim language itself, the written description, and the prosecution history, if in evidence." DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–1317).
+
+We begin with the Specification of the '682 patent. As noted above, Patent Owner asserts that the '682 patent's Specification "consistently and repeatedly defines Y as 'a functional group that enables reaction' with a cell-binding agent," "describes the Y functional group as specifically attracted to and independently reactive with certain chemical groups present in a cell-binding agent and provides examples of reactive functional groups as Y,” does not otherwise redefine or alter the plain meaning of the claims. Resp. 22–23. Further, “none of the compounds from the patent’s figures relied upon by the Board in instituting review had vinyl alone as Y.” Id.
+
+The passages of the '682 patent's Specification cited by Patent Owner merely restate the claim language for Y or provide examples of functional groups that may function as Y without stating that Y must alone or independently enable the claimed reaction, as Patent Owner asserts. Ex. 1001, 3:12–13, 4:14–15, 8:21–22, 8:61–67, 13:51–63, 14:8–10. To the extent a cited example is a functional group that would enable the claimed reaction alone or independently, we do not view this as indicating that Y is limited to such embodiments, and we decline to import an embodiment from the Specification into the claims. 3M Innovative Props. v. Tredegar Corp., 725 F.3d at 1321 (“While we construe the claims in light of the specification, limitations discussed in the specification may not be read into the claims.”).
+
+As discussed above, the cited testimony by Dr. Tumey mirrors Patent Owner's arguments (Ex. 2038 ¶¶ 138–142) and Dr. Tumey's opinions on the issue of Y's independence are conclusory and entitled to little weight (supra 25–26). Dr. Tumey also considers a description regarding further examples and the guidance that one of ordinary skill in the art would be able to determine which linker to use based upon the reactivity of a functional group on a cell-binding agent before concluding that one of ordinary skill in the art "would understand that only reactive functional groups that enable reaction of the linker with a 'cell-binding agent' fall within the scope of Y and that Y is distinct from the other linker components" and "Y, not Q or T, is claimed and described in the specification as ‘a functional group that enables reaction.’” Ex. 2038 ¶ 144. This testimony is also conclusory in nature and largely relies upon the language of the claims to reason that Y’s functional group must enable the claimed reaction. As indicated above, this meaning does not appear to be clear from this language alone. Further, to the extent the cited examples include functional groups that enable the claimed reaction alone or independently, we discern no indication that Y should be limited to such functional groups and decline to import such embodiments into the claims.
+
+For these reasons, Patent Owner's arguments and cited evidence also do not indicate that the '682 Specification indicates that Y should be construed in the manner Patent Owner asserts.
+
+We next consider the prosecution history for the '682 patent. $^{19}$ We find the rejection of claim 20 during reexamination of the '682 patent most relevant on this issue. Specifically, the reexamination Examiner rejected claim 20 as anticipated by WO '497 and provided the following mapping of claim 20 to WO '497's compound:
+
+![](images/d077867549dae191abc70d4b8f41cb588e0572606082feddd53cff0ae34e9bf7.jpg)  
+Ex. 1019, 9–10. In this mapping, the Examiner alleged that the vinyl sulfone of WO '497's compound mapped to claim 20 such that its vinyl portion mapped to Y and sulfone portion to Q. Id.
+
+At the time of the rejection, claim 20 included the limitation “Y represents a functional group that enables reaction of the compound with a cell-binding agent.” Ex. 1019, 50. This is exactly the same limitation claim 20 had at re-issue, which is the same language as the Y limitations in claims 1, 29, and 30. Ex. 1002, 1:31–32, 4:12–13, 9:64–65, 11:2–3.
+
+The Applicant responded to the Examiner's rejection of claim 20 by repeating the Examiner's mapping of WO '497's compound to claim 20, as shown in the diagram below:
+
+![](images/290629329d96b9043cd10ce24faa8f8d90862afe51c8ce72ccb20034e3e98b61.jpg)  
+In the above formula of WO ‘497, the portion allegedly corresponding to Y in formula (IV) recited in claim 20 of the present patent, is a vinyl group (-=).
+
+Ex. 1019, 75. Reproduced above is the Examiner's annotated diagram indicating mapping of claim 20 to the WO '497 prior art. Id. When presented with this mapping of vinyl to Y and sulfone to Q, the Applicant did not take the position Patent Owner now asserts and argue that the vinyl of vinyl sulfone cannot be mapped to Y in this manner because vinyl is not a functional group that alone or independently “enables reaction,” as claim 20 recites.
+
+Instead, the Applicant amended claim 20 to avoid the Examiner's rejection over WO '497's compound and its vinyl sulfone group.
+
+Specifically, the Applicant added the following limitation to claim 20:
+
+when (i) O is $-\mathrm{S}(\mathrm{O}_{2})-$ , m is 1, and n is 0, or (ii) T is $-\mathrm{S}(\mathrm{O}_{2})-$ , n is 1 and m is 0, Y is an N-hydroxysuccinimide (NHS) ester, p-nitrophenyl ester, dinitrophenyl ester, pentafluorophenyl ester, pyridyldisulfide, nitropyridyldisulfide, maleimide, haloacetate, carboxylic acid chloride, hydrazide or hydroxylamine.
+
+Ex. 1019, 51. In its response to the rejection, the Applicant cited this newly added limitation after acknowledging the Examiner's mapping of WO '497's compound to claim 20:
+
+On the other hand, claim 20 of the present patent, as amended, recites that “when (i) Q is $-\mathrm{S}(\mathrm{O}_{2})-$ , m is 1, and n is 0,
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+or (ii) T is $-\mathrm{S}(\mathrm{O}_{2})-$ , n is 1 and m is 0, Y is an N-hydroxysuccinimide (NHS) ester, p-nitrophenyl ester, dinitrophenyl ester, pentafluorophenyl ester, pyridyldisulfide, nitropyridyldisulfide, maleimide, haloacetate, carboxylic acid chloride, hydrazide or hydroxylamine,” which does not encompass a vinyl group.
+
+## Id. at 75.
+
+In response to the Applicant's amendment, the Examiner stated in an Interview Summary “the proposed amendment to claim 20 now includes a proviso that excludes the instant Y variable from being represented by a vinyl moiety i.e., -CH=CH2. For these additional reasons, WO’497 is not relevant to the proposed claims.” Ex. 1019, 88 (emphasis added). The Examiner withdrew the rejection of claim 20 over WO ’497 in a subsequent Office Action. Id. at 94.
+
+We consider the patent's prosecution history as intrinsic evidence. As stated in the Institution Decision after remand, “the prosecution history can often inform the meaning of the claim language by demonstrating how the inventor understood the invention.” Inst. Dec. 18 (quoting Phillips, 415 F.3d at 1317). Further, “[t]he prosecution history, in particular, ‘may be critical in interpreting disputed claim terms,’” and “even where ‘prosecution history statements do not rise to the level of unmistakable disavowal, they do inform the claim construction.’” U. of Mass. v. L’Oréal S.A., 36 F.4th 1374, 1379 (Fed. Cir. 2022) (quoting Personalized Media Commc’ns, LLC v. Apple Inc., 952 F.3d 1336, 1340 (Fed. Cir. 2020)).
+
+We view this situation as analogous to the one in Qualcomm Inc. v. Intel Corp., No. 2023-1710, 2025 WL 289503 (Fed. Cir. Jan. 24, 2025) (non-precedential). In Qualcomm, the Federal Circuit determined that the specification of a patent challenged in an inter partes review did not provide adequate guidance for a disputed claim term. Id. at \*2. The Federal Circuit then turned to the prosecution history, stating “[p]rosecution history can illuminate a term’s meaning even when the patentee has not explicitly made relevant disclaimers.” Id. at \*3 (quoting Personalized Media Commc’ns, LLC, 952 F.3d at 1340). The Federal Circuit also stated that “[p]rosecution history can be telling about how a patentee expects a relevant artisan to understand a term, even if what a relevant artisan is expected to infer about a term’s scope points in the direction of broadening rather than narrowing.” Id. (citing Honeywell Inc. v. Victor Co. of Japan, 298 F.3d 1317, 1323–24 (Fed. Cir. 2002)). The Federal Circuit determined that the Office rejected the challenged patent claims as anticipated by a reference and, “[i]n doing so, the examiner mapped the claim phrase ‘hardware buffer’ onto the intermediate storage area of [the reference]—the same component of the same prior art [the petitioner] now relies on as teaching the hardware buffer limitation in its obviousness challenge to the patent.” Id.
+
+The patent owner in Qualcomm argued before the Federal Circuit that the reference’s storage area did not meet the claimed hardware buffer limitation. Qualcomm, 2025 WL 289503, at \*3. However, Patent Owner’s response to the examiner’s initial rejection “did not expressly or implicitly challenge the examiner’s characterization of the intermediate storage area as a hardware buffer; it instead modified the claims to make clear that the process its buffer performed was different from that of [the reference’s] intermediate storage area.” Id. The Federal Circuit stated that,
+
+[a]lthough silence on a point that arises during patent prosecution may not often be properly given significance . . . , in this case the silence is telling. [The patent owner] did not even hint, let alone declare, that the [the reference's] intermediate storage area— undisputedly allocated at runtime—was outside its claimed ‘hardware buffer.’”
+
+Id. (citing 3M Innovative Props. V, Avery Dennison Corp., 350 F.3d at 1373–74). $^{20}$
+
+Here, the prosecution history of the '682 patent, particularly the portion regarding the rejection of claim 20 during reexamination, resolves this dispute regarding the scope of Y. When faced with vinyl being mapped to Y in view of a rejection over WO '497's compound, the Applicant did not express disagreement with the Examiner's mapping of WO '497's vinyl to Y. Ex. 1019, 75. Nor did the Applicant assert that Y alone could not be a functional group that enables the claimed reaction, as Patent Owner now does during this proceeding. Id. Instead, the Applicant amended claim 20 to specifically exclude the vinyl of WO '497's vinyl sulfone and argued that the amendment overcame the rejection. Id. at 51, 75. These comments by the Examiner and the Applicant, in view of the rejection of claim 20 as well as the Applicant's amendment, convey that the Applicant and Examiner understood that the vinyl of vinyl sulfone could be mapped to Y and sulfone could be mapped to Q, thus satisfying claim 20's limitation that Y's functional group "enables reaction" of a compound with a cell-binding agent. As noted above, claims 1, 29, and 30 include the same limitation.
+
+The Applicant's silence in response to the Examiner's characterization that vinyl functions as Y is telling. Qualcomm, 2025 WL 289503, at \*3.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+Between the Examiner's understanding that vinyl functions as Y and the Applicant's lack of disagreement and amendment of claim 20 to specifically avoid vinyl, the prosecution history is particularly informative of how one of ordinary skill in the art would have understood the scope of limitation Y. Id. In view of this intrinsic evidence, we construe Y of claims 1, 20, and 29–30 as encompassing vinyl.
+
+“In determining the meaning of the disputed claim limitation, we look principally to the intrinsic evidence of record, examining the claim language itself, the written description, and the prosecution history, if in evidence.” DePuy Spine, Inc., 469 F.3d at 1014 (citing Phillips, 415 F.3d at 1312–17). Extrinsic evidence is “less significant than the intrinsic record in determining ‘the legally operative meaning of claim language.’” Phillips, 415 F.3d at 1317 (quoting C.R. Bard, Inc. v. U.S. Surgical Corp., 388 F.3d 858, 862 (Fed. Cir. 2004)). “In most situations, an analysis of the intrinsic evidence alone will resolve any ambiguity in a disputed claim term. In such circumstances, it is improper to rely on extrinsic evidence.” Vitronics Corp. v. Conceptronic, Inc., 90 F.3d 1576, 1583 (Fed. Cir. 1996). For the reasons above, the intrinsic evidence in the record, particularly the ’682 patent’s prosecution history, resolves the meaning for the term Y. In particular, two of Applicant’s actions contradict Patent Owner’s arguments regarding elements of a claim being distinct from one another: 1) Applicant not expressly defining Y as acting alone as a functional group; and 2) the ’682 patent’s prosecution history, in which Applicant did not argue against the Examiner’s mapping of Y as vinyl as discussed above. As a result, we do
+
+not find Patent Owner's arguments on extrinsic evidence persuasive. $^{21}$ (See Resp. 20–21, 26–28 (citing Ex. 2037, 10:5–11, 19:15–21:3, 21:11–22:9, 48:6–49:12, 52:5–53:1; Ex. 2042; Ex. 2043; Ex. 2044; Ex. 2045; Ex. 2038 ¶¶ 150–152); Sur-reply 3–6). In view of the intrinsic evidence, we construe Y of claims 1, 20, and 29–30 as encompassing vinyl.
+
+## 2. “cell-binding agent”
+
+In the Institution Decision after remand, we considered the parties' arguments regarding the term “cell-binding agent” and agreed with Patent Owner’s construction that a “cell-binding agent” should be construed as “[a] molecule that binds to, complexes with or reacts with a moiety of a cell population sought to be therapeutically or otherwise biologically modified” in view of the guidance provided by the ’682 patent. Inst. Dec. 19–21; Ex. 1001, 14:42–44. Patent Owner contends that we should maintain this construction, which would construe the term “as the patentee defined it in the specification.” Resp. 28 (citing Ex. 1001, 14:39–44; Ex. 2038 ¶¶ 153–157; Ex. 2037, 51:24–52:4).
+
+Patent Owner further argues that “[t]he inventor described the ‘cell-binding agent’ based on its ability to interact with specific cell-associated molecules (e.g., ‘a moiety of a cell population’) that are intended to be targeted with the claimed conjugates (e.g., ‘sought to be therapeutically or otherwise biologically modified’).” Resp. 28 (citing Ex. 1001, 14:43–15:32). Patent Owner further asserts that “the specification specifies that the cell-binding agent-drug conjugates of the ‘present invention’ target specific cell populations including for therapeutic purposes.” Id. at 28–29 (citing Ex. 1001, 1:7–9, 14:39–44).
+
+Patent Owner contends that “a ‘cell-binding agent’ should not be interpreted, as Petitioner suggests, to encompass any molecule that could potentially bind to cells under highly artificial conditions, such as those used in Straus.” Resp. 29 (citing Ex. 2038 ¶¶ 156–157). According to Patent Owner, “Straus discloses ‘unusual binding sites’ on cells that were previously dried and chemically treated with cold methanol, for an enzyme (HRP) that is used in the art as a reporter and not once as a cell-targeting agent as contemplated by the ’682 Patent.” Id. (citing Ex. 2038 ¶¶ 82–85, 157).
+
+Petitioner asserts that the “alleged definition in the specification . . . is not a definition of ‘cell-binding agent’ as used in the claims.” Reply 12 (citing Ex. 1001, 14:39–44; Inst. Dec. 19–21; Resp. 28). Specifically, Petitioner argues that the cited passage of the specification “is directed to a ‘cell-binding molecule,’ not cell-binding agent.” Id. According to Petitioner, “[a] cell-binding agent may be a part of the overall molecule, but when considered in the context of the ’682 patent’s Formula II, for example, the cell-binding agent is not itself a ‘molecule.’” Id. (citing Ex. 1063, 56:8–12). Petitioner argues that the cited passage “indicates that the cell-binding molecule comprises the conjugates and modified cell-binding agents of the invention, which refers to the reaction products of cell-binding agents with other moieties such as the hydrophilic linkers of Formula I and/or a drug to form the conjugates/modified cell-binding agents of Formulas II-IV.” Id. (emphasis omitted).
+
+Petitioner further contends that “the purported definition refers to cell populations ‘sought to be therapeutically or otherwise biologically modified,’” which regards a user’s intention or intended function of a drug linked to a conjugate, not an intended effect of the cell-binding agent. Reply 13. In view of this, Petitioner argues that, to the extent this term requires construction, “it should be construed in accordance with the claim language itself: an agent that binds to cells.” Id.
+
+Patent Owner responds that “[t]he specification’s lexicography governs the construction of ‘cell-binding agent’” and Petitioner’s “attempt to distinguish between ‘cell-binding molecule’ and ‘cell-binding agent’ misses the point.” Sur-reply 11 (citing Resp. 28–29; Ex. 1001, 14:39–44). According to Patent Owner, the Specification provides a clear, consistent definition and Petitioner’s proposed construction “would render this claim term overly broad and disconnected from the context of the ’682 patent.” Id. (citing Ex. 1001, 14:39–44).
+
+We agree with Patent Owner's position that the intrinsic evidence provided by the '682 patent's Specification provides the best guidance for interpreting the term "cell-binding agent." We therefore maintain our determination that "cell-binding agent" should be construed as "[a] molecule that binds to, complexes with or reacts with a moiety of a cell population sought to be therapeutically or otherwise biologically modified." Ex. 1001, 14:42–44. However, we note that even if we were to adopt Petitioner's
+
+construction of “an agent that binds cells,” this adoption would not alter the outcome of our decision on the patentability of the claims.
+
+## D. Ground 3 — Alleged Obviousness over Singh or Singh in view of Harris
+
+As it is dispositive to many challenged claims, we first consider Petitioner's challenge to claims 1–8, 10–12, 14–17, 20, 21, 24, 26, and 29–31 over Singh or Singh in view of Harris. Pet. 44–70.
+
+## 1. Singh (Ex. 1008)
+
+Singh is titled “Potent Conjugates and Hydrophilic Linkers.” Ex. 1008, code (54). Singh discloses modifying linkers used to bind drugs to cell binding agents by incorporating a PEG spacer. Id. at code (57, Abstract). Singh teaches a compound that includes a PEG spacer, a drug, and an aliphatic, aromatic, or heterocyclic group attached to the drug via a covalent bond (such as a thioether or amide bond), and “a reactive functionality that can form an amide or a thioether bond with a cell-binding agent.” Id. ¶¶ 9, 14. Singh describes a reactive functionality as “an amine-, a thiol- or a hydroxyl-reactive functionality,” and states, “[i]n other words, the reactive functionality can react with amine, sulfhydryl(thiol), or hydroxyl group present on cell-binding agent.” Id. ¶ 134. Singh further explains that a thiol-reactive functionality “could be a maleimide, a haloacetamide, or a vinyl sulfone to give a thioether bond.” Id.
+
+## 2. Independent claim 1
+
+Petitioner argues that Singh teaches bifunctional PEG cross-linkers that contain “each element of claim 1, save Q and T.” Pet. 44. Petitioner cites particular examples of Singh’s bifunctional PEG cross-linkers, which Petitioner summarizes in Table A1 (reproduced below). Id. at 13.
+
+Table A1
+
+<table><tr><td>Entry</td><td>Bifunctional PEG Cross-linkers</td><td>Figs.</td></tr><tr><td>1</td><td><img src="images/d010b0cc742dd97d347ec65a57bd0c6e1c1f46558f189c32197611d9d8cd978e.jpg"/></td><td>4, 8</td></tr><tr><td>2</td><td><img src="images/2567d168b40f72668b90639dee84b9515ba89f2e877cfb0fce02ebae388b38f1.jpg"/></td><td>6B, 12</td></tr><tr><td>3</td><td></td><td>10</td></tr><tr><td>4</td><td></td><td>13, 15</td></tr><tr><td>5</td><td></td><td>16B, 18</td></tr></table>
+
+Pet. 13. Table A1, reproduced above, shows examples of Singh's bifunctional PEG cross-linkers.  
+Petitioner provides Table C1, reproduced below, to illustrate how Singh's PEG cross-linkers meet the elements of claim 1, except for Q and T.
+
+Table C1
+
+<table><tr><td></td><td colspan="5">Singh&#x27;s Compounds (Table A1)</td></tr><tr><td rowspan="2">&#x27;682 (I)</td><td colspan="2">1</td><td rowspan="2">2</td><td colspan="2">3</td></tr><tr><td>(a)</td><td>(b)</td><td>(a)</td><td>(b)</td></tr><tr><td>Y</td><td><img src="images/b1213a704b2400195ae85175c692aab55cbe9f128d4974c8011955852cd03c8d.jpg"/></td><td><img src="images/bf6c9c29469daf6de88e55558c3cc424c62b975ca7f3ed01d7be149bcd093f62.jpg"/></td><td><img src="images/e27d42855e5e1f35698cb7cf886fd6ad192cf34edaf89e544dd776f6c32194f6.jpg"/></td><td><img src="images/cb1ec82662295ff581a88f51697380c5beb1fd97288c56c62a706836a85ac664.jpg"/></td><td><img src="images/a8f6eb9673faa0b845b216861e42f8fbdd477d98dc258831ecd33d9dd2e73787.jpg"/></td></tr><tr><td>Z</td><td><img src="images/aa17316f7e60dea0bd48e572c46f9696a606afe052e9d9148dc73c13f5aa2238.jpg"/></td><td><img src="images/ce07effd93b1366557815753dde86e90bbaf10e8c446ad59c9883e23851a2e05.jpg"/></td><td><img src="images/326d9d0a9f75c4e5b2ee01a13e68a65b419121e558228a4ec888a32760e3e7dc.jpg"/></td><td><img src="images/483c2c3315c0130cda7b2a3c4ee2c66e7be6dabaa5847da581bcc8e064b82299.jpg"/></td><td><img src="images/ed4bb078261cf35b77ee445a54dbdf1810d6a5bf4898cb8e3295047cee42ef27.jpg"/></td></tr><tr><td>R1</td><td>absent</td><td>absent</td><td>absent</td><td>absent</td><td>absent</td></tr><tr><td>R2</td><td><img src="images/e795a59617b563b017a25bc50e301083743b0e15245718816ef055431260158b.jpg"/></td><td> $\text{f}^{0}\text{~}_{\text{n}}$ </td><td> $\text{f}^{0}\text{~}_{\text{n}}$ </td><td><img src="images/f32a521161508515e77b6e3c13d59908e01c67333b3655ad0626791fa5f65eec.jpg"/></td><td> $\text{f}^{0}\text{~}_{\text{n}}$ </td></tr><tr><td>p</td><td>n=1-2000, 1-100, 1-14, 1-4</td><td>n=1-2000, 1-100, 1-14, 1-4</td><td>n=1-14</td><td>n=1-2000, 1-100, 1-14, 1-4</td><td>n=1-2000, 1-100, 1-14, 1-4</td></tr><tr><td>R3</td><td>absent</td><td>absent</td><td>absent</td><td>absent</td><td>absent</td></tr><tr><td>R4</td><td>absent</td><td> $\text{f}^{0}\text{~}_{\text{n}}$ </td><td>absent</td><td>absent</td><td> $\text{f}^{0}\text{~}_{\text{n}}$ </td></tr></table>
+
+Table C1 (continued)
+
+<table><tr><td></td><td colspan="4">Singh&#x27;s Compounds (Table A1)</td></tr><tr><td rowspan="2">&#x27;682(I)</td><td colspan="2">4</td><td colspan="2">5</td></tr><tr><td>(a)</td><td>(b)</td><td>(a)</td><td>(b)</td></tr><tr><td>Y</td><td><img src="images/3a9db0b8b0b0c793c436b25d145f311859479dcccf2ed84306bb85ef0f411808.jpg"/></td><td><img src="images/17a4247fb2906c8579de8e6412708f46bc773b3a5a4010bbd35fb2373fda02e8.jpg"/></td><td><img src="images/878d888875acf3e13ca6bf5829a71f77d7ee9d3c83f0b66f271f372667c85402.jpg"/></td><td><img src="images/79c3db70e5dc50edd5b8c15e641e95b4ce4cf4d86c2f2a3addc1eecc43c5d6af.jpg"/></td></tr><tr><td>Z</td><td><img src="images/38712d9cffe7f818b4f50f649075330a1036a2de09208e7878fc301b1a8f7a30.jpg"/></td><td><img src="images/f042fcc9814d8248734db3bc643ed8a1ae0f4f0baa1ca632ff24b08eaa9834a6.jpg"/></td><td><img src="images/e3f4ffef08841e01a7d887b042169efffd8bd1e16d06e3ab09dbbc397d5ead98.jpg"/></td><td><img src="images/606ce1bff94722f12c433884baac157ad479d8c63fa2ab5b06bfac92f403bf39.jpg"/></td></tr><tr><td>R1</td><td>absent</td><td>absent</td><td>absent</td><td>absent</td></tr><tr><td>R2</td><td><img src="images/f15dfea45f42329179465f8120198a4c09e9f89eda2fca424eb4bcf271b19738.jpg"/></td><td>H</td><td>n</td><td><img src="images/a6c1630545d972140a955c18ddad22f3245c98db04da1baaa09c429052585f27.jpg"/></td></tr><tr><td>p</td><td>n=1-2000, 1-100, 1-14, 1-4</td><td>n=1-2000, 1-100, 1-14, 1-4</td><td>n=1-2000, 1-100, 1-14, 1-4</td><td>n=1-2000, 1-100, 1-14, 1-4</td></tr><tr><td>R3</td><td>absent</td><td>absent</td><td>absent</td><td>absent</td></tr><tr><td>R4</td><td><img src="images/53885058b1b5533ffe1457d51222418a4754afb0eb11b3865fa4b82e2dcb9c90.jpg"/></td><td><img src="images/224896752ffaacfc3a4b23ab3b860572512520bd826e629fec91c8f2e1a830a9.jpg"/></td><td><img src="images/6ac16f27a0e3e35a97e2647ac8e913bdf21c0f27c32d2d2bca38a471d16dd9ae.jpg"/></td><td>n</td></tr></table>
+
+Pet. 46–47. Table C1, reproduced above, illustrates Petitioner's view of how Singh's PEG cross-linkers meet the elements of claim 1, except for Q and T.
+
+As in our Decision on Institution after remand, we select, as representative of Petitioner's ground over Singh or Singh in view of Harris, compound 4 (see Tables A1 and C1 above). We first summarize Petitioner's arguments regarding how the teachings of Singh or Singh in view of Harris relative to compound 4 teach the limitations of claim 1.
+
+With regard to moiety Y, Petitioner argues that Singh’s “cross linkers include a reactive functionality on each end of the linker,” namely a maleimide, iodo- or bromo-acetamide, or NHS ester group. Pet. 45 (citing Ex. 1008 ¶¶ 134, 136, Figs. 4, 8, 10, 13, 15, 16A). Petitioner asserts that “[t]hese functional groups ‘enable reaction of the hydrophilic linker with a cell-binding agent’ and therefore meet the definition of Y in formula (I),” as claim 1 recites. Id. (citing Ex. 1008 ¶ 136; Ex. 1003 ¶ 119). When describing Singh, Petitioner further argues that Singh describes PEG cross-linkers in which “a drug ‘D’ is attached at one end of a PEG chain and a reactive functionality ‘Z’ is attached at the other end” and that the reactive functionality Z includes ““thiol-reactive functionality…that could be a maleimide, haloacetamide, or a vinyl sulfone to form a thioether bond.”” Id. at 11 (citing Ex. 1008 ¶¶ 14, 16, 80, 90, 134, 136, Figs. 4, 13; Ex. 1003 ¶¶ 62–63) (alteration in original).
+
+Petitioner contends that the reactive functionality at the other end of Singh's cross-linkers (a pyridyldisulfide, maleimide, iodo- or bromoacetamide, or NHS ester group) enables linkage to a cytotoxic drug via a disulfide, thioether, or amide bond, as claim 1 recites for moiety Z. Pet. 45–46 (citing Ex. 1003 ¶¶ 120, 136, Figs. 4, 6B, 8, 12–13, 15, 16B).
+
+With regard to claim 1's Q and T, Petitioner asserts:
+
+Although Singh's expressly shown PEG cross-linkers lack sulfonyl groups, Singh expressly suggests the use of vinyl sulfones as a thiol-reactive functionality and teaches their equivalence to maleimide and haloacetamides for this purpose. EX1008, ¶[0134]; EX1003, ¶124. Therefore, a POSA would have been motivated to replace one or both of the reactive functionalities in Singh's bifunctional PEG cross-linkers with a vinyl sulfone group, resulting in Q or Q and T each being a sulfone group, and Y, or Y and Z, each being a vinyl group. EX1003, ¶125. Such substitutions, as expressly taught by Singh, would thereby fully satisfy claim 1's formula I. Id.
+
+## Pet. 48–49.
+
+In addition, Petitioner argues that Harris discloses a basic structure encompassing hydrophilic PEG derivatives comprising “one or two sulfone moieties that are useful for conjugating two biologically-active molecules (e.g., proteins, pharmaceuticals), where at least one of the biologically-active molecules has a reactive thiol moiety.” Pet. 41–42, 49 (citing Ex. 1007, $^{22}$ claims 33, 34, 3:28–35, 16:34–17:5, 18:5–30, 19:10–15, 19:24–30, Abstract; Ex. 1003 ¶ 126) (emphasis omitted).
+
+Petitioner argues that the ordinarily skilled artisan would have found it obvious to modify Singh's linker in view of Harris's teachings "to incorporate" vinyl sulfones and that the artisan would have appreciated the advantages provided by Harris's sulfonyl-containing PEG derivatives, including their high selectivity for coupling with thiol moieties on molecules, and their high solubility and stability in water. Pet. 49–51 (citing Ex. 1007, 6:8–15, 19:37–37, 26:11–15, 28:29–34; Ex. 1003 ¶¶ 128–129). Petitioner further contends that one of ordinary skill in the art would have expected such a combination to successfully yield hydrophilic linkers with desirable functional properties. Id. at 51 (citing Ex. 1008 ¶ 134, Figs. 50–51; Ex. 1007, 21:26–28:28; Ex. 1003 ¶ 130).
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+According to Petitioner:
+
+Thus, modifying the PEG-containing ADC linkers of Singh to include vinyl sulfones or related sulfonyl derivatives as a reactive functionality that can form a thioether bond with a cell-binding agent or drug would be expected to have comparable, if not higher, hydrophilicity, and such conjugates would be expected to exhibit the same advantageous properties (enhanced potency, less precipitation) already recognized by Singh for its ADC linkers.
+
+Pet. 52 (citing Ex. 1003 ¶ 131) (emphasis omitted). As noted above, Petitioner argues that Singh “expressly suggests the use of vinyl sulfones as a thiol-reactive functionality and teaches their equivalence to maleimide and haloacetamides for this purpose.” Id. at 48 (citing Ex. 1008 ¶ 134; Ex. 1003 ¶ 124). These asserted modifications, Petitioner argues, would provide the Q and/or T moieties of claim 1 that Singh’s compound 4 lacks prior to the proposed modification.
+
+Patent Owner asserts $^{23}$ that Petitioner's challenges for this ground are based on the same misunderstanding of the claims and art as the first two grounds. Resp. 60 (citing Ex. 2038 ¶¶ 225–242). Specifically, Patent Owner contends that “Petitioner misreads the challenged claims and the art and improperly maps a single vinyl sulfone reactive group purportedly taught by Singh and/or Harris onto both Y and Q.” Id. at 61–62 (citing Ex. 2038 ¶¶ 228–232). Patent Owner argues “Petitioner argues that Singh
+
+‘expressly suggests the use of vinyl sulfones as a thiol-reactive functionality and teaches their equivalence to maleimide and haloacetamides for this purpose’” and “[a]ccording to Petitioner, ‘a POSA would have been motivated to replace one or both of the reactive functionalities in Singh’s bifunctional PEG cross-linkers with a vinyl sulfone group, resulting in Q or Q and T each being a sulfone group, and Y, or Y and Z, each being a vinyl group.’” Id. at 62–63 (citing Pet. 48–49). Patent Owner asserts “[t]his mapping of vinyl sulfone should be rejected” because the vinyl of vinyl sulfone lacks the capability to alone or independently enable the claimed reaction for Y, “Petitioner does not argue, nor does Singh or Harris teach, that vinyl alone has this capability,” and “Petitioner’s mapping strategy is contrary to the meaning of the ‘Y’ claim term and flouts the principle that a single prior-art structure should not be mapped to multiple separate, discrete claim elements.” Id. at 63 (citing Pet. 48; Ex. 2037, 22:1–3; Ex. 2038 ¶¶ 228–232). Patent Owner presents similar arguments in its Sur-reply regarding the mapping of vinyl of a vinyl sulfone group to claim 1’s Y. Sur-reply 22–25.
+
+Similarly, Patent Owner asserts that “Petitioner argues that the vinyl group is Y. . . [b]ut Petitioner fails to identify any motivation whatsoever to add vinyl alone to a linker to serve as a separate, distinct functional group that enables the linker to react with a cell-binding agent.” Resp. 65 (citing Pet. 49; Ex. 2038 ¶ 236). Patent Owner argues that Petitioner and its expert admit that vinyl cannot enable reaction because “[t]he sulfone in the vinyl sulfone is what enables the reaction” and “[a]dding vinyl alone would be ineffective as Petitioner and its expert acknowledge.” Id. (citing Ex. 2037, 22:1–3).
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+As discussed above in our claim construction section, we construe claim 1's Y as encompassing the vinyl of vinyl sulfone. Therefore, we do not agree with Patent Owner's arguments that it is incorrect to map vinyl from a vinyl sulfone group to Y. The testimony by Dr. Tumey that addresses Singh's teachings is similar to his testimony we address above in connection with construction of the claim term "Y" as to why it would be incorrect to map vinyl from a vinyl sulfone group to Y without independent analysis or support, and we therefore accord it little weight in view of our construction of Y and Singh's teaching of equivalence between maleimide and vinyl sulfone, which we discuss below. See Ex. 2038 ¶¶ 225, 227–232, 236.
+
+Petitioner, in Table C1, identifies “how the bifunctional PEG cross-linkers of Singh meet each element of formula (I) in claim 1 of the ’682 patent aside from Q and T” (see Pet. 46–47 (Table C1)), and we conclude that Petitioner has established this showing by a preponderance of the evidence. With regard to limitations Q and T, Petitioner asserts that Singh teaches equivalence between compound 4’s maleimide group (which Petitioner maps to claim 1’s Y and Z in Table C1) and vinyl sulfone and argues that the ordinarily skilled artisan would have found it obvious to replace one or more of Singh’s reactive functionalities with vinyl sulfone, resulting in Q or Q and T being sulfone and Y or Y and Z being vinyl. Pet. 48–49 (citing Ex. 1008 ¶ 134).
+
+Singh teaches that its “reactive functionality” refers to functionalities that are amine-, thiol-, or hydroxyl-reactive. Ex. 1008 ¶ 134. Specifically, Singh teaches that maleimide, haloacetamide, and vinyl sulfone are thiol-reactive and form a thioether bond. Id. Thus, Singh teaches the equivalence of maleimides and vinyl sulfone as reactive functionalities that are thiol-reactive and form thioether bonds. In such a situation of equivalence, an “[e]xpress suggestion to substitute one equivalent for another need not be present to render such substitution obvious.” In re Fout, 675 F.2d 297, 301 (CCPA 1982). See also KSR, 550 U.S. at 417 (“If a person of ordinary skill can implement a predictable variation, § 103 likely bars its patentability”).
+
+At the institution stage, it was unclear whether Petitioner's position was that the ordinarily skilled artisan would have been motivated to substitute vinyl sulfone for at least one maleimide or to modify Singh's linker to somehow “incorporate” vinyl sulfone. See Pet. 48–49. Petitioner has made its position clear at this stage of the proceeding that its challenge based on Singh involves substituting vinyl sulfone for Singh's maleimide, thereby removing maleimide entirely from the compound. Reply 26–27; Tr. 22:7–26.
+
+After substituting vinyl sulfone for compound 4's maleimide, Petitioner maps vinyl to claim 1's Y and sulfone to claim 1's Q. See Pet. 49. This mapping satisfies claim 1's Y because Singh's teachings indicate that a thiol-reactive functionality like vinyl sulfone would form a thioether bond with a cell-binding agent. Id. at 11 (citing, e.g., Ex. 1008 ¶¶ 14, 136). In other words, the vinyl of the vinyl sulfone would map to Y and the sulfone would map to Q of claim 1.
+
+Claim 1 recites that “Q and T are either $-\mathrm{P}(=\mathrm{O})(\mathrm{OM})-$ , or $-\mathrm{S}(\mathrm{O}2)-$ , or $-\mathrm{S}(\mathrm{O})-$ ” and “when Q or T is $-\mathrm{S}(\mathrm{O}2)-$ , m and n are not 0.” Ex. 1002, 1:33–34, 1:38–39. Therefore, substituting vinyl sulfone for maleimide results in Q being sulfone ( $SO_{2}$ ), which means n is not zero and therefore must be a T, which claim 1 limits to phosphinate, sulfone, or sulfoxide.
+
+IPR2022-01531
+
+Patent 10,131,682 C1
+
+As noted above, Petitioner proposes replacing “one or both of the reactive functionalities” in Singh’s linker with vinyl sulfone in view of Singh’s teachings. Pet. 48–49. In the instance where vinyl sulfone is substituted for both of compound 4’s maleimides, the result is a vinyl sulfone group at each end of compound 4’s linker, with a first vinyl meeting limitation Y, a first sulfone meeting limitation Q, a second sulfone meeting limitation T, and a second vinyl meeting limitation Z. Petitioner’s arguments and evidence also establish that mapping vinyl sulfone to T and Z satisfies these limitations because Singh teaches that maytansinoid drugs may contain a thiol, which would react with thiol-reactive vinyl sulfone. Id. at 11, 45 (citing Ex. 1008 ¶¶ 134, 136).
+
+For these reasons, Petitioner demonstrates by a preponderance of the evidence that claim 1 would have been obvious and is thus unpatentable over Singh alone. Regardless, we also address Petitioner's challenge over Singh in view of Harris and Patent Owner's responsive arguments. For that challenge, Patent Owner cites its arguments for Petitioner's ground over Harris alone. Resp. 63–64 (citing Ex. 2038 ¶ 233). The ground over Harris alone regards both anticipation and obviousness so we interpret Patent Owner's citation to its arguments as referring to those regarding obviousness based on Harris.
+
+Patent Owner contends that Harris is nonanalogous art as it is not “from the same field of endeavor as the ’682 patent’s inventions” and “does not relate to the field of therapeutic drug conjugates.” Resp. 52–53. Patent Owner argues that Harris instead “relates to active derivatives of poly(ethylene glycol) and related hydrophilic polymers and to methods for their synthesis for use in modifying the characteristics of surfaces and
+
+molecules” and that “Harris’s disclosure about pharmaceuticals is general and non-specific, where it states that ‘almost any substance could be modified.’” Id. at 52 (citing Ex. 2038 ¶¶ 202–203; Ex. 1007, 1:2–6, 18:34–19:2) (emphasis omitted). Patent Owner also asserts that Harris is not “reasonably pertinent to the problem facing the ’682 patent’s inventor” because the ’682 patent describes a need to improve methods of conjugating drugs/cytotoxic drugs to carriers that minimize aggregation and allow for the highest drug loading possible via a hydrophilic cross-linker and “Harris does not teach therapeutic linkers, much less linkers that solve the identified need, [such that Harris] is not reasonably pertinent to this problem.” Id. at 52–53 (citing Ex. 1001, 2:45–49; Ex. 2038 ¶ 203).
+
+According to Petitioner, the '682 patent focuses on hydrophilic linkers that can be used to conjugate drugs and cell-binding agents. Id. at 10 (citing Ex. 1001, 1:7–9, 14:45–15:11). Petitioner asserts that Harris “is within the same field of endeavor: ‘PEG/sulfone derivatives as useful for conjugating two different biologically-active moieties such as proteins [and] pharmaceuticals’” and “is pertinent to the problem addressed via its teaching of sulfone linkers having infinite water solubility that bring otherwise insoluble molecules into solution.” Id. (citing Pet. 6) (alteration in original). During the trial phase, Petitioner added that “Harris specifically teaches ‘dumbbell structures’ that link pharmaceuticals to proteins” and therefore is within the '682 patent’s field of endeavor. Reply 24 (citing Ex. 1007, 16:34–17:8, 18:31–19:1). Petitioner also asserts that Harris is reasonably pertinent to the problem sought to be addressed by the '682 patent. Id. at 25.
+
+Patent Owner's arguments are not persuasive. The field of endeavor test involves identifying explanations of the invention's subject matter in the patent, “including the embodiments, function, and structure of the claimed invention.” In re Bigio, 381 F.3d 1320, 1325 (Fed. Cir. 2004). As stated in our Institution Decision after remand, the ’682 patent relates to hydrophilic linkers for the conjugation of a drug, such as a cytotoxic agent to a biological molecule. Ex. 1001, 1:7–9. Harris relates to water soluble and hydrolytically stable derivatives of PEG polymers and related hydrophilic polymers having one or more active sulfone moieties, which are “highly selective for coupling with thiol moieties instead of amino moieties on molecules and on surfaces.” Ex. 1007, 6:8–14; Pet. 6.
+
+Moreover, Harris further teaches that “[p]harmaceuticals from aspirin to penicillin can be usefully modified by attachment of active sulfone polymer derivatives if these pharmaceuticals are modified to contain thiol moieties.” Ex. 1007, 6:28–31. Harris also describes attachment of its PEG vinyl sulfone to a protein. Id. at 28:17–21. Harris therefore presents options for stable, hydrophilic polymers that could be optionally coupled to molecules such as carriers for delivery of a cytotoxic agent by modification to add a thiol moiety. We credit Harris’s own statements about its linkers and their uses, and assign these statements greater weight than the testimony by Dr. Tumey that Patent Owner cites, which does not address the portions of Harris’s disclosure noted herein. On this record, we agree that Harris is in the same field of endeavor as the ’682 patent.
+
+Patent Owner also contends that Petitioner's obviousness analysis is deficient, arguing:
+
+For example, Petitioner does not identify any reason from the prior art to use sulfones (or other claimed spacer structures) as spacer elements. Besides pointing to sulfone-based conjugation moieties of the prior art, Petitioner has not identified any motivation to incorporate sulfone groups (or any other claimed
+
+Q/T groups) as spacer elements in the linker. [Ex. 2038 ¶ 216]. In fact, Petitioner's expert admitted there would be no reason to add sulfone-based spacers when PEG was already present. EX2037, 39:14-40:5, 41:16-42:2. Petitioner has failed to carry its burden to explain why a POSA would have been motivated to combine prior-art elements as claimed. EX2038, ¶216; Hopkins, Paper 9 at 17 (“It is important to identify a reason that would have prompted a [POSA] to combine the elements in the way the claimed invention does.”).
+
+Resp. 57 (emphases omitted, alteration in original).
+
+Patent Owner further contends that “Petitioner admits that ‘Harris’s vinyl sulfone-containing PEG derivatives are nearly identical to the bifunctional PEG cross-linkers of Singh and serve the same purpose’” but “Petitioner does not argue why it would be obvious to modify the Singh structure with the ‘nearly identical’ Harris structure, or what additional benefits that including Harris’s active vinyl sulfone groups (conjugation moieties) would confer to a Singh linker that already comprises vinyl sulfone (conjugation moieties).” Resp. 64 (citing Pet. 49; Ex. 2038 ¶ 234) (emphasis omitted); see also Sur-reply 23. Patent Owner argues that “even accepting Petitioner’s characterization of benefits of using vinyl sulfone in linkers, Petitioner fails to show any motivation to achieve the claimed invention.” Id. (citing Ex. 2038 ¶¶ 235–236). Patent Owner also contends that vinyl sulfone was recognized as a reactive functional group and Petitioner fails to articulate any motivation in Singh or Harris to add sulfonyl groups to another part of Singh’s linker to achieve Q or T. Id. at 64–65 (citing Ex. 2038 ¶ 235).
+
+Petitioner asserts that one of ordinary skill in the art would have been “motivated to incorporate vinyl sulfones into Singh’s bifunctional PEG cross-linkers (providing Q and/or T) and have reasonably expected success
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+in doing so in view of Harris.” Pet. 49. Petitioner contends that Harris’s basic structure R-(OCH₂CH₂)n-Y includes one or two sulfone moieties “useful for conjugating two biologically-active molecules (e.g., proteins, pharmaceuticals), where at least one of the biologically-active molecules has a reactive thiol moiety.” Id. (citing Ex. 1007, 3:28–35, 16:34–17:5, 18:5–30, 19:10–15, 19:24–30, claims 33–34, code (57, Abstract); Ex. 1003 ¶ 126) (emphasis omitted). In view of this disclosure, Petitioner argues that one of ordinary skill in the art “would have appreciated that Harris’s vinyl sulfone-containing PEG derivatives are nearly identical to the bifunctional PEG cross-linkers of Singh and serve the same purpose: to link two biologically-active molecules with a hydrophilic linker that imparts good water solubility to the resulting conjugate.” Id. (citing Ex. 1003 ¶ 127).
+
+Petitioner further articulates several advantages disclosed in Harris for using sulfonyl-containing PEG derivatives: “PEG containing ‘polymer derivatives with active sulfone moieties are highly selective for coupling with thiol moieties instead of amino moieties on molecules,” which preserves the activity of specific proteins; “sulfonyl-containing PEG derivatives ‘are considered infinitely soluble in water or as approaching infinite solubility and can enable otherwise insoluble molecules to pass into solution when conjugated with the derivative;” and, although many PEG derivatives react rapidly with water, PEG vinyl sulfone is stable in water. Pet. 49–50 (citing Ex. 1007, 6:12–15, 19:34–37, 26:11–15, 28:29–34; Ex. 1003 ¶ 128) (emphases omitted). Petitioner contends that one of ordinary skill in the art would have expected the modification of Singh’s linker in view of Harris to be successful because “Singh teaches attaching PEG linkers to -SH groups on drugs via a bis-maleimide containing PEG linker,
+
+and that maleimide and haloacetamide moieties are functionally equivalent to vinyl sulfone for the purpose of forming thioether bonds” and Harris describes examples of PEG linkers having terminal vinyl sulfone groups. Id. at 51 (citing Ex. 1008 ¶ 134, Figs. 50–51; Ex. 1007, 21:26–28:28; Ex. 1003 ¶ 130).
+
+Petitioner's arguments articulate sufficient reasons why one of ordinary skill in the art would have modified Singh's compound 4 to use terminal vinyl sulfone groups and would have had a reasonable expectation of success in making such a modification. We note that this analysis is based on Singh's compound 4 (Pet. 48 (Table C1)), which does not include vinyl sulfone prior to modification. Therefore, Patent Owner's arguments that Singh's linker already includes vinyl sulfone are inapplicable.
+
+The cited testimony by Dr. Tumey again regards his contention that limitations Y and Q are independent elements (which we have addressed with our claim construction of Y), that Petitioner has not articulated a sufficient rationale for combination, and Dr. Chari's alleged admission that there would be no reason to make the asserted modification when PEG was already present. Ex. 2038 ¶¶ 216, 233–235. This testimony mirrors Patent Owner's arguments, which do not sufficiently address Petitioner's articulated reasons for an ordinarily skilled artisan to have modified Singh's linker in view of Harris and why there would have been a reasonable expectation of success in doing so. Pet. 49–51. Further, Dr. Chari's deposition testimony indicates that he viewed PEG as providing sufficient hydrophilicity for his purpose in 2010. Ex. 2037, 39:14–40:5. When asked whether one of ordinary skill in the art would think sulfone was needed in addition to PEG, Dr. Chari stated that he did not know the answer and
+
+reiterated that sulfone was not needed for his purpose. Id. at 41:16–42:2. This testimony is not sufficient evidence that one of ordinary skill in the art would not have expected an additional benefit for hydrophilicity when using sulfone in a PEG linker. Furthermore, this testimony does not address the other advantages cited by Petitioner as rationale for the combination, such as preserving protein activity for specific proteins, the high solubility of sulfonyl-containing PEG derivatives, and the water stability of PEG vinyl sulfone derivatives. Pet. 49–50.
+
+As with the modification of Singh's compound 4 in view of Singh's teaching of equivalence of vinyl sulfone and malemide, we note that Petitioner's position is that "incorporate" means to substitute vinyl sulfone. See Reply 26–27; Tr. Tr. 22:7–26. Thus, Petitioner's position is not to add vinyl sulfone elsewhere to Singh's linker in order to satisfy Q or T. To the extent Petitioner would argue it would have been obvious to retain the maleimide groups of Singh's compound 4 and "incorporate" or add vinyl sulfone elsewhere in Singh's compound 4, Petitioner has not articulated sufficient reasons to do so or why one of ordinary skill in the art would have had a reasonable expectation of success in doing so, particularly if Petitioner would propose adding vinyl sulfone to provide a second terminal group in addition to a terminal maleimide group at the same end of Singh's linker.
+
+For the reasons discussed above, we find Petitioner has provided sufficient arguments in its Petition to demonstrate by a preponderance of the evidence of record that claim 1 would have been obvious and is thus unpatentable over Singh alone or over Singh in view of Harris.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## 3. Dependent claim 2
+
+Claim 2 depends from claim 1 and recites “wherein Z comprises a thiol, disulfide, amino, carboxy, aldehydes, maleimido, haloacetyl, hydrazine or hydroxyl group.” Ex. 1001, 49:10–12.
+
+Petitioner argues that “[b]oth Singh and Harris teach that Z can be maleimide or haloacetyl, as set forth in Table C1.” Pet. 53 (citing Ex. 1003 ¶¶ 133–134).
+
+As discussed above with regard to claim 1, Petitioner has made its position clear at this stage of the proceeding that it proposes substituting vinyl sulfone for maleimide. Because the compounds Petitioner asserts for this ground lack Q and T (Pet. 46–48) and claim 1 requires T be present when Q is sulfone, substituting a vinyl sulfone for one maleimide of Singh's linker necessitates substituting a second vinyl sulfone to satisfy limitation T. Petitioner does not propose another method of satisfying T for claim 1 under this challenge. Pet. 44–53. Therefore, we interpret Petitioner's allegations to require substituting vinyl sulfone for both maleimide groups of compound 4 in order to satisfy claim 1, as discussed above with regard to claim 1. As a result, Petitioner's proposed modification for claim 1, whether over Singh alone or Singh in view of Harris, results in no maleimide remaining to satisfy claim 2.
+
+For these reasons, Petitioner has not demonstrated by a preponderance of the evidence in the record that claim 2 would have been obvious and is thus unpatentable over Singh or Singh in view of Harris.
+
+## 4. Independent claims 20, 29, and 30
+
+Petitioner's challenge for claims 20, 29, and 30 cites Singh's formula (1) and several exemplary compounds that Singh teaches. Pet. 54–59. Our analysis for claims 20, 29, and 30 focuses on Petitioner's arguments regarding Singh's formula (1).
+
+Petitioner argues that Singh discloses formula (1), reproduced below, as a PEG drug linker that may be attached to a cell binding agent.
+
+$$
+\mathrm{Z} - \mathrm{X} _ {1} - (\mathrm{-CH} _ {2} - \mathrm{O-}) _ {\mathrm{n}} - \mathrm{Y} _ {\mathrm{p}} - \mathrm{D}
+$$
+
+Id. at 54 (citing Ex. 1008 ¶¶ 14, 80; Ex. 1003 ¶¶ 137–151). According to Petitioner, formula (1) overlaps with and suggests the claimed compounds. Id.
+
+Petitioner asserts that Singh teaches Z to be “a reactive functionality that can form an amide or a thioether bond with a cell-binding agent,” which satisfies moiety Y for claims 20, 29, and 30. Pet. 54 (citing Ex. 1003 ¶ 138) (emphases omitted). According to Petitioner, Singh teaches that the reactive functionality may be vinyl sulfone, which would satisfy moiety Q in at least claim 30. Id. at 54–55 (citing Ex. 1008 ¶ 134; Ex. 1003 ¶ 138).
+
+Petitioner further contends that formula (1)'s PEG group satisfies $R_{2}$ , $R_{3}$ would be absent when there is one sulfone, Singh's formula includes "D" for drug, and that the last limitation of claims 20 and 29 may be satisfied when Singh's formula includes a single sulfonyl group (i.e., Q or T is sulfone because Singh's linker includes vinyl sulfone, one of m and n is 0, and Singh's Z is an NHS ester). Pet. 55–57 (citing Ex. 1003 ¶¶ 140–141, 143; Ex. 1008 ¶¶ 80, 134).
+
+With regard to R $_{4}$ of claims 20, 29, and 30, which connects the claimed drug to the linker, Petitioner argues that moiety Y in Singh's formula is an aliphatic or heterocyclic group attached to Singh's drug via a thioether or amide bond, a carbamate bond, an ether bond, or an amine bond. Pet. 56 (citing Ex. 1003 ¶ 141). Petitioner further argues that Singh's Y in formula (1) can provide a single sulfonyl group, per claims 20 and 29, or can provide first and second sulfone groups because Singh discloses the use of vinyl sulfones as thiol reactive moieties. Id.
+
+For claims 20 and 29, Patent Owner cites its argument for claims 1 and 2. Resp. 66. For the reasons discussed above with regard to claim 1, we do not agree with Patent Owner's arguments. On this record, Petitioner has demonstrated by a preponderance of the evidence that claims 20 and 29 would have been obvious and are thus unpatentable over Singh's teachings.
+
+With respect to R $_{4}$ of claims 20 and 29, Petitioner argues that “when Y of Singh’s formula (1) is sulfonyl ethyl with a thioether link to the drug, Singh’s Z may be reactive functionalities that form a thioether or amide bond.” Pet. 57 (emphasis omitted). Singh teaches that formula (1)’s Y “represents an aliphatic, an aromatic or a heterocyclic group attached to the drug via a covalent bond selected from the group consisting of a thioether bond, an amide bond, a carbamate bond, an ether bond, an amine bond, a carbon-carbon bond and a hydrazone bond.” Ex. 1008 ¶ 14. Singh further teaches that vinyl sulfone will form a thioether bond. Id. ¶ 134. Therefore, on this record, Petitioner has demonstrated a reasonable likelihood that Singh suggests the use of vinyl sulfone as Y in Singh’s formula (1). In such a situation, the sulfone group of the vinyl sulfone would function as moiety T in claims 20 and 29 and the vinyl (an aliphatic group) of the vinyl sulfone would function as R $_{4}$ in claims 20 and 29, which may be a linear alkyl of 1–6 carbon atoms, when the vinyl has bonded to the drug. Pet. 56. This would also provide the type of bond that claims 20 and 29 recite for how the Drug is linked (e.g., via a thioether bond due to the vinyl sulfone group). Further, on this record, we agree with Petitioner’s contention that R $_{3}$ in this
+
+circumstance can be absent or Singh's X in formula (1) may function as $\mathbb{R}_3$ . Id.
+
+Claims 20 and 29 differ from claim 30 by reciting that when Q is sulfone, “Y is an N-hydroxysuccinimide (NHS) ester, p-nitrophenyl ester, dinitrophenyl ester, pentafluorophenyl ester, pyridyldisulfide, nitropyridyldisulfide, maleimide, haloacetate, carboxylic acid chloride, hydrazide or hydroxylamine.” Ex. 1002, 4:64–5:2, 10:54–59.
+
+As noted above, Petitioner argues that “when Y of Singh’s formula (1) is sulfonyl ethyl with a thioether link to the drug, Singh’s Z may be reactive functionalities that form a thioether or amide bond.” Pet. 57 (emphasis omitted). Petitioner further asserts that Singh teaches that an NHS ester forms an amide bond. Id. (citing Ex. 1008 ¶ 134). On this record, we agree that Singh discloses Z in formula (1) as “a reactive functionality that can form an amide or a thioether bond with a cell-binding agent” and further teaches that an NHS ester is an amine-reactive functionality that can form an amide bond. Ex. 1008 ¶¶ 14, 134. On this record, Petitioner’s allegations satisfy moiety Y of claims 20 and 29 for the circumstance in which T is sulfone, m is 0, and Y is an NHS ester (the last limitation of claims 20 and 29).
+
+For claim 30, Patent Owner cites its arguments for claim 1 or argues claim 30 together with claim 1. Resp. 66; Sur-reply 22–25. Patent Owner further asserts that claim 30 requires the presence of both Q and T but vinyl cannot be mapped to Y. Resp. 67 (citing Ex. 2038 ¶ 242).
+
+Patent Owner is correct that claim 30 differs from claims 20 and 29 by requiring that m and n are integers from 1 to 5. In other words, claim 30 requires a Q and a T, which are each either a phosphinate, sulfone, or
+
+sulfoxide. However, due to our construction of Y, we disagree with Patent Owner's arguments regarding claim 1 and its position regarding the mapping of vinyl to Y. Dr. Tumey's cited testimony mirrors Patent Owner's position regarding the mapping of vinyl to Y and does not sufficiently address Petitioner's position with regard to Singh's formula (1). Ex. 2038 ¶ 242. For the reasons discussed below, we determine that Petitioner demonstrates by a preponderance of the evidence that Singh (1) suggests claim 30's limitations.
+
+Petitioner argues that Z of Singh's formula (1) may be vinyl sulfone and that the sulfone functions as Q and the vinyl as Y. Pet. 54–55. Singh teaches that Z of formula (1) may be a reactive functionality that forms a thioether bond with a cell-binding agent and that vinyl sulfone is a thiol-reactive functionality that forms a thioether bond. Ex. 1008 ¶¶ 14, 134. Thus, Petitioner argues, Singh suggests the use of vinyl sulfone as a reactive functionality that would form a thioether bond with a cell-binding agent, with the sulfone functioning as Q and the vinyl functioning as Y for claim 30.
+
+Petitioner also argues that Y of Singh's formula (1) can provide a second vinyl sulfone group to provide a thioether bond to a drug. Pet. 56 (citing Ex. 1003 ¶ 141). Singh teaches that Y includes an aliphatic group attached to the drug via a thioether bond. Ex. 1008 ¶ 14. Singh further teaches that vinyl sulfone is a thiol-reactive functionality that forms thioether bonds. Id. ¶ 134. Therefore, Singh suggests the use of vinyl sulfone for Y in Singh's formula (1), which would provide another sulfone to function as T and vinyl to function as R $_{4}$ in claim 30.
+
+Petitioner's arguments also illustrate how $\mathbb{R}_2$ is met due to the PEG group in Singh's formula (1) or due to $\mathbb{R}_2$ 's absence. Pet. 55. We note that claim 30 permits $\mathbb{R}_1, \mathbb{R}_3, \mathbb{R}_5$ and $\mathbb{R}_6$ to be absent.
+
+For these reasons, Petitioner demonstrates by a preponderance of the evidence in the record that claims 20, 29, and 30 would have been obvious and is thus unpatentable in view of Singh's teachings.
+
+## 5. Dependent claims 21 and 31
+
+Claim 21 depends from claim 20 and recites “wherein the drug is derived from a drug containing a —SH, —CONHNH $_2$ , - = , –COR" or —NHR", wherein R" is H, CH $_3$ , Et, Pr, Bu, or Ph; and/or the cell-binding agent is an antibody or protein.” Ex. 1001, 55:26–29. Petitioner contends that “Harris discloses that drugs modified to contain thiol moieties react with vinyl sulfones” and “Singh also discloses that its PEG spacers may be reacted with ‘a thiol-containing maytansinoid drug’ or ‘an amine-containing maytansinoid.’” Pet. 61 (citing Ex. 1007, 6:28–31; Ex. 1008 ¶¶ 136, 139; Ex. 1003 ¶¶ 151, 153).
+
+Claim 31 depends from claim 30 and recites “wherein when Q and T are each independently $-\mathrm{S}(\mathrm{O}_{2})-$ or $-\mathrm{S}(\mathrm{O})-$ , at least one of $R_{1}$ , $R_{2}$ , $R_{3}$ and $R_{4}$ comprises the polyethyleneoxy unit of formula $(\mathrm{OCH}_{2}\mathrm{CH}_{2})_{\mathrm{p}}$ .” Ex. 1002, 12:20–23. Petitioner argues that Singh’s PEG group functions as $R_{2}$ and/or $R_{3}$ . Pet. 61.
+
+Patent Owner argues claim 21 together with claim 20 and claim 31 together with claim 30. Resp. 66–67; Sur-reply 22–26. For the reasons discussed above with regard to claim 30, we do not agree with Patent Owner's position regarding claim 31.
+
+IPR2022-01531
+
+Patent 10,131,682 C1
+
+For claim 21, Petitioner's arguments demonstrate that Singh teaches that a maytansinoid drug may include a thiol (Ex. 1008 ¶ 136) and that Harris teaches drugs may be modified to contain thiol moieties (Ex. 1007, 6:28–31). With regard to claim 31, Petitioner's arguments demonstrate that the portion of Singh's compounds that function as R $_{2}$ would comprise PEG groups. Pet. 57–59 (Table C2). As a result, Petitioner has demonstrated by a preponderance of the evidence that claims 21 and 31 would have been obvious and are thus unpatentable over Singh or Singh in view of Harris.
+
+## 6. Independent claims 3, 24, and 26
+
+As an initial matter, Petitioner contends that the preambles (reciting “cell-binding agent-drug conjugate”) of claims 3, 24, and 26 are not limiting, or, alternatively, would have been taught by Singh and Harris. Pet. 62. Because we agree, and Patent Owner does not dispute whether these references disclose the preamble, we do not further address whether the preambles are limiting.
+
+Petitioner argues that Singh teaches formulas (2)/(2') and (4)/(4'). Pet. 62 (citing Ex. 1008 ¶¶ 15, 17, 84, 93, 136–138, 214, 218–221, Figs. 1–3, 7–12, 14–15, 17–18, 20, 21). According to Petitioner, Singh's disclosures for D, Y, p, n, and X for formulas (2)/(2') are identical to those for formula (1). Id. at 63 (citing Ex. 1003 ¶ 157). In view of this, Petitioner cites its arguments for claim 1 and for claims 20, 29, and 30, including why "sulfonyl groups [meet] the definition of Q and T," for claims 3, 24, and 26. Id. Petitioner further asserts that one of ordinary skill in the art would have understood that the cell-binding agent of Singh's formulas teaches the cell-binding agent of claims 3, 24, and 26. Id. (citing Ex. 1003 ¶ 158).
+
+For claims 3, 24, and 26, Patent Owner cites its arguments for claims 1 and 2. Resp. 66; Sur-reply 26. For the reasons discussed above with regard to claim 1, we do not agree with Patent Owner's position.
+
+Singh's formula (2) is reproduced below:
+
+$$
+\mathrm{CB} - \left[ \mathrm{X} _ {1} - \left(- \mathrm{CH} _ {2} - \mathrm{O} -\right) _ {\mathrm{n}} - \mathrm{Y} _ {\mathrm{p}} - \mathrm{D} \right] _ {\mathrm{m}}
+$$
+
+Ex. 1008 ¶ 84. Singh teaches that “CB represents a cell-binding agent,” “D represents a drug,” X can be an aliphatic, aromatic, or heterocyclic group attached to the cell-binding agent by a thioether bond or amide bond, and Y can be an aliphatic group attached to the drug by a thioether bond. Id. Therefore, Singh’s formula (2) includes a cell-binding agent and a drug, as recited by claims 3, 24, and 26.
+
+With respect to the remaining limitations, claims 3, 24, and 26 would have been obvious and are thus unpatentable for reasons similar to those argued above for claim 30. In other words, each of X and Y in Singh's formula (2) would be vinyl sulfone, which is a thiol-reactive functionality that forms a thioether bond and thus would form such a bond with either a cell-binding agent or formula (2)'s drug. Ex. 1008 ¶¶ 84, 134. These two vinyl sulfone groups would provide sulfones that would function as Q and T in claims 24 and 26 and provide vinyls (a linear alkyl having 1–6 carbon atoms) that would function as R $_{1}$ and R $_{4}$ in claims 24 and 26 when the vinyl groups are attached to a cell-bonding agent or a drug. Further, the PEG group of Singh's formula (2) would function as R $_{2}$ for claims 24 and 26. We note that claim 3 permits R $_{3}$ , R $_{5}$ , and R $_{6}$ to be absent.
+
+Therefore, for the reasons discussed above with regard to claim 30, Petitioner has demonstrated by a preponderance of the evidence in the record that claims 3, 24, and 26 would have been obvious and are thus unpatentable.
+
+## 7. Dependent claims 4–8, 10–12, and 14–17
+
+Petitioner provides arguments asserting why claims 4–8, 10–12, and 14–17 would have been obvious over Singh or Singh in view of Harris. Pet. 67–70. Claims 4–8, 10–12, and 14–17 depend from claim 3.
+
+Patent Owner does not provide separate arguments for these dependent claims. Resp. 66; Sur-reply 26.
+
+We have reviewed Petitioner's arguments and supporting evidence as to these claims, and find Petitioner has shown by a preponderance of the evidence that Singh teaches or suggests the additional limitations of dependent claims 4–8, 10–12, and 14–17, and, in combination with the independent claims, renders dependent claims 4–8, 10–12, and 14–17 obvious. See Pet. 67–70 (citing Ex. 1008 ¶¶ 15, 17, 78, 84–85, 93, 120, 146–156, 165–167, 171, 174, Figs. 1–2, 7–9, 14, 17–18, 21; Ex. 1003 ¶¶ 172–176).
+
+## 8. Conclusion for Ground 3
+
+For all of the above reasons, we find that Petitioner demonstrates by a preponderance of the evidence that claims 1, 3–8, 10–12, 14–17, 20, 21, 24, 26, and 29–31 are unpatentable but does not demonstrate by a preponderance of the evidence that claim 2 is unpatentable under this challenge.
+
+## E. Ground 4 — Alleged Obviousness over Singh, Harris, and Bhakta
+
+Petitioner argues that claims 9 and 13 would have been obvious in view of Singh, Harris, and Bhakta. Pet. 70–72.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## 1. Bhakta (Ex. 1011)
+
+Bhakta is titled “Cysteine Engineered Antibodies and Conjugates.” Ex. 1011, code (54). Bhakta discloses antibody-drug conjugates comprising:
+
+a cysteine engineered antibody (Ab), and a drug moiety (D) wherein the antibody has one or more free cysteine amino acids, and the antibody is attached through the one or more free cysteine amino acids by a linker moiety (L) to D; the composition having formula I: Ab-(L-D)p, where p is 1, 2, 3, or 4.
+
+Id. ¶¶ 211–212. Bhakta discloses that its antibody drug conjugates may form dipeptides or longer peptides using naturally or non-naturally occurring amino acid analogs, including citrulline. Id. ¶¶ 244–245.
+
+## 2. Analysis
+
+Petitioner asserts that Bhakta shows that valine-citrulline was a well-known cleavable dipeptide used to link drugs in ADCs, similar to how disulfide bonds were used. Pet. 71. Specifically, Petitioner argues that “Bhakta expressly teaches ADCs comprising a cysteine engineered antibody and a drug moiety, wherein the antibody has one or more free cysteine amino acids that attach via a linker to the drug moiety” and “may further comprise amino acid residues linking the antibody to the drug moiety of the cysteine engineered ADC, where the amino acid residues can be ‘optimized in their selectivity for enzymatic cleavage by… for example, a tumor-associated protease to liberate an active drug moiety.” Id. (citing Ex. 1011 ¶¶ 244–245) (alteration in original). According to Petitioner, “[t]he valine-citrulline (‘val-cit’) dipeptide is highlighted and can be cleaved by cathepsin B, C and D, or a plasmin protease.” Id.
+
+Petitioner argues that “ADCs utilizing the disulfide linkages of Singh were previously found to exhibit reduced efficacy, greater off target toxicity and poor serum stability.” Pet. 72 (citing Ex. 1049, Abstract). Petitioner contends that one of ordinary skill in the art:
+
+would have been motivated to use the well-known val-cit-PAB linker of Bhakta to replace, e.g., the disulfide linkage of Singh, in order to obtain more selective and efficient release of the Drug at target cancer cells because, for example, when the val-cit dipeptide is cleaved from the PAB by cathepsins associated with the target cancer cell, the ester linkage to the drug subsequently hydrolyzes as well and releases the drug within the cancer cell.
+
+Pet. 71. (citing Ex. 1017, 101:1–104:43; Ex. 1003 ¶¶ 181–182).
+
+Patent Owner argues that Petitioner “does not explain which ‘disulfide linkage of Singh’ is being replaced, which specific compound of Singh it is referring to, and whether the modified compound would still meet all the elements of claim 9 and 13, including the Q, T, m, n, and R $_{1}$ through R $_{6}$ elements in the claimed Formula II.” Resp. 68 (citing Ex. 2038 ¶ 245). According to Patent Owner, “Petitioner’s cursory analysis also does not demonstrate how a POSA would have allegedly combined the prior-art teachings to arrive at the claimed conjugate and whether a POSA would have had a reasonable expectation of success in doing so.” Id. at 68–69 (citing Ex. 2038 ¶ 245).
+
+Petitioner contends that Tables C2 and C3 of the Petition list a single CBA-drug conjugate taught by Singh that has a PEG-containing crosslinker with a cleavable disulfide linkage. Reply 28 (citing Pet. 59 (compound 4), 66 (compound 3)). Petitioner states:
+
+Ground 4 merely proposed modifying Singh's compound 4 by (i) replacing the amide bond forming group (such as N-hydroxysuccinimide) with sulfonyl ethyl (described at Pet. 66) and (ii) substituting the disulfide-drug bond with Bhakta's val-cit-PAB-drug bond satisfies all the limitations of claims 9 and 13, which is depicted below for easier visualization:
+
+![](images/38da830b94e46b8e76d1eae1117626a4225ce0dd7e52fe7ae39a5f110782a486.jpg)  
+Id. at 28–30. Petitioner asserts that “[d]isulfide linkages and val-cit peptide linkages are functionally equivalent because they are cleavable in vivo, thereby permitting drug release from the CBA-drug conjugate” and “cleavage of Bhakta’s val-cit-PAB linker by a tumor-associated protease results in specific drug release at target cells.” Id. at 30–31 (citing Ex. 1003 ¶¶ 179–181). Petitioner cites its stated motivation and reasonable
+
+expectation of success for making these substitutions. Reply 31 (citing Pet. 63–67, 72).
+
+Patent Owner contends that Petitioner makes a late attempt to identify a basis for this ground and we should disregard new theories and arguments not presented in the Petition. Sur-reply 26. Patent Owner further argues that Petitioner's explanation in its Reply fails to show how the requirements for R $_{1}$ , R $_{4}$ , R $_{5}$ , and R $_{6}$ are met. Id. at 26–27.
+
+As an initial matter, we note that claims 9 and 13 depend from claim 3. Ex. 1001, 53:29–35, 53:51–52. Petitioner's reasoning for Ground 4 is that one of ordinary skill in the art would have replaced Singh's disulfide linkage in view of Bhakta to obtain a more selective and efficient release of Singh's drug. Pet. 72. As noted in our Decision on Institution after remand, Singh's formula (2) does not include a disulfide bond and, although Singh's formula (4) includes a disulfide bond, the Petition does not adequately explain how claim 3 would have been obvious and is thus unpatentable in view of Singh's formula (4). Inst. Dec. 69. Petitioner's explanation in its Reply focuses on specific compounds disclosed by Singh that include a disulfide linkage. Reply 28 (citing Pet. 59 (compound 4), 66 (compound 3)). To adhere to our rules requiring that the Petition serve as the basis for analysis, we focus on whether Petitioner has articulated a sufficient basis in the Petition to support this challenge with respect to these specific compounds.
+
+Compound 4 at page 59 of the Petition was argued with regard to claims 20, 21 and 29–31. Compound 3 at page 66 of the Petition was argued with regard to claim 3 and further includes a cell-binding agent (mAb). Therefore, we focus our analysis on compound 3 at page 66 of the Petition
+
+and its related arguments because it is more relevant to claim 3 and its limitations, from which challenged claims 9 and 13 depend.
+
+We note that Petitioner argues that Ground 4 involves “(i) replacing the amide bond forming group (such as N-hydroxysuccinimide) with sulfonyl ethyl (described at Pet. 66) and (ii) substituting the disulfide-drug bond with Bhakta’s val-cit-drug bond.” Reply 29. Part (ii) of this explanation appears to comport with the rationale stated at page 72 of the Petition, which involved substituting a disulfide linkage with Bhakta’s linker.
+
+We analyze whether Petitioner has supported part (i) of this explanation. Compound 3 is reproduced below:
+
+![](images/1b56246f6db33b08f13e88b3d4c7511e302bf32ba323362324d09b1de5a1db13.jpg)  
+Pet. 66 (reproducing a row of Table C3 from Exhibit 1003 ¶ 165).
+
+Part (i) of Petitioner's explanation in its Reply is that the ordinarily skilled artisan would have replaced an amide bond forming group, such as an N-hydroxysuccinimide, with vinyl sulfone. Reply 29. The “amide bond forming group” appears to refer to the amide portion on the right-hand side of Compound 3 (attached to the cell-binding agent mAb). As shown in
+
+annotations for Compound 3 above, Petitioner proposes substituting vinyl sulfone for the amide group. Pet. 66.
+
+Singh teaches the equivalence of maleimides, haloacetamides, and vinyl sulfones as thiol-reactive functionalities that form thioether bonds. Ex. 1008 ¶ 134. Singh teaches that amine-reactive functionalities that form an amide bond include carboxylic esters, such as NHS esters. Id. In other words, Singh does not teach that vinyl sulfone, a thiol-reactive functionality that forms a thioether bond, is equivalent to an amine-reactive functionality that forms an amide bond. As a result, Petitioner has not established a sufficient rationale to substitute vinylfsulone for the amide group, as shown in Compound 3. Pet. 66.
+
+However, citing its arguments for claim 1 under this ground, Petitioner also cites the advantages that Harris teaches for vinyl sulfone as a reason to modify Singh's linker to use vinyl sulfone as the linking moiety to either the antibody (cell-binding agent) or to the drug. Pet. 64 (citing Ex. 1003 ¶ 169). For the reasons discussed above with regard to claim 1 under Ground 1, Petitioner has articulated sufficient reasons why one of ordinary skill in the art would have modified Compound 3 at page 66 of the Petition to use vinyl sulfone as the linking moiety to the cell-binding agent and why they would have had a reasonable expectation of success. This would provide a sulfone that functions as claim 3's Q or T and a vinyl that would function as claim 3's R $_{1}$ , which is a linear alkyl having 1–6 carbon atoms (when the vinyl group is attached to a cell-binding agent) and is not a chain of three atoms of carbon or sulfur, as claim 3 requires. As indicated by the annotations in Compound 3, a cell-binding agent (mAb, annotated as “Cb”) is present, a drug is present (annotated as “Drug”), the PEG group may
+
+function as $R_{2}$ , and the ethyl group may function as $R_{4}$ , which can be a linear alkyl having 1–6 carbon atoms. We note that claim 3 permits $R_{5}$ and $R_{6}$ to be absent. For these reasons, the arguments presented in the Petition demonstrate that claim 3 would have been obvious over Singh's Compound 3 when modified in view of Harris.
+
+We therefore consider Petitioner's arguments under Ground 4 for claims 9 and 13 with respect to Compound 3, as modified to include Petitioner's allegations that it would have been obvious to the ordinarily skilled artisan to use vinyl sulfone as the linking moiety to the cell-binding agent and why they would have had a reasonable expectation of success. Petitioner explains that it proposes substituting Bhakta's valine-citrulline peptide linkage for Compound 3's disulfide linkage. Reply 30. Providing valine-citrulline as a linker component satisfies claim 9. Ex. 1001, 53:31. Bhakta's teachings also support Petitioner's argument that Bhakta's valine-citrulline can be cleaved by cathepsin B, C, and D or a plasmin protease, which would satisfy claim 13. Pet. 71; Ex. 1011 ¶¶ 244–245.
+
+Petitioner contends that one of ordinary skill in the art:
+
+would have been motivated to use the well-known val-cit-PAB linker of Bhakta to replace, e.g., the disulfide linkage of Singh, in order to obtain more selective and efficient release of the Drug at target cancer cells because, for example, when the val-cit dipeptide is cleaved from the PAB by cathepsins associated with the target cancer cell, the ester linkage to the drug subsequently hydrolyzes as well and releases the drug within the cancer cell. A POSA would have had a reasonable expectation of success because the chemistry of this linker was well established and proven in human patients, well before the priority date.
+
+Id. at 72 (citing Ex. 1017, 101:1–104:43; Ex. 1003 ¶¶ 181–182). This rationale sufficiently articulates why one of ordinary skill in the art would have made Petitioner's proposed modification in view of Bhakta and why they would have had a reasonable expectation of success in doing so.
+
+For these reasons, Petitioner has demonstrated by a preponderance of the evidence in the record that claims 9 and 13 would have been obvious and are thus unpatentable in view of Singh, Harris, and Bhakta.
+
+## F. Ground 5 — Alleged Obviousness over Singh, Harris, and Snow
+
+Petitioner asserts that claims 2, 25, and 32–34 would have been rendered obvious by the combination of Singh, Harris, and Snow. Pet. 73–76.
+
+## 1. Snow (Ex. 1010)
+
+Snow is titled “Vinyl Sulfone Coupling of Polyoxyalkylenes to Proteins.” Ex. 1010, code (54). Snow discloses polyalkylene oxide vinyl sulfone reagents and a method for using them in hydrated media for the modification of proteins. Id. at code (57, Abstract).
+
+## 2. Analysis
+
+Petitioner relies on Singh and Harris for the alleged disclosures of Y and Z as discussed above in regards to Ground 3 based on Singh and Harris. Pet. 73. Specifically, Petitioner cites the compounds of Singh that Petitioner provides in Table A1 (relied upon for claim 1) and in Table C2 (relied upon for claims 20, 29, and 30), asserting that “Singh discloses a bifunctional bismaleimide PEG crosslinker that can be conjugated to a thiol-bearing maytansinoid drug.” Id. at 74.
+
+Petitioner contends that “Snow contemplates polyalkylene oxide bis-vinyl sulfone linkers represented by the formula:”
+
+![](images/0fe7a40ddc99fe319b4af11d369d6705342feae946ebe9738d52dea2d6c2e1e4.jpg)  
+Pet. 73–74 (citing Ex. 1003 ¶ 184 (providing the above formula)). The formula depicted above is a preferred embodiment of polyalkylene oxide bis-vinyl sulfone linkers listed in Snow. Ex. 1010, 7:66–8:2.
+
+According to Petitioner, one of ordinary skill in the art “would be motivated to further improve the solubility of ADC linkers that are conjugated to exceptionally hydrophobic drugs like maytansinoids, at high drug loads, where they are prone to aggregation/precipitation.” Pet. 73–74 (citing Ex. 1050, 2:19–25, 10:20–25, 64:59–67; Ex. 1003 ¶ 186). Petitioner argues that the ordinarily skilled artisan would have been “motivated to replace at least one of the maleimide-containing arms in Singh’s bifunctional bis-maleimide PEG crosslinking agent with the bis-vinyl sulfone group of Snow” to enhance hydrophilicity of the PEG linkers, and would have had a reasonable expectation of success in doing so. Id. at 74. Petitioner provides diagrams to reflect the proposed substitutions that Petitioner identifies as Formulas (I), (IV), and (III). Id. at 75–76 (citing Ex. 1003 ¶¶ 187–189).
+
+Patent Owner argues that Petitioner relies upon impermissible hindsight and Petitioner does not explain why one of ordinary skill in the art would have selected specific elements Petitioner depicts for Snow's formula. Resp. 69–70; Sur-reply 28.
+
+As noted above, Petitioner argues that it would have been obvious to modify Singh's compound by replacing “at least one of the maleimide-
+
+"containing arms" in Singh's compound. Pet. 74–75. Petitioner's proposed substitution for Formula (I), reproduced below, demonstrates what Petitioner means by this:
+
+![](images/acf2471470f0d127c231b774cb405d5706ae304abcf9e2cf9c6cc158d95ce15e.jpg)
+
+Id. at 75 (citing Ex. 1003 ¶¶ 187–189). The diagram above also reflects Petitioner's proposed substitution of a malemide-containing arm in Singh's compound, but, in the case of Formula (IV), this would be performed at both ends of the compound. Id. at 76. Petitioner's Formula (III) appears to perform the substitution only at a right end of the linker. Id.
+
+As shown in Petitioner's Formula (I) above, these proposed substitutions involve more than replacing the maleimide group alone because the amide group to the right of the maleimide group is also being replaced (as indicated in the area enclosed by the red circle, which is Petitioner's marking). Petitioner does not adequately explain why one of ordinary skill in the art would have replaced not only the maleimide group at the end of the linker but also the amide group next to it as well.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+Petitioner asserts in its Reply that Snow’s formula “shows that the bis sulfone portion can be directly coupled to PEG (i.e., “PAO”) with the ‘E’ group between PEG/PAO and the nearest sulfone” and that “Snow’s conjugates are reactive with thiols on proteins.” Reply 31 (citing Ex. 1010, 9:58–63). According to Petitioner, “Snow’s thiol-reactive vinyl bis-sulfone compounds teach direct coupling from the bis-sulfone section to the PEG without any need for amide linkages as found in Singh’s bismaleimide PEG linkers.” Id. (citing Pet. 13, Table A1, Entries 1, 4). Petitioner argues that “[t]he intervening amide linkages were encompassed in the substitution schemes outlined at Petition pages 75-76 because they are a result of the maleimide attachment, yet are unnecessary when joining sulfone-containing compounds to PEG, as evidenced by Snow connection above where E is merely a 2-8 carbon alkylenyl.” Id. at 31–32 (citing Ex. 1076 ¶¶ 36–39).
+
+Dr. Chari provides a similar explanation with his cited testimony. Ex. 1076 ¶¶ 36–39. For instance, Dr. Chari states that “the amide linkages present on both ends of PEG in Singh’s linkers (i.e., remnants of the NHS-ester reaction) are merely needed to facilitate attachment of the PEG moiety to the terminal maleimide groups” and that “unlike the bis-maleimide PEG linkers of Singh, the thiol-reactive vinyl sulfones can be directly coupled to the PEG moiety without the need for intervening amide linkages.” Id. ¶ 38 (emphasis omitted).
+
+We are not persuaded that these explanations support Petitioner's case for obviousness because they indicate what one of ordinary skill in the art could have done, not reasons why one of ordinary skill in the art would have been motivated to make the proposed modification to directly achieve the objective. “[O]bviousness concerns whether a skilled artisan not only could have made but would have been motivated to make the combinations or modifications of prior art to arrive at the claimed invention.” Belden Inc. v. Berk-Tek LLC, 805 F.3d 1064, 1073 (Fed. Cir. 2015).
+
+We further note that Petitioner's proposed modification is not consistent with maleimide substitutions/replacements Petitioner proposes elsewhere. For instance, when asserting that one of ordinary skill in the art would have replaced a reactive functionality in Singh's linker in Ground 3, particularly the maleimide group in Singh's Compound 4, Petitioner does not argue that both the maleimide group and the amide next to the maleimide should be replaced in that compound when the amide would be performing the same function for coupling the maleimide to the PEG group. Id. at 48–49 (amide remains as part of R₂ asserted by Petitioner, which also includes a PEG group); see id. at 13 (showing complete compound 4 in Table A1). Here, however, Petitioner argues that both the maleimide group and the amide group next to the maleimide should be replaced but does not adequately explain why one of ordinary skill in the art would have replaced both groups in this situation when Petitioner would not have made this modification in other situations. The cited testimony by Dr. Chari also does not adequately explain why one of ordinary skill in the art would have made such a modification. Ex. 1003 ¶¶ 183–189; Ex. 1076 ¶¶ 36–39.
+
+Furthermore, Petitioner does not provide sufficient reasons why one of ordinary skill in the art would have made the particular selections Petitioner makes for Snow's formula. Pet. 73–74. To the extent Petitioner provides sufficient reasons to use vinyl sulfone in Snow's formula, those reasons only provide rationales to select hydrogen for R $^{2}$ , sulfone for B, and make b = 1 in Snow's formula. Ex. 1010, 6:56–57, 7:26–27 (Snow teaching that $R^{2}$ can be hydrogen or other elements, B can be sulfoxide or sulfone, and b can be 0 or 1). However, Petitioner appears to make other selections for Snow’s formula, particularly that a = 1 and that E = a 2–8 carbon alkylenyl. Pet. 74. Snow teaches that a = 0 or 1 and “E is hydrogen, or an alkylene group of 1 to 8 carbons, or an alkylenyl group of 2 to 8 carbons, preferably an ethylenyl group, or a substituted aryl group” according to a certain formula. Ex. 1010, 5:61–6:8, 7:25. Petitioner does not adequately explain why one of ordinary skill in the art would have made these selections for Snow’s formula. Rather, Petitioner’s arguments appear to be based on hindsight as they impermissibly use the challenged claims as a roadmap to piece together parts of the prior art reference. Pet. 74–76. See Cheese Sys. Inc. v. Tetra Pak Cheese and Powder Sys., Inc., 725 F.3d 1341, 1352 (Fed. Cir. 2013) (“Obviousness cannot be based on the hindsight combination of components selectively culled from the prior art to fit the parameters of the patented invention.” (internal quotation marks omitted)).
+
+For these reasons, Petitioner has not demonstrated by a preponderance of the evidence in the record that claims 2, 25, and 32–34 would have been rendered obvious by the combination of Singh, Harris, and Snow.
+
+## G. Ground 1 — Alleged Anticipation by Morales-Sanfrutos, as evidenced by Straus
+
+Petitioner asserts that claims 1–3, 6, 24–25, and 33 are anticipated by Morales-Sanfrutos, as evidenced by Straus. Pet. 24–37.
+
+As discussed above with regard to Ground 3 over Singh or Singh in view of Harris, Petitioner has met its burden of demonstrating that claims 1, 3, 6, and 24 are unpatentable. Thus, we do not address the patentability of these claims under this ground. Because Petitioner has not demonstrated that claims 2, 25, and 33 would have been obvious and are thus unpatentable under other grounds, we consider Petitioner's arguments for claims 2, 25, and 33 under this challenge.
+
+## 1. Morales-Sanfrutos (Ex. 1005)
+
+Morales-Sanfrutos is titled “Vinyl Sulfone Bifunctional Tag Reagents for Single-Point Modification of Proteins.” Ex. 1005, 4039. Morales-Sanfrutos describes the “synthesis of vinyl sulfone derivatized bifunctional tag single attachment point reagents (BTSAP) bearing biotin and a fluorescent tag,” and their use to introduce detectable labels using chemical reactions occurring at the electrophilic vinyl sulfone group. Id. Morales-Sanfrutos teaches that the tags can be coupled to horseradish peroxidase (HRP) by incubating HRP with the vinyl sulfone derivatized bifunctional tags to make labeled proteins, such as HRP-11. Id. at 4046.
+
+Morales-Sanfrutos describes the synthesis of BTSAP reagents via a two-step chemical scheme in which (1) an alkyne vinyl sulfone derivatized tag (AVST) was prepared and (2) copper-mediated click reaction of the AVST with a complementary azide derivative was carried out. Id. at 4040. Morales-Sanfrutos depicts this as “Scheme 1,” which is reproduced below:
+
+SCHEME 1. Synthesis of Alkyne Vinyl Sulfone Derivatized Tags (AVST) 3 5  
+![](images/08b1bbeb0a539a9e8b62a5bb971b462a7e025ce021c98c2179135f4a52d91ba6.jpg)
+
+Id. at 4041. Scheme 1 depicts a two-step chemical synthesis of BTSAP reagents.
+
+Morales-Sanfrutos further explains that either a one step or a sequential approach may be used. Ex. 1005, 4043. These alternative approaches are depicted in “Scheme 4.” Id. ¶ 4044. An annotated copy of Scheme 4 is reproduced below. We have annotated Scheme 4 to identify the components.
+
+SCHEME 4. One-Step versus Sequential Approach for Bifunctional Labeling of HRP  
+![](images/b066a65d915be5da43ba99baaed33c141bafb0e9f625e33c15f1efd6ea0bf0e9.jpg)  
+Id. at 4044. Scheme 4 depicts one-step and sequential chemical syntheses of BTSAP reagents. As indicated by the annotations added to this figure, Morales-Sanfrutos explains that the magenta-colored sunburst shape represents a fluorophore and the blue colored double pentagon shape represents biotin. Id. at 4039.
+
+## 2. Straus (Ex. 1006)
+
+Straus is titled “Unusual Binding Sites for Horseradish Peroxidase on the Surface of Cultured and Isolated Mammalian Cells.” Ex. 1006, 277. Straus is a study of binding sites for HRP. Id. Petitioner alleges that Straus discloses that HRP has been shown to bind at specific sites in cells such as macrophages, fibroblasts, mast cells and endothelial cells. Pet. 36; see Ex. 1006, 277.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## 3. Claim 2
+
+Claim 2 depends from claim 1 and recites “wherein Z comprises a thiol, disulfide, amino, carboxy, aldehydes, maleimido, haloacetyl, hydrazine or hydroxyl group.” Ex. 1001, 49:10–12.
+
+At the institution stage, we determined that Petitioner met its burden for institution of inter partes review for claim 1 in light of Morales-Sanfrutos's compound 1 but not for claim 2. Inst. Dec. 35–37, 41–42. Petitioner explains in its Reply that the Petition cited Morales-Sanfrutos's compounds 2, 4, and 5, each of which includes a propargylamine group:
+
+![](images/611ba25283dc62762cdccc4d2e47940e0ebafb439399b397fac79717c8874fbe.jpg)
+
+Reply 19–21 (citing Pet. 28–29).
+
+Petitioner asserts that “[s]uch propargylamine groups are art-recognized, with reports on ‘the peculiar reactivity of the propargylamine moiety’ and descriptions of using propargylamines in copper(I)-catalyzed cycloaddition reactions with azides.” Reply 21 (citing Ex. 1076 ¶ 14) (emphasis omitted). According to Petitioner, “propargylamine groups enable the linkage required for Z (or Y),” “[a]s noted with respect to claim 1, the alkynyl moiety (i.e., the triple-bonded carbons) can react with azide-functionalized drugs, as expressly disclosed in Morales-Sanfrutos,” and “the amine can likewise form a linkage with a drug resulting in a tertiary amine bond, as Morales-Sanfrutos illustrates for biotin (id., 32 (Table B1,
+
+compound 2)), although claim 2 does not require this." Id. (citing Pet. 31–32; Ex. 1076 ¶¶ 22–25). $^{24}$
+
+Patent Owner cites its arguments for claim 1 under this ground, namely that vinyl does not meet claim 1's requirements for Y and that vinyl cannot be mapped to Y. Resp. 48 (citing Ex. 2038 ¶ 191). Patent Owner asserts that Petitioner's arguments are inconsistent because Petitioner argues Z is an alkynyl group for claim 1 but argues that an amino group is Z for claim 2. Id. at 48–49 (citing Pet. 30–32). Patent Owner further argues that Dr. Chari relied only upon Morales-Sanfrutos's compound 2 when analyzing claim 2, which involved mapping its propargylamine group to Z to provide an amino group for claim 2 and mapping compound 2's vinyl to Y, which is inconsistent between claims 1 and 2. Sur-reply 18 (citing Ex. 1003 ¶ 87; Ex. 2046, 63:4–14, 64:2–8, 66:22–67:15, 68:5–11, 86:20–88:25).
+
+We select Morales-Sanfrutos's compound 2 as representative for this analysis. Before turning to claim 2's limitations, we first analyze whether Morales-Sanfrutos's compound 2 meets claim 1's limitations.
+
+Morales-Sanfrutos's compound 2 is reproduced below:
+
+![](images/460f12b5e744dc75b52f31ac3298ef34990480a98c8d5ea7cc48fa465045d5ab.jpg)
+
+Pet. 27 (Table B1). Petitioner's Table B2 summarizes how Petitioner argues that compound 2 meets the limitations of claim 1, which is shown below. Id. at 28–31 (citing Ex. 1003 ¶¶ 82–84).
+
+Table B2
+
+<table><tr><td></td><td colspan="4">Morales-Sanfrutos&#x27; Compounds 1-2 (Table B1)</td></tr><tr><td rowspan="2">&#x27;682(I)</td><td rowspan="2">Compound 1</td><td colspan="3">Compound 2</td></tr><tr><td>(a)</td><td>(b)</td><td>(c)</td></tr><tr><td>Y</td><td></td><td></td><td></td><td></td></tr><tr><td>Z</td><td></td><td></td><td></td><td></td></tr><tr><td>R1</td><td>absent5</td><td>absent</td><td>absent</td><td></td></tr><tr><td>m</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Q</td><td>-SO2-</td><td>-SO2-</td><td>-SO2-</td><td>-SO2-</td></tr><tr><td>R2</td><td></td><td></td><td></td><td></td></tr><tr><td>p</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td colspan="5"></td></tr><tr><td>n</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>T</td><td>-SO2-</td><td>-SO2-</td><td>-SO2-</td><td>-SO2-</td></tr><tr><td>R3</td><td>absent</td><td></td><td>CH2</td><td>absent</td></tr><tr><td>R4</td><td>absent</td><td>absent</td><td>CH2</td><td>absent</td></tr></table>
+
+Petitioner argues that the vinyl of compound 2's vinyl sulfone functions as claim 1's Y for option (a) of compound 2. As discussed above in our claim construction section, we construe claim 1's Y as encompassing vinyl.
+
+The parties argue whether Morales-Sanfrutos's vinyl can meet claim 1's requirement that Y is “a functional group that enables reaction of the hydrophilic linker with a cell-binding agent,” including whether Morales-Sanfrutos or Straus demonstrates that vinyl would function to enable reaction with a cell-binding agent (i.e., whether Morales-Sanfrutos's HRP, which the vinyl bonds to, functions as a cell-binding agent). Pet. 30–31; Resp. 39–48; Reply 14–19; Sur-reply 14–19; Ex. 1002, 1:31–32.
+
+As discussed in our Decision on Institution, the DRP reasoned that when a hydrophilic linker contains a vinyl sulfone group, “the vinyl group should be mapped to Y or Z,” “the sulfone group should be mapped to Q or T,” and “such mapping satisfies the ‘enables reaction’ and ‘enables linkage’ requirements of claim 1.” DRP Dec. 16; Inst. Dec. 36–37. Although we understand the DRP’s reasoning to apply only to the case at institution, we find that this reasoning also applies to the vinyl group of Morales-Sanfrutos’s compound 2 for the reasons discussed above in our claim construction section regarding limitation Y. Specifically, the rejection of claim 20 during reexamination demonstrated that one of ordinary skill in the art would have understood that vinyl functions as Y and “enables reaction” of a hydrophilic linker with a cell-binding agent, as claim 1 recites. Ex. 1019, 51, 75. For these reasons, we conclude that the vinyl group of Morales-Sanfrutos’s compound 2 functions as limitation Y in claim 1.
+
+Regarding the remaining limitations of claim 1, we agree with Petitioner's reasoning that compound 2's sulfone groups function as limitations Q and T, the PEG and ethyl group function as $R_{2}$ (with p = 2), and $R_{3}$ would be an ethyl group. Pet. 28–29 (Table B2, compound 2(a)).
+
+Petitioner asserts that compound 2's propargylamine group functions as limitation Z of claim 1. Id. We therefore consider whether Petitioner has established whether the propargylamine group of Morales-Sanfrutos's compound 2 would function to enable linkage of a hydrophilic linker to a cytotoxic drug, as claim 1 recites. Ex. 1002, 1:40–45.
+
+In the Petition, Petitioner asserts that claim 1 does not require conjugation of the linker to the cytotoxic drug, only that Z enable such a reaction. Pet. 31. Petitioner further contends that “[a]lkynyl functionalities are known in the art as able to react with an N $_{3}$ (azide) group to form a heteroaromatic bond, and Morales-Sanfrutos discloses an alkynyl used to link biotin (an example of a drug) to a sulfone-containing linker” and “the ’682 patent discloses a formula (I) compound containing an azide that reacts with an alkynyl on a drug to form the exact same heteroaromatic bond disclosed years before in Morales-Sanfrutos.” Id. at 31–32 (citing Ex. 1005, 4041, 4043–4044; Ex. 1003 ¶ 87; Ex. 1001, Fig. 13).
+
+Patent Owner argues that “the alkyne in Morales-Sanfrutos’s compounds is designed to react with an azide in a small-molecule compound, which must be catalyzed by a copper catalyst,” “Morales-Sanfrutos repeatedly emphasizes that ‘copper catalyst is toxic for living organisms and induces degradation of the structures of the biomolecule in vitro,’” and “Dr. Chari confirmed that a POSA was moving away from copper catalysts due to the toxicity.” Resp. 44 (citing Ex. 2038 ¶¶ 164–165, 181; Ex. 1005, 4040, 4043; Ex. 2037, 33:18–34:8). According to Patent
+
+Owner, mapping an alkyne to Y “is directly contrary to Morales-Sanfrutos’s teachings.” Id.
+
+Petitioner asserts that “[v]inyl sulfone linkages to CBAs and functionalizing drugs with azides were known to a POSA” and “the reactions between the azides and alkynyl moieties propargylamine group, as taught by Morales-Sanfrutos, were also well-known (referred to as ‘Click Chemistry’).” Reply 15–16 (citing Ex. 1003 ¶¶ 54–56, 87; Ex. 1076 ¶¶ 13–17, 33). According to Petitioner, “the synthesis of anti-cancer [matrix metalloprotease] inhibitors via Click chemistry reaction of propargylamine and azide groups, resulting in a heteroaromatic bond, has been reported:
+
+![](images/45a4b8a059e3760982a9b2063ea070d31a02d11811b543aa70e8f84da26363fb.jpg)  
+Id. at 16 (citing Ex. 1068, 3821). In view of this, Petitioner argues that “propargylamine groups satisfy the Z limitation because they enable linkages to drugs via, e.g., heteroaromatic bond linkages.” Id.
+
+Petitioner's arguments sufficiently demonstrate that the propargylamine group of Morales-Sanfrutos's compound 2 would enable linkage with a cytotoxic drug, as claim 1 recites. As noted above, the Petition sets forth arguments that the propargylamine group functions as Z (Pet. 28 (Table B2)) and that its alkynyl functionality would react with an azide (N $_{3}$ ) group to form a heteroaromatic bond (id. at 31–32). Dr. Chari cites references to show that cytotoxic drugs may have an azide group. Ex. 1076 ¶ 15 (citing Ex. 1077; Ex. 1083; Ex. 1084). We agree that Exhibit 1083, page 2, shows that anticancer drugs like doxorubicin and daunorubicin can have an azide (N3) group. Dr. Chari also makes the same explanation as Petitioner regarding the reaction of an alkynyl of a propargylamine group with an azide to form a heteroaromatic bond. Ex. 1076 ¶¶ 16–17 (citing Ex. 1068, 3821) (explaining that the positions of the propargylamine group and azide are switched but their reaction is nevertheless well-known).
+
+With regard to Patent Owner's arguments regarding catalyzation via copper and that mapping to Y is contrary to Morales-Sanfrutos's teachings (Resp. 44), we note that this ground is based on anticipation, not obviousness, and find these arguments unpersuasive for that reason. See Celeritas Techs. Ltd. v. Rockwell Int'l Corp., 150 F.3d 1354, 1361 (Fed. Cir. 1998) (“A reference is no less anticipatory if, after disclosing the invention, the reference then disparages it. Thus, the question whether a reference ‘teaches away’ from the invention is inapplicable to an anticipation analysis.” (citation omitted).
+
+Because Morales-Sanfrutos's compound 2 satisfies claim 1's limitations, we next consider whether compound 2 satisfies claim 2's limitations.
+
+As noted above, Petitioner asserts that compound 2's propargylamine group functions as Z for claim 1. Pet. 28 (Table B2). For claim 2, Petitioner argues that “[a]s shown in Table B1, Morales-Sanfrutos’s compound 2 has an amino group.” Id. at 32. Petitioner explains that the Petition cited the
+
+propargylamine group for Z, which possesses an amino group to satisfy claim 2. Resp. 19–21 (citing Ex. 1076 ¶¶ 22–25).
+
+As discussed above, compound 2's propargylamine group has the following structure:
+
+![](images/a9abe9de8c3ae4e4585f276e3e24a665f1e0b8fe2defb38938507bea593735ec.jpg)
+
+Pet. 28 (Table B2). Dr. Chari opines that this propargylamine group includes an “amino portion” that “is only mono-alkylated (i.e., still present as NH...).” Ex. 1076 ¶ 23. We agree that this sufficiently demonstrates that compound 2’s propargylamine group would satisfy claim 2’s limitations.
+
+Patent Owner cites its arguments for claim 1 regarding the mapping of vinyl to Y and argues that Petitioner's positions regarding Z are inconsistent between claims 1 and 2. Resp. 48–49; Sur-reply 18. We do not agree with Patent Owner for the reasons discussed above in our claim construction section for Y and because Petitioner's arguments and explanation are consistent with the position set forth for compound 2 in Table B2 of the Petition.
+
+For these reasons, Petitioner has demonstrated by a preponderance of the evidence in the record that claim 2 is anticipated by Morales-Sanfrutos.
+
+## 4. Claims 25 and 33
+
+Claim 25 depends from claim 24 and recites “wherein when Q and T are each independently $-\mathrm{S}(\mathrm{O}_{2})-$ or $-\mathrm{S}(\mathrm{O})-$ , at least one of $R_{1}$ , $R_{2}$ , $R_{3}$ and $R_{4}$ comprises the polyethyleneoxy unit of formula $(\mathrm{OCH}_{2}\mathrm{CH}_{2})_{\mathrm{p}}$ ; and each of remaining $R_{1}$ , $R_{2}$ , $R_{3}$ and $R_{4}$ comprises an alkyl or $(\mathrm{OCH}_{2}\mathrm{CH}_{2})_{\mathrm{p}}$ .” Ex. 1002, 7:21–26.
+
+Claim 33 depends from claim 3 and also recites “wherein when Q and T are each independently $-\mathrm{S}(\mathrm{O}_{2})-$ or $-\mathrm{S}(\mathrm{O})-$ , at least one of $R_{1}$ , $R_{2}$ , $R_{3}$ and $R_{4}$ comprises the polyethyleneoxy unit of formula $(\mathrm{OCH}_{2}\mathrm{CH}_{2})_{\mathrm{p}}$ ; and each of remaining $R_{1}$ , $R_{2}$ , $R_{3}$ and $R_{4}$ comprises an alkyl or $(\mathrm{OCH}_{2}\mathrm{CH}_{2})_{\mathrm{p}}$ .” Ex. 1002, 12:29–33.
+
+Our analysis begins by focusing on whether Petitioner's arguments demonstrate that claims 3 and 24 would have been obvious and are thus unpatentable over Morales-Sanfrutos, as evidenced by Straus. Specifically, we focus on whether Petitioner has sufficiently demonstrated that Morales-Sanfrutos, as evidenced by Straus, teaches a linker including a cell-binding agent, as claims 3 and 24 require.
+
+In our discussion of claim 2 above, we agreed with the DRP's reasoning for mapping the vinyl portion of vinyl sulfone to Y and that this would satisfy the “enables reaction” language of claim 1. DRP Dec. 16. However, we note that the reasoning for that Decision was limited to claim 1 and did not reach claim 3. Id.
+
+Petitioner addresses cell-binding agent (Cb) of claims 3 and 24 by citing Morales-Sanfrutos's HRP. Pet. 34–35 (Table B3). Petitioner further contends that “HRP is a known cell-binding agent, as evidenced by Straus.” Id. at 36 (citing Ex. 1006, 277; Ex. 1003 ¶¶ 59, 90).
+
+Patent Owner cites its arguments for claim 1 that are relevant to this issue. Resp. 49, 44–48. Specifically, Patent Owner asserts that Morales-Sanfrutos does not disclose a cell-binding agent because “Morales-Sanfrutos specifically describes HRP as a reporter that functions through its peroxidase
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+enzymatic activity, not through binding to any cells.” Id. at 45 (citing Ex. 1005, 4039, 4043; Ex. 2038 ¶¶ 166–168). With regard to Straus, Patent Owner contends that “Morales-Sanfrutos expressly describes HRP as a peroxidase reporter for in vitro biological assays, not for binding to any cells” but, “[i]n contrast, . . . , Straus describes ‘unusual’ binding of HRP to previously dried and methanol-treated cells under highly artificial conditions.” Id. at 46 (citing Ex. 2038 ¶¶ 169–172). According to Patent Owner, Petitioner fails to show that Morales-Sanfrutos’s HRP would function as a cell-binding agent under either party’s construction of that term. Id. (citing Ex. 2038 ¶ 188). Patent Owner asserts that Dr. Chari’s testimony for this matter is conclusory and is entitled to no weight. Id. at 46–47 (citing Ex. 1003 ¶¶ 59, 90). Patent Owner also argues that “Straus describes a cytochemical method that involves highly artificial conditions, such as drying the cells, treating them with cold methanol, and fixing them in a paraformaldehyde solution” and therefore “Straus’ disclosures demonstrate the opposite—that HRP does not necessarily and inherently bind cells under normal physiological conditions.” Id. at 47 (citing Ex. 2038 ¶¶ 82–85, 169–172; Ex. 1006, 279, 282). According to Patent Owner, one of ordinary skill in the art “would not have looked to Straus to inform their understanding of Morales-Sanfrutos.” Id. at 47–48 (citing Ex. 2038 ¶ 189).
+
+Petitioner argues that our decision in the Institution Decision after remand should stand but, regardless, “Straus expressly teaches that HRP binds to the surfaces of specific cell populations” and one of ordinary skill in the art “would have readily appreciated Straus’s teachings as applying to HRP binding in living cells.” Reply 18 (citing Ex. 1006, 277, 281, 283, Figs. 1–14; Ex. 1075 ¶¶ 10–15, 20, 23).
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+According to Petitioner, “Patent Owner’s argument that certain of Straus’ experimental results were conducted on cells that had been dried and treated with methanol and paraformaldehyde (POR, 36) is meritless” and “Straus’ techniques are known as cell ‘fixation,’ which preserves cells in their natural state precisely so that binding experiments can be subsequently conducted.” Reply 18 (citing Ex. 1075 ¶¶ 16–20). Petitioner argues that “‘fixation is one of the most critical steps in immunostaining’ and ‘the goal of fixation is to preserve cells and tissues in a life-like manner.’” Id. (quoting Ex. 1074, 55; citing Ex. 1075 ¶¶ 19–21). Petitioner contends that “[f]ixation ‘helps to prevent artifactual diffusion of cell components, . . . and avoids decomposition of the tissue’ and Straus’ techniques are widely used.” Id. (citing Ex. 1074, 56) (second alteration in original). Petitioner further argues that “Straus expressly states that its fixation techniques were necessary to avoid ‘background’ adsorption, and to prevent the washing away of key surface proteins that would otherwise skew the results” and that “Straus concludes that its fixation technique was ‘sufficient to study the binding of HRP to the cell surface.’” Id. at 18–19 (citing Ex. 1006, 282; Ex. 1075 ¶ 23).
+
+Patent Owner responds by asserting that “[a]s Dr. Baker acknowledges, Straus discloses fixation techniques under which the cells are dead and no longer viable” and one of ordinary skill in the art “would understand from the context of the ’682 patent that a cell-binding agent targets and binds to living cells under in vitro, in vivo, or ex vivo conditions.” Sur-reply 17–18 (citing Ex. 1075 ¶ 23; Ex. 1063, 33:20–34:8).
+
+We consider whether Morales-Sanfrutos, as evidenced by Straus, demonstrates that HRP functions as a cell-binding agent, as required by claims 3 and 24. As stated above in our claim construction section, we construe “cell-binding agent” as “[a] molecule that binds to, complexes with or reacts with a moiety of a cell population sought to be therapeutically or otherwise biologically modified.” Ex. 1001, 14:42–44.
+
+Petitioner has not demonstrated that Morales-Sanfrutos's HRP functions as a cell-binding agent in view of this construction. Straus evidences that HRP can bind cells that were previously dried and chemically treated with cold methanol. Ex. 1006, 277. Dr. Baker states that fixation processes like the one Straus describes are done “to preserve the cells in as natural of a state as possible (i.e., as close to their living state as possible) precisely so that cell binding experiments can then be conducted reliably and one can learn whether a given protein/agent will bind to those cells in their natural state.” Ex. 1075 ¶ 17. We conclude that Petitioner does not connect Straus’s teachings with our claim construction to demonstrate that Morales-Sanfrutos’ss HRP is a cell-binding agent under our construction.
+
+Furthermore, Dr. Baker acknowledges that Straus reports “types and concentrations of various reagents that were found to suppress the binding of HRP to cell surfaces.” Ex. 1075 ¶ 11. Dr. Baker also acknowledges that “there are conditions in which HRP’s cell-surface binding can be inhibited or reversed.” Id. ¶ 15. To the extent Straus evidences that HRP can function as a cell-binding agent, it is under certain conditions, particularly when the HRP has been dried and treated with methanol. Ex. 1006, 277; Resp. 36. Petitioner does not sufficiently tie these conditions to those used in Morales-Sanfrutos. In other words, Straus does not serve as evidence that HRP functions as a cell-binding agent under the particular conditions used by Morales-Sanfrutos.
+
+IPR2022-01531
+
+Patent 10,131,682 C1
+
+Morales-Sanfrutos is silent with regard to its HRP functioning as a cell-binding agent. With regard to Straus, Petitioner does not adequately explain why Straus' teachings and the conditions Straus uses for its fixation technique would apply to Morales-Sanfrutos's HRP and its linker. As a result, Petitioner has not demonstrated by a preponderance of the evidence in the record that Straus' fixation technique evidences that HRP is a cell-binding agent in the context of Morales-Sanfrutos, as required by claims 3 and 24.
+
+For these reasons, Petitioner has not demonstrated by a preponderance of the evidence in the record that claims 25 and 33 are anticipated by Morales-Sanfrutos, as evidenced by Straus.
+
+H. Ground 2 — Alleged Anticipation/Obviousness in view of Harris
+
+Petitioner asserts that claims 1, 20, 21, and 29–31 are anticipated by, or rendered obviousness in view of, Harris. Pet. 37–44.
+
+In our analysis of Ground 3 above, we conclude that all of challenged claims 1, 20, 21, and 29–31 are obvious in view of Singh. Accordingly, we need not reach Ground 2. See Bos. Sci. Scimed, Inc. v. Cook Grp. Inc., 809 F. App’x 984, 990 (Fed. Cir. 2020) (non-precedential) (recognizing that the “Board need not address issues that are not necessary to the resolution of the proceeding” and, thus, agreeing that the Board has “discretion to decline to decide additional instituted grounds once the petitioner has prevailed on all its challenged claims”).
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## I. Patent Owner's Motion to Exclude Evidence
+
+Patent Owner moves to exclude Exhibits 1089 and 1090. Paper 50. As we did not rely on either of Exhibits 1089 or 1090 in deciding this matter, Patent Owner's motion is dismissed as moot.
+
+## III. CONCLUSION
+
+Petitioner has demonstrated, by a preponderance of the evidence, that claims 1–17, 20, 21, 24, 26, and 29–31 are unpatentable over the cited prior art.
+
+Petitioner has not demonstrated, by a preponderance of the evidence, that claims 25 and 32–34 are unpatentable over the cited prior art.
+
+In summary:
+
+<table><tr><td>Claims</td><td>35 U.S.C. §</td><td>Reference(s)/Basis</td><td>Claims Shown Unpatentable</td><td>Claims Not Shown Unpatentable</td></tr><tr><td>1–3, 6, 24–25, 33</td><td>102(a)</td><td>Morales-Sanfrutos as evidenced by  $Straus^{25}$ </td><td>2</td><td>25, 33</td></tr><tr><td>1, 20, 21, 29–31</td><td>102(a)/103(a)</td><td> $Harris^{26}$ </td><td></td><td></td></tr><tr><td>1–8, 10–12, 14–17, 20, 21, 24, 26, 29–31</td><td>102(a)/103(a)</td><td>Singh, Harris</td><td>1, 3–8, 10–12, 14–17, 20, 21, 24, 26, 29–31</td><td>2</td></tr><tr><td>9, 13</td><td>103(a)</td><td>Singh, Harris, Bhakta</td><td>9, 13</td><td></td></tr><tr><td>2, 25, 32–34Overall Outcome</td><td>103(a)</td><td>Singh, Harris, Snow</td><td>1–17, 20, 21, 24, 26, 29–31</td><td>2, 25, 32–3425, 32–34</td></tr></table>
+
+## IV. ORDER
+
+In consideration of the foregoing, it is hereby:
+
+ORDERED that Petitioner has shown that claims 1–17, 20, 21, 24, 26, 29–31 of the '682 patent are unpatentable;
+
+ORDERED that Petitioner has not shown that claims 25 and 32–34 of the '682 patent are unpatentable;
+
+ORDERED that Patent Owner's Motion to Exclude Exhibits 1089 and 1090 is DISMISSED as moot; and
+
+FURTHER ORDERED that, because this is a Final Written Decision, parties to the proceeding seeking judicial review of the decision must comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+IPR2022-01531
+Patent 10,131,682 C1
+
+## FOR PETITIONER:
+
+Mike Houston
+Joseph Meara
+Jolene Fernandes
+FOLEY & LARDNER LLP
+mHouston@foley.com
+jmeara-pgp@foley.com
+jfernandes@foley.com
+
+## FOR PATENT OWNER:
+
+Francis Cerrito
+
+Frank Calvosa
+
+Catherine Mattes
+
+Tara Srinivasan
+
+QUINN EMANUEL URQUHART & SULLIVAN, LLP
+
+nickcerrito@quinnemanuel.com
+
+frankcalvosa@quinnemanuel.com
+
+catherinemattes@quinnemanuel.com
+
+tarasrinivasan@quinnemanuel.com

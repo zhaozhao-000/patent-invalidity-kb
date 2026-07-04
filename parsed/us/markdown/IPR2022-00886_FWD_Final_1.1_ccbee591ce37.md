@@ -1,0 +1,869 @@
+Entered: September 29, 2023
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE
+
+# BEFORE THE PATENT TRIAL AND APPEAL BOARD \_\_\_\_
+
+# NOVARTIS PHARMACEUTICALS CORPORATION, Petitioner,
+
+V.
+
+SHILPA PHARMA, INC.,
+Patent Owner.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Before JOHN G. NEW, ROBERT A. POLLOCK, and TIMOTHY G. MAJORS, Administrative Patent Judges.
+
+NEW, Administrative Patent Judge.
+
+JUDGMENT
+
+Final Written Decision
+
+Dismissing Petitioner's Motion to Exclude Evidence
+
+Denying Petitioner's Motion for Sanctions
+
+Dismissing-in-Part and Denying-in-Part Patent Owner's Motion
+
+to Exclude Evidence
+
+Determining All Challenged Claims Unpatentable
+
+35 U.S.C. § 318(a)
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+## I. INTRODUCTION
+
+We have jurisdiction to hear this inter partes review under 35 U.S.C. § 6. This Final Written Decision is issued pursuant to 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73. For the reasons set forth below, we determine that Petitioner Novartis Pharmaceuticals Corporation (“Petitioner”) has established, by a preponderance of the evidence of record, that challenged claims 1–4 of Patent Owner Shilpa Pharma Inc.’s (“Patent Owner”) U.S. Patent No. 9,266,816 B2 (Ex. 1001, the “’816 patent”) are unpatentable. Additionally, because we find that Petitioner has established that claims 1–4 are unpatentable, we dismiss as moot Petitioner’s Motion to Exclude Evidence (Paper 59). Furthermore, for the reasons we set forth below, Patent Owner’s Motion to Exclude Evidence (Paper 48) is dismissed-in-part as moot and denied-in-part. Both parties’ unopposed Motions to Seal are granted. See Papers 31, 33, 39, 40, 42, 46, 52, 56, 57, 60, 62, 68. Finally we deny Petitioner’s Motion for Sanctions against Patent Owner. (Paper 43).
+
+## A. Procedural History
+
+On April 20, 2022, Petitioner filed its Petition (Paper 1, “Pet.”) seeking inter partes review of claims 1–4 of the ’816 patent. On July 29, 2022, Patent Owner filed a Preliminary Response (see Paper 8, “Prelim. Resp.”). With our authorization (Paper 9), Petitioner filed a Reply to the Preliminary Response on August 30, 2022 $^{1}$ (Paper 10, “Pet. Reply Prelim. Resp.”), and Patent Owner filed a Sur-Reply on September 7, 2022. Paper 12 (“PO Sur-Reply Prelim. Resp.”). Pursuant to 35 U.S.C. § 314, we
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+instituted inter partes review of challenged claims 1–4 of the '816 patent on October 26, 2022 (Paper 13, “Institution Decision” or “Dec.”).
+
+After institution of trial, Patent Owner filed a Response (Paper 21, “PO Resp.”), to which Petitioner filed a Reply (Paper 34, “Pet. Reply”), and Patent Owner, in turn, filed a Sur-Reply (Paper 40, “Sur-Reply”). With the Board’s authorization, Patent Owner also filed a Supplement to its Response (“PO Resp. Suppl.”), based on information produced by Petitioner in the parallel district court litigation (see infra Section II.B).
+
+Petitioner also filed a Motion to Exclude all or portions of certain of Patent Owner's Exhibits (Paper 47, “Pet. Mot. Exclude”), having timely objected to those exhibits. Patent Owner filed an Opposition to Petitioner's Motion to Exclude (Paper 55, “PO Opp. Mot.”) and Petitioner filed a Reply to the Opposition (Paper 61, “Reply Opp.”). Patent Owner likewise filed a Motion to Exclude all or portions of certain of Petitioner Exhibits (Paper 48), having similarly timely objected. Petitioner filed an Opposition to Patent Owner's Motion (Paper 58, “Pet. Opp.”) and Patent Owner filed a Reply. Paper 64 (“PO Reply Mot. Exclude”).
+
+With the Board's authorization, Petitioner also filed a Motion for Sanctions against Patent Owner on July 3, 2023. Paper43 (“Mot. Sanctions”). Patent Owner filed an Opposition to the Motion for Sanctions. Paper 50 (“Opp. Mot. Sanctions”).
+
+Closed oral argument was held on May 2, 2023. A sealed transcript of the oral argument is included in the record; a redacted transcript is also available in the record. (Paper 71, “Hearing Trans.”; Paper 73, (public version)).
+
+## II. BACKGROUND
+
+## A. Real Parties-in-Interest
+
+Petitioner identifies Novartis Pharmaceuticals Corporation as the real party-in-interest. Pet. 45. Patent Owner identifies Shilpa Pharma, Inc. as the real party-in-interest. Paper 4, 1.
+
+## B. Related Matters
+
+Petitioner and Patent Owner concur that the '816 patent is the subject of pending litigation brought by Shilpa in Shilpa Pharma, Inc. v. Novartis Pharmaceuticals Corporation, Case No. 1:21-cv-00558-MN (D. Del.) (the "district court litigation"). Pet. 45, Paper 4, 1.
+
+## C. The Asserted Grounds of Unpatentability
+
+Petitioner contends that claims 1–4 of the '816 patent are unpatentable, based upon the following grounds:
+
+<table><tr><td>Ground</td><td>Claim(s) Challenged</td><td>35 U.S.C. §</td><td>Reference(s)/Basis</td></tr><tr><td>1</td><td>1–4</td><td>102</td><td> $Mutz^2$ </td></tr><tr><td>2</td><td>1–4</td><td>103</td><td> $Mutz, Gidwani^3$ </td></tr><tr><td>3</td><td>1–4</td><td>102</td><td>Gidwani</td></tr></table>
+
+Petitioner also relies upon, inter alia, the Declaration of Dr. Richard McClurg (the “McClurg Declaration,” Ex. 1002). Patent Owner relies upon, inter alia, the Declarations of Dr. Craig Eckhardt (the “First and Second
+
+Eckhardt Declaration," Ex. 2008; Ex. 2055). We have reviewed the credentials of Dr. McClurg, and Dr. Eckhardt, and consider both to be qualified to provide the opinions for which their testimony has been submitted.
+
+## D. The '816 Patent
+
+The '816 patent is entitled “Fingolimod Polymorphs and Their Processes.” Ex. 1001, code (54). The '816 patent issued from US Application No. 13/635,207 (the “’207 application”). Id. at code (21).
+
+The '816 patent discloses crystalline $\alpha$ , $\beta$ , and $\mu$ polymorphic forms of fingolimod hydrochloride (2-amino-2-[2-(4-octylphenyl)ethyl]propane-1,3-diol hydrochloride) ("fingolimod HCl"), an immunosuppressant drug used in the treatment of multiple sclerosis, and processes for their preparation. Ex. 1001 col. 1, ll. 11–13, 44–46, 66–67. The structure of fingolimod HCl is depicted below:
+
+![](images/fafaff99fadbb3379a4bd86514694029403eb04c37806d830a4f5446ad56d744.jpg)  
+Structure of fingolimod HCl
+
+Ex. 1001 col. 1, ll. 17–23. Challenged claims 1–4 of the '816 patent recite only the β form ("Form-β") of crystalline fingolimod. See Ex. 1001, claims 1–4.
+
+The '816 patent discloses x-ray powder diffraction ("XRPD") spectra for the various crystalline isoforms, including that of Form- $\beta$ , which is reproduced below:
+
+![](images/b4a0f8cb6e9a5f33e23773ed6a3f41ae6885426e94f41db0dcfd72b45772e740.jpg)  
+Figure 3 of the '816 patent depicts an XRPD pattern of fingolimod HCl Form- $\beta$
+
+Figure 3 demonstrates that fingolimod HCl crystalline Form- $\beta$ is characterized by an XRPD pattern comprising at least 4 characteristic $2\theta^{\circ}$ peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and $25.10 \pm 0.1^{\circ}$ $2\theta$ . Ex. 1001 col. 5, ll. 8–11.
+
+The '816 patent also discloses, in Figure 4, a differential scanning calorimetry ("DSC") curve for crystalline fingolimod HCl Form- $\beta$ , as depicted below:
+
+![](images/c195025a59a085fab9b4c75eadeeb2129acfef8e855230a2c8e3115c7456d019.jpg)  
+Figure 4 of the '816 patent depicts a DSC curve of crystalline fingolimod HCl Form- $\beta$  
+As shown in Figure 4 of the '816 patent, crystalline Form- $\beta$ may be characterized by DSC isotherm comprising at least four endothermic peaks at temperature ranges between: (1) 40 to 45°C (Peak 1); (b) 65 to 70°C (Peak 2); (c), 107 to 115°C (Peak 3); and (d) 265 to 270°C (Peak 4). Ex. 1001 col. 5, ll. 1–7.
+
+## E. The Challenged Claims
+
+Claims 1–4 are the challenged claims in this proceeding. See Section II.D. above. Claim 3 is representative of the challenged claims, and recites:
+
+3. Fingolimod hydrochloride crystalline Form- $\beta$ characterized by X-ray powder diffraction pattern comprising characteristic $2\theta^{\circ}$ peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and $25.10 \pm 0.1$ $2\theta^{\circ}$ and DSC isotherm comprising the endothermic peaks ranging between 40 to $45^{\circ}$ C. (Peak-1), 65 to $70^{\circ}$ C. (Peak-2), 107 to $115^{\circ}$ C. (Peak-3) and/or 265 to $270^{\circ}$ C. (Peak-4).
+
+Ex. 1001 col.10, ll. 1–7.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+## III. ANALYSIS
+
+## A. Claim Construction
+
+The Board applies the same claim construction standard that would be used to construe the claim in a civil action under 35 U.S.C. § 282(b). See 37 C.F.R. § 100(b) (2020). Under that standard, claim terms “are generally given their ordinary and customary meaning” as understood by a person of ordinary skill in the art at the time of the invention. Phillips v. AWH Corp., 415 F.3d 1303, 1312–13 (Fed. Cir. 2005) (en banc). “In determining the meaning of the disputed claim limitation, we look principally to the intrinsic evidence of record, examining the claim language itself, the written description, and the prosecution history, if in evidence.” DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17). Extrinsic evidence may also be considered, but is “less significant than the intrinsic record in determining ‘the legally operative meaning of claim language.’” Phillips, 415 F.3d at 1317 (quoting C.R. Bard, Inc. v. U.S. Surgical Corp., 388 F.3d 858, 862 (Fed. Cir. 2004)).
+
+Petitioner does not propose a construction for any claim terms apart from their plain and customary meaning. Pet. 16. Patent Owner, however, proposes that we construe the language of claims 1–3 of the '816 patent as requiring the presence of all seven of the recited XRPD peaks. PO Resp. 7. Patent Owner points to the prosecution history of the '816 patent, and in particular, the May 15, 2015 Amendment to the claims, in which Patent Owner amended then-claims 7 and 9 (challenged claims 1 and 3 of the '816 patent) by deleting “comprising at least 4” characteristic $2\theta^{\circ}$ peaks and
+
+stating, in its Remarks that, “[f]rom the presently amended claim, for a person skilled in the art it is clear that crystalline polymorphic form of Fingolimod HCl designated as Form-β, if and only if every peak in the claim is present the XRPD.” Id. (see Ex. 2048, 9). Patent Owner contends that the amended claims require the presence of all seven XRPD peaks recited in the claims to define Form β in claims 1 and 3, and that fewer than the seven named peaks would not be sufficient. Id. (citing Chimie v. PPG Indus., Inc., 402 F.3d 1371, 1384 (Fed. Cir. 2005) (holding that “[t]he purpose of consulting the prosecution history … is to ‘exclude any interpretation that was disclaimed during prosecution.’”); Gillespie v. Dywidag Sys., Int’l, USA, 501 F.3d 1285, 1291 (Fed. Cir. 2007)).
+
+We do not agree with Patent Owner's proposed construction. Because the issued claims recite the transition term “comprising” rather than “consisting of,” Patent Owner’s apparent argument of prosecution disclaimer does not apply to the claims as issued. The language of challenged claim 3, by way of example, recites in relevant part “[f]ingolimod hydrochloride crystalline Form-β characterized by [XRPD] pattern comprising characteristic 2θ° peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and 25.10 ± 0.1° 2θ.” (Emphasis added). The use of the term “peaks” directly implies that at least two of the named peaks must be selected from the seven recited. We disagree with Patent Owner that the term “selected from” requires that all of the peaks be present to characterize fingolimod form β: the plain language “selected from” means no more than that the practitioner chooses at least two peaks from the recited set of 2θ° values. See Ex. 1115 (defining “select” as “to choose … from a number or group: pick out”).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+We consequently construe the language of claims 1–3 reciting “[f]ingolimod hydrochloride crystalline Form-β characterized by [XRPD] pattern comprising characteristic 20° peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and 25.10 ± 0.1 20°” as meaning that “fingolimod hydrochloride crystalline Form-β is characterized by an XRPD pattern with at least two peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and 25.10 ± 0.1° 20.”⁴ This is also consistent with the Specification of the ’816 patent, which discloses exemplary embodiments in which at least 3–5 of the recited peaks are sufficient to characterize the XRPD spectrum, but nowhere discloses a requirement for all seven peaks. Ex. 1001, col. 2, ll. 10–59, cols. 3–6, ll. 34–48.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+## B. Person of Ordinary Skill in the Art
+
+Petitioner asserts that a person of ordinary skill in the art would have at least a bachelor's degree in chemistry, chemical engineering, or related disciplines or equivalent experience, and at least five years of experience related to synthesis, crystallization, and/or detection and/or evaluation of solid-state forms in the pharmaceutical industry or an advanced degree in chemistry, chemical engineering, or related disciplines. Pet. 17. According to Petitioner, such a person would have a working knowledge of the preparation, characterization, and analysis of solid-state forms, including by XRPD and DSC. Id. Petitioner proposes that additional graduate education could substitute for experience, while significant experience in the field might be a substitute for formal education. Id.
+
+Patent Owner asserts that a person of ordinary skill in the art would include a person who possesses an advanced degree (e.g., Master's degree or Ph.D., or foreign equivalents of either of the foregoing) in the fields of solid-state chemistry, chemical engineering, or a related discipline (e.g., organic chemistry) and several years of experience in crystal technology. PO Resp. 6. Alternatively, argues Patent Owner, a person of ordinary skill in the art could have a lower level of formal education, such as a Bachelor's degree, if such a person had a higher degree of experience. Id.
+
+Patent Owner contends that a person of ordinary skill in the art would understand that the process of developing pharmaceutical compositions requires a multi-disciplinary approach, and would draw upon not only his or her own skills, but would also take advantage of certain specialized skills of others, to solve any given problem. PO Resp. 6 (citing Ex. 2008 ¶¶ 14–15).
+
+Petitioner's and Patent Owner's respective definitions of a person of skill in the art are not inconsistent with each other. We therefore define a person of ordinary skill in the art as an individual with at least a bachelor's degree in solid-state chemistry, chemical engineering, or a related discipline (i.e., organic chemistry), and at least five years of post-degree experience related to synthesis, crystallization, and/or detection and/or evaluation of solid-state forms. Such a skilled artisan could have an advanced degree in the same or similar fields, with concurrently less experience. We find that this definition is consistent with the level of skill reflected by the prior art. See, e.g., Exs. 1004–1009, 2010; see also Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001) (explaining that specific findings regarding ordinary skill level are not required “where the prior art itself reflects an appropriate level and a need for testimony is not shown” (quoting Litton Indus. Prods., Inc. v. Solid State Sys. Corp., 755 F.2d 158, 163 (Fed. Cir. 1985))).
+
+## C. Patent Owner's Motion to Exclude Evidence
+
+Before we address the merits of this inter partes review, we first address Patent Owner's Motion to Exclude certain evidence entered into the record. Paper 48 (“PO Mot. Exclude). Petitioner has filed an opposition to Patent Owner's Motion (Paper 58, “Pet. Opp. Mot. Exclude”) and Patent Owner filed a Reply. Paper 63 (“PO Reply Mot. Exclude”).
+
+Specifically, Patent Owner seeks to exclude the following Exhibits: 1075, 1076, 1084, 1085, 1086, 1087, 1096, 1097, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, and 1119, 2152, and 2153 (collectively the “Shilpa Internal Documents”). PO Mot. Exclude, 1. Patent Owner also seeks to exclude portions of Exhibit 1066, and Exhibits 1069, 1070–1072, 1111, and 1115. Id.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+In our analysis below (see Section III.D.6, infra), we conclude that the prior art of record is dispositive of this inter partes review without recourse to the Shilpa Internal Documents, and we do not rely upon them in our analysis of the patentability of challenged claims 1–4. Our patentability analysis similarly has no need of recourse to Exhibit 1111, which relates to third-party testing and results with respect to the prior art. See Section III.D.6. We consequently dismiss Patent Owner's Motion to Exclude the Shilpa Internal Documents and Exhibit 1111 as moot. We discuss the remaining dispute as to Exhibits 1066, 1069, 1070–1072, and 1115 below.
+
+## 1. Exhibit 1066
+
+Patent Owner moves to exclude portions of Exhibit 1066 (the Reply Declaration of Petitioner's expert Dr. McClurg). PO Mot. Exclude 1. Patent Owner first seeks to exclude portions of Exhibit 1066 that are addressed to the Shilpa Internal Documents (¶¶ 81–83, 91, 114–116, 123–125, 137–139, 166–172, 174–175, and 181–182). Id. at 12–14. However, and as we have explained, we do not rely upon, or cite to, the Shilpa Internal Documents in our analysis of the patentability of challenged claims 1–4, and we therefore dismiss Patent Owner's Motion to Exclude these paragraphs of Exhibit 1066 as moot.
+
+Patent Owner also seeks to dismiss portions of Exhibit 1066 that relate to Dr. McClurg's use of the Un-Scan-It digitizing software to obtain data for peak positions of the XRPD spectra in Figure 1 of Mutz (¶¶ 37 (last two sentences), 39 (third sentence), 48–51). PO Mot. Exclude, 14. According to Patent Owner, Dr. McClurg's testimony in this regard constitutes a new theory of anticipation by Mutz, based on unreliable and inaccurate ruler measurements and estimations, that is not contained in the
+
+Petition and violates Patent Owner's due process rights under the Administrative Procedures Act (“APA”) because Patent Owner has had no opportunity to respond with counter-evidence to the improper reply evidence. Id. at 1, 14 (citing Belden Inc. v. Berk-Tek LLC, 805 F.3d 1064, 1080 (Fed. Cir. 2015)). Patent Owner also argues that this testimony should be excluded under Federal Rule of Evidence (“FRE”) 403 because any alleged probative value is substantially outweighed by the danger of this testimony providing misleading statements, unfair prejudice or confusing the issues. Id.
+
+We are not persuaded by Patent Owner's reasoning. The original visual comparisons and paper-and-ruler measurements of the peak $2^{\circ}\theta$ locations of the XRPD diffractogram spectrum of Mutz Figure 1 were made by Dr. McClurg in support of his initial Declaration (Ex. 1002 ¶¶ 105–116; see also Ex. 2052 ¶ 124) and relied upon in the Petition. See, e.g., Pet. 19–20. In his Declaration, Patent Owner's expert, Dr. Mayo, contends that Dr. McClurg's methodology was "scientifically unreliable, and highly unlikely to be accurate." Ex. 2052 ¶ 124. Dr. Mayo further opined that:
+
+Dr. McClurg's method is very crude and highly inaccurate since comparison of corresponding peak positions in two different XRPD patterns requires an accuracy of $\pm 0.1^{\circ} 2\theta$ , which corresponds to about $\pm 0.01$ of Mutz Figure 1, which is smaller than the finest division of $1/64$ on a precision ruler. In my opinion, Dr. McClurg's crude estimation of peaks at $21.4^{\circ}$ and $25.0^{\circ}$ is not reliable evidence that Mutz discloses peaks at precisely $21.43^{\circ}$ and $25.10^{\circ} \pm 0.1^{\circ} 2\theta$ . As a result, a POSA would not be able to reproduce for themselves the data that Dr. McClurg relied upon for its analysis.
+
+## Ex. 2052 6, B.i.
+
+In response to Dr. Mayo's criticisms of his methodology, Dr. McClurg responded in his Reply Declaration that:
+
+It is strange that Dr. Mayo assumes that I would not have thought to enlarge the Mutz image, given his use of enlargements in his own declaration.
+
+When presented with a small image, a scientist would enlarge the figure in one of at least three ways: (1) print the figure on a large piece of paper; (2) print a portion of the figure on standard paper; or (3) use an enlarging copier to generate a figure that fills the page. In practice, I used an enlarging copier. A single 200% enlargement yields a figure that fits nicely on a standard sheet of paper in landscape orientation. At this scale, $0.1^{\circ}2\theta$ corresponds to 0.66 mm, within the precision of a metric ruler and discernible by the human eye. In this instance, I measured peak location to the nearest 0.5mm (i.e., either on or between mm marks on the scale). Based on my estimated precision, I reported peak positions the nearest $0.1^{\circ}2\theta$ in my declaration.
+
+I further confirmed the accuracy of this method against the already-tabulated peaks from Mutz. That is, I did not limit my analysis to the two peaks at 21.43 and $25.10 \pm 0.1^{\circ} 2\theta$ . I also checked if my method could accurately identify in the diffractogram the peak positions Mutz had separately listed. It did. If it had not, I could have further enlarged portions of the figure, but that was not necessary.
+
+Ex. 1066 ¶¶ 33–36 (citations omitted). Furthermore, to validate his challenged methodology, and to rebut Dr. Mayo’s opinion, Dr. McClurg states:
+
+If Dr. Mayo truly had doubts about the peak positions that I found, he could have used available software to find the correct positions. He did not, apparently for good reason—digital analysis confirms my results.
+
+For example, I used the program Un-Scan-It to extract raw data from the Mutz PDF, and then looked for local maxima indicating peak positions. The raw data reveals peaks at 21.40773 and 25.03813° 2θ, consistent with my estimates at 21.4 and 25.0° 2θ and within the range (±0.1° 2θ) in the '816 Patent for Form-β.
+
+Scientists in 2010—when Shilpa filed for a patent on Form- $\beta$ —could have done the same analysis. As reflected in numerous references, Un-Scan-It software was first offered in 1992, and was widely available in 2010.
+
+Ex. 1066 ¶¶ 48–50.
+
+Dr. McClurg's use of digitizing software to validate his initial calculations of XRPD spectrum peak $2^{\circ}\theta$ location was not, therefore, a “new theory of anticipation by Mutz” as alleged by Patent Owner. To the contrary, it was introduced by Petitioner and its expert in rebuttal to Dr. Mayo’s opinion that Dr. McClurg’s methods were scientifically unreliable. It was employed to further validate Dr. McClurg’s measurements, and to support his opinion that a person of ordinary skill in the art in 2010 would have understood that the XRPD spectrum of Mutz’s Figure 1 disclosed all of the XRPD diffractogram peaks recited in the challenged claims. This argument was made in the Petition. See Pet. 19.
+
+"The truest test for the admission of evidence in an expert rebuttal report is whether the evidence is specifically offered to rebut a conclusion, opinion, or datum put forth by the other side's expert." Panasonic Commc'ns Corp. of America v. United States, 108 Fed. Cl. 412, 415 (Ct. Fed. Cl. 2013). In this instance, Dr. McClurg's testimony with respect to his use of digitizing software that was available to skilled artisans at the time of the '816 patent's priority date, was specifically introduced as direct rebuttal to Dr. Mayo's allegations that Dr. McClurg's initial measurements were inaccurate and his methods unsound.
+
+Nor was Patent Owner deprived of its procedural Due Process rights under the APA. See 5 U.S.C. § 554(c). Section 554(c) states that “[t]he agency shall give all interested parties opportunity for … the submission and consideration of facts, arguments, offers of settlement, or proposals of
+
+adjustment when time, the nature of the proceeding, and the public interest permit.” Patent Owner recognized, and specifically addressed, Dr. McClurg’s rebuttal evidence in its Sur-Reply, but only to the extent of alleging, as in its Motion to Exclude, that the relevant portions of Dr. McClurg’s deposition and its supporting evidence were inadmissible for the same reasons advanced in its Motion to Exclude.
+
+Finally, Patent Owner did confront Dr. McClurg with his use of the digitizing software in response to Dr. Mayo’s criticisms, during his deposition on June 21, 2023, cross-examining him extensively upon this subject. See Ex. 2143, 41–67. This was prior to the filing of Patent Owner’s Sur-Reply, on June 28, 2023. Patent Owner thus had ample opportunity to address and attempt to refute Dr. McClurg’s rebuttal evidence, and to present those arguments and any relevant cross-examination testimony of Dr. McClurg in its Sur-Reply brief. Patent Owner’s allegation of deprivation of its procedural Due Process rights under the APA is thus unsubstantiated, and its Motion to Deny portions of Exhibit 1066 is denied.
+
+## 2. Exhibit 1069
+
+Exhibit 1069 is raw data from the Un-Scan-It program exhibiting the XY values from the digitized XRPD diffractogram spectrum of Figure 1 of Mutz. See Ex. 1069; Ex. 1066 ¶ 49. This data was used by Dr. McClurg in his Reply Declaration to further confirm the presence of spectral peaks at 21.4 and 25.0° 2θ ±0.1° 2θ, as recited in the challenged claims of the '816 patent. Ex. 1066 ¶¶ 48–49.
+
+Patent Owner repeats its argument that the exhibit is used to support a new theory of unpatentability not found in the Petition. PO Mot. Exclude 1. Patent Owner also argues that Exhibit 1069 is inadmissible because it is
+
+incomplete (citing FRE 106), and confusing and unreliable (citing FRE 403). Id. at 2. Patent Owner asserts that the document is incomplete and lacks an overlay of the digital scan with the version of Mutz's Figure 1, necessary to verify the accuracy of the x,y coordinates in Ex. 1069. Id. Furthermore, argues Patent Owner, the document does not provide the algorithm used to select the local maxima, or otherwise state the basis on which local maxima were selected, or whether Dr. McClurg tested for errors in the digitized version as compared to Figure 1. Id. (citing Ex. 2143 at 60).
+
+Patent Owner also argues that, because Dr. McClurg did not provide his selection criteria, there is no way to determine which “peak[s]” are actually instrument noise. Id. at 3.
+
+We have explained above why we are not persuaded by Patent Owner's theory that Dr. McClurg's use of digitizing software represents a new theory of unpatentability, but was rather introduced to validate Dr. McClurg's original measurements relied upon in the Petition, and in response to criticisms of his methodology by Patent Owner's expert. Exhibit 1069 provides the raw data upon which Dr. McClurg relied in explaining, in his Reply Declaration, why, in his expert opinion, a person of ordinary skill would have recognized XRPD spectral peaks at $25.0^{\circ} 2\theta \pm 0.1^{\circ} 2\theta$ . See Ex. 1066 ¶¶ 48–50. In his Reply Declaration, Dr. McClurg provides excerpts from a spreadsheet incorporating the raw data from Exhibit 1069 to explain why he concluded that these peaks are present in Figure 1 of Mutz. Id. at ¶ 49. Consequently, Exhibit 1069 is admissible as providing the data supporting Dr. McClurg's opinion in his Reply Declaration. Patent Owner, or its expert, were at liberty to attack Dr. McClurg's methodology or accuracy with respect to Exhibit 1069 in their cross examination and arguments to rebut Dr. McClurg's opinion, but did not do so.
+
+Federal Rule of Evidence 106 does not bar admissibility of incomplete evidence. See Mylan Pharm. Inc. v. Yeda Research & Dev. Co. Ltd., IPR2015-00644, Paper 91 at 39–40 (PTAB Dec. 2, 2016) (holding that “Rule 106 does not prohibit admission of an incomplete document. Instead, it allows the party against whom the document is introduced to place the remainder in evidence” (citing 1 Weinstein on Evidence § 106.02[1])). Nor are we persuaded that Rule 403 is applicable; certainly the evidence of Exhibit 1069 is probative because it directly supports Dr. McClurg’s opinion testimony. The Board finds that the data supporting Dr. McClurg’s is probative of his opinion testimony, and we are capable of weighing his credibility and assessing the probative weight of his evidence, without fear of undue prejudice, confusing the issues, undue delay, wasting time, or needlessly presenting cumulative evidence. See FRE 403. Patent Owner’s arguments go more to the probative weight of the evidence than to its admissibility, and we therefore deny Patent Owner’s Motion to Exclude Exhibit 1069.
+
+## 3. Exhibits 1070–1072
+
+Exhibits 1070–1072 constitute various reviews and advertisements that purport to show that the Un-Scan-It digitizing software was available to persons of ordinary skill in the art as of the filing date of the '816 patent (Exhibit 1072) and was popularly employed by artisans of skill in “digitizing graphs and analyzing data presented in image formats for which the tabular data are not available.” Ex. 1071, 1. Exhibit 1070 comprises a collection of references employing the software, reviews of the software, and testimonials attesting to its usefulness. Ex. 1070. Dr. McClurg cites to these Exhibits as demonstrating that “[s]cientists in 2010—when Shilpa filed for a patent on Form-β—could have done the same analysis. As reflected in numerous references, Un-Scan-It software was first offered in 1992, and was widely available in 2010.” Ex. 1066 ¶ 50.
+
+Patent Owner repeats its argument that Exhibits 1070–1072 are introduced in support of a new theory of unpatentability not presented in the Petition. PO Mot. Exclude 3. We have explained above why Patent Owner’s argument is not persuasive, and we again reject it, and for the same reasons, with respect to Exhibits 1070–1072. Patent Owner’s Motion to Exclude Exhibits 1070–1072 is denied.
+
+## 4. Exhibit 1115
+
+Exhibit 1115 is a printed version of the Merriam-Webster English language verb “select.” Ex. 1115. Petitioner introduced Exhibit 1115 in its Reply Brief concerning the claim term “selected” from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and 25.10 ±0.1 2θ°. See Pet. Reply 8–9.
+
+Patent Owner argues that Petitioner's claim construction argument supported by Exhibit 1115 is first raised in its Reply Brief, and is therefore inadmissible. PO Mot. Exclude 11.
+
+In its Petition, Petitioner argued that “[b]ecause the challenged claims are unpatentable under the plain and ordinary meaning of the claim terms, no formal claim construction is needed.” Pet. 16 (citing Ex. 1002 ¶¶ 92–93). In its Response, Patent Owner argued that the language of challenged claims 1–3 of the ’816 patent “should be construed to require the seven XRPD peaks.”
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+PO Resp. 7 (citing Ex. 2052 ¶¶ 42–45). Patent Owner did not raise this claim construction argument (or any other claim construction) in its Preliminary Response to the Petition (Paper 8), but raised it for the first time in its Response. See PO Resp. 7. Petitioner’s responsive argument to Patent Owner’s proposed claim construction in its Reply is the same as the argument made in the Petition, viz., that the “plain and ordinary meaning of the claim terms” should be applied in our construction of the language of the claims. Pet. Reply 8–9 (citing Phillips, 415 F.3d at 1312).
+
+Exhibit 1115 is adduced by Petitioner to demonstrate the plain and ordinary meaning of the claim term “selected from,” as Petitioner argued should be applied in its Petition. Id.; see Pet. 16. We therefore disagree with Patent Owner’s position that the introduction of Exhibit 1115 constitutes a new argument not presented in the Petition, and we deny Patent Owner’s Motion to Exclude Exhibit 1115.
+
+## 5. Conclusion
+
+For the reasons we have set forth above, Patent Owner's Motion to Exclude the Shilpa Internal Documents and Exhibit 1111 is dismissed as moot. Patent Owner's Motion to Exclude Exhibits 1066, 1069, 1070–1072, and 1115 is denied.
+
+D. Ground 1: Anticipation by Mutz
+
+1. Overview of Mutz (Ex. 1004)
+
+The Mutz reference, WO 2010/055028 A2, is entitled “Organic compounds,” and was published on May 20, 2010 and is prior art to the ’816 patent. Ex. 1004, codes (43), (54). Mutz is directed to crystalline forms and hydrates of 2-amino-2-[2-(4-octylphenyl)ethyl]propane-1,3-diol (fingolimod HCl), and to its uses. Id. at 2. Mutz discloses that fingolimod HCl exists in a particular crystalline form (Form I) at room temperature, and undergoes change to an alternative crystalline form (Form II) at a transition temperature of approximately $40^{\circ}$ C. Id. Mutz further discloses that crystalline Form II undergoes a transition to a third crystalline form (Form III) at a temperature of approximately $66^{\circ}$ C, and at approximately $107^{\circ}$ C, fingolimod HCl forms a phase with lower crystalline order. Id.
+
+Figure 1 of Mutz is an XRPD spectrum for crystalline Form I of fingolimod HCl, and is depicted below:
+
+![](images/0cd0cfe9298617373f7410043f045352b2322b17971b0a0130c902e3b443f883.jpg)  
+Figure 1 of Mutz is an XRPD spectrum of Form I of fingolimod $\underline{\mathrm{HCl}}$
+
+Mutz also discloses tabular data describing the XRPD peaks and their relative intensity, which is reproduced below:
+
+<table><tr><td>° deg 2 θ</td><td>d-space (Å)</td><td>Relative intensity</td></tr><tr><td>3.55</td><td>24.875</td><td>Strong</td></tr><tr><td>7.12</td><td>12.394</td><td>Weak</td></tr><tr><td>10.71</td><td>8.255</td><td>Weak</td></tr><tr><td>12.48</td><td>7.090</td><td>Weak</td></tr><tr><td>15.42</td><td>5.742</td><td>Medium</td></tr><tr><td>20.59</td><td>4.309</td><td>Medium</td></tr></table>
+
+Ex. 1004, 16.
+
+Mutz additionally describes differential scanning calorimetry (“DSC”) curves for crystalline fingolimod HCl:
+
+DSC heating curves showed three characteristic transitions at approximately $40^{\circ}$ C, $66^{\circ}$ C and $107^{\circ}$ C. The first endothermic peak at $40^{\circ}$ C is followed by a smal[l] exothermic peak which hints to melting of Form I followed by recrystallization into Form II. The second transition between Form II and Form III is a solid-solid transition. A third transition was observed at $107^{\circ}$ C. Above $107^{\circ}$ C, the X-ray powder pattern almost disappeared and only a single strong peak at $2.9^{\circ}$ remained, suggesting formation of a phase with lower crystalline order above this temperature.
+
+Ex. 1004, 15.
+
+## 2. Petitioner's contentions with respect to Mutz
+
+## a. Claim 1
+
+Claim 1 recites: “Fingolimod hydrochloride crystalline Form- $\beta$ characterized by X-ray powder diffraction pattern comprising characteristic 2 $\theta^{\circ}$ peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and 25.10 $\pm$ 0.1 2 $\theta^{\circ}$ .”
+
+Petitioner argues Mutz's crystalline Form I fingolimod HCl is the claimed Form-β, the room-temperature-stable form claimed in the '816 patent. Pet. 18–19 (citing Ex. 1002 ¶¶ 95–103). According to Petitioner, Mutz discloses each and every one of the peaks recited in claim 1 within the claimed range. Id. at 19 (citing Ex. 1004, Fig. 1; Ex. 1002 ¶¶ 104–106).
+
+Petitioner provides an annotated version of Figure 1 of Mutz, which is reproduced below:
+
+![](images/c2f8e1709f0679dc857a377670f585b5090ddb3d30c4424723a926533da4e339.jpg)  
+Figure 1 of Mutz, as annotated by Petitioner, depicting an XRPD spectrum of crystalline fingolimod HCl Form I, and indicating at bottom the location of the peaks recited in claim 1 of the '816 patent (red bars), and the location of the peaks described in Mutz's Table (blue bars, see Ex. 1004, 16)
+
+Petitioner asserts that all seven peaks listed in the '816 patent's claims are shown in the XRPD pattern in Figure 1 of Mutz, as reflected by the red bars annotated in Mutz's Figure 1 above, and that five of the seven peaks recited in the '816 patent claims overlap with the peaks listed in the Mutz Table (i.e., 3.55, 7.12, 10.71, 15.42, and 20.59). Pet. 19 (citing Ex. 1004, 16). Petitioner's declarant, Dr. McClurg, attests that disclosure of just these five peaks by the Mutz Table, let alone all seven disclosed in Mutz's Figure 1, would be sufficient to demonstrate to a skilled artisan that Mutz's Form I is the same crystalline form as Form-β, as recited in claim 1 of the '816 patent. Id. (citing Ex. 1002 ¶¶ 105–116).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+## b. Claim 2
+
+Claim 2 recites: “Fingolimod hydrochloride crystalline Form- $\beta$ according to claim 1, which is further characterized by DSC isotherm comprising endothermic peaks ranging between a. Peak-1—Between 40 to 45°C., b. Peak-2—Between 65 to 70°C., c. Peak-3—Between 107 to 115°C., d. Peak-4—Between 265 to 270°C.”
+
+Petitioner repeats its argument above that Mutz discloses fingolimod HCl with an XRPD pattern that includes all of the '816 patent claimed peaks, and further argues that Mutz also discloses DSC data that include all four claimed endothermic peaks, which lie within the recited ranges. Pet. 21 (citing Ex. 1002 ¶¶ 117–135). Specifically, Petitioner contends that Mutz discloses “DSC heating curves show[ing] three characteristic transitions at approximately 40°C, 66°C and 107°C.” Id. at 23 (quoting Ex. 1004, 15.) Petitioner asserts that these three transitions fall within the ranges recited in claim 2. Id. (citing Ex. 1002 ¶¶ 119–125).
+
+As further confirmation of this, Petitioner points to Wang, $^{6}$ which also discloses endothermic DSC peaks for fingolimod HCl matching those in Mutz. Pet. 23 (citing Ex. 1002 ¶¶ 135–137). Petitioner contends Mutz further discloses that the “onset of decomposition” for fingolimod HCl is “at ca. [circa] 260 °C,” which, Petitioner asserts, a skilled artisan would have understood as corresponding to claim 1’s Peak 4 “between 265 to 270° C.” Id. (quoting Ex. 1004 at 15).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Petitioner acknowledges the possibility that “ca. 260°C” as disclosed by Mutz may not constitute an express disclosure of the claimed endothermic peak at 265 to 270°C, however, Petitioner contends that this DSC peak is nevertheless inherently disclosed by Mutz. Pet. 23–24. Petitioner contends that a person of ordinary skill in the art would understand that, experimental parameters being equal, all fingolimod HCl will decompose at approximately the same temperature, regardless of what crystal form it was initially, and that this property will result in an endothermic peak in the claimed range. Id. at 24 (citing Ex. 1002 ¶ 128).
+
+Furthermore, as Petitioner's declarant, Dr. McClurg, points out, a skilled artisan would recognize that, because the details of decomposition are dependent upon the details of the experiment, and independent of the initial form of the material, the degradation temperature is not a useful transition to characterize a crystalline material. Pet. 24 (citing Ex. 1002 ¶¶ 133–134, 136). This is because, at that point in the DSC scan, fingolimod hydrochloride has undergone at least three phase transitions, including a transition to a “phase with lower crystalline order” (i.e., a liquid crystal), and so is not a crystal form at all. Id. Consequently, Dr. McClurg opines, Peak 4 between 265 to 270°C is not even a distinguishing characteristic of Form-β. Id.
+
+## c. Claim 3
+
+Claim 1 recites “Fingolimod hydrochloride crystalline Form- $\beta$ characterized by X-ray powder diffraction pattern comprising characteristic 2 $\theta$ peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and 25.10 $\pm$ 0.1 2 $\theta^{\circ}$ ” and DSC isotherm comprising the
+
+endothermic peaks ranging between 40 to $45^{\circ}$ C. (Peak 1), 65 to $70^{\circ}$ C. (Peak 2), 107 to $115^{\circ}$ C. (Peak 3) and/or 265 to $270^{\circ}$ C. (Peak 4).
+
+Petitioner argues that claim 3 is substantially identical to claims 1 and 2 combined, with the exception of the use of “and/or”, which requires only three or more DSC endothermic peaks from the recited set. Pet. 25.
+
+## d. Claim 4
+
+Claim 4 recites: “Fingolimod hydrochloride crystalline Form- $\beta$ according to claim 3, characterized by X-ray powder diffraction pattern as disclosed in FIG. 3 [of the ’816 patent] and DSC isothermal pattern as disclosed in FIG. 4.”
+
+Figures 3 and 4 of the '816 patent are reproduced in Section II.D, above. Petitioner argues that, based on the XRPD data disclosed by Mutz, as discussed with respect to claim 1 above (see Section III.C.2.a), Mutz's crystalline fingolimod HCl Form I is identifiable as Patent Owner's Form-β as disclosed by the XRPD pattern disclosed in Figure 3 of the '816 patent. Pet. 26 (citing e.g., H. Lundbeck A/S v. Apotex Inc., No. CV 18-88-LPS, 2019 WL 3206016, at \*4 (D. Del. July 16, 2019) (construing “characterized by an XRPD [pattern] as shown in [any of] FIG[S] . . .” as “identifiable by reference to an x-ray powder diffraction pattern as shown in [any of] FIG[S] . . .”). Petitioner provides a comparison between the XRPD spectra of Figure 3 of the '816 patent (Form-β) and Figure 1 of Mutz (Form I):
+
+![](images/6ea968ee688b11e8a6bce55dba755124ebb8d2428690c84dcc027dbd54c575de.jpg)  
+Petitioner's annotated illustration depicting the XRPD spectra of Figure 3 of the '816 patent (top) and Mutz's Figure 1 (bottom)}
+
+Furthermore, argues Petitioner, as discussed above with respect to claim 2 (see Section III.C.2.b), the DSC information in Mutz demonstrates that Mutz's Form I is identifiable as Form- $\beta$ of the '816 patent by reference to the DSC isothermal pattern disclosed in Figure 4 of the '816 patent. Pet. 28.
+
+Petitioner asserts that a person of skill in the art would understand that both XRPD spectra and DSC isothermal curves can demonstrate some slight variability depending upon various experimental factors. Pet. 27, 28–29 (citing Ex. 1002 ¶¶ 140–141, 146). Nevertheless, argues Petitioner, a person of ordinary skill in the art would have recognized that the XRPD and DSC information disclosed by Mutz is for the same crystal form as that depicted in Figures 3 and 4 of the '816 patent. Id.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+## 3. Patent Owner's Response
+
+a. Mutz does not disclose all of the XRPD Peaks recited in claims 1 and 3 of the '816 patent
+
+Patent Owner contends that only five of the seven XRPD peaks recited in claims 1–4 are disclosed by Mutz. PO Resp. 8. Furthermore, argues Patent Owner, the fourth DSC peak of claims 2 and 4 is not disclosed in Mutz, and there is no basis to categorically disregard a claimed feature as inconsequential when evaluating anticipation, as Petitioner urges. Id. (citing MPEP § 2131; Verdegaal Bros. v. Union Oil Co. of California, 814 F.2d 628, 631 (Fed. Cir. 1987)).
+
+Patent Owner first asserts that Petitioner has not established that XRPD peaks at 21.43 and 25.10, each ±0.1°2θ, are present in Mutz’s Form I. PO Resp. 8 (citing Ex. 2052 ¶¶ 89–90, 117). Patent Owner asserts that the method employed by Petitioner’s expert, Dr. McClurg (visually measuring the peak location with ruler and extrapolating) is too imprecise to establish the presence of peaks at 21.43 and 25.10 within ±0.1°2θ. Id. at 8–9. Petitioner contends that an accuracy of ±0.1°2θ, which corresponds to about ±0.01 inches in Mutz Figure 1, is smaller than the finest division of 1/64′ on a precision ruler. Id. at 9. Patent Owner argues that Dr. McClurg’s estimation of peaks at 21.4° and 25.0° is therefore not reliable evidence that Mutz discloses peaks at 21.43° and 25.10°±0.1°2θ. Id. at 9 (citing Ex. 2052 ¶¶ 117–124).
+
+Patent Owner also argues that there are other subtle differences between the XRPD patterns of Mutz Form I, Fig. 1 and the '816 patent's Form $\beta$ , Fig. 3, that indicate changes in their respective atomic arrangements within the fingolimod HCl molecule, and which confirm that these are not the same polymorphs. PO Resp. 12. By way of example, Patent Owner
+
+points to the region between roughly 17.5 and $22.5^{\circ}2\theta$ for the XRPD patterns of the two materials, Mutz Form I (bottom spectrum) has five peaks in a narrow range near $20^{\circ}2\theta$ while the '816 Form $\beta$ (top spectrum) shows fewer peaks over this same region. Also, Patent Owner contends, there are significant differences in intensities of corresponding peaks in the two samples, which further evidences different atomic arrangements. Ex. 2052 ¶ 125. Petitioner's comparison of the XRPD spectra of the '816 patent and Mutz are reproduced again below, for the convenience of the reader:
+
+![](images/7113e5dd57a4fec77b3d09520e956b51ec7116c3198036cf5ff801463be88080.jpg)
+
+Patent Owner also notes that, in the '816 patent, fingolimod hydrochloride Form $\mu$ has five of the seven Form $\beta$ peaks in claim 1 – 3.54, 10.66, 15.35, 21.43 and $25.10 \pm 0.12\theta^{\circ}$ – but differs at 7.07 and is unclear as to 20.52. PO Resp. 12 (comparing Ex. 1001, Table 3 and Fig. 5 (Form $\mu$ ) with claim 1 (Form $\beta$ )). $^{7}$
+
+Patent Owner also points to Kumar, $^{8}$ which discloses fingolimod hydrochloride Form Y, which has peaks that overlap Form $\beta$ at 3.54, 10.66
+
+Patent 9,266,816 B2
+
+and 21.43, and with Form I at 3.55, 7.12 and 10.71 using a ±0.1° 2θ tolerance. Id. at 12–13 (citing Ex. 2057, col. 18, ll. 5–36, Fig. 4.; Ex. 2055 ¶ 15). Patent Owner points to Ex parte Chen, in which the Board was not persuaded that an overlay of the prior art’s XRPD versus the XRPD disclosed in the application was sufficient to show identity, and cautioned that a person of ordinary skill in the art would have recognized the importance of exercising care when evaluating and comparing XRPD patterns, because “[i]t is possible for polymorphs of the same . . . [API] to share overlapping peaks.” Id. at 13 (citing 2022 Pat. App. LEXIS 5529, at 19, 20–21 (PTAB, Nov. 15, 2022)).
+
+Patent Owner next points to differences in the DSC curves of Mutz Forms I–III and Form β of the '816 patent. PO Resp. 13. Patent Owner notes that Mutz is silent about the presence of any exothermic reactions in its material, whereas Form β shows a significant exotherm near 166°C and a second exotherm which Dr. McClurg states begins at approximately 252°C. Id. (citing Ex. 1001, Fig. 4; Ex. 1002 ¶ 142).
+
+Patent Owner also argues that, in its complaint in the related district court litigation, Patent Owner alleged that Wang obtained single crystal X-Ray data from crystalline material prepared from a sample of fingolimod hydrochloride from a commercial source from China. PO Resp. 14 (citing Ex. 1028 ¶ 39; Ex. 1021, 2). Patent Owner asserts that Wang's material did not come from Novartis and was not replicated from Mutz. Id.
+
+Patent Owner disputes Petitioner's arguments that allegations made in the Patent Owner's complaint in the district court litigation support its anticipation case. PO Resp. 14 (citing Pet., 3, 20). Patent Owner argues that Petitioner relies on an inaccurate assumption; that Wang analyzed Form I of Mutz. Patent Owner asserts that Wang did not analyze Mutz Form I, and
+
+that its complaint nowhere mentions Mutz. Id. (citing Ex. 1028; Pet. 3). Patent Owner asserts that its complaint does not rely on Mutz to establish infringement of the '816 patent. Id. at 15.
+
+Patent Owner points out that Dr. McClurg equates the structure of Mutz Form I with the structure proposed by Wang. PO Resp. 16 (citing Ex. 1002 ¶ 95). Patent Owner notes that Wang never made such a comparison, and argues that Dr. McClurg's comparison of the XRPD patterns of Mutz and Wang relies on an allegedly crude and inaccurate visual method of different graphs, as discussed above. Id. (citing Ex. 2052 ¶ 129). Patent Owner argues that certain similarities between Wang's 2015 report analyzing a sample from China, and Mutz, does not prove that Form β is the same as Mutz's Form I. Id.
+
+Patent Owner also notes that Dr. McClurg's analysis relies on "indexing" using a proprietary algorithm called TRIADS to allegedly determine the lattice parameters of fingolimod Form β. PO Resp. 16 (citing Ex. 1002 ¶¶ 97–98). Patent Owner contends that upon, on cross-examination, Dr. McClurg testified that TRIADS is a non-GMP and non-FDA validated program. Id. According to Patent Owner, the program is unique to Dr. McClurg's laboratory, not open to the scientific community, and its reliability and accuracy have not been confirmed or peer-reviewed by the larger scientific community and should therefore be accorded little evidentiary weight. Id. at 16–17 (citing Ex. 2054, 130–132; Ex. 2052 ¶ 130).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+## b. Mutz does not expressly or inherently disclose the 4th DSC peak recited in claims 2 and 4
+
+Patent Owner next argues that there is no express disclosure in Mutz of the fourth DSC peak at 265–270°C recited in claim 2, and more narrowly in claim 4. PO Resp. 17. According to Patent Owner, Petitioner asserts that claim 2 is anticipated because Mutz's statement that “the onset of decomposition at ca. 260°C,” is an express disclosure of the fourth DSC peak at 265–270°C. Id. (quoting Pet. 23). Patent Owner asserts that it is nevertheless undisputed that Mutz reports no DSC endothermic peak between 265–270°C. Id.
+
+Patent Owner further contends that the fourth DSC peak is not inherently disclosed by Mutz. PO Resp. 17 (citing Pet. 23–24). Patent Owner argues that the fourth peak is not inherently disclosed because: (1) an onset of decomposition ca. 260°C observed by thermomicroscopy does not inevitably result in a DSC endotherm at 265–270°C; and (2) all forms of fingolimod HCl do not necessarily and inevitably exhibit a DSC endotherm at 265–270°C. Id. Patent Owner notes that, at his deposition, Dr. McClurg admitted that it was not his position that “the thermal microscopy implies that there is an endothermic peak at a particular temperature above the onset.” Id. at 18 (citing Ex. 2054, 30–31:9). Patent Owner argues that, even assuming the onset of decomposition in Fig. 4 of the ’816 patent is 252°C as asserted by Dr. McClurg, the fourth endothermic peak recited in challenged claim 2 (at 265–270°C) would be 13 to 18°C above the onset of decomposition. Patent Owner asserts that Dr. McClurg’s opinion that Mutz would therefore inherently have an endothermic peak at 265–270°C, i.e., 5–10°C above the onset of decomposition, is neither certain nor inevitable. Id. (citing (Ex. 1002 ¶ 142; Ex. 2052 ¶ 137). Patent Owner also notes that Dr.
+
+McClurg admitted that the onset of decomposition by thermomicroscopy is not a reliable indicator of the point at which an endothermic peak would be measured above that by DSC. Id. (citing Ex. 2054, 41).
+
+Patent Owner next argues that Petitioner's argument that, experimental parameters being equal, all fingolimod hydrochloride will decompose at roughly the same temperature and have an endothermic peak in the claimed range, is unsupported by the evidence. PO Resp. 19 (citing Pet. 24 (citing McClurg, Ex. 1002 ¶ 128)). According to Patent Owner, the evidence shows that not all fingolimod hydrochloride forms have an endothermic peak in the claimed range of 265–270°C. Id. By way of example, Patent Owner points to Figure 4 of Gidwani, identified as being a DSC curve of Gidwani's fingolimod Form B, which, Patent Owner contends, refutes Petitioner's argument by exhibiting an exothermic event around the claimed 265–270°C range. Id. (citing Ex. 1005, col. 13, ll. 43–59). Patent Owner also points to Figure 5 Gidwani, which depicts the DSC curve from another fingolimod hydrochloride, produced in Example 6, that lacks an endothermic peak at 265–270°C, whereas Form α of the '816 patent exhibits an endothermic peak above 270°C. Id. (citing Ex. 1005, Figure 5; Ex. 1001, Fig.2; Ex. 2052 ¶ 139).
+
+Patent Owner also disputes Petitioner's position that the fourth DSC peak at 265–270°C is not a “distinguishing feature of form β,” because Mutz’s crystal has decomposed by that point. PO Resp. 20 (citing Pet. 24–25). Patent Owner contends that the DSC peak at 265–270°C is a claimed feature which must be considered in an anticipation analysis. Id. at 20-21 (citing Verdegaal Bros., 814 F.2d at 631). Equally irrelevant, argues Patent Owner, is the physical state of the claimed fingolimod HCl at 265–270°C, because the claim would be understood to require a crystalline form only at the onset of DSC, and does not distinguish between fingolimod HCl that is melted, liquid crystalline, decomposed, etc. at the Peak 4 range. Id. at 21.
+
+Additionally, Patent Owner argues, a person of ordinary skill in the art would understand that fingolimod Form β, after melting, can retain certain aspects of crystalline order, and provide a DSC endotherm between 265°–270° C as shown Fig. 4 of the '816 patent, while different conformational polymorphs, such as those described in Mutz's Example 14, could exhibit different thermal behaviors post-melt. PO Resp. 21 (citing Ex. 2052 ¶ 10). Therefore, Patent Owner contends, the molecular conformation of Form β could be the origin of the exotherms at 160–180°C and 261°C along with the endotherm at 265–270°C, while a different molecular conformation such as Mutz's Example 14 could result in different thermal behavior such as the absence of any of the exotherms and a lower dissociation temperature. Id. (citing Ex. 2052 ¶¶ 140–144).
+
+Summarizing, Patent Owner contends that Petitioner has failed to establish that Mutz inherently discloses the 4th DSC peak in claim 2 because evidence shows it does not result from DSC scans of all forms of fingolimod hydrochloride. PO Resp. 22 (citing Continental Can Co. USA v. Monsanto Co., 948 F.2d 1264, 1268–1269 (Fed. Cir. 1991)).
+
+## c. Enablement of Mutz
+
+Patent Owner next argues that Mutz cannot anticipate the challenged claims because it does not contain an enabling disclosure of how to synthesize any of Forms I, II or III reported in Example 14, or of Form β of the '816 patent. PO Resp. 41. Patent Owner contends that it is undisputed that Mutz fails to disclose how to make any of Forms I–III of its Example 14 by chemical synthesis or recrystallization, and that enablement depends on the incorporation of the relevant disclosure of Fujita. $^{9}$ Id. at 42. Such an incorporation, Patent Owner argues, is legally improper. Id.
+
+Patent Owner contends that Mutz is a published international/PCT application, which designates the U.S. and, under 35 U.S.C. § 363, is therefore a “regular” U.S. patent application. PO Resp. 42. Patent Owner contends that the Mutz application entered the national stage as US Appl. Ser. No. 13/128,825 on May 11, 2011. Id. (citing Ex. 2012, 2; In re Schwarz, 2018 Pat. App. LEXIS 4708, \*3 (PTAB June 25, 2018); Broadcast Innovation, L.L.C. v. Charter Comms., Inc., 420 F.3d 1364, 1368 (Fed. Cir. 2005)).
+
+Patent Owner contends that Mutz's incorporation by reference of Fujita (disclosing a method for synthesizing crystalline fingolimod HCl) is improper under 37 C.F.R. § 1.57(d), because EP '406 is neither a U.S. patent nor a U.S. patent application publication. PO Resp. 43.
+
+Patent Owner also argues that Mutz's incorporation by reference of Fujita is too vague to satisfy the standard established by the Federal Circuit in Advanced Display Sys. Inc. v. Kent State Univ., 212 F.3d 1272, 1282 (Fed. Cir. 2000). PO Resp. 44. According to Patent Owner, that standard requires that the host document must identify with detailed particularity what specific material it incorporates and clearly indicate where that material is found. Id. (citing Advanced Display, 212 F.3d at 1282). Patent Owner argues that Mutz's nonspecific incorporation of “the relevant disclosure” of Fujita is the exact opposite of the detailed particularity required by the Federal Circuit, and wrongfully requires a person of ordinary skill in the art to ferret out “the relevant disclosure.” Id.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Patent Owner notes that Mutz states that “2-Amino-2-[2-(4-C $_{2-20}$ -alkyl-phenyl)ethyl] propane-1,3-diol compounds are disclosed in EP-A-0627406.” PO Resp. 44 (citing Ex. 1004, 1). However, argues Patent Owner, Mutz does not disclose which of the 3 EP ’406 documents with three different disclosures (A1, A4, B1) is being referred to. $^{10}$ Id. Patent Owner notes that, on August 31, 2022, Novartis filed Exhibit 1048, the B1 version, which lacks the details of Example 284(3) (another method for making fingolimod and its HCl salt which cannot be Mutz Form I) in the A1 version. Id. (citing Ex. 2117).
+
+Specifically, Patent Owner contends that Mutz claims to be the first to discover polymorphic forms of fingolimod hydrochloride, stating that “[t]he present invention is based in part on a discovery that the FTY720 hydrochloride exhibits polymorphism .... [a]ccordingly, the present invention provides novel crystalline forms of FTY720 hydrochloride.” PO Resp. 45 (citing Ex. 1004, 1; Ex. 2052, ¶ 107). Patent Owner argues that, because Mutz describes and claims novel crystalline polymorphic forms of fingolimod HCl, they cannot have been made by Fujita’s Example 29, or by Example 284. Id. at 45–46.
+
+Patent Owner points to the Board's Decision to Institute, in which we recognized the large genus of compounds disclosed in Fujita, and concluded that a POSA “would then look to Fujita for the method of synthesizing the sole compound disclosed by Mutz: … crystalline fingolimod hydrochloride.” PO Resp. 46 (quoting Dec. 29–30. Patent Owner argues that such a
+
+conclusion is not supported, because: 1) Mutz never identified which version of Fujita was incorporated; 2) Mutz never expressly incorporated Fujita to supply the missing synthesis of Form I in Example 14; 3) the clear text of Mutz states that its polymorphic forms are novel; and 4) Petitioner and the Board, not Mutz, supplied the detailed particularity required for incorporation. Id.
+
+Patent Owner contends that nothing in the Mutz application states that the “relevant disclosure” of “2-Amino-2” “[2-(4-C $_{2-20}$ -alkyl phenyl)ethyl] propane-1,3-diol compounds” in Fujita was directed specifically to Examples 28/29. PO Resp. 47 (citing Dec. 30–31). According to Patent Owner, Mutz could have expressly incorporated by reference Examples 28/29 or Example 284(3) of Fujita by naming those Examples specifically if synthesis details were desired, but it did not. Id. (citing Advanced Display, 212 F.3d at 1282).
+
+Patent Owner also argues that, in the Decision to Institute, the Board erred in adopting Petitioner's argument that “Fujita expressly teaches the synthesis of Form I in Examples 28 and 29.” PO Resp. 47-48 (quoting Dec. 30). According to Patent Owner, this finding is contradicted by Mutz's statements that the inventors “discovered” polymorphism for fingolimod HCl, that its Form I was novel over Fujita, and that Fujita Example 29 says nothing about any polymorphic form and contains no XRPD or DSC data, and discloses a melting point difference of 11–13° C. Id.
+
+Patent Owner again emphasizes that Mutz is silent on how to synthesize fingolimod HCl Forms I–III. PO Resp. 48. Patent Owner acknowledges that Form II is described as a temperature-based polymorphic form that exists between 40–66°C, and Form III is also a temperature-based form said to exist between 66–107°C. Id. (citing (Ex. 1004, 1). Patent
+
+Owner similarly acknowledges that Mutz reports the formation of Form I by cooling crystalline Forms II or III to a temperature of less than $40^{\circ}$ C, but nowhere does Mutz disclose how to prepare or synthesize Forms II or III as starting materials for Form I. Id. at 48–49 (citing Ex. 1004, 3). Patent Owner asserts that the need for an enabling disclosure in Mutz is especially acute because Mutz claims to be the first to discover polymorphic forms of fingolimod hydrochloride, and that a discovery of novel crystalline forms demands an explanation of how those forms are to be made. PO Resp. 49 (citing Ex. 1004, 1; Chiron Corp. v. Genentech Inc., 363 F.3d 1247, 1254 (Fed. Cir. 2004)).
+
+Patent Owner argues further that, in claiming to have discovered that fingolimod HCl exhibits polymorphism and describing novel crystalline forms thereof, Mutz makes clear that Forms I–III were not therefore disclosed in Fujita. PO Resp. 49–50. Patent Owner contends that, whatever product Examples 29 and 284(3)yielded, they were not fingolimod HCl Forms I–III. Id. at 50.
+
+Patent Owner contends that Example 29 of Fujita describes recrystallization of the HCl salt of fingolimod from ethanol, but does not specify the process conditions for recrystallization and does not state whether a polymorphic form was obtained. PO Resp. 50. According to Patent Owner, in 2010, it was well known in the art that recrystallization conditions would have significant impacts on polymorph crystal structure, as both parties' experts agree. $^{11}$ Id. (citing Ex, 2052, ¶ 10; Ex. 2097 ¶¶ 23–24).
+
+Patent Owner contends that a skilled artisan would have known that slight processing differences in synthesis techniques can lead to distinct polymorphs, and it was not possible to predict in advance the characteristics of a given polymorph before making it and testing for its properties. Id. (citing Ex, 2052, ¶ 10; Ex. 2054, 97; Ex. 2055 ¶¶ 11–13).
+
+Patent Owner next points to the differences in recorded melting points of fingolimod HCl reported in Example 29 of Fujita (118–120°C) and Mutz (107°C), which Patent Owner argues, is too large to be accounted for by experimental error. PO Resp. 51 (citing Ex. 2052, ¶¶ 10, 92, 96, 101–106). Patent Owner contends that this is evidence that the product of Example 29 was not any of fingolimod HCl Forms I–III disclosed in Mutz, and which is consistent with Mutz’s statement that Forms I–III were novel over Fujita. Id.
+
+Patent Owner further contends that the method of Example 284(3) of Fujita yields fingolimod HCl with a melting point of 125–126°C. Id. (citing Ex. 2117, 202). Patent Owner also points to the non-prior art reference Kudak, which analyzed a commercial sample of fingolimod hydrochloride different from the same Chinese sample as Wang, and concluded that the sample corresponded to Form α of the '816 patent, with a melting point of 118–120°C (391–393°C), the same as reported in Fujita's Example 29. Id.
+
+Patent Owner next relates how, in carrying out an experiment within the scope of Example 29 of the '229 patent $^{12}$ (the U.S. counterpart of Fujita), Patent Owner's district court complaint makes clear that it selected a number of conditions for recrystallization that are not specified in the '229 patent.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+PO Resp. (citing Ex. 1028 ¶¶ 31–32; Ex. 2084). Patent Owner asserts that its experiment does not demonstrate that the '229 patent is enabling for any of Forms I–III of Mutz; beyond the 11–13° C melting point differences between Fujita Example 29 and Mutz, no experimental details specify the conditions for recrystallization in Example 29, and no XRPD or DSC data are present to allow a person of ordinary skill in the art to understand whether a crystalline form was even obtained, or what that form may have been even if obtained. Id.
+
+Patent Owner contends that the same is true for Example 284, and argues that the details of the recrystallization omitted from Examples 29 and 284(3) of the '229 patent were likely outcome-determinative as to any crystalline form of the product obtained. PO Resp. at 52–53. Patent Owner notes that Petitioner's district court expert, Prof. Atwood, testified that with respect to fingolimod hydrochloride “[i]t is the recrystallization step that is the most important for the determination of crystal form” Id. at 53 (quoting Ex. 2097 ¶ 23).
+
+Next, Patent Owner contends that Petitioner mischaracterizes the disclosure of Westheim in asserting that Example 29 of Fujita “produces a stable and crystalline form … Form I.” PO Resp. 53 (citing Petitioner’s Reply Prelim. Resp., 3). Patent Owner asserts that, although paragraph [0010] of Westheim is worded awkwardly, when read as a whole, Westheim discloses that that, although Fujita described its own product as “recrystallized from ethanol,” Westheim’s reproduction of Fujita resulted in “waxy- or a cotton-like solid with poor filterability and flowability” Id. at 54 (quoting Ex. 1006 ¶ 4; Ex. 2117, 168). Patent Owner further asserts that Westheim does not state that they replicated Fujita and obtained stable crystals by its process. Id. (citing Ex. 1004 ¶ 21). Patent Owner argues that
+
+Westheim repeated the crystallization processes of Example 29 of Fujita, and disparaged the results, stating that “fingolimod hydrochloride” is obtainable only as “a waxy- or a cotton-like solid with poor filterability and flowability” and thus inconvenient for large scale processing and formulation into pharmaceutical compositions. Id. (citing Ex. 1006 ¶ 4). According to Patent Owner, Westheim’s replicated sample does not comport with Fujita Example 29’s vague description of “the resultant crystals were recrystallized from ethanol to give 4.2 g of the subject compound.” Id. at 55 (quoting Ex. 2117, 168).
+
+Patent Owner argues that, when replicating Example 29 in 2020 with selected crystallization conditions and knowledge of Patent Owner's own prior work, Patent Owner obtained crystalline Form β as discussed above, whereas Westheim obtained an “off-white, greasy to sticky solid with lumps.” PO Resp. 55. Patent Owner contends that enablement cannot be shown using a specific compound not inherently formed by a prior art reference that generally describes a process that does not always result in the compound. Id. (citing Glaxo Inc. v. Novopharm Ltd., 52 F.3d 1043, 1047–48 (Fed. Cir. 1995); In re Armodafinil Pat. Litig. Inc., 939 F. Supp. 2d 456, 465 (D. Del. 2013)). Patent Owner concludes that Fujita does not inherently result in any particular crystalline form and cannot inherently enable Mutz’s anticipation of the Form β claims, given the lack of crystallization conditions reported. Id. at 56.
+
+Patent Owner also disputes Petitioner's argument that European Patent Office (“EPO”) prosecution of its '816 patent counterpart also supports anticipation, because Patent Owner allegedly acquiesced in a rejection of Form β claims over Mutz. PO Resp. 56 (citing Pet. 20–21). Patent Owner states that, at best, the EPO’s different positions on Mutz’s disclosure are equivocal, and do not support any conclusion that the EPO considered Mutz to be enabled. Id.
+
+Patent Owner further disputes the Board’s rejection, in its Decision to Institute, of Patent Owner’s argument that Mutz improperly incorporates by reference Fujita in violation of 37 C.F.R. 57(d). PO Resp. 57 (see Dec. 35–26). Patent Owner argues that the Mutz U.S. ’817 application is subject to Rule 57(d), and cannot incorporate Fujita for essential subject matter. Id. Furthermore, argues Patent Owner, the Examiner had Fujita before him during Examination of the ’817 application, both as Fujita and the ’229 patent. Id. (citing Ex. 2120, 680). Patent Owner notes that the ’817 application’s claims to Forms I–III were rejected on June 8, 2015 for lack of possession under Section 112(a) because there was no disclosed procedure of how to make those forms other than from each other. Id. (citing Ex. 2120, 664–665; Ex. 2014, 6–7. Patent Owner relates that, rather than respond to that rejection, Mutz abandoned the application. Id. (citing Ex. 2120, 719).
+
+Finally, Patent Owner argues that patent offices in Europe (Ex. 2019), Japan (Ex. 2012, 3; Exs. 2019–2022), Australia (Ex. 2012, p.3; Exs. 2034–2036), and Mexico (Ex. 2012, 3; Exs.2037–2038), among other countries, all rejected claims in Mutz’s counterpart applications for failure to adequately disclose how to obtain Forms I, II or III. PO Resp. 57–58.
+
+## 4. Petitioner's Reply
+
+## a. Anticipation
+
+Petitioner contends that Patent Owner's complaint in the district court litigation alleges that Petitioner's Gilenya® brand multiple sclerosis medicine uses fingolimod hydrochloride Form I, which allegedly infringes
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Claims 1–4. Pet. Reply 4 (citing Ex. 1028 ¶¶ 38–44.) Petitioner asserts that this allegation is essentially an admission that Mutz anticipates the fingolimod form β recited in the challenge claims. Id. (citing Polaroid Corp. v. Eastman Kodak Co., 789 F.2d 1556, 1573 (Fed. Cir. 1986) (holding that “[t]hat which infringes if later anticipates if earlier”) (citing Peters v. Active Mfg. Co., 129 U.S. 530, 537 (1889)).
+
+Petitioner disputes Patent Owner's argument that the “Form I” in its district court complaint is not Mutz’s Form I, but a different “Form I” from the Wang paper. Pet. Reply 5 (citing PO Resp. 14–15). Petitioner contends that Patent Owner’s contention is refuted by Wang, Mutz, and the district court complaint. Id. According to Petitioner, Wang and Mutz are about the same Form I: Wang discloses that Mutz reports “[t]hree different polymorphs,” and that the Wang analysis is about “the’ existing ‘three polymorphs.’” Id. (citing Ex. 1066 ¶¶ 10–12; Ex. 1021, 45, ref. 13).
+
+Petitioner also argues that Patent Owner's statement that the district court complaint “nowhere even mentions Mutz” is not factually correct. Pet. Reply 5 (citing PO Resp. 14). Petitioner points to paragraph 38 of the complaint, which discloses that Wang’s forms “were disclosed in Novartis’ 2010 patent application … WO 2010/055028 A2,” which is Mutz. Id. (citing Ex. 1028 ¶ 38; Ex. 1004, 1). Petitioner also points to the complaint’s statement that Wang merely “reported” on the Mutz forms’ “single crystal diffraction data.” Id. Petitioner asserts that nothing in the complaint or in Wang suggests that the Form I in Mutz and Wang are somehow different. Id.
+
+Petitioner argues that each of the five Form I peaks from Mutz's list is within $\pm 0.1^{\circ}2\theta$ of the '816 patent peak as per Shilpa's claims, as demonstrated in the chart below:
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+<table><tr><td>Mutz Form I Peak List</td><td>Form-β (&#x27;816 Pat., Claim 1)</td><td>Difference</td></tr><tr><td>3.55</td><td>3.54 ± 0.1</td><td>0.01</td></tr><tr><td>7.12</td><td>7.07 ± 0.1</td><td>0.05</td></tr><tr><td>10.71</td><td>10.66 ± 0.1</td><td>0.05</td></tr><tr><td>15.42</td><td>15.35 ± 0.1</td><td>0.07</td></tr><tr><td>20.59</td><td>20.52 ± 0.1</td><td>0.07</td></tr><tr><td>-</td><td>21.43 ± 0.1</td><td>-</td></tr><tr><td>-</td><td>25.10 ± 0.1</td><td>-</td></tr></table>
+
+Pet. Reply 6 Citing Ex. 1066 ¶¶ 13–17). Petitioner states that Mutz discloses the XRPD peaks recited in the challenged claims.
+
+Petitioner next argues that Mutz discloses all of the seven peaks recited in the challenged claims. Pet. Reply 11. Petitioner asserts that Figure 1 of Mutz presents all the claimed peaks, including the two at $21.43^{\circ}$ and $25.10^{\circ} \pm 0.1^{\circ} 2\theta$ not expressly disclosed in Mutz's peak list, as illustrated in the Figure below, and confirmed by Patent Owner's internal spreadsheet, reproduced above:
+
+![](images/c7c3bd8db44f3d92b3eeb2a53b6a4e5c7ec80bdc036fcacdad46d7496649a9df.jpg)  
+Figure 1 of Mutz (detail) illustrating a portion of the XRPD spectrum of fingolimod Form I.
+
+Petitioner points to other of Patent Owner's internal documents, which indicated that several potential customers recognized that Patent Owner's fingolimod HCl Form-β and Form I of Mutz contain the same peaks; at least one of these third parties expressed concern that manufacturing Patent Owner's Form-β could expose them to an action for willful infringement. Pet. Reply 11 (citing Ex. 1066 ¶¶ 167–168; Ex. 1102, 104; Ex. 1103; Ex. 1119, 019; Ex. 1104, 049).
+
+Petitioner dismisses Patent Owner's criticism of Dr. McClurg's methodology as being inaccurate, asserting that Dr. McClurg used the same method as Patent Owner's expert, Dr. Mayo, employing an enlargement of the XRPD spectrum for his measurements. Pet. Reply 13 (citing Ex. 2052 ¶¶ 117–130; Ex. 1066 (Ex. 1066 ¶¶ 32–39). Moreover, argues Patent Owner, Dr. McClurg's subsequent use of Un-Scan-It digitizing software to measure the location of the XRPD Form I peaks validates Dr. McClurg's original observations. Id. at 14 (citing Ex. 1066 ¶¶ 48–51).
+
+With respect to the DSC values recited in the challenged claims, Petitioner argues that Mutz also lists three DSC peaks for Form I and identifies a decomposition temperature with onset of “ca. 260°.” Pet. Reply (citing Ex. 1002 ¶¶ 6, 117, 119–134, 142–146; Ex. 1066 ¶¶ 52–55; Ex. 1004, 16.) Petitioner notes that Patent Owner acknowledges that Form I’s DSC Peaks 1–3 are the same as Form-β’s, arguing only that Mutz lacks the challenged claims’ recited DSC Peak 4. Id. Petitioner argues that claimed Peak 4: (1) is not entitled to patentable weight; and (2) is disclosed by Mutz. Id.
+
+With respect to (1), Petitioner argues that the “and/or” language of challenged claims 3 and 4, renders Peak 4 optional, and that “optional elements do not narrow the claim because they can always be omitted.” Pet. Reply 15 (quoting In re Johnston, 435 F.3d 1381, 1384 (Fed. Cir. 2006); also citing Ex parte Schulhauser, 2013-007847, at 6–7 (PTAB Apr. 28, 2016) (precedential); MPEP § 2111.04).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+With respect to claim 2, Petitioner argues that Peak 4 can also be disregarded. Pet. Reply 15. Petitioner notes that the challenged claims of the '816 patent are directed to a composition of matter. Id. Petitioner points to In re Wilder, 429 F.2d 447 (C.C.P.A. 1970) as holding that "a particular property said to be possessed by the recited composition, be that property newly-discovered or not, does not necessarily change the scope of the subject matter otherwise defined by that claim." Id. (quoting Wilder, 429 F.2d at 450; also citing In re Corkill, 771 F.2d 1496, 1498–99 (1985); Titanium Metals Corp. of Am. v. Banner, 778 F.2d 775, 782 (Fed. Cir. 1985)). Put plainly, argues Petitioner, a composition claim is directed to what a thing is, and not what it does or how it behaves, and claim elements that add nothing more than a composition's supposed properties have no necessary weight. Id. at 16.
+
+Petitioner argues that Peak 4 is not, in any case, a property of Form-β. Pet. Reply 16. Petitioner points to the testimony of Patent Owner's expert, Dr. Mayo, who agrees that Peak 4 reflects the decomposition of fingolimod at high temperature and that this peak “is not descriptive of the structure in the solid state” because “the material has melted[.]” Id. (citing Ex. 2052 ¶ 140). Petitioner’s expert, Dr. McClurg opines that Peak 4 cannot characterize Form-β/I; it is simply too far removed from that form because it is separated by five transitions, including through two liquid (i.e., noncrystalline) forms, and a temperature increase of over 200°C. Id. (citing Ex. 1066 ¶¶ 56–64, 84). Petitioner notes that Patent Owner has omitted Peak 4 from the DSC characterization in its Drug Master File, as well as in other business records. Id. (citing Ex. 1066 ¶¶ 81–83; Ex. 1075, 21; Ex. 1076, 4).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+With respect to (2), whether Peak 4 is disclosed by Mutz, Petitioner argues that it is undisputed that Mutz identifies the “onset” of decomposition at “ca. 260°C,” or that Peak 4 reflects decomposition of fingolimod. Pet. Reply 17. Nor, argues Petitioner, is there any dispute that decomposition always produces a DSC peak, or that that peak will occur sometime after onset of decomposition. Id. (citing Ex. 1066 ¶¶ 85–87).
+
+Petitioner contends that Patent Owner and its expert's argument that Mutz does not say if DSC was used to measure decomposition is irrelevant. Pet. Reply 17 (citing PO Resp. 17; Ex. 2052 ¶¶ 131–137). Petitioner asserts that neither Patent Owner nor Dr. Mayo dispute that decomposition always produces a DSC signal, as shown by Dr. McClurg. Id. at 17–18 (citing Ex. 1002 ¶¶ 127–132; Ex .1066 ¶¶ 86–92). Petitioner argues that the DSC signal is inherent, and that other evidence Shilpa cites shows as much: in every DSC curve in the prior art, decomposition produces a DSC signal. Id. at 18 (citing Ex. 1084, 3; Ex. 1085, 3; Ex. 1086, 6).
+
+Next, Petitioner disputes Patent Owner's contention that the differences in the range claimed for Peak 4, i.e., 265–270°C, and the circa 260°C value for decomposition disclosed by Mutz defeats inherent. Pet. Reply 18 (citing PO Resp. 17–19; Ex. 2052 ¶¶ 131–145). Petitioner contends that Patent Owner and its expert ignore normal experimental variation between DSC runs, as stated by Dr. McClurg. Id. (citing Ex. 1066 ¶¶ 93–103). According to Dr. McClurg, variation in temperature of decomposition is well known in the art, because the process involves a chemical transformation such as oxidizing, burning, or otherwise dissociating, depending on conditions. Id. (citing Ex. 1066 ¶¶ 54, 99–103, 105–117).
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Petitioner argues further that Patent Owner's argument that decomposition does not dictate the type of DSC produced and that certain Novartis DSC curves for Form I contain exothermic rather than endothermic peaks, disregards Dr. McClurg's testimony that DSC peaks are consistent only if all experimental variables are constant. Pet. Reply 19 (citing Ex. 1002 ¶¶ 128–130, 159; Ex. 1066 ¶¶ 93–103, 105–117). Petitioner points to Dr. McClurg's testimony that this is especially true for decomposition peaks, given the number of experimental variables that can affect the decomposition temperature. Id. (citing Ex. 1066 ¶¶ 99–103, 105–117).
+
+Petitioner also notes that Dr. McClurg describes the many variables that can differ between experiments and affect the contours of the DSC curve, that, only if the experimental variables are kept constant will the DSC curves be reliably reproducible. Pet. Reply 19 (citing Ex. 1066 ¶¶ 93–103, 105–117; also citing Ex. 2124, 168). Petitioner therefore contends that a person of ordinary skill in the art observing decomposition Peak 4 in the '816 patent would understand that, as a byproduct of decomposition, the same peak would appear under the same experimental conditions as those used for the '816 patent's challenged claims. Id. at 19–20 (citing Ex. 1066 ¶¶ 106, 110).
+
+With respect to Patent Owner's argument that subtle differences between the XRPD spectra and DSC curves would lead a person of ordinary skill in the art to conclude that Form $\beta$ was not anticipated by Mutz, but was instead novel, Petitioner argues that cases involving polymorphs have frequently rejected such arguments. Pet. Reply 20 (citing, e.g., Eisai Co., Ltd. v. Glenmark Pharmaceuticals, Ltd., No. CV 13-1279-LPS, 2015 WL 1228958, at \*8 (D. Del. Mar. 17, 2015); H. Lundbeck A/S v. Apotex Inc., 2019 WL 3206016, at \*4 (D. Del. July 16, 2019); AstraZeneca AB v. Dr.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Reddy's Lab'ys, Inc., 2013 WL 1847639, at \*8 (D.N.J. May 1, 2013); Bristol-Myers Squibb Co. v. Apotex, Inc., 2013 WL 1314733, at \*17–19, \*30–33 (D.N.J. Mar. 28, 2013)). Petitioner contends that the weight of evidence shows that differences would be within the range of normal variation and are not otherwise claimed as “characteristic” peaks, and that, accordingly, “this is not a situation where the difference in diffraction pattern could only be attributed to a difference in crystal structure.” Id. (quoting In re Grose, 592 F.2d 1161, 1167 (C.C.P.A. 1979)).
+
+By way of example, Petitioner points to Dr. Mayo’s testimony that certain peaks in Form I of Mutz are absent in the claimed Form β. Pet. Reply 21 (citing Ex. 2052 ¶ 125). Petitioner’s expert Dr. McClurg, by contrast, testifies that the poor resolution of the spectrum is the explanation, rather than differences in crystal structure. Id. at 22 (citing Ex. 1066 ¶¶ 136–139). Petitioner alleges Patent Owner is aware of this, because when, in response to a customer request, Patent Owner created a “zoomed in” Form-β XRPD spectrum, it showed the exact same peak split as in Mutz Figure 1, along with the other peaks Dr. Mayo says are missing. Id. (citing Ex. 1066 ¶¶ 138–139; Ex. 1096; Ex. 1097). Petitioner states that this evidence was not shown to either Dr. Mayo or Dr. Eckhardt prior to making their Declarations. Id.
+
+With respect to enablement of the Mutz reference, Petitioner argues that Mutz expressly discloses that “the various crystalline forms” of fingolimod hydrochloride “may be obtained according to the procedures given in the Examples herein,” which includes the Examples incorporated from Fujita, especially Example 29. Pet. Reply 24 (citing Dec. 25–31). Petitioner notes that Mutz further discloses the “process for production of crystalline Form I” would comprise merely “cooling … to a temperature of less than $40^{\circ}$ C.” Id. (citing Ex. 1004, 3).
+
+Next, Petitioner contends that, as shown by 2014 Patent Owner internal documents, Patent Owner’s scientists followed Example 29 and produced Form I in Mutz. Pet. Reply 24 (citing Ex. 1066 ¶¶ 169–172; Ex. 1104, 3, 5; Ex. 1105, 2; Ex. 1106). Petitioner alleges that Patent Owner also reproduced Example 29 in 2020 and that, despite Dr. Rafiuddin’s $^{13}$ Declaration statement to the effect that Example 29 had “many gaps in the process,” a contemporaneous email by Patent Owner describes the same experiment as being within the capabilities of a “person skilled in the art’ including recrystallization by ‘simply’ stirring and washing.”” Id. at 24–25 (citing (Ex. 2084; Ex. 1107, 2).
+
+Finally, Petitioner contends that Kiuchi $^{14}$ also teaches how to make Form I fingolimod HCl. Pet. Reply 25. Petitioner asserts that Patent Owner used the method disclosed by Kiuchi to produce Form I in 2014. Id. (citing Ex. 1066 ¶¶ 166–168; Ex. 1102, 2; Ex. 1103). Petitioner also notes that various third parties also used the Kiuchi method to synthesize fingolimod HCl Form I. Id. at 25–26 (citing Ex. 1066 ¶¶ 183–188; Ex. 1110; Ex. 1111).
+
+## 5. Patent Owner's Sur-Reply
+
+Patent Owner's Sur-Reply is largely repetitive of the arguments presented in its Response. PO Sur-Reply 1–9, 18–26. With respect to
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Petitioner's argument concerning the enablement of Mutz, Patent Owner asserts that the text of Example 1 fails to demonstrate that Form I was obtained. Id. at 10. Patent Owner states that Petitioner neglected to add that Mutz discloses that Form I is obtained by cooling Form II or Form III, but that Mutz is silent with respect to how to synthesize either of those two forms. Id.
+
+Patent Owner argues further that Petitioner's arguments with respect to the enablement of Mutz are misplaced because they rely upon Patent Owner's internal documents. PO Sur-Reply 10. In particular, Patent Owner argues that these documents are not probative because they post-date Mutz and because, as internal documents, their substance was not known in the art when Mutz was filed. Id. Patent Owner contends that attempts to prepare Mutz Form I based upon Fujita or Kiuchi and performed subsequent to Mutz's 2008 filing date were unsuccessful. Id. at 10–11. Patent Owner asserts that its internal documents actually demonstrate that attempts to replicate Fujita's Example 29 were unsuccessful and led to compounds other than fingolimod HCl Form I. $^{15}$ Id. at 11.
+
+Specifically, Patent Owner contends that its 2014 experiment was not a replication of Fujita's Example 29 and did not produce Mutz Form I. PO Sur-Reply 11. To the contrary, Patent Owner asserts that Dr. Rafiuddin modified Example 29 in several ways not disclosed by Fujita, including: (1) adding HCl/ether “under stirring to get the clear solution”; (2) stirring for 30 minutes at room temp; (3) recovering the solvent at “45–50°C under
+
+IPR2022-00886
+
+Patent 9,266,816 B2
+
+vacuum.” Id. at 11–12 (citing Ex. 1106, 2; Ex. 1001, Processes A, B). Patent Owner argues that, in the 2020 experiment referenced in the district court complaint, Dr. Rafiuddin made similar modifications to Fujita to obtain crystallin fingolimod HCl. Id. at 12–13. Patent Owner argues that this procedure was far removed from the “barebones” of Fujita’s Example 29, and was performed without knowing the outcome beforehand. Id. at 13 (citing Ex. 1107, Ex. 2084). Patent Owner asserts that nothing in Exhibit 1107 suggests that a person of ordinary skill in the art could have made fingolimod HCl Form I in 2008 based on Fujita’s Example 29. Id.
+
+Patent Owner similarly dismisses the 2012 replication of Example 29 by a third party as being speculative, based upon a partial XRPD spectrum, no peak data tables or other characterization, and little information on how it had been obtained. PO Sur-Reply 13.
+
+Patent Owner next argues that Petitioner's reliance on Kiuchi is a new argument, not presented in the Petition and not permissible in Petitioner's Reply. PO Sur-Reply 14. Patent Owner contends that, although Petitioner cites the Petition's assertion that methods for synthesizing crystalline fingolimod HCl had been published (including citing Kiuchi), that is insufficient to establish that Kiuchi enables the production of fingolimod HCl Form I. Id. (citing Pet. 5; PO Resp. 45–47).
+
+With respect to the third-party submissions cited by Petitioner, Patent Owner contends that these Exhibits 1110 and 1111 are either irrelevant or inadmissible. PO Sur-Reply 15–16. Patent Owner contends that Exhibit 1110 is irrelevant as it contains no experimental results at all and only prophesizes that Form I would be obtained. Id. at 16. Similarly, argues Patent Owner, Exhibit 1111 is inadmissible, and also does not identify any
+
+IPR2022-00886
+Patent 9,266,816 B2
+experimental procedures, and yielded Mutz's fingolimod HCl Form II, and not Form I. Id.
+
+## 6. Analysis
+
+Before beginning our analysis proper, we believe that it will be helpful to the reader to briefly describe the two types of technologies essential to our results, as described in the prior art and as understood by a person of ordinary skill at the time of the filing of the '816 patent, the nature of the data obtained from them, and how this data figures into our analysis of the disclosures of the cited prior art and the '816 patent.
+
+X-ray powder diffraction (XRPD) is a widely accepted technique for characterizing crystal forms, and uses an instrument called a diffractometer to analyze a sample of a crystalline compound in powder form. See Ex. 3002; Ex. 1002 ¶¶ 42–46. The diffractometer measures the diffracted monochromatic X-ray intensity as a function of the angle at which X-rays diffract from the sample, which depends on the arrangement of molecules in the crystalline lattice, and records it in an XRPD spectrum that is characteristic of an individual particular crystal form. See Ex. 3002, Ex. 1002 ¶¶ 22–35. What is essential to understand is that different crystalline forms of the same chemical compound (i.e., polymorphs) will exhibit different XRPD spectra. Mutz illustrates this by depicting the XRPD spectra of Forms I, II, and III in its Figures 1–3, which are reproduced and annotated below:
+
+![](images/982d0d12e6f52668f21e5082b70429bf38d2666d8c00361705e1fbc15483b1f9.jpg)
+
+![](images/1564d53ac33d7fc11ccb03677e80bada63f3f4ba4782aa3ccbd471c83bc13e80.jpg)
+
+![](images/093ebcd7f96948a96b6dccecf29788c1794632dc4b1ec26fcd7d7fa75c3c692b.jpg)  
+XRPD spectra of crystalline fingolimod HCL Form I (top), Form II (middle) and Form III (bottom)
+
+Figure 7 of Wang (Ex. 1021), which is not prior art to the '816 patent, is nevertheless useful as illustrating how the peaks of these XRPD spectrum vary, as fingolimod HCl undergoes transitions between the polymorph Forms I, II, and III, as disclosed by Mutz, above:
+
+![](images/32ae7c576da0580bb0dd8a8480a600e1c351042c2cca659c03fcb1e95cd5e640.jpg)  
+Figure 7 of Wang (detail) illustrating changes in the XRPD spectrum peak distribution of crystalline fingolimod HCl as it transitions between Form I (green, top and bottom), II (blue), and III (grey, middle)
+
+The essential point is that each crystalline form of fingolimod HCl, or indeed any crystal, will have a unique XRPD spectrum, or “fingerprint,” that renders it distinct from other polymorphs of the same compound. See Ex. 1002 ¶¶ 33–35.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Differential Scanning Calorimetry (DSC), by contrast, is a commonly-used method of determining the behavior of a crystalline substance as it transitions between forms and/or phase states over a range of temperatures. See Ex. 1002 ¶¶ 36–38. Briefly, as a crystalline form undergoes a transition between polymorphs, energy is either absorbed (endothermic reaction) or released (exothermic reaction) by the subject compound, and which show as upward or downward peaks on the DSC curve. Not only solid-state transitions between different polymorphs appear as peaks on the DSC curve, so can phase-state transitions (i.e., melting) and decomposition of the compound.
+
+Figure 2 of the '816 patent depicts a DSC curve of fingolimod HCl, and is reproduced below:  
+![](images/77c8520d560e4ae3eb60f850e3290bd95b535ec5dc3312967dfba2934f466506.jpg)  
+Ex. 1001, Fig. 2. Mutz discloses that fingolimod HCl is in Form I below the peak at approximately $40^{\circ}$ C, at which point it melts and recrystallizes to Form II. Ex. 1004, 15, 3. At $66^{\circ}$ C, fingolimod HCl Form II undergoes a solid-state transition to Form III. Id. At $107^{\circ}$ C fingolimod melts to become
+
+a liquid crystal, and then liquifies entirely, before decomposing at about $260^{\circ}$ C. Id. Mutz expressly discloses that crystalline fingolimod can be converted between the different forms by heating or cooling. Id. at 15. Petitioner's expert, Dr. McClurg provides an illustration of these processes:
+
+![](images/1df74926a70f7c51f117d9706753aa5cca7239afad37774d2afff558b6bc1079.jpg)
+
+Ex. 1066 ¶ 59. Wang also illustrates these transitions in the DSC curve in its Figures 1 and 7, as reproduced below:  
+![](images/3a6170e202c7786a8b9f3fe2635b0cd303b1fb8cea591f5d1825aa56073f0a93.jpg)  
+Figure 1 of Wang depicts DSC curves for the heating scans of FTY 720: heating scans of forms I(a), II(b), and III(c) at a scan rate of $10^{\circ}$ C/min.
+
+![](images/d1913f45e676646cda6523ceebd57984c7dd918e752a3246dfd4294a41267512.jpg)  
+Figure 7 (detail) of Wang shows the transitions between Forms I, II, and III (indicated) of Mutz at different temperature ranges (indicated by solid line)
+
+Ex. 1021, Fig. 1; Fig. 7.
+
+The DSC curve thus describes the polymorphic behavior of crystalline fingolimod HCl as it transitions in a temperature-dependent fashion between the polymorphic forms, before melting into liquid crystal and then liquid phases and final decomposition of the molecule. It is thus nonsensical, as Patent Owner argues, that Mutz must enable a person of ordinary skill in the art to synthesize Form I of fingolimod HCl, or Forms II or III, as if there were separate synthetic processes for making each form. Mutz discloses that all that need be done is to synthesize crystalline fingolimod HCl, and it will assume a crystalline polymorph form that is appropriate for the conditions and temperature range, and that the form will change dependent upon the temperature at which it is maintained. See Ex. 1004, 3 (“interconversion between the various polymorphic forms of FYT720 hydrochloride may be achieved by heating or cooling FTY720 hydrochloride in accordance with
+
+the procedures described in the Examples”), 15; Ex. 1066 ¶¶ 56–61. As Dr.
+
+## McClurg explains:
+
+[V]arious references, including a prior patent “Fujita” incorporated by reference in Mutz, taught how to make crystalline fingolimod hydrochloride. Having obtained fingolimod hydrochloride by one of these methods or otherwise, a scientist could then determine its form using XRPD. Given Mutz’s teaching that fingolimod hydrochloride “exists in a particular crystalline form [Form I] at room temperature”… it would very likely be Form I already.
+
+If it was not, Mutz teaches that to “ensure conversion to crystalline Form I,” one simply needs to “cool[] to a temperature of $30\ °C$ or less, more preferably $20\ °C$ or less, more preferably still $10\ °C$ or less, e.g. still $8\ °C$ or less, e.g.[,] 2 to $8\ °C$ .”
+
+## Ex. 1066 ¶¶ 160–161.
+
+As an initial matter, as we explained in Section III.C above, and as we demonstrate below, we can resolve the question of the patentability of challenged claims 1–4 of the '816 patent by relying on the prior art of record and without recourse to the Shilpa Internal Documents. Although we have summarized the parties' arguments with respect to the Shilpa Internal Documents for the sake of completeness, we do not consider them in this analysis.
+
+Challenged claims 1–4 recite “[f]ingolimod hydrochloride crystalline Form-β characterized by/according to....” Ex. 1001, cols. 9–10, ll. 20–30. The claims are thus directed to a composition of matter. Petitioner asserts that fingolimod HCl Form I of Mutz is identical to fingolimod HCL Form-β claimed in the ’816 patent. If this is so, and if Mutz is enabled such that a person of ordinary skill in the art could make and use Form I, then Mutz anticipates the challenged claims of the ’816 patent. See Therasense, Inc. v. Becton, Dickinson and Co., 593 F.3d 1325, 1332–33 (Fed. Cir. 2010)
+
+(holding that “[f]or a claim to be anticipated, each claim element must be disclosed, either expressly or inherently, in a single prior art reference, and the claimed arrangement or combination of those elements must also be disclosed, either expressly or inherently, in that same prior art reference”).
+
+Challenged claim 1 recites that Form- $\beta$ is characterized by XRPD pattern “comprising characteristic $2\theta^{o}$ peaks selected from the XRPD peak set of 3.54, 7.07, 10.66, 15.35, 20.52, 21.43 and $25.10 \pm 0.12\theta^{\circ}$ .” Mutz discloses that its Form I “is characterised by an X-ray powder diffraction pattern having peaks at least two, preferably at least four, and more preferably all, of the following 2-theta values: 3.55, 7.12, 10.71, 12.48, 15.42 and 20.59 degrees 2-theta.” Ex. 1004, 2. A comparison of the XRPD spectra of Mutz Form I and the ’816 patent’s Form- $\beta$ is provided by Petitioner and reproduced below:
+
+![](images/88973fe0dc4898b71ece79e6946d9a3b0261719f6541c515f51661650cdecc6d.jpg)  
+Comparison of XRPD spectra of fingolimod HCl Form- $\beta$ of the '816 patent and Form I of Mutz
+
+Dr. McClurg notes that, when comparing XRPD spectra, “differences in relative intensity [i.e., the height of the peaks] in the experimental and computed XRPD patterns are expected. For these reasons, it is not the peak intensities, but the peak positions, that are of primary importance in identifying materials.” Ex. 1002 ¶ 57. Furthermore, Dr. McClurg opines
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+that, “[w]hen the two XRPD patterns provide the same overall “fingerprint”—as they do here—then peak positions that appear to match would be read to match absent good reason to read them otherwise.” Ex. 1066 ¶ 45. Dr. McClurg opines that comparison of these spectra (together with one from Wang) shows that “[c]orrespondence in peak positions in the patterns is clearly evident indicating that the patterns are of the same form.” Ex. 1002 ¶ 96.
+
+As noted above, Mutz expressly discloses $2\theta^{o}$ peaks at five of the seven recited values, i.e., “3.55. 7.12, 10.71, 12.48, 15.42 and 20.59 degrees 2-theta.” Ex. 1004, 2. This data is presented in tabular form below:
+
+<table><tr><td>Mutz Form I Peak List</td><td>Form-β (&#x27;816 Pat., Claim 1)</td><td>Difference</td></tr><tr><td>3.55</td><td>3.54 ± 0.1</td><td>0.01</td></tr><tr><td>7.12</td><td>7.07 ± 0.1</td><td>0.05</td></tr><tr><td>10.71</td><td>10.66 ± 0.1</td><td>0.05</td></tr><tr><td>15.42</td><td>15.35 ± 0.1</td><td>0.07</td></tr><tr><td>20.59</td><td>20.52 ± 0.1</td><td>0.07</td></tr><tr><td>-</td><td>21.43 ± 0.1</td><td>-</td></tr><tr><td>-</td><td>25.10 ± 0.1</td><td>-</td></tr></table>
+
+See, e.g., Ex. 1066 ¶ 16.
+
+Patent Owner argues that because Mutz does not expressly disclose peaks at the remaining two values, viz., 21.43° and 25.10° ± 0.1 2θ°, Mutz does not anticipate the challenged claims. However, and as we explained in Section III.A above, we are not persuaded by Patent Owner's arguments in this respect; the use of the claim terms “peaks” and “selected from” permit characterization of Form-β by as few as two peaks. See Section III.A supra. Mutz discloses peaks at five of the recited seven 2θ° values, which is sufficient to meet the requirements of the claim for characterizing Form-β. Ex. 1004, 2.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+However, even were we to require Mutz to disclose all seven peaks recited in challenged claim 1, Petitioner would still prevail in demonstrating that Mutz anticipates in this respect. In his declaration, Petitioner's expert Dr. McClurg, demonstrated that the XRPD spectrum provided in Figure 1 of Mutz discloses the remaining peaks. Dr. McClurg measured the peaks of Figure 1 and demonstrated peaks at $21.4^{\circ}$ and $25.0^{\circ}2\theta$ , which are within the $\pm 0.12\theta^{\circ}$ range of error of the values recited in the challenged claims. See Ex. 1002 ¶ 109. An enlarged detail of Figure 1 of Mutz, Dr. McClurg testifies, reveals the peaks at these $2^{\circ}\theta$ values, and is reproduced below:
+
+![](images/4f799694f3820f5c9d46d3f493f711ebb426f78da8de01a7ae45b5c5a5d2430d.jpg)  
+Enlarged view of Mutz Figure 1 indicating peaks at 21.4° and 20.5° 2θ
+
+Ex. 1066 ¶ 30.
+
+Patent Owner's expert, Dr. Mayo, criticizes Dr. McClurg's methodology as unreliable, and that the measurements made by Dr. McClurg "would have been beyond the ruler measurement capability and visual acuity of a POSA in 2010." Ex. 2052 ¶ 120 (noting that "the maximum separation distance of 0.01" is smaller than the smallest division of $1/64^{\text{th}}$ of an inch (0.016") on a ruler"). Dr. McClurg replies that Dr. Mayo's critique fails to recognize that the PDF images can be easily enlarged, and that that was what he did in the preparation of his first Declaration. Ex. 1066 ¶ 33–36. Dr.
+
+McClurg states that Dr. Mayo's criticisms are thus leveled against an analysis he did not perform and that he used this method to verify the positions of all of the peaks recited in the challenged claims. $Id$ .
+
+Furthermore, and in response to Patent Owner and Dr. Mayo's criticisms, Dr. McClurg subsequently digitized the image of the XRPD spectrum of Mutz Figure 1, using the commercially-available digitizing program Un-Scan-It, which was widely available in 2010. (Silk Scientific, 1060 Oakmont Lane Provo, UT 84604 USA). Ex. 1066 ¶ 49. Dr. McClurg testifies that, using this software, he “looked for local maxima indicating peak positions. The raw data reveals peaks at 21.40773 and 25.03813° 2θ, consistent with my estimates at 21.4 and 25.0° 2θ and within the range (±0.1° 2θ) in the ’816 Patent for Form-β.” Id. (citing Ex. 1069). Dr. McClurg provided annotated excerpts from that data reflecting those two peaks:
+
+<table><tr><td></td><td colspan="3">Peak at 21.43 ± 0.1° 2θ</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td>21.39531</td><td>3296.368</td><td></td></tr><tr><td></td><td>21.40773</td><td>3296.384</td><td></td></tr><tr><td></td><td>21.42076</td><td>2968.195</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="3">Peak at 25.1 ± 0.1° 2θ</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td>25.02571</td><td>1075.31</td><td></td></tr><tr><td></td><td>25.03813</td><td>1075.325</td><td></td></tr><tr><td></td><td>25.05059</td><td>1054.828</td><td></td></tr></table>
+
+Dr. Mutz notes that, rounding to the nearest $0.1^{\circ}2\theta$ , the digitized results are $21.4^{\circ}$ and $25.0^{\circ}2\theta$ , thus validating his earlier, pencil and paper calculations. Id.
+
+By a preponderance of the evidence, Petitioner persuades us that the XRPD spectrum of crystalline fingolimod HCl Form I disclosed by Mutz is essentially identical to that of crystalline fingolimod HCl Form- $\beta$ disclosed by the '816 patent. We consequently conclude that Mutz discloses the crystalline fingolimod HCl Form- $\beta$ recited in the challenged claims.
+
+We therefore find that Petitioner has shown, by a preponderance of the evidence, that Mutz discloses fingolimod HCl Form I that is the same as the fingolimod HCl Form- $\beta$ recited in the challenged claims. That is enough to establish that Mutz, if enabled, anticipates challenged claims 1–4 of the '816 patent. See Wilder, 429 F.2d at 451. However, for completeness, we will further address whether Mutz anticipates challenged claims 2–4 considering the DSC isotherm subject matter also recited in the claims. As discussed above, claims 2–4 also recite or incorporate by reference the characteristic DSC peaks 1–4, located between 40 to 45°C (Peak 1), between 65 to 70°C (Peak 2); between 107 to 115°C (Peak 3); and between 265 to 270°C (Peak 4) on the DSC curve.
+
+With respect to the DSC curve for crystalline fingolimod, Mutz discloses that “DSC heating curves showed three characteristic transitions [peaks] at approximately $40^{\circ}$ C, $66^{\circ}$ C and $107^{\circ}$ C.” Ex. 1004, 15. As explained above, Mutz discloses that these three transitions represent, respectively, the transition between Form I and Form II, Form II and Form III, and the melting of Form III to a liquid crystal phase. Id.; see also Ex. 1021, 426–427, Fig. 1. These peaks disclosed by Mutz correspond to Peaks 1–3 as recited in challenged claims 2 and 3 and incorporated into challenged claim 4.
+
+Mutz does not disclose Peak 4, which Dr. McClurg opines is the temperature beyond which fingolimod HCl decomposes, and notes that the '816 patent is in accord with this disclosure, and that it is not disputed by Dr. Mayo. Ex. 1066 ¶¶ 59–63. Dr. McClurg explains the lack of disclosure of
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Peak 4 by suggesting that Mutz omitted testing the DSC properties of fingolimod HCl at temperatures higher than the melting point (107°C) because “[m]any DSC practitioners choose to limit the upper temperature limit of their experiments to avoid contaminating their calorimeter with decomposition products.” Ex. 1002 ¶ 45. This may have also contributed “to Mutz’s choice to use a different technique, thermomicroscopy, to further characterize the material above 107°C.” Id.
+
+It is not disputed that Mutz discloses endothermic peaks at the values recited in the challenged claims 2–4 of the '816 patent for Peaks 1–3. Patent Owner contends that, because there is no express disclosure in Mutz of the fourth DSC peak at 265–270°C recited in claim 2, and more narrowly in claim 4, Mutz does not anticipate the claims. PO Resp. 17. According to Patent Owner, Petitioner asserts that claim 2 is anticipated because Mutz's statement that "the onset of decomposition at ca. 260°C," is an express disclosure of the fourth DSC peak at 265–270°C. Id. (quoting Pet. 23).
+
+We find the question of whether Mutz inherently discloses an endothermic Peak 4 at 265–270°C to be largely immaterial to our anticipation analysis for several reasons. The challenged claims are each directed to “[f]ingolimod hydrochloride crystalline Form-β,” however, and as we have explained, at the temperature range assigned to Peak 4, fingolimod is no longer in a crystalline state and is at the point of ceasing to be fingolimod HCl at all, that is, it is beyond even a pure liquid phase and is beginning to decompose. Consequently, Peak 4 cannot be characteristic of the crystalline form of fingolimod hydrochloride crystalline Form-β, which exits only at temperatures of less than 40°C. See Ex. 1004, 15. Indeed, Peak 4 cannot be said to be characteristic of any crystalline from of fingolimod HCl at all, because fingolimod HCl melts into the liquid crystal
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+phase at 107–110°C and becomes a liquid at approximately 230°C before decomposition. Id.; Ex. 1066 ¶¶ 59–60.
+
+More importantly, however, the temperature peaks defining the transition states between the polymorphic forms of crystalline fingolimod HCl are characteristics of the claimed compound, which has been demonstrated by the XRPD spectra to be disclosed by Mutz. Because we find, based on a preponderance of the evidence of record, that the XRPD spectrum disclosed by Mutz demonstrates that its fingolimod HCl crystalline Form I is the same compound as the fingolimod HCl crystalline Form-β recited in the challenged claims, the lack of a disclosure of Peak 4 only reflects a hitherto undisclosed property of an already-disclosed compound and, as such, does not change the scope of the claimed composition. See Wilder, 429 F.2d at 450 (holding that “a claim to a composition, of a particular property said to be possessed by the recited composition, be that property newly-discovered or not, does not necessarily change the scope of the subject matter otherwise defined by that claim”); In re Spada, 911 F.2d 705, 709 (Fed. Cir. 1990) (holding that “discovery of an unobvious property and use does not overcome the statutory restraint of section 102 when the claimed composition is known.... When the claimed compositions are not novel, they are not rendered patentable by recitation of properties, whether or not these properties are shown or suggested in the prior art”); Titanium Metals Corp. v. Banner, 778 F.2d 775, 782 (Fed. Cir. 1985) (holding that if a composition is the same as the prior art, it is immaterial what properties they have, or who discovered the properties, because the composition must necessarily exhibit the properties).
+
+In sum, Petitioner has demonstrated by a preponderance of the evidence that the XRPD spectrum of fingolimod HCl Form I disclosed by
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Mutz is the same as that disclosed by the '816 patent and characterized by the XRPD peaks recited in challenged claims 1–4. As such, Mutz, if enabled, anticipates the challenged claims and the failure of Mutz to disclose a property of fingolimod HCl Form I that may have been previously unreported for that compound is not sufficient to overcome the fact that fingolimod HCl Form I and the claimed Form- $\beta$ are the same chemical compound in the same crystalline form. $^{16}$
+
+We therefore turn to the question of whether Mutz is enabled as an anticipating reference. A prior art reference cannot anticipate a claimed invention “if the allegedly anticipatory disclosures cited as prior art are not enabled.” Amgen Inc. v. Hoechst Marion Roussel, Inc., 314 F.3d 1313, 1354 (Fed. Cir. 2003). “To anticipate a claim, a reference must disclose every element of the challenged claim and enable one skilled in the art to make the anticipating subject matter.” PPG Indus., Inc. v. Guardian Industries Corp., 75 F.3d 1558, 1566 (Fed. Cir. 1996). However, a prior art reference need not enable its full disclosure; it need only enable the portions of its disclosure alleged to anticipate the claimed invention. See In re Antor Media Corp., 689 F.3d 1282, 1290 (Fed. Cir. 2012) (citing Beckman Instruments, Inc. v. LKB Produkter AB, 892 F.2d 1547, 1551 (Fed. Cir. 1989).
+
+Furthermore, there is a presumption of enablement for prior art. See Amgen Inc. v. Hoechst Marion Roussel, Inc., 314 F.3d 1313, 1354–55
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+(Fed. Cir. 2003) (holding a patent challenger is entitled to rely on the presumption of enablement of a prior art patent, and patent owner bears the burden of proving nonenablement); In re Antor Media Corp., 689 F.3d 1282, 1289 (Fed. Cir. 2012) (holding the same presumption and burden apply to prior art publication).
+
+Petitioner asserts that Fujita, which is expressly incorporated by reference into Mutz, enables Mutz by teaching how to make crystalline fingolimod hydrochloride in its Example 29. See Pet. Reply 23; Ex. 1004, 1.
+
+Patent Owner alleges that Mutz is not enabled for fingolimod HCl crystalline Form- $\beta$ . See, e.g., PO Resp. 41–52. Patent Owner bears the burden of showing that Mutz is non-enabled prior art. Apple Inc. v. Corephotonics, Ltd., 861 Fed. Appx. 443, 450 (Fed. Cir. 2021) (“[R]egardless of the forum, prior art patents and publications enjoy a presumption of enablement, and the patentee/applicant has the burden to prove nonenablement for such prior art.”).
+
+As an initial matter, Patent Owner repeats its argument, first presented in its Preliminary Sur-Reply (“PO Prelim. Sur-Reply”), that Fujita cannot be incorporated by reference under 37 C.F.R. § 1.57(d) because Fujita is neither a U.S. Patent or U.S. patent publication. See PO Prelim. Sur-Reply 1. Patent Owner contends that, because Petitioner argues that Mutz is enabled by its incorporation by reference of Fujita, Fujita is therefore “essential matter” to the enablement of Mutz, and is therefore improper because it is neither a U.S. Patent or U.S. patent publication. Id. at 1–2 (citing 37 C.F.R. § 1.57(d); also citing Pennwalt Corp. v. Akzona, Inc., 570 F.Supp. 1097, 1103 (D. Del. 1983); Hulu, Inc. v. Sito Mobile R&D IP, LLC et al., 2022 Pat. App. LEXIS 2690 (PTAB May 17, 2022)).
+
+We rejected this argument in our Decision to Institute. See Dec. 25–
+
+## 26. As we explained:
+
+Section 1.57 relates generally to the validity of U.S. patents and their applications. Specifically, Section 1.57 addresses the incorporation of a reference in the application data sheet of a continuation of a previous application for reasons of preserving for the continuing application the priority date of the previous application.... Section 1.57(d) of the same chapter, states that “essential material,” i.e., material that is necessary to “provide a written description of the claimed invention, and of the manner and process of making and using it” can only be incorporated by reference from a US patent or patent publication. 37 C.F.R. §§ 1.57(d)–d(1).
+
+## Id.
+
+In sum, Rule 1.57 “allows a later application, which enumerates a valid priority claim from an earlier application consistent with regulation 1.78, to cure any inadvertently omitted portion of the specification or drawing(s).” Droplets, Inc. v. E\*TRADE Bank, 887 F.3d 1309, 1318 (Fed. Cir. 2018). As we further stated in the Decision:
+
+That is emphatically not the context in which Mutz is relied upon by Petitioner. Mutz, a foreign application, is cited as prior art to challenge the validity of the '816 patent on the grounds that it anticipates claims 1–4. We are not concerned with the validity of Mutz as a U.S. patent or patent application, of which it is neither. Rather, we look to Mutz to determine whether a person of ordinary skill in the art would understand that it discloses "all limitations of the claim," and is enabled.
+
+Dec. 26 (citations omitted). In short, Rule 1.57 is not applicable to references that are alleged to be anticipatory that incorporate by reference material in other printed publications.
+
+Patent Owner responds that Mutz's incorporation of Fujita is improper under Rule 1.57(d), because Fujita is neither a U.S. patent nor a U.S. patent application publication. PO Resp. 42–43.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+We find Patent Owner's argument no more persuasive upon repetition. Whether material is incorporated by reference into a host document is a question of law. Advanced Display Sys., Inc. v. Kent State Univ., 212 F.3d 1272, 1283 (Fed. Cir. 2000). However, “[m]aterial not explicitly contained in the single, prior art document may still be considered for purposes of anticipation if that material is incorporated by reference into the document.” Id. at 1282; see also Callaway Golf Co. v. Acushnet Co., 576 F.3d 1331, 1346 (Fed. Cir. 2009). Specifically, “[i]ncorporation by reference provides a method for integrating material from various documents into a host document—a patent or printed publication in an anticipation determination—by citing such material in a manner that makes clear that the material is effectively part of the host document as if it were explicitly contained therein.” Advanced Display, 212 F.3d at 1282 (emphasis added) (citing General Elec. Co. v. Brenner, 407 F.2d 1258, 1261–62 (D.C. Cir. 1968); In re Lund, 376 F.2d 982, 989 (C.C.P.A. 1967)).
+
+Furthermore, “if incorporation by reference comes into play in an anticipation determination, the court’s role is to determine what material in addition to the host document constitutes the single reference. The factfinder's role, in turn, is to determine whether that single reference describes the claimed invention.” Advanced Display, 212 F.3d at 1283. Consequently, and as the plain language of Advanced Display makes clear, “material,” including a printed publication, can be incorporated by reference in an anticipating document. There is no dispute that Fujita, a published European patent (EP 0627406 B1), is a printed publication and constitutes the material incorporated by reference. See Ex. 1004, 1; 35 U.S.C. §102(a)(2); MPEP § 2154.01. As such, it can be properly incorporated by reference by Mutz, a WIPO international application, as an allegedly
+
+anticipating document. Consequently, we conclude that Patent Owner's argument that Mutz's incorporation of Fujita by reference was improper under Section 1.57(d) is without merit.
+
+Patent Owner next argues that “Mutz’s nonspecific incorporation of ‘the relevant disclosure’ of Fujita is the exact opposite of the detailed particularity required by the Federal Circuit, and wrongfully requires a POSA to ferret out ‘the relevant disclosure’” PO Resp. 44. Patent Owner contends that Mutz states that “2-Amino-2-[2-(4-C $_{2-20}$ -alkyl-phenyl)ethyl] propane-1,3-diol compounds are disclosed in EP-A-0627406...” but does not state which of the three EP ’406 documents with 3 different disclosures (A1, A4, B1 $^{17}$ ) is being referred to. Id.
+
+We are not persuaded by this argument. Fujita (Exhibit EP 0 627 406 B1) is a European Patent with a Specification identical to that of the '229 patent, which was a publicly available as a printed publication. See 35 U.S.C. § 102(a)(2); MPEP § 2154.01. Petitioner has expressly provided the EP 0 627 406 B1 patent, with its Specification, as Exhibit 1048. We find that a person of ordinary skill in the art would have been able to locate the publicly-available Fujita patent with minimal difficulty. Furthermore, both the Fujita A1 application and the B1 patent Specification disclose an identical Example 29, which provides the same method for the synthesis of crystalline fingolimod HCl (i.e., 2-Amino-2-[2-(4-octylphenyl)ethyl]-1,3-propanediol hydrochloride). Compare Ex. 2117, 168, with Ex. 1048, 115.
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+Consequently, if a person of ordinary skill in the art turned to the disclosures of either the publicly-available B1 patent (supplied by Petitioner) or the A1 application, that individual would find precisely the same information teaching how to synthesize crystalline fingolimod HCl. Admittedly, the A1 application provides an additional synthetic example in its Example 284(3) but, as noted, the A1 application is a publicly-available document that could be readily accessed by those of skill in the art. See Standard Oil Co. v. American Cyanamid Co., 774 F.2d 448, 454 (Fed. Cir. 1985) holding that “[a] person of ordinary skill in the art…thinks along the line of conventional wisdom in the art,” and is also “presumed to be aware of all the pertinent prior art”). Finally, we find it unlikely that a person of skill in the art would reasonably turn to a “search report and claim set” (EP 0627 406 A4) to find “2-Amino-2-[2-(4-C $_{2-20}$ -alkyl-phenyl)ethyl] propane-1,3-diol compounds,” including crystalline fingolimod HCl, and its method of synthesis. See Standard Oil, 774 F.2d at 454.
+
+Patent Owner also argues that Mutz never states that the incorporation of Fujita was for the purpose of synthesizing Form I (or any of Forms I–III) reported in Mutz’s Example 14. Pet. Resp. 45 (citing Ex. 1004; Ex. 2052, ¶ 10). Petitioner contends that, because Mutz describes and claims novel crystalline polymorphic forms of fingolimod hydrochloride, they cannot have been made by Fujita’s Example 29, or by Example 284. Id. at 45–46.
+
+Patent Owner's argument is not persuasive. The cited Examples of Fujita teach a synthetic method for crystalline fingolimod HCl. Fujita did not recognize, or otherwise disclose that fingolimod HCl exhibits polymorphisms. See generally Ex. 1048; Ex. 2117. The fingolimod HCl polymorphisms were first discovered in crystalline HCl and disclosed in Mutz. See Ex. 1004, 1. Mutz also teaches that, when crystalline fingolimod
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+HCl is synthesized, it changes its crystalline structure in a temperature dependent state. See Ex. 1004, 15. Mutz further teaches that crystalline fingolimod HCl assumes Form I at temperatures below $40^{\circ}$ C, and that it can be achieved by cooling the compound to below that transition temperature. Ex. 1004, 3. Consequently, and as we have explained above, all that Fujita need disclose is an enabling method for synthesizing crystalline fingolimod HCl; the resultant crystalline forms organize themselves in a temperature-dependent manner. See Ex. 1004, 1, 3; Ex. 1066 ¶¶ 160–161. Mutz's disclosure of an XRPD spectrum of its Form I that is essentially identical to that of Form- $\beta$ disclosed in the '816 patent is sufficient by itself to demonstrate that Mutz was in possession of Form I, and as evidence that Fujita would instruct a person of ordinary skill in the art how to make and use fingolimod HCl. See Ex. 1004, Fig. 1; Ex. 1001, Fig. 3. Hence, Fujita need not expressly disclose a method for making any of the specific Forms, only how to synthesize crystalline fingolimod HCL, and Patent Owner's arguments to the contrary are without merit.
+
+Patent Owner also argues that Mutz does not identify Fujita's teaching of a method of crystalline fingolimod HCl with sufficient specificity. See PO Resp. 46–47. We disagree.
+
+"To incorporate material by reference, the host document must identify with detailed particularity what specific material it incorporates and clearly indicate where that material is found in the various documents." Adv. Display, 212 F.3d at 1282; see also In re Seversky, 474 F.2d 671, 674, (C.C.P.A. 1973) (providing that incorporation by reference requires a statement "clearly identifying the subject matter which is incorporated and where it is to be found"). We acknowledge that both the A1 application of Fujita and the B1 patent provide a large number of examples of 2-Amino-2-
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+[2-(4-C $_{2-20}$ -alkyl-phenyl)ethyl] propane-1,3-diol compounds. Nevertheless, and as we explained in our Decision to Institute, Mutz is expressly directed to, and discloses, the various polymorphic forms exhibited by crystalline fingolimod HCl i.e., (2-amino-2[2-(4-octylphenyl)ethyl] propane-1,3-diol, a/k/a FTY720. Dec. 29–31; see Ex. 1004, 1. Among its examples, both the Fujita A1 application and the B1 patent expressly teach a method of synthesis for this same compound:
+
+Example 29: 2-Amino-2-[2-(4-octylphenyl)ethyl]-1,3-propanediol hydrochloride
+
+2-Amino-2-[2-(4-octylphenyl)ethyl]-1,3-propanediol (7 g) was dissolved in ethanol (50 ml) and a 1N hydrochloric acid/ether solution (50 ml) was added thereto. The solvent was distilled away and the resultant crystals were recrystallized from ethanol to give 4.2 g of the subject compound.
+
+meltingpoint=118-120°C
+
+$^{1}$ H-NMR (DMSO) δ:
+
+0.89 (3H, t, J = 6Hz), 1.07–1.77 (12H, m), 1.82-
+
+2.17 (2H, m), 2.42–2.95 (4H, m), 3.80 (4H, s), 5.03 (2H, brs), 7.11 (4H, s), 8.07 (3H, brs)
+
+IRv : 3371, 3265, 2924, 1069 cm $^{-1}$
+
+Ex. 2117, 168; see also Ex. 1048, 115. In addition, the A1 application additionally teaches, in Example 284, a more extensive, three-step synthetic process for the synthesis of crystalline 2-Amino-2-[2-(4-octylphenyl)ethyl]-1,3-propanediol (i.e., fingolimod HCl), which has a melting point of 125–126°C. Ex. 2117, 201–202.
+
+Mutz expressly discloses that “2-Amino-2-[2-(4-C $_{2-20}$ -alkyl-phenyl)ethyl]propane-1,3-diol compounds are disclosed in EP-A-0627406 [Fujita], the relevant disclosure of which is incorporated herein by reference.” See, e.g., Ex. 1004, 1. Mutz is also expressly and solely directed
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+to the discovery of polymorphic forms of fingolimod HCl (i.e., FTY720), and to no other compounds. Id. The Fujita A1 application and B1 patent expressly demarcate, and expressly describe, methods of synthesis of crystalline fingolimod HCl. We find that a person of ordinary skill in the art, understanding that Mutz incorporates by reference Fujita's method of synthesizing crystalline fingolimod HCl, would have had little difficulty in locating within the disclosures of either Fujita publication, the relevant synthetic method, which are clearly described as such. We therefore conclude that Mutz's incorporation by reference of Fujita identifies, with sufficient particularity, “the subject matter which is incorporated (i.e., synthesis of crystalline fingolimod HCl) and where it is to be found (i.e., in the disclosures of Fujita teaching the method of its synthesis).” See Seversky, 474 F.2d at 674.
+
+Patent Owner next acknowledges that Example 29 of Fujita describes recrystallization of the HCl salt of fingolimod from ethanol, but does not specify the process conditions for recrystallization and does not state whether a polymorphic form was obtained. PO Resp. 50 (citing Ex. 2117, 168).
+
+We do not find this argument persuasive. Fujita's Example 29 provides crystalline fingolimod HCl that is synthesized by the following method: “2-Amino-2-[2-(4-octylphenyl)ethyl]-1,3-propanediol (7 g) was dissolved in ethanol (50 ml) and a IN hydrochloric acid/ether solution (50 ml) was added thereto. The solvent was distilled away and the resultant crystals were recrystallized from ethanol to give 4.2 g of the subject compound.” Ex. 2117, 168:3-6.
+
+Moreover, Westheim, a non-prior art reference, demonstrates that a person of skill in the art could successfully use the method described by Fujita to obtain crystalline fingolimod HCl:
+
+Fingolimod hydrochloride exists in a stable crystalline form. Such crystalline product was first obtained in the above EP '406 [i.e., Fujita] by recrystallization of fingolimod hydrochloride from a solution thereof in ethanol.
+
+The crystalline fingolimod hydrochloride obtainable by processes of the prior art documents disclosed above is characterized by a distinctive XRPD pattern and IR spectrum, which allow to conclude that each of these processes provides a stable crystalline form, which is denoted for purpose of the present invention as Form I.
+
+Ex. 1006 ¶¶ 3, 10. To be sure, Westheim notes problems with the method of Fujita that render the product compound obtained less than ideal for commercial production:
+
+It was found by the present inventor after repeating the crystallization processes of the prior art that fingolimod hydrochloride is obtainable only as a waxy- or a cotton-like solid with poor filterability and flowability. Because of these properties, such crystal habit is inconvenient for large scale processing and for subsequent formulation into pharmaceutical compositions.
+
+Id. at ¶ 4 (emphasis added). Nevertheless, and contrary to Patent Owner's arguments (see Pet. 54), the emphasized text in the preceding passages makes it evident that the “waxy- or a cotton-like solid” obtained by following the prior art method of Fujita is crystalline fingolimod HCl which, when analyzed by XRPD and DSC is a form that corresponds to Form I of Mutz. See id. at ¶¶ 13–14 (identifying the resultant polymorphs of the obtained fingolimod polymorphs as corresponding to Forms I, II, and III of
+
+Mutz (WO 2010/055028)), Fig. 1 (XRPD spectrum of Form I) Fig. 4. $^{18}$ That Westheim also discloses methods that make the synthesis of crystalline fingolimod HCl more suitable for large scale processing is not relevant to our analysis.
+
+Finally, other prior art references would have taught a person of ordinary skill in the art how to make crystalline fingolimod HCl. Kiuchi, a prior art journal article published in 2000, discloses that “2-Amino-2[2-(4-octylphenypethyl]propane-1,3-diol hydrochloride (6, FTY720) [fingolimod HCl] was found to possess considerable activity and is expected to be useful as an immunosuppressive drug for organ transplantation.” Ex. 1007, 2946. Kiuchi describes generally (id. at 2947–2948, Chart 2 (compound 6), Scheme 2α), and in detail (id. at 2953), the method for synthesizing crystalline fingolimod HCl, which crystallizes as “a white solid”).
+
+As we have explained above, it is not necessary that Kiuchi teach the skilled artisan how to synthesize a specific form of crystalline HCl, let alone Form I. Mutz teaches that crystalline fingolimod assumes Form I below $40^{\circ}$ C, and that it can be achieved by cooling the compound to below that transition temperature. Ex. 1004, 3 (“interconversion between the various polymorphic forms of FYT720 hydrochloride may be achieved by heating or cooling FTY720 hydrochloride in accordance with the procedures described in the Examples”), 15; Ex. 1066 ¶¶ 160–161). We consequently find that a person of ordinary skill in the art, comprehending the teachings of Fujita, in addition to the knowledge disclosed by the prior art, would have been able to synthesize crystalline fingolimod HCl, determine the Form obtained by XRPD, and convert it (if necessary) to Form I by cooling.
+
+Finally, Patent Owner contends that differences in melting points between Mutz and Example 29 proves that none of Mutz's forms could have been made by Example 29. PO Resp. 51.
+
+We do not find Patent Owner's arguments persuasive. As Petitioner's expert, Dr. McClurg, explains:
+
+[E]stimated melting points are inexact, much like decomposition temperatures, especially when measured with different techniques. Example 29 does not disclose how melting point was measured, but it was likely measured using a melting point apparatus, or capillary tube, as Dr. Mayo suggests.
+
+The accuracy of the apparatus depends upon how fast the temperature is increased, thermal lag between the specimen and the heating element, and the skill of the operator. In contrast, DSC is a quantitative measurement of the heat necessary to increase the temperature of a specimen. Both techniques are sensitive to changes in conditions. That easily explains the difference between the $107^{\circ}$ C transition observed by DSC in Mutz and the $118–120^{\circ}$ C “melt” observed by the Fujita inventors. A small difference of $10–15^{\circ}$ C when comparing melting point apparatus and DSC data does not mean that Example 29 produces something other than Form I.
+
+Ex. 1066 ¶¶ 176–177. We also note that the method of synthesis may cause variations in the melting point of fingolimod HCl. Example 29 of the Fujita A1 application states that its method produced fingolimod HCl with a melting point of 118–120°C, whereas Example 284(3) produces fingolimod
+
+HCl with a melting point of 125–126°C. Ex. 2117, 168, 202. And the prior art reference Kiuchi teaches a melting point of 107–108°C, which is similar to that disclosed by Mutz, and the melting point described by Westheim of 107–110°C. Ex. 1007, 2953; Ex. 1004, 15; Ex. 1006, 7.
+
+At oral argument, Patent Owner pointed to a study demonstrating the similar melting points of different polymorphs of another drug, felodipine, but which also showed different temperatures of decomposition. See Hearing Tr. 47–48, Ex. 2177, 91–92 (citing Ex. 2146, 6, 6). However, we fail to see the relevance of the felodipine study because, as we have explained and the prior art demonstrates, crystalline fingolimod HCl changes from Forms I–III in a temperature-dependent manner, until Form III ultimately melts into liquid crystal, and then liquid phases. See, e.g., Ex. 1004, 15; Ex. 1021, 46–47; Ex. 1066 ¶¶ 56–60.
+
+None of these references provide an explanation of the method or conditions used to measure the melting point of fingolimod HCl. $^{19}$ Given this variation in the melting points recited in the prior art, and Dr. McClurg's expert testimony, which we find credible, we agree with Petitioner's
+
+argument that these variations in melting points are likely the result of differences in apparatus and conditions under which the melting point was determined. We therefore agree with Petitioner's position that Mutz is enabled.
+
+Furthermore, although we have summarized the parties' arguments with respect to the Shilpa Internal Documents (i.e., Exs. 1075, 1076, 1084, 1085, 1086, 1087, 1096, 1097, 1102, 1103, 1104, 1105, 1106, 1107, 1108, 1109, 1119, 2152 and 2153), we find the prior art of record to be dispositive of Ground 1, and the Shilpa Internal Documents consequently do not enter into our analysis.
+
+## 7. Conclusion
+
+Having reviewed the parties' arguments, both in their briefs and at oral argument, as well as the evidence of record, we find that Petitioner has established that Mutz discloses crystalline fingolimod HCl Form-β (as Mutz's Form I) as recited in claims 1–4 of the '816 patent, and that Mutz is enabled by its incorporation of Fujita and the knowledge of a person of ordinary skill in the art. We therefore conclude that Mutz anticipates the challenged claims.
+
+Furthermore, because we conclude that challenged claims 1–4 are unpatentable as anticipated by Mutz, we do not reach the remaining Grounds 2 and 3 in this Final Written Decision. See SAS Inst. Inc. v. Iancu, 138 S.Ct. 1348, 1359 (2018) (holding that a petitioner “is entitled to a final written decision addressing all of the claims it has challenged”); Boston Sci. Scimed, Inc. v. Cook Grp. Inc., 809 F. App’x 984, 990 (Fed. Cir. 2020) (non precedential) (recognizing that the “Board need not address issues that are not necessary to the resolution of the proceeding” and therefore agreeing that the Board has “discretion to decline to decide additional instituted grounds once the petitioner has prevailed on all its challenged claims”).
+
+## E. Petitioner's Motion for Sanctions against Patent Owner
+
+Finally, Petitioner seeks sanctions against Patent Owner. Mot. Sanctions, 1. Specifically, Petitioner alleges that Patent Owner: (1) willfully violated its duty of candor and routine discovery rules by hiding documents $^{20}$ ; and (2) willfully violated deposition discovery and ethical rules by interfering with testimony and failing to correct perjury. Id. at 13–18. Petitioner requests that the Board enter judgment against Patent Owner, require the payment of fees, and order any other relief that is just. Id. at 20.
+
+In its Opposition, Patent Owner argues that it: (1) did not hide documents, but produced them willingly in the district court litigation and produced them at Petitioner's request in this inter partes review; that it did not violate deposition discovery and ethical rules by interfering with testimony; and (3) that the testimony of the deponent in question (Dr. Rafiuddin) was not perjurious. Opp. Mot. Sanctions 14–18.
+
+Because we enter judgment on the merits against Patent Owner's claims, Petitioner's request that we do so as a sanction against Patent Owner is denied. Furthermore, having reviewed the arguments and evidence presented by Petitioner and Patent Owner, we conclude that the evidence is not sufficiently conclusive to warrant the additional imposition of financial sanctions. We consequently deny Petitioner' Motion for Sanctions.
+
+## IV. CONCLUSION
+
+Having analyzed the entirety of the record and assigning appropriate weight to the evidence cited by Petitioner and Patent Owner, and for the reasons we have set forth above, we determine that Petitioner has established, by a preponderance of the evidence, that claims 1–4 of the '816 patent are unpatentable. Furthermore, because we conclude that Petitioner has met its burden of showing that the claims are unpatentable, we dismiss as moot Petitioner's Motion to Exclude Evidence. We deny Petitioner's Motion for Sanctions against Patent Owner. Furthermore, and for the reasons we have set forth above, we dismiss-in-part as moot, and deny-in-part, Patent Owner's Motion to Exclude Evidence.
+
+## V. ORDER
+
+In consideration of the foregoing, it is hereby:
+
+ORDERED that Petitioner has shown by a preponderance of the evidence that claims 1–4 of the '816 patent are unpatentable;
+
+FURTHER ORDERED that Petitioner's Motion to Exclude is dismissed as moot;
+
+FURTHER ORDERED that Petitioner's Motion for Sanctions against Patent Owner is denied;
+
+FURTHER ORDERED that Patent Owner's Motion to Exclude is dismissed-in-part as moot and denied-in-part; and
+
+IPR2022-00886
+Patent 9,266,816 B2
+
+FURTHER ORDERED that, because this is a Final Written Decision, parties to the proceeding seeking judicial review of the decision must comply with the notice and service requirements of 37 C.F.R. § 90.2. $^{21}$
+
+<table><tr><td>Claims</td><td>35 U.S.C. §</td><td>Reference(s) /Basis</td><td>Claims Shown Unpatentable</td><td>Claims Not Shown Unpatentable</td></tr><tr><td>1–4</td><td>102</td><td>Mutz</td><td>1–4</td><td></td></tr><tr><td>1–4</td><td>103</td><td>Mutz, Gidwani22</td><td></td><td></td></tr><tr><td>1–4</td><td>102</td><td>Gidwani</td><td></td><td></td></tr><tr><td>Overall Outcome</td><td></td><td></td><td>1–4</td><td></td></tr></table>
+
+IPR2022-00886
+Patent 9,266,816 B2
+FOR PETITIONER:
+
+Jane Love
+David Glandorf
+Allyson Parks
+GIBSON, DUNN & CRUTCHER LLP
+jlove@gibsondunn.com
+dglandorf@gibsondunn.com
+aparks@gibsondunn.com
+
+## FOR PATENT OWNER:
+
+Mark Boland
+
+Brett Sylvester
+
+Michael Dzwonczyk
+
+Raja Saliba
+
+Lawrence Rachuba
+
+SUGHRUE MION, PLLC
+
+mboland@sughrue.com
+
+bsylvester@sughrue.com
+
+mdzwonczyk@sughrue.com
+
+rsaliba@sughrue.com
+
+Irachuba@sughrue.com

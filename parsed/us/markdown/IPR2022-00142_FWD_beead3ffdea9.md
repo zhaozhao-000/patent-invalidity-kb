@@ -1,0 +1,636 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 77
+Date: May 15, 2023
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE BEFORE THE PATENT TRIAL AND APPEAL BOARD SLAYBACK PHARMA LLC, Petitioner,
+
+v.
+EYE THERAPIES, LLC,
+Patent Owner.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+Before TINA E. HULSE, ROBERT A. POLLOCK, and RYAN H. FLAX, Administrative Patent Judges.
+
+HULSE, Administrative Patent Judge.
+
+JUDGMENT
+
+Final Written Decision
+
+Determining All Challenged Claims Unpatentable 35 U.S.C. § 318(a)
+
+## I. INTRODUCTION
+
+Slayback Pharma, LLC (“Petitioner”) filed a Petition requesting inter partes review of claims 1–6 of U.S. Patent No. 8,293,742 B2 (Ex. 1001, “the ’742 patent”), owned by Eye Therapies, LLC (“Patent Owner”). Paper 2 (“Pet.”). Upon considering the Petition, Preliminary Response (Paper 7), Petitioner’s Reply to Patent Owner’s Preliminary Response (Paper 10), and Patent Owner’s Sur-Reply (Paper 12), on May 18, 2022, we instituted an inter partes review of the challenged claims of the ’742 patent. Paper 13 (“Dec. Inst.” or “Institution Decision”).
+
+Patent Owner then filed a Response to the Petition (Paper 30, “PO Resp.”), Petitioner filed a Reply (Paper 43, “Pet. Reply”), and Patent Owner filed a Sur-reply (Paper 59, “PO Sur-reply”).
+
+Petitioner also filed a Motion to Exclude Evidence (Paper 57), to which Patent Owner filed an Opposition (Paper 62), and Petitioner filed a Reply (Paper 64).
+
+An oral hearing was held on February 27, 2023. A portion of the hearing was closed so the parties could discuss confidential information filed under seal. A transcript of the public portion of the hearing has been entered in the record. Paper 75. A transcript of the closed portion of the hearing has been entered separately. Paper 74.
+
+After the hearing, the Board requested supplemental briefing on two issues: (1) whether the preamble of the claims should be construed as limited to a statement of the intentional purpose for which the method must be performed and, if so, what impact that construction has on inherent anticipation; and (2) what impact the transitional phrase “consisting essentially of” has on the claims and whether there is a temporal and intent aspect to the term. See Paper 69. Both parties submitted opening briefs
+
+(Paper 70, “PO Supp. Br.”; Paper 71, “Pet. Supp. Br.”) and both parties submitted simultaneous responses to those briefs (Paper 73, “Pet. Reply Supp. Br.”; Paper 72, “PO Reply Supp. Br.”).
+
+We have authority under 35 U.S.C. § 6. We issue this Final Written Decision under 35 U.S.C. § 318(a) and 37 C.F.R. § 42.73. For the reasons that follow, we determine Petitioner has shown by a preponderance of the evidence that claims 1–6 of the '742 patent are unpatentable.
+
+## A. Real Parties-in-Interest
+
+Petitioner identifies itself, Slayback Pharma India LLP, Dr. Reddy's Laboratories S.A., and Dr. Reddy's Laboratories, Inc. as the real parties-in-interest. Paper 24, 1. Patent Owner identifies itself, Bausch & Lomb, Inc., and Bausch & Lomb Ireland Limited as the real parties-in-interest. Paper 4, 2.
+
+## B. Related Proceedings
+
+Petitioner states that the '742 patent has been asserted in the following cases: Bausch & Lomb, Inc. v. Slayback Pharma LLC, 3:21-cv-16766 (D.N.J.); Bausch & Lomb, Inc. v. Lupin Ltd., 3:22-cv-00534 (D.N.J.). Paper 24, 1. Patent Owner states that the '742 patent has also been asserted in Bausch & Lomb, Inc. v. Harrow Health, Inc., 3:21-cv-19252 (D.N.J.). Paper 4, 2.
+
+## C. The '742 Patent
+
+The '742 patent is entitled “Preferential Vasoconstriction Compositions and Methods of Use.” Ex. 1001, code (54). The '742 patent application was filed on July 27, 2009, and claims priority to a series of provisional applications, the earliest of which was filed on August 1, 2008. Id., codes (22), 60). Thus, the earliest possible effective filing date of the '742 patent claims is August 1, 2008. Pet. 14.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+The '742 patent relates to compositions and methods for preferential vasoconstriction of smaller blood vessels relative to larger blood vessels. Ex. 1001, Abstract. According to the Specification, dilation of small blood vessels causes undesirable events, including surface hemorrhage and hyperemia (i.e., eye redness) following Lasik surgery, eye redness, and nasal congestion. Id. at 1:6–11.
+
+Adrenergic receptors, which are divided into a-1 (or $\alpha$ -1 or alpha-1), a-2, and $\beta$ -adrenergic receptor types, are involved in a variety of physiological functions, including functions of the cardiovascular and central nervous systems. Id. at 1:12–19. Agonists of a-2 adrenergic receptors are used in the treatment of hypertension, glaucoma, spasticity, and cancer pain. Id. at 1:25–29. Brimonidine is an example of a known compound having selective a-2 agonist activity. Id. at 1:48–49. According to the Specification, “[i]t is a known property of all a[lpha] adrenergic receptor agonists, including brimonidine, to cause vasoconstriction.” Id. at 1:61–63. The Specification notes, however, that “known formulations of brimonidine and other known a-2 adrenergic receptor agonists are associated with a high incidence of rebound hyperemia, $^{1}$ or other side effects, in clinical use.” Id. at 1:63–66.
+
+Moreover, the Specification states that commercially available general alpha agonists for topical ophthalmic use have high alpha-1 receptor agonist activity and are known to cause rebound hyperemia and medicamentosa (i.e., a potentially prolonged inflammatory state that can last for several weeks or months even after stopping the medication). Id. at 2:8–13, 26–28. Thus, clinical use of such a-1 receptor agonists are typically limited to several hours or days, even though users with more chronic conditions, like dry eye and allergic conjunctivitis, may require longer-term use. Id. at 2:14–21. The Specification explains that “there is a need for new methods and formulations that would provide safe and long term vasoconstriction with reduced or minimized side effects, such as rebound hyperemia.” Id. at 2:30–33.
+
+Accordingly, the Specification states that “[o]ne of the key discoveries of the present invention lies in using low doses of highly selective a-2 adrenergic receptor agonists to achieve vasoconstriction with significantly reduced hyperemia.” Id. at 2:38–41.
+
+## D. Illustrative Claim
+
+Petitioner challenges claims 1–6 of the '742 patent. Claims 1 and 3 are the only independent claims and are reproduced below.
+
+1. A method for reducing eye redness consisting essentially of administering brimonidine to a patient having an ocular condition, wherein brimonidine is present at a concentration between about 0.001% weight by volume and about 0.05% weight by volume.
+
+3. A method for reducing eye redness consisting essentially of topically administering to a patient having an ocular condition a composition consisting essentially of brimonidine into ocular tissue, wherein pH of said composition is between about 5.5 and about 6.5, wherein said brimonidine concentration is between about 0.001% and about 0.025% weight by volume and wherein said composition is formulated as an ocular drop.
+
+Ex. 1001, 22:17–22, 26–32.
+
+Claim 2 depends from claim 1 and further recites a concentration of brimonidine “between about 0.001% to about 0.025% weight by volume.” Id. at 22:23–25. Claim 4 depends from claim 3 and further recites topically administering the composition “within about 24 hours after a Lasik surgery on said patient.” Id. at 22:33–35. And claims 5 and 6 depend from claims 1 and 3, respectively, and further recite that the ocular condition is “chronic red eye.” Id. at 22:36–39.
+
+## E. The Asserted Grounds of Unpatentability
+
+Petitioner asserts that claims 1–6 of the '742 patent are unpatentable on the following grounds:
+
+<table><tr><td>Claim(s) Challenged</td><td>35 U.S.C. §2</td><td>Reference(s)/Basis</td></tr><tr><td>1–2</td><td>102</td><td>Gil3</td></tr><tr><td>1–2</td><td>102</td><td>Walters4</td></tr><tr><td>1–6</td><td>103</td><td>Gil, Norden5, Dean6, Alphagan7, and Federal Register8</td></tr></table>
+
+Petitioner relies upon the Declarations of Neal A. Sher, M.D., FACS (Exs. 1002 and 1049), Paul A. Laskar, Ph.D. (Exs. 1003 and 1048), and Ivan T. Hofmann (Ex. 1047). Patent Owner relies on the Declarations of Robert J. Noecker, MD, MBA (Ex. 2020), Robert O. Williams, III, Ph.D. (Ex. 2021), Stephen G. Davies, D. Phil. (Ex. 2022), John Ferris (Ex. 2023), and John C. Jarosz (Ex. 2024).
+
+## II. ANALYSIS
+
+Petitioner bears the burden of proving unpatentability of the challenged claims, and that burden of persuasion never shifts to Patent Owner. Dynamic Drinkware, LLC v. Nat'l Graphics, Inc., 800 F.3d 1375, 1378 (Fed. Cir. 2015). To prevail, Petitioner must prove unpatentability by a preponderance of the evidence. $^{9}$ See 35 U.S.C. § 316(e); 37 C.F.R. § 42.1(d) (2019).
+
+## A. Person of Ordinary Skill in the Art
+
+In determining the level of ordinary skill in the art, we consider the type of problems encountered in the art, the prior art solutions to those problems, the rapidity with which innovations are made, the sophistication of the technology, and the educational level of active workers in the field. Custom Accessories, Inc. v. Jeffrey-Allan Indus., Inc., 807 F.2d 955, 962 (Fed. Cir. 1986).
+
+Petitioner contends that a person of ordinary skill in the art (“POSA”) would have been a composite person (or team) that included a medical doctor and a pharmaceutical formulator. Pet. 15 (citing Ex. 1002 ¶ 26; Ex. 1003 ¶ 29). Petitioner asserts that the medical doctor would have been an ophthalmologist with at least three to four years of experience in LASIK surgery, clinical trials and U.S. FDA regulation of eye products, and had experience in the use of topical brimonidine and apraclonidine and topical vasoconstrictors such as naphazoline and tetrahydrozoline. Id. (citing Ex. 1002 ¶ 26). Petitioner contends that the pharmaceutical formulator would have had a doctoral degree in pharmaceutics, or a related degree, and at least three to five years of experience developing eye drop formulations for clinical trial and regulatory approval. Id. (citing Ex. 1003 ¶ 29).
+
+In our Institution Decision, we noted that Patent Owner did not contest Petitioner's definition and adopted Petitioner's definition as reasonable. Dec. Inst. 14. In its Response, Patent Owner states that a POSA "may be represented by a team of individuals with experience and various skills relating to eye care, including, inter alia, the medical and pharmaceutical arts." PO Resp. 7. Patent Owner further asserts that a POSA would have had access to team members with experience in chemistry, designing and formulating ophthalmic formulations, and/or in administering such formulations to treat ocular conditions obtained by some combination of education and work experience. Id. at 7–8 (citing Ex. 2020 ¶ 29; Ex. 2021 ¶ 33; Ex. 2022 ¶ 19). Patent Owner notes that Petitioner's definition of a formulator POSA goes beyond the level of a person of ordinary skill, and that a formulator POSA would have had a Bachelor's degree in pharmaceutics or a related discipline with about three to five years of work experience in this area, or a comparable level of education and training, such as a Ph.D. with one or two years of experience in this area. Id. at 8 (citing Ex. 2020 ¶ 28; Ex. 2021 ¶ 32).
+
+Although the parties disagree as to the specific qualifications of a person of ordinary skill in the art, the parties' experts agree that their
+
+opinions would not change regardless of which definition is applied. See Ex. 1049 ¶ 6 (Sher); Ex. 2020 ¶ 28 (Noecker); Ex. 2021 ¶ 34 (Williams); Ex. 2022 ¶ 23 (Davies).
+
+Both parties’ proposed definitions and the prior art of record indicate a high level of skill in the relevant art. Because the parties’ respective experts agree that any dispute as to the level of ordinary skill in the art is not material to their opinions, we adopt Patent Owner’s definition as consistent with the prior art’s demonstration of the level of ordinary skill in the art at the time of the invention. See Ex. 2020 ¶¶ 28–31; see also Okajima v. Bourdeau, 261 F.3d 1350, 1355 (Fed. Cir. 2001) (explaining that specific findings regarding ordinary skill level are not required “where the prior art itself reflects an appropriate level and a need for testimony is not shown” (quoting Litton Indus. Prods., Inc. v. Solid State Sys. Corp., 755 F.2d 158, 163 (Fed. Cir. 1985))).
+
+## B. Claim Construction
+
+In an inter partes review, the Board applies the same claim construction standard that would be used to construe the claim in a civil action under 35 U.S.C. § 282(b). 37 C.F.R. § 100(b) (2021). Under that standard, claim terms “are generally given their ordinary and customary meaning” as understood by a person of ordinary skill in the art at the time of the invention. Phillips v. AWH Corp., 415 F.3d 1303, 1312–13 (Fed. Cir. 2005) (en banc). “In determining the meaning of the disputed claim limitation, we look principally to the intrinsic evidence of record, examining the claim language itself, the written description, and the prosecution history, if in evidence.” DePuy Spine, Inc. v. Medtronic Sofamor Danek, Inc., 469 F.3d 1005, 1014 (Fed. Cir. 2006) (citing Phillips, 415 F.3d at 1312–17). Extrinsic evidence is “less significant than the intrinsic record in determining ‘the legally operative meaning of claim language.’” Phillips, 415 F.3d at 1317.
+
+## 1. Preamble
+
+The claims of the '742 patent each recite as their preamble “[a] method for reducing eye redness.” Ex. 1001, 22:17–39. Both parties agree that the preamble of the claims is limiting. PO Supp. Br. 3–6; Pet. Supp. Br. 2–3. The parties disagree, however, on what the preamble means.
+
+Petitioner asserts that the preamble “limits only [sic] the claims to the condition to be treated—eye redness.” Pet. Supp. Br. 3. Moreover, Petitioner asserts that there is no efficacy requirement in the claims, and, at most, the claims require that the composition be administered “with the intent to reduce redness.” Pet. Reply 7–8.
+
+Patent Owner disagrees, asserting that the preamble requires actual reduction in a patient's ocular hyperemia. PO Supp. Br. 3.
+
+As an initial matter, we agree with the parties that the preamble of the claims is limiting. “Whether to treat a preamble as a claim limitation is determined on the facts of each case in light of the claim as a whole and the invention described in the patent.” Storage Tech. Corp. v. Cisco Sys., Inc., 329 F.3d 823, 831 (Fed. Cir. 2003). The Federal Circuit “has not hesitated to hold preambles limiting when they state an intended purpose for methods of using a compound.” Eli Lilly & Co. v. Teva Pharms. Int’l GmbH, 8 F.4th 1331, 1342 (Fed. Cir. 2021). And where, as here, the claims are directed to methods of using a composition for a specific purpose (i.e., reducing eye redness), and the method comprises a single step of administering that composition, the Federal Circuit “has generally construed statements of intended purpose in such method claims as limiting.” Id. at 1340.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+As for whether the preamble requires actual reduction in redness, we agree with Petitioner that it does not and find Eli Lilly to be instructive. In Eli Lilly, the preambles of the claims recite a “method for reducing incidence of or treating at least one vasomotor symptom in an individual” and a “method for treating headache in an individual.” 8 F.4th at 1335. There, the Federal Circuit held that the preambles “are not merely statements of effect but rather statements of the intentional purpose for which the methods must be performed.” Id. at 1342. Thus, the Federal Circuit did not require proof of actual clinical results from performing the claimed method, even though the claims also recited an “effective amount.” Id. The Federal Circuit held that because the specification defined an “effective amount” as an “an amount sufficient to effect beneficial or desired results” and provided examples of such results in the context of prophylactic or therapeutic uses, the claims “encompass a clinical result, [but] they do not require such a result.” Id.
+
+Here, similarly, the '742 patent claims simply recite administering the brimonidine composition (at a concentration range) and do not recite any efficacy requirement, nor even the “effective amount” of note in the Eli Lilly claims. But, like Lilly and as explained below, the “ocular conditions” of the claims encompass prophylactic reduction of hemorrhage and hyperemia in addition to therapeutic uses. See Ex. 1001, 12:13–19. We, therefore, find the claims here do not require actual redness reduction and, thus, no clinical result is required to satisfy the claimed method.
+
+Thus, having considered the arguments and evidence presented at trial, we determine that the preamble of the claims is limiting and requires that the claimed brimonidine composition be administered with the
+
+intentional purpose of reducing eye redness, whether or not eye redness is actually reduced.
+
+## 2. “consisting essentially of”
+
+Independent claims 1 and 3 recite the transition phrase “consisting essentially of.” Ex. 1001, 22:17–18, 25–26. That transition phrase has a distinct meaning in patent law and serves as a middle ground between closed-ended claims that use the phrase “consisting of” and open-ended claims that use the phrase “comprising.” AK Steel Corp. v. Sollac & Ugine, 344 F.3d 1234, 1239 (Fed. Cir. 2003). As such, the use of “consisting essentially of” “signals that the invention necessarily includes the listed ingredients [but] is open to unlisted ingredients that do not materially affect the basic and novel properties of the invention.” PPG Indus. v. Guardian Indus. Corp., 156 F.3d 1351, 1354 (Fed. Cir. 1998). The Federal Circuit has instructed that determining the bounds of the basic and novel properties of an invention is a claim construction issue. HZNP Meds. LLC v. Actavis Labs. UT, Inc., 940 F.3d 680, 694–95 (Fed. Cir. 2019).
+
+Petitioner asserts that the allegedly novel aspect of the claimed invention is brimonidine's ability to reduce eye redness at low doses, but does not exclude administration of other drugs. Pet. Supp. Br. 9–10 (citing Ex. 1001, 2:38–41 (stating “[o]ne of the key discoveries of the present invention lies in using low doses of [brimonidine] to achieve vasoconstriction with significantly reduced hyperemia”)). Patent Owner, on the other hand, argues that one of the basic and novel characteristics of the claimed methods is “administering brimonidine at the claimed concentrations as the sole drug.” PO Supp. Br. 11 (citing Ex. 1024, 115). Thus, the parties dispute whether the scope of the claims includes the use of additional drugs along with low-dose brimonidine.
+
+Petitioner notes that the Specification states that “[o]ne of the key discoveries of the present invention lies in using low doses of [brimonidine] to achieve vasoconstriction with significantly reduced hyperemia.” Pet. Supp. Br. 10 (quoting Ex. 1001, 2:38–41). Petitioner also notes that the Specification does not exclude administration of other drugs with brimonidine, as evidenced by an entire section titled “Combination Treatments.” Id. (citing Ex. 1001, 15:35–16:43). Thus, in one embodiment, the Specification teaches a composition comprising a selective a-2 adrenergic receptor agonist and a histamine antagonist. Id. (citing Ex. 1001, 16:2–10).
+
+Patent Owner, on the other hand, relies heavily on the prosecution history of the '742 patent. During prosecution, the claims recited “[a] method for inducing preferential vasoconstriction of smaller blood vessels relative to larger blood vessels comprising” administering a selective a-2 adrenergic receptor agonist. Ex. 1024, 111. The examiner rejected the claims over Dean, which teaches administering brimonidine with brinzolamide to treat ocular diseases associated with compromised blood flow. PO Supp. Br. 11 (citing Ex. 1007, 2:22–29, 2:51–57, claim 2). To overcome the rejection, the patentee amended the claims to change the transitional phrase from “comprising” to “consisting essentially of” and noted that in Dean, “the administration of brimonidine alone is not sufficient to treat an ocular condition.” Id. at 11–12 (citing Ex. 1024, 116). The patentee explained that the claimed methods “do not include administering other active agents.” Id. (citing Ex. 1024, 124, 116–17, 120) (emphasis omitted). Patent Owner contends that the '742 patent Specification’s teaching of embodiments that include other active drugs is not inconsistent with its construction, because that is subject matter that is not claimed in the '742 patent. PO Reply Supp. Br. 8.
+
+We find Petitioner has the better position. We agree that the Specification sets forth the basic and novel property of the invention as a “key discover[y]” in the use of “low doses of [brimonidine] to achieve vasoconstriction with significantly reduced hyperemia.” Ex. 1001, 2:39–41. During prosecution, the patentee asserted that “[o]ne of the basic and novel characteristics of the presently claimed methods is that they do not require the use of any other active ingredients (emphasis added) in addition to brimonidine.” Ex. 1024, 115; see also id. at 144 (examiner stating same in Reasons for Allowance). But, unlike Patent Owner, we do not read the prosecution history as prohibiting the use of any other active ingredients besides brimonidine. To do so would construe the semi-open-ended transition phrase “consisting essentially of” to have the same scope as the closed transition phrase “consisting of.” AK Steel, 344 F.3d at 1239. Rather, under the proper scope of the claims and consistent with the prosecution history, the claimed methods cannot include additional active ingredients that are required to perform the method. Ex. 1024, 144 (stating in the Reasons for Allowance that the claimed methods “do not require the use of any other active ingredients in addition to brimonidine”) (emphasis omitted). As the patentee explained, “[t]he administration of brimonidine in the methods of Dean is a necessary but insufficient part of the taught methods; the other necessary part of the method is the administration of another active agent, i.e., brinzolamide.” Id. at 117 (emphasis added). In other words, the scope of the claims does not include additional active ingredients that are necessary to achieve “vasoconstriction with significantly reduced hyperemia.” See Ex. 1001, 2:39–41. Where brimonidine achieves vasoconstriction with reduced hyperemia on its own, we find the “consisting essentially of” transition phrase does not preclude the use of additional active agents, even if those agents may also cause some degree of vasoconstriction.
+
+We find Ecolab, Inc. v. FMC Corp., 569 F.3d 1335 (Fed. Cir. 2009), to be instructive. There, the claims recited a method for sanitizing fowl using an aqueous peracetic acid (PAA) solution “which consists essentially of . . . peracetic acid.” Id. at 1342. The patentee argued that the transition phrase “consists essentially of” limited the claim scope to compositions containing PAA as the sole antimicrobial agent. Id. at 1343. The Federal Circuit disagreed, noting that the specification includes examples of compositions that contain agents other than PAA that are considered antimicrobial agents, even if they were not expressly identified as such. Id.; see also Kim v. Earthgrains Co., No. 01 C 3895, 2010 WL 625220, at \*4 (N.D. Ill. Feb. 18, 2010) (stating Ecolab “suggests that additional active ingredients which improve the performance of the basic claim formula, but do not otherwise change its function, do not materially alter the ‘basic and novel’ characteristics of the invention”), aff’d 451 F. App’x 922 (Fed. Cir. 2011).
+
+Applying Ecolab here, because the Specification states that low-dose brimonidine alone can significantly reduce hyperemia, if there are additional agents beyond low-dose brimonidine administered to a patient that may also reduce eye redness (e.g., anti-inflammatory agents like steroids or pain medication), those additional agents would not materially affect the basic and novel characteristics of the invention.
+
+Thus, having considered the arguments and evidence presented at trial, we determine that the transitional phrase “consisting essentially of”
+
+does not preclude the use of additional active agents that may also cause vasoconstriction and reduction of hyperemia along with low-dose brimonidine.
+
+## 3. “about 0.025%”
+
+Claims 2 and 3 of the '742 patent recite brimonidine “at a concentration between about 0.001% to about 0.025% weight by volume.” Ex. 1001, 22:22–24, 29–30. Petitioner asserts that “about 0.025%” includes 0.03% weight by volume (Pet. 31), whereas Patent Owner asserts that “about 0.025%” means “0.025% plus or minus 10%” (PO Resp. 35). In our Institution Decision, we construed “about 0.025%” as including “0.03%.” Dec. Inst. 12. Having considered the parties’ respective arguments and evidence presented at trial, we maintain that Petitioner has the better position.
+
+“When ‘about’ is used as part of a numeric range, the use of the word ‘about’ avoids a strict numerical boundary to the specified parameter.” Cohesive Techs., Inc. v. Waters Corp., 543 F.3d 1351, 1368 (Fed. Cir. 2008) (internal quotes omitted). To interpret the range in its technologic and stylistic context, we must consider how the term is used in the patent specification, the prosecution history, and other claims. Central Admixture Pharm. Svcs., Inc. v. Advanced Cardiac Solutions, P.C., 482 F.3d 1347, 1355 (Fed. Cir. 2007). The range depends on what a person having ordinary skill in the art would reasonably consider “about” to encompass. See Monsanto Tech. LLC v. E.I. DuPont de Nemours & Co., 878 F.3d 1336, 1342 (Fed. Cir. 2018).
+
+Furthermore, when determining how far beyond the claimed range the term “about” extends the claim, “[w]e must focus . . . on the criticality of the [numerical limitation] to the invention.” Ortho-McNeil Pharm., Inc. v.
+
+Caraco Pharm. Labs., Ltd., 476 F.3d 1321, 1327 (Fed. Cir. 2007). As the Federal Circuit has explained, “it is the purpose of the limitation in the claimed invention—not the purpose of the invention itself—that is relevant.” Cohesive, 543 F.3d at 1368. “Extrinsic evidence of meaning and usage in the art may be helpful in determining the criticality of the parameter.” Ortho-McNeil, 476 F3d. at 1326 (quoting Pall Corp. v. Micron Separations, Inc., 66, F.3d 1211, 1217 (Fed. Cir. 1995)).
+
+## a) Petitioner's Contentions
+
+In reviewing the intrinsic evidence, Petitioner cites five disclosures of the '742 patent that support its contention that "about 0.025%" includes "0.03%." Pet. 28–30. First, Petitioner points to the Specification's definition of "low concentrations" of brimonidine as "concentrations from between about 0.0001% to about 0.05%; more preferably, from about 0.001% to about 0.025%; even more preferably, from about 0.01% to about 0.025%; and even more preferably, from about 0.01% to about 0.02% weight by volume." Id. at 28 (quoting Ex. 1001, 3:61–65; Ex. 1003 ¶ 65).
+
+Second, argues Petitioner, the Specification identifies concentration ranges up to about 0.05% brimonidine as “preferred” embodiments. Id. at 29 (citing Ex. 1001, 12:60–63, 14:14–16; Ex. 1003 ¶ 66). Petitioner also notes that the Specification identifies brimonidine as a “selective a-2 agonist” and that in a “preferred embodiment” the concentration of “the selective a-2 adrenergic receptor agonist” is in a range up to “about 0.035%.” Id. (citing Ex. 1001, 5:52–54, 9:14-16; Ex. 1003 ¶ 67).
+
+Third, Petitioner points to Figure 4E of the Specification, which depicts the left eye of a patient “after being treated with a composition of the present invention comprising brimonidine at 0.033%.” Pet. 30 (citing Ex. 1001, 3:30-33, Fig. 4E). Petitioner also notes that the Specification
+
+states that the application of 0.033% brimonidine did not result in rebound hyperemia. Id. (citing Ex. 1001, 20:17–19; Ex. 1003 ¶ 69).
+
+Fourth, Petitioner notes that the Specification states that brimonidine is “a known selective alpha 2 agonist [] associated with significant rebound hyperemia (primary or delayed onset vasodilation) in its current concentration range for treating glaucoma of about 0.1% to 0.2%.” Pet. 30 (citing Ex. 1001, 2:2–8; Ex. 1003 ¶ 70). Petitioner argues that a person of ordinary skill in the art would understand that, compared to the recited prior art range of “about 0.1% to 0.2%,” a concentration of “0.03%” accomplishes a reduction in brimonidine concentration that “is the purpose of the limitation in the claimed invention.” Id. (quoting Cohesive, 543 F.3d at 1368).
+
+Fifth, Petitioner argues that the Specification does not disclose that keeping the brimonidine concentration below 0.03% is critical, and notes that Figure 2 shows that a concentration of 0.03% is included in the range where “Net Vasoconstriction Benefits” are the highest. Pet. 30 (citing Ex. 1001, Fig. 2; Ex. 1003 ¶ 71).
+
+Finally, Petitioner cites extrinsic expert testimony that, from the perspective of a pharmaceutical formulator, “about 0.025%” includes 0.03% because, as the upper limit of a range, “about 0.025%,” rounded to two decimal points, is “0.03%.” Pet. 31 (citing Ex. 1003 ¶ 72). Petitioner also contends that a skilled artisan would expect, in the context of the ’742 patent, that it would be difficult to distinguish between the clinical effect of 0.025% and 0.03% brimonidine. Id. (citing Ex. 1003 ¶ 72). Thus, Petitioner argues that for all these reasons, when properly construed, “about 0.025%” includes “0.03%” brimonidine. Id.
+
+## b) Patent Owner's Contentions
+
+In response, Patent Owner argues that the '742 patent separately discloses preferred concentrations of low-dose brimonidine, including "about 0.01%," "about 0.015%," "about 0.02%," "about 0.025%," "about 0.03%," "about 0.035%," and "about 0.04%." PO Resp. 28–29 (citing Ex. 2020 ¶¶ 108–109). Because the concentrations were meant to be distinct, Patent Owner argues that a POSA would understand that "about 0.025%" is not the same as "about 0.03%" in the context of the '742 patent claims. Id. at 29 (citing Ex. 2020 ¶ 109). Patent Owner asserts that the patentee was his own lexicographer by defining "0.025%" as separate from "0.03%." Id. at 30.
+
+Patent Owner also argues that Figures 2 and 6 of the Specification teach a POSA that “0.03% is clinically distinct from 0.025%.” Id. at 31. The color version of Figure 2 provided by Patent Owner is reproduced below:
+
+FIG. 2  
+![](images/2d2af99ba14dc2da202bda5bd58725d6df129575e366597cbdfe529491031784.jpg)
+
+According to Patent Owner, Figure 2 “is a graph illustrating vasoconstrictive effects, rebound hyperemia, and net vasoconstriction benefit associated with the administration of brimonidine at different concentrations.” PO Resp. 31 (citing Ex. 2020 ¶¶ 93–96, 110, 111; Ex. 2161, Fig. 2). The x-axis of Figure 2 represents the “% Brimonidine” concentration and the y-axis represents “Effect” with an undefined unit of measurement.
+
+The color version of Figure 6, annotated by Patent Owner, is reproduced below:
+
+FIG. 6  
+![](images/8c4b96afc45727ee4f0d3f40e57655aff1bac94751685544f8ed5b337d9039dc.jpg)
+
+According to Patent Owner, Figure 6, entitled “Feasability [sic] C% Determination,” “is very similar to Figure 2, and a POSA would have understood the Legend in Figure 2 to apply to Figure 6.” PO Resp. 32 (citing Ex. 2020 ¶¶ 93, 110). The x- and y-axes of Figure 6 are the same as Figure 2. Patent Owner asserts that a POSA would understand from Figures 2 and 6 that brimonidine’s vasoconstriction, depicted by the thick black curve, begins at a low concentration before maximizing and plateauing around 0.03% brimonidine. Id. at 33 (citing Ex. 2020 ¶¶ 94, 95, 110; Ex. 2161, Figs. 2 and 6). Patent Owner further asserts that a POSA would understand that increased rebound hyperemia begins at brimonidine concentrations of around 0.03% and higher (as seen by the gray curve’s transition to red). Id. (citing Ex. 2020 ¶¶ 94, 95, 111; Ex. 2161, Figs. 2, 6). Patent Owner notes that the Specification states: “FIG. 6 depicts a graphical representation of a finding of the present invention that an increased rebound hyperemia begins at around 0.03% for brimonidine.” Id. at 33–34
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+(quoting Ex. 1001, 19:52–54; citing Ex. 2020 ¶¶ 95, 111–113). Patent Owner also explains that its expert, Dr. Noecker, added the green line that connects with the blue dot on the x-axis, which a POSA would have understood to be the preferred concentration of “about 0.025%.” Id. at 34 (citing Ex. 2020 ¶¶ 95, 111–113). Thus, according to Patent Owner, a POSA would have recognized a “critical distinction between concentrations around 0.03% brimonidine (at which maximum vasoconstriction is achieved, but increased rebound hyperemia is also observed), and concentrations below around 0.03%, such as about 0.025% (at which there is still significant vasoconstriction effects without any rebound hyperemia).” Id. (citing Ex. 2020 ¶¶ 94, 113).
+
+Patent Owner also argues that a POSA would have understood that “about” means “plus or minus 10%,” or have an upper limit of 0.0275%. Id. at 35 (citing Ex. 2021 ¶¶ 39–45). Patent Owner argues that, because a POSA would have had significant experience in the pharmaceutical arts, a POSA would have known that the FDA allows for certain tolerance in the amount of the active ingredient to account for the inherent imprecision in the manufacturing process. Id. at 35 (citing Ex. 2021 ¶¶ 41, 42; Ex. 2026, 83044–45). Patent Owner notes that the acceptance criteria is typically plus or minus 10%, which is consistent with the definition of “about” in the U.S. Pharmacopoeia. Id. at 35–36 (citing Ex. 2021 ¶¶ 43, 44; Ex. 2025, 8).
+
+Having considered the parties' respective arguments in light of the evidence presented at trial, we agree with Petitioner that the term “about 0.025%” includes 0.03%. Our construction is supported not only by intrinsic evidence, but also by extrinsic evidence that demonstrates the alleged criticality of the “about 0.025%” limitation.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+The '742 patent Specification does not define the term “about” in terms of a specific numerical range. We must, therefore, determine how broadly a POSA reading the '742 Specification would extend the numerical range around 0.025%. In doing so, we consider the described criticality of “about 0.025%” brimonidine and its purpose to the claimed invention. See Cohesive, 543 F.3d at 1368.
+
+The '742 patent makes clear that the purpose of the “about 0.025%” limitation in the claims is to use “low doses of highly selective a-2 adrenergic receptor agonists to achieve vasoconstriction with significantly reduced hyperemia.” Ex. 1001, 2:39–41. Furthermore, the Specification explains that there is a need for methods that provide “safe and long term vasoconstriction with reduced or minimized side effects, such as rebound hyperemia.” Id. at 2:30–33. There is no dispute that both 0.025% and 0.03% constitute low doses of brimonidine, as described by the Specification. See id. at 3:60–65 (defining “low concentrations” as “between about 0.0001% to about 0.05%”). Thus, the question is whether there is a critical distinction between the two concentrations and their ability to provide vasoconstriction with reduced rebound hyperemia. Patent Owner argues they are clinically distinct, whereas Petitioner argues they are not. In light of the intrinsic evidence discussed below, we agree with Petitioner.
+
+As both parties note, the Specification recites various concentration ranges as preferred embodiments, including “about 0.02%,” “about 0.025%,” “about 0.03%,” and “about 0.035%.” See, e.g., Ex. 1001, 3:60–65, 9:14–16, 19:52–56. But we are not persuaded, as Patent Owner urges, that the Specification’s recitation of various concentrations precludes a finding that, for example, 0.02% or 0.03% are encompassed within the range of “about 0.025%.” Stated differently, we agree that “about 0.025%” is a
+
+different range than “about 0.03%,” as the lower range of “about 0.025%” must be lower than that of “about 0.03%”; conversely, the upper range of “about 0.03%” must be higher than that of “about 0.025%.” However, we find that those ranges may overlap, $^{10}$ and nothing in the Specification prohibits 0.03% brimonidine from being encompassed by both ranges.
+
+That the '742 patent teaches the use of “about 0.025%” brimonidine in one paragraph, and then describes the use of “about 0.03%” brimonidine in the next paragraph does not persuade us otherwise. See PO Resp. 29 (citing Ex. 1001, 8:46–63). As Petitioner notes, those two paragraphs are inapposite and not particularly relevant to the issue presented, as they both describe treating pulmonary conditions and do not describe the claimed invention of reducing eye redness. Pet. Reply 3. Moreover, we agree with Petitioner that no disclosure in the '742 patent rises to the level of the patentee acting as its own lexicographer, as Patent Owner asserts (PO Resp. 30). Identifying different concentration ranges in separate paragraphs for different unclaimed methods does not clearly and unambiguously define “about 0.025%” as excluding “0.03%.” See Bradium Techs. v. Iancu, 923 F.3d 1032, 1044 (“It is not enough for a patentee to simply disclose a single embodiment or use a word in the same manner in all embodiments, the patentee must clearly express an intent to redefine the term.”) (quotation omitted).
+
+Nor are we persuaded that Figures 2 and 6 of the '742 patent support Patent Owner's proposed construction. Patent Owner asserts that the figures demonstrate that “0.03% is clinically distinct from 0.025%.” PO Resp. 31. We are not persuaded. We credit the testimony of Petitioner’s expert, Dr. Sher, who explains that because of the “high degree of imprecision of Figures 2 and 6,” a POSA would be unable to reach any quantitative conclusions from the figures or “clinically distinguish” between brimonidine concentrations that differ by only five-thousandths of a percent. Ex. 1049 ¶¶ 10–18. For example, as Dr. Sher notes, there are no incremental hash marks that indicate where any non-enumerated concentrations such as 0.02% or 0.025% would fall. Id. ¶¶ 11–12. Moreover, the x-axis of both figures appears to be neither linear nor logarithmic. Id. The uncertainty of the scale of the x-axis calls into question the assumption by Dr. Noecker that the blue dot on the x-axis of Figure 6 is necessarily 0.025% as opposed to, for example, 0.02%, which is specifically called out in the Specification’s description of Figure 6 as a preferred concentration. See Ex. 1001, 19:57 (stating Figure 6 demonstrates that “the net effectiveness of brimonidine as a decongestant is greatest between about 0.01% and about 0.03%; preferably between about 0.012% and about 0.02%”) (emphasis added).
+
+Moreover, like Dr. Sher, we question the accuracy of Dr. Noecker's statement that concentrations less than 0.03% have no rebound hyperemia. See Ex. 1049 ¶ 19 (citing Ex. 2020 ¶ 94). As seen by a magnified portion of Figure 2, reproduced below, the dark gray, solid line indicating rebound hyperemia appears to show at least some amount of rebound hyperemia below 0.03%:
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+![](images/8ca110ec594240048dda7c86abe31877fcb4168ac8a8e566e9e89dc1a97fe0f8.jpg)
+
+That is, the magnified portion of Figure 2 depicts the dark gray rebound hyperemia curve between $0.01\%$ and $0.03\%$ to be above the x-axis, indicating—on its face—that some rebound hyperemia occurs, contrary to Dr. Noecker's testimony. Id.
+
+We, therefore, credit the reasoning of Dr. Sher, who explains that, in light of the imprecision of the figures, a POSA would not rely on the figures to discern when rebound hyperemia begins, but would rather rely on the Specification, which states “rebound hyperemia begins at around 0.03%.” Id. We are persuaded that those words of approximation suggest that rebound hyperemia could begin either a little less than, at, or a little more than 0.03% brimonidine. See Ex. 1049 ¶ 25. Thus, we agree with Dr. Sher that “a POSA would read the ’742 patent’s description of Figure 6 and reasonably conclude that ‘at around 0.03%’ includes 0.025%.” Id.
+
+We also note that this is consistent with Example 1 and Figure 4E of the '742 patent, which shows an experiment where rebound hyperemia does not occur even at a concentration of 0.033% brimonidine. Id. ¶ 26 (citing Ex. 1001, 20:17–29, Fig. 4E). Patent Owner and its expert Dr. Noecker argue that the reference to administering 0.033% brimonidine is a typographical error because “a POSA would have expected, for experimental consistency purposes, that a 0.02% brimonidine drop would have been instilled to complete the sequence and evaluate whether the 0.02% concentration caused hyperemia.” See PO Resp. 37–38; Ex. 2020 ¶ 119. Dr. Sher disagrees, as “there is nothing in the specification that signaled to [him] that this was an error.” Ex. 1029 ¶ 26 n.1. Because 0.033% brimonidine is within the range of preferred low-dose brimonidine concentrations disclosed in the Specification, we are not persuaded that a POSA reading Figure 4E would necessarily have considered the administration of 0.033% brimonidine to be a typographical error. $^{11}$ See Ex. 1001, 3:60–61.
+
+Finally, the prosecution history of the '742 patent is consistent with construing “about 0.025%” to include 0.03%. The '742 patent claims priority to U.S. Provisional Application No. 61/207,481 (“the '481 provisional application”). Ex. 1001, code (60). Figure 4 of the '481 provisional application is very similar to Figure 2 of the '742 patent, as both depict the vasoconstriction effect versus various low-dose concentrations of brimonidine. Compare Ex. 1001, Figure 2, with Ex. 1011, 111. Figure 4 of the '481 provisional application is reproduced below:
+
+![](images/5d2942ac545d903d128ddc82097e48986b3fe70a0fb2fb5e24f28bf197202025.jpg)
+
+According to the '481 provisional application, in Figure 4, “the net vasoconstrictive effect curve (vasoconstriction – rebound) is shown by the thicker light gray curve, and peaks at \~ 0.025% +/- 0.01% (intersecting dashed lines).” Ex. 1011, 111; Ex. 1049 ¶ 16. Once again, Patent Owner attempts to discredit this intrinsic evidence, claiming it to be error because the dashed lines intersect the x-axis at 0.03%, and not 0.025%. PO Sur-reply 5 n.2 (citing Ex. 2020 ¶¶ 94, 95, 111). Patent Owner also notes that Figure 13 of the '481 provisional application teaches that “despite the increased vasoconstrictive effect at and above 0.03%, below 0.03% is preferred due to the lower incidence of rebound hyperemia.” Id. (citing Ex. 1011, 121).
+
+We are not persuaded. If anything, the '481 provisional application bolsters Petitioner's point that the figures are generally imprecise and the words of the Specification provide the most clarity. Figure 4's description of the net vasoconstrictive effect curve "peak[ing] at $\sim 0.025\% + / - 0.01\%$ (i.e., between about $0.015\%$ and $0.035\%$ ) is consistent with Figure 6 of the '742 patent, which states the net effectiveness of brimonidine is greatest between about 0.01% and about 0.03%. See Ex. 1001, 19:54–56. Thus, we find that the '781 provisional application supports construing “about 0.025%” as including 0.03%. See Ex. 1011, 111.
+
+Finally, as support for its “plus or minus 10%” construction, Patent Owner relies on typical FDA “acceptance criteria” and the definition of “about” from the U.S. Pharmacaeopeia (“USP”). PO Resp. 35–36 (citing Ex. 2021 ¶¶ 43–44). Patent Owner, however, cites no intrinsic evidence that suggests either of those references are applicable to the ’742 patent claims. We acknowledge, as Dr. Laskar does, that the USP and the FDA are relevant to the field of pharmaceuticals that the ’742 patent claims are directed to. See Ex. 2212, 129:22–130:3. But weighing the evidence presented, we find the intrinsic evidence to be more persuasive and decline to apply extrinsic criteria that are not cited by the ’742 patent Specification as applicable to the interpretation of the claims.
+
+Accordingly, having considered the arguments and evidence presented at trial, we determine the term “about 0.025%” includes 0.03% brimonidine.
+
+## 4. “ocular condition”
+
+Independent claims 1 and 3 recite that brimonidine is administered “to a patient having an ocular condition.” Ex. 1001, claims 1 and 3. Petitioner notes that the ’742 patent defines “ocular condition” broadly. Pet. 31 (citing Ex. 1001, 12:14–49). Petitioner therefore urges us to construe “ocular condition” as including, without limitation, eye redness, glaucoma (including open-angle glaucoma), ocular hypertension, postoperative reduction of subconjunctival hemorrhage and hyperemia after refractive surgery such as LASIK and radial keratotomy, subconjunctival hemorrhage and hyperemia prophylaxis prior to refractive surgery such as LASIK and
+
+radial keratotomy, and redness in the eye following LASIK or radial keratotomy. Id. (citing Ex. 1001, 12:14–49; Ex. 1002 ¶ 47).
+
+Patent Owner argues that a POSA would understand the term “ocular condition” to mean “a condition of the eye causing ocular hyperemia that can be reduced,” which excludes subconjunctival hemorrhage. PO Resp. 25 (citing Ex. 2020 ¶¶ 101–105). According to Patent Owner, eye redness from vasodilation of intact ocular blood vessels (i.e., hyperemia) is different than eye redness caused by a subconjunctival hemorrhage, in which broken blood vessels cause a mass of blood beneath the conjunctiva. Id. at 26–27 (citing Ex. 2162, 111:14–113:5). Patent Owner reasons that because the preamble recites “a method of reducing eye redness,” and the body of the claim recites a “patient having an ocular condition,” a POSA would have understood that the eye redness sought to be reduced arose from the patient’s ocular condition. Id. at 26.
+
+We find Petitioner has the better position in light of the Specification. The Specification states that “the surprising and unexpected discoveries of the present invention potentially have application in treating . . . a variety of ocular . . . conditions.” Ex. 1001, 11:57–59. The Specification then provides an extensive list of “Ocular Conditions,” including but not limited to “red eye, including chronic red eye; ocular vascular congestion after Lasik surgery; prophylactic intraoperative and postoperative reduction of hemorrhage and hyperemia after Lasik surgery; preoperative hermorrhage and hyperemia prophylaxis prior to Lasik surgery.” Id. at 12:13–59. Thus, we reject Patent Owner’s attempt to exclude subconjunctival hemorrhage from the construction of “ocular condition,” as it is contrary to the disclosure of the Specification.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+Accordingly, we construe the term “ocular condition” as including, without limitation, “eye redness, glaucoma (including open-angle glaucoma); elevated intraocular pressure, also known as ocular hypertension, postoperative reduction of subconjunctival hemorrhage and hyperemia after refractive surgery such as LASIK and radial keratotomy, subconjunctival hemorrhage and hyperemia prophylaxis prior to refractive surgery such as LASIK and radial keratotomy, and redness in the eye following LASIK or radial keratotomy.”
+
+## C. Anticipation Over Gil
+
+Petitioner asserts that claims 1 and 2 are anticipated by Gil. Pet. 32–37. Patent Owner opposes Petitioner's assertion. PO Resp. 40–43. Having considered the evidence and arguments presented at trial, we determine that Petitioner has not established by a preponderance of the evidence that claims 1 and 2 are anticipated by Gil.
+
+$$
+1. \quad G i l (E x. 1 0 0 4)
+$$
+
+Gil is a U.S. patent entitled “Method of Treating Ocular Pain,” which issued on September 25, 2001. Ex. 1004, codes (54), (45). Patent Owner does not dispute that Gil is prior art. See generally PO Resp. Gil is, therefore, prior art under 35 U.S.C. § 102(b).
+
+Gil relates to the topical use of brimonidine to treat ocular pain and neurogenic inflammation. Ex. 1004, 1:11–13. Gil explains that the first step leading to the sensation of pain is the activation of nociceptive primary afferents (i.e., pain receptors) by some form of stimuli. Id. at 1:20–22. The stimulation of primary afferents leads to the release of neuropeptides, which “enhance inflammatory reactions in the injured tissue, contributing to vasodilation, edema, and increased vascular permeability, this phenomenon is called ‘neurogenic inflammation.’” Id. at 1:40–43. Gil teaches that an
+
+effective dose of brimonidine is likely between 0.01% and 0.5% to provide ocular pain relief. Id. at 3:46–49; see also id. at 3:53–66 (“For ophthalmic application, preferably solutions are prepared typically containing from about 0.01% to about 0.5% of active ingredient, and a physiological saline solution as a major vehicle.”). Gil also teaches that “[o]cular responses characteristic of neurogenic inflammation[ include] redness,” and that “[b]rimonidine is effective in reducing such neurogenic responses.” Id. at 5:39–45.
+
+In Example 1 of Gil, Gil teaches administering 0.03% brimonidine to patients who have undergone radial keratotomy $^{12}$ to correct myopia. Id. at 4:47–52. Gil states that each subject receives brimonidine every four hours while awake one day before surgery and again every 20 minutes for the two hours before surgery. Id. at 4:54–57. After surgery, each subject receives one drop of the brimonidine every hour hours while awake for 14 days. Id. at 4:58–60. Example 1 states that efficacy is assessed by evaluating pain intensity and pain relief. Id. at 4:62–63. Gil also notes that “[s]ymptoms of ocular inflammation (i.e., burning/stinging, tearing, etc.) are also recorded.” Id. at 4:63–65. Gil concludes that the results “appear[] to suggest that brimonidine, administered preoperatively, blocks the perception of pain.” Id. at 5:1–2.
+
+## 2. Analysis
+
+“A claim is anticipated if each and every element as set forth in the claim is found, either expressly or inherently, in a single prior art reference.”
+
+Arbutus Biopharma Corp. v. ModernaTX, Inc., 65 F. 4th 656, 662 (Fed. Cir. 2023). The Federal Circuit explains that “[a]nticipation by inherent disclosure is appropriate only when the reference discloses prior art that must necessarily include the unstated limitation.” Monsanto Tech. LLC v. I.E. DuPont de Nemours & Co., 878 F.3d 1336, 1343 (Fed. Cir. 2018). Inherent anticipation requires “merely that the disclosure of the prior art is sufficient to show that the natural result flowing from the operation as taught in the prior art would result in the claimed product.” SmithKline Beecham Corp. v. Apotex Corp., 403 F.3d 1331, 1343–44 (Fed. Cir. 2005) (internal quotes omitted). Moreover, “[n]ewly discovered results of known processes directed to the same purpose are not patentable because such results are inherent.” Bristol-Myers Squibb Co. v. Ben Venue Labs., Inc., 246 F.3d 1368, 1376 (Fed. Cir. 2001).
+
+Petitioner asserts that Example 1 of Gil discloses each limitation of claims 1 and 2. Pet. 33–37 (citing Ex. 1002 ¶¶ 53–67; Ex. 1003 ¶¶ 77–81). Patent Owner argues that Gil does not anticipate, because Gil is directed to the use of brimonidine to treat ocular pain and does not inherently disclose a method of reducing eye redness. PO Resp. 40–43 (citing Ex. 2020 ¶¶ 145–150, 188–194). Having considered the evidence and arguments presented at trial, we agree with Patent Owner that Petitioner has not shown sufficiently that Gil inherently anticipates the claims.
+
+Petitioner argues that Example 1 of Gil, which discloses administering 0.03% brimonidine, is inherently a method “for reducing eye redness.” Pet. 34 (citing Ex. 1002 ¶ 55 (“Whether intended or not, the administration of 0.03% brimonidine to the radial keratotomy patients in Example 1 of [Gil] is a method for reducing eye redness.”)). According to Petitioner, because 0.03% brimonidine is in the range recited in claim 1, administration of
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+0.03% brimonidine to refractive surgery patients in Example 1 is “admitted to be a ‘method for reducing eye redness.’” Id. at 33. Moreover, Petitioner’s expert, Dr. Sher, testifies that eye redness will necessarily result from radial keratotomy surgery. Ex. 1049 ¶¶ 47–50.
+
+In response, Patent Owner argues that Gil is directed to relieving pain, and not to reducing eye redness. PO Resp. 40. Patent Owner notes that Gil discloses that “neurogenic inflammation” resulting from corneal injury can include pain, vasodilation, edema, and increased vascular permeability. Id. at 40–41 (citing Ex. 1004, 1:16–18, 40–43). But, according to Patent Owner’s expert, Dr. Noecker, a POSA would have understood that a patient suffering from ocular inflammation can exhibit some, but not all, of those symptoms. Ex. 2020 ¶¶ 145–146. For example, Dr. Noecker explains that a patient with corneal injuries may not exhibit any eye redness at all. Ex. 2020 ¶ 146 (citing Ex. 2174, 4). As such, Dr. Noecker states that, because the cornea is avascular, if radial keratotomy is performed properly, “ocular redness may not necessarily and inevitably result.” Id. ¶ 149. Because Example 1 of Gil makes no mention of redness reduction or measurements of redness, Patent Owner asserts that Example 1 does not necessarily establish that 0.03% brimonidine reduces eye redness. Id. ¶ 150.
+
+Having considered the arguments and evidence presented at trial, we are persuaded that Petitioner has not satisfied its burden to show Gil inherently anticipates a method of reducing eye redness. Although common sense may tempt us to assume that a procedure involving multiple incisions to the cornea would necessarily cause eye redness, we cannot ignore the evidence to the contrary that casts doubt on that assumption.
+
+For example, Petitioner's expert, Dr. Sher, asserts that radial keratotomy would necessarily cause eye redness because the lid speculum rests on the conjunctiva during the procedure and because of the inflammatory response caused by incisions to the eye. Ex. 1049 ¶¶ 47, 50. But Dr. Sher cites Dr. Noecker's testimony as support, which states that "inflammation triggers an immune response involving conjunctival leukocytes, causing eye lid edema (puffy eye) and possibly hyperemia." Id. (quoting Ex. 2020 ¶ 51) (emphasis added). Moreover, Dr. Sher admitted during his cross-examination that, although rare, it is possible to have pain without redness in ophthalmology. Ex. 2162, 107:2–16. Thus, although Gil discloses the use of brimonidine for treating ocular pain and neurogenic inflammation, which involves "vasodilation, edema, and increased vascular permeability," Ex. 1004, 1:40–43, Petitioner has not shown sufficiently that Example 1 necessarily and inevitably discloses patients with eye redness. Moreover, as discussed above at Section II.B.1, we interpret the preamble of claim 1 as requiring "that the claimed brimonidine composition be administered with the intentional purpose of reducing eye redness." But this intent is neither expressly nor inherently disclosed by Gil, because a POSA would not have read Gil's disclosure of administering brimonidine with the express intent to treat eye pain as necessarily an intent to treat eye redness.
+
+Petitioner also argues that the claims do not require that redness actually be reduced. Pet. Reply 7–8. As explained above, we agree. The claims require that the composition be administered with the intent to reduce redness. That, however, does not save Petitioner's argument where, as here, Example 1 of Gil does not necessarily disclose administering brimonidine to patients who actually suffer from eye redness.
+
+We find Perricone, M.D., v. Medicis Pharm. Corp., 432 F.3d 1368 (Fed. Cir. 2005), to be instructive. There, the claim recited a method “for treating skin sunburn” comprising applying the claimed lotion. Id. at 1378.
+
+The Federal Circuit held that the prior art, which disclosed applying the claimed lotion to skin, but not to skin sunburn, did not inherently anticipate the claim. Id. at 1379. According to the court, “[t]he issue is not . . . whether [the prior art’s] lotion if applied to skin sunburn would inherently treat that damage, but whether [the prior art] discloses the application of its composition to skin sunburn. It does not.” Id. at 1378. Similarly, here, the issue is not whether Gil’s disclosure of administering 0.03% brimonidine to radial keratotomy patients if they have eye redness would inherently reduce eye redness. The issue is whether Gil discloses administering 0.03% brimonidine to patients who actually have eye redness and with the intent that eye redness be reduced in such patients. $^{13}$ As explained above, we find Petitioner has not satisfied its burden to show that it does.
+
+Accordingly, we are not persuaded that Petitioner has shown that Gil inherently discloses “a method of reducing eye redness,” as required by claims 1 and 2.
+
+## 3. Conclusion
+
+Having considered the arguments and evidence presented at trial, we determine Petitioner has not established by a preponderance of the evidence that claims 1 and 2 are anticipated by Gil.
+
+## D. Anticipation over Walters
+
+Petitioner asserts that claims 1 and 2 are anticipated by Walter. Pet. 40–43. Patent Owner opposes Petitioner's assertion. PO Resp. 43–44.
+
+Having considered the arguments and evidence presented at trial, we determine that Petitioner has not established by a preponderance of the evidence that claims 1 and 2 are anticipated by Walters.
+
+## 1. Walters (Ex. 1005)
+
+Walters is an abstract from the Annual Spring Meeting of the Association for Research in Vision and Ophthalmology held April 28–May 3, 1991, that indicates it was published on March 15, 1991, and was publicly available at least on March 28, 1991. See Ex. 1005, 1. $^{14}$ Patent Owner does not dispute that Walters is prior art. See generally PO Resp. Walters is, therefore, prior art under 35 U.S.C. § 102(b).
+
+Walters describes a pilot study that evaluated the efficacy and safety of administering 0.08% or 0.02% of a compound called “AGN 190342-LF” to patients with open-angle glaucoma or ocular hypertension. Id. at 4. Walters does not identify “AGN 190342-LF” as brimonidine, but Walters notes that it is a relatively selective alpha $_{2}$ -adrenoceptor agonist that possesses a 2-amino-imidazoline group. Id. Petitioner points to several references that identify “AGN 190342-LF” as brimonidine. Pet. 37–38
+
+IPR2022-00142
+Patent 8,293,742 B2
+(citing Ex. 1015 $^{15}$ ; Ex. 1034 $^{16}$ ; Ex. 1029 $^{17}$ ; Ex. 1030 $^{18}$ ; Ex. 1028 $^{19}$ ; Ex. 1031 $^{20}$ ; Ex. 1035 $^{21}$ ). Walters concludes that brimonidine “has potential in the treatment of elevated intraocular pressure.” Id.
+
+## 2. Analysis
+
+Petitioner argues that Walters anticipates claims 1 and 2. Pet. 40–44. For example, with respect to claim 1, Petitioner asserts that because Walters discloses administering 0.02% brimonidine, which falls within the range of claim 1, Walters must be a method for reducing eye redness. Id. at 40. Moreover, Petitioner argues that normal human eyes show some degree of redness and that, because of its activity as a vasoconstrictor, the administration of 0.02% brimonidine must inherently reduce redness of the eyes. Id. at 40–41 (citing Ex. 1002 ¶ 71; Ex. 1026, 634). Petitioner argues that the patients in Walters have open-angle glaucoma or ocular hypertension and, therefore, disclose the “patient having an ocular
+
+condition” limitation. Id. at 41 (citing Ex. 1002 ¶ 74). Finally, Petitioner notes that Walters teaches administering 0.02% brimonidine, which is within the range of claim 1 (0.001% to about 0.05%) and of dependent claim 2 (between 0.01% to about 0.025%). Id. at 42–44 (citing Ex. 1003 ¶¶ 84–86).
+
+In response, Patent Owner notes that Walters does not use the word “redness,” let alone mention anything about reduction in eye redness. PO Resp. 43. According to Patent Owner, because of the lack of any individual patient data, “it cannot be determined whether the patients had eye redness,” or whether the patients who may have had eye redness actually received 0.02% brimonidine versus 0.08% brimonidine or the placebo. Id. at 43–44. In short, Patent Owner asserts Petitioner’s arguments on Walters are too speculative to satisfy the heavy burden of proving inherent anticipation. Id. at 44.
+
+Petitioner did not address Patent Owner's arguments with respect to Walters in its Reply. See generally Pet. Reply.
+
+Having considered the arguments and evidence presented at trial, we agree with Patent Owner. Although Walters discloses administration of dosages of brimonidine that are within the claimed ranges to patients with open-angle glaucoma or ocular hypertension, we agree with Dr. Noecker that Walters is silent with respect to the degree of redness, if any, in the eyes of those patients. See Ex. 2020 ¶¶ 197–198; Ex. 1005. Moreover, even if some patients did have eye redness, we further agree that it is not known whether those patients received the 0.08% brimonidine solution or the placebo instead of the 0.02% brimonidine solution, as required by the claims. Ex. 2020 ¶ 198. Consequently, we agree with Patent Owner that Petitioner has failed to show that Walters inherently anticipates claims 1 and 2 of the '742 patent.
+
+## 3. Conclusion
+
+Having considered the arguments and evidence presented at trial, we find Petitioner has failed to show by a preponderance of the evidence that claims 1 and 2 are anticipated by Walters.
+
+## E. Obviousness over Gil, Norden, Dean, Alphagan, and Federal Register
+
+Petitioner asserts that claims 1–6 are unpatentable as obvious over Gil, Norden, Dean, Alphagan, and Federal Register. Pet. 44–63. Patent Owner opposes Petitioner's assertion. PO Resp. 44–70. Having considered the arguments and evidence presented at trial, for the reasons below we determine that Petitioner has shown by a preponderance of the evidence that claims 1–6 are unpatentable as obvious over the cited references. We incorporate here our earlier findings and discussion regarding the disclosure of Gil.
+
+## 1. Norden (Ex. 1006)
+
+Norden is an article entitled “Effect of Prophylactic Brimonidine on Bleeding Complications and Flap Adherence After Laser in situ Keratomileusis,” which was published in the July/August 2002 issue of Journal of Refractive Surgery and indicates on its face to have been publicly available as of July 29, 2002. Ex. 1006, 2. Patent Owner does not dispute Norden is prior art. See generally PO Resp. We find Norden is, therefore, prior art under 35 U.S.C. § 102(b).
+
+Norden teaches that brimonidine is a relatively selective $\alpha$ -2 adrenergic agonist and that $\alpha$ -2 adrenergic agonist drugs are considered to be “strong vasoconstrictors.” Ex. 1006, 4. Norden teaches that there are many anecdotal reports that the use of topical brimonidine before LASIK surgery can help prevent bleeding-related problems in the anterior segment. Id. As such, Norden states that “some refractive surgeons now administer [brimonidine] prophylactically to reduce subconjunctival hemorrhage and improve the post-operative appearance.” Id. Accordingly, Norden explains that this study was designed to “objectively assess the effect of brimonidine administration before LASIK on subconjunctival hemorrhage, hyperemia, and micropannus bleeding.” Id.
+
+Norden describes a study in which LASIK was performed on 61 eyes of 31 patients. $^{22}$ Id. at 5. Patients received one drop of 0.2% brimonidine (Alphagan) fifteen minutes before LASIK surgery and a second drop five minutes before surgery. Id. at 5. The drops were administered by ophthalmic technicians to one eye only. Id. LASIK surgery was performed and the amount of subconjunctival hemorrhage, hyperemia, bleeding from the micropannus, and flap slippage/wrinkling were recorded. Id. at 5.
+
+Norden reports that subconjunctival hemorrhage was observed in 22 of 61 eyes, and all but three of 61 eyes had hyperemia. Id. at 6. Norden reports that the amount of hyperemia was “notably lower in the eyes treated prophylactically with brimonidine.” Id. Norden concluded that the data show that “brimonidine administered before LASIK can significantly reduce subconjunctival hemorrhage as well as the amount of hyperemia.” Id. at 7.
+
+## 2. Dean (Ex. 1007)
+
+Dean is a U.S. patent entitled “Brinzolamide and Brimonidine for Treating Ocular Conditions,” which issued June 5, 2001. Ex. 1007, codes (54), (45). Patent Owner does not dispute Dean is prior art. See generally PO Resp. Dean is, therefore, prior art under 35 U.S.C. § 102(b).
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+Dean relates to the treatment of ocular diseases and conditions involving compromised blood flow with novel formulations of brinzolamide with brimonidine and the use of the two compounds separately. Ex. 1007, 1:4–8. Dean teaches that brimonidine is a “potent and relatively selective a2 agonist” and that “[u]pon topical administration, brimonidine causes vasoconstriction in scleral vessels.” Id. at 2:33–36. Dean notes that although brimonidine is a “relatively safe compound it has been shown to cause the side effects of sedation and ocular hyperemia in an allergic like reaction in some patients.” Id. at 2:38–41. Dean explains that the side effects “are thought to be due to the relatively high concentration of the drug administered topically.” Id. at 2:41–43. Although the mechanism by which brimonidine causes hyperemia is not well understood, Dean teaches that “[i]t is likely that the frequent instillation of relatively high drug concentrations causes this side effect.” Id. at 2:45–47. As such, Dean suggests that “lowering the overall dose of brimonidine while maintaining IOP control would be advantageous.” Id. at 2:45–50.
+
+Dean teaches that brimonidine, when administered alone, “is preferably formulated as a topical ophthalmic solution with a pH of about 4.5–7.8” and “will normally be contained in the formulation at a concentration of 0.01%–0.2% by weight.” Id. at 5:20–23.
+
+## 3. Alphagan (Ex. 1008)
+
+Alphagan is an entry in the 52nd edition of the Physician's Desk Reference, which was published in 1998. Ex. 1008, 3. Patent Owner does not dispute Alphagan is prior art. See generally PO Resp. Alphagan is, therefore, prior art under 35 U.S.C. § 102(b).
+
+Alphagan teaches that “Alphagan 0.2%” is a brimonidine tartrate ophthalmic solution that is a relatively selective $\alpha$ -2 adrenergic agonist. Id.
+
+Alphagan teaches that Alphagan 0.2% “is indicated for lowering intraocular pressure in patients with open-angle glaucoma or ocular hypertension.” Id. Alphagan also teaches a pH range of 6.3–6.5. Id.
+
+## 4. Federal Register (Ex. 1009)
+
+Federal Register is an entry in the Federal Register, published on March 4, 1988. Ex. 1009, 1. Patent Owner does not dispute Federal Register is prior art. See generally PO Resp. Federal Register is, therefore, prior art under 35 U.S.C. § 102(b).
+
+Federal Register is a publication of a final rule establishing conditions for branding of over-the-counter ophthalmic drug products. Id. Federal Register states that vasoconstrictors can be identified as a “redness reliever” or labeled with “eye redness reliever.” Id. at 7. Federal Register identifies several vasoconstrictors, including 2-imidazoline derivatives, naphazoline hydrochloride (0.01 to 0.03%) and tetrahydrozoline hydrochloride (0.01 to 0.05%). Id. at 14.
+
+## 5. Analysis
+
+A patent claim is unpatentable under 35 U.S.C. § 103(a) if the differences between the claimed subject matter and the prior art are such that the subject matter, as a whole, would have been obvious at the time the invention was made to a person having ordinary skill in the art to which the subject matter pertains. KSR Int'l Co. v. Teleflex Inc., 550 U.S. 398, 406 (2007). The question of obviousness is resolved on the basis of underlying factual determinations, including: (1) the scope and content of the prior art; (2) any differences between the claimed subject matter and the prior art; (3) the level of skill in the art; and (4) objective evidence of nonobviousness. Graham v. John Deere Co., 383 U.S. 1, 17–18 (1966).
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+In analyzing the obviousness of a combination of prior art elements, it can be important to identify a reason that would have prompted one of skill in the art “to combine . . . known elements in the fashion claimed by the patent at issue.” KSR, 550 U.S. at 418. A precise teaching directed to the specific subject matter of a challenged claim is not necessary to establish obviousness. Id. Rather, “any need or problem known in the field of endeavor at the time of invention and addressed by the patent can provide a reason for combining the elements in the manner claimed.” Id. at 420. Accordingly, Petitioner must show that “a skilled artisan would have been motivated to combine the teachings of the prior art references to achieve the claimed invention, and that the skilled artisan would have had a reasonable expectation of success in doing so.” In re Magnum Oil Tools Int’l, Ltd., 829 F.3d 1364, 1381 (Fed. Cir. 2016) (quotations and citations omitted).
+
+## Petitioner's Contentions
+
+## a) Claim 3
+
+Petitioner asserts that the combination of Gil, Norden, Dean. Alphagan, and Federal Register teaches each limitation of claim 3. Pet. 50–60 (citing Ex. 1002 ¶¶ 142–168; Ex. 1003 ¶¶ 96–104).
+
+(1) “A method for reducing eye redness consisting essentially of topically administering to a patient having an ocular condition a composition”
+
+Petitioner asserts that Gil Example 1 teaches a method of reducing eye redness through the topical administration of 0.03% brimonidine drops into the eyes of patients undergoing radial keratotomy surgery, and no other drugs, compositions or steps are identified for reducing eye redness. Pet. 50 (citing Ex. 1002 ¶ 142).
+
+Petitioner also argues that Norden teaches this limitation, because Norden teaches that some refractive surgeons administer topical brimonidine to prophylactically reduce subconjunctival hemorrhage and improve post-operative appearance, and no other drugs, compositions or steps are identified in the anecdotal reports. Pet. 51 (citing Ex. 1006, 468; Ex. 1002 ¶ 142).
+
+Petitioner's position is that Gil and Norden each discloses a method for reducing eye redness consisting essentially of topically administering brimonidine to a patient having an ocular condition, e.g., radial keratotomy or LASIK surgery. $Id.$ at 50–51.
+
+(2) “to a patient having an ocular condition”
+
+This element of the claim is largely covered by Petitioner's contentions addressed above, but Petitioner further specifically contends that Gil and Norden 2002 both disclose administration “to a patient with an ocular condition” because they both disclose refractive surgery patients where the “ocular condition” is preoperative prophylaxis and/or the post-operative treatment of the subconjunctival hemorrhage and hyperemia caused by refractive surgery. Pet. 51 (citing Ex. 1002 ¶ 145).
+
+## (3) “a composition consisting essentially of brimonidine
+
+Petitioner argues that Example 1 of Gil teaches this limitation because it discloses administering a 0.03% brimonidine ophthalmic solution with no other active ingredient, and the “preferred vehicle” is purified water. Pet. 52 (citing Ex. 1002 ¶ 146). Furthermore, Petitioner contends, in Example 4 of Gil, brimonidine is the only active ingredient of the ophthalmic formulation and is effective in reducing neurogenic responses, such as redness. Id. (citing Ex. 1002 ¶ 147).
+
+Petitioner asserts that Norden also teaches a composition consisting essentially of brimonidine because anecdotal reports of refractive surgeons administering brimonidine before LASIK surgery state that brimonidine helps to prevent bleeding-related problems in the anterior segment. Id. (citing Ex. 1002 ¶ 148).
+
+According to Petitioner, a person of ordinary skill in the art would have been motivated to use only a single active ingredient in the method of treatment to avoid possible negative side effects from a second drug and possible negative drug interactions. Id. (citing Ex. 1002 ¶ 149). Petitioner also contends that a POSA would have had a reasonable expectation that brimonidine could be successfully used as a vasoconstrictor in topical eye drops to reduce redness, because: (1) 2-imidazoline derivatives had been in commercial use for decades as vasoconstrictor compounds in redness reducing topical eye drops; (2) brimonidine is a 2-imidazoline derivative and was known to be a potent vasoconstrictor; (3) brimonidine was known to exert its vasoconstrictor activity on the front but not the back portion of the eye; (4) brimonidine was approved by the U.S. FDA for use in a topical eye drop for over ten years; (5) brimonidine was considered to be safe, well tolerated and with a low rate of allergic response; and (6) it had been reported that brimonidine drops dripping from the eye caused “blanching,” i.e. whitening, of the skin on the cheeks. Id. at 53 (citing Ex. 1002 ¶ 150; Ex. 1003 ¶ 43).
+
+(4) “into ocular tissue”
+
+Petitioner argues that Example 1 of Gil teaches that, subsequent to surgery, “each subject receives one drop of the study medication in the operated eye.” Pet. 54 (quoting Ex. 1004, 4:58–59). Petitioner asserts that a person of ordinary skill in the art would have understood this to mean topical administration to the eye. Id. (citing Ex. 1002 ¶ 152).
+
+Petitioner argues that Norden teaches that there were “many anecdotal reports that the use of topical brimonidine before laser in situ keratomileusis (LASIK) can help prevent bleeding-related problems in the anterior segment.” Id. 54 (citing Ex. 1006, 468). Petitioner notes that, in the clinical study of Norden, “ophthalmic technicians applied the brimonidine drops.” Id. (citing Ex. 1006, 469). Petitioner contends that a skilled artisan would have understood this to mean topical administration to the surface of the eye. Id. (citing Ex. 1002 ¶ 152).
+
+Petitioner also contends that Federal Register shows that, when used as a vasoconstrictor compound (the reason for which Norden discloses using brimonidine) to reduce eye redness, 2-imidazoline compounds, naphazoline and tetrahydrozoline, are applied topically to the eye. Pet. 54 (citing Ex. 1009, 14; Ex. 1003 ¶ 96). Petitioner further argues that a person of ordinary skill in the art would have understood that topical administration to the surface of the eye is a way to minimize systemic side effects by applying a relatively small amount of brimonidine directly to the part of the body where the brimonidine is needed. Id. at 55 (citing Ex. 1002 ¶ 152).
+
+(5) “wherein pH of said composition is between about 5.5 and about 6.5”
+
+Petitioner asserts that Alphagan expressly teaches brimonidine eye drops with a pH of 6.3 to 6.5. Pet. 55 (citing Ex. 1008, 3; Ex. 1003 ¶ 98). Petitioner further argues that the pKa of brimonidine was known in the art to be about 7.78. Pet. 55 (citing Ex. 1003 ¶ 99; Ex. 1033 $^{23}$ , col. 13, l. 59).
+
+Petitioner argues that a formulator of ordinary skill would have understood that a pH below the pKa would help maintain brimonidine at the eye surface for a longer time, which would be a useful property in a topical vasoconstrictor eye drop. Id. (citing Ex. 1003 ¶ 99). Petitioner also notes that Olejnik teaches that the solubility of brimonidine tartrate is relatively high at pH 5.55, lower at pH 6.14, and much lower at pH 6.57. Id. (citing Ex. 1033, Table II; also Ex. 1003 ¶ 100). Petitioner therefore contends that, because a formulator would know that pH can change over time in storage, Olejnik would motivate a POSA to target a brimonidine tartrate solution in the range of pH 5.55 to 6.14. Id. (citing Ex. 1003 ¶ 100).
+
+(6) “wherein said brimonidine concentration is between about 0.001% and about 0.025% weight by volume”
+
+Petitioner asserts that the 0.03% brimonidine solution in Example 1 of Gil teaches this limitation. Pet. 56 (citing Ex. 1003 ¶ 73). Petitioner further notes that Example 4 of Gil teaches a range of “0.01% to 0.5%” brimonidine and teaches a POSA to conduct a dose-ranging study in this range, and that the 0.03% brimonidine of Example 1 provides direction for that dose-ranging study. Id. at 57 (citing Ex. 1002 ¶ 156, 157). Petitioner contends that there is a presumption of obviousness when the claimed concentration range overlaps a range disclosed in the prior art. Pet. 56–57 (citing, e.g., In re Aller, 220 F.2d 454, 456 (CCPA 1955)).
+
+Petitioner further argues that dose ranging is routine and a person of ordinary skill in the art would have been motivated to find an effective concentration while minimizing side effects. Pet. 58 (citing Ex. 1002 ¶ 158; Ex. 1003 ¶ 104). Petitioner contends that Dean teaches that 0.2% brimonidine is associated with eye redness (i.e., hyperemia) in some patients. Id. (citing Ex. 1007, 2:38–41; Ex. 1002 ¶ 158). Petitioner also
+
+contends that the cited prior art teaches that brimonidine at 0.08%, 0.2% and 0.5% was reported to “significantly” reduce intraocular pressure, an unwanted side effect in a redness reducing eye drop. Id. (citing EX. 1002 ¶158).
+
+Accordingly, Petitioner contends that based on the 0.01% to 0.5% range disclosed in Example 4 of Gil, the hyperemia associated with some patients at 0.2%, the lowering of intraocular pressure at 0.08%, and the 0.03% concentration taught in Example 1 of Gil, a POSA would have been motivated to explore the narrow range of 0.01% to 0.08%, making it even more obvious that a concentration within this limitation’s range would be found in the ordinary course. Id. at 59 (citing Ex. 1002 ¶ 159).
+
+Thus, Petitioner contends that, based on Gil, Norden, Dean, Alphagan, and Federal Register, a POSA would have been motivated to employ a method with each limitation of claim 3 with a reasonable expectation of success.
+
+## b) Claim 1
+
+Petitioner asserts that claim 1 is broader than claim 3 because it has a broader concentration range, does not have to be “topically administered” “into ocular tissue,” there is no pH limitation, and the composition does not have to be formulated as an ocular drop. According to Petitioner, claim 1 is therefore obvious for the same reasons as claim 3. Pet. 60.
+
+## c) Claim 2
+
+Petitioner asserts that claim 2 is broader than claim 3 because the composition in claim 2 does not have to be “topically administered” “into ocular tissue,” there is no pH limitation in claim 2, and the composition does not have to be formulated as an ocular drop. According to Petitioner, claim 2 is therefore obvious for the same reasons as claim 3. Pet. 60–61.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+## d) Claim 4
+
+Claim 4 depends from claim 3 and further recites that the composition is “topically administered within about 24 hours after a LASIK surgery.”
+
+Petitioner asserts that a POSA would have been motivated to topically administer the composition within 24 hours after a LASIK surgery because both LASIK and radial keratotomy are refractive surgeries that cause eye redness; Norden teaches that some surgeons administer brimonidine prophylactically to reduce subconjunctival hemorrhage and improve post-operative appearance; and Gil discloses administering brimonidine before radial keratotomy surgery and one drop every four waking hours after surgery. Id. at 61–62 (citing Ex. 1002 ¶¶ 170–172).
+
+Thus, to reduce eye redness associated with LASIK, Petitioner asserts a POSA would have been motivated to administer brimonidine within 24 hours after LASIK surgery, as claimed, with a reasonable expectation of success. Id.
+
+## e) Claims 5 and 6
+
+Claims 5 and 6 depend from claims 1 and 3, respectively, and further recite that the “ocular condition is chronic red eye.” Petitioner asserts that, although chronic red eye is not defined by the Specification, a POSA would understand chronic red eye to include eye redness caused by seasonal allergies. Pet. 62 (citing Ex. 1002 ¶ 175). Petitioner contends that a POSA would have expected brimonidine to reduce eye redness due to seasonal allergies because of its vasoconstrictor properties. Id. at 63 (citing Ex. 1002 ¶ 176).
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+## Patent Owner's Contentions
+
+In response, Patent Owner asserts that a POSA seeking to develop a method for reducing eye redness would not have considered brimonidine because the existing redness reliever products were all selective $\alpha$ -1 or mixed $\alpha$ -1/ $\alpha$ -2 agonists. PO Resp. 45–46 (citing Ex. 2020 ¶¶ 80–86, 213, 214). Patent Owner contends that it was understood that $\alpha$ -2 agonists were known to cause vasodilation, which leads to hyperemia, and a POSA would not have been motivated to use brimonidine, which is a highly selective $\alpha$ -2 agonist with very little $\alpha$ -1 effect, with a reasonable expectation of success. Id. at 46 (citing Ex. 2020 ¶¶ 76–80).
+
+Patent Owner argues that, contrary to Petitioner's assertion, 2-imidazoline derivatives are not all $\alpha$ -1-agonists and, regardless, brimonidine is an aminoimidazoline that does not have common structural features of vasoconstrictors like naphazoline and tetrahydrozoline. $Id.$ at 47–48 (citing Ex. 2022 ¶¶ 27, 29, 43–49; Ex. 1016, 31).
+
+Moreover, argues Patent Owner, just because brimonidine was FDA approved to treat glaucoma does not mean it would have been suitable for every indication or for every patient population. Id. at 48. Brimonidine was known to cause redness with a high incidence of ocular allergic reactions, which resulted in long-term use limitations and noncompliance. Id. (citing Ex. 2020 ¶ 74, 91, 137).
+
+Patent Owner also argues that it would not have been obvious to use low concentrations of brimonidine or reasonably expect it to work because the data from FDA-approved Alphagan and Alphagan P products reveal a concentration-dependent relationship that suggests using a high concentration of brimonidine to reduce redness, rather than lower concentrations. Id. at 50–51 (citing Ex. 2020 ¶¶ 79, 219–222).
+
+Patent Owner also argues that a POSA would not have been motivated to formulate an eye drop at a pH between 5.5 and 6.5, as it is preferable to formulate ophthalmic products at or around physiological pH of 7.4. Id. at 51 (citing Ex. 2020 ¶¶ 138, 251; Ex. 2021 ¶ 59, 95). Moreover, Patent Owner contends that the Alphagan products demonstrate that a POSA would have targeted a pH above 7 to facilitate maximum penetration past the mucus and to the episcleral and sclera of the eye and to avoid eye irritation. Id. at 51–52 (citing Ex. 2021 ¶¶ 100–101).
+
+Patent Owner argues that Gil does not teach or suggest using brimonidine to reduce redness, as a patient who has ocular pain may or may not have eye redness. Id. at 53 (citing Ex. 2020 ¶ 234; Ex. 2174, 4). Patent Owner further argues that a POSA would not have combined Norden with Gil, because a POSA would have recognized the flaws in the Norden study, which would call into question Norden's conclusion that 0.2% brimonidine reduces hyperemia. Id. at 55 (citing Ex. 2020 ¶¶ 169–175, 240–246). Finally, according to Patent Owner, Dean, Alphagan, and Federal Register do not cure the deficiencies of Gil and Norden, as Dean relates to lowering intraocular pressure with a combination of brinzolamide and brimonidine, Alphagan teaches brimonidine's high rate of hyperemia and allergic reactions, and Federal Register discloses only α-1 or mixed α-1/α-2 agonists as ocular vasoconstrictors. Id. at 56–57 (citing Ex. 2020 ¶¶ 139, 143, 177–182, 213, 248–249).
+
+## Analysis
+
+Having considered the arguments and evidence presented at trial, we are persuaded that the combination of Gil, Norden, Dean, Alphagan, and Federal Register teach or suggest each limitation of the challenged claims and a POSA would have had a reason to combine the references with a reasonable expectation of success. See Pet. 50–63; see also Ex. 1002 ¶¶ 142–177. Moreover, as part of our consideration of the totality of the evidence and before making any final conclusions regarding obviousness, we have considered Patent Owner's evidence of objective indicia of non-obviousness, which we find unpersuasive and discuss in detail below at Section II.E.6.
+
+Regarding claim 3, we find that Norden, particularly as evidenced by Federal Register where it states that over-the-counter ophthalmic vasoconstrictors are eye redness relievers, teaches a method for reducing eye redness by administering prophylactic brimonidine to LASIK patients, which resulted in reducing subconjunctival hemorrhage and hyperemia. Ex. 1006, 4; Ex. 1009, 7082. We also find that Gil teaches administering 0.03% brimonidine—which is within the claimed range—and suggests that doing so will reduce eye redness in radial keratotomy patients, particularly as evidenced by Federal Register and Dean. See Ex. 1004, 4:45–52; Ex. 1009, 7082; see also Ex. 1007, 2:35–36 (disclosing brimonidine to be a topical, ocular vasoconstrictor). Specifically, Gil teaches that vasodilation, increased vascular permeability, and redness are all signs of neurogenic inflammation, and that brimonidine “is effective in reducing such neurogenic responses.” Ex. 1004, 1:40–43, 5:38–40, 44–45.
+
+Even if the claim term “about 0.025%” did not encompass 0.03% brimonidine, Gil discloses a preferred range of “about 0.01% to about 0.5%” brimonidine, which overlaps the claimed range of “about 0.001% to about 0.025%.” Ex. 1001, 3:46–49, 3:63–65, 5:41–46. We agree with Petitioner that the overlap in brimonidine concentration creates a presumption of obviousness, which is not rebutted upon considering the totality of the
+
+evidence of record. See Pet. 56–57 (citing In re Aller, 220 F.2d 454, 456 (CCPA 1955) (stating “where the general conditions of a claim are disclosed in the prior art, it is not inventive to discover the optimum or workable ranges by routine experimentation”)); Ex. 1002 ¶¶ 156–157.
+
+We find Norden and Gil also teach a composition “consisting essentially of brimonidine,” as the references teach or suggest that brimonidine alone is effective in reducing eye redness. Id.; Ex. 1006, 4; Ex. 1002 ¶ 147–148. Although Norden and Gil may also teach the possibility of co-administering pain medication, steroids, and antibiotics, as Patent Owner asserts (PO Supp. Br. 14–15), the claims—when properly construed—do not preclude administering other drugs that do not materially affect the basic and novel characteristics of the claims (i.e., brimonidine’s ability to reduce redness), even if those drugs also reduce redness. $^{24}$ See Ecolab, 569 F.3d at 1343–44. Furthermore, we credit the testimony of Dr. Sher, who explains that a POSA would have been motivated to use a single active ingredient to avoid possible negative side effects from a second drug and that brimonidine was known to be a potent vasoconstrictor that was considered to be safe for topical eye drop use. Ex. 1002 ¶¶ 149–150; see also Ex. 1003 ¶ 43.
+
+Finally, we find Alphagan teaches brimonidine eye drops with a pH of 6.3 to 6.5, and that a POSA would, therefore, have been motivated to use a pH between about 5.5 and 6.5 with a reasonable expectation of success. Ex. 1003 ¶ 98; Ex. 1008. We credit the testimony of Dr. Laskar, who explains that it would have been routine for a POSA who was a pharmaceutical formulator to formulate brimonidine ocular drops at any pH between about 5.5 and about 6.5. Ex. 1003 ¶ 102.
+
+Thus, we are persuaded that a POSA would have had a reason to combine the pH of Alphagan with the 0.03% brimonidine of Gil to reduce redness as taught by Gil and Norden, as evidenced by Federal Register and Dean, with a reasonable expectation of success. Ex. 1002 ¶¶ 140–168.
+
+Having found that the combination of references teaches each limitation of claim 3, we consider Patent Owner's arguments in response. First, Patent Owner argues that a POSA would not have been motivated to use brimonidine to reduce ocular redness with a reasonable expectation of success. $^{25}$ PO Resp. 45–49; PO Sur-reply 13–16. Patent Owner argues that because $\alpha$ -2 agonists were understood to cause vasodilation, and because brimonidine is a highly selective $\alpha$ -2 agonist with very little $\alpha$ -1 effect, a POSA would not have been motivated to use brimonidine to reduce eye redness. $Id.$ at 46. Moreover, even if a POSA were motivated to pursue a selective $\alpha$ -2 agonist, the POSA would have looked to other selective $\alpha$ -2 agonists that have a higher affinity for $\alpha$ -2 receptors than brimonidine. Id. (citing Ex. 2020 ¶ 80). Patent Owner argues that because brimonidine products were known to elicit redness and had high incidences of ocular allergic reactions, as seen by the FDA-approved labels for Alphagan and Alphagan P, a POSA would have been discouraged from considering low-dose brimonidine as a redness reliever, particularly as an over-the-counter product. Id. at 48–50 (citing Ex. 2020 ¶¶ 134, 137). Patent Owner asserts that, if anything, the data suggests using a high concentration of brimonidine (e.g., 0.5% or 0.2%) to reduce redness, as lower concentrations would not be expected to have any redness-reducing effect. Id. at 50–51 (citing Ex. 2020 ¶¶ 79, 219–222).
+
+We are not persuaded by any of Patent Owner's arguments. Patent Owner overlooks the express teaching of Norden that prophylactic brimonidine significantly reduces subconjunctival hemorrhage and hyperemia in LASIK patients. See Ex. 1006, 468 (“This study suggests that brimonidine administered before LASIK may significantly reduce subconjunctival hemorrhage and reduce the amount of hyperemia.”). We find Norden’s disclosure, coupled with Gil’s teaching that low-dose brimonidine “is effective in reducing such neurogenic responses” like “redness,” and in view of Federal Register’s disclosure that ocular vasoconstrictors are eye-redness-reducers and Dean’s disclosure that topical brimonidine is an ocular vasoconstrictor, is sufficient motivation for a POSA to pursue low-dose brimonidine in a method to reduce eye redness with a reasonable expectation of success. See Ex. 1004, 1:40–43, 5:38–40, 44–45; Ex. 1006, 468; Ex. 1007, 2:35–36; Ex. 1009, 7082; Ex. 1049 ¶¶ 91–92.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+Patent Owner also attacks Gil and Norden as unreliable references “at the very low end of the hierarchy of relevant evidence.” PO Resp. 54. Patent Owner argues that Gil only discloses prophetic examples and does not suggest a method of reducing redness because a patient who has ocular pain may or may not have eye redness. PO Resp. 53 (citing Ex. 2020 ¶¶ 234–236). Although we agree that Gil does not inherently disclose using brimonidine to reduce redness, Gil expressly teaches the use of brimonidine “for treating ocular pain and neurogenic inflammation.” Ex. 1004, 1:11–13. Gil also expressly teaches that neurogenic inflammation is characterized by “vasodilation, edema, and increased vascular permeability.” Id. at 1:40–43. And, as Patent Owner’s expert, Dr. Noecker, explains, “[r]ed eye, also known as ocular hyperemia, refers to a common ophthalmic condition caused by vasodilation.” Ex. 2020 ¶ 47 (emphasis added). Furthermore, Gil teaches that “[o]cular responses characteristic of neurogenic inflammation[include] redness,” and “[b]rimonidine is effective in reducing such neurogenic responses.” Id. at 5:38–45. Thus, Gil teaches that brimonidine can be used to treat neurogenic inflammation, which is characterized by vasodilation, which causes eye redness. To read Gil as referring “at most, to brimonidine’s hypothesized ability to block nerve signals and relieve the perception of ocular pain,” as asserted by Patent Owner, turns a blind eye to the rest of the disclosure and what that would have suggested to a person of ordinary skill in the art. See PO Resp. 54 (citing Ex. 2020 ¶ 237).
+
+Patent Owner also criticizes the Norden study as having numerous flaws that cast doubt on the conclusion that brimonidine reduces hyperemia. Id. at 55–56. As support, Patent Owner cites a contemporaneous Üretman article by others in the field that allegedly questions the Norden study. Id. at 55 (citing Ex. 2020 ¶ 175, 243; Ex. 2186). We disagree, however, with
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+Patent Owner's characterization of the article. In the letter to the editor, the author, Dr. Üretman acknowledged Norden's finding that brimonidine administered before LASIK "may significantly reduce subconjunctival hemorrhage and reduce hyperemia." Ex. 2186. Dr. Üretman then stated that they "agree that brimonidine can be considered a strong vasoconstrictor based on alpha-2-adrenergic agonist activity." Id. That said, Dr. Üretman noted that because an allergic reaction occurred in $25.7\%$ of patients, they test the sensitivity of patients to brimonidine before surgery. Id. Thus, contrary to Patent Owner's assertion, Dr. Üretman did not call into question the accuracy of the Norden study; he simply offered a solution to the issue of brimonidine-related allergy. See id.; see also Ex. 1049 ¶ 88. We, therefore, find the combination of Gil and Norden provides sufficient motivation to a POSA to use brimonidine to reduce eye redness.
+
+Patent Owner also argues that a POSA would have had no reason to consider brimonidine at a concentration between 0.001% and about 0.025%, and the prior art taught away from doing so. PO Resp. 49–50. Patent Owner contends that at low concentrations, which minimize its already low α-1 effect, brimonidine would not have been expected to reduce eye redness. As support, Patent Owner again argues that clinical data for Alphagan and Alphagan P reveal a concentration-dependent relationship between brimonidine and redness reduction—conjunctival blanching was seen in 50% of subjects with Alphagan 0.5%, in 3.5% of subjects with Alphagan 0.2%, and in no subjects with either Alphagan P 0.15% or 0.1%. Id. at 50 (citing Ex. 2012, 6; Ex. 1031, 109; Ex. 2104, 6). Thus, Patent Owner asserts that the data suggest that higher concentrations of brimonidine result in a higher incidence of redness reduction, and lower concentrations of
+
+brimonidine produce little or no redness reduction. Id. at 50 (citing Ex. 2020 ¶¶ 77–79, 135, 182, 219, 220); PO Sur-reply 16–19.
+
+Again, Patent Owner attempts to disregard the express teachings of Norden and Gil to assert that the art teaches away from using low-dose brimonidine. We are not persuaded that the Alphagan data rises to the level of teaching away. As Dr. Sher notes, the studies did not provide information about how redness was measured, what degree of blanching was needed to be listed as an “adverse event,” or when blanching was observed. Ex. 1049 ¶¶ 95–96 (citing Ex. 2012, 4, 9). Moreover, Patent Owner’s expert, Dr. Noecker, admitted that the “study design was . . . not to evaluate or do statistical analysis on redness.” Ex. 1053, 68:15–19. Thus, we credit the testimony of Dr. Sher, who opines that there is not enough information for a POSA to assess the concentration dependence or independence of brimonidine’s conjunctival blanching effects. Id. ¶¶ 95–97. Even considering the Alphagan data, however, Norden and Gil are still prior art for all that they teach. See In re Young, 927 F.2d 588, 591 (Fed. Cir. 1991) (“The test for obviousness is what the combined teachings of the references would have suggested to one of ordinary skill in the art. . . . Patents are part of the literature of the art and are relevant for all they contain.”). And, as explained above, we find that Norden and Gil teach the use of low-dose brimonidine to reduce eye redness.
+
+Regarding the limitation that the pH of the composition be between about 5.5 and about 6.5, it is undisputed that Alphagan 0.2% had a pH of 6.3–6.5. Ex. 1008, 3. Patent Owner asserts, however, that the art teaches away from the claimed range. PO Resp. 51–53; PO Sur-reply 21–23. According to Patent Owner, a POSA would have recognized that it was preferable to formulate an ophthalmic product at around the physiological
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+pH of about 7.4 to maximize penetration and avoid eye irritation. PO Resp. at 51–52 (citing Ex. 2020 ¶¶ 138, 251; Ex. 2021 ¶¶ 95–106). We are not persuaded that a preference for a physiological pH amounts to teaching away from the claimed range, particularly when the Specification does not indicate anything critical about the claimed pH range. Moreover, we credit the testimony of Dr. Laskar, who states that a POSA would have understood that buffers can be used to optimize the formulation to prevent discomfort, allow concentrations of other ophthalmic ingredients to be delivered at different pH ranges, and ensure acceptable stability of active drugs. See Ex. 1048 ¶¶ 23–25 (citing Ex. 1064, 1570–71 (“Ideally, ophthalmic preparations should be formulated at a pH equivalent to the tear fluid value of 7.4. Practically, this seldom is achieved. The large majority of active ingredients used in ophthalmology are salts of weak bases and are most stable at an acid pH.”)).
+
+Regarding claim 1, Patent Owner makes the same argument as it did for claim 3. PO Resp. 58. For the same reasons stated above, we are not persuaded that there was no motivation to use brimonidine at a concentration between “about 0.001% and about 0.05%” with a reasonable expectation of success. See supra (finding Gil suggests administering 0.03% brimonidine to reduce redness with a reasonable expectation of success).
+
+Regarding claims 5 and 6, Patent Owner asserts that “chronic red eye” is “a persistent and constant ocular disorder.” PO Resp. 58. According to Patent Owner, a POSA would understand that a patient with chronic red eye would need to repeatedly administer brimonidine over a prolonged period of time, which a POSA would have been deterred to do because of its well-known adverse event profile that has limited brimonidine’s long-term use. Id. (citing Ex. 2020 ¶ 265). We are not persuaded. Although treating
+
+“chronic red eye” may require long-term use, the claims do not require such long-term use. See Ex. 1001, 22:17–39. We also agree with Petitioner that “chronic red eye” includes seasonal allergies for which a POSA would expect brimonidine to reduce eye redness through vasoconstriction. See Ex. 1002 ¶ 175; Ex. 1049 ¶ 109; see also Ex. 1001, 2:15–17 (identifying individuals with “hyperemia from chronic conditions such as dry eye, contact lens wear, [and] allergic conjunctivitis”). Patent Owner does not dispute Petitioner’s expert’s testimony. We, therefore, find that a POSA would have found claims 5 and 6 obvious in light of the cited prior art.
+
+Finally, regarding claim 4, which further recites administering brimonidine “within about 24 hours after Lasik surgery on said patient,” Patent Owner asserts that no evidence of record teaches or suggests this limitation. PO Resp. 59 (citing Ex. 2020 ¶ 263). Patent Owner is incorrect. As Petitioner notes, Gil Example 1 teaches administering one drop of the medication “in the operated eye every four hours while awake for 14 consecutive days.” Ex. 1004, 4:58–60. Because radial keratotomy and LASIK are both refractive surgeries, we credit the testimony of Petitioner’s expert, Dr. Sher, that a POSA reading Gil would have been motivated with a reasonable expectation of success to reduce eye redness by administering brimonidine within 24 hours after LASIK, as well. Ex. 1002 ¶ 171; Ex. 1049 ¶ 108.
+
+Accordingly, having considered the arguments and evidence presented at trial, we find the combination of Gil, Norden, Dean, Alphagan, and Federal Register teaches or suggests each limitation of Claims 1–6. We now turn to our analysis of Patent Owner's asserted evidence of objective evidence of nonobviousness.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+## 6. Objective Evidence of Nonobviousness
+
+“Objective indicia of nonobviousness can serve as an important check against hindsight bias and ‘must always when present be considered.’” Merck & Cie v. Gnosis S.P.A., 808 F.3d 829, 837 (Fed. Cir. 2015). Patent Owner offers evidence of unexpected results, industry praise, commercial success, licensing, and copying to support the nonobviousness of the claims. We consider Patent Owner’s evidence for each indicia below.
+
+## a) Unexpected Results
+
+Patent Owner asserts that the claimed subject matter was unexpectedly superior in reducing redness compared to the closest prior art, Visine and other similar products that were market leaders for decades. PO Resp. 59–65 (citing Ex. 2022 ¶¶ 278–302). Alternatively, Patent Owner notes that if the closest prior art is 0.1% or 0.2% brimonidine, the same result stands—low-dose brimonidine unexpectedly reduced redness without the adverse side effects that plagued the Alphagan and Alphagan P products. Id. at 60 n.1. Patent Owner also notes brimonidine demonstrates multiple unexpected advantageous properties that prior art commercial vasoconstrictors did not possess, including its rapidity of onset and duration of action and the lack of rebound hyperemia or tachyphylaxis. Id. at 66 (citing Ex. 2020 ¶¶ 304–306).
+
+Petitioner asserts that Patent Owner's evidence of unexpected results is not probative of nonobviousness because it does not compare the claimed invention to the closest prior art, which Petitioner asserts is Gil. Pet. Reply 24.
+
+We agree with Petitioner. The Federal Circuit has held that “when unexpected results are used as evidence of nonobviousness, the results must be shown to be unexpected compared with the closest prior art.” Kao Corp.
+
+IPR2022-00142
+Patent 8,293,742 B2
+
+v. Unilever U.S., Inc., 441 F.3d 963, 970 (Fed. Cir. 2006). Contrary to Patent Owner's assertion, we are not persuaded that the closest prior art is Visine and the prior commercial redness relievers, which do not contain brimonidine at all. See PO Resp. 59. The only similarity between the commercial redness relievers like Visine and the claimed invention is redness reduction. But just because Visine and similar commercial products have been “market leaders for decades” does not elevate those products to the level of closest prior art. See Bristol-Myers Squibb Co. v. Teva Pharms. USA, Inc., 752 F.3d 967, 978 (Fed. Cir. 2014) (finding district court committed error by comparing claimed drug to another drug on the market instead of the closest prior art); see also Tr. of Columbia Univ. v. Illumina, Inc., 620 Fed. App’x 916, 932 (Fed. Cir. 2015) (“There is no requirement that the closest prior art be commercialized.”) (citing In re Merchant, 575 F.2d 865 (CCPA 1978)).
+
+As explained above, Gil discloses the use of low-dose 0.03% brimonidine and that low-dose brimonidine is effective in reducing ocular responses characteristic of neurogenic inflammation, such as redness. Ex. 1004, 1:11–13, 40–43, 5:38–45. Patent Owner argues that Gil cannot legally constitute the closest prior art, because Petitioner relies on inherent to show redness reduction in Gil, and an alleged inherent limitation is unknown and therefore cannot rebut a claim of unexpected results. PO Sur-reply 24 (citing Millennium Pharms., Inc. v. Sandoz Inc., 862 F.3d 1356, 1368 (Fed. Cir. 2017)). The Millenium case, however, is inapposite. There, the Federal Circuit found the district court erred by ruling the patentee should have compared the unexpected results of the claimed compound to a compound that “was not specifically disclosed, prepared, or tested” in the prior art patent. Id. In contrast, here, Gil clearly teaches that 0.03%
+
+brimonidine is topically applied to patients' eyes having an ocular condition, and suggests that it would be effective in reducing eye redness. $^{26}$ See Ex. 1004, 1:11–13, 40–43, 5:38–45.
+
+To be probative of nonobviousness, Patent Owner's evidence of unexpected results should have been compared to the closest prior art, which is Gil. Because Patent Owner did not make that comparison, we find its evidence of unexpected results compared to Visine and similar commercial products carries little weight.
+
+b) Industry Praise, Commercial Success, Licensing, and Copying
+
+Patent Owner also presents evidence of industry praise, commercial success, licensing, and copying. PO Resp. 67–70. Patent Owner asserts that Lumify—the commercial embodiment of the claimed invention—has garnered significant industry praise as the #1 eye doctor recommended redness relieving drop that has received multiple awards and recognitions since its launch. Id. at 67–69 (citing Ex. 2020 ¶¶ 312–313; Ex. 2023 ¶ 6). Patent Owner also asserts that Lumify’s commercial success, licensing of the ’742 patent, and copying of the claimed invention are further evidence of nonobviousness. Id. at 69–70 (citing Ex. 2023 ¶¶ 22–26, Ex. 2024 ¶¶ 87–89, 104–126). Specifically, Patent Owner claims that Lumify has “disrupted the redness reliever marketplace such that it is not only taking share from competitors but is likely also increasing sales and driving growth of the
+
+entire redness reliever marketplace.” Id. at 69 (citing Ex. 2024 ¶¶ 87–79; Ex. 2023 ¶22–26). Patent Owner asserts that Dr. Reddy, Petitioner’s licensee, publicly valued the U.S. market for Lumify at approximately \$130 million for the 52-week period ending June 12, 2022, and that that success is “attributable to the patented invention.” Id. at 70 (citing Ex. 2085, 1). And Patent Owner argues that at least three generic companies have sought to copy Lumify, including Petitioner’s licensee, Dr. Reddy, who acknowledged the over \$100 million market for the product. Id. (citing Ex. 2097, 1).
+
+Petitioner responds, stating Patent Owner's evidence of secondary considerations is insufficient because Patent Owner fails to establish a nexus between its evidence and the claimed invention. Pet. Reply. 23. Petitioner notes that Patent Owner admits its evidence of unexpected results, industry praise, and commercial success “all turn on the use of ‘low-concentration brimonidine,’ which was known in the prior art.” Id. Petitioner also asserts that much of Patent Owner’s evidence of industry praise is “self-serving marketing and promotional material prepared by Patent Owner’s licensee, Bausch” and that the praise received by Lumify was a result of the “innovative and pervasive marketing of the product, not the product itself.” Id. at 24–25 (citing Ex. 1047 ¶¶ 18, 37, 38). According to Petitioner, Patent Owner’s evidence of commercial success “fails to account for the tens of millions of dollars Patent Owner and its licensee have spent marketing and promoting Lumify.” Id. at 26 (citing Ex. 1047 ¶ 33).
+
+We agree with Petitioner. “For objective indicia evidence to be accorded substantial weight, we require that a nexus must exist ‘between the evidence and the merits of the claimed invention.’” Novartis AG v. Torrent Pharms. Ltd., 853 F.3d 1316, 1330–31 (Fed. Cir. 2017) (quoting Wyers v. Master Lock Co., 616 F.3d 1231, 1246 (Fed. Cir. 2010)). If the patentee
+
+relies on the commercial embodiment of the claimed invention and that embodiment is the invention disclosed and claimed, a presumption of nexus exists. See Fox Factory, Inc. v. SRAM, LLC, 944 F.3d 1366, 1373 (Fed. Cir. 2019). That presumption is rebuttable and the evidence is not pertinent, however, “if the feature that creates the commercial success [or other secondary considerations] was known in the prior art.” See Ormco Corp. v. Align Tech., 463 F.3d 1299, 1312 (Fed. Cir. 2006).
+
+Here, Patent Owner repeatedly relies on the use of “low-concentration brimonidine” as the reason for Lumify’s success. Patent Owner claims “[Lumify’s] success is directly tied to . . . redness reduction using low-dose brimonidine.” PO Resp. 68. And Patent Owner contends that “the claimed use of low-concentration brimonidine has led to a cascade of real-world benefits for Lumify users,” which has resulted in industry praise and licensing of the product. Id. at 68–69; see also id. at 70 (asserting successful licensing is “attributable to the patented invention”).
+
+Despite Patent Owner's assertions to the contrary, we agree with Petitioner that the use of low-dose brimonidine was known in the art. Namely, we find Gil discloses low-dose 0.03% brimonidine and teaches that low-dose brimonidine is effective in reducing ocular responses characteristic of neurogenic inflammation, such as vasodilation and redness. Ex. 1004, 1:11–13, 40–43, 5:38–45. Thus, we find that Patent Owner's evidence of industry praise, commercial success, licensing, and copying is not probative of nonobviousness (or at best carry little weight), as Lumify's success was not the result of the novel features of the claim. See Ormco, 463 F.3d at 1313 (finding patentee's evidence did not show commercial success where allegedly novel features were taught by the prior art); see also Novartis AG v. Torrent Pharms. Ltd., 853 F.3d 1316, 1331 (Fed. Cir. 2017) (finding
+
+objective indicia evidence not probative of nonobviousness where prior art suggested the allegedly successful feature of the claimed invention).
+
+Moreover, we are not persuaded that the alleged success of Lumify (i.e., industry praise, commercial success, licensing, and copying) was due to the claimed invention alone. Although some aspects of Lumify’s success may be attributable to its use of brimonidine versus the selective alpha-1 and mixed alpha-1/alpha-2 agonists used in other available commercial redness relievers like Visine (see, e.g., Ex. 2020 ¶ 313), we agree with Petitioner that the evidence of success is also due to Bausch’s sales and marketing campaigns that are unrelated to the claimed invention. For example, we are persuaded that Bausch’s extensive social media campaigns and promotional efforts directly to eye care professionals contributed significantly to the success of Lumify. See Ex. 1047 ¶¶ 35–49. Thus, although Lumify may enjoy significant sales and market share, we find Patent Owner’s secondary evidence of nonobviousness was attributable “to other economic and commercial factors unrelated to the quality of the patented subject matter.” See In re DBC, 545 F.3d 1373, 1384 (Fed. Cir. 2008) (affirming Board’s finding that, despite substantial sales, evidence of commercial success was insufficient due, in part, to the “aggressive network marketing” of the patentee).
+
+We, therefore, conclude that Patent Owner's evidence of secondary considerations does not outweigh the strong evidence of obviousness set forth above. Asyst Techs., Inc. v. Emtrak, Inc., 544 F.3d 1310, 1316 (Fed. Cir. 2008) ("[A]s we have often held, evidence of secondary considerations does not always overcome a strong prima facie showing of obviousness."); see also Leapfrog Enters., Inc. v. Fisher-Price, Inc., 485 F.3d 1157, 1162 (holding substantial evidence of commercial success, praise, and long-felt did not outweigh the strength of the prima facie obviousness showing).
+
+## 7. Conclusion on Obviousness of Claims 1–6
+
+Having considered the arguments and evidence presented at trial, we find Petitioner has shown by a preponderance of the evidence that claims 1–6 are unpatentable as obvious over the combination of Gil, Norden, Dean, Alphagan, and Federal Register.
+
+## III. PETITIONER'S MOTION TO EXCLUDE
+
+The party moving to exclude evidence bears the burden of proving that it is entitled to the relief requested—namely, that the material sought to be excluded is inadmissible under the Federal Rules of Evidence (“FRE”). See 37 C.F.R. §§ 42.20(c), 42.62(a).
+
+Petitioner filed a Motion to Exclude the entirety of Exhibits 2152–2156 and portions of Exhibits 2023 and 1052, which relate to Patent Owner’s evidence of secondary considerations of nonobviousness. $^{27}$ Paper 57, 1. Although we considered Patent Owner’s evidence, we need not rely on any of that evidence in rendering this Decision. See supra Section II.D.6. Accordingly, we dismiss Petitioner’s Motion to Exclude as moot. $^{28}$
+
+## IV. CONCLUSION $^{29}$
+
+For the foregoing reasons, we determine that Petitioner has established by a preponderance of the evidence that claims 1–6 of the '742 patent are unpatentable as obvious.
+
+## In summary:
+
+<table><tr><td>Claim(s)</td><td>35 U.S.C. §</td><td>Reference(s)/Basis</td><td>Claim(s) Shown Unpatentable</td><td>Claim(s) Not shown Unpatentable</td></tr><tr><td>1, 2</td><td>102(b)</td><td>Gil</td><td></td><td>1, 2</td></tr><tr><td>1, 2</td><td>102(b)</td><td>Walters</td><td></td><td>1, 2</td></tr><tr><td>1–6</td><td>103(a)</td><td>Gil, Norden, Dean, Alphagan, and Federal Register</td><td>1–6</td><td></td></tr><tr><td>Overall Outcome</td><td></td><td></td><td>1–6</td><td></td></tr></table>
+
+## V. ORDER
+
+In consideration of the foregoing, it is hereby:
+
+ORDERED that claims 1–6 of U.S. Patent No. 8,294,742 B2 are held unpatentable;
+
+FURTHER ORDERED that Petitioner's Motion to Exclude is dismissed as moot; and
+
+FURTHER ORDERED that, because this is a Final Written Decision, the parties to the proceeding seeking judicial review of the decision must comply with the notice and service requirement of 37 C.F.R. § 90.2.
+
+## PETITIONER:
+
+Linnea Cipriano
+Patrick Pollard
+Louis Weinstein
+WINDELS MARX LANE & MITTENDORF LLP
+lcipriano@goodwinlaw.com
+ppollard@windelsmarx.com
+lweinstein@windelsmarx.com
+
+## PATENT OWNER:
+
+Bryan Diner
+
+Justin Hasford
+
+Caitlin O'Connell
+
+Christina Ji-Hye Yang
+
+FINNEGAN, HENDERSON, FARABOW, GARRETT & DUNNER, LLP
+
+bryan.diner@finnegan.com
+
+justin.hasford@finnegan.com
+
+caitlin.o'connell@finnegan.com
+
+christina.yang@finnegan.com

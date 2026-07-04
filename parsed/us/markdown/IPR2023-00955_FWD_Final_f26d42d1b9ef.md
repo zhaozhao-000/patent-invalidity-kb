@@ -1,0 +1,723 @@
+Trials@uspto.gov
+571-272-7822
+
+Paper 46
+Date: January 31, 2025
+
+# UNITED STATES PATENT AND TRADEMARK OFFICE BEFORE THE PATENT TRIAL AND APPEAL BOARD PARSE BIOSCIENCES, INC., Petitioner,
+
+V.
+
+10X GENOMICS, INC.,
+Patent Owner.
+
+IPR2023-00955
+Patent 10,240,197 B1
+
+Before MICHAEL J. FITZPATRICK, SHERIDAN K. SNEDDEN, and DEVON ZASTROW NEWMAN, Administrative Patent Judges.
+
+FITZPATRICK, Administrative Patent Judge.
+
+JUDGMENT
+Final Written Decision
+Determining All Challenged Claims Unpatentable
+35 U.S.C. § 318(a)
+
+## I. INTRODUCTION
+
+Petitioner, Parse Biosciences, Inc., filed a Petition to institute an inter partes review of all claims, namely claims 1–26, of U.S. Patent No. 10,240,197 B1 (“the ’197 patent”) pursuant to 35 U.S.C. § 311(a). Paper 1 (“Pet.”). Patent Owner, 10X Genomics, Inc., filed a Preliminary Response pursuant to 37 C.F.R. § 42.107(b). Paper 6 (“Prelim. Resp.”). After initially denying the Petition, we granted it on rehearing and instituted an inter partes review. Paper 9 (“Dec. on Reh’g”).
+
+During the review, Patent Owner filed a Patent Owner Response to the Petition (Paper 19 (“PO Resp.”)), Petitioner filed a Reply (Paper 25 (“Pet. Reply”)), and Patent Owner filed a Sur-reply (Paper 31 (“PO Sur-reply”). Additionally, each party filed a motion to exclude. Paper 37 (“Pet. Mot. To Exclude”); Paper 31 (“PO Mot. To Exclude”). $^{1}$
+
+An oral hearing was held November 6, 2024. A transcript of the hearing is of record in this case. Paper 45 (“Tr.”).
+
+We have jurisdiction under 35 U.S.C. § 6, and this Final Written Decision, issued pursuant to 35 U.S.C. § 318(a), addresses issues and arguments raised during the trial. For the reasons discussed below, we determine that Petitioner has proven, by a preponderance of the evidence, that claims 1–26 of the '197 patent are unpatentable.
+
+## A. Real Parties In Interest
+
+Each party identifies itself as the sole real party in interest. Pet. 3; Paper 4, at 1.
+
+## B. Related Matters
+
+The parties identify 10x Genomics v. Parse Biosciences, Inc., 22-cv-01117 (D. Del.) as involving the '197 patent. Pet. 3; Paper 4, at 1. Additionally, the parties identify IPR2023-00876 and IPR2023-00958. Pet. 4; Paper 4, at 1. In IPR2023-00876, the Board issued a final written decision that all claims of related U.S. Patent No. 10,155,981 B2 (“the '981 patent”) are unpatentable, and Patent Owner has filed a Notice of Appeal. IPR2023-00876, Papers 47 and 48. In IPR2023-00958, the Board soon will be entering a final written decision regarding the claims of related U.S. Patent No. 10,697,013 B1 (“the '013 patent”).
+
+## C. The '197 Patent
+
+The '197 patent is titled "Methods For Analyzing Nucleic Acids From Single Cells." Ex. 1001, code (54). The focus of the '197 patent Specification, other than the claims, however, is directed to the "reflex method." For example, the "Summary of the Invention" states in its entirety the following:
+
+Aspects of the present invention are drawn to processes for moving a region of interest in a polynucleotide from a first position to a second position with regard to a domain within the polynucleotide, also referred to as a “reflex method” (or reflex process, reflex sequence process, reflex reaction, and the like). In certain embodiments, the reflex method results in moving a region of interest into functional proximity to specific domain elements present in the polynucleotide (e.g., primer sites and/or
+
+MID $^{[2]}$ ). Compositions, kits and systems that find use in carrying out the reflex processes described herein are also provided.
+
+Ex. 1001, 1:52–62.
+
+The '197 patent's filing date is November 16, 2018. Id., code (22). However, it claims priority through numerous continuation applications and ultimately to a provisional application filed August 20, 2009. Ex. 1001, codes (63), (60), 1:7–23. The Petition does not challenge the asserted priority date of August 20, 2009. See Pet. 6 ("[T]he earliest priority date of the '197 Patent is August 20, 2009.").
+
+## D. The Challenged Claims
+
+Petitioner challenged all of the claims of the '197 patent, namely claims 1–26. Claim 1 is the sole independent claim and reproduced below with the Petition's bracketed labels:
+
+[1A] 1. A method of counting nucleic acids in a sample, the method comprising:
+
+[1B] (a) providing a sample comprising a plurality of cells, wherein a cell of the plurality of cells comprises a plurality of sample polynucleotides;
+
+[1C] (b) generating a plurality of tagged polynucleotides from the plurality of sample polynucleotides of said cell and a plurality of oligonucleotide tags, wherein a tagged polynucleotide of the plurality of tagged polynucleotides comprises:
+
+[1D] (i) a sample sequence from a sample polynucleotide of the plurality of sample polynucleotides;
+
+[1E] (ii) a first tag sequence distinguishing said sample polynucleotide from sample polynucleotides from other cells; and
+
+[1F] (iii) a second tag sequence distinguishing said sample polynucleotide from other sample polynucleotides from said cell;
+
+[1G] (c) sequencing the tagged polynucleotide to determine the sample sequence, the first tag sequence, and the second tag sequence; and
+
+[1H] (d) using the first tag sequence and the second tag sequence to count a number of sample polynucleotides in said plurality of sample polynucleotides of said cell.
+
+Ex. 1001, 30:15–39; Pet. 27–44.
+
+## C. The Asserted Grounds of Unpatentability
+
+Petitioner asserts the following grounds of unpatentability:
+
+<table><tr><td>Claims Challenged</td><td>35 U.S.C. §3</td><td>Basis</td></tr><tr><td>1–4, 6–11, 20, 23–25</td><td>103(a)</td><td>Linnarsson, $^{4}$  McCloskey $^{5}$ </td></tr><tr><td>5, 12, 21, 22, 26</td><td>103(a)</td><td>Linnarsson, McCloskey, and “further in view of the knowledge of a [person of ordinary skill in the art]”</td></tr><tr><td>13–19</td><td>103(a)</td><td>Linnarsson, McCloskey, McCloskey II6</td></tr></table>
+
+Pet. 4–5.
+
+## II. ANALYSIS
+
+## A. Claim Construction
+
+The challenged claims should be read in light of the Specification, as it would be interpreted by one of ordinary skill in the art. In re Suitco Surface, Inc., 603 F.3d 1255, 1260 (Fed. Cir. 2010). Thus, we generally give claim terms their ordinary and customary meaning. See In re Translogic Tech., Inc., 504 F.3d 1249, 1257 (Fed. Cir. 2007) (“The ordinary and customary meaning is the meaning that the term would have to a person of ordinary skill in the art in question.” (internal quotation marks omitted)); see also 37 C.F.R. § 42.100(b) (stating that claims are construed in IPRs according to the same standard as used in federal court).
+
+The Petition states that “Petitioner does not believe that any terms require explicit construction in view of the prior art being presented.” Pet. 26. Despite this stated position, Petitioner argues that the ’197 patent provides a definition for the claim term “sample,” namely, “a quantity of material from a biological, environmental, medical, or patient source in
+
+which detection, measurement, or labeling of target nucleic acids is sought." Id. (quoting Ex. 1001, 12:7–10). Patent Owner, in its Preliminary Response, stated that it "agrees that at this time, solely for purposes of an institution decision on the Petition, no terms require explicit construction." Prelim. Resp. 46. In instituting the IPR, we found no need to provide an express construction of any claim term. See generally Dec. on Reh'g; see also Paper 7, at 6 ("Inst. Dec.").
+
+In the Patent Owner Response, Patent Owner repeats that it “does not believe any term needs construction,” but nonetheless “applies the Petition’s definition for ‘sample.’” PO Resp. 23. We apply this same definition in our analysis.
+
+## B. Obviousness Generally
+
+A claim is unpatentable “if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a person having ordinary skill in the art to which said subject matter pertains.” 35 U.S.C. § 103(a). “Obviousness is a question of law based on underlying facts.” MobileMedia Ideas LLC v. Apple Inc., 780 F.3d 1159, 1167 (Fed. Cir. 2015). The underlying facts include (i) the scope and content of the prior art, (ii) any differences between the prior art and the claimed invention, (iii) the level of ordinary skill in the field of the invention, and (iv) any relevant objective considerations of nonobviousness. Id. (citing Graham v. John Deere of Kan. City, 383 U.S. 1, 17–18 (1966)). Further, if all the elements of an invention are found in a combination of prior art references, then:
+
+a proper analysis under § 103 requires, inter alia, consideration of two factors: (1) whether the prior art would have suggested to those of ordinary skill in the art that they should make the claimed composition or device, or carry out the claimed process; and (2) whether the prior art would also have revealed that in so making or carrying out, those of ordinary skill would have a reasonable expectation of success.
+
+Medichem, S.A. v. Rolabo, S.L., 437 F.3d 1157, 1164 (Fed. Cir. 2006).
+
+## C. Level Of Ordinary Skill In The Art
+
+In determining whether an invention would have been obvious at the time it was made, we consider the level of ordinary skill in the pertinent art at the time of the invention. Graham, 383 U.S. at 17. “The importance of resolving the level of ordinary skill in the art lies in the necessity of maintaining objectivity in the obviousness inquiry.” Ryko Mfg. Co. v. Nu-Star, Inc., 950 F.2d 714, 718 (Fed. Cir. 1991). The “person having ordinary skill in the art” is a hypothetical construct, from whose vantage point obviousness is assessed. In re Rouffet, 149 F.3d 1350, 1357 (Fed. Cir. 1998).
+
+## According to Petitioner:
+
+A person of ordinary skill in the art (“POSA”) relating to the ’197 Patent would have had (1) a Masters degree and/or Ph.D. in molecular biology, genetics, chemistry, engineering, or a related discipline and at least two years of post-Masters, postdoctoral, or industry experience or (2) a Bachelor of Science in such disciplines and at least five years of academic or industry experience (including any experimental work toward a graduate degree), relating to DNA sequencing technologies, amplification methods, and gene expression analysis. EX1002 ¶ 52. Further, a POSA would have been familiar with associated tools, methods, and techniques including: (1) polynucleotide tagging, (2) amplification, (3) use of tags to overcome amplification bias,
+
+(4) single cell analysis, (5) ligation and primer extension, and (6) sequencing. See generally EX1002 ¶¶ 53, 72–99.
+Pet. 13–14. $^{7}$
+
+Patent Owner does not directly dispute Petitioner's proposal but does offer its own proposal. PO Resp. 22. Patent Owner proposes that the skilled artisan “would have had a Ph.D. in molecular biology, molecular genetics, biochemistry, physics, mechanical engineering, or a related discipline, with two years of academic, research, or industry experience in the field of genomic or transcriptome sequencing.” Id. (citing Ex. 2013 ¶¶25–26 $^{8}$ ).
+
+Both of the parties' proposals as to the level of ordinary skill in the art are consistent with the disclosure of the '197 patent and the asserted prior art. The distinction between the parties' proposals would not change the outcome of this Decision. Thus, we adopt and apply Patent Owner's proposal.
+
+## D. The Prior Art
+
+“A petitioner in an inter partes review may request to cancel as unpatentable 1 or more claims of a patent only on a ground that could be raised under section 102 or 103 and only on the basis of prior art consisting of patents or printed publications.” 35 U.S.C. § 311(b). Petitioner here asserts three printed publications: Linnarsson (Ex. 1003), McCloskey (Ex. 1004), and McCloskey II (Ex. 1055).
+
+## 1. Linnarsson
+
+Linnarsson is titled “Gene Expression Analysis In Single Cells.” Ex. 1003, code (54). Linnarsson discloses “a method of preparing [complimentary DNA or] cDNA libraries which can be used to analyze gene expression in a plurality of single cells.” Id. at 3:22–23. In one embodiment,
+
+the method includes the steps of releasing [messenger RNA or] mRNA from each single cell to provide a plurality of individual mRNA samples, synthesizing a first strand of cDNA from the mRNA in each individual mRNA sample and incorporating a tag into the cDNA to provide a plurality of tagged cDNA samples, pooling the tagged cDNA samples and amplifying the pooled cDNA samples to generate a cDNA library having double-stranded cDNA.
+
+Id. at 3:26–30. Linnarsson discloses the following “overview” of such a method:
+
+(A) the tissue of interest is dissected; (B) a plurality of single cells are selected; (C) single cells are placed in separate wells of a 96-well plate and lysed; tagged reverse transcription is performed on each sample to produce cDNA; (D) cDNA samples are pooled and amplified; (E) sequencing is performed to obtain 100 million reads; and (F) identification of expressed genes and identification of cells from which they originated.
+
+Id. at 4:8–13. Linnarsson discloses that the tag may be incorporated during cDNA synthesis via a tagged cDNA synthesis primer (“CDS”) and/or a tagged template switching oligonucleotide (“TSO”). Id. at 18:31–32 (“In some aspects of the invention, a tag can be incorporated into the cDNA during its synthesis. For example, the CDS and/or the TSO can include a tag.”).
+
+Linnarsson claims priority to U.S. Provisional Patent Application No. 61/164,759 (“Linnarsson Provisional,” (Ex. 1015)), filed on March 30, 2009. Ex. 1003, code (30). Petitioner argues that the Linnarsson Provisional supports at least one claim of Linnarsson, and, thus, Linnarsson is prior art as of the March 30, 2009, filing date of the Linnarsson Provisional. Pet. 14–16. As such, Petitioner asserts that Linnarsson is prior art to the challenged claims under 35 U.S.C. § 102(e). See id. at 15 (“Linnarsson is prior art to the challenged claims even if the Challenged Claims of the ’197 Patent are entitled to their earliest priority date of August 20, 2009.”).
+
+Patent Owner does not dispute that Linnarsson is prior art to the challenged claims. Indeed, in its Preliminary Response, Patent Owner pointed out that Linnarsson “was the basis of multiple rejections by the Office in the ’957 application that matured into the related ’981 (against which ’197 is terminally disclaimed).” Prelim. Resp. 6 (citing Ex. 1005, 114; Ex. 2001, 153–56). This is true. In fact, Linnarsson was cited as an anticipatory reference twice during the examination of the ’957 application. See Ex. 2001, 154 (Dec. 27, 2017, Final Action: “Claim(s) 1–6 are rejected under pre-AIA 35 U.S.C. 102(A)(1)/(A)(2) as being anticipated by Linnarsson.”), 193 (July 10, 2018, Final Action stating the same).
+
+Patent Owner, however, does dispute that Linnarsson is analogous art. PO Resp. 70–71. We address that issue below.
+
+## 2. McCloskey
+
+McCloskey is titled “Encoding PCR Products with Batch-stamps and Barcodes.” Ex. 1004, 1. McCloskey explains that when employing the polymerase chain reaction (“PCR”), there is “always uncertainty concerning the source of the template DNA that gave rise to a particular PCR product."
+
+## Id. McCloskey reports that it solved this problem by using
+
+an encoding oligonucleotide with five distinct informational regions (Fig. 1): (1) the batch-stamp, unique to each experiment, specifies the DNA source such as the patient or sample identification, and the date of reaction; (2) the random barcode distinguishes among sequences arising from different cell or allele copies; (3) the primer-binding site facilitates specific PCR amplification; (4) the genomic target-binding site targets the locus to be encoded prior to amplification; and (5) the extra 5' bases serve as an internal sentinel of recoding. This encoding oligonucleotide is annealed to denatured DNA and extended by Sequenase (USB) (Fig. 1). Sequenase-extension products are column-filtered to remove any unincorporated, encoding oligonucleotides and amplified using standard PCR protocols (Fig. 1).
+
+Ex. 1004, 2. Such an encoding oligonucleotide with two tag sequences is the heart of what Petitioner relies upon with respect to McCloskey. See, e.g., Pet. 22 (“McCloskey discloses a method of DNA analysis for single-cell samples that utilizes an ‘encoding oligonucleotide’ having ‘five distinct information regions,’ two of which are tag sequences that distinguish, respectively, polynucleotides and samples.”).
+
+According to the face of McCloskey, it was published in 2007, which is more than one year before the earliest possible effective filing date of the challenged claims (i.e., August 20, 2009). Ex. 1004, 1. As such, Petitioner asserts that McCloskey is prior art to the challenged claims under 35 U.S.C. § 102(a) and (b). Pet. 21.
+
+Patent Owner disputes that McCloskey is prior art, which we address below. PO Resp. 21–22. Patent Owner also disputes that McCloskey is analogous art, which we also address below. Id. at 70–71.
+
+## 3. McCloskey II
+
+McCloskey II is titled “Molecular Encoding Of Nucleic Acid Templates For PCR And Other Forms Of Sequence Analysis.” Ex. 1055, code (54). Petitioner asserts that the disclosure of McCloskey II is “similar” to that of McCloskey, with the main difference being that “McCloskey II discloses that its barcode sequence may comprise up to 30 nucleotides.” Pet. 26 (citing Ex. 1055 ¶21).
+
+McCloskey II was published in 2007 (see Ex. 1055, code (43)), which is more than one year before the earliest possible effective filing date of the challenged claims (i.e., August 20, 2009). As such, Petitioner asserts that McCloskey II is prior to the challenged claims under 35 U.S.C. § 102(a) and (b). See Pet. 25.
+
+Patent Owner does not dispute that McCloskey II is prior art to the challenged claims. Indeed, in its Preliminary Response, Patent Owner pointed out that McCloskey II was considered as prior art during prosecution of a related application. Prelim. Resp. 11 (citing Ex. 2002, 335–336). Patent Owner, however, does dispute that McCloskey II is analogous art, which we address next. PO Resp. 70–71.
+
+## 4. Linnarsson, McCloskey, and McCloskey II are Analogous Art
+
+“Although § 103 does not, by its terms, define the ‘art to which [the] subject matter [sought to be patented] pertains,’ this determination is frequently couched in terms of whether the art is analogous or not, i.e., whether the art is ‘too remote to be treated as prior art.’” In re Clay, 966 F.2d 656, 658 (Fed. Cir. 1992) (quoting In re Sovish, 769 F.2d 738, 741
+
+(Fed. Cir. 1985)). “Whether a reference in the prior art is ‘analogous’ is a fact question.” Clay, 966 F.2d at 658. “Two criteria have evolved for determining whether prior art is analogous: (1) whether the art is from the same field of endeavor, regardless of the problem addressed, and (2) if the reference is not within the field of the inventor’s endeavor, whether the reference still is reasonably pertinent to the particular problem with which the inventor is involved.” Id. at 658–59.
+
+Patent Owner argues that “[n]owhere does Petitioner assert—let alone attempt to show— that any of the three references named in its grounds (primary reference Linnarsson and secondary references McCloskey and McCloskey II) is analogous art to ’197.” PO Resp. 70 (citing Pet. 38–40, 65–7). As Patent Owner explains it, the Petition asserts that the references are analogous to each other but does not assert that they are analogous to the challenged claims. Id. (citing Sanofi-Aventis Deutschland GmbH v. Mylan Pharms. Inc., 66 F.4th 1373, 1380 (Fed. Cir. 2023)).
+
+Patent Owner is correct that, under Sanofi-Aventis, a petitioner bears the burden of persuasion to establish that an asserted prior art reference is analogous art to the claimed invention. See Sanofi-Aventis, 66 F.4th at 1377 (“We agree with [the patent owner] that [the petitioner] did not carry its burden to argue that de Gennes is analogous to the [challenged] patent.”); id. (“In evaluating whether a reference is analogous, we have consistently held that a patent challenger must compare the reference to the challenged patent.”); id. at 1378–79 (“We have routinely held that the petitioner has the burden of proving unpatentability.”). However, as we noted when instituting this proceeding, “Sanofi-Aventis further held: ‘A petitioner is not required to anticipate and raise analogous art arguments in its petition; instead a
+
+petitioner can use its reply to “respond to arguments raised in the corresponding opposition, patent owner preliminary response, patent owner response, or decision on institution.”” Dec. on Reh’g 15 (quoting Sanofi-Aventis, 66 F.4th at 1379 (quoting 37 C.F.R. § 42.23)).
+
+In its Reply, Petitioner argues that Linnarsson is analogous art because, like the specification and claims of the '197 patent, it "deal[s] with 'analysis of gene expression in single cells or in a plurality of single cells' based on nucleic acid tagging and sequencing." Pet. Reply 26 (citing Ex. 1003, Abstr., 1:6–9, 3:25–4:2, 9:23–10:2, 10:15–30, Fig. 11, claims 1, 23, 24; Ex. 1001, code (54), Abstr., 6:33–7:22, claim 1; Ex. 1070 ¶¶169). In its Reply, Petitioner also argues that McCloskey and McCloskey II are analogous art because, like the specification and claims of the '197 patent, "both references deal with tagging polynucleotides for amplification, with McCloskey even teaching a two-part tag that identifies the 'DNA source such as the patient or sample identification' and also 'distinguishes among sequences arising from different cell or allele copies.'" Pet. Reply 26–27 (footnote omitted) (citing Ex. 1004, 2, Fig. 1; Ex. 1001, code (54), Abstr., 6:33–7:22, claim 1; Ex. 1070 ¶170); see also Ex. 1055 ¶¶5–11.
+
+We find that all three references are analogous art to the '197 patent, as there is ample supporting evidence in the record, including that to which the Reply cites (citations identified in the immediately preceding paragraph). Indeed, Patent Owner does not dispute the merits of Petitioner's Reply arguments. PO Sur-reply 30–31. Rather, Patent Owner, argues that we "should not now permit Petitioner to rewrite its clearly-deficient Petition." Id. at 31.
+
+Petitioner's Reply does not re-write its Petition. What Petitioner's Reply does, in response to Patent Owner's arguments, is precisely what Sanofi-Aventis contemplates as being proper in a reply brief. Indeed, in ruling against the petitioner in Sanofi-Aventis, the Federal Circuit specifically noted that the petitioner could have used its reply brief “to explain how [the prior art reference] is analogous to the [challenged] patent” but did not do so. 66 F.4th at 1379–1380. Here, in contrast, Petitioner uses its Reply brief to explain how the references are analogous to the ’197 patent. Petitioner’s explanation in its Reply brief is both proper and persuasive.
+
+## 5. McCloskey is a Prior Art Printed Publication; Patent Owner's Motion to Exclude is Granted-in-Part and Denied-in-Part
+
+McCloskey is an article titled “Encoding PCR Products with Batch-stamps and Barcodes,” and authored by Megan L. McCloskey, Reinhard Stoger, R. Scott Hansen, and Charles D. Laird. Ex. 1004, 1. Petitioner argues that McCloskey is a prior art printed publication because it was published in BIOCHEMICAL GENETICS in 2007, as indicated on the cover of McCloskey. Pet. 21 (citing Ex. 1004, 1; Ex. 1028). Exhibit 1028 is not relevant to the prior art status of McCloskey and appears to have been prepared for another matter. See Ex. 1028 ¶¶43, 50, 57 (discussing three references, none of which is McCloskey, McCloskey II, or Linnarsson).
+
+Patent Owner argues that “Petitioner failed to establish McCloskey is, in fact, prior art to ’197.” PO Resp. 21 (citing Standard Innovation Corp. v. Lelo, Inc., No. IPR2014-00148, Paper 41 at 18–28 (Apr. 23, 2015); Dropbox, Inc. v. Synchronoss Techs., No. IPR2016-00850, Paper 41 at
+
+18–23 (Oct. 5, 2016); Liquidia Techs. v. United Therapeutics Corp., No. IPR2020-00770, Paper 45, at 56–57 (Oct. 8, 2021)). Patent Owner does not explain how Petitioner allegedly failed to prove McCloskey is prior art. Instead, Patent Owner implies, via its description of Standard Innovation's holding, that Petitioner failed to prove that McCloskey is what it has been represented to be and/or that it was actually published in 2007. PO Resp. 21.
+
+With its Reply, Petitioner submitted a second declaration from the same witness who executed the irrelevant Exhibit 1028, i.e., Sylvia Hall-Ellis, Ph.D. Ex. 1085. In that second declaration, Dr. Hall-Ellis includes an Exhibit A, which she testifies includes a copy of McCloskey that she obtained from Linda Hall Library of Science, Engineering & Technology. Id. ¶¶43–50, “Exhibit A.” Dr. Hall-Ellis testifies that McCloskey is the article it appears to be, was published in BIOCHEMICAL GENETICS in 2007, and was received, catalogued, and indexed, and made publicly available by Linda Hall Library on or shortly after January 3, 2008. Id. ¶¶43–50.
+
+Patent Owner filed a Motion to Exclude the second Hall-Ellis declaration (Ex. 1085) and McCloskey (Ex. 1004). PO Mot. To Exclude.
+
+With respect to the second Hall-Ellis declaration, Patent Owner objected to its admissibility on the basis that, among other things, it “should have been served, but was not, as supplemental evidence within ten business days of [Patent Owner] 10x’s timely objection under 37 C.F.R. § 42.64(b)(2)” to McCloskey. Paper 27, 4. $^{9}$ More specifically, Patent
+
+Owner had previously objected -- on February 15, 2024 -- to McCloskey as allegedly unauthenticated, undated (absent hearsay), and thus irrelevant as not a prior art printed publication as to the challenged claims. Paper 11, 1–2.
+
+Clearly, the second Hall-Ellis declaration is offered to prove that McCloskey is a prior art printed publication. See, e.g., Ex. 1085 ¶50 (“In view of the foregoing, it is my opinion that [McCloskey] was publicly available no later than [January 3, 2008].”). Thus, the second Hall-Ellis declaration should have been served within ten business days of Patent Owner’s February 15, 2024, objection to the admissibility of McCloskey. See 37 C.F.R. § 42.64(b)(2) (“The party relying on evidence to which an objection is timely served may respond to the objection by serving supplemental evidence within ten business days of service of the objection.”).
+
+In its Opposition to the Motion to Exclude, Petitioner argues that, under Hulu LLC v. Sound View Innovations, LLC, No. IPR2018-01039, Paper 29 (Dec. 20, 2019) (precedential), it was allowed to wait until its Reply to file the second Hall-Ellis declaration. Paper 37, 2. The Board in Hulu does state that, “if the patent owner challenges a reference’s status as a printed publication, a petitioner may submit a supporting declaration with its reply to further support its argument that a reference qualifies as a printed publication.” Hulu at 15 (37 C.F.R. § 42.23). However, the Board’s statement was referring to the scope of permissible reply arguments under 37 C.F.R. § 42.23(b). See Hulu at 14 (quoting 37 C.F.R. § 42.23(b)’s
+
+requirement that “[a] reply may only respond to arguments raised in the corresponding opposition, patent owner preliminary response, or patent owner response”). The Board in Hulu does not purport to interpret 37 C.F.R. § 42.64 or even discuss supplemental evidence. Petitioner clearly missed the deadline imposed by 37 C.F.R. § 42.64(b)(2), which was triggered by Patent Owner’s February 15, 2024, objection to McCloskey. Patent Owner’s Motion to Exclude is granted with respect to the second Hall-Ellis declaration (i.e., Ex. 1085).
+
+Despite the exclusion of the second Hall-Ellis declaration, there is ample evidence in the record demonstrating that McCloskey is a prior art printed publication. McCloskey itself states: “Received: 31 January 2007 / Accepted: 29 May 2007 / Published online: 23 October 2007.” Ex. 1004, 1. McCloskey additionally states that it was published in a 2007 print issue of “Biochem Genet,” with Petitioner adding that the full name of the journal is BIOCHEMICAL GENETICS and that McCloskey was published in a December 2007 volume of the journal. Id.; Pet. 29. McCloskey also includes a copyright notice by “Springer Science+Business Media, LLC” with a date of date of 2007. Ex. 1004, 1. Patent Owner argues that this is unreliable hearsay that should be excluded. PO Mot. To Exclude 4 (citing Neste Oil Oyj v. REG Synthetic Fuels, LLC, No. IPR2013-00578, Paper 53 at 5–7 (Mar. 12, 2015); Standard Innovation Corp. v. Lelo, Inc., No. IPR2014-00148, Paper 42 $^{10}$ at 13–18, 21–22 (Apr. 23, 2015)). We are not persuaded by Patent Owner's argument or its reliance on these cases. The facts before us are different.
+
+In Neste Oil, the Board “note[d] that the alleged ‘stamps’ of Exhibits 1125 and 1132 are actually handwritten dates, added to the documents by an unknown person at an unknown time.” Neste Oil, Paper 53 at 6. In contrast, the dates relied upon by Petitioner are printed, appear to have been included at the time of printing, and appear to have been printed by, or at the direction of, the journal and/or copyright holder, both of which are identified by McCloskey. Ex. 1004, 1.
+
+In Standard Innovation, the alleged prior art exhibits were “printouts of … webpages” bearing a copyright indication of “© 2003-2013,” which the petitioner argued was proof of subset of the webpages being disseminated publicly in 2003. Standard Innovation, Paper 42 at 13. This is a far cry from McCloskey, which is a journal article and which includes specific date information, not only of publishing, but also of when the journal received and accepted the article for publication as well as when it was copyrighted. Ex. 1004, 1.
+
+That McCloskey is what it purports to be (a journal article) and that it was published in 2007 are corroborated by multiple pieces of evidence.
+
+McCloskey names four authors, all of whom are named inventors of McCloskey II. Ex. 1004, 1; Ex. 1055, code (76). Patent Owner concedes that McCloskey and McCloskey II involve the same subject matter, having argued that the consideration of McCloskey II supported discretionary denial of the Petition based on McCloskey. See, e.g., Prelim. Resp. 25 (“McCloskey is cumulative of McCloskey II.”). Notably, McCloskey II was published on January 25, 2007. Ex. 2001, code (43). That is just days
+
+before McCloskey was received by BIOCHEMICAL GENETICS on January 31, 2007. See Ex. 1004, 1 (“Received: 31 January 2007 / Accepted: 29 May 2007 / Published online: 23 October 2007”). In other words, it appears that the authors sought to have their research published in a scientific journal promptly after the subject matter of their research had been published by the Office.
+
+Further, the existence of McCloskey and its publication year of 2007 is confirmed by other references in the record. See Ex. 1029, code (56) (United States Patent identifying as a cited reference: “McCloskey, et al. Encoding Pcr products with batch-stamps and barcodes. Biochem Genet. Dec. 2007;45(11-12):761-7. Epub Oct. 23, 2007.”); Ex. 1053, code (56) (same); Ex. 1060, 13 (article’s bibliography citing “McCloskey ML, Stöger R, Hansen RS, Laird CD. Encoding PCR products with batch-stamps and barcodes. Biochem. Genet 2007;45:761–767. [PubMed: 17955361]”).
+
+Patent Owner points out that one of the three just-cited references of record, i.e., Exhibit 1053, “issued in 2017 and thus post-dates the priority date by eight years, and therefore does not constitute evidence that McCloskey was publicly accessible as of the 2009 priority date.” PO Mot. To Exclude 6 (citing Ex. 1053). Although Exhibit 1053, published in 2017, is not contemporaneous evidence of the 2007 publication of McCloskey, it nonetheless is evidence helping to corroborate that McCloskey was, in fact, published in 2007. More importantly, additional corroborative evidence exists in the record. In particular, another of the three references cited above, i.e., Ex. 1060, was published shortly after McCloskey, in December 2008, and references McCloskey as being published in the same page range (pages 761–767) of the same volume (45) of the same periodical
+
+(BIOCHEMICAL GENETICS) as appears on McCloskey itself. Compare Ex. 1060, 13 (“Biochem. Genet 2007;45:761–767”), with Ex. 1004, 1 (“Biochem Genet (2007) 45:761–767”). This evidence is the figurative nail in the coffin for Patent Owner’s argument that McCloskey is not a prior art printed publication. $^{11}$
+
+Patent Owner's Motion to Exclude is denied with respect to McCloskey (i.e., Ex. 1004). In sum, Petitioner has shown that McCloskey is a printed publication as of 2007 and, thus, prior art to the challenged claims of the '197 patent.
+
+## E. Ground I: Claim 1
+
+Petitioner argues that claim 1, along with claims 2–4, 6–11, 20, 23–25, would have been obvious over Linnarsson and McCloskey. Pet. 4.
+
+Claim 1 is directed to “[a] method of counting nucleic acids in a sample.” Ex. 1001, 30:16–17. The method involves tagging sample polynucleotides with “(ii) a first tag sequence distinguishing said sample polynucleotide from sample polynucleotides from other cells; and (iii) a second tag sequence distinguishing said sample polynucleotide,” and ultimately “(d) using the first tag sequence and the second tag sequence to count a number of sample polynucleotides in said plurality of sample polynucleotides of said cell.” Id. at 30:28–39.
+
+In mapping the prior art to claim 1, the Petition breaks the claim into eight portions, labeled [1A] through [1H], and organizes its arguments accordingly. See Pet. 27–46.
+
+For limitations [1A]–[1E] and [1G], Petitioner relies on Linnarsson alone, which discloses incorporating tags into “cDNA during its synthesis,” wherein each tag has a “barcode” unique to the particular single cell whose mRNA generated the cDNA sample “such that once the tagged cDNA samples [are subsequently] pooled, the tag can be used to identify which single cell from each cDNA sample originated.” Ex. 1003, 18:31–19:11; see Pet. 27 (regarding [1A]), 28 (regarding [1B), 29–32 (regarding [1C]), 33–36 (regarding [1D]), 36–37 (regarding [1E]), 44 (regarding [1G]).
+
+However, the remaining limitations, i.e., [1F] and [1H], limit the generating of a plurality of tagged polynucleotides such that (1) each tagged polynucleotide includes two tag sequences in which the “second tag sequence distinguish[es] said sample polynucleotide from other sample polynucleotides from said cell” and (2) the tags may ultimately be used “to count a number of sample polynucleotides in said plurality of sample polynucleotides of said cell.” Ex. 1001, 30:21–39 (claim 1). For these
+
+limitations, Petitioner relies on modifying Linnarsson in view of McCloskey. Pet. 37–46.
+
+As explained below, we find that Petitioner has shown that the asserted prior art satisfies each limitation of the claim and that the subject matter as a whole would have been obvious at the time of the claimed invention – August 20, 2009.
+
+## 1. [1A] “A method of counting nucleic acids in a sample, the method comprising:”
+
+A claim’s preamble is not necessarily limiting. See, e.g., Pitney Bowes Inc. v. Hewlett Packard Co., 182 F.3d 1298, 1305 (Fed. Cir. 1999). The Petition all but presumes that the preamble of claim 1 is limiting and directs us to prior art disclosures of the subject matter. See Pet. 27 (“To the extent the preamble is limiting, Linnarsson discloses this limitation.”). For example, Petitioner directs us to Linnarsson’s disclosure that “[s]equence reads are mapped to the genome to reveal sites of transcription, and quantitation is based simply on hit counts, with great sensitivity and nearly unlimited dynamic range.” Pet. 27 (quoting Ex. 1003, 2:21–22); see also Ex. 1003, 36:31–33 (cited at Pet. 27).
+
+Patent Owner does not dispute that the prior art teaches the preamble of claim 1. See generally PO Resp. We are persuaded that it does.
+
+2. [1B] “(a) providing a sample comprising a plurality of cells, wherein a cell of the plurality of cells comprises a plurality of sample polynucleotides”
+
+Petitioner argues that Linnarsson discloses this limitation. Pet. 28. Petitioner cites multiple disclosures from Linnarsson in support, including that “[s]ingle cells useful in the methods described herein can be obtained from a tissue of interest, or from a biopsy, blood sample, or cell culture." Ex. 1003, 13:11–12 (cited at Pet. 28). As for the recitation that "a cell of the plurality of cells comprises a plurality of sample polynucleotides," Petitioner cites disclosure from Linnarsson that "single cells are placed in separate wells of a 96-well plate and lysed [and] tagged reverse transcription is performed on each sample to produce cDNA" and, "[i]n some aspects of the invention, mRNA can be released from the cells by lysing the cells." Ex. 1003, 4:10–11, 13:28 (cited at Pet. 28).
+
+Patent Owner does not dispute that the prior art teaches limitation [1B]. See generally PO Resp. We are persuaded that it does.
+
+## 3. [1C] “(b) generating a plurality of tagged polynucleotides from the plurality of sample polynucleotides of said cell and a plurality of oligonucleotide tags”
+
+Petitioner argues that Linnarsson discloses this limitation. Pet. 29–32. Petitioner cites multiple disclosures from Linnarsson in support, including that “tagged reverse transcription is performed on each sample to produce cDNA” and:
+
+As the tag is present in the CDS and/or the TSO it will be incorporated into the cDNA during its synthesis and can therefore act as a “barcode” to identify the cDNA. Both the CDS and the TSO can include a tag. The CDS and the TSO can each include a different tag such that the tagged cDNA sample comprises a combination of tags.
+
+Ex. 1003, 4:11, 19:4–7 (cited at Pet. 29). Petitioner also directs us to figures of Linnarsson showing tags that have been incorporated into polynucleotides. Pet. 30–32 (citing Ex. 1003, Figs. 3–4).
+
+Patent Owner does not dispute that the prior art teaches limitation [1C]. See generally PO Resp. We are persuaded that it does.
+
+4. [1D] “wherein a tagged polynucleotide of the plurality of tagged polynucleotides comprises: (i) a sample sequence from a sample polynucleotide of the plurality of sample polynucleotides”
+
+Petitioner argues that Linnarsson discloses this limitation. Pet. 33–36. Petitioner, with the support of testimony from Dr. Cooper, explains that by virtue of the way a CDS and a TSO work, the sequence of a polynucleotide (whether it is mRNA in the case of a CDS or cDNA in the case of a TSO) is preserved as the amplification occurs. See, e.g., Ex. 1002 ¶148 (Dr. Cooper testifying that Linnarsson Figure 2 shows “that the resulting double-stranded cDNA comprises one strand . . . which is identical to the original sample mRNA.”), ¶149 (Dr. Cooper testifying that “a cDNA synthesized from a sample mRNA comprises the same sample sequence.”); Pet. 33 (citing Ex. 1002 ¶¶148–149).
+
+Patent Owner does not dispute that the prior art teaches limitation [1D]. See generally PO Resp. We are persuaded that it does.
+
+5. [1E] “wherein a tagged polynucleotide of the plurality of tagged polynucleotides comprises: . . . (ii) a first tag sequence distinguishing said sample polynucleotide from sample polynucleotides from other cells”
+
+Petitioner argues that Linnarsson discloses this limitation. Pet. 36–37. Petitioner cites multiple disclosures from Linnarsson in support, including that “tagged reverse transcriptase is performed on each sample to produce cDNA” and this allows for “identification of expressed genes and
+
+identification of cells from which they originated.” Ex. 1003, 4:8–13 (cited at Pet. 36); see also Ex. 1003, 19:5–11 (disclosing that the use of its tagged CDS and TSO results in tagged cDNA).
+
+Patent Owner does not dispute that the prior art teaches limitation [1E]. $^{12}$ See generally PO Resp. We are persuaded that it does.
+
+6. [1F] “wherein a tagged polynucleotide of the plurality of tagged polynucleotides comprises: . . .
+(iii) a second tag sequence distinguishing said sample polynucleotide from other sample polynucleotides from said cell”
+
+Limitation [1F] recites “a second tag sequence,” which is in addition to the “first tag sequence” recited in limitation [1E]. Petitioner relies on a modification of Linnarsson in view of McCloskey to reach this dual-tag feature. See, e.g., Pet. 37 (“The combination of Linnarsson and McCloskey teaches this claim element.”).
+
+First, Petitioner directs us to McCloskey's disclosure of an “encoding oligonucleotide” that comprises two tag sequences. Pet. 37–38 (citing Ex. 1004, 1–3, Fig. 1.). Figure 1(A) of McCloskey is reproduced below.
+
+![](images/515576be7002df7b1354161450b74f925a83f87298611f7494de341a269b1952.jpg)
+
+Ex. 1004, Fig. 1(A). Figure 1(A) of McCloskey above shows encoding oligonucleotide having “five distinct regions,” namely “a genomic target-binding site, a batch-stamp, a barcode, a primer-binding site for PCR, and extra bases that serve as internal sentinels of recoding as well as tethering the oligonucleotide to itself.” Ex. 1004, 3. Petitioner argues that “McCloskey’s encoding oligonucleotide comprises two tag sequences: (1) a ‘batch-stamp’ sequence . . . to identify the experimental batch or genomic source (e.g., a single cell) and (2) a ‘barcode’ . . . to distinguish polynucleotide sequences ‘arising from different cell or allele copies.’” Pet. 37–38 (quoting Ex. 1004, 2). As noted by Petitioner, in McCloskey, “the batch-stamp, unique to each experiment, specifies the DNA source such as the patient or sample identification, and the date of reaction” and “the random barcode distinguishes among sequences arising from different cell or allele copies.” Pet. 38 (quoting Ex. 1004, 2).
+
+The Petition additionally relies on McCloskey for teaching “that the ‘batch-stamps and barcodes [should] be used when amplifying irreplaceable DNAs and cDNAs for . . . single cell . . . analyses,’ and that its method of tagging applies ‘to single-stranded [DNA or] cDNA templates.’” Pet. 38
+
+(quoting Ex. 1004, 1–2). $^{13}$ Based on these teachings and declaration testimony of Dr. Cooper, Petitioner persuasively argues that a person of ordinary skill in the art would “would have understood that McCloskey’s reference to ‘different cell or allele copies’ encompasses cDNA (i.e., sample polynucleotides) from single cell experiments.” Id. at 51 (citing Ex. 1002 ¶¶65, 184; Ex. 1004, 1–2).
+
+Ultimately, Petitioner argues that “[i]t would have been obvious to combine Linnarsson’s methods of cDNA library preparation and analyzing tagged nucleic acids with McCloskey’s teachings to use an encoding oligonucleotide comprising a second tag sequence that distinguishes sample polynucleotides derived from the same single cell.” Pet. 38–39. Petitioner argues that the modification “would be identical to the approach already set forth in Linnarsson, except that the cell-tag sequence in Linnarsson would be conceptually divided into two portions: one that codes for the unique cell and one that codes for the unique molecule.” Pet. 43. As Dr. Cooper explains it:
+
+The only difference between Linnarsson and McCloskey is that Linnarsson discloses annealing one or more oligonucleotides (i.e., the CDS and/or TSO) each comprising one tag sequence, whereas McCloskey discloses annealing an oligonucleotide comprising two tag sequences.... However, a POSA would have found this difference to be trivial because a POSA could conceptually divide each of Linnarsson's cell-tag sequence into two portions, wherein the first portion performs the function of McCloskey's "batch-stamp," used to track individual cells, and the second portion performs the function of
+
+McCloskey's "barcode", used to differentiate polynucleotides within a cell. Ex. 1002 ¶168.
+
+We are persuaded that such a modification would have resulted in the claimed subject matter, including the use of a dual-tag that satisfies limitations [1E] and [1F].
+
+As alluded to above, Patent Owner argues that the proposed modification would complicate satisfaction of limitation [1E], which we addressed in the prior section. Specifically, Patent Owner argues that, “in attempting to establish obviousness of element [1F], Petitioner and its expert improperly abandon their relied-on existing Linnarsson cell-tag (the Petition’s ‘first tag’ for elements [1E] and [1H])”). PO Resp. 41. As Patent Owner explains it, “Petitioner cannot rely on disclosure in one reference to cover a limitation, and then reverse course and modify that same disclosure using another reference in a subsequent limitation.” Id. at 43.
+
+Patent Owner's argument is not persuasive. Petitioner is not reversing course or abandoning its reliance on Linnarsson's cell tag. Petitioner is proposing a modification to Linnarsson's cell tag such that it would be conceptually divided into two sequences that carry out the same functions as McCloskey's batch stamp and bar code. Pet. 43; Ex. 1002 ¶168.
+
+Further, and as discussed below in Sections II.E.(9) and (10), we are persuaded that a person of ordinary skill in the art would have had a sufficient reason to make the modification and a reasonable expectation of success in doing so.
+
+7. [1G] “(c) sequencing the tagged polynucleotide to determine the sample sequence, the first tag sequence, and the second tag sequence”
+
+Petitioner argues that “Linnarsson teaches that after generating the tagged polynucleotides, ‘sequencing is performed’ thereon.” Pet. 44 (quoting Ex. 1003, 4:12). Petitioner further argues that a person of ordinary skill in the art “would have understood that such sequencing is performed on the entire tagged polynucleotide, which includes the sample sequence and both tag sequences.” Pet. 44 (emphasis added) (citing Ex. 1002 ¶176). Petitioner directs us to additional portions of Linnarsson that discuss sequencing, including its teaching that the generated “cDNA library can be sequenced to provide an analysis of gene expression in single cells or in a plurality of single cells.” Ex. 1003, 21:24–25 (cited at Pet. 44); see also Ex. 1003, 19:28–32, 21:13–25 (cited at Pet. 44).
+
+Patent Owner disputes that Linnarsson teaches sequencing of an entire tagged polynucleotide and instead teaches sequencing of only portions or fragments of tagged polynucleotides. PO Resp. 26–32. One might reasonably assume, based on those arguments, that Patent Owner construes the limitation to require sequencing the entire tagged polynucleotide. But Patent Owner does not. Patent Owner's position, which we explain in more detail below, is a curious one. It is not persuasive.
+
+In the Patent Owner Response, Patent Owner argues that Petitioner has not shown that Linnarsson teaches sequencing the entirety of cDNA molecules and has shown only that Linnarsson teaches sequencing of fragments of the cDNA molecules. According to Patent Owner,
+
+Petitioner ignores that Linnarsson's disclosed STRT method (the process on which Petitioner relies, supra, 6–7) sequences only the “5' fragment” and fails to address whether or how “sequencing is [or would be] performed on the entire tagged polynucleotide,” or whether or how sequencing only the “5' fragment” (i.e., what Linnarsson actually discloses) is sufficient to satisfy Petitioner’s argument for meeting the claim element.
+
+PO Resp. 26–27 (alterations in original) (citing Ex. 2013 ¶59); see also PO Resp. 27 (“Petitioner’s own citations fail to show Linnarsson discloses sequencing the entirety of the ‘tagged polynucleotide.’”).
+
+In its Reply, Petitioner maintains that Linnarsson, in fact, teaches sequencing the entire[ty] of tagged polynucleotides. See, e.g., Pet. Reply 5 (“Patent Owner’s contention that Linnarsson does not disclose sequencing “entire” polynucleotides . . . is based on the mistaken view that Linnarsson requires the fragmentation approach of Figure 11,” which it does not.). We need not find whether it does, however, because Petitioner persuasively argues that the “sequencing” limitation does not require sequencing of an entire tagged polynucleotide. Pet. Reply 5 (citing Ex. 1070 ¶¶23–32, 77–92; Ex. 1069, 12:12–19, 67:16–22, 68:16–17:2; Ex. 1071, 75:3–7, 78:15–24, 80:8–19, 171:24–172:19, 173:8–20).
+
+Indeed, Patent Owner does not argue that the “sequencing” limitation requires sequencing of an entire tagged polynucleotide. PO Sur-reply 4–5; Tr. 27:22–23 (Counsel for Petitioner confirming “we’ve never argued” that the limitation requires sentencing the entire tagged polynucleotide). Rather, Patent Owner argues that “Petitioner’s sole argument for disclosure of the sequencing limitation” is that Linnarsson discloses sequencing the entire polynucleotide. PO Sur-reply 4. In Patent Owner’s view, any reliance by Petitioner on sequencing less than an entire and unfragmented tagged polynucleotides constitutes a new and improper argument. See id. at 5
+
+("Petitioner is foreclosed from starting over now with improper new arguments for this limitation."). We disagree with Patent Owner's characterization of Petitioner's argument.
+
+It cannot be disputed that Linnarsson explicitly teaches “sequencing is performed” on tagged polynucleotides after they are amplified, as set forth in the following disclosure:
+
+Figure 1, panels A–F, show an overview of a method of analyzing gene expression in a plurality of single cells. (A) the tissue of interest is dissected; (B) a plurality of single cells are selected; (C) single cells are placed in separate wells of a 96-well plate and lysed; tagged reverse transcription is performed on each sample to produce cDNA; (D) cDNA samples are pooled and amplified; (E) sequencing is performed to obtain 100 million reads; and (F) identification of expressed genes and identification of cells from which they originated.
+
+Ex. 1003, 4:8–13 (emphasis added). Nor can it be disputed that Petitioner cited this very disclosure as teaching limitation [1G]. See Pet. 44 (“Linnarsson teaches that after generating the tagged polynucleotides, ‘sequencing is performed’ thereon. See EX1003 at 4:8–13.”). This alone adequately supports Petitioner’s challenge, and it is not a new or improper argument.
+
+8. [1H] “(d) using the first tag sequence and the second tag sequence to count a number of sample polynucleotides in said plurality of sample polynucleotides of said cell.”
+
+As discussed above, Petitioner proposes that a person of ordinary skill in the art would have combined Linnarsson's and McCloskey's teachings such “that the cell-tag sequence in Linnarsson would be conceptually divided into two portions: one that codes for the unique cell and one that
+
+codes for the unique molecule.” Pet. 43. In relation to limitation [1H], Petitioner argues that “McCloskey discloses that these tags allow the precise count of sample polynucleotides in each sample single-cell to be determined.” Pet. 45. In support, Petitioner quotes McCloskey’s teaching that “counting sequences with nonredundant barcodes provides a quantitative measure of template diversity.” Id. (quoting Ex. 1004, 6). Petitioner also offers Dr. Cooper’s testimony that “tagging and counting nucleic acid molecules were well-known” before the claimed invention. Ex. 1002 ¶79. Dr. Cooper’s testimony in that regard is founded, in part, on the ’197 patent stating that “[a]ny convenient method for tagging and/or counting individual nucleic acid molecules with unique tags may be employed” and citing prior art patents and applications purportedly disclosing such methods of tagging and counting. Id. (citing Ex. 1001, 22:38–45).
+
+Patent Owner does not dispute that the prior art teaches limitation [1H]. See generally PO Resp. We are persuaded that it does.
+
+## 9. Reason To Combine
+
+“[A] patent composed of several elements is not proved obvious merely by demonstrating that each of its elements was, independently, known in the prior art.” KSR Int’l Co. v. Teleflex Inc., 550 U.S. 398, 418 (2007). “[I]t can be important to identify a reason that would have prompted a person of ordinary skill in the relevant field to combine the elements in the way the claimed new invention does.” Id.; see also In re Kahn, 441 F.3d 977, 988 (Fed. Cir. 2006) (“[R]ejections on obviousness grounds cannot be sustained by mere conclusory statements; instead, there must be some
+
+articulated reasoning with some rational underpinning to support the legal conclusion of obviousness").
+
+Petitioner argues that “[i]t would have been obvious to combine Linnarsson’s methods of cDNA library preparation and analyzing tagged nucleic acids with McCloskey’s teachings to use an encoding oligonucleotide comprising a second tag sequence that distinguishes sample polynucleotides derived from the same single cell” and presents two rationales in support. Pet. 38–39. First, Petitioner argues that doing so would have been an obvious design choice. Id. at 39–40. Second, Petitioner argues a skilled artisan would have made the combination because Linnarsson discloses a problem, PCR-induced amplification bias, for which McCloskey teaches a solution. Id. at 40–42. As discussed below, we find each of these rationales independently sufficient to support the proposed modification.
+
+## a) Obvious Design Choice
+
+The Supreme Court has “set forth an expansive and flexible approach” to “the question of obviousness” under 35 U.S.C. § 103. KSR, 550 U.S. at
+
+## 415. In KSR, the Supreme Court held the following:
+
+When a work is available in one field of endeavor, design incentives and other market forces can prompt variations of it, either in the same field or a different one. If a person of ordinary skill can implement a predictable variation, § 103 likely bars its patentability. For the same reason, if a technique has been used to improve one device, and a person of ordinary skill in the art would recognize that it would improve similar devices in the same way, using the technique is obvious unless its actual application is beyond his or her skill. [The relevant question is] whether the improvement is more than the predictable use of prior art elements according to their established functions.
+
+KSR, 550 U.S. at 417; see also Uber Techs., Inc. v. X One, Inc., 957 F.3d 1334, 1338 (Fed. Cir. 2020) (quoting the same excerpt from KSR and referring to it as a “discussion of design choices and predictable variations”).
+
+Here, Petitioner argues that “using an oligonucleotide comprising a second tag to distinguish sample polynucleotides derived from the same single cell would have been an obvious design choice” in view of McCloskey’s teaching of an encoding oligonucleotide with two tags and the fact that both references relate to tagging and amplifying polynucleotides for genetic analysis. Pet. 39–40 (citing Ex. 1002 ¶168). Indeed, Linnarsson teaches the use of an encoding oligonucleotide with one tag sequence for correlating tagged polynucleotides according to one feature (cell origin), and McCloskey teaches the use of an encoding oligonucleotide with two tag sequences for correlating tagged polynucleotides according to two features (sample origin and polynucleotide). Ex. 1003, 4; Ex. 1004, 2.
+
+Patent Owner does not show that the proposed modification would have been beyond the level of skill in the art. Nor does Patent Owner show that the modification would have resulted in anything beyond what would have been predicted based on these prior art teachings. In fact, the Patent Owner Response does not even address Petitioner's design choice rationale. PO Resp. 32–40.
+
+We find Petitioner's unrebutted rationale of obvious design choice persuasive.
+
+## b) Solving Amplification Bias
+
+Although we find Petitioner's “design choice” rationale adequate, we also address Petitioner's additional rationale that a skilled artisan would have made the combination because Linnarsson discloses a problem,
+
+PCR-induced amplification bias, for which McCloskey teaches a solution. Pet. 40–42 (citing Ex. 1002 ¶¶91–93, 164–167; Ex. 1003, 2:3–15, 11:6–10; Ex. 1004, Abstract). Indeed, Linnarsson explicitly states “there is potential amplification bias” in its described methods. Ex. 1003, 2:12–13; see also id. at 11:6–10 (describing a way to reduce the amount of amplification needed and thus also reduce the amount amplification bias). And, McCloskey teaches that its method of using batch-stamps and barcodes “solve[s] th[e] source-uncertainty problem for DNA sequences generated by standard PCR,” which can be caused by “contamination, biased amplification, and product redundancy.” Ex. 1004, Abstr.
+
+Patent Owner argues that the amplification bias rationale “[f]ails” because the proposed modification would not actually solve the problem of amplification bias. PO Resp. 32. This is so, Patent Owner explains, because “McCloskey does not have enough barcodes to tag each mRNA molecule of Linnarsson.” Id. at 34 (emphasis omitted). Thus, according to Patent Owner, it “would be impossible, using McCloskey’s 7-nucleotide barcode (amounting to only 16,348 unique barcodes), to distinguish the 50,000 – 300,000 mRNA molecules Petitioner admits POSITA would have expected to be present in the cell.” Id. at 35.
+
+Petitioner replies that (1) Linnarsson is not limited to mammalian cells, (2) neither the claims of the '197 patent nor Petitioner's rationale requires all of the mRNAs present in a cell to be tagged, and (3) McCloskey's disclosure is not limited to 16,384 unique barcodes. Pet. Reply. 8–12. We agree with Petitioner on all accounts as discussed below.
+
+Petitioner argues that neither the claims of the '197 patent nor the disclosure of Linnarsson is limited to mammalian cells. Pet. Reply 6. Petitioner quotes Linnarsson's disclosure that, "in general, cells from any population can be used in the methods, such as a population of prokaryotic or eukaryotic single celled organisms including bacteria or yeast." Id. at 9 (quoting Ex. 1003, 13:14–16). Petitioner also cites to Dr. Cooper's testimony regarding various bacteria that are known to "contain only a little over 1,000" different mRNA molecules. Id. (citing Ex. 1070 ¶¶121–122).
+
+Patent Owner argues that “the Petition repeatedly relied on eukaryotic cells” from Linnarsson and thus it is improper for the Petitioner, in its Reply, to rely on yeast or bacteria. $^{14}$ PO Sur-reply 14–15 (citing Pet. 28, 31–35). Neither of Patent Owner’s citations to the Petition adequately supports its argument.
+
+Page 28 of the Petition states that “Linnarsson explains that the sample of single cells can take various forms.” Pet. 28 (emphasis added). Further, page 28 of the Petition quotes Linnarsson’s disclosure that the single cells may be obtained from, among other sources, a “cell culture,” which term certainly would be understood to not exclude bacteria. Id. (quoting Ex. 1003, 13:11–12).
+
+Pages 31 to 35 of the Petition discuss Figures 2, 3 and 11 of Linnarsson. Pet. 31–35. Patent Owner states that these figures “analyzed eukaryotic (mouse) cells.” PO Sur-reply 14 (citing Ex. 1003, 10:12, 23:20, 31:3, 37:16). However, the Petition’s discussion of these figures does not mention mouse or eukaryotic cells. Nor does Linnarsson limit Figures 2, 3, and 11 to mouse or eukaryotic cells. In fact, Linnarsson states that its “figures are intended to illustrate broad concepts of the invention by reference to representative examples for ease of discussion.” Ex. 1003, 4:4–5. Linnarsson indisputably is not limited to mouse or eukaryotic cells. See Id. at 13:14–16 (“[I]n general, cells from any population can be used in the methods, such as a population of prokaryotic or eukaryotic single celled organisms including bacteria or yeast.”).
+
+The Petition's discussion of the cells in Linnarsson is not limited to mice, mammals, or even eukaryotes. Instead, in multiple instances, the Petition discusses cells used in Linnarsson generically without limiting them to any particular kingdom, class, or species. For example, the Petition introduces Linnarsson as “disclos[ing] a method of preparing a cDNA library for sequencing by appending unique oligonucleotide sequences, or ‘tags,’ to cDNA samples originating from a plurality of cells.” Pet. 16 (citing Ex. 1003, 10:15–22). Further, the disclosure of Linnarsson, to which the Petition cites in support, repeatedly refers to “cells” without any qualification. Ex. 1003, 10:15–22.
+
+In sum, Linnarsson is not limited to mammalian or eukaryotic cells. Nor is the Petition's reliance on Linnarsson limited to mammalian or eukaryotic cells.
+
+(2) Not all of the Polynucleotides Present in a Cell must be Tagged
+
+Petitioner argues that, “even assuming the claims required tagging mRNA from a mammalian cell, they do not require tagging all the mRNA molecules in such a cell.” Pet. Reply 10. Patent Owner concedes that claim 1 (and other claims) do not require tagging all of the polynucleotides (e.g., mRNA) but interprets Petitioner’s obviousness challenge as being premised on it. See PO Sur-reply 17 (“While the claims don’t require ‘tagging all the mRNA molecules’ ([Pet Reply] 10), Petitioner’s stated theory does to motivate combining with McCloskey. [PO Resp.] 32–37.”). It is not.
+
+In attempting to prove its point, Patent Owner relies on Petitioner's argument that a person of ordinary skill in the art “would’ve been motivated to tag ‘each sample polynucleotide’ to resolve amplification bias.” PO Sur-reply 17 (citing Pet. 41–43). However, each sample polynucleotide is not the same as each polynucleotide or all polynucleotides. And, consistent with the Petition, Dr. Cooper does not state that all polynucleotides within a cell must be differentiated. See Ex. 1002 ¶168 (testifying that a person of ordinary skill in the art “could conceptually divide each of Linnarsson’s cell-tag sequence into two portions, wherein . . . the second portion performs the function of McCloskey’s ‘barcode’, used to differentiate polynucleotides within a cell.” Ex. 1002 ¶168 (emphasis added)).
+
+Indeed, in district court, Patent Owner conceded that “‘sample polynucleotides’ are the polynucleotides in a cell that are being sampled (i.e., the polynucleotides of interest), not all polynucleotides of that cell.” Ex. 1072, 23 (emphasis added). Patent Owner further cautioned that, “[t]o argue that ‘sample polynucleotides’ means every polynucleotide of the cell would rewrite the claim and replace ‘sample’ with ‘all.’” Id. at 24. Yet, that is essentially what Patent Owner is doing with Petitioner’s reason to combine—replacing the words “each sample” with “all.”
+
+Still, Patent Owner argues that Dr. Cooper, in addressing dependent claim 25, equates “sample polynucleotides” of a cell with “substantially all mRNA molecules of said cell.” PO Resp. 18 (citing Ex. 1002 ¶222). Claim 25, as will be discussed below, depends from claim 1 and recites that “said plurality of sample polynucleotides comprises substantially all mRNA molecules of said cell.” Ex. 1001, 32:20–22. Patent Owner’s citation to paragraph 222 of Dr. Cooper’s testimony conflates Petitioner’s position regarding how the combination of Linnarsson and McCloskey results in claim 25 (as well as claim 1) with its reason for combining Linnarsson and McCloskey.
+
+In paragraph 222, Dr. Cooper did not testify that the combination must result in all polynucleotides being tagged, as argued by Patent Owner. Ex. 1002 ¶222. And, in the preceding paragraph, Dr. Cooper testified that “Linnarsson describes that the plurality of sample polynucleotides may comprise mRNA molecules” and “[i]t is my opinion that Linnarsson also teaches that said plurality of sample polynucleotides can comprise substantially all mRNA molecules of said cell.” Id. ¶221.
+
+In sum, Patent Owner's characterization of the Petition's reason to combine is erroneous and, thus, Patent Owner's arguments against the Petition's reason to combine are not persuasive. Neither claim 1 nor Petitioner's rationale requires all of the polynucleotides present in a cell to be tagged.
+
+(3) McCloskey is not Limited to 16,384 Unique Barcodes
+
+Petitioner argues that McCloskey's disclosure is not limited to 16,384 barcodes. Pet. Reply 10–11. Petitioner is correct, as McCloskey states the following:
+
+The number of distinguishable barcodes in a population of oligonucleotides used in a reaction is determined by the number of random bases, n. This enables one to distinguish among $4^{n}$ allele copies per reaction. We currently use seven nucleotides for the barcode, giving 16,384 possible barcodes for each encoding oligonucleotide.
+
+Ex. 1004, 4. Not only is McCloskey not limited to 16,384 possible barcodes, it teaches precisely how to manipulate that number as needed. Id. In fact, McCloskey's authors/researchers stress that using seven nucleotides is what they “currently use.” Id. (emphasis added).
+
+In its Sur-reply, Patent Owner does not dispute that McCloskey teaches how to increase the number of possible barcodes. Instead, Patent Owner argues that “Petitioner Relied Only on McCloskey’s Seven-Nucleotide Barcode” and using more nucleotides for the barcodes constitutes a “new argument” that “should have been ‘presented earlier . . . to make out a prima facie case of unpatentability.’” PO Sur-reply 20–21 (quoting Juniper Networks, Inc. v. Swarm Tech. LLC, No. IPR2021-01445, Paper 62, at 28–29 (Feb. 7, 2023)). We disagree.
+
+In making the argument that “Petitioner Relied Only on McCloskey’s Seven-Nucleotide Barcode,” Patent Owner does not cite directly to anything in the Petition that supports it. PO Sur-reply 20. Instead, Patent Owner cites to paragraph 168 of Dr. Cooper’s declaration, in which Dr. Cooper testified, among other things, that a skilled artisan “could have conceptually designated the first 6-8 nucleotides of Linnarsson's cell-tag sequence to identify the single-cell origin of the tagged polynucleotide, and use the next 7 nucleotides to distinguish the tagged polynucleotide from other one from the same single cell." Ex. 1002 ¶168. Patent Owner points out that page 43 of the Petition cites to paragraph 168 of Exhibit 1002. PO Sur-reply 20. However, page 43 of the Petition does not refer to the second sequence (or barcode) being seven nucleotides, let alone limit the sequence to that number. See Pet. 43 ("A POSA would have understood that Linnarsson's oligonucleotide tags—CDS or TSO—could be modified through routine methods to incorporate a second tag sequence to uniquely identify each sample polynucleotide according to McCloskey's teachings. EX1002 ¶ 168."). Nor did Dr. Cooper box himself into a seven-nucleotide second sequence. Rather, Dr. Cooper testified that a skilled artisan "could conceptually divide each of Linnarsson's cell-tag sequence into two portions, wherein the first portion performs the function of McCloskey's 'batch-stamp,' used to track individual cells, and the second portion performs the function of McCloskey's 'barcode', used to differentiate polynucleotides within a cell," without making any mention of the barcode being seven nucleotides, let alone limited to that. Ex. 1002 ¶168. Dr. Cooper then stated "[f]or example," before opining that the first tag could be "6–8 nucleotides" and the second tag could be the "next 7 nucleotides." Id.
+
+Petitioner's argument that the barcode size could be increased as needed is based on McCloskey itself and is properly responsive to Patent Owner's argument that 16,384 unique barcodes would not be enough. Further, the very reference Petitioner cites for the barcode feature, McCloskey, is clear that seven is not mandatory and provides a precise formula for increasing (or decreasing) the number of possible barcodes. Ex. 1004, 4.
+
+Neither McCloskey nor Petitioner's reliance on McCloskey is restricted to using barcodes that are seven nucleotides long.
+
+In sum, we find Petitioner's rationale that a skilled artisan would have made the proposed combination to solve the problem of amplification bias persuasive.
+
+## 10. Reasonable Expectation of Success
+
+“[A]n obviousness determination requires not only the existence of a motivation to combine elements from different prior art references, but also that a skilled artisan would have perceived a reasonable expectation of success in making the invention via that combination.” Medichem, 437 F.3d at 1165. “While the definition of ‘reasonable expectation’ is somewhat vague, [Federal Circuit] case law makes clear that it does not require a certainty of success.” Id.
+
+Petitioner argues that a person of ordinary skill in the art would have had a reasonable expectation of success in making the proposed modification because Linnarsson and McCloskey both teach adding oligonucleotides comprising a tag to polynucleotides, with the difference being that McCloskey's oligonucleotide comprises two tag sequences, whereas Linnarsson's has only one tag sequence. Pet. 42–43 (citing Ex. 1003, 19:5–10; Ex. 1004, 2); see also Ex. 1002 ¶168 (Dr. Cooper testifying that a person of ordinary skill in the art “would have found this difference to be trivial”). Petitioner argues that the person of ordinary skill in the art “would have understood that Linnarsson's tagged oligonucleotides—CDS or
+
+TSO—could be modified through routine methods to incorporate a second tag to uniquely identify each sample polynucleotide according to McCloskey’s teachings.” Pet. 43 (citing Ex. 1002 ¶168). According to Petitioner, the proposed modification “would be identical to the approach already set forth in Linnarsson, except that the cell-tag sequence in Linnarsson would be conceptually divided into two portions: one that codes for the unique cell and one that codes for the unique molecule.” Id. (citing Ex. 1002 ¶169). The cited testimony of Dr. Cooper indeed supports the argument. Ex. 1002 ¶¶168–169.
+
+Patent Owner argues that there would not have been a reasonable expectation of success “of tagging each sample polynucleotide—i.e., all the mRNA molecules in a sample—by incorporating McCloskey’s barcode into Linnarsson because McCloskey would not have provided enough unique barcodes to do so.” PO Resp. 40. Patent Owner also argues that there would not have been a reasonable expectation of success “of sequencing ‘the plurality of tagged nucleotides’ in [Petitioner’s] combination for the reasons described above in connection with the ‘sequencing’ limitation analysis.” Id. at 41. Neither of these are arguments is persuasive because, as discussed above, these arguments are based on erroneous claim constructions that neither party has advanced, as well as an erroneous interpretation of the Petition and McCloskey’s teachings.
+
+Petitioner has demonstrated by a preponderance of the evidence that a person of ordinary skill in the art would have had a reasonable expectation of success in combining the teachings of Linnarsson and McCloskey as proposed and resulting in the subject matter of claim 1.
+
+## 11. Conclusion as to Claim 1
+
+We conclude that claim 1 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented. $^{15}$
+
+## F. Ground 1: Dependent Claims
+
+Each of claims 2–4, 6–11, 20, and 23–25 depends from claim 1. Ex. 1001, 30:40–32:25. Petitioner argues the proposed modification of Linnarsson in view of McCloskey, as already discussed above in relation to claim 1, includes each of the additional limitations recited in these dependent claims. Pet. 46–55. We address each claim below.
+
+## 1. Claim 2
+
+Claim 2 recites “wherein the method further comprises amplifying the plurality of tagged polynucleotides prior to the sequencing step (c).” Ex. 1001, 30:40–42. For this limitation, Petitioner directs us to Linnarsson’s disclosure that tagged cDNA samples are pooled and amplified and then “sequencing is performed to obtain 100 million reads.” Ex. 1003, 4:11–12 (cited at Pet. 46). Patent Owner does not present any arguments specifically directed to claim 2, relying exclusively on its dependence from claim 1. See PO Resp. 46–47 (arguing only claims 8, 23, 24, and 25 separately from claim 1).
+
+We conclude that claim 2 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 2. Claims 3 and 4
+
+Claim 3 recites “wherein the plurality of sample polynucleotides is selected from DNA and RNA.” Ex. 1001, 30:43–44. Claim 4 recites “wherein the plurality of sample polynucleotides comprises mRNA.” Id. at 40:45–46. For these limitations, Petitioner directs us to Linnarsson’s disclosure of sample polynucleotides being mRNA. Pet. 46 (citing Ex. 1003, 3:26–27); see also id. at 47 (claim 4 analysis relying on claim 3 analysis). Patent Owner does not present any arguments specifically directed to claim 3 or claim 4, relying exclusively on their dependence from claim 1. PO Resp. 46–47.
+
+We conclude that claims 3 and 4 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 3. Claim 6
+
+Claim 6 recites “wherein an oligonucleotide tag of said plurality of oligonucleotide tags comprises said first tag sequence and said second tag sequence.” Ex. 1001, 30:50–52. For this limitation, Petitioner directs us to what it has already demonstrated above in connection with claim 1, namely that McCloskey teaches an encoding oligonucleotide with two sequences and that a person of ordinary skill in the art would have “use[d] the approach of McCloskey and conceptually divide Linnarsson’s tag sequence . . . into two portions.” Pet. 47. Patent Owner does not present any arguments
+
+specifically directed to claim 6, relying exclusively on its dependence from claim 1. PO Resp. 46–47.
+
+We conclude that claim 6 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 4. Claim 7
+
+Claim 7 recites “wherein an oligonucleotide tag of said plurality of oligonucleotide tags comprises a sequence that is configured to hybridize to said sample polynucleotide.” Ex. 1001, 30:53–56. For this limitation, Petitioner directs us to Linnarsson’s teaching of a CDS including a cell tag and an RNA complementary sequence that “is at least partially complementary to one or more RNA in an individual mRNA sample,” which allows the CDS ‘to hybridize to at least some mRNA in an individual mRNA sample to direct cDNA synthesis using the mRNA as a template.” Pet. 48 (quoting Ex. 1003, 15:2–6).
+
+Patent Owner does not present any arguments specifically directed to claim 7, relying exclusively on its dependence from claim 1. PO Resp. 46–47.
+
+We conclude that claim 7 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 5. Claim 8
+
+Claim 8 recites “wherein the plurality of tagged polynucleotides is generated by (i) hybridizing an oligonucleotide tag of said plurality of oligonucleotide tags to said sample polynucleotide and (ii) extending said oligonucleotide tag or said sample polynucleotide or both.” Ex. 1001, 30:57–61. For this limitation, Petitioner directs us to Linnarsson’s teaching of a CDS that “includes a sequence of thymines that hybridizes with a sequence of adenines making up the poly-A tail of the template mRNA strand (i.e. ‘said sample polynucleotide’)” and “further teaches extending the CDS using a reverse transcriptase enzyme.” Pet. 49 (citing Ex. 1003, 5:29–31, 15:1–6, 16:10–15, 16:22–26, 18:19–24, Figs. 2, 11). Petitioner’s claim 8 analysis does not mention Linnarsson’s TSO. Id.
+
+Patent Owner argues that Petitioner's reliance on only Linnarsson's CDS but not its TSO “is incompatible with Petitioner's primary theory to the extent it relies on the ‘conceptually divided’ tag being inserted into Linnarsson's TSO, and Petitioner's ‘alternativ[e]’ theory, which requires there be a tag in both the CDS and TSO.” PO Resp. 46 (citing Pet. 43, 49).
+
+In its Reply, Petitioner points out that Patent Owner does not dispute Petitioner's arguments as to Linnarsson's CDS. Pet. Reply 15. $^{16}$ Petitioner also points out that Dr. Quackenbush conceded “that ‘hybridization using a label’ is a conventional technique in the ’197 patent.” $Id$ . (citing Ex. 1069 at 31:9–32:3); see also Ex. 1001, 13:37–40 (“Such conventional techniques include polymer array synthesis, hybridization, ligation, and detection of hybridization using a label.”).
+
+In its Sur-reply, Patent Owner offers nothing further as to claim 8. In other words, all Patent Owner offers as to claim 8 is that the Petition addressed satisfaction of the limitation via Linnarsson's CDS only, and not also via its TSO. Such does not rebut Petitioner's clear evidence of obviousness of the subject matter of claim 8.
+
+We conclude that claim 8 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 6. Claims 9 and 10
+
+Claim 9 recites “wherein the plurality of tagged polynucleotides is generated through at least one linear amplification reaction.” Ex. 1001, 30:62–64. Claim 10 recites “wherein the plurality of tagged polynucleotides is generated through at least one reverse transcription reaction.” Id. at 30:65–67. For these limitations, Petitioner directs us to Linnarsson’s teaching of performing reverse transcription on sample mRNA molecules to generate cDNA molecules and Dr. Cooper’s testimony that reverse transcription is a type of linear amplification. Pet. 49–50 (citing Ex. 1003, 3:25–30, 22:24–26, 14:9–32; Ex. 1002 ¶202.
+
+Patent Owner does not present any arguments specifically directed to claim 9 or claim 10, relying exclusively on their dependence from claim 1. PO Resp. 46–47.
+
+We conclude that claims 9 and 10 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 7. Claim 11
+
+Claim 11 depends from claim 1 and recites “wherein the plurality of tagged polynucleotides is generated through at least one polymerase chain reaction (PCR).” Ex. 1001, 31:1–3. For this limitation, Petitioner directs us to Linnarsson's teaching of employing PCR amplification. Pet. 50 (quoting Ex. 1003, 10:18–22, 20:3–6).
+
+Patent Owner does not present any arguments specifically directed to claim 11, relying exclusively on its dependence from claim 1. PO Resp. 46–47.
+
+We conclude that claim 11 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 8. Claim 20
+
+Claim 20 depends from claim 1 and recites “wherein said plurality of sample polynucleotides are randomly associated with said plurality of oligonucleotide tags to generate said plurality of tagged polynucleotides.” Ex. 1001, 32:1–4. For this limitation, Petitioner argues that a person of ordinary skill in the art “would understand that by adding the oligonucleotide tags to a mixture containing sample polynucleotides under the conditions disclosed in Linnarsson, the tags would randomly associate with the sample polynucleotides to generate the plurality of tagged polynucleotides.” Pet. 51 (citing Ex. 1002 ¶210; Ex. 1007, 2); see also Ex. 1007, 2 (“hybridization of DNA molecules with identical sequences is competitive and therefore, the tags are selected randomly”).
+
+Patent Owner does not present any arguments specifically directed to claim 20, relying exclusively on its dependence from claim 1. PO Resp. 46–47.
+
+We conclude that claim 20 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+IPR2023-00955
+Patent 10,240,197 B1
+
+## 9. Claims 23 and 24
+
+Claim 23 depends from claim 1 and recites “wherein step (d) comprises using said first tag sequence to distinguish (i) the number of sample polynucleotides having said sample sequence from said cell from (ii) the number of sample polynucleotides having said sample sequence from other cells.” Ex. 1001, 32:9–14. Claim 24 depends from claim 1 and recites “wherein step (d) comprises determining the number of different second tag sequences associated with said sample sequence, thereby estimating the number of sample polynucleotides having said sample sequence from said cell.” Id. at 32:15–19. Petitioner argues that the proposed combination of Linnarsson and McCloskey satisfies the additional subject matter recited in these claims. Pet. 52–54. In that regard, Petitioner argues that the addition of the second tag, as taught by McCloskey, facilitates the “distinguishing” recited in claim 23 and the “determining” recited in claim 24. Id. (referring back to the Petition’s analysis of claim 1 and citing Ex. 1002 ¶215).
+
+Patent Owner responds by referring back its own claim 1 arguments, stating, “[a]s explained above, Petitioner’s combination does not provide enough second tags to tag ‘each’ or ‘substantially every’ mRNA molecule in the cells Petitioner identifies.” PO Resp. 46–47. Patent Owner’s arguments are not persuasive for multiple reasons already discussed above. Specifically, Linnarsson is not limited to mammalian or eukaryotic cells; not all polynucleotides present must be tagged; and McCloskey is not limited to 16,384 unique barcodes.
+
+We conclude that claims 23 and 24 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## 10. Claim 25
+
+Claim 25 recites “wherein said plurality of sample polynucleotides comprises substantially all mRNA molecules of said cell.” Ex. 1001, 32:20–22. For this limitation, Petitioner argues that “it would have been obvious to tag substantially every sample polynucleotide[] from a cell.” Pet. 55. Petitioner further argues that a person of ordinary skill in the art “would have understood” that Linnarsson “contemplates the analysis of substantially all mRNA molecules of a cell,” as “the purpose of Linnarsson’s method is gene expression analysis.” Id. (citing Ex. 1002 ¶222; Ex. 1003, 1:11–12, 1:25–26). Petitioner quotes Linnarsson’s statement that “direct sequencing of the all, or parts, of the mRNA content of a tissue is being increasingly used.” Id. (quoting Ex. 1003, 1:25–26) (Petitioner’s emphasis)).
+
+Patent Owner's argument in response is the same as that for claims 23 and 24, namely that “Petitioner’s combination does not provide enough second tags to tag ‘each’ or ‘substantially every’ mRNA molecule in the cells Petitioner identifies.” PO Resp. 46–47. In relation to claim 25, Patent Owner’s argument appears commensurate with the scope of the claim. However, it remains unpersuasive. As discussed above, Linnarsson is not limited to mammalian or eukaryotic cells and instead encompasses prokaryotic cells, some of which contain less than 1000 mRNAs according to Petitioner’s unrebutted evidence. See Ex. 1070 ¶122 (testifying E. coli has “a little over 4,000 genes and \~1,380 mRNA molecules in each cell” and Carsonella ruddii has “only 182 genes and will thus have even fewer mRNA molecules.”). Moreover, McCloskey is not limited to 16,384 unique barcodes and teaches precisely how to increase that number. See Ex. 1004,
+
+4 (teaching formula of 4 to the nth power where n is number of nucleotides in barcode).
+
+We conclude that claim 25 would have been obvious over Linnarsson and McCloskey as asserted by Petitioner based on the evidence presented.
+
+## G. Ground II
+
+In Ground II, Petitioner argues that claims 5, 12, 21, 22, and 26 would have been obvious over Linnarsson, McCloskey, and the knowledge of a person of ordinary skill in the art. Pet. 4–5.
+
+## 1. Claim 5
+
+Claim 5 depends from claim 1 and recites “wherein the plurality of tagged polynucleotides is generated through at least one ligation reaction.” Ex. 1001, 30:47–79. For this limitation, Petitioner relies on a further modification of Linnarsson and McCloskey.
+
+Petitioner argues that it would have “a simple and obvious design choice with a reasonable expectation of success” to ligate (as opposed to hybridizing) an oligonucleotide comprising tag sequences to Linnarsson’s CDS or TSO. Pet. 56. This is so, according to the Petition, because “it was well-known and routine in the art to attach tag sequences to other sequences by ligation.” Id. (citing Ex. 1002 ¶225). In addition to citing Dr. Cooper’s testimony on that point, the Petition points to admissions in the ’197 patent. Id. For example, the ’197 patent states:
+
+The practice of the present invention may employ, unless otherwise indicated, conventional techniques and descriptions of organic chemistry, polymer technology, molecular biology (including recombinant techniques), cell biology, biochemistry, and immunology, which are within the skill of the art. Such conventional techniques include polymer array synthesis, hybridization, ligation, and detection of hybridization using a label.
+
+Ex. 1001, 13:32–39 (emphasis added). The '197 patent lists nine references that describe ligation reactions and incorporates them by reference. Id. at 6:23–25 ("A variety of template-driven ligation reactions are described in the following references, which are incorporated by reference."). The Petition also directs us to positions Patent Owner took in litigation involving other patents. See Pet. 57 ("Patent Owner stated with respect to the Fodor Patents, for instance, that 'the specification admits that "in one embodiment" of the invention "the label-tag is attached by ligation" and that "methods of ligation will be known to those of skill in the art.""' (quoting Ex. 1007, 11–12)).
+
+Petitioner further argues that a person of ordinary skill in the art “would have had a reasonable expectation of success in ligating a second sequence to Linnarsson’s CDS or TSO” and that “it would have been obvious to do this by using a linker molecule” in view of Hug. $^{17}$ Pet. 57–58 (citing Ex. 1007, 8; Ex. 1002 ¶¶228–229).
+
+Patent Owner argues that Petitioner's ligation theory is unclear, improperly relies on art not listed in Ground 2, lacks sufficient motivation, $^{18}$ and lacks a reasonable expectation of success. PO Resp. 48–68. We disagree, as discussed next.
+
+## a) Petitioner Ligation Theory is Not Unclear
+
+Patent Owner argues “Petitioner’s ligation theory is unclear.” PO Resp. 49. Patent Owner directs us to certain cross-examination testimony of Dr. Cooper, but fails to explain how it demonstrates a lack of clarity. Id. (citing Ex. 2020, 41:22–44:20). We find the proposed modification to be clear; the second tag sequence is added by ligation. See Pet 57 (“Given the undisputedly well-known and routine nature of ligation to attach label tags to polynucleotides, a POSA would have had a reasonable expectation of success in ligating a second sequence to Linnarsson’s CDS or TSO.”). Further, we have reviewed the cross-examination testimony of Dr. Cooper that is cited by Patent Owner. We find it consistent with the modification as proposed in the Petition and reproduce it below.
+
+[Counsel for Patent Owner:] And that second tag wouldn't already exist in your ground -- or in your Claim 5 theory. Right? What I'm trying to get at is, you're not saying that a POSITA would have modified the Ground 1 combination to remove the tags from Linnarsson and McCloskey's CDS and/or TSO?
+
+[Dr. Cooper:] Correct, it does not involve removing any tags. This is talking about essentially making the process a little bit modular, where you have one set of tags that are for putting on your first cell tag and then another set of tags that – for the purpose of keeping your process flexible and weighted and give you twice -- to optimize it you keep that second barcoding tag which is used to separate molecules in a separate reaction in a second step.
+
+Ex. 2020, 44:5–20.
+
+In sum, Patent Owner's argument that “Petitioner’s ligation theory is unclear” (PO Resp. 49) is not persuasive.
+
+## b) Ground 2's Citations to Additional (Unlisted) References Is Not Improper
+
+Patent Owner argues that “Petitioner’s Ground 2 combinations improperly rely on art not listed in the Grounds to supply limitations in the dependent claims and modify the Ground 1 Linnarsson-McCloskey combination.” PO Resp. 48. This argument is not persuasive.
+
+The Petition is clear that, in addition to Linnarsson and McCloskey, Ground 2 relies on the knowledge of the skilled artisan. See, e.g., Pet. 55 (“Claims 5, 12, 21–22, and 26 of the ’197 Patent would have been obvious over the combination of Linnarsson and McCloskey, and further in view of the knowledge of a POSA.”). To that end, the Petition cites numerous evidentiary sources probative of the fact that ligation was well-known, routine, and conventional in the art. Those sources include Dr. Cooper’s testimony, admissions made in the ’197 patent, prior art references cited in the ’197 patent, and prior art references cited in the Petition, including Hug. Pet. 56–59. Additionally, Patent Owner’s declarant, Dr. Quackenbush does “not contest[] that ligation was a well-known method of attaching oligonucleotides.” Ex. 1071, 187:23–25; see also id. at 188:17–8 (“I told you earlier ligation was a conventional technique.”), 186:6–9 (“Ligation is a method that was known in the art just like PCR was known in the art.”). $^{19}$
+
+As to Hug, Petitioner argues that a person of ordinary skill in the art “could have used Hug’s method as one exemplary method to ligate the oligonucleotide comprising the tag sequences to Linnarsson’s CDS or TSO.” Pet. 58 (citing Ex. 1007, 9; Ex. 1002 ¶¶228–229).
+
+Patent Owner does not explain what is allegedly “improper[]” about Petitioner’s citation to Hug. PO Resp. 48–49. Patent Owner cites three cases, but none of them supports Patent Owner’s position.
+
+Patent Owner first cites Applied Materials, Inc. v. Demaray LLC, No. IPR2021-00103, Paper 52, at 36–42 (June 29, 2022). PO Resp. 48. The Board in Applied Materials did not hold, as Patent Owner suggests, that it was improper for a petitioner to rely on unlisted references; rather, the Board merely held that the petitioner did not explain how its unlisted references applied to its unpatentability challenge. See Applied Materials, Paper 52 at 40 (“Petitioner’s remaining citations to [various unlisted references] do not sufficiently explain how such teachings apply to [the primary prior art reference’s] system.”).
+
+Patent Owner next cites DSS Technology Management, Inc. v. Apple Inc., 885 F.3d 1367, 1374 (Fed. Cir. 2018), arguing that it “identif[ies] ‘three caveats’ to using common sense in obviousness analysis, warning it is not ‘typically invoked’ ‘to supply a missing claim limitation’.” PO Resp. 48–49 (quoting DSS Tech. Mgmt., 885 F.3d at 1374). This holding is inapposite here. Petitioner is not relying on common sense to supply the “ligation reaction” limitation; Petitioner is arguing, with overwhelming supporting evidence, that ligation was well-known, routine, and conventional in the art.
+
+Finally, Patent Owner cites AI-Site Corporation v. VSI International, Inc., 174 F.3d 1308, 1324 (Fed. Cir. 1999), highlighting its holding that, “[r]arely, however, will the skill in the art component operate to supply missing knowledge or prior art to reach an obviousness judgment.” PO Resp. 49 (quoting AI-Site Corp., 174 F.3d at 1324). This holding is inapposite here because ligation is not missing from the prior art. Petitioner has demonstrated, and Patent Owner cannot reasonably dispute, that ligation was known in the art.
+
+In sum, the Petition's citation to Hug without identifying it as a printed publication upon which Ground 2 is based is not improper. Hug is informative of the knowledge of the skilled artisan.
+
+c) Petitioner Identifies Sufficient Reasons to Combine
+
+Patent Owner argues that Petitioner has not demonstrated a sufficient reason why a person of ordinary skill in the art would have ligated a second sequence to Linnarsson's CDS or TSO. PO Resp. 49–51. In advancing this argument, however, Patent Owner erroneously characterizes the Petition, stating that “Petitioner’s sole purported justification for the Ground 2 combination is the conclusory assertion that ‘it would allow for added flexibility in selecting tag sequences during an experiment.’” Id. at 49–50 (emphasis added) (quoting Pet. 58). In fact, the Petition also relied on “design choice.” Pet. 56.
+
+The Petition argues that a person of ordinary skill in the art “would have been motivated to utilize this design choice because it would allow for added flexibility in selecting tag sequences during an experiment.” Pet. 58 (citing Ex. 1002 ¶230). In support, the Petitioner further states, “[a]s Dr. Cooper explains, this approach would be entirely equivalent to the method already disclosed by the combination of Linnarsson and McCloskey, except that instead of having the tag sequence be part of the CDS or TSO prior to extension, the tag sequences are added to the CDS or TSO after extension.” Id.; Ex. 1002 ¶¶224–227; see also Ex. 2020, 42:9–15 (Dr. Cooper: “And so then the question becomes how does one add the second tag effectively to a Linnarsson process. And there’s really only a couple of options. Right? There is to build it into the primers they used to make the cDNA or to ligate it on after you’ve made that initial cDNA.”).
+
+Patent Owner does not show that the proposed modification would have been beyond the level of skill in the art. Nor does Patent Owner show that the modification would have resulted in anything beyond what would have been predicted based on these prior art teachings. In fact, the Patent Owner Response does not even address Petitioner's design choice rationale. PO Resp. 49–50 (erroneously asserting that the Petition relies solely on providing “added flexibility in selecting tag sequences during an experiment”). We find Petitioner’s unrebutted rationale of obvious design choice persuasive.
+
+Although we find Petitioner's “design choice” rationale adequate, we also address Petitioner's additional rationale that a skilled artisan would
+
+have made the modification because “it would allow for added flexibility in selecting tag sequences during an experiment.” Pet. 58 (citing Ex. 1002 ¶230). Patent Owner argues that this stated benefit is a “conclusory assertion” that is “parroted verbatim with no further explanation or evidence by its expert.” PO Resp. 50 (citing Pet. 58; Ex. 1002 ¶230). However, Dr. Cooper does provide some explanation, testifying:
+
+A POSA would have understood that such an approach, using ligation to add the tag sequences to the CDS and/or TSO, would have been entirely equivalent to the method disclosed by the combination of Linnarsson and McCloskey. The only difference is in the timing: with the combination of Linnarsson and McCloskey discussed above, Section XII.A.1, the tag sequence is part of the CDS or TSO prior to extension whereas by using ligation, the tag sequence is added after extension. Using ligation to add the tag after extension would allow for increased flexibility in selecting tag sequences during an experiment. Thus, a POSA would have understood that using ligation was a routine choice and would have been motivated to use ligation because of the increased flexibility in tag choice.
+
+Ex. 1002 ¶230. Thus, Dr. Cooper suggests that the added flexibility stems from the different (delayed) timing of selecting tag sequences.
+
+As Petitioner points out, Patent Owner could have cross-examined Dr. Cooper about this testimony but chose not to do so. Pet. Reply 21. Patent Owner responds that it was under no obligation to “ask deposition questions to enable Petitioner’s expert to volunteer new opinions.” PO Sur-reply 2; see also id. at 27 (characterizing Petitioner’s failure to cross-examine argument as “improperly flip[ping] the burden” onto Patent Owner). We agree that Patent Owner was not obligated to ask any particular questions of Dr. Cooper during his deposition. However, Patent Owner’s decision to not inquire as to the meaning or further details of the “added flexibility”
+
+identified by Dr. Cooper undermines its argument that it has been deprived of the same.
+
+In sum, although the Petition does not elaborate as to the details of the “added flexibility,” the Petition clearly identified it as a benefit, citing Dr. Cooper’s testimony as its evidentiary support. Patent Owner has not rebutted that it is a benefit.
+
+## d) Petitioner Has Demonstrated a Reasonable Expectation of Success
+
+Petitioner argues that a person or ordinary skill in the art “would have had a reasonable expectation of success in ligating a second sequence to Linnarsson’s CDS or TSO” due to “the undisputedly well-known and routine nature of ligation to attach label tags to polynucleotides.” Pet. 57. Patent Owner does not dispute “the fact that ‘ligation’ itself was a known, conventional technique as of the priority date.” PO Resp. 52.
+
+Patent Owner nonetheless argues that the proposed combination lacks a reasonable expectation of success. Id. at 52–68. This is so, according to Patent Owner, because “the biotin on [Linnarsson’s] CDS’s 5' end would block ligation of a tag to the CDS” and any “tag added [to Linnarsson’s TSO] via ligation would not be extended, and would therefore not be included in the cDNA that is subsequently amplified during PCR (e.g., in Panel C), and would not be part of the ‘tagged polynucleotide’ that is sequenced.” Id. at 53, 58–59. In other words, Patent Owner argues that a second tag sequence (1) could not be added to Linnarsson’s CDS via ligation at all and (2) could not be added to Linnarsson’s TSO such that it could ultimately satisfy the function of “distinguishing said sample polynucleotide from other sample polynucleotides from said cell,” as recited in claim 1, from which claim 5 depends.
+
+In its Reply, Petitioner rebuts both arguments.
+
+As for Patent Owner's argument regarding a TSO-based approach, Petitioner persuasively replies that the person of ordinary skill the art would have known when to ligate the second tag sequence such that it would be amplified and present for sequencing. Pet. Reply 16–17 (citing Ex. 1002 ¶230; Ex. 2020, 42:4–18; Ex. 1070 ¶¶153–158). The cited evidence supports Petitioner's argument, and we find it persuasive. See, e.g., Ex. 1002 ¶230 (Dr. Cooper testifying that “with the combination of Linnarsson and McCloskey [asserted against claim 1] the tag sequence is part of the CDS or TSO prior to extension whereas by using ligation, the tag sequence is added after extension”).
+
+As for Patent Owner's argument regarding a CDS-based approach, Petitioner replies that the argument is erroneously premised on Linnarsson requiring the use of biotin. Pet. Reply 23–24 (“Linnarsson discloses embodiments—most notably in Figures 3 and 4—that do not use fragmentation and capture. Hence there is no biotin that would block ligation, nor are there any complications from the use of restriction enzymes because such enzymes are simply not used.” (citing Ex. 1070 ¶¶39–61, 96–100)); see also Pet. Reply 3–8. Petitioner also argues that, if a person of ordinary skill in the art wanted to use biotin, she would know “the biotin could not be at the end of the CDS or TSO but would instead need to be added after ligation or included with the barcode.” Id. at 25 (citing Ex. 1070 ¶¶149–152).
+
+Patent Owner argues that Petitioner's argument that Linnarsson does not require biotin is a new and improper argument on reply. PO Sur-Reply 23. We disagree. Petitioner's argument is directly responsive to Patent Owner's argument. See 37 C.F.R. § 42.23(b) (“A reply may only respond to arguments raised in the corresponding opposition, patent owner preliminary response, patent owner response, or decision on institution.”). Petitioner's argument is not only proper, but also persuasive; Linnarsson does not require biotin. See Ex. 1003, 3:25–4:2 (“Summary of the Invention” not mentioning biotin), 5:28–29 (“Figure 11 [which does include biotin], panels A-F, show graphical representation of steps optionally used in the STRT method.” (emphasis added)), Figs. 3–4 (not including biotin).
+
+Patent Owner additionally argues that “Petitioner has not explained how Linnarsson’s method would work without biotin.” PO Sur-Reply 23. However, Petitioner bears no burden in that regard. See Apple Inc. v. Corephotonics, Ltd., 861 F. App'x 443, 450 (Fed. Cir. 2021) (holding that in the context of AIA trial proceedings, “regardless of the forum, prior art patents and publications enjoy a presumption of enablement, and the patentee/applicant has the burden to prove nonenablement for such prior art” and that “[i]t was error for the Board to suggest otherwise”).
+
+Further, we are persuaded by Petitioner's argument that a person of ordinary skill in the art would have known how to use biotin in a manner that did not interfere with the proposed modification. See Pet Reply 25 (citing Ex. 1070 ¶¶149–152); Ex. 1071, 175:2–6 (Dr. Quackenbush: “So if there’s already a biotin attached, you wouldn’t be able to create that bond, hence, ligation wouldn’t occur. And a person in 2009 would have
+
+understood this.”); see also KSR, 550 U.S. at 421 (“A person of ordinary skill is also a person of ordinary creativity, not an automaton.”).
+
+In sum, we find that a person of ordinary skill in the art would have had a reasonable expectation of success in the proposed modification.
+
+## 2. Claims 12, 21, 22, and 26
+
+## a) Claim 12
+
+Claim 12 depends from claim 1 and recites: “wherein substantially every sample polynucleotide of said plurality of sample polynucleotides is associated with the same first tag sequence.” Ex. 1001, 31:4–6. For context, recall that claim 1 recites “wherein a cell of the plurality of cells comprises a plurality of sample polynucleotides.” Id. at 30:19–20. Thus, claim 5’s recitation of “every sample polynucleotide of said plurality of sample polynucleotides” refers to sample polynucleotides that are from the same cell. Petitioner argues that this feature is taught by Linnarsson’s cell tag. Pet. 59 (citing Ex. 1003, 19:5–11). Petitioner further argues that it would have been obvious. Id. at 59–61. We agree with Petitioner, as Linnarsson explicitly teaches that its “tag can be used to identify which single cell from each cDNA sample originated.” Ex. 1003, 19:9–10; see also id. at 4, 8–13 (teaching “tagged reverse transcription” ultimately leading to “identification of expressed genes and identification of cells from which they originated.”).
+
+Patent Owner argues that Petitioner's challenge to claim 12 “fails as the motivation Petitioner provides to modify the Linnarsson-McCloskey combination is directed to solving an alleged problem Petitioner claims is already solved by the Ground 1 combination. Thus, there would be no motivation to further modify Ground 1.” PO Resp. 68. This argument is not persuasive because Petitioner's Ground 2 challenge to claim 12 does not require any further modification than that which was asserted in Ground 1 against claim 1. All Petitioner additionally relies on for claim 12, relative to claim 1 (Ground 1), is that it would have been obvious to tag every sample polynucleotide of a cell (as opposed to some subset thereof) with the same first tag sequence. Petitioner is not proposing to modify the dual-tag feature that is proposed in Ground 1; Petitioner is merely showing that it would have been obvious to tag every sample polynucleotide of a cell with the same first tag sequence and a person of ordinary skill in the art would have known how to do this. See Pet. 60 (citing Ex. 1002 ¶60).
+
+We conclude that claim 12 would have been obvious over Linnarsson, McCloskey, and the knowledge of a person of ordinary skill in the art as asserted by Petitioner based on the evidence presented.
+
+## b) Claim 21
+
+Claim 21 depends from claim 1 and recites: “wherein step (c) comprises hybridizing said tagged polynucleotide to a solid support.” Ex. 1001, 32:5–6. Petitioner quotes Linnarsson as teaching that “any high-throughput screening methods” can be used for sequencing. Pet. 61 (quoting Ex. 1003, 21:16–18. Petitioner argues that the “Roche 454 platform” was known and commercially available at the time of the claimed invention and further that it used, as a standard step in its sequencing protocol, the immobilization of sample nucleotides via hybridization to a solid support. Id. (citing Ex. 1002 ¶¶240–241; Ex. 1045, 3). Petitioner argues that it would have been obvious to use Roche 454 platform with the Linnarsson-McCloskey combination as Linnarsson in view of its known availability and
+
+Linnarsson's teaching that “any high-throughput screening methods” could be used. Pet. 62.
+
+Patent Owner does not present any arguments specifically directed to claim 21 or any additional arguments that we have not already considered with respect to other claims. See PO Resp. 49–69 (presenting claim-specific arguments for Ground 2 for only claims 5, 12, and 26).
+
+We conclude that claim 21 would have been obvious over Linnarsson, McCloskey, and the knowledge of a person of ordinary skill in the art as asserted by Petitioner based on the evidence presented.
+
+## c) Claim 22
+
+Claim 22 depends from claim 20 and recites: “wherein said solid support is a bead.” Ex. 1001, 32:7–8. Petitioner argues that claim 22 would have been obvious for the same reasons offered for claim 21. We agree as Petitioner has shown that, in the Roche 454 system, the solid support “is a bead.” Pet. 62 (citing Ex. 1045, 3–4).
+
+Patent Owner does not present any arguments specifically directed to claim 22 or any additional arguments that we have not already considered with respect to other claims. See PO Resp. 49–68.
+
+We conclude that claim 22 would have been obvious over Linnarsson, McCloskey, and the knowledge of a person of ordinary skill in the art as asserted by Petitioner based on the evidence presented.
+
+## d) Claim 26
+
+Claim 26 depends from claim 1 and recites: “wherein said plurality of sample polynucleotides comprises a subset of polynucleotides of said cell having the same sequence.” Ex. 1001, 32:23–25. In its analysis, Petitioner argues that it would have been obvious to modify the Linnarsson-
+
+McCloskey combination to target for tagging polynucleotides having “a specific sample mRNA sequence of interest.” Pet. 64 (citing Ex. 1002 ¶249).
+
+In response, Patent Owner argues: “Petitioner needed to show that a cell had multiple mRNA molecules with the same sequence. But Petitioner did not: its analysis is directed, instead, to an entirely different concept.” PO Resp. 68–69.
+
+We agree with Patent Owner that claim 26 is broader than Petitioner's arguments imply. We interpret claim 26 as requiring that, within “said plurality of sample polynucleotides,” there must be at least two polynucleotides (e.g., two mRNA molecules) that have the same sequence of nucleotides. We do not interpret claim 26 as further requiring that the “same sequence” be a specific sequence of interest.
+
+Petitioner's apparent misconstruction of claim 26, however, does not undermine its ultimate position that claim 26 would have been obvious. Patent Owner argues that Petitioner did not “show that a cell [would have had] multiple mRNA molecules with the same sequence.” PO Resp. 68. We disagree.
+
+The very purpose of Linnarsson is to analyze gene expression. Ex. 1003, code (54) (“Gene Expression Analysis In Single Cells.”). As Dr. Cooper testifies, “[g]enes can be expressed at different levels.” Ex. 1002 ¶64 (citing Ex. 1025, 5). As Dr. Cooper’s cited reference explains:
+
+Transcription and translation are the means by which cells read out, or express, the genetic instructions in their genes. Because many identical RNA copies can be made from the same gene, and each RNA molecule can direct the synthesis of many identical protein molecules, cells can synthesize a large amount of protein rapidly when necessary. But each gene can also be transcribed and translated with a different efficiency allowing the cell to make vast quantities of some proteins and tiny quantities of others (Figure 6-3). Moreover, as we see in the next chapter, a cell can change (or regulate) the expression of each of its genes according to the needs of the moment—most obviously by controlling the production of its RNA.
+
+Ex. 1025, 5 (emphasis added).
+
+We conclude that claim 26 would have been obvious over Linnarsson, McCloskey, and the knowledge of a person of ordinary skill in the art as asserted by Petitioner based on the evidence presented.
+
+## H. Ground III
+
+In Ground III, Petitioner argues that claims 13–19 would have been obvious over Linnarsson, McCloskey, and McCloskey II. Id. at Pet. 5.
+
+Claims 13 through 16 each depend from claim 1 and recite an additional limitation regarding how much of “said plurality of sample polynucleotides is associated with a unique second tag sequence.” Ex. 1001, 31:7–17. Claim 13 recites “90 percent,” claim 14 recites “95 percent,” claim 15 recited “99 percent,” and claim 16 recites “substantially all.” Id. Claims 17 through 19 ultimately depend from claim 1 and recite a limitation regarding “the number of different second tag sequences” in relation to the “the number of sample polynucleotides.” Id. at 31:18–26. Claim 17 recites that “the number of different second tag sequences is larger than the number of sample polynucleotides.” Id. at 31:18–20. Claim 18 recites that it “at least ten times” larger. Id. at 31:21–23. Claim 19 recites that it is “at least one hundred times” larger. Id. at 31:24–26.
+
+For these limitations, Petitioner argues that a person of ordinary skill in the art “would have understood that increasing the number of polynucleotides tagged with a unique second tag sequence increases the accuracy of counting, and would have thus been motivated to ensure that each polynucleotides [sic] is tagged with a unique second tag sequence.” Pet. 65–66 (citing Ex. 1002 ¶252). According to Petitioner, the skilled artisan would have used “at least 100 times more” unique second tag sequences than polynucleotides to achieve that objective. Id. Petitioner further argues that the skilled artisan would have had a reasonable expectation of success in doing so. Id. at 66. Petitioner points out that McCloskey teaches the skilled artisan that “using second tag sequences each containing n number of random base pairs ‘enables one to distinguish among 4 $^{n}$ allele copies per reaction.’” Id. (quoting Ex. 1004, 4). Petitioner also points to paragraph 21 of McCloskey II, which teaches that “[t]he length of the second sequence is sufficient to provide, with high probability, a unique identity to each target nucleic acid molecule in the sample prior to amplification.” Ex. 1005 ¶21 (cited at Pet. 67). For example, the length of the second sequence can be up 25, 29, or 30 nucleotides. Id.
+
+Patent Owner argues against Ground 3 on the basis that it employs the same motivation as Ground 1. See PO Resp. 69 (“Petitioner repeats [its Ground 1] motivation as its Ground 3 motivation.”). According to Patent Owner, “there can be no motivation to further ‘modify the Ground 1 combination in accordance with Ground 3 if, as Petitioner argues, Ground 1 itself already uniquely tags each molecule, as its supposed motivation for this additional Ground 3 modification would have already been accomplished.” Id. This argument is not persuasive.
+
+The proposed modification of Linnarsson in Ground 1 is the essentially the same as the proposed modification of Linnarsson in Ground 3. As Patent Owner previously argued, McCloskey II is “a more detailed version of McCloskey.” Prelim. Resp. 11; see also id. at25 (“McCloskey is cumulative of McCloskey II.”). Petitioner’s reliance on McCloskey II reflects this fact. In Ground 3, after the Petition cites to McCloskey’s “second tag” teachings (which are discussed above in relation to Ground 1), the Petition additionally cites to McCloskey II’s more detailed teachings regarding the second tag sequence, including that it could be up to 30 nucleotides long. Pet. 67 (citing Ex. 1055 ¶21). As the Ground 3 modification is essentially the same, it is logical that the Ground 3 motivation is essentially the same.
+
+Furthermore, Patent Owner's argument that Petitioner's Ground 3 is deficient is premised explicitly on the condition that “Ground 1 itself already uniquely tags each molecule.” PO Resp. 70; see also id. at 36 (Patent Owner agreeing with Petitioner that unique tagging would be achieved if one used 100 times more unique tags than the number of sample polynucleotides). In other words, Patent Owner argues the motivation for the Linnarsson-McCloskey-McCloskey II combination fails because the Linnarsson-McCloskey combination (without McCloskey II) already achieves subject matter of claims 13 through 19. If that were the case, then claims 13 and 19 are unpatentable regardless.
+
+## III. CONCLUSION
+
+We conclude, based on a preponderance of the evidence, that claims 1–26 are unpatentable. In summary:
+
+<table><tr><td>Claim(s)</td><td>35 U.S.C. §</td><td>Reference(s)/Basis</td><td>Claim(s) Shown Unpatentable</td><td>Claim(s) Not Shown Unpatentable</td></tr><tr><td>1–4, 6–11, 20, 23–25</td><td>103(a)</td><td>Linnarsson, McCloskey</td><td>1–4, 6–11, 20, 23–25</td><td></td></tr><tr><td>5, 12, 21, 22, 26</td><td>103(a)</td><td>Linnarsson, McCloskey, “further in view of the knowledge of a [person of ordinary skill in the art]”</td><td>5, 12, 21, 22, 26</td><td></td></tr><tr><td>13–19</td><td>103(a)</td><td>Linnarsson, McCloskey, McCloskey II</td><td>13–19</td><td></td></tr><tr><td>Overall Outcome</td><td></td><td></td><td>1–26</td><td></td></tr></table>
+
+## IV. ORDER
+
+In consideration of the foregoing, it is hereby:
+
+ORDERED that claims 1–26 of U.S. Patent No. 10,240,197 B1 are proven unpatentable;
+
+FURTHER ORDERED that Patent Owner's Motion To Exclude is granted-in-part and denied-in-part (Patent Owner's Motion to Exclude is granted with respect to the second Hall-Ellis declaration (i.e., Ex. 1085) and denied with respect to McCloskey (i.e., Ex. 1004));
+
+FURTHER ORDER that Petitioner's Motion To Exclude is denied; and
+
+FURTHER ORDERED that, because this Decision is final, a party to the proceeding seeking judicial review of the Decision must comply with the notice and service requirements of 37 C.F.R. § 90.2.
+
+IPR2023-00955
+
+Patent 10,240,197 B1
+
+## PETITIONER:
+
+Derek Walter
+
+Adrian Percer
+
+William Ansley
+
+WEIL, GOTSHAL & MANGES
+
+derek.walter@weil.com
+
+adrian.percer@weil.com
+
+sutton.ansley@weil.com
+
+## PATENT OWNER:
+
+Jon Baughman
+
+Megan Raymond
+
+GROOMBRIDGE, WU, BAUGHMAN & STONE
+
+steve.baughman@groombridgewu.com
+
+megan.raymond@groombridgewu.com

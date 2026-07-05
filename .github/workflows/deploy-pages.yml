@@ -37,7 +37,7 @@ jobs:
       - name: Prepare Pages artifact
         shell: bash
         run: |
-          rsync -a --exclude 'pdfs/' public/ pages-public/
+          rsync -a --exclude 'pdfs/' --exclude 'data/ocr_texts/' public/ pages-public/
           du -sh pages-public
 
       - name: Configure Pages

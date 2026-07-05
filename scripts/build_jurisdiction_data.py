@@ -122,7 +122,10 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    if path.is_relative_to(PUBLIC_DATA_DIR):
+        path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    else:
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def load_optional_json(path: Path) -> dict[str, Any]:

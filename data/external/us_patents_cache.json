@@ -921,7 +921,7 @@
     "cpc": [],
     "publication_date": "",
     "grant_date": "",
-    "source": "official_lookup_not_configured+google_error:URLError",
+    "source": "official_lookup_not_configured+google_error:HTTPError",
     "lookup_status": "failed",
     "status": "failed",
     "google_patents_url": "https://patents.google.com/patent/US10131682C1/en",

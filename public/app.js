@@ -187,6 +187,9 @@ function pdfHref(value) {
   if (!value) return "";
   const path = String(value);
   if (/^https?:\/\//i.test(path)) return path;
+  if (window.location.protocol === "file:" || window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
+    return path;
+  }
   return `https://github.com/zhaozhao-000/patent-invalidity-kb/raw/main/public/${path.replace(/^\/+/, "")}`;
 }
 

@@ -114,10 +114,23 @@ def first(patterns: list[str], text: str, flags: int = re.I | re.S) -> str:
 
 
 def section_between(text: str, headings: list[str], stop_headings: list[str]) -> str:
-    heading_pattern = "|".join(re.escape(h) for h in headings)
-    stop_pattern = "|".join(re.escape(h) for h in stop_headings)
-    match = re.search(rf"(?:^|\n)#+\s*(?:{heading_pattern})\b(.*?)(?=\n#+\s*(?:{stop_pattern})\b|\Z)", text, re.I | re.S)
-    return compact(match.group(1), 2500) if match else ""
+    def heading_re(names: list[str]) -> re.Pattern[str]:
+        pattern = "|".join(re.escape(h) for h in names)
+        return re.compile(
+            rf"(?:^|\n)\s*(?:#{{1,6}}\s*)?(?:(?:[IVX]+|[A-Z]|\d+)\.\s*)?(?:{pattern})\b[^\n]*\n",
+            re.I,
+        )
+
+    start_match = heading_re(headings).search(text)
+    if not start_match:
+        return ""
+    start = start_match.end()
+    stop = len(text)
+    if stop_headings:
+        stop_match = heading_re(stop_headings).search(text, start)
+        if stop_match:
+            stop = stop_match.start()
+    return compact(text[start:stop], 6000)
 
 
 def parse_ptab_decision(text: str, filename: str = "", existing_patent_number: str = "") -> dict[str, Any]:
@@ -177,22 +190,40 @@ def parse_ptab_decision(text: str, filename: str = "", existing_patent_number: s
         if law.lower() in text[:60000].lower() and law not in asserted:
             asserted.append(law)
     outcome = "unknown"
-    low = text[-12000:].lower()
-    if "unpatentable" in low and "not unpatentable" not in low:
-        outcome = "claims unpatentable"
-    if "not unpatentable" in low:
+    low = text[-16000:].lower()
+    negative_unpatentable = re.search(
+        r"(?:has|have)\s+not\s+(?:shown|demonstrated|proven).{0,180}unpatentable|"
+        r"not\s+been\s+shown\s+to\s+be\s+unpatentable|"
+        r"not\s+shown\s+to\s+be\s+unpatentable|"
+        r"not\s+demonstrated\s+to\s+be\s+unpatentable|"
+        r"not\s+unpatentable",
+        low,
+        re.S,
+    )
+    positive_unpatentable = re.search(
+        r"(?:has|have)\s+been\s+shown\s+to\s+be\s+unpatentable|"
+        r"(?:has|have)\s+(?!not\b)(?:shown|demonstrated|proven).{0,180}unpatentable|"
+        r"ordered\s+that(?![^.]{0,240}\bnot\b)[^.]{0,240}\bclaims?[^.]{0,160}\bare\s+unpatentable",
+        low,
+        re.S,
+    )
+    if positive_unpatentable and negative_unpatentable:
+        outcome = "mixed"
+    elif negative_unpatentable:
         outcome = "claims not unpatentable"
+    elif positive_unpatentable:
+        outcome = "claims unpatentable"
     if "institution denied" in low or "deny institution" in low:
         outcome = "institution denied"
     if "institution granted" in low or "institute inter partes review" in low:
         outcome = "institution granted"
-    stops = ["BACKGROUND", "THE CHALLENGED PATENT", "RELATED MATTERS", "REAL PARTIES", "ASSERTED GROUNDS", "ANALYSIS", "CONCLUSION", "ORDER"]
+    stops = ["BACKGROUND", "THE CHALLENGED PATENT", "RELATED MATTERS", "REAL PARTIES", "ASSERTED GROUNDS", "ANALYSIS", "ANALYSIS OF GROUNDS", "MOTION TO SEAL", "CONCLUSION", "ORDER"]
     key_sections = {
         "introduction": section_between(text, ["I. INTRODUCTION", "INTRODUCTION"], stops),
         "background": section_between(text, ["BACKGROUND"], stops),
-        "challenged_patent": section_between(text, ["THE CHALLENGED PATENT", "The '", "The Challenged Patent"], stops),
+        "challenged_patent": section_between(text, ["THE CHALLENGED PATENT", "The Challenged Patent", "The ’", "The '"], stops),
         "asserted_grounds": section_between(text, ["ASSERTED GROUNDS", "Instituted Challenges to Patentability", "Grounds"], stops),
-        "analysis": section_between(text, ["ANALYSIS"], ["CONCLUSION", "ORDER"]),
+        "analysis": section_between(text, ["ANALYSIS", "ANALYSIS OF GROUNDS", "ANALYSIS OF PETITIONER’S GROUNDS", "ANALYSIS OF PETITIONER'S GROUNDS"], ["MOTION TO SEAL", "CONCLUSION", "ORDER"]),
         "conclusion": section_between(text, ["CONCLUSION"], ["ORDER"]),
         "order": section_between(text, ["ORDER"], []),
     }

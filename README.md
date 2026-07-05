@@ -2,6 +2,14 @@
 
 这是一个本地生成、GitHub Pages 可部署的静态案例检索网站，用于管理中国和美国生物医药专利无效/专利挑战案例。
 
+## 正式访问网址
+
+美国案例库正式网址：
+
+```text
+https://zhaozhao-000.github.io/patent-invalidity-kb/us/
+```
+
 ## 先进入项目目录
 
 以后在 PowerShell 里先运行：
@@ -213,10 +221,10 @@ data/external/us_patents_cache.json
 
 ## 分享给团队
 
-GitHub Pages 适合团队访问，地址形如：
+GitHub Pages 适合团队访问，当前美国案例库正式网址：
 
 ```text
-https://用户名.github.io/patent-invalidity-kb/
+https://zhaozhao-000.github.io/patent-invalidity-kb/us/
 ```
 
 PDF 链接使用相对路径，例如：

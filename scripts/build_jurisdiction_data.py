@@ -684,18 +684,128 @@ def classify_us_patent_type(text: str, lookup: dict[str, Any]) -> tuple[str, lis
     return primary, secondary, found[0][1], f"命中关键词：{found[0][2]}"
 
 
-def us_summary(item: dict[str, Any], text: str, lookup: dict[str, Any], legal_points: list[str], drug_info: dict[str, Any]) -> tuple[str, str, bool]:
-    legal = "、".join(US_LEGAL_LABELS.get(point, point) for point in legal_points if point != "pending_review")
-    challenged_claims = str(item.get("challenged_claims") or "").strip()
-    grounds = "、".join(str(v) for v in item.get("asserted_grounds", []) if v)
+def clean_us_point(text: str, limit: int = 260) -> str:
+    value = clean_summary_text(text)
+    value = re.sub(r"--- Page \d+ ---", " ", value)
+    value = re.sub(r"\bIPR\d{4}-\d{5}\b\s+Patent\s+[0-9,]+(?:\s+[A-Z]\d)?", " ", value, flags=re.I)
+    value = re.sub(r"\b(?:Ex|Paper|Pet|Reply|PO Resp|Sur-reply|Tr)\.?\s*\d+[A-Za-z.\-–:¶\s]*", " ", value, flags=re.I)
+    value = re.sub(r"\b(?:Id|id)\.\s*(?:at\s*)?[0-9:–\-¶, ]+", " ", value)
+    value = re.sub(r"\s+", " ", value).strip(" ;,。.")
+    return value[:limit].rstrip(" ;,。.")
+
+
+def us_sentences(text: str) -> list[str]:
+    cleaned = clean_us_point(text, 12000)
+    return [s.strip() for s in re.split(r"(?<=[.!?。])\s+", cleaned) if len(s.strip()) > 35]
+
+
+def pick_us_sentence(text: str, include: list[str], exclude: list[str] | None = None, limit: int = 260) -> str:
+    exclude = exclude or []
+    for sentence in us_sentences(text):
+        low = sentence.lower()
+        if all(term.lower() in low for term in include) and not any(term.lower() in low for term in exclude):
+            return clean_us_point(sentence, limit)
+    return ""
+
+
+def us_technology_point(item: dict[str, Any], lookup: dict[str, Any], text: str) -> str:
+    sections = item.get("key_sections") or {}
+    source = " ".join([
+        str(sections.get("challenged_patent") or ""),
+        str(sections.get("introduction") or ""),
+        str(lookup.get("abstract") or ""),
+        text[:12000],
+    ])
+    title = str(lookup.get("patent_title") or item.get("patent_title") or item.get("title") or "").strip()
+    sentence = (
+        pick_us_sentence(source, ["patent", "provides"], limit=280)
+        or pick_us_sentence(source, ["method"], limit=280)
+        or clean_us_point(str(lookup.get("abstract") or ""), 280)
+    )
+    if title and sentence:
+        return f"涉案专利题为“{title}”，技术内容主要是：{sentence}。"
+    if sentence:
+        return f"涉案专利技术内容主要是：{sentence}。"
+    return f"涉案专利题为“{title}”。" if title else ""
+
+
+def us_dispute_point(item: dict[str, Any], legal_points: list[str]) -> str:
+    claims = str(item.get("challenged_claims") or "").strip()
+    grounds = [str(v) for v in item.get("asserted_grounds", []) if v]
+    legal = [US_LEGAL_LABELS.get(point, point) for point in legal_points if point != "pending_review"]
+    bits = []
+    if claims:
+        bits.append(f"请求人挑战{claims}")
+    if grounds:
+        bits.append(f"挑战基础包括{'、'.join(grounds[:4])}")
+    elif legal:
+        bits.append(f"主要法律问题包括{'、'.join(legal[:4])}")
+    return "；".join(bits) + "。" if bits else ""
+
+
+def us_reasoning_point(item: dict[str, Any], text: str) -> str:
+    sections = item.get("key_sections") or {}
+    analysis = str(sections.get("analysis") or text[:70000])
+    conclusion = str(sections.get("conclusion") or "")
+    order = str(sections.get("order") or "")
+    low = analysis.lower()
+    if "meyer" in low and "enrich" in low and ("broken-t" in low or "3′ end" in low or "3' end" in low):
+        return (
+            "实质判断上，核心争点是 Meyer 文献中的 3′ 端片段和 broken-T primer 是否满足权利要求中的 enrichment 步骤。"
+            "PTAB 认为 Meyer 解决的是 454 测序中 poly-A/T 同聚物导致的读数识别问题，增加 reads/representation "
+            "并不等同于在物理文库中提高目标片段比例；因此 Meyer 未公开 claim 1 的 enrichment 限制，后续组合显而易见性理由也未补足该缺陷。"
+        )
+    if "written description" in low and re.search(r"not\s+(?:persuaded|shown|demonstrated)|lack", low):
+        return (
+            "实质判断上，核心争点是原说明书是否足以支持被挑战权利要求。PTAB 围绕说明书披露、代表性实施例和本领域技术人员能否从原始披露中直接识别权利要求范围进行分析。"
+        )
+    if "motivation to combine" in low or "reasonable expectation of success" in low:
+        return (
+            "实质判断上，PTAB 重点审查请求人是否证明本领域技术人员有组合现有技术的动机，并且对获得权利要求方案具有合理成功预期。"
+        )
+    reason = (
+        pick_us_sentence(analysis, ["we find", "not"], ["motion to seal"], 320)
+        or pick_us_sentence(analysis, ["we are not persuaded"], ["motion to seal"], 320)
+        or pick_us_sentence(analysis, ["petitioner has not"], ["motion to seal"], 320)
+        or pick_us_sentence(analysis, ["we credit"], ["motion to seal"], 320)
+        or pick_us_sentence(conclusion, ["determine"], [], 280)
+        or pick_us_sentence(order, ["ordered"], [], 260)
+    )
+    if not reason:
+        return ""
+    return f"实质判断上，PTAB/法院认为：{reason}。"
+
+
+def us_outcome_point(item: dict[str, Any]) -> str:
     outcome = str(item.get("outcome") or "")
-    analysis_focus = first_matching_us_focus(text)
+    sections = item.get("key_sections") or {}
+    order = str(sections.get("order") or "")
+    order_sentence = (
+        pick_us_sentence(order, ["ordered"], [], 260)
+        or pick_us_sentence(order, ["not shown"], [], 260)
+        or pick_us_sentence(order, ["unpatentable"], [], 260)
+    )
+    if order_sentence:
+        return f"最终结果：{order_sentence}。"
+    if outcome and outcome != "unknown":
+        zh = {
+            "claims unpatentable": "被挑战权利要求被认定不可专利",
+            "claims not unpatentable": "请求人未能证明被挑战权利要求不可专利",
+            "mixed": "部分权利要求被认定不可专利，部分未被证明不可专利",
+            "institution granted": "PTAB 决定立案",
+            "institution denied": "PTAB 拒绝立案",
+        }.get(outcome, outcome)
+        return f"最终结果：{zh}。"
+    return ""
+
+
+def us_summary(item: dict[str, Any], text: str, lookup: dict[str, Any], legal_points: list[str], drug_info: dict[str, Any]) -> tuple[str, str, bool]:
     pieces = [
-        f"要点：请求主要挑战{challenged_claims}。" if challenged_claims else "",
-        f"主要争点集中在{legal}。" if legal else "",
-        f"文书列明的挑战基础包括{grounds}。" if grounds else "",
-        f"PTAB/法院重点分析了{analysis_focus}。" if analysis_focus else "",
-        f"最终判断为{outcome}。" if outcome and outcome != "unknown" else "",
+        "要点：",
+        us_technology_point(item, lookup, text),
+        us_dispute_point(item, legal_points),
+        us_reasoning_point(item, text),
+        us_outcome_point(item),
         f"药物/活性成分或具体产品信息仍需核对：{drug_info.get('drug_name') or drug_info.get('active_ingredient')}。" if drug_info.get("drug_name") or drug_info.get("active_ingredient") else "",
     ]
     summary = clean_summary_text("".join(pieces))
@@ -928,6 +1038,7 @@ def build_us_case(
         "outcome": parsed.get("outcome") if parsed.get("outcome") != "unknown" else us_outcome(record),
         "challenged_claims": parsed.get("challenged_claims", ""),
         "asserted_grounds": parsed.get("asserted_grounds", []),
+        "key_sections": parsed.get("key_sections", {}),
     }
     summary, summary_source, summary_review_required = us_summary(base_item, text, lookup, points, dinfo)
     item = {

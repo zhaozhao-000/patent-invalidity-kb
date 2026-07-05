@@ -183,6 +183,13 @@ function metaGrid(entries) {
   return `<div class="meta-grid">${rows.map(([key, value]) => `<span><strong>${escapeHtml(key)}</strong>${escapeHtml(value)}</span>`).join("")}</div>`;
 }
 
+function pdfHref(value) {
+  if (!value) return "";
+  const path = String(value);
+  if (/^https?:\/\//i.test(path)) return path;
+  return `https://github.com/zhaozhao-000/patent-invalidity-kb/raw/main/public/${path.replace(/^\/+/, "")}`;
+}
+
 function statusBadge(item) {
   if (item.manual_override_applied) return '<span class="badge merge">人工已修正</span>';
   if (!item.review_required) return '<span class="badge merge">已自动入库</span>';
@@ -210,7 +217,7 @@ function cnCard(item) {
       <div class="tags">${tagList("legal_points", item.legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "暂无决定要点。")}</p>
       <div class="links">
-        ${item.pdf ? `<a href="${escapeHtml(item.pdf)}" target="_blank" rel="noopener">打开 PDF</a>` : ""}
+        ${item.pdf ? `<a href="${escapeHtml(pdfHref(item.pdf))}" target="_blank" rel="noopener">打开 PDF</a>` : ""}
         <button type="button" class="copy-id" data-case-id="${escapeHtml(item.case_id)}">复制 case_id</button>
       </div>
     </article>
@@ -243,7 +250,7 @@ function usCard(item) {
       <div class="tags">${tagList("us_legal_points", item.us_legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "No key points available.")}</p>
       <div class="links">
-        ${item.pdf ? `<a href="${escapeHtml(item.pdf)}" target="_blank" rel="noopener">Open PDF</a>` : ""}
+        ${item.pdf ? `<a href="${escapeHtml(pdfHref(item.pdf))}" target="_blank" rel="noopener">Open PDF</a>` : ""}
         <button type="button" class="copy-id" data-case-id="${escapeHtml(item.case_id)}">复制 case_id</button>
       </div>
     </article>

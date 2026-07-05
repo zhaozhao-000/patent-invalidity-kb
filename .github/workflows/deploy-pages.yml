@@ -34,13 +34,19 @@ jobs:
           test -d public/pdfs
           ! grep -RInE 'localhost:8000|file:///|[A-Za-z]:\\Users|MINERU_API_KEY=.*[^"]' public
 
+      - name: Prepare Pages artifact
+        shell: bash
+        run: |
+          rsync -a --exclude 'pdfs/' public/ pages-public/
+          du -sh pages-public
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload public directory
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: pages-public
 
       - name: Deploy to GitHub Pages
         id: deployment

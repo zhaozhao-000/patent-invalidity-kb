@@ -339,7 +339,7 @@ def cn_status(record: dict[str, Any]) -> str:
     if "部分无效" in conclusion or outcome == "partially_invalidated":
         return "部分无效"
     if "维持有效" in conclusion or outcome == "maintained":
-        return "有效"
+        return "维持有效"
     return "待确认"
 
 
@@ -517,6 +517,36 @@ def extract_cn_patent_title(text: str, fallback: str) -> str:
     return title or fallback
 
 
+def normalize_cn_patent_number(value: str) -> str:
+    text = str(value or "")
+    match = re.search(r"(?:CN)?\s*((?:20|19|18|01|02|03)\d{6,10}(?:\.\d)?[Xx]?)", text)
+    if not match:
+        return ""
+    number = match.group(1).replace(" ", "")
+    return number[:-1] + "X" if number.endswith("x") else number
+
+
+def extract_cn_patent_number(text: str, record: dict[str, Any]) -> tuple[str, str, float]:
+    existing = normalize_cn_patent_number(str(record.get("patent_number") or ""))
+    if existing:
+        return existing, "record", 0.9
+    front = text[:10000]
+    patterns = [
+        r"<td>\s*(?:专利号|申请号或专利号|申请号)\s*</td>\s*<td>\s*(.*?)\s*</td>",
+        r"(?:申请号或专利号|专利号|申请号)[:：\s]+([0-9.\sXx]{8,20})",
+        r"专利号为\s*([0-9.\sXx]{8,20})",
+        r"第\s*((?:20|19|18|01|02|03)\d{6,10}(?:\.\d)?[Xx]?)\s*号(?:发明)?专利",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, front, re.S)
+        if not match:
+            continue
+        number = normalize_cn_patent_number(match.group(1))
+        if number:
+            return number, "front_page", 0.85
+    return "", "unknown", 0.0
+
+
 def cn_summary(record: dict[str, Any], text: str, title: str, points: list[str], status: str, owner: str, petitioner: str) -> tuple[str, str, bool]:
     manual = str(record.get("manual_summary") or "").strip()
     if manual:
@@ -656,26 +686,36 @@ def classify_us_patent_type(text: str, lookup: dict[str, Any]) -> tuple[str, lis
 
 def us_summary(item: dict[str, Any], text: str, lookup: dict[str, Any], legal_points: list[str], drug_info: dict[str, Any]) -> tuple[str, str, bool]:
     legal = "、".join(US_LEGAL_LABELS.get(point, point) for point in legal_points if point != "pending_review")
-    patent_title = item.get("patent_title") or lookup.get("patent_title") or item.get("title")
-    parties = []
-    if item.get("petitioner"):
-        parties.append(f"Petitioner 为 {item['petitioner']}")
-    if item.get("patent_owner"):
-        parties.append(f"Patent Owner 为 {item['patent_owner']}")
-    if item.get("plaintiff") or item.get("defendant"):
-        parties.append(f"诉讼当事人为 {item.get('plaintiff', '')} v. {item.get('defendant', '')}".strip())
-    intro = clean_summary_text(extract_relevant_us_text(text))
+    challenged_claims = str(item.get("challenged_claims") or "").strip()
+    grounds = "、".join(str(v) for v in item.get("asserted_grounds", []) if v)
+    outcome = str(item.get("outcome") or "")
+    analysis_focus = first_matching_us_focus(text)
     pieces = [
-        f"本案涉及美国专利 {item.get('patent_number') or '待确认'}，专利主题为“{patent_title}”。",
-        f"程序类型为 {item.get('proceeding_type') or 'Unknown'}，程序号为 {item.get('proceeding_number') or item.get('case_number') or '待确认'}。",
-        "；".join(parties) + "。" if parties else "",
-        f"主要法律问题包括 {legal}。" if legal else "",
-        f"PTAB/法院最终结果为 {item.get('outcome') or 'unknown'}。",
-        f"药物/活性成分信息：{drug_info.get('drug_name') or drug_info.get('active_ingredient')}。" if drug_info.get("drug_name") or drug_info.get("active_ingredient") else "",
-        f"关键内容：{intro[:420]}。" if intro else "",
+        f"要点：请求主要挑战{challenged_claims}。" if challenged_claims else "",
+        f"主要争点集中在{legal}。" if legal else "",
+        f"文书列明的挑战基础包括{grounds}。" if grounds else "",
+        f"PTAB/法院重点分析了{analysis_focus}。" if analysis_focus else "",
+        f"最终判断为{outcome}。" if outcome and outcome != "unknown" else "",
+        f"药物/活性成分或具体产品信息仍需核对：{drug_info.get('drug_name') or drug_info.get('active_ingredient')}。" if drug_info.get("drug_name") or drug_info.get("active_ingredient") else "",
     ]
     summary = clean_summary_text("".join(pieces))
     return summary, "generated_from_full_text", too_short_summary(summary, "zh")
+
+
+def first_matching_us_focus(text: str) -> str:
+    focus_terms = [
+        ("claim construction", "claim construction / 权利要求解释"),
+        ("obviousness", "obviousness / 显而易见性"),
+        ("anticipation", "anticipation / 新颖性"),
+        ("written description", "written description / 书面描述支持"),
+        ("enablement", "enablement / 可实施性"),
+        ("reasonable expectation of success", "reasonable expectation of success / 合理成功预期"),
+        ("motivation to combine", "motivation to combine / 组合动机"),
+        ("priority", "priority / 优先权"),
+    ]
+    haystack = text[:70000].lower()
+    found = [label for needle, label in focus_terms if needle in haystack]
+    return "、".join(found[:4])
 
 
 def extract_relevant_us_text(text: str) -> str:
@@ -782,6 +822,7 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
     if not points:
         points = ["pending_review"]
     owner, petitioner, petitioner_values, party_extraction = extract_cn_parties(text, record)
+    patent_number, patent_number_source, patent_number_conf = extract_cn_patent_number(text, record)
     status = cn_status(record)
     summary, summary_source, summary_review_required = cn_summary(record, text, title, points, status, owner, petitioner)
     dinfo = drug_info(record, text)
@@ -792,7 +833,8 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
         "language": "zh",
         "title": title,
         "decision_number": record.get("decision_number", ""),
-        "patent_number": record.get("patent_number", ""),
+        "patent_number": patent_number,
+        "patent_number_source": patent_number_source,
         "patent_title": title if title != "未识别专利名称" else "",
         "pdf": pdf_path,
         "parsed_markdown": parsed_md,
@@ -816,6 +858,7 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
         "outcome": status,
         "confidence": {
             "title": title_conf,
+            "patent_number": patent_number_conf,
             "patent_type": ptype_conf,
             "legal_points": 0.65 if points != ["pending_review"] else 0.2,
             "drug_name": dinfo["confidence"],
@@ -827,6 +870,7 @@ def build_cn_case(record: dict[str, Any], text: str, pdf_path: str, parsed_md: s
             or record.get("exclude_reason")
             or points == ["pending_review"]
             or summary_review_required
+            or not patent_number
             or not owner
             or not petitioner
             or party_extraction["review_required"]
@@ -882,6 +926,8 @@ def build_us_case(
         "plaintiff": plaintiff,
         "defendant": defendant,
         "outcome": parsed.get("outcome") if parsed.get("outcome") != "unknown" else us_outcome(record),
+        "challenged_claims": parsed.get("challenged_claims", ""),
+        "asserted_grounds": parsed.get("asserted_grounds", []),
     }
     summary, summary_source, summary_review_required = us_summary(base_item, text, lookup, points, dinfo)
     item = {

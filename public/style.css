@@ -212,6 +212,7 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 16px;
+  align-items: flex-start;
 }
 
 .case-card h2 {
@@ -274,16 +275,21 @@ button {
 }
 
 .meta-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 14px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px 16px;
   color: #344054;
   font-size: 13px;
 }
 
 .meta-grid span {
-  display: inline-flex;
-  gap: 5px;
+  min-width: 0;
+}
+
+.meta-grid strong {
+  display: block;
+  color: var(--text);
+  font-weight: 700;
 }
 
 .summary {
@@ -396,6 +402,10 @@ th {
   .badges {
     justify-content: flex-start;
     min-width: 0;
+  }
+
+  .meta-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .portal {

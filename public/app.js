@@ -189,10 +189,6 @@ function statusBadge(item) {
   return '<span class="badge warn">待复核</span>';
 }
 
-function parsedLink(item) {
-  return item.parsed_markdown ? `<a href="${escapeHtml(item.parsed_markdown)}" target="_blank" rel="noopener">打开解析文本</a>` : "";
-}
-
 function cnCard(item) {
   return `
     <article class="case-card">
@@ -209,15 +205,12 @@ function cnCard(item) {
         ["专利权人", item.patent_owner],
         ["无效请求人", item.invalidity_petitioner],
         ["专利类型", item.patent_type],
-        ["法律点", labelLine("legal_points", item.legal_points)],
         ["药物 / 活性成分", drugLine(item)],
-        ["无效结果", item.status || item.outcome],
       ])}
       <div class="tags">${tagList("legal_points", item.legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "暂无决定要点。")}</p>
       <div class="links">
         ${item.pdf ? `<a href="${escapeHtml(item.pdf)}" target="_blank" rel="noopener">打开 PDF</a>` : ""}
-        ${parsedLink(item)}
         <button type="button" class="copy-id" data-case-id="${escapeHtml(item.case_id)}">复制 case_id</button>
       </div>
     </article>
@@ -245,15 +238,12 @@ function usCard(item) {
         ["Proceeding Type", item.proceeding_type],
         ["Proceeding No. / Case No.", item.proceeding_number || item.case_number],
         ["Patent Type", item.patent_type],
-        ["U.S. Legal Issues", labelLine("us_legal_points", item.us_legal_points)],
         ["Drug / Active / Product", drugLine(item)],
-        ["Outcome", item.outcome],
       ])}
       <div class="tags">${tagList("us_legal_points", item.us_legal_points)}</div>
       <p class="summary">${escapeHtml(item.summary || "No key points available.")}</p>
       <div class="links">
         ${item.pdf ? `<a href="${escapeHtml(item.pdf)}" target="_blank" rel="noopener">Open PDF</a>` : ""}
-        ${parsedLink(item)}
         <button type="button" class="copy-id" data-case-id="${escapeHtml(item.case_id)}">复制 case_id</button>
       </div>
     </article>

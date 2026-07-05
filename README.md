@@ -58,26 +58,112 @@ data/manual_overrides/cn_overrides.json
 data/manual_overrides/us_overrides.json
 ```
 
-示例：
+`cn_overrides.json` 当前如果只有 `{}`，表示还没有人工修正。需要修正时，把 `{}` 替换成下面这种格式。
+
+中国案例模板：
 
 ```json
 {
-  "cn_0001": {
-    "patent_title": "人工确认的专利名称",
-    "patent_type": "化合物专利",
-    "summary": "人工修正后的决定要点",
-    "patent_owner": "专利权人名称",
-    "invalidity_petitioner": "无效请求人名称"
-  },
-  "us_0205": {
-    "patent_title": "Confirmed English Patent Title",
-    "patent_type": "生物制品/抗体",
-    "petitioner": "Petitioner name",
-    "patent_owner": "Patent Owner name",
-    "summary": "人工修正后的美国案例要点"
+  "cn_0004": {
+    "patent_owner": "这里填写专利权人",
+    "invalidity_petitioner": "这里填写无效请求人",
+    "parties": [
+      {
+        "role": "专利权人",
+        "name": "这里填写专利权人"
+      },
+      {
+        "role": "无效请求人",
+        "name": "这里填写无效请求人"
+      }
+    ],
+    "status": "这里填写无效结果",
+    "outcome": "这里填写无效结果",
+    "summary": "这里填写人工修正后的摘要"
   }
 }
 ```
+
+中国无效结果建议只填以下四种之一：
+
+```text
+全部无效
+部分无效
+维持有效
+待确认
+```
+
+如果只想修正当事人，可以只填：
+
+```json
+{
+  "cn_0004": {
+    "patent_owner": "这里填写专利权人",
+    "invalidity_petitioner": "这里填写无效请求人"
+  }
+}
+```
+
+美国案例模板：
+
+```json
+{
+  "us_0205": {
+    "patent_number": "US10123456B2",
+    "patent_title": "这里填写美国专利标题",
+    "title": "这里填写美国专利标题",
+    "petitioner": "这里填写 Petitioner",
+    "patent_owner": "这里填写 Patent Owner",
+    "plaintiff": "",
+    "defendant": "",
+    "proceeding_type": "IPR",
+    "proceeding_number": "IPR2023-00000",
+    "decision_type": "Final Written Decision",
+    "outcome": "这里填写最终结果",
+    "patent_type": "这里填写专利类型",
+    "patent_type_basis": "人工复核：这里填写分类依据",
+    "summary": "这里填写人工修正后的美国案例摘要",
+    "parties": [
+      {
+        "role": "Petitioner",
+        "name": "这里填写 Petitioner"
+      },
+      {
+        "role": "Patent Owner",
+        "name": "这里填写 Patent Owner"
+      }
+    ]
+  }
+}
+```
+
+美国 PTAB 常见结果可以填：
+
+```text
+claims unpatentable
+claims not unpatentable
+mixed
+institution granted
+institution denied
+terminated
+settled
+unknown
+```
+
+专利类型建议只填以下八种之一：
+
+```text
+化合物专利
+晶型/盐/溶剂合物
+制剂/组合物
+用途/适应症
+制备方法/中间体
+生物制品/抗体
+其他
+待确认
+```
+
+多个案例一起修正时，每个 `case_id` 之间用英文逗号分隔，最后一个案例后面不要加逗号。
 
 重新运行 `build_jurisdiction_data.py` 后，manual_overrides 会优先于自动识别结果，后续重跑不会覆盖人工修正。
 

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>案例卡片布局预览 - us_0332</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #fff;
+      --text: #1d2433;
+      --muted: #667085;
+      --line: #d9dee7;
+      --accent: #176b87;
+      --accent-soft: #e7f3f6;
+      --warn: #a15c00;
+      --warn-bg: #fff3d8;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    .note {
+      max-width: 1180px;
+      margin: 0 auto 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .case-card {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 18px 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .case-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    .badges,
+    .tags,
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .badges {
+      justify-content: flex-end;
+      min-width: 230px;
+    }
+
+    .badge,
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .badge {
+      background: #eef2f6;
+      color: #344054;
+    }
+
+    .badge.warn {
+      background: var(--warn-bg);
+      color: var(--warn);
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px 16px;
+      margin-top: 14px;
+      color: #344054;
+      font-size: 14px;
+    }
+
+    .meta-grid span {
+      min-width: 0;
+    }
+
+    .meta-grid strong {
+      display: block;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .tags {
+      margin-top: 14px;
+    }
+
+    .tag {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .summary {
+      margin: 14px 0 0;
+      font-size: 16px;
+    }
+
+    .summary ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+
+    .summary li {
+      margin: 4px 0;
+    }
+
+    .links {
+      margin-top: 14px;
+      align-items: center;
+    }
+
+    .links a,
+    .links button {
+      width: auto;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--accent);
+      padding: 5px 9px;
+      font: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    @media (max-width: 900px) {
+      .case-head {
+        display: block;
+      }
+
+      .badges {
+        justify-content: flex-start;
+        margin-top: 10px;
+      }
+
+      .meta-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <p class="note">单个案例布局预览：只展示案件基本信息，法律点只在蓝色标签中出现，结果只在右上角标签中出现，解析文本入口已移除。</p>
+
+  <article class="case-card">
+    <div class="case-head">
+      <h1>Compositions and methods for targeted nucleic acid sequence enrichment and high efficiency library generation</h1>
+      <div class="badges">
+        <span class="badge">US</span>
+        <span class="badge">IPR</span>
+        <span class="badge">claims unpatentable</span>
+        <span class="badge warn">待复核</span>
+      </div>
+    </div>
+
+    <div class="meta-grid">
+      <span><strong>Patent No.</strong>US10036012B2</span>
+      <span><strong>Petitioner</strong>INTEGRATED DNA TECHNOLOGIES, INC</span>
+      <span><strong>Patent Owner</strong>TECAN GENOMICS, INC</span>
+      <span><strong>Proceeding No.</strong>IPR2025-00015</span>
+      <span><strong>Patent Type</strong>生物制品/抗体</span>
+      <span><strong>Drug / Active / Product</strong>待人工确认</span>
+    </div>
+
+    <div class="tags">
+      <span class="tag">35 U.S.C. § 102 / Anticipation（新颖性/预见）</span>
+      <span class="tag">35 U.S.C. § 103 / Obviousness（显而易见性）</span>
+      <span class="tag">Claim Construction（权利要求解释）</span>
+      <span class="tag">Priority / Written Description Support（优先权/书面描述支持）</span>
+    </div>
+
+    <div class="summary">
+      <strong>要点摘要</strong>
+      <ul>
+        <li>本案审查 US10036012B2 中关于靶向核酸序列富集和高效文库构建的权利要求。</li>
+        <li>请求人主要从 anticipation、obviousness、claim construction 和 priority / written description support 角度挑战涉案权利要求。</li>
+        <li>PTAB 的核心分析集中在权利要求技术特征与现有技术公开之间的对应关系，以及相关优先权/书面描述支持是否足以支撑权利要求。</li>
+        <li>最终结果为 challenged claims unpatentable。药物、活性成分或具体产品信息仍需人工核对。</li>
+      </ul>
+    </div>
+
+    <div class="links">
+      <a href="../public/pdfs/case_0332_us.pdf" target="_blank" rel="noopener">Open PDF</a>
+      <button type="button">复制 case_id</button>
+    </div>
+  </article>
+</body>
+</html>

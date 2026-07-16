@@ -26,6 +26,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Build case data
+        shell: bash
+        run: |
+          python scripts/us_drug_review_pilot_round3.py
+          python scripts/build_jurisdiction_data.py
+
       - name: Verify static site
         shell: bash
         run: |

@@ -1,6 +1,9 @@
 const currentScript = document.currentScript;
 const jurisdiction = currentScript?.dataset.jurisdiction || "cn";
 const dataFile = currentScript?.dataset.file || "data/cases.json";
+const siteRoot = window.location.pathname.includes("/patent-invalidity-kb/")
+  ? "/patent-invalidity-kb/"
+  : "../";
 
 const state = {
   cases: [],
@@ -295,9 +298,7 @@ function resetFilters() {
 
 async function init() {
   try {
-    const response = await fetch(dataFile, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}: ${dataFile}`);
-    const data = await response.json();
+    const data = await loadCaseData();
     state.cases = data.cases || [];
     state.labels = data.tag_labels || {};
     els.meta.textContent = `已加载 ${state.cases.length} 个${jurisdiction === "us" ? "美国" : "中国"}案例。`;
@@ -308,6 +309,31 @@ async function init() {
     els.emptyState.hidden = false;
     els.emptyState.textContent = error.message;
   }
+}
+
+async function loadCaseData() {
+  const candidates = [...new Set([
+    dataFile,
+    `${siteRoot}${dataFile}`,
+    `../${dataFile}`,
+  ])];
+  const errors = [];
+  for (const candidate of candidates) {
+    try {
+      const url = new URL(candidate, document.baseURI);
+      if (url.protocol === "http:" || url.protocol === "https:") {
+        url.searchParams.set("v", "20260716");
+      }
+      const response = await fetch(url.toString(), { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      if (Array.isArray(data.cases) && data.cases.length > 0) return data;
+      throw new Error("数据文件没有案例");
+    } catch (error) {
+      errors.push(`${candidate}: ${error.message}`);
+    }
+  }
+  throw new Error(errors.join("；"));
 }
 
 els.searchInput?.addEventListener("input", render);

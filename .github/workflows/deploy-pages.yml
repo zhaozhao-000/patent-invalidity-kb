@@ -26,19 +26,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build case data
-        shell: bash
-        run: |
-          python scripts/us_deep_review_pilot.py
-          python scripts/us_drug_review_pilot.py
-          python scripts/us_drug_review_pilot_round3.py
-          python scripts/build_jurisdiction_data.py
-
       - name: Verify static site
         shell: bash
         run: |
           test -f public/index.html
           test -f public/data/cases.json
+          python - <<'PY'
+          import json
+          for path in ("public/data/cases.json", "public/data/cn_cases.json", "public/data/us_cases.json"):
+              with open(path, encoding="utf-8") as f:
+                  data = json.load(f)
+              count = len(data.get("cases", []))
+              if count == 0:
+                  raise SystemExit(f"{path} has no cases")
+              print(f"{path}: {count} cases")
+          PY
           test -d public/pdfs
           ! grep -RInE 'localhost:8000|file:///|[A-Za-z]:\\Users|MINERU_API_KEY=.*[^"]' public
 

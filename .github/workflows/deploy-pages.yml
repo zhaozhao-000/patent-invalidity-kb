@@ -37,7 +37,11 @@ jobs:
       - name: Prepare Pages artifact
         shell: bash
         run: |
-          rsync -a --exclude 'pdfs/' --exclude 'data/ocr_texts/' public/ pages-public/
+          mkdir -p pages-public/cn pages-public/us pages-public/data
+          cp public/index.html public/app.js public/style.css public/.nojekyll pages-public/
+          cp public/cn/index.html pages-public/cn/
+          cp public/us/index.html pages-public/us/
+          cp public/data/cn_cases.json public/data/us_cases.json pages-public/data/
           du -sh pages-public
 
       - name: Configure Pages

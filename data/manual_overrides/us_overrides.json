@@ -1,1 +1,697 @@
-{}
+{
+  "us_0332": {
+    "summary": "要点：对于 anticipation 或 obviousness，PTAB 不仅看现有技术是否出现了相似实验步骤，还要判断该步骤是否公开了权利要求中具有专利性意义的技术限制。本案中，Meyer 公开了 SMART/anchored PCR、broken-T primer 和 454 测序中的 3' 端片段处理，但 PTAB 认为这些内容只能说明测序读数层面的代表性改善，不能证明样本文库中目标核酸序列相对于其他片段发生了 enrichment。请求人不能把 read representation 等同于 physical library enrichment，也不能用补充文献弥补主引用文献缺失的核心限制。最终结果为维持有效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利涉及 NGS 场景下的靶向核酸序列富集和高效率文库构建，核心不是治疗药物，而是测序样本制备和文库制备工具。",
+      "prior_art_context": "主要现有技术 Meyer 公开了利用 SMART/anchored PCR 和 broken-T primer 处理 cDNA 3' 端片段，并用于 454 测序；请求人试图把该流程解释为对目标片段的 enrichment。",
+      "challenged_claims": "claims 1–3 and 5–22",
+      "core_dispute": "核心争点是 Meyer 文献中的 3' 端片段、broken-T primer 和 SMART/anchored PCR 流程，是否公开或使显而易见 claim 1 要求的 enrichment 步骤。",
+      "petitioner_arguments": "请求人主张 Meyer 的 3' end fragments 经后续 PCR 后相对其他 cDNA fragments 得到富集，并据此挑战 claims 1-3 and 5-22 的新颖性和显而易见性。",
+      "patent_owner_arguments": "专利权人强调 Meyer 的 broken-T 设计只是解决 454 测序中 poly-A/T 同聚物导致的读数识别问题，不能证明物理文库中目标片段比例提高。",
+      "tribunal_reasoning": "PTAB 接受 Dr. Meyer 关于 broken-T sequence 的解释，认为 16% reads 只能说明测序读数中 3' 端片段被合理代表，不能作为 enrichment 的定量证据；Meyer 未公开 claim 1 的 enrichment 限制，Siebert、Kelley、Caruccio、Bronner 也未补足该缺陷。",
+      "outcome_reason": "请求人未能以优势证据证明 claims 1-3 and 5-22 不可专利，最终结果为维持有效。",
+      "final_result_cn": "维持有效",
+      "evidence": "confirming that they were enriched compared to other mRNA fragments”) (citing Ex. 1085 ¶ 184). On this record, we are not persuaded that the 3' fragments in Meyer are “enriched” under our construction. We explain our reasoning below. ## i. Reduce Read Artifacts During 454 Pyrosequencing Meyer's method uses 454 pyrosequencing platform. Ex. 1006, 1, 19. \"Becau"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0333": {
+    "summary": "要点：当独立权利要求的核心技术限制没有被主引用文献公开时，针对从属权利要求的补充文献通常不能单独挽救 anticipation 或 obviousness 挑战。本案中，Meyer 虽然公开了 cDNA 3' 端片段处理、broken-T primer 和测序流程，但未证明权利要求要求的 enrichment。PTAB 因此认为，请求人关于从属特征的组合理由不能弥补独立权利要求核心限制的缺失。最终结果为维持有效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利与 us_0332 同族，涉及 NGS 靶向富集和文库生成方法，属于测序工具和样本制备技术，而非药物专利。",
+      "prior_art_context": "主要现有技术 Meyer 同样公开了 cDNA 3' 端片段处理、broken-T primer 和后续测序流程；补充文献主要用于说明 PCR 或测序中的附加步骤。",
+      "challenged_claims": "claims 1–3, 5–12, and 14–19",
+      "core_dispute": "争点仍是 Meyer 是否公开权利要求要求的 enrichment，以及补充文献是否能弥补该核心限制。",
+      "petitioner_arguments": "请求人将 Meyer 的 SMART/anchored PCR、broken-T primer 和后续测序读数解释为对目标序列或片段的富集，并提出新颖性和显而易见性挑战。",
+      "patent_owner_arguments": "专利权人反驳称 Meyer 解决的是 454 测序读数质量和同聚物问题，不是提高物理样本中目标片段比例；相关组合文献只补充从属限制。",
+      "tribunal_reasoning": "PTAB 认为请求人没有证明 Meyer 满足独立权利要求的核心 enrichment 限制。在独立权利要求基础缺失的情况下，针对从属权利要求的组合理由也不能成立。",
+      "outcome_reason": "请求人未证明被挑战权利要求不可专利，最终结果为维持有效。",
+      "final_result_cn": "维持有效",
+      "evidence": "ecited.’” Id. (quoting Minton v. Nat’l Ass’n of Securities Dealers, Inc., 336 F.3d 1373, 1381 (Fed. Cir. 2003)). We are not persuaded by Petitioner’s argument for two reasons. First, the language in the “thereby enriching” clause serves as the antecedent basis for step 1(d), which recites “sequencing the amplified products comprising the enriched nucleic aci"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0329": {
+    "summary": "要点：对于系统或检测平台类权利要求，obviousness 判断不能只看现有技术是否分别公开传感器、检测和数据分析模块，还要看现有技术是否给出将这些模块按照权利要求方式关联起来的具体教导。本案中，PTAB 对传感器阵列、标签分配和生物状态识别之间的对应关系逐项判断，认为部分权利要求的组合理由成立，部分权利要求仍缺少充分公开或组合动机。最终结果为部分无效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利题为 System and sensor array，核心是传感器阵列和生物分子指纹识别系统，属于检测平台或分析工具，不是药物本身。",
+      "prior_art_context": "现有技术主要涉及传感器阵列、生物分子检测和数据标签分配系统；请求人据此主张传感器检测结果与生物状态识别之间的对应关系已被公开或容易组合。",
+      "challenged_claims": "claims 1–4, 6, 7, 17, and 22–25",
+      "core_dispute": "争点在于现有技术是否公开或使显而易见用于识别生物分子指纹、分配标签并对应生物状态的系统和传感器阵列要素。",
+      "petitioner_arguments": "请求人试图用现有传感器、检测和数据分析文献覆盖系统组件及标签分配功能，并主张相关权利要求不可专利。",
+      "patent_owner_arguments": "专利权人围绕系统结构、传感器阵列与生物状态识别之间的对应关系，以及现有技术组合缺口进行抗辩。",
+      "tribunal_reasoning": "PTAB 对不同权利要求分别评价，认为部分权利要求的要素和组合理由得到证明，另一些权利要求仍存在现有技术未充分覆盖或组合动机不足的问题。",
+      "outcome_reason": "最终结果为部分无效：部分权利要求被证明不可专利，部分权利要求未被证明不可专利。",
+      "final_result_cn": "部分无效",
+      "evidence": "Patent Owner disputes those contentions. See Resp. 36–53. For the reasons explained below, we find that Petitioner has not shown that claims 1–4, 6, 7, 17, and 22–25 would have been obvious over Hu. More specifically, Petitioner has not sufficiently shown that Hu teaches or suggests step (c) of claim 1. Because this issue is dispositive for all of the claims"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0318": {
+    "summary": "要点：对于测序流程类方法权利要求，anticipation 或 obviousness 的关键在于现有技术是否公开了权利要求限定的流程关系和技术效果，而不是是否出现了相同的测序关键词。本案中，请求人依赖多重测序和核酸模板处理文献，但 PTAB 认为其未充分证明现有技术满足维护模板完整性并完成模板识别的关键流程限制。最终结果为维持有效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利涉及 multiplex sequencing 中维护核酸模板完整性和识别模板的方法，属于测序工作流和样本标识技术。",
+      "prior_art_context": "现有技术公开了多重测序、核酸模板处理和样本识别相关流程；争议在于这些文献是否真正公开保持模板完整性并完成权利要求限定的识别步骤。",
+      "challenged_claims": "claims 1–8",
+      "core_dispute": "争点集中在现有技术是否公开保持模板完整性、识别核酸模板及多重测序流程中的关键步骤，并是否有充分组合理由。",
+      "petitioner_arguments": "请求人依赖测序和核酸模板处理文献，主张相关步骤已被公开或可由本领域技术人员组合得到。",
+      "patent_owner_arguments": "专利权人强调权利要求关注模板完整性和识别的一体化流程，现有技术没有按权利要求方式解决该问题。",
+      "tribunal_reasoning": "PTAB 认为请求人没有充分证明现有技术满足关键流程限制，或组合后能达到权利要求要求的模板完整性和识别效果。",
+      "outcome_reason": "请求人未证明被挑战权利要求不可专利，最终结果为维持有效。",
+      "final_result_cn": "维持有效",
+      "evidence": "this argument suggests that “cross-over error” is a term of art with a generally known meaning, on this record, we are not persuaded. Indeed, in the Petition, Petitioner argues that the term “cross-over error” requires express construction, in contrast to “all other terms,” for which “[t]he plain and ordinary meaning is applied.” See Pet. 22. This distinctio"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0303": {
+    "summary": "要点：rehearing 决定的重点通常不是重新审理全部无效理由，而是检查最终书面决定中是否存在需要纠正的法律或逻辑处理。本案仍围绕 written description 展开，但 PTAB 主要处理从属权利要求结论是否应当随其依附的上位权利要求进行调整。对于此类决定，阅读重点应放在 PTAB 是否纠正了权利要求之间的结论一致性，而不是把它当作新的完整实体审查。最终结果为部分无效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利涉及 II 型 anti-CD20 抗体与选择性 BCL-2 inhibitor 的联合治疗方案，属于药物联合治疗和适应症类专利。",
+      "prior_art_context": "现有技术和原始披露围绕 II 型 anti-CD20 抗体、BCL-2 抑制剂及其在血液肿瘤治疗中的用途；本决定主要处理最终书面决定中部分权利要求结论是否需要调整。",
+      "challenged_claims": "claims 1–3, 5, 6, 14, 25–27, and 30 (the “challenged claims”)",
+      "core_dispute": "本案是对同一 PGR 的 rehearing 或更正型决定，核心在于最终书面决定中个别权利要求的不可专利结论是否需要因依附关系和书面描述分析而调整。",
+      "petitioner_arguments": "请求人围绕说明书不足以支持 written description，挑战联合治疗给药方案及相关从属权利要求。",
+      "patent_owner_arguments": "专利权人请求复审或更正，主张最终决定中关于从属权利要求的处理与其所依附权利要求的结论不一致。",
+      "tribunal_reasoning": "PTAB 重点处理最终书面决定中的结论一致性问题，而不是重新全面审理所有实体争点；其分析围绕从属权利要求是否应随独立或上位权利要求的书面描述结论调整。",
+      "outcome_reason": "最终结果为部分无效：部分权利要求被认定不可专利，部分权利要求未被证明不可专利或维持原处理。",
+      "final_result_cn": "部分无效",
+      "evidence": "ims were more likely than not unpatentable at least based on Petitioner’s challenge under 35 U.S.C. § 112 for a lack of written description support. Paper 8 (“Institution Decision” or “Inst. Dec.”). Pursuant to 35 U.S.C. § 324, the Board instituted trial on July 25, 2022, of all challenged claims on the written description ground. Id. Following institution"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0302": {
+    "summary": "要点：本案涉及 II 型 anti-CD20 抗体与选择性 BCL-2 inhibitor 的联合治疗。对于 written description，PTAB 重点考察说明书是否足以表明发明人已经占有了权利要求要求保护的联合治疗范围。单独公开两个药物或其各自用途，并不当然意味着说明书支持具体联合方案、剂量范围或患者治疗方案；也不能通过从说明书不同位置零散摘取内容，再拼接出完整权利要求范围。PTAB 对不同权利要求分别判断：部分权利要求与原始说明书披露之间缺乏足够对应关系，因此无效；部分权利要求仍能从说明书获得支持，因此维持有效。最终结果为部分无效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "本案涉及 II 型 anti-CD20 抗体与选择性 BCL-2 inhibitor 的联合治疗，用于血液肿瘤等适应症场景。",
+      "prior_art_context": "现有技术背景包括 anti-CD20 抗体、选择性 BCL-2 inhibitor 及二者在血液肿瘤治疗中的潜在联合用途；争议焦点不是两个靶点是否分别已知，而是原始说明书是否支持被要求保护的联合治疗范围。",
+      "challenged_claims": "claims 1–3, 5, 6, 14, 25–27, and 30 (the “challenged claims”)",
+      "core_dispute": "法律争点是 written description：说明书是否足以表明发明人已经占有了权利要求要求保护的联合治疗范围。",
+      "petitioner_arguments": "请求人主张原始披露没有充分描述被要求保护的联合治疗范围，特别是具体组合、剂量或患者治疗方案的广度。",
+      "patent_owner_arguments": "专利权人依赖说明书实施例、临床和药理背景及本领域知识，主张本领域技术人员能够从原始披露识别该联合治疗发明。",
+      "tribunal_reasoning": "PTAB 的判断重点不是 anti-CD20 抗体和 BCL-2 inhibitor 是否分别已知，也不是二者是否可以作为治疗方向被讨论，而是原始说明书是否把具体联合治疗方案、剂量范围和患者治疗方案与被要求保护的权利要求范围建立了足够对应关系。PTAB 没有接受从说明书中零散摘取多个披露再拼接出完整权利要求范围的做法。",
+      "outcome_reason": "最终结果为部分无效：部分权利要求被认定不可专利，部分权利要求维持有效。",
+      "final_result_cn": "部分无效",
+      "evidence": "tten description support from an amalgam of disclosures plucked selectively from the” ’942 patent. Id. at 1349. We are not persuaded that the sort of picking and choosing required to obtain two or more different dose amounts used in each cycle would “clearly allow persons of ordinary skill in the art to recognize that [the inventor] invented what is claimed."
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0301": {
+    "summary": "要点：对于工程化病毒或载体类权利要求，说明书支持、enablement 或现有技术挑战不能只停留在“病毒载体技术已知”的层面，而要对应到权利要求限定的具体结构改造和功能效果。本案中，请求人未能以优势证据证明专利披露不足以支持或实施被要求保护的工程化病毒方案，也未能证明现有技术覆盖关键限制。最终结果为维持有效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利题为 Engineered virus，核心属于工程化病毒、生物制品或载体技术。",
+      "prior_art_context": "现有技术涉及工程化病毒、病毒载体构建及相关功能改造；争议在于这些披露是否足以破坏或削弱专利中具体工程化病毒方案的有效性。",
+      "challenged_claims": "",
+      "core_dispute": "争点在于请求人是否证明说明书支持、可实施性或现有技术挑战足以覆盖工程化病毒权利要求的具体结构和功能限制。",
+      "petitioner_arguments": "请求人主张被挑战权利要求范围过宽，说明书或现有技术不足以支持专利权人主张的有效范围。",
+      "patent_owner_arguments": "专利权人强调专利披露的工程化病毒构建和功能特征足以支撑权利要求，本领域技术人员能够理解和实施。",
+      "tribunal_reasoning": "PTAB 认为请求人未能以优势证据证明关键无效理由成立，对工程化病毒相关限制的证明不足。",
+      "outcome_reason": "请求人未证明被挑战权利要求不可专利，最终结果为维持有效。",
+      "final_result_cn": "维持有效",
+      "evidence": "4 Patent 10,947,513 B2 Inc., 849 F.3d 1034, 1043 (Fed. Cir. 2017) (“Attorney argument is not evidence.”). We are also not persuaded by Petitioner's contention that a POSITA would have focused on only “three realistic virus options” from among Silvestre’s list of eleven viruses for the insertion of multiple heterologous genes back in 2016, i.e., herpesvirus"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0276": {
+    "summary": "要点：药物联合治疗的 obviousness 判断，不能仅因两个药物或两个靶点分别已知，就当然认定其联用显而易见。PTAB 重点考察申请日前现有技术是否给出明确组合动机，以及本领域技术人员是否会对疗效和安全性具有 reasonable expectation of success。本案中，请求人未能充分证明 anti-CD20 antibody 与 Bcl-2 inhibitor 联用具有足够组合动机和合理成功预期。最终结果为维持有效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利涉及 II 型 anti-CD20 antibody 与 selective Bcl-2 inhibitor 的组合治疗，属于药物联合用途和治疗方案。",
+      "prior_art_context": "现有技术公开了 anti-CD20 抗体用于 B 细胞相关肿瘤治疗，也公开了 BCL-2 抑制剂的抗肿瘤用途；请求人据此主张二者联用具有组合动机和合理成功预期。",
+      "challenged_claims": "claims 1–4, 8–14, and 18–26 (the “challenged claims”)",
+      "core_dispute": "核心争点是现有技术是否会使本领域技术人员有动机采用该抗体与 Bcl-2 抑制剂组合，并对疗效和安全性具有合理成功预期。",
+      "petitioner_arguments": "请求人依赖既有抗 CD20 抗体、Bcl-2 抑制剂和血液肿瘤治疗资料，主张组合治疗显而易见。",
+      "patent_owner_arguments": "专利权人强调组合治疗在疗效、毒性和患者反应方面存在不确定性，现有技术不足以提供合理成功预期。",
+      "tribunal_reasoning": "PTAB 认为请求人未充分证明组合动机和合理成功预期，尤其不能用事后知识把两个药物机制简单拼接为显而易见的治疗方案。",
+      "outcome_reason": "请求人未证明被挑战权利要求不可专利，最终结果为维持有效。",
+      "final_result_cn": "维持有效",
+      "evidence": "vember 2018 Venclexta label. That is, claims 1, 9, and 19 are entitled to a priority date before November 2018. We are not persuaded by Petitioner's first argument relating to a lack of adequate guidance as the specification requires “picking and choosing” to identify the dose amounts of GDC-0199 because the single paragraph in column 24 of the ’087 patent i"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0268": {
+    "summary": "要点：对于工艺或设备方法权利要求，obviousness 分析应当落实到具体流程、装置配置和工艺条件，而不能只因现有技术同属“提取”领域就认定容易组合。本案中，请求人未能证明现有提取技术公开或自然导向权利要求中的特定步骤和条件组合，PTAB 因此认为无效挑战未达到优势证据标准。最终结果为维持有效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利题为 Methods for extracting solute from a source material，核心是从原料中提取溶质的工艺或设备方法，不是药物活性成分、制剂或治疗用途本身。",
+      "prior_art_context": "现有技术公开了从原料中提取溶质的工艺和设备条件；争议在于这些公开是否覆盖权利要求中特定提取流程和条件组合。",
+      "challenged_claims": "",
+      "core_dispute": "争点在于现有提取技术是否公开权利要求中的提取步骤、装置配置或工艺条件，以及请求人的组合理由是否充分。",
+      "petitioner_arguments": "请求人主张相关提取工艺在现有技术中已经公开或可由本领域技术人员组合得到。",
+      "patent_owner_arguments": "专利权人强调权利要求限定的提取流程和条件组合并非现有技术直接公开，请求人组合存在缺口。",
+      "tribunal_reasoning": "PTAB 认为请求人未能充分证明关键工艺限制被公开或组合后自然得到，因此无效挑战未达到优势证据标准。",
+      "outcome_reason": "请求人未证明被挑战权利要求不可专利，最终结果为维持有效。",
+      "final_result_cn": "维持有效",
+      "evidence": "ufficient basis in establishing one’s standing as a PHOSITA.” Id. at 4 (citing Ex. 1021 (Miller Tr.), 59:4–16). We are not persuaded that Dr. Miller does not qualify as a person of ordinary skill in the art. As an initial matter, we note that Petitioner is improperly trying to narrow its original proposed level of skill in the art to now require specific exp"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0248": {
+    "summary": "要点：对于生物制品生产纯化材料类专利，obviousness 判断应聚焦真正的保护对象及其结构和性能限制，而不是简单按“抗体纯化”概括。本案中，现有技术公开了 Protein A 结构域和抗体层析纯化用途，但 PTAB 对特定 domain C 层析配体的结构、稳定性和纯化性能限制分别判断，认定部分权利要求被现有技术充分教导，部分权利要求仍未被充分证明。最终结果为部分无效。",
+    "summary_source": "deep_review_pilot",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "严格药物分类试点：按专利真正保护对象分类；测序、检测、传感器、提取设备等非药物核心技术归“其他”。",
+      "source": "us_deep_review_pilot"
+    },
+    "deep_review": {
+      "technology_context": "涉案专利涉及含 Staphylococcus aureus protein A domain C 的 chromatography ligand，用于抗体分离和纯化，属于生物制品生产纯化工具。",
+      "prior_art_context": "现有技术公开了 Protein A 结构域与抗体层析纯化用途；请求人据此主张含 domain C 的层析配体及其抗体纯化用途已被教导或显而易见。",
+      "challenged_claims": "claims 1–14, 16–32, and 34–37 (“the challenged claims)",
+      "core_dispute": "争点在于 Protein A 结构域、层析配体及抗体纯化用途相关权利要求是否被现有文献公开或显而易见。",
+      "petitioner_arguments": "请求人依赖 Protein A 结构域和层析纯化文献，主张相关配体设计及其用于抗体分离的用途已被教导。",
+      "patent_owner_arguments": "专利权人强调特定 domain C 配体结构、稳定性或纯化性能并非现有技术简单替换即可得到。",
+      "tribunal_reasoning": "PTAB 对不同权利要求分别评价，部分权利要求因现有技术教导充分而不可专利，部分权利要求仍因特定结构或性能限制未被充分证明而存活。",
+      "outcome_reason": "最终结果为部分无效：部分权利要求被认定不可专利，部分权利要求维持有效。",
+      "final_result_cn": "部分无效",
+      "evidence": "gument that the Petition fails to identify a reason to select domain C persuasive. PO Resp. 17–38. Specifically, we are not persuaded by Patent Owner's contention that just because nobody was working on domain C at the time the invention was filed means selection of domain C would not have been obvious. See PO Resp. 32 (“A general recognition that there exis"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.9,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.9,
+      "parties": 0.85
+    }
+  },
+  "us_0216": {
+    "summary": "要点：涉及后续公开能否作为现有技术时，PTAB 先判断被挑战权利要求是否能够享有较早优先权日；如果说明书已经足以支持相关治疗组合物和用途，则较晚公开不能作为现有技术使用。本案中，请求人依赖 Allgenesis PCT 挑战治疗翼状胬肉的组合物/方法，但 PTAB 认为相关权利要求能够获得较早有效申请日，因此该 PCT 不能作为可用现有技术。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "priority / written description",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0223": {
+    "summary": "要点：给药途径或给药装置类权利要求的 obviousness 判断，重点在于现有技术是否给出采用该给药方式的动机，以及本领域技术人员是否会预期其能够实现治疗效果。本案涉及吸入给药 treprostinil；PTAB 认为现有技术已经教导相关治疗用途、吸入给药方案和计量吸入装置，请求人也证明了组合动机和 reasonable expectation of success。专利权人的客观证据不足以克服该显而易见性结论。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "obviousness / reasonable expectation of success",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0229": {
+    "summary": "要点：给药间隔或治疗方案类专利不能只依靠已知药物本身获得稳定性；关键在于说明书和优先权文件是否支持具体给药方案，以及现有技术是否已经给出采用该方案的合理路径。本案涉及 VEGF antagonist 治疗血管生成性眼病的给药方案。PTAB 围绕优先权、written description 和现有技术对给药频率的教导进行判断，认为被挑战权利要求未能避免现有技术挑战。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "dosing regimen / priority / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0232": {
+    "summary": "要点：蛋白突变体类专利的 obviousness 判断，不能只看目标蛋白是否已知，还要看现有技术是否教导了具体突变位点、功能改进方向以及本领域技术人员是否有理由作出该突变。本案涉及 Factor IX polypeptide mutant。PTAB 认为 Stafford、Manno 等文献组合已经给出获得相关 FIX 突变体及其用途的充分技术路径，专利权人的反驳和客观证据不足以改变显而易见性判断。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "protein mutant / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0240": {
+    "summary": "要点：制剂权利要求中，如果某些性能或参数是现有配方实施后必然产生的结果，PTAB 可能将其作为 inherency 处理；但对于未被现有技术充分公开或未必然产生的特征，仍需逐项证明。本案涉及鼻内 epinephrine 制剂及其治疗用途。PTAB 认定部分权利要求的制剂特征和效果已由现有技术公开或固有产生，但另一些权利要求仍未被请求人充分证明。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "formulation / inherency / priority",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0250": {
+    "summary": "要点：在 PTAB 程序中，专利权人提出替代权利要求时，不能只缩小文字范围，还必须证明替代方案获得说明书支持、可实施，并能克服现有技术。本案涉及降低接受铂类化疗儿童患者耳毒性的治疗方法。PTAB 准许专利权人取消原 claim 1，但认为拟加入的 substitute claim 未满足准入要求，尤其没有充分克服 written description、enablement 或现有技术方面的问题。最终结果为原权利要求取消，替代权利要求未准入。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "motion to amend / written description / enablement",
+      "final_result_cn": "原权利要求取消，替代权利要求未准入",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0259": {
+    "summary": "要点：治疗方法权利要求如果把已知给药方案的自然结果写成降低风险或改善结局，需要警惕 inherency 和 obviousness 风险。PTAB 会考察现有技术是否已经教导相同患者群体、相同治疗方案，以及所主张的临床效果是否是实施该方案时自然发生的结果。本案涉及降低心血管事件风险的治疗方法。PTAB 认为 Foley 等文献使被挑战权利要求显而易见，部分结果性限制不能挽救专利性。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "method of treatment / inherency",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0260": {
+    "summary": "要点：抗体给药方案如果已在临床试验登记或临床资料中公开，PTAB 可能直接按 anticipation 处理；关键是该公开是否足以教导权利要求中的患者、剂量、给药途径和疗效相关限制。本案涉及皮下给药 anti-IL-6 receptor antibody。PTAB 认为 NCT 临床公开 anticipates 多数被挑战权利要求，个别权利要求虽未被该公开直接预见，但整体无效挑战仍成立。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "clinical disclosure / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0269": {
+    "summary": "要点：晶型专利的 anticipation 和 inherency 判断，重点是现有技术制备方法是否必然或实际产生了被要求保护的晶型，以及表征证据是否足以对应权利要求。本案涉及 fingolimod hydrochloride 多晶型及其制备方法。PTAB 围绕 Mutz 等现有技术、内部文件和晶型表征证据判断，认为被挑战晶型权利要求未能避开现有技术。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "晶型/盐/溶剂合物",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "晶型/盐/溶剂合物",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "polymorph / inherency / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0288": {
+    "summary": "要点：药物共晶或多组分固体形态权利要求，不能只用晶体工程的一般概念支持过宽范围；written description 和 enablement 要求说明书足以支持具体 API、共晶形成物及其相互作用。本案涉及含活性药物成分的 multiple-component solid phases。PTAB 认为 Hickey 等现有技术公开了相关限制，且专利权人未能依靠说明书支持或可实施性抗辩保住被挑战权利要求。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "晶型/盐/溶剂合物",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "晶型/盐/溶剂合物",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "cocrystal / written description / enablement",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0298": {
+    "summary": "要点：氘代药物或氘代用途的 obviousness 判断，不能简单认为把已知活性分子氘代就是常规替换；PTAB 仍会考察现有技术是否给出针对该适应症、该氘代位置和预期药代改善的具体动机及 reasonable expectation of success。本案涉及 deuterated JAK inhibitors 治疗脱发。PTAB 认为请求人未能证明现有技术组合会使本领域技术人员合理预期获得权利要求方案。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "deuterated compound / obviousness",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0299": {
+    "summary": "要点：化合物或 ADC payload 类权利要求，即使属于药物核心专利，也需要在结构范围、连接基团和用途之间建立充分支持；同时，如果现有技术已经公开落入权利要求范围的具体结构或给出明确改造路径，anticipation 或 obviousness 风险较高。本案涉及可与 ligand 偶联的 monomethylvaline compounds。PTAB 认为请求人以优势证据证明被挑战化合物权利要求不可专利。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "化合物专利",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "化合物专利",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "compound / ADC payload / written description",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0307": {
+    "summary": "要点：药物剂量或给药方案的 obviousness 判断中，客观证据可以作为反驳因素，但必须与被要求保护的技术方案具有足够 nexus，且强度足以克服现有技术的直接教导。本案涉及癫痫障碍治疗方法和组合物。PTAB 在考虑 objective indicia 后，仍认为部分 ganaxolone 静脉给药相关权利要求被现有技术教导或建议，但并非所有权利要求均被充分证明。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "dosage / objective indicia / obviousness",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0308": {
+    "summary": "要点：当请求人依赖现有技术文献作 anticipation 时，专利权人可以挑战该文献是否 enabling；但负担在于证明本领域技术人员不能在无过度实验情况下实施该公开。本案涉及 endoxifen 的制备和使用方法。PTAB 认为专利权人未能证明 Ahmad 不是 enabling prior art，因此该文献可用于破坏被挑战权利要求的专利性。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "process / enablement of prior art",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  },
+  "us_0309": {
+    "summary": "要点：药物糖浆或混悬制剂的 obviousness 判断，通常会关注替代辅料是否已有用途教导、是否解决相同制剂问题，以及替换后是否具有可预期效果。本案涉及使用 agave syrup 等成分的 pharmaceutical syrup formulation or suspension。PTAB 认为现有技术已经给出用相关天然甜味/掩味成分替代传统辅料的动机，专利权人的反驳不足以避免显而易见性。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_2",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第二轮药物相关案例试点：按药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第二轮药物相关案例试点，已排除明显检测、测序、设备、日化或非药物核心案例。",
+      "source": "us_drug_review_pilot"
+    },
+    "deep_review": {
+      "legal_focus": "formulation / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "second"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.88,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.88,
+      "parties": 0.85
+    }
+  }
+}

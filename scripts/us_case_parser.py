@@ -130,7 +130,7 @@ def section_between(text: str, headings: list[str], stop_headings: list[str]) ->
         stop_match = heading_re(stop_headings).search(text, start)
         if stop_match:
             stop = stop_match.start()
-    return compact(text[start:stop], 6000)
+    return compact(text[start:stop], 16000)
 
 
 def parse_ptab_decision(text: str, filename: str = "", existing_patent_number: str = "") -> dict[str, Any]:

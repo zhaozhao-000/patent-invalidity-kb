@@ -46,24 +46,24 @@ CN_LEGAL_LABELS = {
 }
 
 US_LEGAL_LABELS = {
-    "patent_eligibility_101": "35 U.S.C. § 101 / Patent Eligibility（专利适格性）",
-    "anticipation_102": "35 U.S.C. § 102 / Anticipation（新颖性/预见）",
-    "obviousness_103": "35 U.S.C. § 103 / Obviousness（显而易见性）",
-    "written_description_112a": "35 U.S.C. § 112(a) / Written Description（书面描述支持）",
-    "enablement_112a": "35 U.S.C. § 112(a) / Enablement（可实施性）",
-    "indefiniteness_112b": "35 U.S.C. § 112(b) / Indefiniteness（不明确）",
-    "claim_construction": "Claim Construction（权利要求解释）",
-    "inherency": "Inherency（固有性）",
-    "motivation_to_combine": "Motivation to Combine（结合动机）",
-    "reasonable_expectation_of_success": "Reasonable Expectation of Success（合理成功预期）",
-    "secondary_considerations": "Secondary Considerations / Objective Indicia（客观证据）",
-    "priority_written_description_support": "Priority / Written Description Support（优先权/书面描述支持）",
-    "obviousness_type_double_patenting": "Obviousness-Type Double Patenting（显而易见型重复授权）",
-    "printed_publication_prior_art": "Printed Publication / Prior Art Qualification（现有技术资格）",
-    "real_party_procedural": "Real Party in Interest / Procedural Issue（程序问题）",
-    "institution_discretionary_denial": "Institution / Discretionary Denial（立案/酌定拒绝）",
-    "other": "Other（其他）",
-    "pending_review": "Pending Review（待确认）",
+    "patent_eligibility_101": "35 U.S.C. § 101 / Patent Eligibility",
+    "anticipation_102": "35 U.S.C. § 102 / Anticipation",
+    "obviousness_103": "35 U.S.C. § 103 / Obviousness",
+    "written_description_112a": "35 U.S.C. § 112(a) / Written Description",
+    "enablement_112a": "35 U.S.C. § 112(a) / Enablement",
+    "indefiniteness_112b": "35 U.S.C. § 112(b) / Indefiniteness",
+    "claim_construction": "Claim Construction",
+    "inherency": "Inherency",
+    "motivation_to_combine": "Motivation to Combine",
+    "reasonable_expectation_of_success": "Reasonable Expectation of Success",
+    "secondary_considerations": "Secondary Considerations / Objective Indicia",
+    "priority_written_description_support": "Priority / Written Description",
+    "obviousness_type_double_patenting": "Obviousness-Type Double Patenting",
+    "printed_publication_prior_art": "Printed Publication / Prior Art Qualification",
+    "real_party_procedural": "Real Party in Interest / Procedural Issue",
+    "institution_discretionary_denial": "Institution / Discretionary Denial",
+    "other": "Other",
+    "pending_review": "Pending Review",
 }
 
 PATENT_TYPE_LABELS = {
@@ -122,7 +122,10 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    if path.is_relative_to(PUBLIC_DATA_DIR):
+        path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    else:
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def load_optional_json(path: Path) -> dict[str, Any]:
@@ -817,7 +820,7 @@ def first_matching_us_focus(text: str) -> str:
         ("claim construction", "claim construction / 权利要求解释"),
         ("obviousness", "obviousness / 显而易见性"),
         ("anticipation", "anticipation / 新颖性"),
-        ("written description", "written description / 书面描述支持"),
+        ("written description", "written description"),
         ("enablement", "enablement / 可实施性"),
         ("reasonable expectation of success", "reasonable expectation of success / 合理成功预期"),
         ("motivation to combine", "motivation to combine / 组合动机"),

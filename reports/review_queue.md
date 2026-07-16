@@ -230,7 +230,6 @@
 | us_0205 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0206 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0207 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
-| us_0208 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0208 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0209 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0209 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
@@ -320,7 +319,6 @@
 | us_0262 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0262 | us | patent_type | patent_type 为其他或待确认 | data/manual_overrides/us_overrides.json |
 | us_0262 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
-| us_0263 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0263 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0264 | us | outcome | outcome 为空或 unknown | data/manual_overrides/us_overrides.json |
 | us_0265 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
@@ -359,7 +357,6 @@
 | us_0292 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0293 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0293 | us | title | title 缺失、使用文件名或程序名 | data/manual_overrides/us_overrides.json |
-| us_0294 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0294 | us | title | title 缺失、使用文件名或程序名 | data/manual_overrides/us_overrides.json |
 | us_0295 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0295 | us | title | title 缺失、使用文件名或程序名 | data/manual_overrides/us_overrides.json |
@@ -367,7 +364,6 @@
 | us_0296 | us | title | title 缺失、使用文件名或程序名 | data/manual_overrides/us_overrides.json |
 | us_0297 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0299 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
-| us_0300 | us | summary | summary 过短或需要复核 | data/manual_overrides/us_overrides.json |
 | us_0300 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0301 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |
 | us_0303 | us | drug_info | 药物信息缺失或置信度低 | data/manual_overrides/us_overrides.json |

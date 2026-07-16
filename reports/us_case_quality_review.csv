@@ -1,13 +1,11 @@
 ﻿case_id,patent_number,proceeding_number,patent_title,petitioner,patent_owner,plaintiff,defendant,patent_type,reasons
 us_0205,US8541569B2,IPR2023-00862,"Phosphoramidites for synthetic RNA in the reverse direction, efficient RNA synthesis and convenient introduction of 3'-end ligands, chromophores and modifications of synthetic RNA",Shanghai Hongene Biotech Corp,ChemGenes Corp,,,生物制品/抗体,summary_weak
 us_0206,US8309707B2,IPR2023-00875,"RNA synthesis-phosphoramidites for synthetic RNA in the reverse direction, and application in convenient introduction of ligands, chromophores and modifications of synthetic RNA at the 3′-end",Shanghai Hongene Biotech Corp,ChemGenes Corp,,,生物制品/抗体,summary_weak
-us_0208,US9492559B2,IPR2018-00187,Immunogenic compositions comprising conjugated capsular saccharide antigens and uses thereof,"SANOFI PASTEUR INC. AND SK CHEMICALS CO., LTD. and MERCK SHARP & DOHME CORP","$^{1}$ , v. PFIZER INC",,,制剂/组合物,summary_weak
 us_0209,US9492559B2,IPR2018-00187,Immunogenic compositions comprising conjugated capsular saccharide antigens and uses thereof,"SANOFI PASTEUR INC. AND SK CHEMICALS CO., LTD. and MERCK SHARP & DOHME CORP","$^{1}$ , v. PFIZER INC",,,制剂/组合物,summary_weak
 us_0210,US9492559B2,IPR2018-00187,Immunogenic compositions comprising conjugated capsular saccharide antigens and uses thereof,"SANOFI PASTEUR INC. AND SK CHEMICALS CO., LTD. and MERCK SHARP & DOHME CORP","$^{1}$ , v. PFIZER INC",,,制剂/组合物,summary_weak
 us_0211,US8399514B2,IPR2018-01403,Treatment for multiple sclerosis,MYLAN PHARMACEUTICALS INC,BIOGEN MA INC,,,用途/适应症,summary_weak
 us_0214,US7767441B2,IPR2020-01163,"Bioassay system including optical detection apparatuses, and method for detecting biomolecules","PACIFIC BIOSCIENCES OF CALIFORNIA, INC","PERSONAL GENOMICS TAIWAN, INC",,,待确认,patent_type_pending
 us_0215,US7767441B2,IPR2020-01200,"Bioassay system including optical detection apparatuses, and method for detecting biomolecules","PACIFIC BIOSCIENCES OF CALIFORNIA, INC","PERSONAL GENOMICS TAIWAN, INC",,,待确认,patent_type_pending
-us_0221,US10472323B2,IPR2021-00347,Isotope-enriched 3-amino-1-propanesulfonic acid derivatives and uses thereof,ALZHEON INC,"Pharma Tech Co., Ltd’s",,,制剂/组合物,summary_weak
 us_0222,US10316359B2,IPR2021-00401,results in less efficient amplification,"PILLAR BIOSCIENCES, INC","SWIFT BIOSCIENCES, INC",,,待确认,patent_type_pending
 us_0224,US10716793B2,IPR2021-00406,Treprostinil administration by inhalation,"LIQUIDIA TECHNOLOGIES, INC",UNITED THERAPEUTICS CORPORATION,,,制剂/组合物,summary_weak
 us_0226,US8197807B2,IPR2021-00491,Nicotinamide riboside kinase compositions and methods for using the same,"THORNE RESEARCH, INC",The Trustees of Dartmouth College,,,生物制品/抗体,summary_weak
@@ -22,7 +20,6 @@ us_0242,US7332277B2,IPR2021-01577,Methods for detection of genetic disorders,"ST
 us_0251,,IPR2021-01324,案例分析,,,,,待确认,patent_number_missing;patent_lookup_failed;parties_missing;patent_type_pending
 us_0252,,IPR2023-00862,案例分析,,,,,生物制品/抗体,patent_number_missing;patent_lookup_failed;parties_missing;summary_weak
 us_0262,US9587203B2,IPR2022-00625,Methods for extracting solute from a source material,EXTRACTIONTEK SALES LLC,"GENE POOL TECHNOLOGIES, INC",,,待确认,patent_type_pending;summary_weak
-us_0263,US7041786B2,IPR2022-00722,Guanylate cyclase receptor agonists for the treatment of tissue inflammation and carcinogenesis,"MYLAN PHARMACEUTICALS, INC., MSN LABORATORIIPRIVATE LTD. and MSN PHARMACEUTICALS INC",BAUSCH HEALTH IRELAND LIMITED,,,生物制品/抗体,summary_weak
 us_0264,US11028160B2,IPR2022-00738,Treating refractory migraine,"On March 23, 2022, Eli Lilly and Company",Respon,,,生物制品/抗体,summary_weak
 us_0265,US11028161B2,IPR2022-00739,Treating refractory migraine,"On March 23, 2022, Eli Lilly and Company",Respon,,,生物制品/抗体,summary_weak
 us_0266,US10392434B2,IPR2022-00796,Treating refractory migraine,# ELI LILLY AND COMPANY,TEVA PHARMACEUTICALS INTERNATIONAL GMBH,,,生物制品/抗体,summary_weak
@@ -33,10 +30,8 @@ us_0274,US11149306B2,IPR2022-01400,Methods and systems for detecting genetic var
 us_0275,US10131682C1,IPR2022-01531,,SYNAFFIX B.V,"HANGZHOU DAC BIOTECH CO., LTD",,,待确认,patent_lookup_failed;patent_title_missing_or_weak;patent_type_pending;summary_weak
 us_0286,US10995048B2,IPR2023-01035,"Natural 1,2-alkanediols, compositions having natural 1,2-alkanediols and processes for making the same",SYMRISE AG and SYMRISE INC,INOLEX INVESTMENT CORPORATION,,,生物制品/抗体,summary_weak
 us_0293,US11339219B2,IPR2024-00625,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,THE JOHNS HOPKINS UNIVERSITY,,,生物制品/抗体,summary_weak
-us_0294,US11649287B2,IPR2024-00647,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,did not file a Preliminary Respon,,,生物制品/抗体,summary_weak
 us_0295,US11629187B2,IPR2024-00649,Checkpoint blockade and microsatellite instability,MERCK SHARP & DOHME LLC,did not file a Preliminary Respon,,,生物制品/抗体,summary_weak
 us_0296,US11634491B2,IPR2024-00650,Checkpoint blockade and microsatellite instability,Merck Sharp & Dohme LLC,The Johns Hopkins University,,,生物制品/抗体,summary_weak
-us_0300,US10849908B2,PGR2021-00088,Corticotropin releasing factor receptor antagonists,"# NEUROCRINE BIOSCIENCES, INC","SPRUCE BIOSCIENCES, INC",,,制剂/组合物,summary_weak
 us_0304,US11007201B2,PGR2022-00025,Corticotropin releasing factor receptor antagonists,"Neurocrine Biosciences, Inc","Spruce Biosciences, Inc.’",,,制剂/组合物,summary_weak
 us_0310,US11672803B2,PGR2024-00009,Use of inhibitors of Brutons tyrosine kinase (Btk),Finally,PHARMACYCLICS LLC,,,待确认,patent_type_pending
 us_0311,US10131682C1,IPR2022-01531,,SYNAFFIX B.V,"HANGZHOU DAC BIOTECH CO., LTD",,,待确认,patent_lookup_failed;patent_title_missing_or_weak;patent_type_pending;summary_weak

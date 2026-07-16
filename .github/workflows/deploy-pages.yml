@@ -49,7 +49,7 @@ jobs:
           cp public/index.html public/app.js public/style.css public/.nojekyll pages-public/
           cp public/cn/index.html pages-public/cn/
           cp public/us/index.html pages-public/us/
-          cp public/data/cn_cases.json public/data/us_cases.json pages-public/data/
+          cp public/data/cases.json public/data/cn_cases.json public/data/us_cases.json pages-public/data/
           du -sh pages-public
 
       - name: Configure Pages

@@ -29,6 +29,8 @@ jobs:
       - name: Build case data
         shell: bash
         run: |
+          python scripts/us_deep_review_pilot.py
+          python scripts/us_drug_review_pilot.py
           python scripts/us_drug_review_pilot_round3.py
           python scripts/build_jurisdiction_data.py
 

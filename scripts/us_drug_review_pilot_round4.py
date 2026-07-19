@@ -1,0 +1,244 @@
+from __future__ import annotations
+
+import csv
+import json
+from pathlib import Path
+from typing import Any
+
+
+ROOT = Path(__file__).resolve().parents[1]
+US_CASES = ROOT / "public" / "data" / "us_cases.json"
+US_OVERRIDES = ROOT / "data" / "manual_overrides" / "us_overrides.json"
+REPORT_MD = ROOT / "reports" / "us_drug_review_pilot_round4.md"
+REPORT_CSV = ROOT / "reports" / "us_drug_review_pilot_round4.csv"
+
+PILOT_IDS = [
+    "us_0207",
+    "us_0209",
+    "us_0210",
+    "us_0217",
+    "us_0218",
+    "us_0219",
+    "us_0233",
+    "us_0234",
+    "us_0264",
+    "us_0265",
+    "us_0266",
+    "us_0272",
+    "us_0273",
+    "us_0281",
+    "us_0310",
+    "us_0322",
+]
+
+SUMMARIES: dict[str, dict[str, str]] = {
+    "us_0207": {
+        "focus": "biologic formulation / viral filtration / obviousness",
+        "patent_type": "生物制品/抗体",
+        "result_cn": "维持有效",
+        "summary": "要点：生物制品制剂的病毒过滤工艺并非只要过滤步骤已知就当然显而易见；请求人需要证明本领域技术人员会把特定过滤条件用于含 Factor VII/FVIIa 的液体组合物，并能合理预期在保持蛋白活性和稳定性的同时提高病毒安全性。本案中，PTAB 排除了部分补充证据后，认为请求人没有用可采证据充分证明组合动机和成功预期。最终结果为维持有效。",
+    },
+    "us_0209": {
+        "focus": "vaccine composition / motion to amend / obviousness",
+        "patent_type": "制剂/组合物",
+        "result_cn": "替代权利要求未准入",
+        "summary": "要点：疫苗组合物中“immunogenic”并非只要求组合物含有抗原，而是要求各个免疫原均能诱导功能性抗体。PTAB 在 remand 中维持该解释，并据此审查 Pfizer 提出的肺炎球菌多糖结合抗原替代权利要求。现有技术已经给出相关血清型组合、载体结合和免疫原性评价路径，PTAB 认为替代权利要求仍显而易见，motion to amend 被拒绝。最终结果为替代权利要求未准入。",
+    },
+    "us_0210": {
+        "focus": "vaccine composition / motion to amend / obviousness",
+        "patent_type": "制剂/组合物",
+        "result_cn": "替代权利要求未准入",
+        "summary": "要点：疫苗组合物的 obviousness 分析会同时考察抗原选择、结合载体、佐剂或制剂形式以及是否能产生功能性抗体。本案与同族 remand 决定一致，PTAB 认为“immunogenic”要求每个列明免疫原诱导功能性抗体，但该限制没有使 proposed substitute claims 48、49 区别于 GSK、Merck 和 Hausdorff 等组合教导。最终结果为替代权利要求未准入。",
+    },
+    "us_0217": {
+        "focus": "natural product composition / priority / obviousness",
+        "patent_type": "制剂/组合物",
+        "result_cn": "全部无效",
+        "summary": "要点：天然来源组合物即使包含多个含量范围，也要看现有技术是否已经公开相近组分谱、提取方法和用途；若差异只是从已知 krill oil 组分中选择或调整比例，通常需要强有力的意外效果才能抵抗 obviousness。本案涉及含 phospholipids、EPA/DHA 和 astaxanthin esters 的 krill oil 组合物。PTAB 认为 Breivik II、Catchpole、Budzinski、Fricke 等文献给出充分组合动机和成功预期。最终结果为全部无效。",
+    },
+    "us_0218": {
+        "focus": "natural product composition / motivation to combine",
+        "patent_type": "制剂/组合物",
+        "result_cn": "全部无效",
+        "summary": "要点：对于 krill oil 这类已知天然提取物，权利要求中的脂质、磷脂、EPA/DHA 或 astaxanthin ester 含量范围若落在现有提取工艺可预期获得的区间内，PTAB 倾向认为本领域技术人员有动机优化组成比例。本案中，Yoshitomi、Budzinski、Fricke、Bottino II 和 Sampalis I 等文献共同教导了相关组成和用途，专利权人的区分不足以克服显而易见性。最终结果为全部无效。",
+    },
+    "us_0219": {
+        "focus": "natural product composition / claim limitation proof",
+        "patent_type": "制剂/组合物",
+        "result_cn": "维持有效",
+        "summary": "要点：同一技术领域的同族或相近专利并不会自动得到相同无效结论；请求人仍需逐项证明每个权利要求限制。本案同样涉及 krill oil 组合物，但争点集中在现有技术是否公开或提示“less than 3% free fatty acids”等具体组成限制。PTAB 认为请求人没有充分证明 Sampalis I、Bottino II 和 Randolph 的组合达到被挑战权利要求要求的完整组成。最终结果为维持有效。",
+    },
+    "us_0233": {
+        "focus": "protein mutant / priority / written description",
+        "patent_type": "生物制品/抗体",
+        "result_cn": "全部无效",
+        "summary": "要点：蛋白突变体专利能否享有早期优先权，关键在于早期申请是否具体支持后来要求保护的突变位点、取代氨基酸和用途范围。本案涉及 Factor IX R338 位点突变体及其治疗血友病 B 的用途。PTAB 认为部分权利要求在早期申请中缺乏 adequate written description support，因此只能享有较晚申请日；Monahan 成为可用现有技术后，相关权利要求被 anticipation 或 obviousness 击破。最终结果为全部无效。",
+    },
+    "us_0234": {
+        "focus": "protein mutant / anticipation / obviousness",
+        "patent_type": "生物制品/抗体",
+        "result_cn": "全部无效",
+        "summary": "要点：蛋白突变体如果现有技术已经公开同一突变或明确教导该位点替换能够改善凝血活性，则抗辩重点通常转向权利要求解释、功能限制是否真正区分现有技术，以及是否存在意外效果。本案涉及 modified Factor IX polypeptide。PTAB 认为 Stafford 已经公开或使权利要求中的 FIX 突变体显而易见，Manno、Schuettrumpf 等进一步支持其治疗用途和成功预期。最终结果为全部无效。",
+    },
+    "us_0264": {
+        "focus": "antibody treatment / refractory migraine / obviousness",
+        "patent_type": "生物制品/抗体",
+        "result_cn": "全部无效",
+        "summary": "要点：抗 CGRP 通路抗体治疗难治性偏头痛的 obviousness 判断，重点不是 CGRP 是否与偏头痛相关这一基础事实，而是现有临床和文献是否会引导本领域技术人员把抗 CGRP 抗体用于 refractory migraine 患者，并合理预期降低发作或相关症状。本案中，Sun、Dodick 和 Sharma 已经提供抗 CGRP 治疗偏头痛及难治患者场景的组合教导，PTAB 认为请求人证明了全部权利要求显而易见。最终结果为全部无效。",
+    },
+    "us_0265": {
+        "focus": "antibody treatment / clinical disclosure / obviousness",
+        "patent_type": "生物制品/抗体",
+        "result_cn": "全部无效",
+        "summary": "要点：治疗方法权利要求若针对特定患者亚群，例如 refractory migraine，需要证明该亚群选择和抗体治疗效果并非现有临床路径的直接延伸。本案与同族 CGRP 抗体案件类似，PTAB 认为 Sun、Dodick 和 Sharma 的组合已经使本领域技术人员有动机对难治性偏头痛患者使用调节 CGRP pathway 的单克隆抗体，并具有 reasonable expectation of success。最终结果为全部无效。",
+    },
+    "us_0266": {
+        "focus": "antibody treatment / press release prior art / obviousness",
+        "patent_type": "生物制品/抗体",
+        "result_cn": "全部无效",
+        "summary": "要点：临床新闻稿或研究公开在治疗方法 obviousness 中可能具有重要作用，尤其当其已经公开候选药物、适应症、患者群体和疗效方向时。本案涉及用调节 CGRP pathway 的单克隆抗体治疗 refractory migraine。PTAB 认为 Sun 与 Teva Press Release 的组合足以给出治疗动机和成功预期，因已基于该组合认定无效，未再处理 Bigal 组合。最终结果为全部无效。",
+    },
+    "us_0272": {
+        "focus": "VEGF dosing regimen / anticipation / inherency",
+        "patent_type": "用途/适应症",
+        "result_cn": "全部无效",
+        "summary": "要点：VEGF antagonist 眼科给药方案若已由临床方案公开，权利要求中关于初始剂量、secondary doses、维持给药间隔和疗效的限制可能被逐项对应到现有技术；若某些药代或疗效结果是实施方案的必然结果，还会面临 inherency 风险。本案中，Dixon 已公开治疗血管生成性眼病的 aflibercept/VEGF antagonist 给药方案，PTAB 认定被挑战权利要求被 anticipation 击破。最终结果为全部无效。",
+    },
+    "us_0273": {
+        "focus": "VEGF dosing regimen / clinical prior art",
+        "patent_type": "用途/适应症",
+        "result_cn": "全部无效",
+        "summary": "要点：给药间隔专利不能只强调“每 8 周或更长”这一治疗便利性，还要证明该节奏没有被现有临床公开直接教导。本案涉及 VEGF antagonist 治疗年龄相关黄斑变性等血管生成性眼病。PTAB 认为 Dixon 已经公开权利要求要求的 loading doses 和后续维持给药框架，因此无需再处理其他 anticipation 或 obviousness grounds。最终结果为全部无效。",
+    },
+    "us_0281": {
+        "focus": "VEGF dosing regimen / obviousness",
+        "patent_type": "用途/适应症",
+        "result_cn": "全部无效",
+        "summary": "要点：当现有技术已经公开相同治疗靶点、相同疾病和相近临床给药节奏时，给药方案的 obviousness 会集中在是否存在调整剂量间隔的动机和成功预期。本案涉及 VEGF antagonist 连续给药治疗 angiogenic eye disorders。PTAB 认为 Dixon 使被挑战权利要求显而易见，专利权人关于 claim construction、written description 或证据排除的抗辩不足以改变结论。最终结果为全部无效。",
+    },
+    "us_0310": {
+        "focus": "BTK inhibitor treatment / written description / enablement",
+        "patent_type": "用途/适应症",
+        "result_cn": "全部无效",
+        "summary": "要点：治疗方法权利要求若把给药、免疫表型变化、biomarker expression profile 和癌症治疗效果结合起来，说明书必须显示发明人已经占有这一完整诊疗/治疗路径，不能只描述 BTK inhibitor 或 biomarker 的若干零散概念。本案涉及 BTK inhibitor 治疗癌症并检测淋巴细胞亚群/标志物。PTAB 主要基于 written description 认定说明书未支持 claims 1–8、12、20 的完整范围，因此无需依赖其他无效理由即可全部无效。最终结果为全部无效。",
+    },
+    "us_0322": {
+        "focus": "peptide agonist / unexpected results / secondary considerations",
+        "patent_type": "用途/适应症",
+        "result_cn": "维持有效",
+        "summary": "要点：即使请求人建立了 prima facie obviousness，专利权人仍可用与权利要求范围有 nexus 的 unexpected results 推翻显而易见性。本案涉及 guanylate cyclase receptor agonist 治疗炎症、癌前或癌性组织。PTAB 在 remand 中重点考察 interconversion stability、potency 和 binding affinity 数据，认为专利权人的意外效果证据足以压过请求人关于 conservative substitution 的组合论证。最终结果为维持有效。",
+    },
+}
+
+
+def load_json(path: Path) -> Any:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def write_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main() -> None:
+    data = load_json(US_CASES)
+    cases = data.get("cases", data) if isinstance(data, dict) else data
+    by_id = {case["case_id"]: case for case in cases}
+    overrides = load_json(US_OVERRIDES) if US_OVERRIDES.exists() else {}
+    rows: list[dict[str, Any]] = []
+
+    for case_id in PILOT_IDS:
+        case = by_id[case_id]
+        review = SUMMARIES[case_id]
+        title = case.get("patent_title") or case.get("title") or ""
+        existing = overrides.get(case_id, {})
+        overrides[case_id] = {
+            **existing,
+            "summary": review["summary"],
+            "summary_source": "drug_review_pilot_4",
+            "summary_review_required": False,
+            "patent_type": review["patent_type"],
+            "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+            "classification_review": {
+                "recommended_patent_type": review["patent_type"],
+                "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+                "source": "us_drug_review_pilot_round4",
+            },
+            "deep_review": {
+                **existing.get("deep_review", {}),
+                "legal_focus": review["focus"],
+                "final_result_cn": review["result_cn"],
+                "drug_pilot_round": "fourth",
+            },
+            "confidence": {
+                **case.get("confidence", {}),
+                "summary": 0.86,
+                "patent_type": 0.86,
+            },
+            "review_required": False,
+        }
+        rows.append(
+            {
+                "case_id": case_id,
+                "patent_number": case.get("patent_number", ""),
+                "proceeding_number": case.get("proceeding_number", ""),
+                "patent_title": title,
+                "patent_type": review["patent_type"],
+                "legal_focus": review["focus"],
+                "result_cn": review["result_cn"],
+                "summary": review["summary"],
+            }
+        )
+
+    write_json(US_OVERRIDES, overrides)
+    REPORT_MD.write_text(render_markdown(rows), encoding="utf-8")
+    write_csv(rows)
+
+
+def render_markdown(rows: list[dict[str, Any]]) -> str:
+    lines = [
+        "# 美国药物相关案例第四轮试点报告",
+        "",
+        f"- 试点案例数：{len(rows)}",
+        "- 范围：继续从剩余自动摘要美国案例中筛选药物核心案例，重点覆盖生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案。",
+        "- 口径：减少程序复述，突出法律点审查标准、PTAB 对事实和证据的判断、最终结果。",
+        "",
+    ]
+    for row in rows:
+        lines.extend(
+            [
+                f"## {row['case_id']} - {row['patent_title']}",
+                "",
+                f"- 程序号：{row['proceeding_number']}",
+                f"- 专利号：{row['patent_number']}",
+                f"- 专利类型：{row['patent_type']}",
+                f"- 法律点：{row['legal_focus']}",
+                f"- 结果：{row['result_cn']}",
+                f"- {row['summary']}",
+                "",
+            ]
+        )
+    return "\n".join(lines)
+
+
+def write_csv(rows: list[dict[str, Any]]) -> None:
+    with REPORT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "case_id",
+                "patent_number",
+                "proceeding_number",
+                "patent_title",
+                "patent_type",
+                "legal_focus",
+                "result_cn",
+                "summary",
+            ],
+        )
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+if __name__ == "__main__":
+    main()

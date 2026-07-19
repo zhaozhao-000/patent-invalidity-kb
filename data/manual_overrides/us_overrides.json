@@ -1093,5 +1093,2832 @@
       "summary": 0.86,
       "parties": 0.85
     }
+  },
+  "us_0207": {
+    "summary": "要点：生物制品制剂的病毒过滤工艺并非只要过滤步骤已知就当然显而易见；请求人需要证明本领域技术人员会把特定过滤条件用于含 Factor VII/FVIIa 的液体组合物，并能合理预期在保持蛋白活性和稳定性的同时提高病毒安全性。本案中，PTAB 排除了部分补充证据后，认为请求人没有用可采证据充分证明组合动机和成功预期。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "biologic formulation / viral filtration / obviousness",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0209": {
+    "summary": "要点：疫苗组合物中“immunogenic”并非只要求组合物含有抗原，而是要求各个免疫原均能诱导功能性抗体。PTAB 在 remand 中维持该解释，并据此审查 Pfizer 提出的肺炎球菌多糖结合抗原替代权利要求。现有技术已经给出相关血清型组合、载体结合和免疫原性评价路径，PTAB 认为替代权利要求仍显而易见，motion to amend 被拒绝。最终结果为替代权利要求未准入。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "vaccine composition / motion to amend / obviousness",
+      "final_result_cn": "替代权利要求未准入",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0210": {
+    "summary": "要点：疫苗组合物的 obviousness 分析会同时考察抗原选择、结合载体、佐剂或制剂形式以及是否能产生功能性抗体。本案与同族 remand 决定一致，PTAB 认为“immunogenic”要求每个列明免疫原诱导功能性抗体，但该限制没有使 proposed substitute claims 48、49 区别于 GSK、Merck 和 Hausdorff 等组合教导。最终结果为替代权利要求未准入。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "vaccine composition / motion to amend / obviousness",
+      "final_result_cn": "替代权利要求未准入",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0217": {
+    "summary": "要点：天然来源组合物即使包含多个含量范围，也要看现有技术是否已经公开相近组分谱、提取方法和用途；若差异只是从已知 krill oil 组分中选择或调整比例，通常需要强有力的意外效果才能抵抗 obviousness。本案涉及含 phospholipids、EPA/DHA 和 astaxanthin esters 的 krill oil 组合物。PTAB 认为 Breivik II、Catchpole、Budzinski、Fricke 等文献给出充分组合动机和成功预期。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "natural product composition / priority / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0218": {
+    "summary": "要点：对于 krill oil 这类已知天然提取物，权利要求中的脂质、磷脂、EPA/DHA 或 astaxanthin ester 含量范围若落在现有提取工艺可预期获得的区间内，PTAB 倾向认为本领域技术人员有动机优化组成比例。本案中，Yoshitomi、Budzinski、Fricke、Bottino II 和 Sampalis I 等文献共同教导了相关组成和用途，专利权人的区分不足以克服显而易见性。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "natural product composition / motivation to combine",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0219": {
+    "summary": "要点：同一技术领域的同族或相近专利并不会自动得到相同无效结论；请求人仍需逐项证明每个权利要求限制。本案同样涉及 krill oil 组合物，但争点集中在现有技术是否公开或提示“less than 3% free fatty acids”等具体组成限制。PTAB 认为请求人没有充分证明 Sampalis I、Bottino II 和 Randolph 的组合达到被挑战权利要求要求的完整组成。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "natural product composition / claim limitation proof",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0233": {
+    "summary": "要点：蛋白突变体专利能否享有早期优先权，关键在于早期申请是否具体支持后来要求保护的突变位点、取代氨基酸和用途范围。本案涉及 Factor IX R338 位点突变体及其治疗血友病 B 的用途。PTAB 认为部分权利要求在早期申请中缺乏 adequate written description support，因此只能享有较晚申请日；Monahan 成为可用现有技术后，相关权利要求被 anticipation 或 obviousness 击破。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "protein mutant / priority / written description",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0234": {
+    "summary": "要点：蛋白突变体如果现有技术已经公开同一突变或明确教导该位点替换能够改善凝血活性，则抗辩重点通常转向权利要求解释、功能限制是否真正区分现有技术，以及是否存在意外效果。本案涉及 modified Factor IX polypeptide。PTAB 认为 Stafford 已经公开或使权利要求中的 FIX 突变体显而易见，Manno、Schuettrumpf 等进一步支持其治疗用途和成功预期。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "protein mutant / anticipation / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0264": {
+    "summary": "要点：抗 CGRP 通路抗体治疗难治性偏头痛的 obviousness 判断，重点不是 CGRP 是否与偏头痛相关这一基础事实，而是现有临床和文献是否会引导本领域技术人员把抗 CGRP 抗体用于 refractory migraine 患者，并合理预期降低发作或相关症状。本案中，Sun、Dodick 和 Sharma 已经提供抗 CGRP 治疗偏头痛及难治患者场景的组合教导，PTAB 认为请求人证明了全部权利要求显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "antibody treatment / refractory migraine / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0265": {
+    "summary": "要点：治疗方法权利要求若针对特定患者亚群，例如 refractory migraine，需要证明该亚群选择和抗体治疗效果并非现有临床路径的直接延伸。本案与同族 CGRP 抗体案件类似，PTAB 认为 Sun、Dodick 和 Sharma 的组合已经使本领域技术人员有动机对难治性偏头痛患者使用调节 CGRP pathway 的单克隆抗体，并具有 reasonable expectation of success。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "antibody treatment / clinical disclosure / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0266": {
+    "summary": "要点：临床新闻稿或研究公开在治疗方法 obviousness 中可能具有重要作用，尤其当其已经公开候选药物、适应症、患者群体和疗效方向时。本案涉及用调节 CGRP pathway 的单克隆抗体治疗 refractory migraine。PTAB 认为 Sun 与 Teva Press Release 的组合足以给出治疗动机和成功预期，因已基于该组合认定无效，未再处理 Bigal 组合。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "antibody treatment / press release prior art / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0272": {
+    "summary": "要点：VEGF antagonist 眼科给药方案若已由临床方案公开，权利要求中关于初始剂量、secondary doses、维持给药间隔和疗效的限制可能被逐项对应到现有技术；若某些药代或疗效结果是实施方案的必然结果，还会面临 inherency 风险。本案中，Dixon 已公开治疗血管生成性眼病的 aflibercept/VEGF antagonist 给药方案，PTAB 认定被挑战权利要求被 anticipation 击破。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "VEGF dosing regimen / anticipation / inherency",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0273": {
+    "summary": "要点：给药间隔专利不能只强调“每 8 周或更长”这一治疗便利性，还要证明该节奏没有被现有临床公开直接教导。本案涉及 VEGF antagonist 治疗年龄相关黄斑变性等血管生成性眼病。PTAB 认为 Dixon 已经公开权利要求要求的 loading doses 和后续维持给药框架，因此无需再处理其他 anticipation 或 obviousness grounds。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "VEGF dosing regimen / clinical prior art",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0281": {
+    "summary": "要点：当现有技术已经公开相同治疗靶点、相同疾病和相近临床给药节奏时，给药方案的 obviousness 会集中在是否存在调整剂量间隔的动机和成功预期。本案涉及 VEGF antagonist 连续给药治疗 angiogenic eye disorders。PTAB 认为 Dixon 使被挑战权利要求显而易见，专利权人关于 claim construction、written description 或证据排除的抗辩不足以改变结论。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "VEGF dosing regimen / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0310": {
+    "summary": "要点：治疗方法权利要求若把给药、免疫表型变化、biomarker expression profile 和癌症治疗效果结合起来，说明书必须显示发明人已经占有这一完整诊疗/治疗路径，不能只描述 BTK inhibitor 或 biomarker 的若干零散概念。本案涉及 BTK inhibitor 治疗癌症并检测淋巴细胞亚群/标志物。PTAB 主要基于 written description 认定说明书未支持 claims 1–8、12、20 的完整范围，因此无需依赖其他无效理由即可全部无效。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "BTK inhibitor treatment / written description / enablement",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0322": {
+    "summary": "要点：即使请求人建立了 prima facie obviousness，专利权人仍可用与权利要求范围有 nexus 的 unexpected results 推翻显而易见性。本案涉及 guanylate cyclase receptor agonist 治疗炎症、癌前或癌性组织。PTAB 在 remand 中重点考察 interconversion stability、potency 和 binding affinity 数据，认为专利权人的意外效果证据足以压过请求人关于 conservative substitution 的组合论证。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_4",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第四轮药物相关案例试点：按药企关注的药物核心保护对象和法律判断标准人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第四轮药物相关案例试点，优先选择生物制品、疫苗/免疫组合物、治疗用途、制剂和给药方案案例。",
+      "source": "us_drug_review_pilot_round4"
+    },
+    "deep_review": {
+      "legal_focus": "peptide agonist / unexpected results / secondary considerations",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "fourth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0224": {
+    "summary": "要点：会议资料能否作为 printed publication，关键不在于是否正式期刊发表，而在于相关专业公众是否能够合理取得。本案涉及用 metered dose inhaler 吸入给药 treprostinil。PTAB 在 rehearing 后认定 Voswinckel JESC 和 JAHA 已在专业会议中充分分发，构成现有技术；结合既有 treprostinil 吸入治疗公开，请求人证明 claims 1–8 显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "printed publication / inhaled treprostinil / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0243": {
+    "summary": "要点：抗体生产纯化用 Protein A 配基的 obviousness 判断，重点是现有技术是否已经教导具体 domain、突变或组合能够提高碱清洗耐受性和抗体结合性能。本案涉及包含 Staphylococcus aureus protein A domain C 的 chromatography ligand。PTAB 认为 Linhult、Abrahmsen、Hober 等文献共同给出配基设计和改造动机，请求人证明被挑战权利要求显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "antibody purification ligand / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0244": {
+    "summary": "要点：同一抗体纯化配基案族中，具体从属限制可能影响无效范围。PTAB 认为多数 claims 中关于 Protein A domain C 配基、碱稳定性和抗体纯化用途的限制已由 Linhult、Abrahmsen、Hober 等组合教导，但 claims 4 和 17 的特定限制没有被请求人充分证明。因此本案不是简单“全案无效”，而是多数权利要求无效、部分权利要求维持。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "antibody purification ligand / partial outcome",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0246": {
+    "summary": "要点：对于生物工艺工具类专利，PTAB 会逐项核对每个 dependent claim 是否被现有技术组合覆盖。本案涉及同一 Protein A domain C chromatography ligand 技术。PTAB 认定 claims 1–10、12–14、16–28、30–32、34–37 已被证明显而易见，但 claims 11 和 29 未被充分证明。该案说明，即使主组合动机成立，未被文献具体覆盖的从属技术特征仍可能保留。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "antibody purification ligand / partial outcome",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0249": {
+    "summary": "要点：眼健康营养组合物如果只是把 zeaxanthin 与其他已知 ocular-active nutrients 组合，专利性取决于具体组分和含量是否已由既有文献公开。本案涉及用于保护眼健康或治疗眼部疾病的 zeaxanthin 口服制剂。PTAB 认为 Lang 和 Barker 等现有技术已经公开多项权利要求中的核心组合特征；虽然个别 claim 对单一文献未成立，但整体被挑战 claims 12–14、16–21、23、24 最终均被认定不可专利。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "ocular nutrient formulation / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0254": {
+    "summary": "要点：低浓度眼科制剂的 obviousness 判断，会关注活性成分浓度、pH、均匀分布、稳定性和载体是否只是常规制剂优化。本案涉及低浓度 ophthalmic agent 治疗近视或近视进展的眼科组合物。PTAB 认为 Chia 和 Akorn 已经教导低浓度阿托品眼科制剂及相关制剂参数，本领域技术人员有动机进行常规调整并具有成功预期。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "ophthalmic atropine formulation / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0255": {
+    "summary": "要点：眼科组合物中所谓“低浓度”“均匀分布”或可接受载体等限制，如果现有商业制剂、处方文献或稳定性文献已经给出可行方案，通常难以单独支撑创造性。本案涉及同族 ophthalmic composition。PTAB 认为 Chia、Akorn、Kondritzer、Lund、Wu 等组合足以使 claims 1–7、11–20 显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "ophthalmic formulation / obviousness combinations",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0256": {
+    "summary": "要点：低浓度 alpha-2 adrenergic agonist 用于优先收缩小血管时，若现有技术已经公开相同或重叠浓度和用途，权利要求中关于“preferential vasoconstriction”的功能性表述可能被视为现有组合物的自然结果。本案涉及缓解眼红、鼻塞等场景的低浓度血管收缩组合物。PTAB 虽未接受所有 anticipation 理由，但最终认为请求人证明 claims 1–6 不可专利。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "low-dose alpha-2 agonist / inherency / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0270": {
+    "summary": "要点：植物提取物药物组合物的 obviousness 不能只证明植物来源或治疗方向已知，还要证明现有技术会引导本领域技术人员采用具体处理条件以提高特定活性成分含量。本案涉及通过高温高压处理 Gynostemma pentaphyllum extract，提高 damulin A/B 含量并用于代谢疾病。PTAB 认为 Kim、WO 178 等组合没有充分证明会得到权利要求要求的提取物组成和治疗效果。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "botanical extract / obviousness / process-composition link",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0278": {
+    "summary": "要点：基因治疗载体的 anticipation 需要现有技术公开完整载体构型，而不能只公开治疗目标或部分调控元件。本案涉及编码 functional beta-globin gene 并含 beta-globin locus control region 大片段的 recombinant lentiviral vector，用于治疗 hemoglobinopathies。PTAB 认为 May Thesis、May Article、May Abstract 等没有充分公开或提示权利要求要求的完整组合，Himanen 也不能弥补缺口。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "lentiviral globin vector / anticipation / obviousness",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0297": {
+    "summary": "要点：疫苗或免疫组合物的 written description 要求说明书显示发明人已经占有具体抗原、组合物和免疫用途；发现病原体序列或提出研究方向本身，不等于支持所有免疫组合物权利要求。本案涉及 porcine circovirus type 3 免疫组合物。PTAB 认为说明书未充分支持 claims 1–16 的完整范围，尤其未体现对所要求保护免疫组合物的实际占有。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "vaccine composition / written description",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0304": {
+    "summary": "要点：小分子治疗用途或药物组合物即使具体化合物已在说明书中出现，也仍需说明书支持权利要求覆盖的治疗方法、剂量和患者范围。本案涉及 CRF1 receptor antagonist Compound 1 治疗 congenital adrenal hyperplasia。PTAB 没有依赖 anticipation 或 obviousness，而是直接基于 written description 认定 specification 未充分支持 claims 1–19 的治疗范围。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_5",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第五轮药物相关案例试点：按药物/生物制品生产、制剂、给药方案、治疗用途和 written description 风险人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第五轮药物相关案例试点；排除明显农业、日化、检测平台和器械核心案例。",
+      "source": "us_drug_review_pilot_round5"
+    },
+    "deep_review": {
+      "legal_focus": "small molecule treatment / written description",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "fifth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0220": {
+    "summary": "要点：营养/药物组合物权利要求如果只要求 nicotinamide riboside 与载体形成可口服组合物，现有技术中对同一成分、给药用途和常规载体的公开可能足以构成 anticipation 或 obviousness。本案涉及 NR/NAD 相关组合物及癌症或代谢相关用途。PTAB 认为 Stamler 已公开 NR 药物组合物，至少使 claim 2 显而易见；关于其他参考文献是否可用无需再判断。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "NR composition / anticipation / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Nicotinamide riboside kinase compositions and methods for using the same",
+    "patent_title": "Nicotinamide riboside kinase compositions and methods for using the same"
+  },
+  "us_0226": {
+    "summary": "要点：同一 NR/NAD 技术领域中，请求人仍需证明每项现有技术完整公开或提示权利要求组合。本案涉及含 nicotinamide riboside 的组合物和使用方法。PTAB 认为 Cell Article 与 Rosenbloom 的组合、以及 PCT Publication 均未充分证明 claims 1–3 被公开或显而易见；请求人未完成逐项举证责任。最终结果为维持有效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "NR composition / prior art proof",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Nicotinamide riboside kinase compositions and methods for using the same",
+    "patent_title": "Nicotinamide riboside kinase compositions and methods for using the same"
+  },
+  "us_0245": {
+    "summary": "要点：抗体纯化用 Protein A 配基案族中，PTAB 对主组合动机和从属限制分开判断。多数 claims 中关于 Domain C 配基、碱清洗稳定性和抗体/Fab 结合能力的限制已由 Linhult、Abrahmsen、Hober 等组合教导；但 claims 4 和 17 的具体限制未被充分证明。该案体现生物工艺工具专利中从属技术特征仍可能决定无效范围。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "antibody purification ligand / partial invalidity",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Chromatography ligand comprising domain C from Staphylococcus aureus protein A for antibody isolation",
+    "patent_title": "Chromatography ligand comprising domain C from Staphylococcus aureus protein A for antibody isolation"
+  },
+  "us_0247": {
+    "summary": "要点：针对抗体纯化配基的 obviousness，若现有技术已经公开 Protein A domain 改造、碱稳定性需求和抗体结合用途，专利权人需要指出权利要求中真正区别于组合文献的结构或性能。本案涉及包含 Staphylococcus aureus protein A domain C 的 chromatography ligand。PTAB 认为 Linhult、Abrahmsen、Hober 等组合足以覆盖 claims 1–7、10–20、23–26。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "antibody purification ligand / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Chromatography ligand comprising domain C from Staphylococcus aureus protein A for antibody isolation",
+    "patent_title": "Chromatography ligand comprising domain C from Staphylococcus aureus protein A for antibody isolation"
+  },
+  "us_0275": {
+    "summary": "要点：抗体药物偶联物 ADC linker 专利的判断重点，是现有技术是否公开特定 hydrophilic linker、细胞结合分子、药物负载和连接方式的组合。本案涉及用于将药物偶联至 cell binding molecules 的 hydrophilic linkers。PTAB 认为 Morales-Sanfrutos、Harris、Singh、Bhakta 等证明多数 claims 不可专利，但 claims 25、32–34 未被充分证明。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "ADC linker / anticipation / obviousness",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Hydrophilic linkers and their uses for conjugation of drugs to a cell binding molecules",
+    "patent_title": "Hydrophilic linkers and their uses for conjugation of drugs to a cell binding molecules"
+  },
+  "us_0289": {
+    "summary": "要点：治疗剂递送系统如果核心是将 botulinum neurotoxin light chain 送入目标细胞，显而易见性会关注现有技术是否已经教导细胞膜 permeabilization、鼻部或其他局部治疗场景，以及将神经毒素递送用于治疗反应的动机。本案中，PTAB 认为 Makower、Fang、Edwards 等组合足以使 claims 1–3、7、9、10、17–25 显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "botulinum neurotoxin delivery / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Systems and methods for delivery of a therapeutic agent",
+    "patent_title": "Systems and methods for delivery of a therapeutic agent"
+  },
+  "us_0290": {
+    "summary": "要点：botulinum neurotoxin 递送类权利要求不能只依赖“治疗剂递送”这一宽泛概念获得专利性；请求人若能证明现有技术已经公开目标组织、递送机制和治疗用途，组合动机和成功预期通常较强。本案与同族案一致，PTAB 认为 Makower、Fang、Edwards 等使 claims 1、2、5、8–10、12、14 显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "botulinum neurotoxin delivery / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Systems and methods for delivery of a therapeutic agent",
+    "patent_title": "Systems and methods for delivery of a therapeutic agent"
+  },
+  "us_0311": {
+    "summary": "要点：本案与 us_0275 属同一 ADC linker 决定，适合作为 hydrophilic linker 和 drug loading 风险的学习案例。PTAB 认为多数权利要求中的 linker、cell binding molecule 和药物偶联组合可由 Morales-Sanfrutos、Harris、Singh、Bhakta 等现有技术证明不可专利；但 claims 25、32–34 未被充分证明。最终结果为部分无效。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "ADC linker / duplicate proceeding / partial invalidity",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Hydrophilic linkers and their uses for conjugation of drugs to a cell binding molecules",
+    "patent_title": "Hydrophilic linkers and their uses for conjugation of drugs to a cell binding molecules"
+  },
+  "us_0286": {
+    "summary": "要点：该案核心是天然 1,2-alkanediols 作为个人护理品等消费品防腐体系，并非创新药企重点关注的药物专利。PTAB 准许专利权人取消原 claims 1–6、8–10、22–28，但认为 proposed substitute claims 29–44 相对于 Wright '451 显而易见，未准入替代权利要求。该案主要用于标记“非药物核心/其他”，不作为药物专利学习重点。最终结果为原权利要求取消，替代权利要求未准入。",
+    "summary_source": "drug_review_pilot_6",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "第六轮药物相关案例试点：补充 NR/NAD、ADC linker、botulinum delivery、抗体纯化工艺及非药物核心纠偏。",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第六轮试点；对药物相关案例补充深度要点，对非药物消费品案例纠偏为其他。",
+      "source": "us_drug_review_pilot_round6"
+    },
+    "deep_review": {
+      "legal_focus": "non-drug consumer product / motion to amend",
+      "final_result_cn": "原权利要求取消，替代权利要求未准入",
+      "drug_pilot_round": "sixth"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.84,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "title": "Natural 1,2-alkanediols, compositions having natural 1,2-alkanediols and processes for making the same",
+    "patent_title": "Natural 1,2-alkanediols, compositions having natural 1,2-alkanediols and processes for making the same"
+  },
+  "us_0205": {
+    "summary": "要点：核酸合成中间体或 phosphoramidite 权利要求如果以 Markush 或属概念覆盖具体化合物，现有技术公开落入该属的具体 species 即可构成 anticipation。本案涉及用于 5'→3' reverse RNA synthesis 的 phosphoramidites。PTAB 认为 Aerschot 已公开与权利要求落入范围相同的具体氟化核苷化合物，且专利权人未能通过 claim construction 或优先权抗辩避开该公开。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "RNA phosphoramidite / anticipation / genus-species",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0206": {
+    "summary": "要点：RNA 合成方法和中间体类专利的 anticipation 判断，关键是对比现有技术是否已经公开同一 phosphoramidite/solid support 结构及其在 reverse RNA synthesis 中的用途。本案涉及 3'-DMT-5'-CE ribonucleoside phosphoramidites 和对应 solid supports。PTAB 认为在先 '696 patent 已公开 claims 1、2 的核心结构和用途，足以预见被挑战权利要求。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "RNA synthesis intermediate / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0258": {
+    "summary": "要点：CRISPR guide RNA 化学修饰的 obviousness，不只看 CRISPR 系统是否新，还要看 RNA 修饰领域是否已经教导相同修饰位置、修饰类型及改善稳定性/活性的动机。本案涉及 chemically modified guide RNA。PTAB 认为 Pioneer Hi-Bred 与 Krutzfeldt、Deleavey、Soutschek、Yoo 等文献组合已经给出相关修饰策略，专利权人的行业认可或复制证据不足以克服强显而易见性证明。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "生物制品/抗体",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "生物制品/抗体",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "modified guide RNA / CRISPR / obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0282": {
+    "summary": "要点：寡核苷酸合成中保护基、nucleoside、phosphoramidite 和 solid support 的改进，如果现有技术已公开相同保护基或可预期的合成路线，通常难以仅凭“高纯度合成”效果维持专利性。本案涉及 N-2-acetyl protected guanine nucleosides 及其在 RNA/oligo synthesis 中的使用。PTAB 认为 Reddy、Gaur 等预见部分权利要求，Crooke、Pitsch、Fan、Scaringe 等组合使其余权利要求显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "nucleoside protecting group / oligonucleotide synthesis",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0293": {
+    "summary": "要点：抗 PD-1 治疗按 biomarker 选择患者的用途权利要求，如果临床研究记录已经公开 MSI-H/dMMR 患者、pembrolizumab/PD-1 blockade 和治疗癌症结果，可能直接构成 anticipation。本案涉及 checkpoint blockade 治疗 microsatellite instability 高突变负荷肿瘤。PTAB 认为 MSI-H Study Record 已公开 claims 1–8 的核心治疗方法，Pernot、Benson、Brown、Duval 等进一步支持显而易见性。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / MSI-H cancer / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0295": {
+    "summary": "要点：肿瘤免疫治疗中的患者分层限制，不能只因写入 MSI-H、MMR-deficiency 或 mutational burden 就当然形成可专利区别；关键是这些 biomarker 与 PD-1 therapy 的临床关联是否已经被公开。本案属于 checkpoint blockade/MSI 同族，PTAB 认为临床研究记录和肿瘤免疫文献已教导用 anti-PD-1 antibody 治疗该类患者，被挑战权利要求不可专利。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / MSI biomarker / clinical prior art",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0296": {
+    "summary": "要点：当单一 clinical study record 已经披露患者 biomarker、治疗药物和疗效评价时，PTAB 可先按 anticipation 处理；即使某些细节被争议，相关综述和机制文献也可能作为 fallback obviousness 证据。本案涉及 checkpoint blockade and microsatellite instability 同族权利要求。PTAB 认为 MSI-H Study Record 及 Pernot、Benson 等组合足以击破被挑战权利要求。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / anticipation and fallback obviousness",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0312": {
+    "summary": "要点：较宽的治疗方法 claim set 若覆盖 anti-PD-1 antibody 治疗 MSI/MMR-deficient cancer，现有临床研究记录可能同时击破独立和多项从属权利要求。本案涉及 claims 1–28。PTAB 认为 MSR 公开了多项核心限制，Pernot、Benson、Brown、Duval、Chapelle、Hamid 等文献进一步证明不同从属特征显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / broad claim set / anticipation",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0313": {
+    "summary": "要点：在 anti-PD-1/MSI 治疗同族案中，加入特定癌种、检测状态或治疗反应等从属限制，仍需与现有临床记录形成实质区别。本案涉及 claims 1–4、6–10、12–15。PTAB 认为 MSR 已预见多数治疗方法限制，Pernot、Benson、Chapelle、Hamid 等补充文献使其余特征显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / dependent cancer features",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0314": {
+    "summary": "要点：若临床研究记录已经列明 MSI-H 患者接受 PD-1 blockade 并获得治疗评价，专利权人很难仅凭权利要求文字重组获得新的治疗用途保护。本案涉及 claims 1–7。PTAB 认为 MSI-H Study Record 逐项公开 claims 1–3、5–7，并且 Pernot、Brown、Duval、Benson、Chapelle、Hamid 等文献使其他限制显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / MSI-H Study Record",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0315": {
+    "summary": "要点：对于大量从属权利要求，PTAB 会按患者类型、癌种、检测方法、抗体选择和治疗方案逐项对照 clinical study record 和补充文献。本案涉及 anti-PD-1 therapy for MSI/MMR-deficient cancer 的 claims 1–30。PTAB 认为 MSI-H Study Record 已预见大量权利要求，Brown、Duval、Benson、Koh、Ajani、Chapelle、Steinert、Hamid 等进一步证明其余从属特征显而易见。最终结果为全部无效。",
+    "summary_source": "drug_review_pilot_7",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第七轮药物相关案例试点：RNA/寡核苷酸合成、CRISPR guide RNA 和 PD-1/MSI 治疗用途人工复核。",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第七轮试点，按药企关注的核酸药物工艺、中间体和肿瘤免疫治疗用途分类。",
+      "source": "us_drug_review_pilot_round7"
+    },
+    "deep_review": {
+      "legal_focus": "PD-1 therapy / large dependent claim set",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "seventh"
+    },
+    "confidence": {
+      "title": 0.35,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.86,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0214": {
+    "summary": "要点：本案核心不是药物本身，而是用于检测 biomolecules 的 bioassay optical detection apparatus。对这类检测设备专利，PTAB 的审查重点通常落在光学检测结构、信号采集和系统组合是否已被现有技术公开或显而易见。本案应作为检测设备案例保留，不应归入生物制品或药物制剂分类。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：检测设备/生物分子检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "检测设备/生物分子检测",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0215": {
+    "summary": "要点：本案同样涉及 bioassay optical detection apparatus，但 PTAB 未认定请求人完成不可专利证明。学习重点在于：检测设备或系统组合即使包含生物分子检测场景，也不能直接按药物专利处理；需要看请求人是否逐项证明光学检测结构、样本处理和读出方式被现有技术公开或可组合。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：检测设备/生物分子检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "检测设备/生物分子检测",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0225": {
+    "summary": "要点：本案涉及 counteracting ethylene response in plants 的 formulation、制备和使用方法，技术场景是植物处理和农业应用，不是人体用药或创新药核心专利。虽然标题中有 formulation，但不能机械归入药物制剂；分类应服从真实应用对象。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：农业/植物乙烯反应，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "农业/植物乙烯反应",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0227": {
+    "summary": "要点：本案涉及 creating ocular surgical and relaxing incisions 的方法和装置，核心是眼科手术设备或手术控制方案，不是药物、晶型或制剂。即使文书中出现医疗场景，也应区分药物专利与器械/手术方法专利。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：医疗器械/眼科手术切口，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "医疗器械/眼科手术切口",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0228": {
+    "summary": "要点：本案与眼科手术切口装置和方法相关，重点是装置结构、切口参数或操作流程的现有技术比对。它不属于创新药企重点关注的化合物、抗体、用途、制剂或晶型专利，应归入其他。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：医疗器械/眼科手术切口，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "医疗器械/眼科手术切口",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0231": {
+    "summary": "要点：本案标题显示为 methods for detection of genetic disorders，属于诊断检测方法而非治疗性药物专利。后续如果团队需要研究诊断方法的 101、102、103 或样本检测逻辑，可单独复核；在药物专利数据库中不应误标为生物制品/抗体。最终结果需要人工复核。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": true,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": true
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传病检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传病检测",
+      "final_result_cn": "待人工确认",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": true
+  },
+  "us_0235": {
+    "summary": "要点：本案属于 genetic disorders detection 同族检测方法案例，核心价值在诊断检测流程、检测位点或数据判读是否被现有技术公开，而不是药物治疗方案。按当前药企学习目标，应归入其他并进入必要复核。最终结果需要人工复核。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": true,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": true
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传病检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传病检测",
+      "final_result_cn": "待人工确认",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": true
+  },
+  "us_0236": {
+    "summary": "要点：本案涉及使用 sex-selected sperm cells 提高 swine 育种遗传进展，属于动物育种和农业技术，不是药物、抗体、制剂或用途专利。分类纠偏的关键是不能仅因出现生物学材料就归为生物制品/抗体。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：农业/动物育种，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "农业/动物育种",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0237": {
+    "summary": "要点：本案为 genetic disorders detection 方向，主要关注检测方法或诊断流程的可专利性，而非药物治疗或药物产品保护。建议在当前创新药专利库中作为其他类保留，最终结论待人工复核。最终结果需要人工复核。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": true,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": true
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传病检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传病检测",
+      "final_result_cn": "待人工确认",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": true
+  },
+  "us_0238": {
+    "summary": "要点：本案属于遗传病检测方法案例，PTAB 未证明被挑战权利要求不可专利。对本库而言，重点是分类纠偏：诊断检测方法不应自动归入药物用途或生物制品。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传病检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传病检测",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0239": {
+    "summary": "要点：本案与 genetic disorders detection 相关，学习价值主要在诊断检测权利要求如何与现有技术比对，而不是药物专利法律点。当前分类应为其他，避免误导为创新药核心专利。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传病检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传病检测",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0242": {
+    "summary": "要点：本案仍属于遗传病检测方法同族案例，PTAB 未认定请求人证明不可专利。对药企检索而言，它不是化合物、抗体、制剂、用途或晶型案例，应作为其他类处理。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传病检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传病检测",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0267": {
+    "summary": "要点：本案涉及 massively parallel DNA sequencing 中通过 duplex consensus sequencing 降低错误率，核心是测序数据准确性和读段一致性，不是药物产品本身。PTAB 未证明被挑战权利要求不可专利。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：测序数据/duplex consensus sequencing，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "测序数据/duplex consensus sequencing",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0271": {
+    "summary": "要点：本案同样围绕 duplex consensus sequencing 降低测序错误率，审查重点在测序读段、错误校正和数据处理流程是否由现有技术教导。它属于研究工具/测序技术，不应归入生物制品或药物方法。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：测序数据/duplex consensus sequencing，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "测序数据/duplex consensus sequencing",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0274": {
+    "summary": "要点：本案涉及 detecting genetic variants 的方法和系统，属于分子诊断或测序检测平台。对药企学习库而言，重点不是治疗药物保护，而是诊断检测系统的权利要求如何被挑战。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传变异检测系统，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传变异检测系统",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0279": {
+    "summary": "要点：本案标题为 methods and systems for genetic analysis，属于遗传分析和检测系统，不是抗体或生物药产品。分类应按真实技术对象归入其他；若后续研究平台诊断专利，可再单独深挖其现有技术组合理由。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传分析系统，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传分析系统",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0280": {
+    "summary": "要点：本案为 genetic analysis 系统/方法同族案例，技术核心在检测、分析和数据处理流程。它不属于创新药核心专利类型，不能仅因含有 genetic 或 biological 字样就归为生物制品/抗体。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传分析系统，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传分析系统",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0283": {
+    "summary": "要点：本案涉及 analyzing nucleic acids from single cells，属于单细胞核酸分析或测序工具。它可能与药物研发工具有关，但并不保护药物、抗体、制剂、晶型或治疗用途本身。最终结果需要人工复核。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": true,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": true
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：单细胞核酸分析，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "单细胞核酸分析",
+      "final_result_cn": "待人工确认",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": true
+  },
+  "us_0284": {
+    "summary": "要点：本案涉及 single-cell nucleic acid analysis，审查重点应是样本分离、条形码/标签、扩增和测序分析流程是否被现有技术公开或组合。它属于测序工具平台，不应标为生物制品/抗体。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：单细胞核酸分析，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "单细胞核酸分析",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0285": {
+    "summary": "要点：本案属于单细胞核酸分析同族案例，法律学习点在研究工具方法的 obviousness/anticipation 比对，而不是药物专利保护策略。分类纠偏为其他。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：单细胞核酸分析，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "单细胞核酸分析",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0291": {
+    "summary": "要点：本案涉及 fecal sample processing and analysis，包括血液检测，属于样本处理和诊断检测技术。它不保护药物活性成分或治疗用途，应归入其他。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：粪便样本处理/检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "粪便样本处理/检测",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0316": {
+    "summary": "要点：本案涉及 corn event TC1507 及其检测方法，核心是农业生物技术和转基因事件检测，不是药物专利。即便包含 composition 或 detection language，也应按应用领域归入其他。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：农业/转基因玉米检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "农业/转基因玉米检测",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0317": {
+    "summary": "要点：本案标题为 electrostatically charged multi-acting nasal application, product, and method，现阶段更适合作为鼻用产品或非药物应用案例，而非创新药制剂。除非人工复核确认其保护对象是治疗性药物组合物，否则不应归入制剂/组合物。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：鼻用消费产品/非药物应用，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "鼻用消费产品/非药物应用",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0319": {
+    "summary": "要点：本案涉及 multiplex sequencing reaction 中维持核酸模板完整性和识别的技术，属于测序工作流或研究工具。分类纠偏重点是：核酸模板处理不等于核酸药物或生物制品。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：多重测序/核酸模板识别，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "多重测序/核酸模板识别",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0320": {
+    "summary": "要点：本案涉及 deodorant compositions，属于日化或个人护理组合物，不是创新药制剂。虽然形式上是 composition，但药物分类不能只看词面，应看其用途和监管/治疗属性。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：日化/除臭组合物，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "日化/除臭组合物",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0321": {
+    "summary": "要点：本案与 deodorant compositions 相关，属于个人护理产品组合物。对创新药企案例库而言，它不是药物制剂，应归入其他；如后续需要研究组合物显而易见性，可另作非药物案例处理。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：日化/除臭组合物，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "日化/除臭组合物",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0323": {
+    "summary": "要点：本案涉及 antiperspirant and deodorant compositions，核心是日化产品配方而非治疗性药物制剂。分类纠偏为其他，避免在药物制剂检索中产生噪音。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：日化/止汗除臭组合物，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "日化/止汗除臭组合物",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0324": {
+    "summary": "要点：本案属于 antiperspirant/deodorant compositions 同族案例，重点是个人护理组合物的现有技术比对。它不是药物制剂或适应症用途专利。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：日化/止汗除臭组合物，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "日化/止汗除臭组合物",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0325": {
+    "summary": "要点：本案涉及 fecal sample processing and analysis，属于诊断样本处理与检测方向，不是生物制品/抗体。分类应归入其他；后续若关注诊断检测专利，可再单独复核检测步骤和现有技术组合。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：粪便样本处理/检测，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "粪便样本处理/检测",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0326": {
+    "summary": "要点：本案涉及 regulation analysis by cis reactivity, RACR，属于核酸调控分析或研究工具技术。它不是晶型、盐或溶剂合物专利，原分类明显偏离技术对象。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：核酸调控分析/RACR，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "核酸调控分析/RACR",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0327": {
+    "summary": "要点：本案涉及 evaluating genetic markers 的方法和组合物，主要是遗传标记检测/评估技术。它不保护抗体或生物药产品，应归入其他。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：遗传标记评估，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "遗传标记评估",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0328": {
+    "summary": "要点：本案涉及 multiplexed biochemical assays 中的 signal encoding and decoding，属于检测平台和信号处理技术。它不是药物制剂；分类应为其他。最终结果为维持有效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：多重生化检测信号编码，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "多重生化检测信号编码",
+      "final_result_cn": "维持有效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0330": {
+    "summary": "要点：本案涉及 deodorant compositions，属于个人护理组合物。对本项目的创新药专利学习目标而言，应从药物分类中剔除，避免误导为制剂专利。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：日化/除臭组合物，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "日化/除臭组合物",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0331": {
+    "summary": "要点：本案涉及 duplicate sequencing read 的识别，核心是测序数据处理和读段去重，不是药物或生物制品。分类纠偏为其他；若学习其法律点，应关注算法/检测流程与现有技术的对应关系。最终结果为全部无效。",
+    "summary_source": "non_drug_correction_round8",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "secondary_patent_types": [],
+    "patent_type_basis": "第八轮非药物核心案例纠偏：检测、测序、设备、农业、日化或研究工具不归入创新药核心药物分类。",
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round8",
+      "confidence": 0.85,
+      "review_required": false
+    },
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第八轮纠偏：测序读段去重/数据识别，不是化合物、抗体、用途、制剂、晶型或制备方法等创新药核心专利类型。",
+      "source": "us_drug_review_pilot_round8"
+    },
+    "deep_review": {
+      "technology_context": "测序读段去重/数据识别",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "eighth_non_drug_correction"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.92,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.82,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0211": {
+    "summary": "要点：本案涉及 Biogen 的 US8399514B2，专利标题为 Treatment for multiple sclerosis。该文书不是普通 Final Written Decision，而是 Federal Circuit 撤销原最终书面决定并发回后，PTAB 按指令 dismiss 该 IPR。因此网页中不应把本案理解为全部无效、部分无效或维持有效；它的学习点在于 IPR 程序结果与实体有效性结论必须区分。最终结果为程序驳回，未作实体无效判断。",
+    "summary_source": "remaining_auto_cleanup_round9",
+    "summary_review_required": false,
+    "patent_type": "用途/适应症",
+    "patent_type_basis": "第九轮剩余自动摘要清理：多发性硬化治疗用途。",
+    "outcome": "dismissed",
+    "classification_review": {
+      "recommended_patent_type": "用途/适应症",
+      "reason": "第九轮逐案复核：多发性硬化治疗用途，按真实技术对象重新分类。",
+      "source": "us_drug_review_pilot_round9"
+    },
+    "deep_review": {
+      "technology_context": "多发性硬化治疗用途",
+      "final_result_cn": "程序驳回/未作实体无效判断",
+      "drug_pilot_round": "ninth_remaining_auto_cleanup"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.2,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false
+  },
+  "us_0213": {
+    "summary": "要点：本案虽然标题含 granules 和 formulation，但保护对象是 acephate 等 phosphoroamidothioates 的低粉尘、水分散性农药颗粒，不是人体药物制剂。PTAB 认定 Misselbrook、CN '588、JP '902 等足以使 claims 1–4 显而易见；但对于 claim 7 及其从属项，请求人没有证明为什么技术人员会在已有良好崩解性能且成本/效率因素相反的情况下再加入 disintegrating agent。最终结果为部分无效。",
+    "summary_source": "remaining_auto_cleanup_round9",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "第九轮剩余自动摘要清理：acephate 农药颗粒制剂。",
+    "outcome": "mixed",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第九轮逐案复核：acephate 农药颗粒制剂，按真实技术对象重新分类。",
+      "source": "us_drug_review_pilot_round9"
+    },
+    "deep_review": {
+      "technology_context": "acephate 农药颗粒制剂",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "ninth_remaining_auto_cleanup"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.2,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round9",
+      "confidence": 0.84,
+      "review_required": false
+    }
+  },
+  "us_0222": {
+    "summary": "要点：本案涉及 multiplex PCR 中通过形成 stable secondary structure 降低短 amplicon 扩增效率，属于分子检测/研究工具方法，不是药物专利。PTAB 的关键判断是 reasonable expectation of success 必须对应权利要求实际范围；权利要求只要求 less efficient amplification，并不要求完全消除 short amplicons。因此 Gardner 与 Lao 的组合足以支持显而易见性。最终结果为全部无效。",
+    "summary_source": "remaining_auto_cleanup_round9",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "第九轮剩余自动摘要清理：multiplex PCR / 扩增抑制。",
+    "outcome": "claims unpatentable",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第九轮逐案复核：multiplex PCR / 扩增抑制，按真实技术对象重新分类。",
+      "source": "us_drug_review_pilot_round9"
+    },
+    "deep_review": {
+      "technology_context": "multiplex PCR / 扩增抑制",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "ninth_remaining_auto_cleanup"
+    },
+    "confidence": {
+      "title": 0.45,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round9",
+      "confidence": 0.84,
+      "review_required": false
+    }
+  },
+  "us_0251": {
+    "summary": "要点：本案涉及鼻内 epinephrine 制剂及其用于治疗 anaphylaxis 的方法。PTAB 的重要判断是：如果“治疗疾病”的表述只是 preamble 中的预期用途，而权利要求实质步骤是给药方法和剂量，则现有技术 Potta 即使没有证明实际达到治疗效果，也可能因公开相同给药方案而破坏新颖性。该案适合关注用途/给药方法权利要求中 preamble 是否具有限定作用。最终结果为部分无效。",
+    "summary_source": "remaining_auto_cleanup_round9",
+    "summary_review_required": false,
+    "patent_type": "制剂/组合物",
+    "patent_type_basis": "第九轮剩余自动摘要清理：鼻内 epinephrine 制剂 / anaphylaxis 治疗。",
+    "outcome": "mixed",
+    "classification_review": {
+      "recommended_patent_type": "制剂/组合物",
+      "reason": "第九轮逐案复核：鼻内 epinephrine 制剂 / anaphylaxis 治疗，按真实技术对象重新分类。",
+      "source": "us_drug_review_pilot_round9"
+    },
+    "deep_review": {
+      "technology_context": "鼻内 epinephrine 制剂 / anaphylaxis 治疗",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "ninth_remaining_auto_cleanup"
+    },
+    "confidence": {
+      "title": 0.15,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0.6,
+      "summary": 0.84,
+      "parties": 0.2
+    },
+    "review_required": false,
+    "patent_number": "US10682414B2",
+    "patent_title": "Intranasal epinephrine formulations and methods for the treatment of disease",
+    "petitioner": "AMPHASTAR PHARMACEUTICALS, INC.",
+    "patent_owner": "AEGIS THERAPEUTICS, LLC",
+    "secondary_patent_types": [
+      "用途/适应症"
+    ],
+    "patent_numbers": [
+      "US10682414B2"
+    ],
+    "main_patent_number": "US10682414B2",
+    "patent_number_source": "manual_review",
+    "patent_number_confidence": 0.9,
+    "title": "Intranasal epinephrine formulations and methods for the treatment of disease",
+    "drug_name": "epinephrine",
+    "drug_name_confidence": "manual_review",
+    "drug_info": {
+      "drug_name": "epinephrine",
+      "active_ingredient": "epinephrine",
+      "product_name": "epinephrine",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round9",
+      "confidence": 0.86,
+      "review_required": false
+    }
+  },
+  "us_0252": {
+    "summary": "要点：本案涉及用于高纯度 RNA 合成和 3' 端修饰的 nucleoside/nucleotide building blocks。PTAB 认为 Aerschot 已经精确公开了被挑战权利要求中的关键结构，足以构成 anticipation；在化学中间体或核酸合成构件案件中，一篇现有技术若直接落入具体结构或 species，通常比泛泛的组合动机更有杀伤力。最终结果为全部无效。",
+    "summary_source": "remaining_auto_cleanup_round9",
+    "summary_review_required": false,
+    "patent_type": "制备方法/中间体",
+    "patent_type_basis": "第九轮剩余自动摘要清理：RNA 合成构件 / nucleoside 中间体。",
+    "outcome": "claims unpatentable",
+    "classification_review": {
+      "recommended_patent_type": "制备方法/中间体",
+      "reason": "第九轮逐案复核：RNA 合成构件 / nucleoside 中间体，按真实技术对象重新分类。",
+      "source": "us_drug_review_pilot_round9"
+    },
+    "deep_review": {
+      "technology_context": "RNA 合成构件 / nucleoside 中间体",
+      "final_result_cn": "全部无效",
+      "drug_pilot_round": "ninth_remaining_auto_cleanup"
+    },
+    "confidence": {
+      "title": 0.15,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.2
+    },
+    "review_required": false,
+    "patent_number": "US8541569B2",
+    "patent_title": "Nucleosides, nucleotides and analogs for RNA synthesis",
+    "petitioner": "SHANGHAI HONGENE BIOTECH CORP.",
+    "patent_owner": "CHEMGENES CORP.",
+    "patent_numbers": [
+      "US8541569B2"
+    ],
+    "main_patent_number": "US8541569B2",
+    "patent_number_source": "manual_review",
+    "patent_number_confidence": 0.9,
+    "title": "Nucleosides, nucleotides and analogs for RNA synthesis"
+  },
+  "us_0262": {
+    "summary": "要点：本案涉及从 source material 中萃取 solute 的闭环设备和工艺，应用背景更接近植物材料、essential oil 或 cannabis extraction，不是药物制剂或活性成分专利。PTAB 认定 Britt 或 Hebert 等现有技术足以使 claims 1、7–17 不可专利；但对 claims 2–6、18–20，请求人没有充分说明采用多个 extract containers/separation chambers 的具体改进或组合理由。最终结果为部分无效。",
+    "summary_source": "remaining_auto_cleanup_round9",
+    "summary_review_required": false,
+    "patent_type": "其他",
+    "patent_type_basis": "第九轮剩余自动摘要清理：植物/原料溶质萃取设备与工艺。",
+    "outcome": "mixed",
+    "classification_review": {
+      "recommended_patent_type": "其他",
+      "reason": "第九轮逐案复核：植物/原料溶质萃取设备与工艺，按真实技术对象重新分类。",
+      "source": "us_drug_review_pilot_round9"
+    },
+    "deep_review": {
+      "technology_context": "植物/原料溶质萃取设备与工艺",
+      "final_result_cn": "部分无效",
+      "drug_pilot_round": "ninth_remaining_auto_cleanup"
+    },
+    "confidence": {
+      "title": 0.72,
+      "patent_type": 0.86,
+      "us_legal_points": 0.7,
+      "drug_name": 0,
+      "summary": 0.84,
+      "parties": 0.85
+    },
+    "review_required": false,
+    "drug_name": "非药物核心技术",
+    "drug_name_confidence": "not_drug_core",
+    "drug_info": {
+      "drug_name": "",
+      "active_ingredient": "",
+      "product_name": "非药物核心技术",
+      "applicant": "",
+      "application_number": "",
+      "source": "manual_review_round9",
+      "confidence": 0.84,
+      "review_required": false
+    }
   }
 }
